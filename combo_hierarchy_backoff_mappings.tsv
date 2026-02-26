@@ -1,0 +1,304 @@
+input_curie	preferred_identifier	preferred_label	confidence	method	mapping_relation	combo_concept_id	combo_label	source_identifier	evidence
+COMBO:1.1.1	UMLS:C1882127	Nutritional Intervention	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.1.1	Complementary_Dietary_Therapy	COMBO:1.1.1	hierarchy_backoff:ancestor=1.1:distance=1
+COMBO:1.1.1.6	UMLS:C1882127	Nutritional Intervention	0.66	hierarchy_backoff_mapping	narrow_to_parent	1.1.1.6	Detox_Diet	COMBO:1.1.1.6	hierarchy_backoff:ancestor=1.1:distance=2
+COMBO:1.1.1.8	UMLS:C1882127	Nutritional Intervention	0.66	hierarchy_backoff_mapping	narrow_to_parent	1.1.1.8	Raw_Food_Diet	COMBO:1.1.1.8	hierarchy_backoff:ancestor=1.1:distance=2
+COMBO:1.1.7	UMLS:C1882127	Nutritional Intervention	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.1.7	Microbiome_Metabolite_Therapy	COMBO:1.1.7	hierarchy_backoff:ancestor=1.1:distance=1
+COMBO:1.1.8	UMLS:C1882127	Nutritional Intervention	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.1.8	Food_Metabolite_Based_Therapy	COMBO:1.1.8	hierarchy_backoff:ancestor=1.1:distance=1
+COMBO:1.1.14	UMLS:C1882127	Nutritional Intervention	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.1.14	Practitioner_Guided_Detoxification	COMBO:1.1.14	hierarchy_backoff:ancestor=1.1:distance=1
+COMBO:1.2.6.2.1.1.2	UMLS:C0003827	Art_Therapy	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.2.6.2.1.1.2	Chinese_Calligraphy_Therapy	COMBO:1.2.6.2.1.1.2	hierarchy_backoff:ancestor=1.2.6.2.1.1:distance=1
+COMBO:1.2.6.2.1.1.4	UMLS:C0003827	Art_Therapy	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.2.6.2.1.1.4	Mandala_Therapy	COMBO:1.2.6.2.1.1.4	hierarchy_backoff:ancestor=1.2.6.2.1.1:distance=1
+COMBO:1.2.6.2.3.1	UMLS:C0026868	Music_Therapy	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.2.6.2.3.1	Musical_Game	COMBO:1.2.6.2.3.1	hierarchy_backoff:ancestor=1.2.6.2.3:distance=1
+COMBO:1.2.6.2.5.1	UMLS:C0454043	Progressive_Muscle_Relaxation	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.2.6.2.5.1	Abbreviated_Muscle_Relaxation_Therapy	COMBO:1.2.6.2.5.1	hierarchy_backoff:ancestor=1.2.6.2.5:distance=1
+COMBO:1.2.6.4.1	UMLS:C4082302	Exercise_Therapy	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.2.6.4.1	Meditative_Movement	COMBO:1.2.6.4.1	hierarchy_backoff:ancestor=1.2.6.4:distance=1
+COMBO:1.2.6.4.1.3.2	UMLS:C1883583	Yoga_Therapy	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.2.6.4.1.3.2	Kundalini_Yoga	COMBO:1.2.6.4.1.3.2	hierarchy_backoff:ancestor=1.2.6.4.1.3:distance=1
+COMBO:1.2.6.4.1.3.4	UMLS:C1883583	Yoga_Therapy	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.2.6.4.1.3.4	Circular_Yoga	COMBO:1.2.6.4.1.3.4	hierarchy_backoff:ancestor=1.2.6.4.1.3:distance=1
+COMBO:1.2.6.4.1.3.5	UMLS:C1883583	Yoga_Therapy	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.2.6.4.1.3.5	Face_Yoga	COMBO:1.2.6.4.1.3.5	hierarchy_backoff:ancestor=1.2.6.4.1.3:distance=1
+COMBO:1.2.6.4.1.3.6	UMLS:C1883583	Yoga_Therapy	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.2.6.4.1.3.6	Pranayama_Yoga	COMBO:1.2.6.4.1.3.6	hierarchy_backoff:ancestor=1.2.6.4.1.3:distance=1
+COMBO:1.2.6.4.1.3.7	UMLS:C1883583	Yoga_Therapy	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.2.6.4.1.3.7	Sudarshana_Kriya_Yoga	COMBO:1.2.6.4.1.3.7	hierarchy_backoff:ancestor=1.2.6.4.1.3:distance=1
+COMBO:1.2.6.4.1.3.8	UMLS:C1883583	Yoga_Therapy	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.2.6.4.1.3.8	Kripalu_Yoga	COMBO:1.2.6.4.1.3.8	hierarchy_backoff:ancestor=1.2.6.4.1.3:distance=1
+COMBO:1.2.6.4.1.3.9	UMLS:C1883583	Yoga_Therapy	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.2.6.4.1.3.9	Hot_Yoga	COMBO:1.2.6.4.1.3.9	hierarchy_backoff:ancestor=1.2.6.4.1.3:distance=1
+COMBO:1.2.6.4.1.3.9.1	UMLS:C1883583	Yoga_Therapy	0.66	hierarchy_backoff_mapping	narrow_to_parent	1.2.6.4.1.3.9.1	Bikram_Yoga	COMBO:1.2.6.4.1.3.9.1	hierarchy_backoff:ancestor=1.2.6.4.1.3:distance=2
+COMBO:1.2.6.4.1.3.10	UMLS:C1883583	Yoga_Therapy	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.2.6.4.1.3.10	Ashtanga_Yoga	COMBO:1.2.6.4.1.3.10	hierarchy_backoff:ancestor=1.2.6.4.1.3:distance=1
+COMBO:1.2.6.4.1.3.11	UMLS:C1883583	Yoga_Therapy	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.2.6.4.1.3.11	Tibetan_Yoga	COMBO:1.2.6.4.1.3.11	hierarchy_backoff:ancestor=1.2.6.4.1.3:distance=1
+COMBO:1.2.6.4.1.3.12	UMLS:C1883583	Yoga_Therapy	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.2.6.4.1.3.12	Chair_Yoga	COMBO:1.2.6.4.1.3.12	hierarchy_backoff:ancestor=1.2.6.4.1.3:distance=1
+COMBO:1.2.6.4.1.3.13	UMLS:C1883583	Yoga_Therapy	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.2.6.4.1.3.13	Sivananda_Yoga	COMBO:1.2.6.4.1.3.13	hierarchy_backoff:ancestor=1.2.6.4.1.3:distance=1
+COMBO:1.2.6.4.1.3.14	UMLS:C1883583	Yoga_Therapy	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.2.6.4.1.3.14	Bhakti_Yoga	COMBO:1.2.6.4.1.3.14	hierarchy_backoff:ancestor=1.2.6.4.1.3:distance=1
+COMBO:1.2.6.4.1.3.15	UMLS:C1883583	Yoga_Therapy	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.2.6.4.1.3.15	Tantra_Yoga	COMBO:1.2.6.4.1.3.15	hierarchy_backoff:ancestor=1.2.6.4.1.3:distance=1
+COMBO:1.2.6.4.1.3.16	UMLS:C1883583	Yoga_Therapy	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.2.6.4.1.3.16	Vinyasa_Yoga	COMBO:1.2.6.4.1.3.16	hierarchy_backoff:ancestor=1.2.6.4.1.3:distance=1
+COMBO:1.2.6.4.1.3.17	UMLS:C1883583	Yoga_Therapy	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.2.6.4.1.3.17	Creative_Yoga	COMBO:1.2.6.4.1.3.17	hierarchy_backoff:ancestor=1.2.6.4.1.3:distance=1
+COMBO:1.2.6.4.1.3.18	UMLS:C1883583	Yoga_Therapy	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.2.6.4.1.3.18	Relaxing_Yoga	COMBO:1.2.6.4.1.3.18	hierarchy_backoff:ancestor=1.2.6.4.1.3:distance=1
+COMBO:1.2.6.4.1.3.19	UMLS:C1883583	Yoga_Therapy	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.2.6.4.1.3.19	Power_Yoga	COMBO:1.2.6.4.1.3.19	hierarchy_backoff:ancestor=1.2.6.4.1.3:distance=1
+COMBO:1.2.6.4.1.3.20	UMLS:C1883583	Yoga_Therapy	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.2.6.4.1.3.20	Iyengar_Yoga	COMBO:1.2.6.4.1.3.20	hierarchy_backoff:ancestor=1.2.6.4.1.3:distance=1
+COMBO:1.2.6.4.1.3.21	UMLS:C1883583	Yoga_Therapy	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.2.6.4.1.3.21	Karma_Yoga	COMBO:1.2.6.4.1.3.21	hierarchy_backoff:ancestor=1.2.6.4.1.3:distance=1
+COMBO:1.2.6.4.1.3.22	UMLS:C1883583	Yoga_Therapy	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.2.6.4.1.3.22	Jinana_Yoga	COMBO:1.2.6.4.1.3.22	hierarchy_backoff:ancestor=1.2.6.4.1.3:distance=1
+COMBO:1.2.6.4.1.3.23	UMLS:C1883583	Yoga_Therapy	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.2.6.4.1.3.23	Sahaj_Yoga	COMBO:1.2.6.4.1.3.23	hierarchy_backoff:ancestor=1.2.6.4.1.3:distance=1
+COMBO:1.2.6.4.1.3.24	UMLS:C1883583	Yoga_Therapy	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.2.6.4.1.3.24	Hatha_Yoga	COMBO:1.2.6.4.1.3.24	hierarchy_backoff:ancestor=1.2.6.4.1.3:distance=1
+COMBO:1.2.6.4.1.3.25	UMLS:C1883583	Yoga_Therapy	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.2.6.4.1.3.25	Yoga_Nidra	COMBO:1.2.6.4.1.3.25	hierarchy_backoff:ancestor=1.2.6.4.1.3:distance=1
+COMBO:1.2.6.4.1.4.1	UMLS:C0282077	Qigong_Therapy	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.2.6.4.1.4.1	Hua_Gong	COMBO:1.2.6.4.1.4.1	hierarchy_backoff:ancestor=1.2.6.4.1.4:distance=1
+COMBO:1.2.6.4.1.4.2	UMLS:C0282077	Qigong_Therapy	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.2.6.4.1.4.2	Medical_Qigong	COMBO:1.2.6.4.1.4.2	hierarchy_backoff:ancestor=1.2.6.4.1.4:distance=1
+COMBO:1.2.6.4.1.4.2.2	UMLS:C0282077	Qigong_Therapy	0.66	hierarchy_backoff_mapping	narrow_to_parent	1.2.6.4.1.4.2.2	Dongeui_Qigong	COMBO:1.2.6.4.1.4.2.2	hierarchy_backoff:ancestor=1.2.6.4.1.4:distance=2
+COMBO:1.2.6.4.1.4.2.3	UMLS:C0282077	Qigong_Therapy	0.66	hierarchy_backoff_mapping	narrow_to_parent	1.2.6.4.1.4.2.3	Guolin_Qigong	COMBO:1.2.6.4.1.4.2.3	hierarchy_backoff:ancestor=1.2.6.4.1.4:distance=2
+COMBO:1.2.6.4.1.4.2.4	UMLS:C0282077	Qigong_Therapy	0.66	hierarchy_backoff_mapping	narrow_to_parent	1.2.6.4.1.4.2.4	Qigong_Healer	COMBO:1.2.6.4.1.4.2.4	hierarchy_backoff:ancestor=1.2.6.4.1.4:distance=2
+COMBO:1.2.6.4.1.4.3	UMLS:C0282077	Qigong_Therapy	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.2.6.4.1.4.3	Chan_Mi_Gong	COMBO:1.2.6.4.1.4.3	hierarchy_backoff:ancestor=1.2.6.4.1.4:distance=1
+COMBO:1.2.6.4.1.4.4	UMLS:C0282077	Qigong_Therapy	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.2.6.4.1.4.4	Yi_Jia_Gong	COMBO:1.2.6.4.1.4.4	hierarchy_backoff:ancestor=1.2.6.4.1.4:distance=1
+COMBO:1.2.6.4.1.4.5	UMLS:C0282077	Qigong_Therapy	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.2.6.4.1.4.5	Biyun_Qi_Gong	COMBO:1.2.6.4.1.4.5	hierarchy_backoff:ancestor=1.2.6.4.1.4:distance=1
+COMBO:1.2.6.4.1.4.6	UMLS:C0282077	Qigong_Therapy	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.2.6.4.1.4.6	Daoyin_Qi_Gong	COMBO:1.2.6.4.1.4.6	hierarchy_backoff:ancestor=1.2.6.4.1.4:distance=1
+COMBO:1.2.6.4.1.4.7	UMLS:C0282077	Qigong_Therapy	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.2.6.4.1.4.7	Qi_Gong_Yangsheng	COMBO:1.2.6.4.1.4.7	hierarchy_backoff:ancestor=1.2.6.4.1.4:distance=1
+COMBO:1.2.6.4.1.4.8	UMLS:C0282077	Qigong_Therapy	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.2.6.4.1.4.8	Baduanjin_Qi_Gong	COMBO:1.2.6.4.1.4.8	hierarchy_backoff:ancestor=1.2.6.4.1.4:distance=1
+COMBO:1.2.6.4.1.4.9	UMLS:C0282077	Qigong_Therapy	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.2.6.4.1.4.9	Five_Animals_Qi_Gong	COMBO:1.2.6.4.1.4.9	hierarchy_backoff:ancestor=1.2.6.4.1.4:distance=1
+COMBO:1.2.6.4.4	UMLS:C4082302	Exercise_Therapy	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.2.6.4.4	Motor_Control_Exercise	COMBO:1.2.6.4.4	hierarchy_backoff:ancestor=1.2.6.4:distance=1
+COMBO:1.2.6.4.5.1	UMLS:C0454333	Facial_Exercise	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.2.6.4.5.1	Face_Yoga	COMBO:1.2.6.4.5.1	hierarchy_backoff:ancestor=1.2.6.4.5:distance=1
+COMBO:1.2.6.4.5.2	UMLS:C0454333	Facial_Exercise	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.2.6.4.5.2	Facial_Resistance_Training	COMBO:1.2.6.4.5.2	hierarchy_backoff:ancestor=1.2.6.4.5:distance=1
+COMBO:1.2.6.4.5.3	UMLS:C0454333	Facial_Exercise	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.2.6.4.5.3	Face_Shaping	COMBO:1.2.6.4.5.3	hierarchy_backoff:ancestor=1.2.6.4.5:distance=1
+COMBO:1.2.6.4.6	UMLS:C4082302	Exercise_Therapy	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.2.6.4.6	Guided_Physical_Activity	COMBO:1.2.6.4.6	hierarchy_backoff:ancestor=1.2.6.4:distance=1
+COMBO:1.2.6.5	UMLS:C0260173	Mind	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.2.6.5	Movement_Education	COMBO:1.2.6.5	hierarchy_backoff:ancestor=1.2.6:distance=1
+COMBO:1.2.6.5.1.1	UMLS:C0597812	Alexander_Technique	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.2.6.5.1.1	Alexander_Proprioception	COMBO:1.2.6.5.1.1	hierarchy_backoff:ancestor=1.2.6.5.1:distance=1
+COMBO:1.2.6.6	UMLS:C0260173	Mind	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.2.6.6	Art_of_Living	COMBO:1.2.6.6	hierarchy_backoff:ancestor=1.2.6:distance=1
+COMBO:1.2.6.7	UMLS:C0260173	Mind	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.2.6.7	Eurythmy	COMBO:1.2.6.7	hierarchy_backoff:ancestor=1.2.6:distance=1
+COMBO:1.2.6.8	UMLS:C0260173	Mind	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.2.6.8	Feldenkrais_Method	COMBO:1.2.6.8	hierarchy_backoff:ancestor=1.2.6:distance=1
+COMBO:1.2.6.8.1	UMLS:C0260173	Mind	0.66	hierarchy_backoff_mapping	narrow_to_parent	1.2.6.8.1	Functional_Integration	COMBO:1.2.6.8.1	hierarchy_backoff:ancestor=1.2.6:distance=2
+COMBO:1.2.6.9	UMLS:C0260173	Mind	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.2.6.9	Flotation_Therapy	COMBO:1.2.6.9	hierarchy_backoff:ancestor=1.2.6:distance=1
+COMBO:1.2.6.10	UMLS:C0260173	Mind	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.2.6.10	Sophrology	COMBO:1.2.6.10	hierarchy_backoff:ancestor=1.2.6:distance=1
+COMBO:1.2.8.1	UMLS:C1516875	Energy_Based_Therapy	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.2.8.1	Putative_Energy_Therapy	COMBO:1.2.8.1	hierarchy_backoff:ancestor=1.2.8:distance=1
+COMBO:1.2.8.1.2	UMLS:C1516875	Energy_Based_Therapy	0.66	hierarchy_backoff_mapping	narrow_to_parent	1.2.8.1.2	Qigong_Therapy	COMBO:1.2.8.1.2	hierarchy_backoff:ancestor=1.2.8:distance=2
+COMBO:1.2.8.1.2.1	UMLS:C1516875	Energy_Based_Therapy	0.6	hierarchy_backoff_mapping	narrow_to_parent	1.2.8.1.2.1	Hua_Gong	COMBO:1.2.8.1.2.1	hierarchy_backoff:ancestor=1.2.8:distance=3
+COMBO:1.2.8.1.2.2	UMLS:C1516875	Energy_Based_Therapy	0.6	hierarchy_backoff_mapping	narrow_to_parent	1.2.8.1.2.2	Medical_Qigong	COMBO:1.2.8.1.2.2	hierarchy_backoff:ancestor=1.2.8:distance=3
+COMBO:1.2.8.1.2.2.1	UMLS:C1516875	Energy_Based_Therapy	0.55	hierarchy_backoff_mapping	narrow_to_parent	1.2.8.1.2.2.1	External_Qi_Gong_Therapy	COMBO:1.2.8.1.2.2.1	hierarchy_backoff:ancestor=1.2.8:distance=4
+COMBO:1.2.8.1.2.2.2	UMLS:C1516875	Energy_Based_Therapy	0.55	hierarchy_backoff_mapping	narrow_to_parent	1.2.8.1.2.2.2	Dongeui_Qigong	COMBO:1.2.8.1.2.2.2	hierarchy_backoff:ancestor=1.2.8:distance=4
+COMBO:1.2.8.1.2.2.3	UMLS:C1516875	Energy_Based_Therapy	0.55	hierarchy_backoff_mapping	narrow_to_parent	1.2.8.1.2.2.3	Guolin_Qigong	COMBO:1.2.8.1.2.2.3	hierarchy_backoff:ancestor=1.2.8:distance=4
+COMBO:1.2.8.1.2.2.4	UMLS:C1516875	Energy_Based_Therapy	0.55	hierarchy_backoff_mapping	narrow_to_parent	1.2.8.1.2.2.4	Qigong_Healer	COMBO:1.2.8.1.2.2.4	hierarchy_backoff:ancestor=1.2.8:distance=4
+COMBO:1.2.8.1.2.3	UMLS:C1516875	Energy_Based_Therapy	0.6	hierarchy_backoff_mapping	narrow_to_parent	1.2.8.1.2.3	Chan_Mi_Gong	COMBO:1.2.8.1.2.3	hierarchy_backoff:ancestor=1.2.8:distance=3
+COMBO:1.2.8.1.2.4	UMLS:C1516875	Energy_Based_Therapy	0.6	hierarchy_backoff_mapping	narrow_to_parent	1.2.8.1.2.4	Yi_Jia_Gong	COMBO:1.2.8.1.2.4	hierarchy_backoff:ancestor=1.2.8:distance=3
+COMBO:1.2.8.1.2.5	UMLS:C1516875	Energy_Based_Therapy	0.6	hierarchy_backoff_mapping	narrow_to_parent	1.2.8.1.2.5	Biyun_Qi_Gong	COMBO:1.2.8.1.2.5	hierarchy_backoff:ancestor=1.2.8:distance=3
+COMBO:1.2.8.1.2.6	UMLS:C1516875	Energy_Based_Therapy	0.6	hierarchy_backoff_mapping	narrow_to_parent	1.2.8.1.2.6	Daoyin_Qi_Gong	COMBO:1.2.8.1.2.6	hierarchy_backoff:ancestor=1.2.8:distance=3
+COMBO:1.2.8.1.2.7	UMLS:C1516875	Energy_Based_Therapy	0.6	hierarchy_backoff_mapping	narrow_to_parent	1.2.8.1.2.7	Qi_Gong_Yangsheng	COMBO:1.2.8.1.2.7	hierarchy_backoff:ancestor=1.2.8:distance=3
+COMBO:1.2.8.1.2.8	UMLS:C1516875	Energy_Based_Therapy	0.6	hierarchy_backoff_mapping	narrow_to_parent	1.2.8.1.2.8	Baduanjin_Qi_Gong	COMBO:1.2.8.1.2.8	hierarchy_backoff:ancestor=1.2.8:distance=3
+COMBO:1.2.8.1.2.9	UMLS:C1516875	Energy_Based_Therapy	0.6	hierarchy_backoff_mapping	narrow_to_parent	1.2.8.1.2.9	Five_Animals_Qi_Gong	COMBO:1.2.8.1.2.9	hierarchy_backoff:ancestor=1.2.8:distance=3
+COMBO:1.2.8.1.3.1.1	UMLS:C0751715	Reiki_Therapy	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.2.8.1.3.1.1	Japanese_Reiki	COMBO:1.2.8.1.3.1.1	hierarchy_backoff:ancestor=1.2.8.1.3.1:distance=1
+COMBO:1.2.8.1.3.1.2	UMLS:C0751715	Reiki_Therapy	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.2.8.1.3.1.2	Buddhist_Reiki	COMBO:1.2.8.1.3.1.2	hierarchy_backoff:ancestor=1.2.8.1.3.1:distance=1
+COMBO:1.2.8.1.4.1	UMLS:C0085102	Color_Therapy	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.2.8.1.4.1	Aura_Soma_Therapy	COMBO:1.2.8.1.4.1	hierarchy_backoff:ancestor=1.2.8.1.4:distance=1
+COMBO:1.2.8.1.5.1	UMLS:C0597815	Crystal_Therapy	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.2.8.1.5.1	Electrocrystal_Therapy	COMBO:1.2.8.1.5.1	hierarchy_backoff:ancestor=1.2.8.1.5:distance=1
+COMBO:1.2.8.1.5.2	UMLS:C0597815	Crystal_Therapy	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.2.8.1.5.2	Gemstone_Therapy	COMBO:1.2.8.1.5.2	hierarchy_backoff:ancestor=1.2.8.1.5:distance=1
+COMBO:1.2.8.1.6	UMLS:C1516875	Energy_Based_Therapy	0.66	hierarchy_backoff_mapping	narrow_to_parent	1.2.8.1.6	Chakra_Balancing	COMBO:1.2.8.1.6	hierarchy_backoff:ancestor=1.2.8:distance=2
+COMBO:1.2.8.1.8	UMLS:C1516875	Energy_Based_Therapy	0.66	hierarchy_backoff_mapping	narrow_to_parent	1.2.8.1.8	Radionics	COMBO:1.2.8.1.8	hierarchy_backoff:ancestor=1.2.8:distance=2
+COMBO:1.2.8.2	UMLS:C1516875	Energy_Based_Therapy	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.2.8.2	Veritable_Energy_Therapy	COMBO:1.2.8.2	hierarchy_backoff:ancestor=1.2.8:distance=1
+COMBO:1.2.8.2.3.1.1	UMLS:C1881509	Magnet_Therapy	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.2.8.2.3.1.1	Static_Magnet_Therapy	COMBO:1.2.8.2.3.1.1	hierarchy_backoff:ancestor=1.2.8.2.3.1:distance=1
+COMBO:1.2.8.2.3.1.1.1	UMLS:C1881509	Magnet_Therapy	0.66	hierarchy_backoff_mapping	narrow_to_parent	1.2.8.2.3.1.1.1	Biomagnetic_Therapy	COMBO:1.2.8.2.3.1.1.1	hierarchy_backoff:ancestor=1.2.8.2.3.1:distance=2
+COMBO:1.2.8.2.3.2	UMLS:C1511136	Electromagnetic_Based_Therapy	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.2.8.2.3.2	Electrical_Therapy	COMBO:1.2.8.2.3.2	hierarchy_backoff:ancestor=1.2.8.2.3:distance=1
+COMBO:1.2.8.2.4	UMLS:C1516875	Energy_Based_Therapy	0.66	hierarchy_backoff_mapping	narrow_to_parent	1.2.8.2.4	Anodyne_Therapy	COMBO:1.2.8.2.4	hierarchy_backoff:ancestor=1.2.8:distance=2
+COMBO:1.2.8.2.5	UMLS:C1516875	Energy_Based_Therapy	0.66	hierarchy_backoff_mapping	narrow_to_parent	1.2.8.2.5	Bioacoustics_Therapy	COMBO:1.2.8.2.5	hierarchy_backoff:ancestor=1.2.8:distance=2
+COMBO:1.2.8.2.6	UMLS:C1516875	Energy_Based_Therapy	0.66	hierarchy_backoff_mapping	narrow_to_parent	1.2.8.2.6	Cellubike	COMBO:1.2.8.2.6	hierarchy_backoff:ancestor=1.2.8:distance=2
+COMBO:1.2.8.2.7.1.1	UMLS:C0041626	Ultraviolet_Therapy	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.2.8.2.7.1.1	Bath_Puva	COMBO:1.2.8.2.7.1.1	hierarchy_backoff:ancestor=1.2.8.2.7.1:distance=1
+COMBO:1.2.8.2.7.2.1	MESH:D010778	Photodynamic Therapy	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.2.8.2.7.2.1	Ocular_Light_Therapy	COMBO:1.2.8.2.7.2.1	hierarchy_backoff:ancestor=1.2.8.2.7.2:distance=1
+COMBO:1.2.8.2.7.3	UMLS:C0031765	Phototherapy	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.2.8.2.7.3	Balneophototherapy	COMBO:1.2.8.2.7.3	hierarchy_backoff:ancestor=1.2.8.2.7:distance=1
+COMBO:1.2.8.2.7.3.1	UMLS:C0031765	Phototherapy	0.66	hierarchy_backoff_mapping	narrow_to_parent	1.2.8.2.7.3.1	Dead_Sea_Climatotherapy	COMBO:1.2.8.2.7.3.1	hierarchy_backoff:ancestor=1.2.8.2.7:distance=2
+COMBO:1.2.8.2.7.6	UMLS:C0031765	Phototherapy	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.2.8.2.7.6	Fiber_Optic_Phototherapy	COMBO:1.2.8.2.7.6	hierarchy_backoff:ancestor=1.2.8.2.7:distance=1
+COMBO:1.2.8.2.7.7	UMLS:C0031765	Phototherapy	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.2.8.2.7.7	Nontargeted_Light_Therapy	COMBO:1.2.8.2.7.7	hierarchy_backoff:ancestor=1.2.8.2.7:distance=1
+COMBO:1.2.8.2.7.8	UMLS:C0031765	Phototherapy	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.2.8.2.7.8	Targeted_Light_Therapy	COMBO:1.2.8.2.7.8	hierarchy_backoff:ancestor=1.2.8.2.7:distance=1
+COMBO:1.2.8.2.7.9	UMLS:C0031765	Phototherapy	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.2.8.2.7.9	Acu_Light_Therapy	COMBO:1.2.8.2.7.9	hierarchy_backoff:ancestor=1.2.8.2.7:distance=1
+COMBO:1.2.8.2.7.10	UMLS:C0031765	Phototherapy	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.2.8.2.7.10	Esogetic_Colorpuncture	COMBO:1.2.8.2.7.10	hierarchy_backoff:ancestor=1.2.8.2.7:distance=1
+COMBO:1.2.8.2.7.11	UMLS:C0031765	Phototherapy	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.2.8.2.7.11	Reprocessing_Light_Therapy	COMBO:1.2.8.2.7.11	hierarchy_backoff:ancestor=1.2.8.2.7:distance=1
+COMBO:1.2.12.5.2.2	UMLS:C0026652	Moxibustion	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.2.12.5.2.2	Dogbi_	COMBO:1.2.12.5.2.2	hierarchy_backoff:ancestor=1.2.12.5.2:distance=1
+COMBO:1.2.12.9	UMLS:C0026652	Moxibustion	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.2.12.9	Rice_Sized_Direct_Moxa	COMBO:1.2.12.9	hierarchy_backoff:ancestor=1.2.12:distance=1
+COMBO:1.2.15.2.1	UMLS:C5197695	Cupping_Therapy	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.2.15.2.1	Wet_Cupping	COMBO:1.2.15.2.1	hierarchy_backoff:ancestor=1.2.15.2:distance=1
+COMBO:1.2.15.2.1.1	UMLS:C5197695	Cupping_Therapy	0.66	hierarchy_backoff_mapping	narrow_to_parent	1.2.15.2.1.1	Blood_Letting_Cupping	COMBO:1.2.15.2.1.1	hierarchy_backoff:ancestor=1.2.15.2:distance=2
+COMBO:1.2.15.2.2	UMLS:C5197695	Cupping_Therapy	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.2.15.2.2	Retained_Cupping	COMBO:1.2.15.2.2	hierarchy_backoff:ancestor=1.2.15.2:distance=1
+COMBO:1.2.15.2.3	UMLS:C5197695	Cupping_Therapy	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.2.15.2.3	Multiple_Cupping	COMBO:1.2.15.2.3	hierarchy_backoff:ancestor=1.2.15.2:distance=1
+COMBO:1.2.15.2.4	UMLS:C5197695	Cupping_Therapy	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.2.15.2.4	Dry_Cupping	COMBO:1.2.15.2.4	hierarchy_backoff:ancestor=1.2.15.2:distance=1
+COMBO:1.2.15.2.5	UMLS:C5197695	Cupping_Therapy	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.2.15.2.5	Needle_Cupping	COMBO:1.2.15.2.5	hierarchy_backoff:ancestor=1.2.15.2:distance=1
+COMBO:1.2.15.2.6	UMLS:C5197695	Cupping_Therapy	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.2.15.2.6	Water_Cupping	COMBO:1.2.15.2.6	hierarchy_backoff:ancestor=1.2.15.2:distance=1
+COMBO:1.2.15.2.7	UMLS:C5197695	Cupping_Therapy	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.2.15.2.7	Flash_Cupping	COMBO:1.2.15.2.7	hierarchy_backoff:ancestor=1.2.15.2:distance=1
+COMBO:1.2.15.2.8	UMLS:C5197695	Cupping_Therapy	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.2.15.2.8	Fire_Cupping	COMBO:1.2.15.2.8	hierarchy_backoff:ancestor=1.2.15.2:distance=1
+COMBO:1.2.15.2.9	UMLS:C5197695	Cupping_Therapy	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.2.15.2.9	Moving_Cupping	COMBO:1.2.15.2.9	hierarchy_backoff:ancestor=1.2.15.2:distance=1
+COMBO:1.2.15.2.10	UMLS:C5197695	Cupping_Therapy	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.2.15.2.10	Pulsating_Cupping	COMBO:1.2.15.2.10	hierarchy_backoff:ancestor=1.2.15.2:distance=1
+COMBO:1.2.15.5.1.2.1	UMLS:C0282567	Applied_Kinesiology	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.2.15.5.1.2.1	Kinesiology_Muscle_Test	COMBO:1.2.15.5.1.2.1	hierarchy_backoff:ancestor=1.2.15.5.1.2:distance=1
+COMBO:1.2.15.5.3.2	UMLS:C3658309	Soft_Tissue_Therapy	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.2.15.5.3.2	Emmett_Technique	COMBO:1.2.15.5.3.2	hierarchy_backoff:ancestor=1.2.15.5.3:distance=1
+COMBO:1.2.15.5.3.6.1.5	UMLS:C2584291	Therapeutic_Massage	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.2.15.5.3.6.1.5	Neuromuscular_Massage	COMBO:1.2.15.5.3.6.1.5	hierarchy_backoff:ancestor=1.2.15.5.3.6.1:distance=1
+COMBO:1.2.15.5.3.6.1.6	UMLS:C2584291	Therapeutic_Massage	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.2.15.5.3.6.1.6	Trigger_Point_Massage	COMBO:1.2.15.5.3.6.1.6	hierarchy_backoff:ancestor=1.2.15.5.3.6.1:distance=1
+COMBO:1.2.15.5.3.6.1.7	UMLS:C2584291	Therapeutic_Massage	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.2.15.5.3.6.1.7	Rhythmical_Massage	COMBO:1.2.15.5.3.6.1.7	hierarchy_backoff:ancestor=1.2.15.5.3.6.1:distance=1
+COMBO:1.2.15.5.3.6.1.8	UMLS:C2584291	Therapeutic_Massage	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.2.15.5.3.6.1.8	Perineal_Massage	COMBO:1.2.15.5.3.6.1.8	hierarchy_backoff:ancestor=1.2.15.5.3.6.1:distance=1
+COMBO:1.2.15.5.3.6.1.12	UMLS:C2584291	Therapeutic_Massage	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.2.15.5.3.6.1.12	Roll_Stretch_Massage	COMBO:1.2.15.5.3.6.1.12	hierarchy_backoff:ancestor=1.2.15.5.3.6.1:distance=1
+COMBO:1.2.15.5.3.6.1.13	UMLS:C2584291	Therapeutic_Massage	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.2.15.5.3.6.1.13	Aston_Massage	COMBO:1.2.15.5.3.6.1.13	hierarchy_backoff:ancestor=1.2.15.5.3.6.1:distance=1
+COMBO:1.2.15.5.3.6.1.15	UMLS:C2584291	Therapeutic_Massage	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.2.15.5.3.6.1.15	Skin_Rehabilitation_Massage_Therapy	COMBO:1.2.15.5.3.6.1.15	hierarchy_backoff:ancestor=1.2.15.5.3.6.1:distance=1
+COMBO:1.2.15.5.3.6.1.16	UMLS:C2584291	Therapeutic_Massage	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.2.15.5.3.6.1.16	Integrative_Massage	COMBO:1.2.15.5.3.6.1.16	hierarchy_backoff:ancestor=1.2.15.5.3.6.1:distance=1
+COMBO:1.2.15.5.3.6.2.1	UMLS:C0884467	Oriental_Massage	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.2.15.5.3.6.2.1	Chinese_Massage	COMBO:1.2.15.5.3.6.2.1	hierarchy_backoff:ancestor=1.2.15.5.3.6.2:distance=1
+COMBO:1.2.15.5.3.6.2.1.3	UMLS:C0884467	Oriental_Massage	0.66	hierarchy_backoff_mapping	narrow_to_parent	1.2.15.5.3.6.2.1.3	Qigong_Massage	COMBO:1.2.15.5.3.6.2.1.3	hierarchy_backoff:ancestor=1.2.15.5.3.6.2:distance=2
+COMBO:1.2.15.5.3.6.2.2	UMLS:C0884467	Oriental_Massage	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.2.15.5.3.6.2.2	Anma	COMBO:1.2.15.5.3.6.2.2	hierarchy_backoff:ancestor=1.2.15.5.3.6.2:distance=1
+COMBO:1.2.15.5.3.6.2.3	UMLS:C0884467	Oriental_Massage	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.2.15.5.3.6.2.3	Tibetan_Massage	COMBO:1.2.15.5.3.6.2.3	hierarchy_backoff:ancestor=1.2.15.5.3.6.2:distance=1
+COMBO:1.2.15.5.3.6.2.5.1	UMLS:C0973228	Shiatsu_Therapy	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.2.15.5.3.6.2.5.1	Namikoshi_Shiatsu	COMBO:1.2.15.5.3.6.2.5.1	hierarchy_backoff:ancestor=1.2.15.5.3.6.2.5:distance=1
+COMBO:1.2.15.5.3.6.2.5.2	UMLS:C0973228	Shiatsu_Therapy	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.2.15.5.3.6.2.5.2	Tao_Shiatsu	COMBO:1.2.15.5.3.6.2.5.2	hierarchy_backoff:ancestor=1.2.15.5.3.6.2.5:distance=1
+COMBO:1.2.15.5.3.6.2.5.3	UMLS:C0973228	Shiatsu_Therapy	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.2.15.5.3.6.2.5.3	Meridian_Shiatsu	COMBO:1.2.15.5.3.6.2.5.3	hierarchy_backoff:ancestor=1.2.15.5.3.6.2.5:distance=1
+COMBO:1.2.15.5.3.6.2.5.4	UMLS:C0973228	Shiatsu_Therapy	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.2.15.5.3.6.2.5.4	Quantum_Shiatsu	COMBO:1.2.15.5.3.6.2.5.4	hierarchy_backoff:ancestor=1.2.15.5.3.6.2.5:distance=1
+COMBO:1.2.15.5.3.6.2.5.5	UMLS:C0973228	Shiatsu_Therapy	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.2.15.5.3.6.2.5.5	Japanese_Shiatsu	COMBO:1.2.15.5.3.6.2.5.5	hierarchy_backoff:ancestor=1.2.15.5.3.6.2.5:distance=1
+COMBO:1.2.15.5.3.6.2.5.6	UMLS:C0973228	Shiatsu_Therapy	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.2.15.5.3.6.2.5.6	Ohashiatsu	COMBO:1.2.15.5.3.6.2.5.6	hierarchy_backoff:ancestor=1.2.15.5.3.6.2.5:distance=1
+COMBO:1.2.15.5.3.6.2.5.7	UMLS:C0973228	Shiatsu_Therapy	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.2.15.5.3.6.2.5.7	Zen_Shiatsu	COMBO:1.2.15.5.3.6.2.5.7	hierarchy_backoff:ancestor=1.2.15.5.3.6.2.5:distance=1
+COMBO:1.2.15.5.3.6.2.5.8	UMLS:C0973228	Shiatsu_Therapy	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.2.15.5.3.6.2.5.8	Tsubo_Shiatsu	COMBO:1.2.15.5.3.6.2.5.8	hierarchy_backoff:ancestor=1.2.15.5.3.6.2.5:distance=1
+COMBO:1.2.15.5.3.6.4	UMLS:C3536731	Massage_Therapy	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.2.15.5.3.6.4	Foot_Massage	COMBO:1.2.15.5.3.6.4	hierarchy_backoff:ancestor=1.2.15.5.3.6:distance=1
+COMBO:1.2.15.5.3.6.4.1	UMLS:C3536731	Massage_Therapy	0.66	hierarchy_backoff_mapping	narrow_to_parent	1.2.15.5.3.6.4.1	Foot_Reflexion_Massage	COMBO:1.2.15.5.3.6.4.1	hierarchy_backoff:ancestor=1.2.15.5.3.6:distance=2
+COMBO:1.2.15.5.3.6.6.1	UMLS:C2316341	Abdominal_Massage	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.2.15.5.3.6.6.1	Abdominal_Meridian_Massage	COMBO:1.2.15.5.3.6.6.1	hierarchy_backoff:ancestor=1.2.15.5.3.6.6:distance=1
+COMBO:1.2.15.5.3.6.10	UMLS:C3536731	Massage_Therapy	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.2.15.5.3.6.10	Marma_Massage_Therapy	COMBO:1.2.15.5.3.6.10	hierarchy_backoff:ancestor=1.2.15.5.3.6:distance=1
+COMBO:1.2.15.5.3.6.11	UMLS:C3536731	Massage_Therapy	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.2.15.5.3.6.11	Lomilomi_Massage	COMBO:1.2.15.5.3.6.11	hierarchy_backoff:ancestor=1.2.15.5.3.6:distance=1
+COMBO:1.2.15.5.3.6.12	UMLS:C3536731	Massage_Therapy	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.2.15.5.3.6.12	Esalen_Massage	COMBO:1.2.15.5.3.6.12	hierarchy_backoff:ancestor=1.2.15.5.3.6:distance=1
+COMBO:1.2.15.5.3.6.13	UMLS:C3536731	Massage_Therapy	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.2.15.5.3.6.13	Oil_Massage	COMBO:1.2.15.5.3.6.13	hierarchy_backoff:ancestor=1.2.15.5.3.6:distance=1
+COMBO:1.2.15.5.3.6.14.1	UMLS:C2945661	Swedish_Massage	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.2.15.5.3.6.14.1	Effleurage_Massage	COMBO:1.2.15.5.3.6.14.1	hierarchy_backoff:ancestor=1.2.15.5.3.6.14:distance=1
+COMBO:1.2.15.5.3.9	UMLS:C3658309	Soft_Tissue_Therapy	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.2.15.5.3.9	Trager_Therapy	COMBO:1.2.15.5.3.9	hierarchy_backoff:ancestor=1.2.15.5.3:distance=1
+COMBO:1.2.15.5.3.10	UMLS:C3658309	Soft_Tissue_Therapy	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.2.15.5.3.10	Trigger_Point_Therapy	COMBO:1.2.15.5.3.10	hierarchy_backoff:ancestor=1.2.15.5.3:distance=1
+COMBO:1.2.15.5.3.10.1	UMLS:C3658309	Soft_Tissue_Therapy	0.66	hierarchy_backoff_mapping	narrow_to_parent	1.2.15.5.3.10.1	Trigger_Point_Massage	COMBO:1.2.15.5.3.10.1	hierarchy_backoff:ancestor=1.2.15.5.3:distance=2
+COMBO:1.2.15.5.5	UMLS:C0454525	Manual_Therapy	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.2.15.5.5	Neurocranial_Restructuring	COMBO:1.2.15.5.5	hierarchy_backoff:ancestor=1.2.15.5:distance=1
+COMBO:1.2.16.2.1.1	UMLS:C5544506	Aquatic_Therapy	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.2.16.2.1.1	Aqua_Lymphatic_Therapy	COMBO:1.2.16.2.1.1	hierarchy_backoff:ancestor=1.2.16.2.1:distance=1
+COMBO:1.2.16.2.3	UMLS:C0020311	Hydrotherapy	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.2.16.2.3	Thermal_Bath	COMBO:1.2.16.2.3	hierarchy_backoff:ancestor=1.2.16.2:distance=1
+COMBO:1.2.16.2.4	UMLS:C0020311	Hydrotherapy	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.2.16.2.4	Soak_in_Hot_Spring	COMBO:1.2.16.2.4	hierarchy_backoff:ancestor=1.2.16.2:distance=1
+COMBO:1.2.20.1	UMLS:C0884710	Shirodhara_Therapy	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.2.20.1	Jaladhara_Therapy	COMBO:1.2.20.1	hierarchy_backoff:ancestor=1.2.20:distance=1
+COMBO:1.2.20.2	UMLS:C0884710	Shirodhara_Therapy	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.2.20.2	Thyladhara_Therapy	COMBO:1.2.20.2	hierarchy_backoff:ancestor=1.2.20:distance=1
+COMBO:1.2.20.3	UMLS:C0884710	Shirodhara_Therapy	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.2.20.3	Ksheeradhara_Therapy	COMBO:1.2.20.3	hierarchy_backoff:ancestor=1.2.20:distance=1
+COMBO:1.2.20.4	UMLS:C0884710	Shirodhara_Therapy	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.2.20.4	Thakradhara_Therapy	COMBO:1.2.20.4	hierarchy_backoff:ancestor=1.2.20:distance=1
+COMBO:1.2.22.1.1	UMLS:C5237316	Local_Vibration_Therapy	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.2.22.1.1	Focal_Muscle_Vibration	COMBO:1.2.22.1.1	hierarchy_backoff:ancestor=1.2.22.1:distance=1
+COMBO:1.2.22.10.1	UMLS:C5238484	Whole Body Vibration Therapy	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.2.22.10.1	Whole_Body_Vibration_Exercise	COMBO:1.2.22.10.1	hierarchy_backoff:ancestor=1.2.22.10:distance=1
+COMBO:1.3.1	MESH:D000083626	Psychological Intervention	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.3.1	Mind	COMBO:1.3.1	hierarchy_backoff:ancestor=1.3:distance=1
+COMBO:1.3.1.2.1.1.1	UMLS:C0003827	Art_Therapy	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.3.1.2.1.1.1	Pottery	COMBO:1.3.1.2.1.1.1	hierarchy_backoff:ancestor=1.3.1.2.1.1:distance=1
+COMBO:1.3.1.2.1.1.2	UMLS:C0003827	Art_Therapy	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.3.1.2.1.1.2	Chinese_Calligraphy_Therapy	COMBO:1.3.1.2.1.1.2	hierarchy_backoff:ancestor=1.3.1.2.1.1:distance=1
+COMBO:1.3.1.2.1.1.4	UMLS:C0003827	Art_Therapy	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.3.1.2.1.1.4	Mandala_Therapy	COMBO:1.3.1.2.1.1.4	hierarchy_backoff:ancestor=1.3.1.2.1.1:distance=1
+COMBO:1.3.1.2.3.1	MESH:D009147	Music Therapy	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.3.1.2.3.1	Musical_Game	COMBO:1.3.1.2.3.1	hierarchy_backoff:ancestor=1.3.1.2.3:distance=1
+COMBO:1.3.1.2.3.7	MESH:D009147	Music Therapy	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.3.1.2.3.7	Raga_Therapy	COMBO:1.3.1.2.3.7	hierarchy_backoff:ancestor=1.3.1.2.3:distance=1
+COMBO:1.3.1.2.5.1	MESH:D001326	Progressive Muscle Relaxation	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.3.1.2.5.1	Abbreviated_Muscle_Relaxation_Therapy	COMBO:1.3.1.2.5.1	hierarchy_backoff:ancestor=1.3.1.2.5:distance=1
+COMBO:1.3.1.4.1	MESH:D005081	Exercise Therapy	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.3.1.4.1	Meditative_Movement	COMBO:1.3.1.4.1	hierarchy_backoff:ancestor=1.3.1.4:distance=1
+COMBO:1.3.1.4.1.1	MESH:D005081	Exercise Therapy	0.66	hierarchy_backoff_mapping	narrow_to_parent	1.3.1.4.1.1	Pilates_Based_Exercise	COMBO:1.3.1.4.1.1	hierarchy_backoff:ancestor=1.3.1.4:distance=2
+COMBO:1.3.1.4.1.3.2	UMLS:C1883583	Yoga Therapy	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.3.1.4.1.3.2	Kundalini_Yoga	COMBO:1.3.1.4.1.3.2	hierarchy_backoff:ancestor=1.3.1.4.1.3:distance=1
+COMBO:1.3.1.4.1.3.3	UMLS:C1883583	Yoga Therapy	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.3.1.4.1.3.3	Raja_Yoga	COMBO:1.3.1.4.1.3.3	hierarchy_backoff:ancestor=1.3.1.4.1.3:distance=1
+COMBO:1.3.1.4.1.3.4	UMLS:C1883583	Yoga Therapy	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.3.1.4.1.3.4	Circular_Yoga	COMBO:1.3.1.4.1.3.4	hierarchy_backoff:ancestor=1.3.1.4.1.3:distance=1
+COMBO:1.3.1.4.1.3.5	UMLS:C1883583	Yoga Therapy	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.3.1.4.1.3.5	Face_Yoga	COMBO:1.3.1.4.1.3.5	hierarchy_backoff:ancestor=1.3.1.4.1.3:distance=1
+COMBO:1.3.1.4.1.3.6	UMLS:C1883583	Yoga Therapy	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.3.1.4.1.3.6	Pranayama_Yoga	COMBO:1.3.1.4.1.3.6	hierarchy_backoff:ancestor=1.3.1.4.1.3:distance=1
+COMBO:1.3.1.4.1.3.7	UMLS:C1883583	Yoga Therapy	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.3.1.4.1.3.7	Sudarshana_Kriya_Yoga	COMBO:1.3.1.4.1.3.7	hierarchy_backoff:ancestor=1.3.1.4.1.3:distance=1
+COMBO:1.3.1.4.1.3.8	UMLS:C1883583	Yoga Therapy	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.3.1.4.1.3.8	Kripalu_Yoga	COMBO:1.3.1.4.1.3.8	hierarchy_backoff:ancestor=1.3.1.4.1.3:distance=1
+COMBO:1.3.1.4.1.3.9	UMLS:C1883583	Yoga Therapy	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.3.1.4.1.3.9	Hot_Yoga	COMBO:1.3.1.4.1.3.9	hierarchy_backoff:ancestor=1.3.1.4.1.3:distance=1
+COMBO:1.3.1.4.1.3.9.1	UMLS:C1883583	Yoga Therapy	0.66	hierarchy_backoff_mapping	narrow_to_parent	1.3.1.4.1.3.9.1	Bikram_Yoga	COMBO:1.3.1.4.1.3.9.1	hierarchy_backoff:ancestor=1.3.1.4.1.3:distance=2
+COMBO:1.3.1.4.1.3.10	UMLS:C1883583	Yoga Therapy	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.3.1.4.1.3.10	Ashtanga_Yoga	COMBO:1.3.1.4.1.3.10	hierarchy_backoff:ancestor=1.3.1.4.1.3:distance=1
+COMBO:1.3.1.4.1.3.11	UMLS:C1883583	Yoga Therapy	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.3.1.4.1.3.11	Tibetan_Yoga	COMBO:1.3.1.4.1.3.11	hierarchy_backoff:ancestor=1.3.1.4.1.3:distance=1
+COMBO:1.3.1.4.1.3.12	UMLS:C1883583	Yoga Therapy	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.3.1.4.1.3.12	Chair_Yoga	COMBO:1.3.1.4.1.3.12	hierarchy_backoff:ancestor=1.3.1.4.1.3:distance=1
+COMBO:1.3.1.4.1.3.13	UMLS:C1883583	Yoga Therapy	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.3.1.4.1.3.13	Sivananda_Yoga	COMBO:1.3.1.4.1.3.13	hierarchy_backoff:ancestor=1.3.1.4.1.3:distance=1
+COMBO:1.3.1.4.1.3.14	UMLS:C1883583	Yoga Therapy	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.3.1.4.1.3.14	Bhakti_Yoga	COMBO:1.3.1.4.1.3.14	hierarchy_backoff:ancestor=1.3.1.4.1.3:distance=1
+COMBO:1.3.1.4.1.3.15	UMLS:C1883583	Yoga Therapy	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.3.1.4.1.3.15	Tantra_Yoga	COMBO:1.3.1.4.1.3.15	hierarchy_backoff:ancestor=1.3.1.4.1.3:distance=1
+COMBO:1.3.1.4.1.3.16	UMLS:C1883583	Yoga Therapy	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.3.1.4.1.3.16	Vinyasa_Yoga	COMBO:1.3.1.4.1.3.16	hierarchy_backoff:ancestor=1.3.1.4.1.3:distance=1
+COMBO:1.3.1.4.1.3.17	UMLS:C1883583	Yoga Therapy	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.3.1.4.1.3.17	Creative_Yoga	COMBO:1.3.1.4.1.3.17	hierarchy_backoff:ancestor=1.3.1.4.1.3:distance=1
+COMBO:1.3.1.4.1.3.18	UMLS:C1883583	Yoga Therapy	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.3.1.4.1.3.18	Relaxing_Yoga	COMBO:1.3.1.4.1.3.18	hierarchy_backoff:ancestor=1.3.1.4.1.3:distance=1
+COMBO:1.3.1.4.1.3.19	UMLS:C1883583	Yoga Therapy	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.3.1.4.1.3.19	Power_Yoga	COMBO:1.3.1.4.1.3.19	hierarchy_backoff:ancestor=1.3.1.4.1.3:distance=1
+COMBO:1.3.1.4.1.3.20	UMLS:C1883583	Yoga Therapy	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.3.1.4.1.3.20	Iyengar_Yoga	COMBO:1.3.1.4.1.3.20	hierarchy_backoff:ancestor=1.3.1.4.1.3:distance=1
+COMBO:1.3.1.4.1.3.21	UMLS:C1883583	Yoga Therapy	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.3.1.4.1.3.21	Karma_Yoga	COMBO:1.3.1.4.1.3.21	hierarchy_backoff:ancestor=1.3.1.4.1.3:distance=1
+COMBO:1.3.1.4.1.3.22	UMLS:C1883583	Yoga Therapy	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.3.1.4.1.3.22	Jinana_Yoga	COMBO:1.3.1.4.1.3.22	hierarchy_backoff:ancestor=1.3.1.4.1.3:distance=1
+COMBO:1.3.1.4.1.3.23	UMLS:C1883583	Yoga Therapy	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.3.1.4.1.3.23	Sahaj_Yoga	COMBO:1.3.1.4.1.3.23	hierarchy_backoff:ancestor=1.3.1.4.1.3:distance=1
+COMBO:1.3.1.4.1.3.24	UMLS:C1883583	Yoga Therapy	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.3.1.4.1.3.24	Hatha_Yoga	COMBO:1.3.1.4.1.3.24	hierarchy_backoff:ancestor=1.3.1.4.1.3:distance=1
+COMBO:1.3.1.4.1.3.25	UMLS:C1883583	Yoga Therapy	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.3.1.4.1.3.25	Yoga_Nidra	COMBO:1.3.1.4.1.3.25	hierarchy_backoff:ancestor=1.3.1.4.1.3:distance=1
+COMBO:1.3.1.4.1.4	MESH:D005081	Exercise Therapy	0.66	hierarchy_backoff_mapping	narrow_to_parent	1.3.1.4.1.4	Qigong_Therapy	COMBO:1.3.1.4.1.4	hierarchy_backoff:ancestor=1.3.1.4:distance=2
+COMBO:1.3.1.4.1.4.1	MESH:D005081	Exercise Therapy	0.6	hierarchy_backoff_mapping	narrow_to_parent	1.3.1.4.1.4.1	Hua_Gong	COMBO:1.3.1.4.1.4.1	hierarchy_backoff:ancestor=1.3.1.4:distance=3
+COMBO:1.3.1.4.1.4.2	MESH:D005081	Exercise Therapy	0.6	hierarchy_backoff_mapping	narrow_to_parent	1.3.1.4.1.4.2	Medical_Qigong	COMBO:1.3.1.4.1.4.2	hierarchy_backoff:ancestor=1.3.1.4:distance=3
+COMBO:1.3.1.4.1.4.2.1	MESH:D005081	Exercise Therapy	0.55	hierarchy_backoff_mapping	narrow_to_parent	1.3.1.4.1.4.2.1	External_Qi_Gong_Therapy	COMBO:1.3.1.4.1.4.2.1	hierarchy_backoff:ancestor=1.3.1.4:distance=4
+COMBO:1.3.1.4.1.4.2.2	MESH:D005081	Exercise Therapy	0.55	hierarchy_backoff_mapping	narrow_to_parent	1.3.1.4.1.4.2.2	Dongeui_Qigong	COMBO:1.3.1.4.1.4.2.2	hierarchy_backoff:ancestor=1.3.1.4:distance=4
+COMBO:1.3.1.4.1.4.2.3	MESH:D005081	Exercise Therapy	0.55	hierarchy_backoff_mapping	narrow_to_parent	1.3.1.4.1.4.2.3	Guolin_Qigong	COMBO:1.3.1.4.1.4.2.3	hierarchy_backoff:ancestor=1.3.1.4:distance=4
+COMBO:1.3.1.4.1.4.2.4	MESH:D005081	Exercise Therapy	0.55	hierarchy_backoff_mapping	narrow_to_parent	1.3.1.4.1.4.2.4	Qigong_Healer	COMBO:1.3.1.4.1.4.2.4	hierarchy_backoff:ancestor=1.3.1.4:distance=4
+COMBO:1.3.1.4.1.4.3	MESH:D005081	Exercise Therapy	0.6	hierarchy_backoff_mapping	narrow_to_parent	1.3.1.4.1.4.3	Chan_Mi_Gong	COMBO:1.3.1.4.1.4.3	hierarchy_backoff:ancestor=1.3.1.4:distance=3
+COMBO:1.3.1.4.1.4.4	MESH:D005081	Exercise Therapy	0.6	hierarchy_backoff_mapping	narrow_to_parent	1.3.1.4.1.4.4	Yi_Jia_Gong	COMBO:1.3.1.4.1.4.4	hierarchy_backoff:ancestor=1.3.1.4:distance=3
+COMBO:1.3.1.4.1.4.5	MESH:D005081	Exercise Therapy	0.6	hierarchy_backoff_mapping	narrow_to_parent	1.3.1.4.1.4.5	Biyun_Qi_Gong	COMBO:1.3.1.4.1.4.5	hierarchy_backoff:ancestor=1.3.1.4:distance=3
+COMBO:1.3.1.4.1.4.6	MESH:D005081	Exercise Therapy	0.6	hierarchy_backoff_mapping	narrow_to_parent	1.3.1.4.1.4.6	Daoyin_Qi_Gong	COMBO:1.3.1.4.1.4.6	hierarchy_backoff:ancestor=1.3.1.4:distance=3
+COMBO:1.3.1.4.1.4.7	MESH:D005081	Exercise Therapy	0.6	hierarchy_backoff_mapping	narrow_to_parent	1.3.1.4.1.4.7	Qi_Gong_Yangsheng	COMBO:1.3.1.4.1.4.7	hierarchy_backoff:ancestor=1.3.1.4:distance=3
+COMBO:1.3.1.4.1.4.8	MESH:D005081	Exercise Therapy	0.6	hierarchy_backoff_mapping	narrow_to_parent	1.3.1.4.1.4.8	Baduanjin_Qi_Gong	COMBO:1.3.1.4.1.4.8	hierarchy_backoff:ancestor=1.3.1.4:distance=3
+COMBO:1.3.1.4.1.4.9	MESH:D005081	Exercise Therapy	0.6	hierarchy_backoff_mapping	narrow_to_parent	1.3.1.4.1.4.9	Five_Animals_Qi_Gong	COMBO:1.3.1.4.1.4.9	hierarchy_backoff:ancestor=1.3.1.4:distance=3
+COMBO:1.3.1.4.3	MESH:D005081	Exercise Therapy	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.3.1.4.3	Aikido	COMBO:1.3.1.4.3	hierarchy_backoff:ancestor=1.3.1.4:distance=1
+COMBO:1.3.1.4.4	MESH:D005081	Exercise Therapy	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.3.1.4.4	Motor_Control_Exercise	COMBO:1.3.1.4.4	hierarchy_backoff:ancestor=1.3.1.4:distance=1
+COMBO:1.3.1.4.5	MESH:D005081	Exercise Therapy	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.3.1.4.5	Facial_Exercise	COMBO:1.3.1.4.5	hierarchy_backoff:ancestor=1.3.1.4:distance=1
+COMBO:1.3.1.4.5.1	MESH:D005081	Exercise Therapy	0.66	hierarchy_backoff_mapping	narrow_to_parent	1.3.1.4.5.1	Face_Yoga	COMBO:1.3.1.4.5.1	hierarchy_backoff:ancestor=1.3.1.4:distance=2
+COMBO:1.3.1.4.5.2	MESH:D005081	Exercise Therapy	0.66	hierarchy_backoff_mapping	narrow_to_parent	1.3.1.4.5.2	Facial_Resistance_Training	COMBO:1.3.1.4.5.2	hierarchy_backoff:ancestor=1.3.1.4:distance=2
+COMBO:1.3.1.4.5.3	MESH:D005081	Exercise Therapy	0.66	hierarchy_backoff_mapping	narrow_to_parent	1.3.1.4.5.3	Face_Shaping	COMBO:1.3.1.4.5.3	hierarchy_backoff:ancestor=1.3.1.4:distance=2
+COMBO:1.3.1.4.6	MESH:D005081	Exercise Therapy	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.3.1.4.6	Guided_Physical_Activity	COMBO:1.3.1.4.6	hierarchy_backoff:ancestor=1.3.1.4:distance=1
+COMBO:1.3.1.5	MESH:D000083626	Psychological Intervention	0.66	hierarchy_backoff_mapping	narrow_to_parent	1.3.1.5	Movement_Education	COMBO:1.3.1.5	hierarchy_backoff:ancestor=1.3:distance=2
+COMBO:1.3.1.5.1.1	UMLS:C0597812	Alexander technique	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.3.1.5.1.1	Alexander_Proprioception	COMBO:1.3.1.5.1.1	hierarchy_backoff:ancestor=1.3.1.5.1:distance=1
+COMBO:1.3.1.5.2	MESH:D000083626	Psychological Intervention	0.6	hierarchy_backoff_mapping	narrow_to_parent	1.3.1.5.2	Aston_Patterning	COMBO:1.3.1.5.2	hierarchy_backoff:ancestor=1.3:distance=3
+COMBO:1.3.1.6	MESH:D000083626	Psychological Intervention	0.66	hierarchy_backoff_mapping	narrow_to_parent	1.3.1.6	Art_of_Living	COMBO:1.3.1.6	hierarchy_backoff:ancestor=1.3:distance=2
+COMBO:1.3.1.7	MESH:D000083626	Psychological Intervention	0.66	hierarchy_backoff_mapping	narrow_to_parent	1.3.1.7	Eurythmy	COMBO:1.3.1.7	hierarchy_backoff:ancestor=1.3:distance=2
+COMBO:1.3.1.8	MESH:D000083626	Psychological Intervention	0.66	hierarchy_backoff_mapping	narrow_to_parent	1.3.1.8	Feldenkrais_Method	COMBO:1.3.1.8	hierarchy_backoff:ancestor=1.3:distance=2
+COMBO:1.3.1.8.1	MESH:D000083626	Psychological Intervention	0.6	hierarchy_backoff_mapping	narrow_to_parent	1.3.1.8.1	Functional_Integration	COMBO:1.3.1.8.1	hierarchy_backoff:ancestor=1.3:distance=3
+COMBO:1.3.1.9	MESH:D000083626	Psychological Intervention	0.66	hierarchy_backoff_mapping	narrow_to_parent	1.3.1.9	Flotation_Therapy	COMBO:1.3.1.9	hierarchy_backoff:ancestor=1.3:distance=2
+COMBO:1.3.1.10	MESH:D000083626	Psychological Intervention	0.66	hierarchy_backoff_mapping	narrow_to_parent	1.3.1.10	Sophrology	COMBO:1.3.1.10	hierarchy_backoff:ancestor=1.3:distance=2
+COMBO:1.3.2.1.1	UMLS:C2717786	Equine_Assisted_Therapy	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.3.2.1.1	Horse_Riding_Therapy	COMBO:1.3.2.1.1	hierarchy_backoff:ancestor=1.3.2.1:distance=1
+COMBO:1.3.2.1.1.1	UMLS:C2717786	Equine_Assisted_Therapy	0.66	hierarchy_backoff_mapping	narrow_to_parent	1.3.2.1.1.1	Psychoeducational_Horseback_Riding	COMBO:1.3.2.1.1.1	hierarchy_backoff:ancestor=1.3.2.1:distance=2
+COMBO:1.3.2.1.1.3	UMLS:C2717786	Equine_Assisted_Therapy	0.66	hierarchy_backoff_mapping	narrow_to_parent	1.3.2.1.1.3	Therapeutic_Horseback_Riding	COMBO:1.3.2.1.1.3	hierarchy_backoff:ancestor=1.3.2.1:distance=2
+COMBO:1.3.2.2	UMLS:C0150133	Animal_Assisted_Therapy	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.3.2.2	Animal_Companionship	COMBO:1.3.2.2	hierarchy_backoff:ancestor=1.3.2:distance=1
+COMBO:1.3.2.4	UMLS:C0150133	Animal_Assisted_Therapy	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.3.2.4	Dolphin_Assisted_Therapy	COMBO:1.3.2.4	hierarchy_backoff:ancestor=1.3.2:distance=1
+COMBO:1.3.2.5	UMLS:C0150133	Animal_Assisted_Therapy	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.3.2.5	Canine_Visitation_Therapy	COMBO:1.3.2.5	hierarchy_backoff:ancestor=1.3.2:distance=1
+COMBO:1.3.2.6	UMLS:C0150133	Animal_Assisted_Therapy	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.3.2.6	Companion_Animal_Therapy	COMBO:1.3.2.6	hierarchy_backoff:ancestor=1.3.2:distance=1
+COMBO:1.3.2.7	UMLS:C0150133	Animal_Assisted_Therapy	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.3.2.7	Dog_Assisted_Therapy	COMBO:1.3.2.7	hierarchy_backoff:ancestor=1.3.2:distance=1
+COMBO:1.3.2.7.1	UMLS:C0150133	Animal_Assisted_Therapy	0.66	hierarchy_backoff_mapping	narrow_to_parent	1.3.2.7.1	Canine_Assisted_Ambulation	COMBO:1.3.2.7.1	hierarchy_backoff:ancestor=1.3.2:distance=2
+COMBO:1.3.2.8	UMLS:C0150133	Animal_Assisted_Therapy	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.3.2.8	Animals_in_Human_Therapy	COMBO:1.3.2.8	hierarchy_backoff:ancestor=1.3.2:distance=1
+COMBO:1.3.4.1.1	MESH:D016500	Color Therapy	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.3.4.1.1	Aura_Soma_Therapy	COMBO:1.3.4.1.1	hierarchy_backoff:ancestor=1.3.4.1:distance=1
+COMBO:1.3.4.3.1	UMLS:C0376547	Aromatherapy	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.3.4.3.1	Scent_Therapy	COMBO:1.3.4.3.1	hierarchy_backoff:ancestor=1.3.4.3:distance=1
+COMBO:1.3.4.5	UMLS:C0969699	Sensory_Art_Therapy	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.3.4.5	Expressive_Therapy	COMBO:1.3.4.5	hierarchy_backoff:ancestor=1.3.4:distance=1
+COMBO:1.3.4.5.1.1.1	UMLS:C0003827	Art_Therapy	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.3.4.5.1.1.1	Pottery	COMBO:1.3.4.5.1.1.1	hierarchy_backoff:ancestor=1.3.4.5.1.1:distance=1
+COMBO:1.3.4.5.1.1.2	UMLS:C0003827	Art_Therapy	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.3.4.5.1.1.2	Chinese_Calligraphy_Therapy	COMBO:1.3.4.5.1.1.2	hierarchy_backoff:ancestor=1.3.4.5.1.1:distance=1
+COMBO:1.3.4.5.1.1.4	UMLS:C0003827	Art_Therapy	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.3.4.5.1.1.4	Mandala_Therapy	COMBO:1.3.4.5.1.1.4	hierarchy_backoff:ancestor=1.3.4.5.1.1:distance=1
+COMBO:1.3.4.5.2.1	MESH:D009147	Music Therapy	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.3.4.5.2.1	Musical_Game	COMBO:1.3.4.5.2.1	hierarchy_backoff:ancestor=1.3.4.5.2:distance=1
+COMBO:1.3.4.5.2.7	MESH:D009147	Music Therapy	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.3.4.5.2.7	Raga_Therapy	COMBO:1.3.4.5.2.7	hierarchy_backoff:ancestor=1.3.4.5.2:distance=1
+COMBO:1.3.5.2.2	UMLS:C0038659	Suggestion	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.3.5.2.2	Post_Hypnotic_Suggestion	COMBO:1.3.5.2.2	hierarchy_backoff:ancestor=1.3.5.2:distance=1
+COMBO:1.3.5.3	UMLS:C3888013	Hypnosis	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.3.5.3	Hypnoanalgesia	COMBO:1.3.5.3	hierarchy_backoff:ancestor=1.3.5:distance=1
+COMBO:1.3.5.5.1	UMLS:C2985297	Hypnobirthing	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.3.5.5.1	Antenatal_Self_Hypnosis	COMBO:1.3.5.5.1	hierarchy_backoff:ancestor=1.3.5.5:distance=1
+COMBO:1.3.5.6	UMLS:C3888013	Hypnosis	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.3.5.6	Cognitive_Hypnotherapy	COMBO:1.3.5.6	hierarchy_backoff:ancestor=1.3.5:distance=1
+COMBO:1.3.6.1	UMLS:C0150627	Imagery_Psychotherapy	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.3.6.1	Relaxation_Mental_Imagery	COMBO:1.3.6.1	hierarchy_backoff:ancestor=1.3.6:distance=1
+COMBO:1.3.7.2.1	UMLS:C0949912	Faith_Healing	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.3.7.2.1	Native_American_Faith_Healing	COMBO:1.3.7.2.1	hierarchy_backoff:ancestor=1.3.7.2:distance=1
+COMBO:1.3.7.4.1	UMLS:C0814263	Meditation_Therapy	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.3.7.4.1	Concentrative_Meditation	COMBO:1.3.7.4.1	hierarchy_backoff:ancestor=1.3.7.4:distance=1
+COMBO:1.3.7.4.1.1	UMLS:C0814263	Meditation_Therapy	0.66	hierarchy_backoff_mapping	narrow_to_parent	1.3.7.4.1.1	Mantra_Meditation	COMBO:1.3.7.4.1.1	hierarchy_backoff:ancestor=1.3.7.4:distance=2
+COMBO:1.3.7.4.1.2	UMLS:C0814263	Meditation_Therapy	0.66	hierarchy_backoff_mapping	narrow_to_parent	1.3.7.4.1.2	Zen_Meditation	COMBO:1.3.7.4.1.2	hierarchy_backoff:ancestor=1.3.7.4:distance=2
+COMBO:1.3.7.4.1.3	UMLS:C0814263	Meditation_Therapy	0.66	hierarchy_backoff_mapping	narrow_to_parent	1.3.7.4.1.3	Breath_Medication	COMBO:1.3.7.4.1.3	hierarchy_backoff:ancestor=1.3.7.4:distance=2
+COMBO:1.3.7.4.1.4	UMLS:C0814263	Meditation_Therapy	0.66	hierarchy_backoff_mapping	narrow_to_parent	1.3.7.4.1.4	Guided_Medication	COMBO:1.3.7.4.1.4	hierarchy_backoff:ancestor=1.3.7.4:distance=2
+COMBO:1.3.7.4.2.3	UMLS:C5891058	Mindfulness_Meditation	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.3.7.4.2.3	Body_Scanning_Meditation	COMBO:1.3.7.4.2.3	hierarchy_backoff:ancestor=1.3.7.4.2:distance=1
+COMBO:1.3.7.4.2.4	UMLS:C5891058	Mindfulness_Meditation	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.3.7.4.2.4	Mindfulness_Based_Stress_Reduction_Meditation	COMBO:1.3.7.4.2.4	hierarchy_backoff:ancestor=1.3.7.4.2:distance=1
+COMBO:1.3.7.4.2.4.1	UMLS:C5891058	Mindfulness_Meditation	0.66	hierarchy_backoff_mapping	narrow_to_parent	1.3.7.4.2.4.1	Cognitive_Behavioral_and_Mindfulness_Based_Stress_Reduction	COMBO:1.3.7.4.2.4.1	hierarchy_backoff:ancestor=1.3.7.4.2:distance=2
+COMBO:1.3.7.4.2.5	UMLS:C5891058	Mindfulness_Meditation	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.3.7.4.2.5	Walking_Medication	COMBO:1.3.7.4.2.5	hierarchy_backoff:ancestor=1.3.7.4.2:distance=1
+COMBO:1.3.7.4.2.6	UMLS:C5891058	Mindfulness_Meditation	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.3.7.4.2.6	Mindfulness_Based_Relapse_Prevention	COMBO:1.3.7.4.2.6	hierarchy_backoff:ancestor=1.3.7.4.2:distance=1
+COMBO:1.3.7.4.2.7	UMLS:C5891058	Mindfulness_Meditation	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.3.7.4.2.7	Adapted_Mindfulness_Based_Intervention	COMBO:1.3.7.4.2.7	hierarchy_backoff:ancestor=1.3.7.4.2:distance=1
+COMBO:1.3.7.4.2.8	UMLS:C5891058	Mindfulness_Meditation	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.3.7.4.2.8	Mindfulness_and_Acceptance_Based_Group_Therapy	COMBO:1.3.7.4.2.8	hierarchy_backoff:ancestor=1.3.7.4.2:distance=1
+COMBO:1.3.7.4.2.9	UMLS:C5891058	Mindfulness_Meditation	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.3.7.4.2.9	Mindfulness_Awareness_Practice	COMBO:1.3.7.4.2.9	hierarchy_backoff:ancestor=1.3.7.4.2:distance=1
+COMBO:1.3.7.4.2.11	UMLS:C5891058	Mindfulness_Meditation	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.3.7.4.2.11	Mindfulness_Based_Alzheimer_Stimulation	COMBO:1.3.7.4.2.11	hierarchy_backoff:ancestor=1.3.7.4.2:distance=1
+COMBO:1.3.7.4.2.12	UMLS:C5891058	Mindfulness_Meditation	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.3.7.4.2.12	Mindfulness_Based_Exposure_Therapy	COMBO:1.3.7.4.2.12	hierarchy_backoff:ancestor=1.3.7.4.2:distance=1
+COMBO:1.3.7.4.2.14	UMLS:C5891058	Mindfulness_Meditation	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.3.7.4.2.14	Mindfulness_Based_Resilience_Training	COMBO:1.3.7.4.2.14	hierarchy_backoff:ancestor=1.3.7.4.2:distance=1
+COMBO:1.3.7.4.2.15	UMLS:C5891058	Mindfulness_Meditation	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.3.7.4.2.15	Mindfulness_Based_Blood_Pressure_Reduction	COMBO:1.3.7.4.2.15	hierarchy_backoff:ancestor=1.3.7.4.2:distance=1
+COMBO:1.3.7.4.2.16	UMLS:C5891058	Mindfulness_Meditation	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.3.7.4.2.16	Mindfulness_Based_College	COMBO:1.3.7.4.2.16	hierarchy_backoff:ancestor=1.3.7.4.2:distance=1
+COMBO:1.3.7.4.2.17	UMLS:C5891058	Mindfulness_Meditation	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.3.7.4.2.17	Mindful_Self_Compassiion	COMBO:1.3.7.4.2.17	hierarchy_backoff:ancestor=1.3.7.4.2:distance=1
+COMBO:1.3.7.4.2.18	UMLS:C5891058	Mindfulness_Meditation	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.3.7.4.2.18	Mindfulness_Performance_Enhanncement_Awareness_and_Knowledge	COMBO:1.3.7.4.2.18	hierarchy_backoff:ancestor=1.3.7.4.2:distance=1
+COMBO:1.3.7.4.3	UMLS:C0814263	Meditation_Therapy	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.3.7.4.3	Vipassana_Meditation	COMBO:1.3.7.4.3	hierarchy_backoff:ancestor=1.3.7.4:distance=1
+COMBO:1.3.7.4.4	UMLS:C0814263	Meditation_Therapy	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.3.7.4.4	Analytical_Meditation	COMBO:1.3.7.4.4	hierarchy_backoff:ancestor=1.3.7.4:distance=1
+COMBO:1.3.7.4.5	UMLS:C0814263	Meditation_Therapy	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.3.7.4.5	Theravada_Meditation	COMBO:1.3.7.4.5	hierarchy_backoff:ancestor=1.3.7.4:distance=1
+COMBO:1.3.7.4.6	UMLS:C0814263	Meditation_Therapy	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.3.7.4.6	Heartfulness_Meditation	COMBO:1.3.7.4.6	hierarchy_backoff:ancestor=1.3.7.4:distance=1
+COMBO:1.3.7.4.7	UMLS:C0814263	Meditation_Therapy	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.3.7.4.7	Compassion_Based_Meditation	COMBO:1.3.7.4.7	hierarchy_backoff:ancestor=1.3.7.4:distance=1
+COMBO:1.3.7.4.8	UMLS:C0814263	Meditation_Therapy	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.3.7.4.8	Loving_Kindness_Meditation	COMBO:1.3.7.4.8	hierarchy_backoff:ancestor=1.3.7.4:distance=1
+COMBO:1.3.7.7	UMLS:C0679674	Spiritual_Therapy	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.3.7.7	Shamanic_Healing	COMBO:1.3.7.7	hierarchy_backoff:ancestor=1.3.7:distance=1
+COMBO:1.3.7.9	UMLS:C0679674	Spiritual_Therapy	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.3.7.9	Noetic_Therapy	COMBO:1.3.7.9	hierarchy_backoff:ancestor=1.3.7:distance=1
+COMBO:1.3.7.10	UMLS:C0679674	Spiritual_Therapy	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.3.7.10	Divining	COMBO:1.3.7.10	hierarchy_backoff:ancestor=1.3.7:distance=1
+COMBO:1.3.7.12	UMLS:C0679674	Spiritual_Therapy	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.3.7.12	Sound_Healing	COMBO:1.3.7.12	hierarchy_backoff:ancestor=1.3.7:distance=1
+COMBO:1.3.8.2.1	MESH:D019341	Aromatherapy	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.3.8.2.1	Scent_Therapy	COMBO:1.3.8.2.1	hierarchy_backoff:ancestor=1.3.8.2:distance=1
+COMBO:1.3.8.3	UMLS:C1883174	Stress_Management_Therapy	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.3.8.3	Mindfulness_Based_Stress_Reduction_Meditation	COMBO:1.3.8.3	hierarchy_backoff:ancestor=1.3.8:distance=1
+COMBO:1.3.8.3.1	UMLS:C1883174	Stress_Management_Therapy	0.66	hierarchy_backoff_mapping	narrow_to_parent	1.3.8.3.1	Cognitive_Behavioral_and_Mindfulness_Based_Stress_Reduction	COMBO:1.3.8.3.1	hierarchy_backoff:ancestor=1.3.8:distance=2
+COMBO:1.3.10.3	UMLS:C0033968	Psychotherapy	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.3.10.3	Body_Psychotherapy	COMBO:1.3.10.3	hierarchy_backoff:ancestor=1.3.10:distance=1
+COMBO:1.3.10.4.3	UMLS:C0010210	Counseling	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.3.10.4.3	Biographical_Counseling	COMBO:1.3.10.4.3	hierarchy_backoff:ancestor=1.3.10.4:distance=1
+COMBO:1.3.10.9	UMLS:C0033968	Psychotherapy	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.3.10.9	Positive_Self_Talk	COMBO:1.3.10.9	hierarchy_backoff:ancestor=1.3.10:distance=1
+COMBO:1.3.10.10	UMLS:C0033968	Psychotherapy	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.3.10.10	Psychotherapy_Incorporating_Mindfulness	COMBO:1.3.10.10	hierarchy_backoff:ancestor=1.3.10:distance=1
+COMBO:1.3.10.11	UMLS:C0033968	Psychotherapy	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.3.10.11	Psychotherapy_Incorporating_Spirituality	COMBO:1.3.10.11	hierarchy_backoff:ancestor=1.3.10:distance=1
+COMBO:1.3.11	MESH:D000083626	Psychological Intervention	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.3.11	Thought_Field_Therapy	COMBO:1.3.11	hierarchy_backoff:ancestor=1.3:distance=1
+COMBO:1.3.13.1	UMLS:C2981153	Focusing	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.3.13.1	Attentional_Focus	COMBO:1.3.13.1	hierarchy_backoff:ancestor=1.3.13:distance=1
+COMBO:1.3.13.3	UMLS:C2981153	Focusing	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.3.13.3	Body_State_Focusing	COMBO:1.3.13.3	hierarchy_backoff:ancestor=1.3.13:distance=1
+COMBO:1.3.13.4	UMLS:C2981153	Focusing	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.3.13.4	Attentional_Focus_and_Symptom_Management_Intervention	COMBO:1.3.13.4	hierarchy_backoff:ancestor=1.3.13:distance=1
+COMBO:1.3.13.5	UMLS:C2981153	Focusing	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.3.13.5	Internal_Focusing	COMBO:1.3.13.5	hierarchy_backoff:ancestor=1.3.13:distance=1
+COMBO:1.3.13.6	UMLS:C2981153	Focusing	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.3.13.6	Focus_on_Love_and_Gratitude	COMBO:1.3.13.6	hierarchy_backoff:ancestor=1.3.13:distance=1
+COMBO:1.3.13.7	UMLS:C2981153	Focusing	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.3.13.7	External_Focusing	COMBO:1.3.13.7	hierarchy_backoff:ancestor=1.3.13:distance=1
+COMBO:1.3.13.8	UMLS:C2981153	Focusing	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.3.13.8	Interoceptive_Awareness	COMBO:1.3.13.8	hierarchy_backoff:ancestor=1.3.13:distance=1
+COMBO:1.3.13.9	UMLS:C2981153	Focusing	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.3.13.9	Mindful_Awareness_in_Body_Oriented_Therapy	COMBO:1.3.13.9	hierarchy_backoff:ancestor=1.3.13:distance=1
+COMBO:1.3.15	MESH:D000083626	Psychological Intervention	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.3.15	Environmental_Therapy	COMBO:1.3.15	hierarchy_backoff:ancestor=1.3:distance=1
+COMBO:1.3.18	MESH:D000083626	Psychological Intervention	0.72	hierarchy_backoff_mapping	narrow_to_parent	1.3.18	Sound_Therapy	COMBO:1.3.18	hierarchy_backoff:ancestor=1.3:distance=1
+COMBO:2.2.2.10	UMLS:C0019240	Herb	0.72	hierarchy_backoff_mapping	narrow_to_parent	2.2.2.10	Tea	COMBO:2.2.2.10	hierarchy_backoff:ancestor=2.2.2:distance=1
+COMBO:2.2.2.12	UMLS:C0019240	Herb	0.72	hierarchy_backoff_mapping	narrow_to_parent	2.2.2.12	Licorice_Root	COMBO:2.2.2.12	hierarchy_backoff:ancestor=2.2.2:distance=1
+COMBO:2.2.2.26	UMLS:C0019240	Herb	0.72	hierarchy_backoff_mapping	narrow_to_parent	2.2.2.26	Chamomile	COMBO:2.2.2.26	hierarchy_backoff:ancestor=2.2.2:distance=1
+COMBO:2.2.2.27	UMLS:C0019240	Herb	0.72	hierarchy_backoff_mapping	narrow_to_parent	2.2.2.27	Chasteberry	COMBO:2.2.2.27	hierarchy_backoff:ancestor=2.2.2:distance=1
+COMBO:2.2.2.28	UMLS:C0019240	Herb	0.72	hierarchy_backoff_mapping	narrow_to_parent	2.2.2.28	Echinacea	COMBO:2.2.2.28	hierarchy_backoff:ancestor=2.2.2:distance=1
+COMBO:2.2.2.35	UMLS:C0019240	Herb	0.72	hierarchy_backoff_mapping	narrow_to_parent	2.2.2.35	Sage	COMBO:2.2.2.35	hierarchy_backoff:ancestor=2.2.2:distance=1
+COMBO:2.2.2.36	UMLS:C0019240	Herb	0.72	hierarchy_backoff_mapping	narrow_to_parent	2.2.2.36	St	COMBO:2.2.2.36	hierarchy_backoff:ancestor=2.2.2:distance=1
+COMBO:2.2.2.37	UMLS:C0019240	Herb	0.72	hierarchy_backoff_mapping	narrow_to_parent	2.2.2.37	Valerian	COMBO:2.2.2.37	hierarchy_backoff:ancestor=2.2.2:distance=1
+COMBO:2.2.2.38	UMLS:C0019240	Herb	0.72	hierarchy_backoff_mapping	narrow_to_parent	2.2.2.38	Cat	COMBO:2.2.2.38	hierarchy_backoff:ancestor=2.2.2:distance=1
+COMBO:3.4.4	UMLS:C0025131	Traditional_Medicine	0.72	hierarchy_backoff_mapping	narrow_to_parent	3.4.4	Traditional_Indian_Medicine	COMBO:3.4.4	hierarchy_backoff:ancestor=3.4:distance=1
+COMBO:3.4.5.6	UMLS:C0025129	Traditional_East_Asian_Medicine	0.72	hierarchy_backoff_mapping	narrow_to_parent	3.4.5.6	Traditional_Japanese_Medicine	COMBO:3.4.5.6	hierarchy_backoff:ancestor=3.4.5:distance=1

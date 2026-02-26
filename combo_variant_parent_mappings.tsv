@@ -1,0 +1,126 @@
+input_curie	preferred_identifier	preferred_label	confidence	method	mapping_relation	combo_concept_id	combo_label	source_identifier	evidence
+COMBO:1.2.1.5	UMLS:C0394664	Acupuncture	0.78	variant_parent_mapping	narrow_to_parent	1.2.1.5	Japanese_Acupuncture	COMBO:1.2.1.5	variant_parent:narrow_to_parent:acupuncture
+COMBO:1.2.1.7	UMLS:C0394664	Acupuncture	0.78	variant_parent_mapping	narrow_to_parent	1.2.1.7	Korean_Acupuncture	COMBO:1.2.1.7	variant_parent:narrow_to_parent:acupuncture
+COMBO:1.2.1.8	UMLS:C0394664	Acupuncture	0.78	variant_parent_mapping	narrow_to_parent	1.2.1.8	Single_Point_Acupuncture	COMBO:1.2.1.8	variant_parent:narrow_to_parent:acupuncture
+COMBO:1.2.1.9	UMLS:C0394664	Acupuncture	0.78	variant_parent_mapping	narrow_to_parent	1.2.1.9	Hand_Acupuncture	COMBO:1.2.1.9	variant_parent:narrow_to_parent:acupuncture
+COMBO:1.2.1.10	UMLS:C0394664	Acupuncture	0.78	variant_parent_mapping	narrow_to_parent	1.2.1.10	Foot_Acupuncture	COMBO:1.2.1.10	variant_parent:narrow_to_parent:acupuncture
+COMBO:1.2.1.11	UMLS:C0026652	Moxibustion	0.78	variant_parent_mapping	narrow_to_parent	1.2.1.11	Acu_Moxibustion	COMBO:1.2.1.11	variant_parent:narrow_to_parent:moxibustion
+COMBO:1.2.1.11.1	UMLS:C0026652	Moxibustion	0.78	variant_parent_mapping	narrow_to_parent	1.2.1.11.1	Needle_Moxibustion	COMBO:1.2.1.11.1	variant_parent:narrow_to_parent:moxibustion
+COMBO:1.2.1.11.1.1	UMLS:C0026652	Moxibustion	0.78	variant_parent_mapping	narrow_to_parent	1.2.1.11.1.1	Warm_Needle_Moxibustion	COMBO:1.2.1.11.1.1	variant_parent:narrow_to_parent:moxibustion
+COMBO:1.2.1.12	UMLS:C0394664	Acupuncture	0.78	variant_parent_mapping	narrow_to_parent	1.2.1.12	Chinese_Acupuncture	COMBO:1.2.1.12	variant_parent:narrow_to_parent:acupuncture
+COMBO:1.2.6.1.1	UMLS:C0006155	Breathing_Exercise	0.72	variant_parent_mapping	close_match	1.2.6.1.1	Buteyko_Breathing_Technique	COMBO:1.2.6.1.1	variant_parent:close_match:breathing exercise
+COMBO:1.2.6.2.1.1	UMLS:C0003827	Art_Therapy	0.78	variant_parent_mapping	narrow_to_parent	1.2.6.2.1.1	Visual_Art_Therapy	COMBO:1.2.6.2.1.1	variant_parent:narrow_to_parent:art therapy
+COMBO:1.2.6.2.1.1.3	UMLS:C0003827	Art_Therapy	0.78	variant_parent_mapping	narrow_to_parent	1.2.6.2.1.1.3	Clay_Art_Therapy	COMBO:1.2.6.2.1.1.3	variant_parent:narrow_to_parent:art therapy
+COMBO:1.2.6.2.1.3	UMLS:C0003827	Art_Therapy	0.78	variant_parent_mapping	narrow_to_parent	1.2.6.2.1.3	Phenomenological_Art_Therapy	COMBO:1.2.6.2.1.3	variant_parent:narrow_to_parent:art therapy
+COMBO:1.2.6.2.1.4	UMLS:C0003827	Art_Therapy	0.78	variant_parent_mapping	narrow_to_parent	1.2.6.2.1.4	Mindfulness_Based_Art_Therapy	COMBO:1.2.6.2.1.4	variant_parent:narrow_to_parent:art therapy
+COMBO:1.2.6.2.1.5	UMLS:C0003827	Art_Therapy	0.78	variant_parent_mapping	narrow_to_parent	1.2.6.2.1.5	Psychodynamic_Group_Art_Therapy	COMBO:1.2.6.2.1.5	variant_parent:narrow_to_parent:art therapy
+COMBO:1.2.6.2.1.6	UMLS:C0003827	Art_Therapy	0.78	variant_parent_mapping	narrow_to_parent	1.2.6.2.1.6	Anthroposophic_Art_Therapy	COMBO:1.2.6.2.1.6	variant_parent:narrow_to_parent:art therapy
+COMBO:1.2.6.2.3.2	UMLS:C0026868	Music_Therapy	0.78	variant_parent_mapping	narrow_to_parent	1.2.6.2.3.2	Orff_Based_Music_Therapy	COMBO:1.2.6.2.3.2	variant_parent:narrow_to_parent:music therapy
+COMBO:1.2.6.2.3.9	UMLS:C0026868	Music_Therapy	0.78	variant_parent_mapping	narrow_to_parent	1.2.6.2.3.9	Active_Music_Therapy	COMBO:1.2.6.2.3.9	variant_parent:narrow_to_parent:music therapy
+COMBO:1.2.6.2.3.9.1	UMLS:C0026868	Music_Therapy	0.78	variant_parent_mapping	narrow_to_parent	1.2.6.2.3.9.1	Interactive_Music_Therapy	COMBO:1.2.6.2.3.9.1	variant_parent:narrow_to_parent:music therapy
+COMBO:1.2.6.2.3.14	UMLS:C0026868	Music_Therapy	0.78	variant_parent_mapping	narrow_to_parent	1.2.6.2.3.14	Instructional_Music_Therapy	COMBO:1.2.6.2.3.14	variant_parent:narrow_to_parent:music therapy
+COMBO:1.2.6.2.3.15	UMLS:C0026868	Music_Therapy	0.78	variant_parent_mapping	narrow_to_parent	1.2.6.2.3.15	Improvisational_Music_Therapy	COMBO:1.2.6.2.3.15	variant_parent:narrow_to_parent:music therapy
+COMBO:1.2.6.2.3.19	UMLS:C0026868	Music_Therapy	0.78	variant_parent_mapping	narrow_to_parent	1.2.6.2.3.19	Calming_Music_Therapy	COMBO:1.2.6.2.3.19	variant_parent:narrow_to_parent:music therapy
+COMBO:1.2.6.2.3.20	UMLS:C0026868	Music_Therapy	0.78	variant_parent_mapping	narrow_to_parent	1.2.6.2.3.20	Live_Music_Therapy	COMBO:1.2.6.2.3.20	variant_parent:narrow_to_parent:music therapy
+COMBO:1.2.6.2.4.2	UMLS:C0034945	Reflexology	0.78	variant_parent_mapping	narrow_to_parent	1.2.6.2.4.2	Lymphatic_Reflexology	COMBO:1.2.6.2.4.2	variant_parent:narrow_to_parent:reflexology
+COMBO:1.2.6.2.4.3	UMLS:C0034945	Reflexology	0.78	variant_parent_mapping	narrow_to_parent	1.2.6.2.4.3	Foot_Reflexology	COMBO:1.2.6.2.4.3	variant_parent:narrow_to_parent:reflexology
+COMBO:1.2.6.2.4.4	UMLS:C0034945	Reflexology	0.78	variant_parent_mapping	narrow_to_parent	1.2.6.2.4.4	Hand_Reflexology	COMBO:1.2.6.2.4.4	variant_parent:narrow_to_parent:reflexology
+COMBO:1.2.6.3.3	UMLS:C0005491	Biofeedback	0.78	variant_parent_mapping	narrow_to_parent	1.2.6.3.3	Heart_Rate_Variability_Biofeedback	COMBO:1.2.6.3.3	variant_parent:narrow_to_parent:biofeedback
+COMBO:1.2.6.3.4	UMLS:C0005491	Biofeedback	0.78	variant_parent_mapping	narrow_to_parent	1.2.6.3.4	Electromyography_Biofeedback	COMBO:1.2.6.3.4	variant_parent:narrow_to_parent:biofeedback
+COMBO:1.2.6.3.6	UMLS:C0005491	Biofeedback	0.78	variant_parent_mapping	narrow_to_parent	1.2.6.3.6	Assisted_Biofeedback	COMBO:1.2.6.3.6	variant_parent:narrow_to_parent:biofeedback
+COMBO:1.2.12.1	UMLS:C0026652	Moxibustion	0.78	variant_parent_mapping	narrow_to_parent	1.2.12.1	Acu_Moxibustion	COMBO:1.2.12.1	variant_parent:narrow_to_parent:moxibustion
+COMBO:1.2.12.1.1	UMLS:C0026652	Moxibustion	0.78	variant_parent_mapping	narrow_to_parent	1.2.12.1.1	Needle_Moxibustion	COMBO:1.2.12.1.1	variant_parent:narrow_to_parent:moxibustion
+COMBO:1.2.12.1.1.1	UMLS:C0026652	Moxibustion	0.78	variant_parent_mapping	narrow_to_parent	1.2.12.1.1.1	Warm_Needle_Moxibustion	COMBO:1.2.12.1.1.1	variant_parent:narrow_to_parent:moxibustion
+COMBO:1.2.12.2	UMLS:C0026652	Moxibustion	0.78	variant_parent_mapping	narrow_to_parent	1.2.12.2	Mild_Moxibustion	COMBO:1.2.12.2	variant_parent:narrow_to_parent:moxibustion
+COMBO:1.2.12.2.1	UMLS:C0026652	Moxibustion	0.78	variant_parent_mapping	narrow_to_parent	1.2.12.2.1	Cake_Separated_Moxibustion	COMBO:1.2.12.2.1	variant_parent:narrow_to_parent:moxibustion
+COMBO:1.2.12.2.1.1	UMLS:C0026652	Moxibustion	0.78	variant_parent_mapping	narrow_to_parent	1.2.12.2.1.1	Aconite_Cake_Separated_Moxibustion	COMBO:1.2.12.2.1.1	variant_parent:narrow_to_parent:moxibustion
+COMBO:1.2.12.2.1.2	UMLS:C0026652	Moxibustion	0.78	variant_parent_mapping	narrow_to_parent	1.2.12.2.1.2	Angelica_Cake_Moxibustion	COMBO:1.2.12.2.1.2	variant_parent:narrow_to_parent:moxibustion
+COMBO:1.2.12.2.1.3	UMLS:C0026652	Moxibustion	0.78	variant_parent_mapping	narrow_to_parent	1.2.12.2.1.3	Cake_Separated_Mild_Warm_Moxibustion	COMBO:1.2.12.2.1.3	variant_parent:narrow_to_parent:moxibustion
+COMBO:1.2.12.2.1.3.1	UMLS:C0026652	Moxibustion	0.78	variant_parent_mapping	narrow_to_parent	1.2.12.2.1.3.1	Monkshood_Cake_Separated_Mild_Warm_Moxibustion	COMBO:1.2.12.2.1.3.1	variant_parent:narrow_to_parent:moxibustion
+COMBO:1.2.12.3	UMLS:C0026652	Moxibustion	0.78	variant_parent_mapping	narrow_to_parent	1.2.12.3	Bird_Pecking_Moxibustion	COMBO:1.2.12.3	variant_parent:narrow_to_parent:moxibustion
+COMBO:1.2.12.4	UMLS:C0026652	Moxibustion	0.78	variant_parent_mapping	narrow_to_parent	1.2.12.4	Cone_Moxibustion	COMBO:1.2.12.4	variant_parent:narrow_to_parent:moxibustion
+COMBO:1.2.12.4.1	UMLS:C0026652	Moxibustion	0.78	variant_parent_mapping	narrow_to_parent	1.2.12.4.1	Direct_Cone_Moxibustion	COMBO:1.2.12.4.1	variant_parent:narrow_to_parent:moxibustion
+COMBO:1.2.12.5	UMLS:C0026652	Moxibustion	0.78	variant_parent_mapping	narrow_to_parent	1.2.12.5	Indirect_Moxibustion	COMBO:1.2.12.5	variant_parent:narrow_to_parent:moxibustion
+COMBO:1.2.12.5.1	UMLS:C0026652	Moxibustion	0.78	variant_parent_mapping	narrow_to_parent	1.2.12.5.1	Suspended_Moxibustion	COMBO:1.2.12.5.1	variant_parent:narrow_to_parent:moxibustion
+COMBO:1.2.12.5.1.1	UMLS:C0026652	Moxibustion	0.78	variant_parent_mapping	narrow_to_parent	1.2.12.5.1.1	Circling_Moxibustion	COMBO:1.2.12.5.1.1	variant_parent:narrow_to_parent:moxibustion
+COMBO:1.2.12.5.1.2	UMLS:C0026652	Moxibustion	0.78	variant_parent_mapping	narrow_to_parent	1.2.12.5.1.2	Hand_Moxibustion	COMBO:1.2.12.5.1.2	variant_parent:narrow_to_parent:moxibustion
+COMBO:1.2.12.5.1.3	UMLS:C0026652	Moxibustion	0.78	variant_parent_mapping	narrow_to_parent	1.2.12.5.1.3	Hanging_Moxibustion	COMBO:1.2.12.5.1.3	variant_parent:narrow_to_parent:moxibustion
+COMBO:1.2.12.5.1.4	UMLS:C0026652	Moxibustion	0.78	variant_parent_mapping	narrow_to_parent	1.2.12.5.1.4	Dynamic_Moxibustion	COMBO:1.2.12.5.1.4	variant_parent:narrow_to_parent:moxibustion
+COMBO:1.2.12.5.1.5	UMLS:C0026652	Moxibustion	0.78	variant_parent_mapping	narrow_to_parent	1.2.12.5.1.5	Heat_Sensitive_Moxibustion	COMBO:1.2.12.5.1.5	variant_parent:narrow_to_parent:moxibustion
+COMBO:1.2.12.5.1.6	UMLS:C0026652	Moxibustion	0.78	variant_parent_mapping	narrow_to_parent	1.2.12.5.1.6	Electric_Heating_Moxibustion	COMBO:1.2.12.5.1.6	variant_parent:narrow_to_parent:moxibustion
+COMBO:1.2.12.5.1.7	UMLS:C0026652	Moxibustion	0.78	variant_parent_mapping	narrow_to_parent	1.2.12.5.1.7	Electronic_Moxibustion	COMBO:1.2.12.5.1.7	variant_parent:narrow_to_parent:moxibustion
+COMBO:1.2.12.5.1.8	UMLS:C0026652	Moxibustion	0.78	variant_parent_mapping	narrow_to_parent	1.2.12.5.1.8	Electrothermal_Bian_Stone_Moxibustion	COMBO:1.2.12.5.1.8	variant_parent:narrow_to_parent:moxibustion
+COMBO:1.2.12.5.1.9	UMLS:C0026652	Moxibustion	0.78	variant_parent_mapping	narrow_to_parent	1.2.12.5.1.9	Laser_Moxibustion	COMBO:1.2.12.5.1.9	variant_parent:narrow_to_parent:moxibustion
+COMBO:1.2.12.5.1.9.1	UMLS:C0026652	Moxibustion	0.78	variant_parent_mapping	narrow_to_parent	1.2.12.5.1.9.1	Infrared_Laser_Moxibustion	COMBO:1.2.12.5.1.9.1	variant_parent:narrow_to_parent:moxibustion
+COMBO:1.2.12.5.1.10	UMLS:C0026652	Moxibustion	0.78	variant_parent_mapping	narrow_to_parent	1.2.12.5.1.10	Warming_Cup_Moxibustion	COMBO:1.2.12.5.1.10	variant_parent:narrow_to_parent:moxibustion
+COMBO:1.2.12.5.1.11	UMLS:C0026652	Moxibustion	0.78	variant_parent_mapping	narrow_to_parent	1.2.12.5.1.11	Warming_Moxibustion	COMBO:1.2.12.5.1.11	variant_parent:narrow_to_parent:moxibustion
+COMBO:1.2.12.5.2	UMLS:C0026652	Moxibustion	0.78	variant_parent_mapping	narrow_to_parent	1.2.12.5.2	Substance_Partitioned_Moxibustion	COMBO:1.2.12.5.2	variant_parent:narrow_to_parent:moxibustion
+COMBO:1.2.12.5.2.1	UMLS:C0026652	Moxibustion	0.78	variant_parent_mapping	narrow_to_parent	1.2.12.5.2.1	Crude_Herb_Moxibustion	COMBO:1.2.12.5.2.1	variant_parent:narrow_to_parent:moxibustion
+COMBO:1.2.12.5.2.3	UMLS:C0026652	Moxibustion	0.78	variant_parent_mapping	narrow_to_parent	1.2.12.5.2.3	Drug_Separated_Moxibustion	COMBO:1.2.12.5.2.3	variant_parent:narrow_to_parent:moxibustion
+COMBO:1.2.12.5.2.4	UMLS:C0026652	Moxibustion	0.78	variant_parent_mapping	narrow_to_parent	1.2.12.5.2.4	Du_Moxibustion	COMBO:1.2.12.5.2.4	variant_parent:narrow_to_parent:moxibustion
+COMBO:1.2.12.5.2.5	UMLS:C0026652	Moxibustion	0.78	variant_parent_mapping	narrow_to_parent	1.2.12.5.2.5	Garlic_Moxibustion	COMBO:1.2.12.5.2.5	variant_parent:narrow_to_parent:moxibustion
+COMBO:1.2.12.5.2.6	UMLS:C0026652	Moxibustion	0.78	variant_parent_mapping	narrow_to_parent	1.2.12.5.2.6	Ginger_Indirect_Moxibustion	COMBO:1.2.12.5.2.6	variant_parent:narrow_to_parent:moxibustion
+COMBO:1.2.12.5.2.7	UMLS:C0026652	Moxibustion	0.78	variant_parent_mapping	narrow_to_parent	1.2.12.5.2.7	Ginger_Partitioned_Moxibustion	COMBO:1.2.12.5.2.7	variant_parent:narrow_to_parent:moxibustion
+COMBO:1.2.12.5.2.8	UMLS:C0026652	Moxibustion	0.78	variant_parent_mapping	narrow_to_parent	1.2.12.5.2.8	Ginger_Salt_Partitioned_Moxibustion	COMBO:1.2.12.5.2.8	variant_parent:narrow_to_parent:moxibustion
+COMBO:1.2.12.5.2.9	UMLS:C0026652	Moxibustion	0.78	variant_parent_mapping	narrow_to_parent	1.2.12.5.2.9	Herb_Cake_Seperated_Moxibustion	COMBO:1.2.12.5.2.9	variant_parent:narrow_to_parent:moxibustion
+COMBO:1.2.12.5.2.10	UMLS:C0026652	Moxibustion	0.78	variant_parent_mapping	narrow_to_parent	1.2.12.5.2.10	Herb_Partitioned_Spread_Moxibustion	COMBO:1.2.12.5.2.10	variant_parent:narrow_to_parent:moxibustion
+COMBO:1.2.12.5.2.11	UMLS:C0026652	Moxibustion	0.78	variant_parent_mapping	narrow_to_parent	1.2.12.5.2.11	Herbal_Moxa_Moxibustion	COMBO:1.2.12.5.2.11	variant_parent:narrow_to_parent:moxibustion
+COMBO:1.2.12.5.2.12	UMLS:C0026652	Moxibustion	0.78	variant_parent_mapping	narrow_to_parent	1.2.12.5.2.12	Grain_Shaped_Moxibustion	COMBO:1.2.12.5.2.12	variant_parent:narrow_to_parent:moxibustion
+COMBO:1.2.12.5.2.13	UMLS:C0026652	Moxibustion	0.78	variant_parent_mapping	narrow_to_parent	1.2.12.5.2.13	Cotton_Sheet_Moxibustion	COMBO:1.2.12.5.2.13	variant_parent:narrow_to_parent:moxibustion
+COMBO:1.2.12.5.2.14	UMLS:C0026652	Moxibustion	0.78	variant_parent_mapping	narrow_to_parent	1.2.12.5.2.14	Thin_Cotton_Moxibustion	COMBO:1.2.12.5.2.14	variant_parent:narrow_to_parent:moxibustion
+COMBO:1.2.12.5.2.15	UMLS:C0026652	Moxibustion	0.78	variant_parent_mapping	narrow_to_parent	1.2.12.5.2.15	Thunder_Fire_Moxibustion	COMBO:1.2.12.5.2.15	variant_parent:narrow_to_parent:moxibustion
+COMBO:1.2.12.5.2.16	UMLS:C0026652	Moxibustion	0.78	variant_parent_mapping	narrow_to_parent	1.2.12.5.2.16	Tortoise_Shell_Moxibustion	COMBO:1.2.12.5.2.16	variant_parent:narrow_to_parent:moxibustion
+COMBO:1.2.12.5.2.17	UMLS:C0026652	Moxibustion	0.78	variant_parent_mapping	narrow_to_parent	1.2.12.5.2.17	Partition_Bran_Moxibustion	COMBO:1.2.12.5.2.17	variant_parent:narrow_to_parent:moxibustion
+COMBO:1.2.12.5.2.18	UMLS:C0026652	Moxibustion	0.78	variant_parent_mapping	narrow_to_parent	1.2.12.5.2.18	Partition_Herb_Moxibustion	COMBO:1.2.12.5.2.18	variant_parent:narrow_to_parent:moxibustion
+COMBO:1.2.12.5.2.19	UMLS:C0026652	Moxibustion	0.78	variant_parent_mapping	narrow_to_parent	1.2.12.5.2.19	Isolated_Moxibustion	COMBO:1.2.12.5.2.19	variant_parent:narrow_to_parent:moxibustion
+COMBO:1.2.12.5.3	UMLS:C0026652	Moxibustion	0.78	variant_parent_mapping	narrow_to_parent	1.2.12.5.3	Mild_Warm_Moxibustion	COMBO:1.2.12.5.3	variant_parent:narrow_to_parent:moxibustion
+COMBO:1.2.12.5.4	UMLS:C0026652	Moxibustion	0.78	variant_parent_mapping	narrow_to_parent	1.2.12.5.4	Moxa_Stick_Moxibustion	COMBO:1.2.12.5.4	variant_parent:narrow_to_parent:moxibustion
+COMBO:1.2.12.5.5	UMLS:C0026652	Moxibustion	0.78	variant_parent_mapping	narrow_to_parent	1.2.12.5.5	Governor_Moxibustion	COMBO:1.2.12.5.5	variant_parent:narrow_to_parent:moxibustion
+COMBO:1.2.12.5.6	UMLS:C0026652	Moxibustion	0.78	variant_parent_mapping	narrow_to_parent	1.2.12.5.6	Fu_Yang_Moxibustion	COMBO:1.2.12.5.6	variant_parent:narrow_to_parent:moxibustion
+COMBO:1.2.12.6	UMLS:C0026652	Moxibustion	0.78	variant_parent_mapping	narrow_to_parent	1.2.12.6	Snake_Moxibustion	COMBO:1.2.12.6	variant_parent:narrow_to_parent:moxibustion
+COMBO:1.2.12.6.1	UMLS:C0026652	Moxibustion	0.78	variant_parent_mapping	narrow_to_parent	1.2.12.6.1	Long_Snake_Moxibustion	COMBO:1.2.12.6.1	variant_parent:narrow_to_parent:moxibustion
+COMBO:1.2.12.7	UMLS:C0026652	Moxibustion	0.78	variant_parent_mapping	narrow_to_parent	1.2.12.7	Medicated_Thread_Moxibustion	COMBO:1.2.12.7	variant_parent:narrow_to_parent:moxibustion
+COMBO:1.2.12.8	UMLS:C0026652	Moxibustion	0.78	variant_parent_mapping	narrow_to_parent	1.2.12.8	Zhuang_Medicated_Thread_Moxibustion	COMBO:1.2.12.8	variant_parent:narrow_to_parent:moxibustion
+COMBO:1.2.12.10	UMLS:C0026652	Moxibustion	0.78	variant_parent_mapping	narrow_to_parent	1.2.12.10	Solar_Term_Moxibustion	COMBO:1.2.12.10	variant_parent:narrow_to_parent:moxibustion
+COMBO:1.2.15.1.2	UMLS:C0034945	Reflexology	0.78	variant_parent_mapping	narrow_to_parent	1.2.15.1.2	Lymphatic_Reflexology	COMBO:1.2.15.1.2	variant_parent:narrow_to_parent:reflexology
+COMBO:1.2.15.1.3	UMLS:C0034945	Reflexology	0.78	variant_parent_mapping	narrow_to_parent	1.2.15.1.3	Foot_Reflexology	COMBO:1.2.15.1.3	variant_parent:narrow_to_parent:reflexology
+COMBO:1.2.15.1.4	UMLS:C0034945	Reflexology	0.78	variant_parent_mapping	narrow_to_parent	1.2.15.1.4	Hand_Reflexology	COMBO:1.2.15.1.4	variant_parent:narrow_to_parent:reflexology
+COMBO:1.2.15.1.5	UMLS:C0034945	Reflexology	0.78	variant_parent_mapping	narrow_to_parent	1.2.15.1.5	Ear_Reflexology	COMBO:1.2.15.1.5	variant_parent:narrow_to_parent:reflexology
+COMBO:1.3.1.1.1	UMLS:C0006155	Breathing_Exercise	0.72	variant_parent_mapping	close_match	1.3.1.1.1	Buteyko_Breathing_Technique	COMBO:1.3.1.1.1	variant_parent:close_match:breathing exercise
+COMBO:1.3.1.2.1.1	UMLS:C0003827	Art_Therapy	0.78	variant_parent_mapping	narrow_to_parent	1.3.1.2.1.1	Visual_Art_Therapy	COMBO:1.3.1.2.1.1	variant_parent:narrow_to_parent:art therapy
+COMBO:1.3.1.2.1.1.3	UMLS:C0003827	Art_Therapy	0.78	variant_parent_mapping	narrow_to_parent	1.3.1.2.1.1.3	Clay_Art_Therapy	COMBO:1.3.1.2.1.1.3	variant_parent:narrow_to_parent:art therapy
+COMBO:1.3.1.2.1.2	UMLS:C0003827	Art_Therapy	0.78	variant_parent_mapping	narrow_to_parent	1.3.1.2.1.2	Creative_Art_Therapy	COMBO:1.3.1.2.1.2	variant_parent:narrow_to_parent:art therapy
+COMBO:1.3.1.2.1.3	UMLS:C0003827	Art_Therapy	0.78	variant_parent_mapping	narrow_to_parent	1.3.1.2.1.3	Phenomenological_Art_Therapy	COMBO:1.3.1.2.1.3	variant_parent:narrow_to_parent:art therapy
+COMBO:1.3.1.2.1.4	UMLS:C0003827	Art_Therapy	0.78	variant_parent_mapping	narrow_to_parent	1.3.1.2.1.4	Mindfulness_Based_Art_Therapy	COMBO:1.3.1.2.1.4	variant_parent:narrow_to_parent:art therapy
+COMBO:1.3.1.2.1.5	UMLS:C0003827	Art_Therapy	0.78	variant_parent_mapping	narrow_to_parent	1.3.1.2.1.5	Psychodynamic_Group_Art_Therapy	COMBO:1.3.1.2.1.5	variant_parent:narrow_to_parent:art therapy
+COMBO:1.3.1.2.1.6	UMLS:C0003827	Art_Therapy	0.78	variant_parent_mapping	narrow_to_parent	1.3.1.2.1.6	Anthroposophic_Art_Therapy	COMBO:1.3.1.2.1.6	variant_parent:narrow_to_parent:art therapy
+COMBO:1.3.1.2.3.2	UMLS:C0026868	Music_Therapy	0.78	variant_parent_mapping	narrow_to_parent	1.3.1.2.3.2	Orff_Based_Music_Therapy	COMBO:1.3.1.2.3.2	variant_parent:narrow_to_parent:music therapy
+COMBO:1.3.1.2.3.9	UMLS:C0026868	Music_Therapy	0.78	variant_parent_mapping	narrow_to_parent	1.3.1.2.3.9	Active_Music_Therapy	COMBO:1.3.1.2.3.9	variant_parent:narrow_to_parent:music therapy
+COMBO:1.3.1.2.3.9.1	UMLS:C0026868	Music_Therapy	0.78	variant_parent_mapping	narrow_to_parent	1.3.1.2.3.9.1	Interactive_Music_Therapy	COMBO:1.3.1.2.3.9.1	variant_parent:narrow_to_parent:music therapy
+COMBO:1.3.1.2.3.14	UMLS:C0026868	Music_Therapy	0.78	variant_parent_mapping	narrow_to_parent	1.3.1.2.3.14	Instructional_Music_Therapy	COMBO:1.3.1.2.3.14	variant_parent:narrow_to_parent:music therapy
+COMBO:1.3.1.2.3.15	UMLS:C0026868	Music_Therapy	0.78	variant_parent_mapping	narrow_to_parent	1.3.1.2.3.15	Improvisational_Music_Therapy	COMBO:1.3.1.2.3.15	variant_parent:narrow_to_parent:music therapy
+COMBO:1.3.1.2.3.19	UMLS:C0026868	Music_Therapy	0.78	variant_parent_mapping	narrow_to_parent	1.3.1.2.3.19	Calming_Music_Therapy	COMBO:1.3.1.2.3.19	variant_parent:narrow_to_parent:music therapy
+COMBO:1.3.1.2.3.20	UMLS:C0026868	Music_Therapy	0.78	variant_parent_mapping	narrow_to_parent	1.3.1.2.3.20	Live_Music_Therapy	COMBO:1.3.1.2.3.20	variant_parent:narrow_to_parent:music therapy
+COMBO:1.3.1.2.4.2	UMLS:C0034945	Reflexology	0.78	variant_parent_mapping	narrow_to_parent	1.3.1.2.4.2	Lymphatic_Reflexology	COMBO:1.3.1.2.4.2	variant_parent:narrow_to_parent:reflexology
+COMBO:1.3.1.2.4.3	UMLS:C0034945	Reflexology	0.78	variant_parent_mapping	narrow_to_parent	1.3.1.2.4.3	Foot_Reflexology	COMBO:1.3.1.2.4.3	variant_parent:narrow_to_parent:reflexology
+COMBO:1.3.1.2.4.4	UMLS:C0034945	Reflexology	0.78	variant_parent_mapping	narrow_to_parent	1.3.1.2.4.4	Hand_Reflexology	COMBO:1.3.1.2.4.4	variant_parent:narrow_to_parent:reflexology
+COMBO:1.3.1.2.4.5	UMLS:C0034945	Reflexology	0.78	variant_parent_mapping	narrow_to_parent	1.3.1.2.4.5	Ear_Reflexology	COMBO:1.3.1.2.4.5	variant_parent:narrow_to_parent:reflexology
+COMBO:1.3.1.3.3	UMLS:C0005491	Biofeedback	0.78	variant_parent_mapping	narrow_to_parent	1.3.1.3.3	Heart_Rate_Variability_Biofeedback	COMBO:1.3.1.3.3	variant_parent:narrow_to_parent:biofeedback
+COMBO:1.3.1.3.4	UMLS:C0005491	Biofeedback	0.78	variant_parent_mapping	narrow_to_parent	1.3.1.3.4	Electromyography_Biofeedback	COMBO:1.3.1.3.4	variant_parent:narrow_to_parent:biofeedback
+COMBO:1.3.1.3.5	UMLS:C0005491	Biofeedback	0.78	variant_parent_mapping	narrow_to_parent	1.3.1.3.5	Electroencephalogram_Biofeedback	COMBO:1.3.1.3.5	variant_parent:narrow_to_parent:biofeedback
+COMBO:1.3.1.3.6	UMLS:C0005491	Biofeedback	0.78	variant_parent_mapping	narrow_to_parent	1.3.1.3.6	Assisted_Biofeedback	COMBO:1.3.1.3.6	variant_parent:narrow_to_parent:biofeedback
+COMBO:1.3.4.5.1.1	UMLS:C0003827	Art_Therapy	0.78	variant_parent_mapping	narrow_to_parent	1.3.4.5.1.1	Visual_Art_Therapy	COMBO:1.3.4.5.1.1	variant_parent:narrow_to_parent:art therapy
+COMBO:1.3.4.5.1.1.3	UMLS:C0003827	Art_Therapy	0.78	variant_parent_mapping	narrow_to_parent	1.3.4.5.1.1.3	Clay_Art_Therapy	COMBO:1.3.4.5.1.1.3	variant_parent:narrow_to_parent:art therapy
+COMBO:1.3.4.5.1.2	UMLS:C0003827	Art_Therapy	0.78	variant_parent_mapping	narrow_to_parent	1.3.4.5.1.2	Creative_Art_Therapy	COMBO:1.3.4.5.1.2	variant_parent:narrow_to_parent:art therapy
+COMBO:1.3.4.5.1.3	UMLS:C0003827	Art_Therapy	0.78	variant_parent_mapping	narrow_to_parent	1.3.4.5.1.3	Phenomenological_Art_Therapy	COMBO:1.3.4.5.1.3	variant_parent:narrow_to_parent:art therapy
+COMBO:1.3.4.5.1.4	UMLS:C0003827	Art_Therapy	0.78	variant_parent_mapping	narrow_to_parent	1.3.4.5.1.4	Mindfulness_Based_Art_Therapy	COMBO:1.3.4.5.1.4	variant_parent:narrow_to_parent:art therapy
+COMBO:1.3.4.5.1.5	UMLS:C0003827	Art_Therapy	0.78	variant_parent_mapping	narrow_to_parent	1.3.4.5.1.5	Psychodynamic_Group_Art_Therapy	COMBO:1.3.4.5.1.5	variant_parent:narrow_to_parent:art therapy
+COMBO:1.3.4.5.1.6	UMLS:C0003827	Art_Therapy	0.78	variant_parent_mapping	narrow_to_parent	1.3.4.5.1.6	Anthroposophic_Art_Therapy	COMBO:1.3.4.5.1.6	variant_parent:narrow_to_parent:art therapy
+COMBO:1.3.4.5.2.2	UMLS:C0026868	Music_Therapy	0.78	variant_parent_mapping	narrow_to_parent	1.3.4.5.2.2	Orff_Based_Music_Therapy	COMBO:1.3.4.5.2.2	variant_parent:narrow_to_parent:music therapy
+COMBO:1.3.4.5.2.9	UMLS:C0026868	Music_Therapy	0.78	variant_parent_mapping	narrow_to_parent	1.3.4.5.2.9	Active_Music_Therapy	COMBO:1.3.4.5.2.9	variant_parent:narrow_to_parent:music therapy
+COMBO:1.3.4.5.2.9.1	UMLS:C0026868	Music_Therapy	0.78	variant_parent_mapping	narrow_to_parent	1.3.4.5.2.9.1	Interactive_Music_Therapy	COMBO:1.3.4.5.2.9.1	variant_parent:narrow_to_parent:music therapy
+COMBO:1.3.4.5.2.14	UMLS:C0026868	Music_Therapy	0.78	variant_parent_mapping	narrow_to_parent	1.3.4.5.2.14	Instructional_Music_Therapy	COMBO:1.3.4.5.2.14	variant_parent:narrow_to_parent:music therapy
+COMBO:1.3.4.5.2.15	UMLS:C0026868	Music_Therapy	0.78	variant_parent_mapping	narrow_to_parent	1.3.4.5.2.15	Improvisational_Music_Therapy	COMBO:1.3.4.5.2.15	variant_parent:narrow_to_parent:music therapy
+COMBO:1.3.4.5.2.19	UMLS:C0026868	Music_Therapy	0.78	variant_parent_mapping	narrow_to_parent	1.3.4.5.2.19	Calming_Music_Therapy	COMBO:1.3.4.5.2.19	variant_parent:narrow_to_parent:music therapy
+COMBO:1.3.4.5.2.20	UMLS:C0026868	Music_Therapy	0.78	variant_parent_mapping	narrow_to_parent	1.3.4.5.2.20	Live_Music_Therapy	COMBO:1.3.4.5.2.20	variant_parent:narrow_to_parent:music therapy
+COMBO:1.3.7.4.2.2	UMLS:C0003827	Art_Therapy	0.78	variant_parent_mapping	narrow_to_parent	1.3.7.4.2.2	Mindfulness_Based_Art_Therapy	COMBO:1.3.7.4.2.2	variant_parent:narrow_to_parent:art therapy

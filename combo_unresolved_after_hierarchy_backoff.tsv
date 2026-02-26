@@ -1,0 +1,13 @@
+combo_concept_id	combo_label	synonyms	reason
+1.2	Physical_Intervention	N/A	no_mrconso_exact_match
+1.2.16	Spa_Therapy	N/A	no_mrconso_exact_match
+1.2.19	Ear_Candle_Therapy	Ear Candling|Ear Candle Treatment|Ear Candle|Ear Coning|Chandelles Auriculaires|Auricular Candles|Thermal-Auricular Therapy	no_mrconso_exact_match
+1.2.22	Vibration_Therapy	Vibrotherapy|Vibration Medicine|Vibrational Therapy|Vibrational Medicine	no_mrconso_exact_match
+1.2.22.2	Direct_Vibration	N/A	no_mrconso_exact_match
+1.2.22.3	Low_Frequency_Sound_Stimulation	N/A	no_mrconso_exact_match
+1.2.22.4	Vibroacoustic_Therapy	Physioacoustic Vibration	no_mrconso_exact_match
+1.2.22.5	Rhythmic_Sensory_Stimulation	N/A	no_mrconso_exact_match
+1.2.22.6	Sound_Vibrational_Therapy	Sound Wave Vibrational Therapy	no_mrconso_exact_match
+1.2.22.7	Vibration_Foam_Rolling	N/A	no_mrconso_exact_match
+1.2.22.8	Vibration_Healing	N/A	no_mrconso_exact_match
+1.2.22.9	Vibration_Training	N/A	no_mrconso_exact_match

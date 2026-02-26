@@ -1,0 +1,834 @@
+combo_concept_id	combo_label	umls_ids	mesh_ids	synonyms	provenance_urls
+1.1	Nutritional_Intervention			Nutritional therapy	http://purl.bioontology.org/ontology/PDQ/CDR0000372898
+1.1.1	Complementary_Dietary_Therapy			Complementary Dietary Intervention	
+1.1.1.1	Ketogenic_Diet	UMLS:C0259972	MESH:D055423	Ketogenic Diets	https://uts.nlm.nih.gov/uts/umls/concept/C0259972|http://purl.bioontology.org/ontology/MESH/D055423
+1.1.1.2	High_Protein_Low_Carbohydrate_Diet	UMLS:C4505336	MESH:D000076107	High Protein Carbohydrate Restricted Diet|High-Protein Carbohydrate-Restricted Diets|High Protein Low Carbohydrate Diets|High Protein Carbohydrate Restricted Diets|High-Protein Carbohydrate-Restricted Diet|Carbohydrate-Restricted High-Protein Diet|Carbohydrate Restricted High Protein Diet|High Protein Low Carbohydrate Diet|Low Carbohydrate High Protein Diet|South Beach Diet|Low-Carbohydrate High-Protein Diet|Carbohydrate-Restricted High-Protein Diets|High-Protein Low-Carbohydrate Diets|Low-Carbohydrate High-Protein Diets|Atkins Diet|Low Carbohydrate High Protein Diets|Carbohydrate Restricted High Protein Diets	https://uts.nlm.nih.gov/uts/umls/concept/C4505336|http://purl.bioontology.org/ontology/MESH/D000076107
+1.1.1.3	Gluten_Free_Diet	UMLS:C0344351	MESH:D055050	Gluten Free Diet|Gluten-Free Diets	http://purl.bioontology.org/ontology/MESH/D055050|https://uts.nlm.nih.gov/uts/umls/concept/C0344351
+1.1.1.4	Paleolithic_Diet	UMLS:C0452423	MESH:D066046	Caveman Diets|Stone Age Diet|Stone Age Diets|Hunter-Gatherer Diet|Paleo Diet|Caveman Diet|Paleo Diets|Hunter-Gatherer Diets	http://purl.bioontology.org/ontology/MESH/D066046|https://uts.nlm.nih.gov/uts/umls/concept/C0452423
+1.1.1.5	Macrobiotic_Diet	UMLS:C0012166	MESH:D015623	Macrobiotic Diets|Macrobiotics Therapy	https://uts.nlm.nih.gov/uts/umls/concept/C0012166|http://purl.bioontology.org/ontology/MESH/D015623|http://purl.bioontology.org/ontology/PDQ/CDR0000574287
+1.1.1.6	Detox_Diet			N/A	https://www.nccih.nih.gov/health/detoxes-and-cleanses-what-you-need-to-know
+1.1.1.7	Plant_Based_Diet		MESH:D000095500	Plant Based Nutrition	http://purl.bioontology.org/ontology/MESH/D000095500
+1.1.1.7.1	Mediterranean_Diet		MESH:D038441	N/A	http://purl.bioontology.org/ontology/MESH/D038441
+1.1.1.7.2	Vegetarian_Diet		MESH:D014676	N/A	http://purl.bioontology.org/ontology/MESH/D014676
+1.1.1.7.2.1	Macrobiotic_Diet				
+1.1.1.7.2.2	Vegan_Diet	UMLS:C0344353	MESH:D000067269	C0344353	http://purl.bioontology.org/ontology/MESH/D000067269
+1.1.1.8	Raw_Food_Diet			N/A	
+1.1.1.9	Western_Diet		MESH:D066273	Occidental Diet|Meat Sweet Diet|Western Dietary Pattern	http://purl.bioontology.org/ontology/MESH/D066273
+1.1.1.10	Intermittent_Fasting		MESH:D000093763	Time Restricted EatingBreakfast Skipping|Time Restricted Feeding|Time Restricted Fasting|Meal Skipping	http://purl.bioontology.org/ontology/MESH/D000093763
+1.1.2	Gerson_Therapy	UMLS:C1831723		N/A	http://purl.bioontology.org/ontology/PDQ/CDR0000453793|https://uts.nlm.nih.gov/uts/umls/concept/C1831723
+1.1.3	Gonzalez_Regimen	UMLS:C1831689		N/A	http://purl.bioontology.org/ontology/PDQ/CDR0000441094|https://uts.nlm.nih.gov/uts/umls/concept/C1831689
+1.1.4	Dietary_Macronutrients_Therapy	UMLS:C1880312		N/A	http://purl.bioontology.org/ontology/PDQ/CDR0000574290|https://uts.nlm.nih.gov/uts/umls/concept/C1880312
+1.1.5	Antioxidants_Therapy	UMLS:C1879713		N/A	http://purl.bioontology.org/ontology/PDQ/CDR0000574289|https://uts.nlm.nih.gov/uts/umls/concept/C1879713
+1.1.6	Dietary_Supplementation	UMLS:C0242297		N/A	https://uts.nlm.nih.gov/uts/umls/concept/C0242297
+1.1.7	Microbiome_Metabolite_Therapy			Microbiome Metabolite	
+1.1.8	Food_Metabolite_Based_Therapy			Food Metabolite	
+1.1.9	Mindful_Eating			N/A	
+1.1.10	Orthomolecular_Therapy	UMLS:C0029340		Orthomolecular Medicine	https://uts.nlm.nih.gov/uts/umls/concept/C0029340|http://purl.bioontology.org/ontology/PDQ/CDR0000574288
+1.1.11	Immunoaugmentative_Therapy	UMLS:C1881140		N/A	http://purl.bioontology.org/ontology/PDQ/CDR0000574093|https://uts.nlm.nih.gov/uts/umls/concept/C1881140
+1.1.12	Antineoplastons_Therapy	UMLS:C1879712		N/A	https://uts.nlm.nih.gov/uts/umls/concept/C1879712|http://purl.bioontology.org/ontology/PDQ/CDR0000574092
+1.1.13	Chelation_Therapy	UMLS:C0007975		N/A	https://www.nccih.nih.gov/health/chelation-for-coronary-heart-disease-what-you-need-to-know|https://uts.nlm.nih.gov/uts/umls/concept/C0007975
+1.1.14	Practitioner_Guided_Detoxification			N/A	
+1.2	Physical_Intervention			N/A	
+1.2.1	Acupuncture	UMLS:C0394664	MESH:D015670	Acupotomy|Acupuncture Therapy|Pharmacoacupuncture Treatment|Pharmacoacupuncture Therapy|Acupotomies|Acupuncture Treatment|Acupuncture Treatments|ACP - Acupuncture	http://purl.bioontology.org/ontology/PDQ/CDR0000372888|http://purl.bioontology.org/ontology/RCD/856..|https://uts.nlm.nih.gov/uts/umls/concept/C0394664|https://www.nccih.nih.gov/health/acupuncture-effectiveness-and-safety|http://purl.bioontology.org/ontology/MESH/D015670
+1.2.1.1	Acupuncture_for_Anesthesia	UMLS:C0001301		Acupuncture Anesthesia	https://uts.nlm.nih.gov/uts/umls/concept/C0001301|http://purl.bioontology.org/ontology/RCD/8561.
+1.2.1.2	Acupuncture_for_Analgesia	UMLS:C0001300	MESH:D015667	Acupuncture Analgesia	https://uts.nlm.nih.gov/uts/umls/concept/C0001300|http://purl.bioontology.org/ontology/MESH/D015667|http://purl.bioontology.org/ontology/RCD/8562.
+1.2.1.3	Auricular_Acupuncture	UMLS:C0752217	MESH:D020831	Auricular Acupunctures|Ear Acupuncture|Ear Acupunctures	http://purl.bioontology.org/ontology/MESH/D020831|https://uts.nlm.nih.gov/uts/umls/concept/C0752217
+1.2.1.4	Electroacupuncture	UMLS:C0013794	MESH:D015671	Electro-acupuncture|electroacupuncture therapy|electro acupuncture	https://uts.nlm.nih.gov/uts/umls/concept/C0013794|http://purl.bioontology.org/ontology/PDQ/CDR0000372889|http://purl.bioontology.org/ontology/MESH/D015671
+1.2.1.4.1	Electroacupuncture_After_Voll	UMLS:C0394660		N/A	http://purl.bioontology.org/ontology/RCD/X00Kg|https://uts.nlm.nih.gov/uts/umls/concept/C0394660
+1.2.1.4.2	Vega_Electroacupuncture_Therapy	UMLS:C0394661		N/A	http://purl.bioontology.org/ontology/RCD/X00Kh|https://uts.nlm.nih.gov/uts/umls/concept/C0394661
+1.2.1.5	Japanese_Acupuncture			N/A	
+1.2.1.6	Laser_Acupuncture	UMLS:C0394654		Laser acupuncture therapy	http://purl.bioontology.org/ontology/RCD/X00KZ|https://uts.nlm.nih.gov/uts/umls/concept/C0394654
+1.2.1.7	Korean_Acupuncture			N/A	
+1.2.1.8	Single_Point_Acupuncture			N/A	
+1.2.1.9	Hand_Acupuncture			N/A	
+1.2.1.10	Foot_Acupuncture			N/A	
+1.2.1.11	Acu_Moxibustion			Acu-Moxi	
+1.2.1.11.1	Needle_Moxibustion			N/A	
+1.2.1.11.1.1	Warm_Needle_Moxibustion			N/A	
+1.2.1.12	Chinese_Acupuncture			N/A	
+1.2.2	Trigger_Point_Acupuncture	UMLS:C2986609		N/A	https://uts.nlm.nih.gov/uts/umls/concept/C2986609
+1.2.3	Auriculotherapy	UMLS:C2350276	MESH:D055097	N/A	https://uts.nlm.nih.gov/uts/umls/concept/C2350276|http://purl.bioontology.org/ontology/MESH/D055097
+1.2.3.1	Auricular_Acupuncture				
+1.2.3.2	Battlefield_Acupuncture			N/A	
+1.2.3.3	Cryo_Auriculotherapy			N/A	
+1.2.4	Acustimulation_Therapy	UMLS:C1515885		Acustimulation	https://uts.nlm.nih.gov/uts/umls/concept/C1515885
+1.2.4.1	Transcutaneous_Electrical_Acustimulation			N/A	
+1.2.4.2	Acupoint_Stimulation			N/A	
+1.2.5	Percutaneous_Collagen_Induction	UMLS:C5780323	MESH:D000097244	Microneedling|Skin Needling	http://purl.bioontology.org/ontology/MESH/D000097244|https://uts.nlm.nih.gov/uts/umls/concept/C5780323
+1.2.6	Mind	UMLS:C0260173	MESH:D026441	Mind Body Therapies|Mind-Body Medicine	http://purl.bioontology.org/ontology/MESH/D026441|https://uts.nlm.nih.gov/uts/umls/concept/C0260173
+1.2.6.1	Breathing_Exercise	UMLS:C0006155	MESH:D001945	Respiratory Muscle Training	http://purl.bioontology.org/ontology/MESH/D001945|https://uts.nlm.nih.gov/uts/umls/concept/C0006155
+1.2.6.1.1	Buteyko_Breathing_Technique			Eucapnic Buteyko Breathing|Buteyko Institute Method|Eucapnic Breathing Technique|Buteyko Technique|Buteyko Method|Buteyko Breathing Training	
+1.2.6.1.2	Deep_Breathing	UMLS:C1328799		Breathwork	https://uts.nlm.nih.gov/uts/umls/concept/C1328799
+1.2.6.2	Relaxation_Technique	UMLS:C0035029	MESH:D012064	Ecotherapy|Therapeutic Relaxation|Relaxation Techniques|Relaxation Practice|Ecotherapies|Relaxation Therapy|Nature Therapies	http://purl.bioontology.org/ontology/MESH/D012064|https://www.nccih.nih.gov/health/relaxation-techniques-what-you-need-to-know|https://uts.nlm.nih.gov/uts/umls/concept/C0035029
+1.2.6.2.1	Art_Therapy	UMLS:C0003827	MESH:D001155	Art Stimulation|Artistic therapies|Art Therapies	https://uts.nlm.nih.gov/uts/umls/concept/C0003827|http://purl.bioontology.org/ontology/PDQ/CDR0000574226|http://purl.bioontology.org/ontology/MESH/D001155
+1.2.6.2.1.1	Visual_Art_Therapy			N/A	
+1.2.6.2.1.1.1	Pottery	UMLS:C3468077		N/A	https://uts.nlm.nih.gov/uts/umls/concept/C3468077
+1.2.6.2.1.1.2	Chinese_Calligraphy_Therapy			N/A	
+1.2.6.2.1.1.3	Clay_Art_Therapy			N/A	
+1.2.6.2.1.1.4	Mandala_Therapy			Mandalas	
+1.2.6.2.1.2	Creative_Art_Therapy	UMLS:C0870372		Creative Arts Intervention|Creative Art Intervention|Creative Arts Therapy	https://uts.nlm.nih.gov/uts/umls/concept/C0870372
+1.2.6.2.1.2.1	Creative_Expression			N/A	
+1.2.6.2.1.2.2	Artistic_Therapy_Painting			artistic therapies-painting	
+1.2.6.2.1.3	Phenomenological_Art_Therapy			N/A	
+1.2.6.2.1.4	Mindfulness_Based_Art_Therapy			N/A	
+1.2.6.2.1.5	Psychodynamic_Group_Art_Therapy			N/A	
+1.2.6.2.1.6	Anthroposophic_Art_Therapy			N/A	
+1.2.6.2.2	Humor_Therapy	UMLS:C0597811		N/A	https://uts.nlm.nih.gov/uts/umls/concept/C0597811
+1.2.6.2.2.1	Laughter_Therapy	UMLS:C0949806	MESH:D027641	Clown Therapy|Clown Therapies	http://purl.bioontology.org/ontology/MESH/D027641|https://uts.nlm.nih.gov/uts/umls/concept/C0949806
+1.2.6.2.2.1.1	Laughter_Yoga	UMLS:C4045984	MESH:D027641	N/A	https://uts.nlm.nih.gov/uts/umls/concept/C4045984|http://purl.bioontology.org/ontology/MESH/D027641
+1.2.6.2.3	Music_Therapy	UMLS:C0026868	MESH:D009147	Music In Therapy|Music Intervention|Music-Based Intervention	https://www.nccih.nih.gov/health/music-and-health-what-you-need-to-know|http://purl.bioontology.org/ontology/MESH/D009147|http://purl.bioontology.org/ontology/PDQ/CDR0000526238|https://uts.nlm.nih.gov/uts/umls/concept/C0026868
+1.2.6.2.3.1	Musical_Game			Musical Games	
+1.2.6.2.3.2	Orff_Based_Music_Therapy			N/A	
+1.2.6.2.3.3	Lyric_Analysis			N/A	
+1.2.6.2.3.4	Medical_Resonance_Therapy_Music			MRT-Music	
+1.2.6.2.3.5	Musical_Motor_Feedback			N/A	
+1.2.6.2.3.6	Evocative_Music			N/A	
+1.2.6.2.3.7	Raga_Therapy	UMLS:C5057506		Ragas	https://uts.nlm.nih.gov/uts/umls/concept/C5057506
+1.2.6.2.3.8	Dinner_Music_Intervention			N/A	
+1.2.6.2.3.9	Active_Music_Therapy			N/A	
+1.2.6.2.3.9.1	Interactive_Music_Therapy			N/A	
+1.2.6.2.3.10	Music_Based_Imagery			Guided Imagery and Music	
+1.2.6.2.3.11	Individualized_Music_Focused_Auditory_Therapy			N/A	
+1.2.6.2.3.12	Lullaby_Therapy			N/A	
+1.2.6.2.3.13	Music_Reinforced_Therapy			N/A	
+1.2.6.2.3.14	Instructional_Music_Therapy			N/A	
+1.2.6.2.3.15	Improvisational_Music_Therapy			N/A	
+1.2.6.2.3.16	Group_Chanting_and_Singing			N/A	
+1.2.6.2.3.17	Music_Listening_Intervention			N/A	
+1.2.6.2.3.18	Musicokinetic_Therapy			N/A	
+1.2.6.2.3.19	Calming_Music_Therapy			N/A	
+1.2.6.2.3.20	Live_Music_Therapy			N/A	
+1.2.6.2.3.21	Group_Drumming			N/A	
+1.2.6.2.3.22	Contingent_Music			N/A	
+1.2.6.2.3.23	Music_Video_Therapy			N/A	
+1.2.6.2.3.24	Music_Exposure_Therapy			N/A	
+1.2.6.2.3.25	Music_Assisted_Reframing			N/A	
+1.2.6.2.3.26	Karaoke_Therapy			N/A	
+1.2.6.2.4	Reflexology	UMLS:C0034945	MESH:D012028	reflexotherapy|reflexology procedure|Reflex Therapy	"https://www.nccih.nih.gov/health/reflexology|http://purl.bioontology.org/ontology/PDQ/CDR0000634136|https://uts.nlm.nih.gov/uts/umls/concept/C0034945|http://purl.bioontology.org/ontology/MESH/D012028"""
+1.2.6.2.4.1	Acu_Reflexology	UMLS:C1273536		N/A	http://purl.bioontology.org/ontology/RCTV2/8BF2.00|https://uts.nlm.nih.gov/uts/umls/concept/C1273536
+1.2.6.2.4.2	Lymphatic_Reflexology			N/A	
+1.2.6.2.4.3	Foot_Reflexology			N/A	
+1.2.6.2.4.4	Hand_Reflexology			N/A	
+1.2.6.2.4.5	Ear_Reflexology	UMLS:C1442582		N/A	https://uts.nlm.nih.gov/uts/umls/concept/C1442582
+1.2.6.2.5	Progressive_Muscle_Relaxation	UMLS:C0454043		Progressive Relaxation|Progressive Muscular Relaxation	https://uts.nlm.nih.gov/uts/umls/concept/C0454043
+1.2.6.2.5.1	Abbreviated_Muscle_Relaxation_Therapy			N/A	
+1.2.6.2.5.2	Music_Assisted_Progressive_Muscle_Relaxation			N/A	
+1.2.6.2.6	Applied_Relaxation			N/A	
+1.2.6.2.7	Relaxation_Training			N/A	
+1.2.6.3	Biofeedback	UMLS:C0005491	MESH:D001676	Myofeedbacks|Psychophysiologic Feedback|Biofeedback Training|Psychology Biofeedback|Bogus Physiological Feedback|False Physiological Feedbacks|Biofeedback Therapy|Psychology Biofeedbacks|Myofeedback|Biofeedbacks (Psychology)|Bogus Physiological Feedbacks|Biofeedback (Psychology)|False Physiological Feedback	"https://www.cancer.gov/about-cancer/treatment/clinica|http://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI%20Thesaurus&code=C15186""|http://purl.bioontology.org/ontology/PDQ/CDR0000574223|http://purl.bioontology.org/ontology/MESH/D001676|https://uts.nlm.nih.gov/uts/umls/concept/C0005491"
+1.2.6.3.1	Sensory_Feedback	UMLS:C0178842	MESH:D056228	Sensorimotor Feedbacks|Sensory Feedback|Visual Feedback|Audio Feedbacks|Proprioceptive Feedbacks|Visual Feedbacks|Sensory Feedbacks|Sensorimotor Feedback|Audio Feedback|Proprioceptive Feedback	http://purl.bioontology.org/ontology/MESH/D056228|https://uts.nlm.nih.gov/uts/umls/concept/C0178842
+1.2.6.3.2	Neurofeedback	UMLS:C2713543	MESH:D058765	Electroencephalography Biofeedback|EEG Feedback|Neurofeedbacks|Brainwave Feedback|Brainwave Feedbacks	https://uts.nlm.nih.gov/uts/umls/concept/C2713543|http://purl.bioontology.org/ontology/MESH/D058765
+1.2.6.3.3	Heart_Rate_Variability_Biofeedback			HRV Biofeedback	
+1.2.6.3.3.1	Heart_Coherence			N/A	
+1.2.6.3.4	Electromyography_Biofeedback			EMG Biofeedback	
+1.2.6.3.5	Electroencephalogram_Biofeedback			EEG Biofeedback	
+1.2.6.3.6	Assisted_Biofeedback			N/A	
+1.2.6.4	Exercise_Therapy	UMLS:C4082302		CAM Exercise Therapy	https://uts.nlm.nih.gov/uts/umls/concept/C4082302|http://purl.bioontology.org/ontology/PDQ/CDR0000574239
+1.2.6.4.1	Meditative_Movement			N/A	
+1.2.6.4.1.1	Pilates_Based_Exercise	UMLS:C1720840		Pilate	https://uts.nlm.nih.gov/uts/umls/concept/C1720840
+1.2.6.4.1.2	Tai_Chi	UMLS:C0376403	MESH:D026302	Ji Quan, Tai|Tai Ji|Taiji|T'ai Chi|Tai-ji|Tai Chi Chih|Tai Ji Quan|Tai-Chi|Taichi Quan|Tai Chi Chuan|Taijiquan	https://uts.nlm.nih.gov/uts/umls/concept/C0376403|http://purl.bioontology.org/ontology/MESH/D026302|https://www.nccih.nih.gov/health/tai-chi-what-you-need-to-know
+1.2.6.4.1.3	Yoga_Therapy	UMLS:C1883583	MESH:D009147	Yoga Exercise|yoga	http://purl.bioontology.org/ontology/PDQ/CDR0000526236|http://purl.bioontology.org/ontology/MESH/D009147|https://www.nccih.nih.gov/health/music-and-health-what-you-need-to-know|https://uts.nlm.nih.gov/uts/umls/concept/C1883583
+1.2.6.4.1.3.1	Laughter_Yoga				
+1.2.6.4.1.3.2	Kundalini_Yoga			Yoga of Awareness|Kundalini|Coiled Yoga	
+1.2.6.4.1.3.3	Raja_Yoga			Raja|Roya Yoga	
+1.2.6.4.1.3.4	Circular_Yoga			N/A	
+1.2.6.4.1.3.5	Face_Yoga			N/A	
+1.2.6.4.1.3.6	Pranayama_Yoga			N/A	
+1.2.6.4.1.3.7	Sudarshana_Kriya_Yoga			N/A	
+1.2.6.4.1.3.8	Kripalu_Yoga			N/A	
+1.2.6.4.1.3.9	Hot_Yoga			N/A	
+1.2.6.4.1.3.9.1	Bikram_Yoga			Bikram	
+1.2.6.4.1.3.10	Ashtanga_Yoga			Ashtanga	
+1.2.6.4.1.3.11	Tibetan_Yoga			N/A	
+1.2.6.4.1.3.12	Chair_Yoga			N/A	
+1.2.6.4.1.3.13	Sivananda_Yoga			N/A	
+1.2.6.4.1.3.14	Bhakti_Yoga			Bhakti	
+1.2.6.4.1.3.15	Tantra_Yoga			N/A	
+1.2.6.4.1.3.16	Vinyasa_Yoga			N/A	
+1.2.6.4.1.3.17	Creative_Yoga			N/A	
+1.2.6.4.1.3.18	Relaxing_Yoga			N/A	
+1.2.6.4.1.3.19	Power_Yoga			N/A	
+1.2.6.4.1.3.20	Iyengar_Yoga			Iyengar|yoga Iyengar	
+1.2.6.4.1.3.21	Karma_Yoga			Karma	
+1.2.6.4.1.3.22	Jinana_Yoga			N/A	
+1.2.6.4.1.3.23	Sahaj_Yoga			N/A	
+1.2.6.4.1.3.24	Hatha_Yoga			Hatha	
+1.2.6.4.1.3.25	Yoga_Nidra			N/A	
+1.2.6.4.1.4	Qigong_Therapy	UMLS:C0282077	MESH:D064906	Chi Kung|Ch'i Kung|Qigong|Qi Gong Therapy|Qi Gong	http://purl.bioontology.org/ontology/MESH/D064906|https://uts.nlm.nih.gov/uts/umls/concept/C0282077|https://www.nccih.nih.gov/health/qigong-what-you-need-to-know
+1.2.6.4.1.4.1	Hua_Gong			N/A	
+1.2.6.4.1.4.2	Medical_Qigong			N/A	
+1.2.6.4.1.4.2.1	External_Qi_Gong_Therapy	UMLS:C4727539		External Qigong Therapy	https://uts.nlm.nih.gov/uts/umls/concept/C4727539
+1.2.6.4.1.4.2.2	Dongeui_Qigong			N/A	
+1.2.6.4.1.4.2.3	Guolin_Qigong			Guolin	
+1.2.6.4.1.4.2.4	Qigong_Healer			N/A	
+1.2.6.4.1.4.3	Chan_Mi_Gong			N/A	
+1.2.6.4.1.4.4	Yi_Jia_Gong			N/A	
+1.2.6.4.1.4.5	Biyun_Qi_Gong			N/A	
+1.2.6.4.1.4.6	Daoyin_Qi_Gong			N/A	
+1.2.6.4.1.4.7	Qi_Gong_Yangsheng			N/A	
+1.2.6.4.1.4.8	Baduanjin_Qi_Gong			Eight-Section Brocades Qi Gong|Baduanjin	
+1.2.6.4.1.4.9	Five_Animals_Qi_Gong			N/A	
+1.2.6.4.2	Dance_Therapy	UMLS:C0010962	MESH:D003614	Dance Therapies	https://uts.nlm.nih.gov/uts/umls/concept/C0010962|http://purl.bioontology.org/ontology/MESH/D003614
+1.2.6.4.3	Aikido	UMLS:C0078912		N/A	https://uts.nlm.nih.gov/uts/umls/concept/C0078912
+1.2.6.4.4	Motor_Control_Exercise			N/A	
+1.2.6.4.5	Facial_Exercise	UMLS:C0454333		Facial Training|Face Training	https://uts.nlm.nih.gov/uts/umls/concept/C0454333
+1.2.6.4.5.1	Face_Yoga				
+1.2.6.4.5.2	Facial_Resistance_Training			N/A	
+1.2.6.4.5.3	Face_Shaping			N/A	
+1.2.6.4.6	Guided_Physical_Activity			N/A	
+1.2.6.5	Movement_Education			N/A	
+1.2.6.5.1	Alexander_Technique	UMLS:C0597812		Technique Alexander|AT|FM Alexander Technique	https://uts.nlm.nih.gov/uts/umls/concept/C0597812
+1.2.6.5.1.1	Alexander_Proprioception			N/A	
+1.2.6.5.2	Aston_Patterning	UMLS:C0695542		N/A	https://uts.nlm.nih.gov/uts/umls/concept/C0695542
+1.2.6.6	Art_of_Living			Art of Living Foundation|Art of Living(AOL)|Art of Living Foundation(AOLF)	
+1.2.6.7	Eurythmy			N/A	
+1.2.6.8	Feldenkrais_Method			Feldenkrais Bodywork|Gestalt Synergy|Awareness Through Movement	
+1.2.6.8.1	Functional_Integration			N/A	
+1.2.6.9	Flotation_Therapy			N/A	
+1.2.6.10	Sophrology			N/A	
+1.2.7	Movement_Therapy	UMLS:C0454279		N/A	https://uts.nlm.nih.gov/uts/umls/concept/C0454279
+1.2.7.1	Continuous_Passive_Movement_Therapy	UMLS:C0026604	MESH:D015915	CPM Therapy|CPM Therapies|Continuous Passive Motion Therapy	http://purl.bioontology.org/ontology/MESH/D015915|https://uts.nlm.nih.gov/uts/umls/concept/C0026604
+1.2.8	Energy_Based_Therapy	UMLS:C1516875		energy therapy|energy healing|Energy medicine|energy filed work|energy work|energy therapies	http://purl.bioontology.org/ontology/PDQ/CDR0000372897|https://uts.nlm.nih.gov/uts/umls/concept/C1516875
+1.2.8.1	Putative_Energy_Therapy			N/A	
+1.2.8.1.1	Tai_Chi				
+1.2.8.1.2	Qigong_Therapy				
+1.2.8.1.2.1	Hua_Gong				
+1.2.8.1.2.2	Medical_Qigong				
+1.2.8.1.2.2.1	External_Qi_Gong_Therapy				
+1.2.8.1.2.2.2	Dongeui_Qigong				
+1.2.8.1.2.2.3	Guolin_Qigong				
+1.2.8.1.2.2.4	Qigong_Healer				
+1.2.8.1.2.3	Chan_Mi_Gong				
+1.2.8.1.2.4	Yi_Jia_Gong				
+1.2.8.1.2.5	Biyun_Qi_Gong				
+1.2.8.1.2.6	Daoyin_Qi_Gong				
+1.2.8.1.2.7	Qi_Gong_Yangsheng				
+1.2.8.1.2.8	Baduanjin_Qi_Gong				
+1.2.8.1.2.9	Five_Animals_Qi_Gong				
+1.2.8.1.3	Biofield_Therapy	UMLS:C1511139		Biofield Medicine|Biofield Energy Therapy|Bioenergy Healing|Biofields	"https://www.cancer.gov/about-cancer/treatment/clinical-trials/intervention/C15910""|http://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI%20Thesaurus&code=C15910""|http://purl.bioontology.org/ontology/PDQ/CDR0000574167|https://uts.nlm.nih.gov/uts/umls/concept/C1511139"
+1.2.8.1.3.1	Reiki_Therapy	UMLS:C0751715		Reiki	"https://www.cancer.gov/about-cancer/treatment/clinical-trials/intervention/C15728""|http://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI|http://purl.bioontology.org/ontology/PDQ/CDR0000574168|http://purl.bioontology.org/ontology/RCTV2/8BF5.00|https://www.nccih.nih.gov/health/reiki|https://uts.nlm.nih.gov/uts/umls/concept/C0751715"
+1.2.8.1.3.1.1	Japanese_Reiki			N/A	
+1.2.8.1.3.1.2	Buddhist_Reiki			N/A	
+1.2.8.1.3.2	Therapeutic_Touch	UMLS:C0152054	MESH:D019124	Laying-on-of-Hands	http://purl.bioontology.org/ontology/MESH/D019124|https://uts.nlm.nih.gov/uts/umls/concept/C0152054|http://purl.bioontology.org/ontology/PDQ/CDR0000470290
+1.2.8.1.3.3	Healing_Touch	UMLS:C1160821		N/A	https://uts.nlm.nih.gov/uts/umls/concept/C1160821|https://naturalmedicines.therapeuticresearch.com/databases/health-wellness/professional.aspx?productid=1448
+1.2.8.1.3.4	Zero_Balancing	UMLS:C0695568		Core Zero Balancing	https://naturalmedicines.therapeuticresearch.com/databases/health-wellness/professional.aspx?productid=1421|https://uts.nlm.nih.gov/uts/umls/concept/C0695568
+1.2.8.1.3.5	Polarity_Therapy	UMLS:C0695573		N/A	https://uts.nlm.nih.gov/uts/umls/concept/C0695573
+1.2.8.1.4	Color_Therapy	UMLS:C0085102	MESH:D016500	Chromatotherapy|Color Medicine|Colorology|Chromotherapy	https://uts.nlm.nih.gov/uts/umls/concept/C0085102|https://naturalmedicines.therapeuticresearch.com/databases/health-wellness/professional.aspx?productid=1213|http://purl.bioontology.org/ontology/MESH/D016500
+1.2.8.1.4.1	Aura_Soma_Therapy			N/A	
+1.2.8.1.5	Crystal_Therapy	UMLS:C0597815		Crystal Healing	https://naturalmedicines.therapeuticresearch.com/databases/health-wellness/professional.aspx?productid=1228|https://uts.nlm.nih.gov/uts/umls/concept/C0597815
+1.2.8.1.5.1	Electrocrystal_Therapy			N/A	
+1.2.8.1.5.2	Gemstone_Therapy			Gem Therapy	
+1.2.8.1.6	Chakra_Balancing			N/A	
+1.2.8.1.7	Jin_Shin_Jyutsu	UMLS:C0695525		N/A	https://uts.nlm.nih.gov/uts/umls/concept/C0695525
+1.2.8.1.8	Radionics			N/A	https://en.wikipedia.org/wiki/Radionics
+1.2.8.2	Veritable_Energy_Therapy			N/A	
+1.2.8.2.1	Bioresonance_Therapy	UMLS:C4042760	MESH:D066236	Bio-Physical Information Therapy|Bioresonance|MORA Therapy|Bio-Resonance Therapy	http://purl.bioontology.org/ontology/MESH/D066236|https://uts.nlm.nih.gov/uts/umls/concept/C4042760
+1.2.8.2.2	Cranial_Electrical_Stimulation	UMLS:C3899490		CES	https://uts.nlm.nih.gov/uts/umls/concept/C3899490|http://purl.bioontology.org/ontology/PDQ/CDR0000643527
+1.2.8.2.3	Electromagnetic_Based_Therapy	UMLS:C1511136		Bioelectromagnetic Therapies|Bioelectro-Magnetics|Bioelectromagnetic-Based Therapy|Bioelectromagnetics|Electromagnetic Therapy	"https://www.cancer.gov/about-cancer/treatment/clinical-trials/intervention/C16207""|http://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI%20Thesaurus&code=C16207""|https://uts.nlm.nih.gov/uts/umls/concept/C1511136|http://purl.bioontology.org/ontology/PDQ/CDR0000574169"
+1.2.8.2.3.1	Magnet_Therapy	UMLS:C1881509		N/A	http://purl.bioontology.org/ontology/PDQ/CDR0000574171|https://uts.nlm.nih.gov/uts/umls/concept/C1881509|https://www.nccih.nih.gov/health/magnets-for-pain-what-you-need-to-know
+1.2.8.2.3.1.1	Static_Magnet_Therapy			N/A	
+1.2.8.2.3.1.1.1	Biomagnetic_Therapy			N/A	
+1.2.8.2.3.1.2	Pulsed_Electromagnetic_Fields_Therapy	UMLS:C1882505		Pulsed Electromagnetic Therapy	http://purl.bioontology.org/ontology/PDQ/CDR0000574172|https://uts.nlm.nih.gov/uts/umls/concept/C1882505
+1.2.8.2.3.1.3	Transcranial_Magnetic_Stimulation	UMLS:C0436548		TMS	https://uts.nlm.nih.gov/uts/umls/concept/C0436548
+1.2.8.2.3.1.3.1	Repetitive_Transcranial_Magnetic_Stimulation			rTMS	
+1.2.8.2.3.2	Electrical_Therapy			N/A	
+1.2.8.2.4	Anodyne_Therapy			N/A	
+1.2.8.2.5	Bioacoustics_Therapy			N/A	
+1.2.8.2.6	Cellubike			N/A	
+1.2.8.2.7	Phototherapy	UMLS:C0031765		Light Therapy|Photophoresis|Photomedicine|Light Treatment	https://uts.nlm.nih.gov/uts/umls/concept/C0031765
+1.2.8.2.7.1	Ultraviolet_Therapy	UMLS:C0041626		N/A	https://uts.nlm.nih.gov/uts/umls/concept/C0041626
+1.2.8.2.7.1.1	Bath_Puva			N/A	
+1.2.8.2.7.2	Photodynamic_Therapy			PDT Photo Therapy	
+1.2.8.2.7.2.1	Ocular_Light_Therapy			N/A	
+1.2.8.2.7.3	Balneophototherapy			N/A	
+1.2.8.2.7.3.1	Dead_Sea_Climatotherapy			N/A	
+1.2.8.2.7.4	Bright_Light_Therapy	UMLS:C5400760		N/A	https://uts.nlm.nih.gov/uts/umls/concept/C5400760
+1.2.8.2.7.5	Light_Emitting_Diode_Phototherapy	UMLS:C1881345		LED Phototherapy|Light-Emitting Diode Therapy|LED therapy	https://uts.nlm.nih.gov/uts/umls/concept/C1881345
+1.2.8.2.7.6	Fiber_Optic_Phototherapy			N/A	
+1.2.8.2.7.7	Nontargeted_Light_Therapy			N/A	
+1.2.8.2.7.8	Targeted_Light_Therapy			N/A	
+1.2.8.2.7.9	Acu_Light_Therapy			N/A	
+1.2.8.2.7.10	Esogetic_Colorpuncture			N/A	
+1.2.8.2.7.11	Reprocessing_Light_Therapy			N/A	
+1.2.8.2.7.12	Low_Level_Laser_Therapy	UMLS:C0279027		Cold Laser Therapy	https://uts.nlm.nih.gov/uts/umls/concept/C0279027
+1.2.9	Speleotherapy	UMLS:C2350293	MESH:D055161	Speleotherapies	https://uts.nlm.nih.gov/uts/umls/concept/C2350293|http://purl.bioontology.org/ontology/MESH/D055161
+1.2.10	Diffuse_Noxious_Inhibitory_Control	UMLS:C3178784	MESH:D059328	Diffuse Noxious Inhibitory Control(DNIC)	https://uts.nlm.nih.gov/uts/umls/concept/C3178784|http://purl.bioontology.org/ontology/MESH/D059328
+1.2.11	Mesotherapy	UMLS:C2242515	MESH:D057748	N/A	http://purl.bioontology.org/ontology/MESH/D057748|https://uts.nlm.nih.gov/uts/umls/concept/C2242515
+1.2.12	Moxibustion	UMLS:C0026652	MESH:D009071	N/A	https://uts.nlm.nih.gov/uts/umls/concept/C0026652|http://purl.bioontology.org/ontology/MESH/D009071|http://purl.bioontology.org/ontology/PDQ/CDR0000765492
+1.2.12.1	Acu_Moxibustion				
+1.2.12.1.1	Needle_Moxibustion				
+1.2.12.1.1.1	Warm_Needle_Moxibustion				
+1.2.12.2	Mild_Moxibustion			N/A	
+1.2.12.2.1	Cake_Separated_Moxibustion			N/A	
+1.2.12.2.1.1	Aconite_Cake_Separated_Moxibustion			N/A	
+1.2.12.2.1.2	Angelica_Cake_Moxibustion			N/A	
+1.2.12.2.1.3	Cake_Separated_Mild_Warm_Moxibustion			N/A	
+1.2.12.2.1.3.1	Monkshood_Cake_Separated_Mild_Warm_Moxibustion			N/A	
+1.2.12.3	Bird_Pecking_Moxibustion			Pecking Moxibustion|Sparrow-Pecking Moxibustion	
+1.2.12.4	Cone_Moxibustion			Moxa-Cone Moxibustion	
+1.2.12.4.1	Direct_Cone_Moxibustion			N/A	
+1.2.12.5	Indirect_Moxibustion			N/A	
+1.2.12.5.1	Suspended_Moxibustion			N/A	
+1.2.12.5.1.1	Circling_Moxibustion			N/A	
+1.2.12.5.1.2	Hand_Moxibustion			N/A	
+1.2.12.5.1.3	Hanging_Moxibustion			N/A	
+1.2.12.5.1.4	Dynamic_Moxibustion			Moving Moxibustion	
+1.2.12.5.1.5	Heat_Sensitive_Moxibustion			N/A	
+1.2.12.5.1.6	Electric_Heating_Moxibustion			N/A	
+1.2.12.5.1.7	Electronic_Moxibustion			N/A	
+1.2.12.5.1.8	Electrothermal_Bian_Stone_Moxibustion			N/A	
+1.2.12.5.1.9	Laser_Moxibustion			N/A	
+1.2.12.5.1.9.1	Infrared_Laser_Moxibustion			N/A	
+1.2.12.5.1.10	Warming_Cup_Moxibustion			N/A	
+1.2.12.5.1.11	Warming_Moxibustion			N/A	
+1.2.12.5.2	Substance_Partitioned_Moxibustion			N/A	
+1.2.12.5.2.1	Crude_Herb_Moxibustion			N/A	
+1.2.12.5.2.2	Dogbi_			N/A	
+1.2.12.5.2.3	Drug_Separated_Moxibustion			N/A	
+1.2.12.5.2.4	Du_Moxibustion			N/A	
+1.2.12.5.2.5	Garlic_Moxibustion			N/A	
+1.2.12.5.2.6	Ginger_Indirect_Moxibustion			N/A	
+1.2.12.5.2.7	Ginger_Partitioned_Moxibustion			Ginger-Separated Moxibustion	
+1.2.12.5.2.8	Ginger_Salt_Partitioned_Moxibustion			N/A	
+1.2.12.5.2.9	Herb_Cake_Seperated_Moxibustion			N/A	
+1.2.12.5.2.10	Herb_Partitioned_Spread_Moxibustion			N/A	
+1.2.12.5.2.11	Herbal_Moxa_Moxibustion			Isolated-Herbal Moxibustion	
+1.2.12.5.2.12	Grain_Shaped_Moxibustion			N/A	
+1.2.12.5.2.13	Cotton_Sheet_Moxibustion			N/A	
+1.2.12.5.2.14	Thin_Cotton_Moxibustion			N/A	
+1.2.12.5.2.15	Thunder_Fire_Moxibustion			N/A	
+1.2.12.5.2.16	Tortoise_Shell_Moxibustion			N/A	
+1.2.12.5.2.17	Partition_Bran_Moxibustion			N/A	
+1.2.12.5.2.18	Partition_Herb_Moxibustion			N/A	
+1.2.12.5.2.19	Isolated_Moxibustion			N/A	
+1.2.12.5.3	Mild_Warm_Moxibustion			N/A	
+1.2.12.5.4	Moxa_Stick_Moxibustion			N/A	
+1.2.12.5.5	Governor_Moxibustion			N/A	
+1.2.12.5.6	Fu_Yang_Moxibustion			N/A	
+1.2.12.6	Snake_Moxibustion			Panlong Moxibustion	
+1.2.12.6.1	Long_Snake_Moxibustion			N/A	
+1.2.12.7	Medicated_Thread_Moxibustion			N/A	
+1.2.12.7.1	Medicated_Threads_Moxibustion_of_Zhuang_Nationality			N/A	
+1.2.12.8	Zhuang_Medicated_Thread_Moxibustion			N/A	
+1.2.12.9	Rice_Sized_Direct_Moxa			N/A	
+1.2.12.10	Solar_Term_Moxibustion			N/A	
+1.2.13	Organotherapy	UMLS:C0029257	MESH:D009945	Organotherapies	http://purl.bioontology.org/ontology/MESH/D009945|https://uts.nlm.nih.gov/uts/umls/concept/C0029257
+1.2.13.1	Historical_Tissue_Therapy	UMLS:C3658370	MESH:D014023	Biogenic Stimulator|Historical Cell Therapy|Biogenic Stimulators	http://purl.bioontology.org/ontology/MESH/D014023|https://uts.nlm.nih.gov/uts/umls/concept/C3658370
+1.2.14	Prolotherapy	UMLS:C0500223	MESH:D000075527	Prolotherapies|Proliferation Therapies|Proliferation Therapy	https://uts.nlm.nih.gov/uts/umls/concept/C0500223|http://purl.bioontology.org/ontology/MESH/D000075527
+1.2.15	Bodywork_Therapy	UMLS:C0695540		Bodyworks	https://uts.nlm.nih.gov/uts/umls/concept/C0695540
+1.2.15.1	Reflexology				
+1.2.15.1.1	Acu_Reflexology				
+1.2.15.1.2	Lymphatic_Reflexology				
+1.2.15.1.3	Foot_Reflexology				
+1.2.15.1.4	Hand_Reflexology				
+1.2.15.1.5	Ear_Reflexology				
+1.2.15.2	Cupping_Therapy	UMLS:C5197695	MESH:D000079742	Cupping|Traditional Cupping|Cupping Treatments|Cupping Therapies|Cupping Treatment|Cupping Massage|Medicinal Cupping	https://nccih.nih.gov/news/cupping|https://uts.nlm.nih.gov/uts/umls/concept/C5197695|http://purl.bioontology.org/ontology/MESH/D000079742|https://www.nccih.nih.gov/health/cupping
+1.2.15.2.1	Wet_Cupping			Wet-Cupping	
+1.2.15.2.1.1	Blood_Letting_Cupping			Bleeding Cupping	
+1.2.15.2.2	Retained_Cupping			N/A	
+1.2.15.2.3	Multiple_Cupping			N/A	
+1.2.15.2.4	Dry_Cupping			N/A	
+1.2.15.2.5	Needle_Cupping			N/A	
+1.2.15.2.6	Water_Cupping			Shuiguanfa|Liquid Cupping	
+1.2.15.2.7	Flash_Cupping			Momentary Cupping	
+1.2.15.2.8	Fire_Cupping			Fire-Cupping	
+1.2.15.2.9	Moving_Cupping			N/A	
+1.2.15.2.10	Pulsating_Cupping			N/A	
+1.2.15.3	Dry_Needling	UMLS:C0394648	MESH:D000079245	N/A	http://purl.bioontology.org/ontology/MESH/D000079245|http://purl.bioontology.org/ontology/RCD/X00KT|https://uts.nlm.nih.gov/uts/umls/concept/C0394648
+1.2.15.4	Bowen_Therapy	UMLS:C0695553		Bowen Technique|Bowen Manipulative Therapy|Technique Bowen	https://uts.nlm.nih.gov/uts/umls/concept/C0695553
+1.2.15.5	Manual_Therapy	UMLS:C0454525		N/A	https://uts.nlm.nih.gov/uts/umls/concept/C0454525
+1.2.15.5.1	Musculoskeletal_Manipulation	UMLS:C0949741	MESH:D026201	muscuoloskeletal manipulations|Manipulative Therapy|Manipulative Therapies|manipulative and body-based interventions|Manipulation Therapy|manual healing medicine|Manipulation Therapies	http://purl.bioontology.org/ontology/PDQ/CDR0000372893|http://purl.bioontology.org/ontology/MESH/D026201|https://uts.nlm.nih.gov/uts/umls/concept/C0949741
+1.2.15.5.1.1	Chiropractic_Therapy	UMLS:C0344217		Chiropraxy|Chiro Therapy|Chirotherapy|Chiropractic Medicine|Chiropractic	"https://www.cancer.gov/about-cancer/treatment/clinical-trials/intervention/C15204""|http://ncit.nci.nih.gov/ncitbrowser/Conc|https://www.nccih.nih.gov/health/chiropractic-in-depth|http://purl.bioontology.org/ontology/RCD/82D1.|https://uts.nlm.nih.gov/uts/umls/concept/C0344217|http://purl.bioontology.org/ontology/PDQ/CDR0000574277"
+1.2.15.5.1.1.1	Chiropractic_Manipulation	UMLS:C0600577	MESH:D026882	Chiropractic Spinal Adjustment|Chiropractic Adjustment|Manipulation, Chiropractic|Adjustment, Chiropractic Spinal|Spinal Adjustment, Chiropractic|Spinal Adjustments, Chiropractic|Adjustments, Chiropractic Spinal|Chiropractic Spinal Adjustments|Adjustment, Chiropractic	https://uts.nlm.nih.gov/uts/umls/concept/C0600577|http://purl.bioontology.org/ontology/MESH/D026882
+1.2.15.5.1.2	Applied_Kinesiology	UMLS:C0282567	MESH:D018953	AK	http://purl.bioontology.org/ontology/MESH/D018953|https://uts.nlm.nih.gov/uts/umls/concept/C0282567
+1.2.15.5.1.2.1	Kinesiology_Muscle_Test			N/A	
+1.2.15.5.1.3	Orthopedic_Manipulation	UMLS:C0024725	MESH:D008349	N/A	https://uts.nlm.nih.gov/uts/umls/concept/C0024725|http://purl.bioontology.org/ontology/MESH/D008349
+1.2.15.5.1.4	Osteopathic_Manipulation	UMLS:C0949744	MESH:D026301	Osteopathic Manipulative Treatments|Osteopathic Manipulative Treatment	"http://purl.bioontology.org/ontology/RCD/82D3.""|http://purl.bioontology.org/ontology/MESH/D026301|https://uts.nlm.nih.gov/uts/umls/concept/C0949744"
+1.2.15.5.1.5	Spinal_Manipulation	UMLS:C0086586	MESH:D020393	Cervical Manipulation|Spinal Manipulative Therapy|Lumbar Manipulation|SMT|Manipulation of spine	https://uts.nlm.nih.gov/uts/umls/concept/C0086586|http://purl.bioontology.org/ontology/MESH/D020393|https://www.nccih.nih.gov/health/spinal-manipulation-what-you-need-to-know
+1.2.15.5.2	Mobilization	UMLS:C0185112		N/A	https://uts.nlm.nih.gov/uts/umls/concept/C0185112
+1.2.15.5.3	Soft_Tissue_Therapy	UMLS:C3658309	MESH:D064746	N/A	https://uts.nlm.nih.gov/uts/umls/concept/C3658309|http://purl.bioontology.org/ontology/MESH/D064746
+1.2.15.5.3.1	Acupressure_Therapy	UMLS:C0282614	MESH:D019050	acupressure	https://uts.nlm.nih.gov/uts/umls/concept/C0282614|http://purl.bioontology.org/ontology/RCD/X00Kt|http://purl.bioontology.org/ontology/MESH/D019050|http://purl.bioontology.org/ontology/PDQ/CDR0000372888
+1.2.15.5.3.2	Emmett_Technique			N/A	http://purl.bioontology.org/ontology/RCTV2/8BF6.00
+1.2.15.5.3.3	Myotherapy	UMLS:C0695601		N/A	https://uts.nlm.nih.gov/uts/umls/concept/C0695601
+1.2.15.5.3.4	Soft_Tissue_Mobilization	UMLS:C0686940		N/A	https://uts.nlm.nih.gov/uts/umls/concept/C0686940
+1.2.15.5.3.5	Naprapathy	UMLS:C1735870		Oakley Smith Naprapathic Method	https://uts.nlm.nih.gov/uts/umls/concept/C1735870
+1.2.15.5.3.6	Massage_Therapy	UMLS:C3536731	MESH:D008405	Massage Therapies|therapeutic massage|Massage|Zone Therapies|Zone Therapy	https://www.nccih.nih.gov/health/massage-therapy-what-you-need-to-know|http://purl.bioontology.org/ontology/PDQ/CDR0000372895|https://uts.nlm.nih.gov/uts/umls/concept/C3536731|http://purl.bioontology.org/ontology/MESH/D008405
+1.2.15.5.3.6.1	Therapeutic_Massage	UMLS:C2584291		N/A	https://uts.nlm.nih.gov/uts/umls/concept/C2584291
+1.2.15.5.3.6.1.1	Manual_Lymphatic_Drainage	UMLS:C0556834	MESH:D000073297	Manual Lymph Drainage|Lymphatic Drainage Massage	https://uts.nlm.nih.gov/uts/umls/concept/C0556834|http://purl.bioontology.org/ontology/MESH/D000073297
+1.2.15.5.3.6.1.2	Myofascial_Release_Therapy	UMLS:C0695600	MESH:D000089803	Myofascial Release Treatments|MFR Therapy|Myofascial Treatment|Myofascial Release|Myofascial Release Treatment|Myofascial Release Therapies|Myofascial Treatments	http://purl.bioontology.org/ontology/MESH/D000089803|https://uts.nlm.nih.gov/uts/umls/concept/C0695600
+1.2.15.5.3.6.1.3	Deep_Tissue_Massage	UMLS:C2080787		Deep tissue bodywork	https://uts.nlm.nih.gov/uts/umls/concept/C2080787
+1.2.15.5.3.6.1.3.1	Deep_Transverse_Friction_Massage	UMLS:C0556841		Deep Transverse Frictions	https://uts.nlm.nih.gov/uts/umls/concept/C0556841
+1.2.15.5.3.6.1.4	Connective_Tissue_Massage	UMLS:C0556845		N/A	https://uts.nlm.nih.gov/uts/umls/concept/C0556845
+1.2.15.5.3.6.1.5	Neuromuscular_Massage			Neuromuscular Therapy	
+1.2.15.5.3.6.1.6	Trigger_Point_Massage			N/A	
+1.2.15.5.3.6.1.7	Rhythmical_Massage			N/A	
+1.2.15.5.3.6.1.8	Perineal_Massage			N/A	
+1.2.15.5.3.6.1.9	Prostate_Massage	UMLS:C5780154		N/A	https://uts.nlm.nih.gov/uts/umls/concept/C5780154
+1.2.15.5.3.6.1.10	Infant_Massage	UMLS:C0695595		N/A	https://uts.nlm.nih.gov/uts/umls/concept/C0695595
+1.2.15.5.3.6.1.11	Sport_Massage	UMLS:C0695615		sports massage	https://uts.nlm.nih.gov/uts/umls/concept/C0695615
+1.2.15.5.3.6.1.12	Roll_Stretch_Massage			N/A	
+1.2.15.5.3.6.1.13	Aston_Massage			N/A	
+1.2.15.5.3.6.1.14	Ice_Massage	UMLS:C0695940		N/A	https://uts.nlm.nih.gov/uts/umls/concept/C0695940
+1.2.15.5.3.6.1.15	Skin_Rehabilitation_Massage_Therapy			N/A	
+1.2.15.5.3.6.1.16	Integrative_Massage			N/A	
+1.2.15.5.3.6.2	Oriental_Massage	UMLS:C0884467		N/A	https://uts.nlm.nih.gov/uts/umls/concept/C0884467
+1.2.15.5.3.6.2.1	Chinese_Massage			N/A	
+1.2.15.5.3.6.2.1.1	Tui_Na	UMLS:C0695530		N/A	https://uts.nlm.nih.gov/uts/umls/concept/C0695530
+1.2.15.5.3.6.2.1.2	Acupoint_Massage	UMLS:C5577716		Acupuncture Massage	https://uts.nlm.nih.gov/uts/umls/concept/C5577716
+1.2.15.5.3.6.2.1.3	Qigong_Massage			N/A	
+1.2.15.5.3.6.2.2	Anma			N/A	
+1.2.15.5.3.6.2.3	Tibetan_Massage			N/A	
+1.2.15.5.3.6.2.4	Thai_Massage	UMLS:C0695563		N/A	https://uts.nlm.nih.gov/uts/umls/concept/C0695563
+1.2.15.5.3.6.2.5	Shiatsu_Therapy	UMLS:C0973228		Shiatsu Massage|Shiatsu Ryoho|Shiatzu|Movement Shiatsu|Shiatsu|Shi-astsu|Chih Ya|Zhi Ya	https://uts.nlm.nih.gov/uts/umls/concept/C0973228
+1.2.15.5.3.6.2.5.1	Namikoshi_Shiatsu			N/A	
+1.2.15.5.3.6.2.5.2	Tao_Shiatsu			N/A	
+1.2.15.5.3.6.2.5.3	Meridian_Shiatsu			N/A	
+1.2.15.5.3.6.2.5.4	Quantum_Shiatsu			N/A	
+1.2.15.5.3.6.2.5.5	Japanese_Shiatsu			N/A	
+1.2.15.5.3.6.2.5.6	Ohashiatsu			N/A	
+1.2.15.5.3.6.2.5.7	Zen_Shiatsu			N/A	
+1.2.15.5.3.6.2.5.8	Tsubo_Shiatsu			N/A	
+1.2.15.5.3.6.3	Indian_Head_Massage	UMLS:C2586182		N/A	https://uts.nlm.nih.gov/uts/umls/concept/C2586182
+1.2.15.5.3.6.4	Foot_Massage			N/A	
+1.2.15.5.3.6.4.1	Foot_Reflexion_Massage			N/A	
+1.2.15.5.3.6.5	Hand_Massage	UMLS:C5968212		N/A	https://uts.nlm.nih.gov/uts/umls/concept/C5968212
+1.2.15.5.3.6.6	Abdominal_Massage	UMLS:C2316341		Massage of abdomen	https://uts.nlm.nih.gov/uts/umls/concept/C2316341
+1.2.15.5.3.6.6.1	Abdominal_Meridian_Massage			N/A	
+1.2.15.5.3.6.7	Aromatherapy_Massage	UMLS:C2585844		N/A	https://uts.nlm.nih.gov/uts/umls/concept/C2585844
+1.2.15.5.3.6.8	Hot_Stone_Massage	UMLS:C2919709		N/A	https://uts.nlm.nih.gov/uts/umls/concept/C2919709
+1.2.15.5.3.6.9	Chair_Massage	UMLS:C1160824		N/A	https://uts.nlm.nih.gov/uts/umls/concept/C1160824
+1.2.15.5.3.6.10	Marma_Massage_Therapy			N/A	
+1.2.15.5.3.6.11	Lomilomi_Massage			N/A	
+1.2.15.5.3.6.12	Esalen_Massage			N/A	
+1.2.15.5.3.6.13	Oil_Massage			N/A	
+1.2.15.5.3.6.13.1	Silicone_Oil_Massage	UMLS:C0556847		N/A	https://uts.nlm.nih.gov/uts/umls/concept/C0556847
+1.2.15.5.3.6.14	Swedish_Massage	UMLS:C2945661		classical massage	https://uts.nlm.nih.gov/uts/umls/concept/C2945661
+1.2.15.5.3.6.14.1	Effleurage_Massage			N/A	
+1.2.15.5.3.6.15	Soft_Tissue_Massage	UMLS:C0556852		N/A	https://uts.nlm.nih.gov/uts/umls/concept/C0556852
+1.2.15.5.3.7	Rolfing_Theray	UMLS:C0949353		Rolfing Method|Rolfing|Rolfing Structural Integration	https://uts.nlm.nih.gov/uts/umls/concept/C0949353
+1.2.15.5.3.8	Hellerwork	UMLS:C0695552		N/A	https://uts.nlm.nih.gov/uts/umls/concept/C0695552
+1.2.15.5.3.9	Trager_Therapy			Trager Psychophysical Integration	
+1.2.15.5.3.10	Trigger_Point_Therapy			N/A	
+1.2.15.5.3.10.1	Trigger_Point_Massage				
+1.2.15.5.4	Craniosacral_Therapy	UMLS:C1321058		Craniosacral Treatment|Craniosacral Approach|Upledger Therapy|Cranial Therapy	https://uts.nlm.nih.gov/uts/umls/concept/C1321058
+1.2.15.5.5	Neurocranial_Restructuring			N/A	
+1.2.16	Spa_Therapy			N/A	
+1.2.16.1	Balneotherapy	UMLS:C0085867		N/A	https://uts.nlm.nih.gov/uts/umls/concept/C0085867
+1.2.16.2	Hydrotherapy	UMLS:C0020311		N/A	https://uts.nlm.nih.gov/uts/umls/concept/C0020311
+1.2.16.2.1	Aquatic_Therapy	UMLS:C5544506		Motion-Based Hydrotherapy|Aquatic Exercise|Pool Therapy|Aquatic Physical Therapy	https://uts.nlm.nih.gov/uts/umls/concept/C5544506
+1.2.16.2.1.1	Aqua_Lymphatic_Therapy			N/A	
+1.2.16.2.2	Application_of_Ice_Pack	UMLS:C0851189		application of Ice packs	https://uts.nlm.nih.gov/uts/umls/concept/C0851189
+1.2.16.2.3	Thermal_Bath			Thermal baths	
+1.2.16.2.4	Soak_in_Hot_Spring			soaks in hot springs	
+1.2.17	Thermal_Therapy	UMLS:C0454527		N/A	https://uts.nlm.nih.gov/uts/umls/concept/C0454527
+1.2.17.1	Cold_Therapy	UMLS:C0010412		Cold Therapies	https://uts.nlm.nih.gov/uts/umls/concept/C0010412
+1.2.17.2	Heat_Therapy			Heat Therapies	
+1.2.17.2.1	Hot_Compress_Therapy	UMLS:C1112508		N/A	https://uts.nlm.nih.gov/uts/umls/concept/C1112508
+1.2.17.2.2	Sauna_Therapy			Sauna	
+1.2.18	Colon_Irrigation	UMLS:C0400138		Irrigation of colon|Colon cleansing	https://uts.nlm.nih.gov/uts/umls/concept/C0400138
+1.2.19	Ear_Candle_Therapy			Ear Candling|Ear Candle Treatment|Ear Candle|Ear Coning|Chandelles Auriculaires|Auricular Candles|Thermal-Auricular Therapy	
+1.2.20	Shirodhara_Therapy	UMLS:C0884710		Shirodhara|Ayurvedic Shirodhara	https://uts.nlm.nih.gov/uts/umls/concept/C0884710
+1.2.20.1	Jaladhara_Therapy			Jaladhara	
+1.2.20.2	Thyladhara_Therapy			Thyladhara	
+1.2.20.3	Ksheeradhara_Therapy			Ksheeradhara	
+1.2.20.4	Thakradhara_Therapy			Thakradhara	
+1.2.21	Ultrasonic_Therapy	UMLS:C0041620		N/A	https://uts.nlm.nih.gov/uts/umls/concept/C0041620
+1.2.22	Vibration_Therapy			Vibrotherapy|Vibration Medicine|Vibrational Therapy|Vibrational Medicine	
+1.2.22.1	Local_Vibration_Therapy	UMLS:C5237316		N/A	https://uts.nlm.nih.gov/uts/umls/concept/C5237316
+1.2.22.1.1	Focal_Muscle_Vibration			N/A	
+1.2.22.2	Direct_Vibration			N/A	
+1.2.22.3	Low_Frequency_Sound_Stimulation			N/A	
+1.2.22.4	Vibroacoustic_Therapy			Physioacoustic Vibration	
+1.2.22.5	Rhythmic_Sensory_Stimulation			N/A	
+1.2.22.6	Sound_Vibrational_Therapy			Sound Wave Vibrational Therapy	
+1.2.22.7	Vibration_Foam_Rolling			N/A	
+1.2.22.8	Vibration_Healing			N/A	
+1.2.22.9	Vibration_Training			N/A	
+1.2.22.10	Whole_Body_Vibration_Therapy			Whole-body vibration therapy	
+1.2.22.10.1	Whole_Body_Vibration_Exercise			N/A	
+1.3	Psychological_Intervention			N/A	
+1.3.1	Mind				
+1.3.1.1	Breathing_Exercise				
+1.3.1.1.1	Buteyko_Breathing_Technique				
+1.3.1.1.2	Deep_Breathing				
+1.3.1.2	Relaxation_Technique				
+1.3.1.2.1	Art_Therapy				
+1.3.1.2.1.1	Visual_Art_Therapy				
+1.3.1.2.1.1.1	Pottery				
+1.3.1.2.1.1.2	Chinese_Calligraphy_Therapy				
+1.3.1.2.1.1.3	Clay_Art_Therapy				
+1.3.1.2.1.1.4	Mandala_Therapy				
+1.3.1.2.1.2	Creative_Art_Therapy				
+1.3.1.2.1.2.1	Creative_Expression				
+1.3.1.2.1.2.2	Artistic_Therapy_Painting				
+1.3.1.2.1.3	Phenomenological_Art_Therapy				
+1.3.1.2.1.4	Mindfulness_Based_Art_Therapy				
+1.3.1.2.1.5	Psychodynamic_Group_Art_Therapy				
+1.3.1.2.1.6	Anthroposophic_Art_Therapy				
+1.3.1.2.2	Humor_Therapy				
+1.3.1.2.2.1	Laughter_Therapy				
+1.3.1.2.2.1.1	Laughter_Yoga				
+1.3.1.2.3	Music_Therapy				
+1.3.1.2.3.1	Musical_Game				
+1.3.1.2.3.2	Orff_Based_Music_Therapy				
+1.3.1.2.3.3	Lyric_Analysis				
+1.3.1.2.3.4	Medical_Resonance_Therapy_Music				
+1.3.1.2.3.5	Musical_Motor_Feedback				
+1.3.1.2.3.6	Evocative_Music				
+1.3.1.2.3.7	Raga_Therapy				
+1.3.1.2.3.8	Dinner_Music_Intervention				
+1.3.1.2.3.9	Active_Music_Therapy				
+1.3.1.2.3.9.1	Interactive_Music_Therapy				
+1.3.1.2.3.10	Music_Based_Imagery				
+1.3.1.2.3.11	Individualized_Music_Focused_Auditory_Therapy				
+1.3.1.2.3.12	Lullaby_Therapy				
+1.3.1.2.3.13	Music_Reinforced_Therapy				
+1.3.1.2.3.14	Instructional_Music_Therapy				
+1.3.1.2.3.15	Improvisational_Music_Therapy				
+1.3.1.2.3.16	Group_Chanting_and_Singing				
+1.3.1.2.3.17	Music_Listening_Intervention				
+1.3.1.2.3.18	Musicokinetic_Therapy				
+1.3.1.2.3.19	Calming_Music_Therapy				
+1.3.1.2.3.20	Live_Music_Therapy				
+1.3.1.2.3.21	Group_Drumming				
+1.3.1.2.3.22	Contingent_Music				
+1.3.1.2.3.23	Music_Video_Therapy				
+1.3.1.2.3.24	Music_Exposure_Therapy				
+1.3.1.2.3.25	Music_Assisted_Reframing				
+1.3.1.2.3.26	Karaoke_Therapy				
+1.3.1.2.4	Reflexology				
+1.3.1.2.4.1	Acu_Reflexology				
+1.3.1.2.4.2	Lymphatic_Reflexology				
+1.3.1.2.4.3	Foot_Reflexology				
+1.3.1.2.4.4	Hand_Reflexology				
+1.3.1.2.4.5	Ear_Reflexology				
+1.3.1.2.5	Progressive_Muscle_Relaxation				
+1.3.1.2.5.1	Abbreviated_Muscle_Relaxation_Therapy				
+1.3.1.2.5.2	Music_Assisted_Progressive_Muscle_Relaxation				
+1.3.1.2.6	Applied_Relaxation				
+1.3.1.2.7	Relaxation_Training				
+1.3.1.3	Biofeedback				
+1.3.1.3.1	Sensory_Feedback				
+1.3.1.3.2	Neurofeedback				
+1.3.1.3.3	Heart_Rate_Variability_Biofeedback				
+1.3.1.3.3.1	Heart_Coherence				
+1.3.1.3.4	Electromyography_Biofeedback				
+1.3.1.3.5	Electroencephalogram_Biofeedback				
+1.3.1.3.6	Assisted_Biofeedback				
+1.3.1.4	Exercise_Therapy				
+1.3.1.4.1	Meditative_Movement				
+1.3.1.4.1.1	Pilates_Based_Exercise				
+1.3.1.4.1.2	Tai_Chi				
+1.3.1.4.1.3	Yoga_Therapy				
+1.3.1.4.1.3.1	Laughter_Yoga				
+1.3.1.4.1.3.2	Kundalini_Yoga				
+1.3.1.4.1.3.3	Raja_Yoga				
+1.3.1.4.1.3.4	Circular_Yoga				
+1.3.1.4.1.3.5	Face_Yoga				
+1.3.1.4.1.3.6	Pranayama_Yoga				
+1.3.1.4.1.3.7	Sudarshana_Kriya_Yoga				
+1.3.1.4.1.3.8	Kripalu_Yoga				
+1.3.1.4.1.3.9	Hot_Yoga				
+1.3.1.4.1.3.9.1	Bikram_Yoga				
+1.3.1.4.1.3.10	Ashtanga_Yoga				
+1.3.1.4.1.3.11	Tibetan_Yoga				
+1.3.1.4.1.3.12	Chair_Yoga				
+1.3.1.4.1.3.13	Sivananda_Yoga				
+1.3.1.4.1.3.14	Bhakti_Yoga				
+1.3.1.4.1.3.15	Tantra_Yoga				
+1.3.1.4.1.3.16	Vinyasa_Yoga				
+1.3.1.4.1.3.17	Creative_Yoga				
+1.3.1.4.1.3.18	Relaxing_Yoga				
+1.3.1.4.1.3.19	Power_Yoga				
+1.3.1.4.1.3.20	Iyengar_Yoga				
+1.3.1.4.1.3.21	Karma_Yoga				
+1.3.1.4.1.3.22	Jinana_Yoga				
+1.3.1.4.1.3.23	Sahaj_Yoga				
+1.3.1.4.1.3.24	Hatha_Yoga				
+1.3.1.4.1.3.25	Yoga_Nidra				
+1.3.1.4.1.4	Qigong_Therapy				
+1.3.1.4.1.4.1	Hua_Gong				
+1.3.1.4.1.4.2	Medical_Qigong				
+1.3.1.4.1.4.2.1	External_Qi_Gong_Therapy				
+1.3.1.4.1.4.2.2	Dongeui_Qigong				
+1.3.1.4.1.4.2.3	Guolin_Qigong				
+1.3.1.4.1.4.2.4	Qigong_Healer				
+1.3.1.4.1.4.3	Chan_Mi_Gong				
+1.3.1.4.1.4.4	Yi_Jia_Gong				
+1.3.1.4.1.4.5	Biyun_Qi_Gong				
+1.3.1.4.1.4.6	Daoyin_Qi_Gong				
+1.3.1.4.1.4.7	Qi_Gong_Yangsheng				
+1.3.1.4.1.4.8	Baduanjin_Qi_Gong				
+1.3.1.4.1.4.9	Five_Animals_Qi_Gong				
+1.3.1.4.2	Dance_Therapy				
+1.3.1.4.3	Aikido				
+1.3.1.4.4	Motor_Control_Exercise				
+1.3.1.4.5	Facial_Exercise				
+1.3.1.4.5.1	Face_Yoga				
+1.3.1.4.5.2	Facial_Resistance_Training				
+1.3.1.4.5.3	Face_Shaping				
+1.3.1.4.6	Guided_Physical_Activity				
+1.3.1.5	Movement_Education				
+1.3.1.5.1	Alexander_Technique				
+1.3.1.5.1.1	Alexander_Proprioception				
+1.3.1.5.2	Aston_Patterning				
+1.3.1.6	Art_of_Living				
+1.3.1.7	Eurythmy				
+1.3.1.8	Feldenkrais_Method				
+1.3.1.8.1	Functional_Integration				
+1.3.1.9	Flotation_Therapy				
+1.3.1.10	Sophrology				
+1.3.2	Animal_Assisted_Therapy	UMLS:C0150133		AAT|Animal-Assisted Intervention|Animal Assisted Activities(AAA)|pet-facilitated therapy|Animal-Assisted Education|Animal-Assisted Interventions(AAI)|Animal-Assisted Activities|Animal-Facilitated Therapy|Canine-Assisted Therapy|Pet Therapy	http://purl.bioontology.org/ontology/PDQ/CDR0000536030|https://uts.nlm.nih.gov/uts/umls/concept/C0150133
+1.3.2.1	Equine_Assisted_Therapy	UMLS:C2717786		Equine Therapy|Equine-Assisted Activities and Therapies (EAAT)|Equine-Assisted Activities and Therapies|Equine-Assisted Activity and Therapy	https://uts.nlm.nih.gov/uts/umls/concept/C2717786
+1.3.2.1.1	Horse_Riding_Therapy			N/A	
+1.3.2.1.1.1	Psychoeducational_Horseback_Riding			N/A	
+1.3.2.1.1.2	Hippotherapy	UMLS:C0454416		N/A	https://uts.nlm.nih.gov/uts/umls/concept/C0454416
+1.3.2.1.1.3	Therapeutic_Horseback_Riding			N/A	
+1.3.2.2	Animal_Companionship			N/A	
+1.3.2.3	Animal_Visitation	UMLS:C0810709		N/A	https://uts.nlm.nih.gov/uts/umls/concept/C0810709
+1.3.2.4	Dolphin_Assisted_Therapy			N/A	
+1.3.2.5	Canine_Visitation_Therapy			Canine Visitation Therapy (CVT)	
+1.3.2.6	Companion_Animal_Therapy			N/A	
+1.3.2.7	Dog_Assisted_Therapy			Canine Therapy	
+1.3.2.7.1	Canine_Assisted_Ambulation			N/A	
+1.3.2.8	Animals_in_Human_Therapy			N/A	
+1.3.3	Psychodrama	UMLS:C0033889	MESH:D011577	Dramatherapy|Drama Therapy	https://uts.nlm.nih.gov/uts/umls/concept/C0033889|http://purl.bioontology.org/ontology/MESH/D011577
+1.3.3.1	Role_Playing	UMLS:C0035822	MESH:D012381	Role Playings	http://purl.bioontology.org/ontology/MESH/D012381|https://uts.nlm.nih.gov/uts/umls/concept/C0035822
+1.3.4	Sensory_Art_Therapy	UMLS:C0969699	MESH:D026421	Sensory Art Therapies	http://purl.bioontology.org/ontology/MESH/D026421|https://uts.nlm.nih.gov/uts/umls/concept/C0969699
+1.3.4.1	Color_Therapy				
+1.3.4.1.1	Aura_Soma_Therapy				
+1.3.4.2	Acoustic_Stimulation	UMLS:C0001164	MESH:D000161	Auditory Stimulation	https://uts.nlm.nih.gov/uts/umls/concept/C0001164|http://purl.bioontology.org/ontology/MESH/D000161
+1.3.4.3	Aromatherapy	UMLS:C0376547	MESH:D019341	Aroma|aromatherapy and essential oils|Aromatherapies|Aroma Treatment|Aroma Therapies|Aroma Therapy|Aromatic Therapy	https://www.nccih.nih.gov/health/aromatherapy|https://uts.nlm.nih.gov/uts/umls/concept/C0376547|http://purl.bioontology.org/ontology/MESH/D019341|http://purl.bioontology.org/ontology/PDQ/CDR0000441095
+1.3.4.3.1	Scent_Therapy			N/A	
+1.3.4.4	Play_Therapy	UMLS:C0032216	MESH:D010989	Play based Mental Health Intervention|Play Therapies|Sandplay Therapies|Sandplay Therapy|Sandplay	http://purl.bioontology.org/ontology/MESH/D010989|https://uts.nlm.nih.gov/uts/umls/concept/C0032216
+1.3.4.5	Expressive_Therapy			Creative Arts Therapies|expressive therapies	
+1.3.4.5.1	Art_Therapy				
+1.3.4.5.1.1	Visual_Art_Therapy				
+1.3.4.5.1.1.1	Pottery				
+1.3.4.5.1.1.2	Chinese_Calligraphy_Therapy				
+1.3.4.5.1.1.3	Clay_Art_Therapy				
+1.3.4.5.1.1.4	Mandala_Therapy				
+1.3.4.5.1.2	Creative_Art_Therapy				
+1.3.4.5.1.2.1	Creative_Expression				
+1.3.4.5.1.2.2	Artistic_Therapy_Painting				
+1.3.4.5.1.3	Phenomenological_Art_Therapy				
+1.3.4.5.1.4	Mindfulness_Based_Art_Therapy				
+1.3.4.5.1.5	Psychodynamic_Group_Art_Therapy				
+1.3.4.5.1.6	Anthroposophic_Art_Therapy				
+1.3.4.5.2	Music_Therapy				
+1.3.4.5.2.1	Musical_Game				
+1.3.4.5.2.2	Orff_Based_Music_Therapy				
+1.3.4.5.2.3	Lyric_Analysis				
+1.3.4.5.2.4	Medical_Resonance_Therapy_Music				
+1.3.4.5.2.5	Musical_Motor_Feedback				
+1.3.4.5.2.6	Evocative_Music				
+1.3.4.5.2.7	Raga_Therapy				
+1.3.4.5.2.8	Dinner_Music_Intervention				
+1.3.4.5.2.9	Active_Music_Therapy				
+1.3.4.5.2.9.1	Interactive_Music_Therapy				
+1.3.4.5.2.10	Music_Based_Imagery				
+1.3.4.5.2.11	Individualized_Music_Focused_Auditory_Therapy				
+1.3.4.5.2.12	Lullaby_Therapy				
+1.3.4.5.2.13	Music_Reinforced_Therapy				
+1.3.4.5.2.14	Instructional_Music_Therapy				
+1.3.4.5.2.15	Improvisational_Music_Therapy				
+1.3.4.5.2.16	Group_Chanting_and_Singing				
+1.3.4.5.2.17	Music_Listening_Intervention				
+1.3.4.5.2.18	Musicokinetic_Therapy				
+1.3.4.5.2.19	Calming_Music_Therapy				
+1.3.4.5.2.20	Live_Music_Therapy				
+1.3.4.5.2.21	Group_Drumming				
+1.3.4.5.2.22	Contingent_Music				
+1.3.4.5.2.23	Music_Video_Therapy				
+1.3.4.5.2.24	Music_Exposure_Therapy				
+1.3.4.5.2.25	Music_Assisted_Reframing				
+1.3.4.5.2.26	Karaoke_Therapy				
+1.3.4.5.3	Dance_Therapy				
+1.3.4.5.4	Journaling	UMLS:C2316067		Expressive writing therapy	https://uts.nlm.nih.gov/uts/umls/concept/C2316067
+1.3.5	Hypnosis	UMLS:C3888013	MESH:D006990	Clinical Hypnosis|Hypnotherapies|Hypnotism|Hypnoanalysis|Mesmerism|hypnotherapy	https://uts.nlm.nih.gov/uts/umls/concept/C3888013|https://www.nccih.nih.gov/health/hypnosis|http://purl.bioontology.org/ontology/PDQ/CDR0000470289|http://purl.bioontology.org/ontology/MESH/D006990
+1.3.5.1	Autogenic_Training	UMLS:C0004361	MESH:D001326	Autogenic Relaxation|Autogenic Relaxation Training|Progressive Muscle Relaxation|Autogenic|Autogenic Relaxation Technique|Standard Autogenic Training|Progressive Relaxation|Autorelaxation Concentrative	http://purl.bioontology.org/ontology/MESH/D001326|https://uts.nlm.nih.gov/uts/umls/concept/C0004361
+1.3.5.2	Suggestion	UMLS:C0038659	MESH:D013404	Suggestions|therapeutic suggestion	https://uts.nlm.nih.gov/uts/umls/concept/C0038659|http://purl.bioontology.org/ontology/MESH/D013404
+1.3.5.2.1	Autosuggestion	UMLS:C0004404	MESH:D001346	C0004404	http://purl.bioontology.org/ontology/MESH/D001346|https://uts.nlm.nih.gov/uts/umls/concept/C0004404
+1.3.5.2.2	Post_Hypnotic_Suggestion			N/A	
+1.3.5.3	Hypnoanalgesia			N/A	
+1.3.5.4	Self_Hypnosis	UMLS:C0679660		Autohypnosis|Auto-Hypnosis	https://uts.nlm.nih.gov/uts/umls/concept/C0679660
+1.3.5.5	Hypnobirthing	UMLS:C2985297		N/A	https://uts.nlm.nih.gov/uts/umls/concept/C2985297
+1.3.5.5.1	Antenatal_Self_Hypnosis			N/A	
+1.3.5.6	Cognitive_Hypnotherapy			N/A	
+1.3.6	Imagery_Psychotherapy	UMLS:C0150627	MESH:D019018	Guided imagery|Directed Reverie Therapies|Imagery|Visualization Therapy|Psychotherapeutic Imagery|Imagery Psychotherapy|Visualisation|Guided Imagery|Visualization|Psychotherapy Imagery|Imagery (Psychotherapy)|Guided Visualization|Directed Reverie Therapy|Guided Health Imagery	https://uts.nlm.nih.gov/uts/umls/concept/C0150627|http://purl.bioontology.org/ontology/MESH/D019018
+1.3.6.1	Relaxation_Mental_Imagery			N/A	
+1.3.7	Spiritual_Therapy	UMLS:C0679674	MESH:D026443	Spiritual Intervention	http://purl.bioontology.org/ontology/PDQ/CDR0000372891|http://purl.bioontology.org/ontology/MESH/D026443|https://uts.nlm.nih.gov/uts/umls/concept/C0679674
+1.3.7.1	Therapeutic_Touch				
+1.3.7.2	Faith_Healing	UMLS:C0949912	MESH:D029221	N/A	http://purl.bioontology.org/ontology/MESH/D029221|http://purl.bioontology.org/ontology/PDQ/CDR0000574293|https://uts.nlm.nih.gov/uts/umls/concept/C0949912
+1.3.7.2.1	Native_American_Faith_Healing			N/A	
+1.3.7.2.2	Prayer_Healing	UMLS:C0282230		N/A	https://uts.nlm.nih.gov/uts/umls/concept/C0282230
+1.3.7.3	Laying_on_of_Hands_with_Prayer	UMLS:C1276354		N/A	https://uts.nlm.nih.gov/uts/umls/concept/C1276354|http://purl.bioontology.org/ontology/RCTV2/8BF0.00
+1.3.7.4	Meditation_Therapy	UMLS:C0814263	MESH:D019122	meditation	"https://www.cancer.gov/about-cancer/treatme|http://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI%20Thesaurus&code=C51975""|https://www.nccih.nih.gov/health/meditation-and-mindfulness-effectiveness-and-safety|https://uts.nlm.nih.gov/uts/umls/concept/C0814263|http://purl.bioontology.org/ontology/MESH/D019122|http://purl.bioontology.org/ontology/PDQ/CDR0000574221"
+1.3.7.4.1	Concentrative_Meditation			N/A	
+1.3.7.4.1.1	Mantra_Meditation			N/A	
+1.3.7.4.1.1.1	Transcendental_Meditation	UMLS:C0204530		Transcendental meditation therapy	https://uts.nlm.nih.gov/uts/umls/concept/C0204530
+1.3.7.4.1.2	Zen_Meditation			N/A	
+1.3.7.4.1.3	Breath_Medication			N/A	
+1.3.7.4.1.4	Guided_Medication			N/A	
+1.3.7.4.2	Mindfulness_Meditation	UMLS:C5891058		N/A	https://uts.nlm.nih.gov/uts/umls/concept/C5891058
+1.3.7.4.2.1	Mindful_Eating				
+1.3.7.4.2.2	Mindfulness_Based_Art_Therapy				
+1.3.7.4.2.3	Body_Scanning_Meditation			N/A	
+1.3.7.4.2.4	Mindfulness_Based_Stress_Reduction_Meditation			MBSR meditation	
+1.3.7.4.2.4.1	Cognitive_Behavioral_and_Mindfulness_Based_Stress_Reduction			N/A	
+1.3.7.4.2.5	Walking_Medication			N/A	
+1.3.7.4.2.6	Mindfulness_Based_Relapse_Prevention			MBRP	
+1.3.7.4.2.7	Adapted_Mindfulness_Based_Intervention			N/A	
+1.3.7.4.2.8	Mindfulness_and_Acceptance_Based_Group_Therapy			N/A	
+1.3.7.4.2.9	Mindfulness_Awareness_Practice			N/A	
+1.3.7.4.2.10	Mindfulness_Based_Cognitive_Therapy	UMLS:C5940645		MBCT	https://uts.nlm.nih.gov/uts/umls/concept/C5940645
+1.3.7.4.2.11	Mindfulness_Based_Alzheimer_Stimulation			N/A	
+1.3.7.4.2.12	Mindfulness_Based_Exposure_Therapy			N/A	
+1.3.7.4.2.13	Mindfulness_Oriented_Recovery_Enhancement			MORE	
+1.3.7.4.2.14	Mindfulness_Based_Resilience_Training			MBRT	
+1.3.7.4.2.15	Mindfulness_Based_Blood_Pressure_Reduction			MB-College	
+1.3.7.4.2.16	Mindfulness_Based_College			MSC	
+1.3.7.4.2.17	Mindful_Self_Compassiion			N/A	
+1.3.7.4.2.18	Mindfulness_Performance_Enhanncement_Awareness_and_Knowledge			mPEAK	
+1.3.7.4.3	Vipassana_Meditation			N/A	
+1.3.7.4.4	Analytical_Meditation			N/A	
+1.3.7.4.5	Theravada_Meditation			N/A	
+1.3.7.4.6	Heartfulness_Meditation			N/A	
+1.3.7.4.7	Compassion_Based_Meditation			N/A	
+1.3.7.4.8	Loving_Kindness_Meditation			N/A	
+1.3.7.5	Mental_Healing	UMLS:C0025352	MESH:D008602	N/A	http://purl.bioontology.org/ontology/MESH/D008602|https://uts.nlm.nih.gov/uts/umls/concept/C0025352
+1.3.7.6	Radiesthesia	UMLS:C0034545	MESH:D011844	N/A	http://purl.bioontology.org/ontology/MESH/D011844|https://uts.nlm.nih.gov/uts/umls/concept/C0034545
+1.3.7.7	Shamanic_Healing			Shamanic medicine	
+1.3.7.8	Distance_Healing	UMLS:C1541277		Absent Healing|Remote Healing	https://uts.nlm.nih.gov/uts/umls/concept/C1541277|http://purl.bioontology.org/ontology/PDQ/CDR0000372892
+1.3.7.9	Noetic_Therapy			N/A	
+1.3.7.10	Divining			N/A	
+1.3.7.11	Psychic_Healing	UMLS:C0871171		N/A	https://uts.nlm.nih.gov/uts/umls/concept/C0871171
+1.3.7.12	Sound_Healing			N/A	
+1.3.7.13	Spiritual_Healing	UMLS:C0015547	MESH:D026443	Spiritual Healings	http://purl.bioontology.org/ontology/MESH/D026443|https://uts.nlm.nih.gov/uts/umls/concept/C0015547
+1.3.7.13.1	Exorcism	UMLS:C4045985	MESH:D026443	Exorcisms	http://purl.bioontology.org/ontology/MESH/D026443|https://uts.nlm.nih.gov/uts/umls/concept/C4045985
+1.3.8	Stress_Management_Therapy	UMLS:C1883174		N/A	http://purl.bioontology.org/ontology/PDQ/CDR0000574229|https://uts.nlm.nih.gov/uts/umls/concept/C1883174
+1.3.8.1	Laughter_Therapy				
+1.3.8.1.1	Laughter_Yoga				
+1.3.8.2	Aromatherapy				
+1.3.8.2.1	Scent_Therapy				
+1.3.8.3	Mindfulness_Based_Stress_Reduction_Meditation				
+1.3.8.3.1	Cognitive_Behavioral_and_Mindfulness_Based_Stress_Reduction				
+1.3.9	Support_Group_Therapy	UMLS:C1883225		N/A	http://purl.bioontology.org/ontology/PDQ/CDR0000574225|https://uts.nlm.nih.gov/uts/umls/concept/C1883225
+1.3.10	Psychotherapy	UMLS:C0033968		N/A	https://uts.nlm.nih.gov/uts/umls/concept/C0033968
+1.3.10.1	Psychoeducation	UMLS:C0871175		N/A	https://uts.nlm.nih.gov/uts/umls/concept/C0871175
+1.3.10.2	Bibliotherapy	UMLS:C0005365		workbooks	https://uts.nlm.nih.gov/uts/umls/concept/C0005365
+1.3.10.3	Body_Psychotherapy			Body-Oriented Psychotherapy	
+1.3.10.3.1	Bioenergetic_Therapy	UMLS:C2945659		Bioenergetic Medicine|Bioenergy Therapy|Bioenergetic Analysis|Bioenergetics	https://uts.nlm.nih.gov/uts/umls/concept/C2945659
+1.3.10.4	Counseling	UMLS:C0010210		Psychological counseling	https://uts.nlm.nih.gov/uts/umls/concept/C0010210
+1.3.10.4.1	Grief_Counseling			N/A	
+1.3.10.4.2	Lifestyle_Counseling			N/A	
+1.3.10.4.3	Biographical_Counseling			N/A	
+1.3.10.5	Emotional_Freedom_Technique	UMLS:C1608504		N/A	https://uts.nlm.nih.gov/uts/umls/concept/C1608504
+1.3.10.6	Gestalt_Therapy	UMLS:C0017501		N/A	https://uts.nlm.nih.gov/uts/umls/concept/C0017501
+1.3.10.7	Narrative_Therapy	UMLS:C3494322		N/A	https://uts.nlm.nih.gov/uts/umls/concept/C3494322
+1.3.10.8	Family_Psychotherapy	UMLS:C0015618		Family Therapy	https://uts.nlm.nih.gov/uts/umls/concept/C0015618
+1.3.10.9	Positive_Self_Talk			N/A	
+1.3.10.10	Psychotherapy_Incorporating_Mindfulness			N/A	
+1.3.10.11	Psychotherapy_Incorporating_Spirituality			N/A	
+1.3.10.12	Cognitive_Behavioral_Therapy		MESH:D015928	Cognition Therapy|Cognitive Behavior Therapy|Cognitive Therapy|Cognitive Psychotherapy	http://purl.bioontology.org/ontology/MESH/D015928
+1.3.10.13	Dialectical_Behavior_Therapy		MESH:D000077252	N/A	http://purl.bioontology.org/ontology/MESH/D000077252
+1.3.10.14	Acceptance_and_Commitment_Therapy		MESH:D064869	N/A	http://purl.bioontology.org/ontology/MESH/D064869
+1.3.11	Thought_Field_Therapy			N/A	
+1.3.12	Neurolinguistic_Programming	UMLS:C0683473		Neurolinguistic Patterning	https://uts.nlm.nih.gov/uts/umls/concept/C0683473
+1.3.13	Focusing_Therapy			Focusing-Oriented Therapy|Foucsing Process|Focusing	
+1.3.13.1	Attentional_Focus			N/A	
+1.3.13.2	Interactive_Focusing_Therapy			N/A	
+1.3.13.3	Body_State_Focusing			N/A	
+1.3.13.4	Attentional_Focus_and_Symptom_Management_Intervention			N/A	
+1.3.13.5	Internal_Focusing			N/A	
+1.3.13.6	Focus_on_Love_and_Gratitude			N/A	
+1.3.13.7	External_Focusing			N/A	
+1.3.13.8	Interoceptive_Awareness			N/A	
+1.3.13.9	Mindful_Awareness_in_Body_Oriented_Therapy			N/A	
+1.3.14	Morita_Therapy	UMLS:C0870913		N/A	https://uts.nlm.nih.gov/uts/umls/concept/C0870913
+1.3.15	Environmental_Therapy			N/A	
+1.3.15.1	Nature_Therapy	UMLS:C0598380		Nature-based Therapy	https://uts.nlm.nih.gov/uts/umls/concept/C0598380
+1.3.15.1.1	Horticultural_Therapy	UMLS:C0454057	MESH:D058611	Horticulture Therapy|Therapeutic Horticulture|Gardening Therapy|Garden Therapy	http://purl.bioontology.org/ontology/MESH/D058611|https://uts.nlm.nih.gov/uts/umls/concept/C0454057
+1.3.15.1.2	Forest_Therapy	UMLS:C5940600	MESH:D000099080	Shinrin-Yoku|Forest Bathing	http://purl.bioontology.org/ontology/MESH/D000099080|https://uts.nlm.nih.gov/uts/umls/concept/C5940600
+1.3.15.1.2.1	Forest_Bathing			N/A	
+1.3.15.2	Sensory_Stimulation			N/A	
+1.3.16	Positive_Thinking	UMLS:C4280069		N/A	https://uts.nlm.nih.gov/uts/umls/concept/C4280069
+1.3.17	Reminiscence_Therapy	UMLS:C0150321		N/A	https://uts.nlm.nih.gov/uts/umls/concept/C0150321
+1.3.18	Sound_Therapy			N/A	
+1.4	Phytotherapy	UMLS:C0242388	MESH:D008517	Botanical Therapy	https://uts.nlm.nih.gov/uts/umls/concept/C0242388|http://purl.bioontology.org/ontology/MESH/D008517|http://purl.bioontology.org/ontology/PDQ/CDR0000372899
+1.4.1	Phytoestrogen_Therapy	UMLS:C1541283		N/A	https://uts.nlm.nih.gov/uts/umls/concept/C1541283|http://purl.bioontology.org/ontology/PDQ/CDR0000372904
+1.4.2	Herbal_Therapy	UMLS:C1533719		Herb Therapy|Herbal Medicine	https://uts.nlm.nih.gov/uts/umls/concept/C1533719
+2.1	Dietary_Supplement	UMLS:C0242295	MESH:D019587	Dietary Supplements	https://uts.nlm.nih.gov/uts/umls/concept/C0242295|http://purl.bioontology.org/ontology/MESH/D019587
+2.1.1	Vitamin	UMLS:C0042890		Vitamins	https://uts.nlm.nih.gov/uts/umls/concept/C0042890
+2.1.2	Mineral	UMLS:C0026162		Minerals	https://uts.nlm.nih.gov/uts/umls/concept/C0026162
+2.1.3	Prebiotic	UMLS:C2717875		Prebiotics	https://uts.nlm.nih.gov/uts/umls/concept/C2717875
+2.1.4	Probiotic	UMLS:C0525033		Probiotics	https://uts.nlm.nih.gov/uts/umls/concept/C0525033
+2.2	Natural_Product			N/A	
+2.2.1	Phytochemical	UMLS:C0577749		Phytochemicals	https://uts.nlm.nih.gov/uts/umls/concept/C0577749
+2.2.2	Herb	UMLS:C0019240		N/A	https://uts.nlm.nih.gov/uts/umls/concept/C0019240
+2.2.2.1	Astragalus	UMLS:C0330845		milk vetch	https://www.nccih.nih.gov/health/astragalus|https://uts.nlm.nih.gov/uts/umls/concept/C0330845
+2.2.2.2	Asian_Ginseng			white ginseng|red ginseng|ginseng root|Korean ginseng|Chinese ginseng|Asian ginseng	https://www.nccih.nih.gov/health/asian-ginseng
+2.2.2.3	Berberine			N/A	https://www.nccih.nih.gov/health/berberine-and-weight-loss-what-you-need-to-know
+2.2.2.4	Bitter_Orange			sour orange|Seville orange|zhi shi	https://www.nccih.nih.gov/health/bitter-orange
+2.2.2.5	Cinnamon			Ceylon cinnamon|cinnamon bark|cassia cinnamon	https://www.nccih.nih.gov/health/cinnamon
+2.2.2.6	Dandelion			lion|blowball	https://www.nccih.nih.gov/health/dandelion
+2.2.2.7	Ephedra			ma huang|Chinese ephedra	https://www.nccih.nih.gov/health/ephedra
+2.2.2.8	Ginger			N/A	https://www.nccih.nih.gov/health/ginger
+2.2.2.9	Ginkgo			Japanese silver apricot|Ginkgo biloba|maidenhair tree|fossil tree	https://www.nccih.nih.gov/health/ginkgo
+2.2.2.10	Tea			N/A	https://www.nccih.nih.gov/health/tea
+2.2.2.10.1	Green_Tea			N/A	https://www.nccih.nih.gov/health/green-tea
+2.2.2.11	Hawthorn			English hawthorn|harthorne|haw|oneseed hawthorn|hawthorne	https://www.nccih.nih.gov/health/hawthorn
+2.2.2.12	Licorice_Root			licorice|liquorice|Chinese licorice|gan zao|gan cao|sweet root	https://www.nccih.nih.gov/health/licorice-root
+2.2.2.13	Milk_Thistle			Mary thistle|holy thistle	https://www.nccih.nih.gov/health/milk-thistle
+2.2.2.14	Mugwort			felon herb|common wormwood|chrysanthemum weed|St. John|wild wormwood|sailor	https://www.nccih.nih.gov/health/mugwort
+2.2.2.15	Rhodiola			golden root|king|rose root|arctic root	https://www.nccih.nih.gov/health/rhodiola
+2.2.2.16	Thunder_God_Vine			lei gong teng	https://www.nccih.nih.gov/health/thunder-god-vine
+2.2.2.17	White_Mulberry_Leaf			silkworm mulberry|common mulberry|Egyptian mulberry|Russian mulberry	https://www.nccih.nih.gov/health/white-mulberry-leaf
+2.2.2.18	Ashwagandha			ashwagandha|Indian ginseng	https://www.nccih.nih.gov/health/ashwagandha
+2.2.2.19	Fenugreek			N/A	https://www.nccih.nih.gov/health/fenugreek
+2.2.2.20	Aloe_Vera			aloe	https://www.nccih.nih.gov/health/aloe-vera
+2.2.2.21	Turmeric			turmeric root|Indian saffron	https://www.nccih.nih.gov/health/turmeric
+2.2.2.22	Marijuana			N/A	https://www.nccih.nih.gov/health/cannabis-marijuana-and-cannabinoids-what-you-need-to-know
+2.2.2.23	Bilberry			whortleberry|European bilberry|huckleberry	https://www.nccih.nih.gov/health/bilberry
+2.2.2.24	Black_Cohosh			macrotys|rattleweed|black snakeroot|bugwort|bugbane|rattleroot	https://www.nccih.nih.gov/health/black-cohosh
+2.2.2.25	Butterbur			purple butterbur|petasites	https://www.nccih.nih.gov/health/butterbur
+2.2.2.26	Chamomile			German chamomile	https://www.nccih.nih.gov/health/chamomile
+2.2.2.27	Chasteberry			chaste tree|monk's pepper|vitex	https://www.nccih.nih.gov/health/chasteberry
+2.2.2.28	Echinacea			American coneflower|purple coneflower|coneflower	https://www.nccih.nih.gov/health/echinacea
+2.2.2.29	European_Mistletoe			N/A	https://www.nccih.nih.gov/health/european-mistletoe
+2.2.2.30	Feverfew			European feverfew|bachelor|featherfew	https://www.nccih.nih.gov/health/feverfew
+2.2.2.31	Garlic			N/A	https://www.nccih.nih.gov/health/garlic
+2.2.2.32	Horse_Chestnut			buckeye|Spanish chestnut	https://www.nccih.nih.gov/health/horse-chestnut
+2.2.2.33	Lavender			common lavender|English lavender|French lavender	https://www.nccih.nih.gov/health/lavender
+2.2.2.34	Red_Clover			cow clover|meadow clover|wild clover	https://www.nccih.nih.gov/health/red-clover
+2.2.2.35	Sage			true sage|garden sage|common sage	https://www.nccih.nih.gov/health/sage
+2.2.2.36	St			hypericum|Klamath weed|goatweed	https://www.nccih.nih.gov/health/st-johns-wort
+2.2.2.37	Valerian			garden heliotrope|all-heal	https://www.nccih.nih.gov/health/valerian
+2.2.2.38	Cat			N/A	https://www.nccih.nih.gov/health/cats-claw
+2.2.2.39	Goldenseal			yellow pucoon|yellow root|goldenroot	https://www.nccih.nih.gov/health/goldenseal
+2.2.2.40	Passionflower			water lemon|maracuja|apricot vine|maypop	https://www.nccih.nih.gov/health/passionflower
+2.2.2.41	Saw_Palmetto			cabbage palm|American dwarf palm tree	https://www.nccih.nih.gov/health/saw-palmetto
+2.2.2.42	Kava			kava kava|ava root|kawa|ava pepper	https://www.nccih.nih.gov/health/kava
+2.2.2.43	Hoodia			Kalahari cactus|Xhoba	https://www.nccih.nih.gov/health/hoodia
+2.2.2.44	Yohimbe			johimbi	https://www.nccih.nih.gov/health/yohimbe
+2.2.2.45	Kratom			N/A	https://www.nccih.nih.gov/health/kratom
+3.1	Anthroposophic_Medicine	UMLS:C2586030		anthroposophy|anthroposophical medicine	https://pmc.ncbi.nlm.nih.gov/articles/PMC3865373/|https://uts.nlm.nih.gov/uts/umls/concept/C2586030
+3.2	Homeopathy	UMLS:C0684199	MESH:D006705	Homeopathic|Homeopathic Remedy|Homeopathic Therapy	"https://www.cancer.gov/about-cancer/treatment/clinical-trials/intervention/C15718""|http://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictio|http://purl.bioontology.org/ontology/PDQ/CDR0000574166|http://purl.bioontology.org/ontology/MESH/D006705|https://www.nccih.nih.gov/health/homeopathy|http://purl.bioontology.org/ontology/RCD/8BA6.|https://uts.nlm.nih.gov/uts/umls/concept/C0684199"
+3.3	Naturopathy	UMLS:C0027495	MESH:D009324	Naturopathy Therapy|Naturopathic Therapy|Naturopathic Medicine|Naturopathic	"https://www.cancer.gov/about-cancer/treatment/clinical-trials/i|http://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI%20Thesaurus&code=C15283""|https://uts.nlm.nih.gov/uts/umls/concept/C0027495|https://www.nccih.nih.gov/health/naturopathy|http://purl.bioontology.org/ontology/MESH/D009324|http://purl.bioontology.org/ontology/PDQ/CDR0000574165"
+3.4	Traditional_Medicine	UMLS:C0025131	MESH:D008519	Home Remedies|Traditional Medicine|Folk Remedies|Home Remedy|Folk Remedy|Indigenous Medicine|Folk Medicine|Traditional Healing|Ethnomedicine|Primitive Medicine	http://purl.bioontology.org/ontology/MESH/D008519|https://uts.nlm.nih.gov/uts/umls/concept/C0025131
+3.4.1	Historical_Eclecticism	UMLS:C0949807	MESH:D027681	N/A	http://purl.bioontology.org/ontology/MESH/D027681|https://uts.nlm.nih.gov/uts/umls/concept/C0949807
+3.4.2	Traditional_African_Medicine	UMLS:C0085093	MESH:D016488	African Medicine|African Traditional Medicine	http://purl.bioontology.org/ontology/MESH/D016488|https://uts.nlm.nih.gov/uts/umls/concept/C0085093
+3.4.3	Arabic_Medicine	UMLS:C0025121	MESH:D008514	N/A	http://purl.bioontology.org/ontology/MESH/D008514|https://uts.nlm.nih.gov/uts/umls/concept/C0025121
+3.4.3.1	Unani_Medicine	UMLS:C0376557	MESH:D019367	Yunani medicine	http://purl.bioontology.org/ontology/MESH/D019367|https://uts.nlm.nih.gov/uts/umls/concept/C0376557
+3.4.4	Traditional_Indian_Medicine			N/A	
+3.4.4.1	Ayurvedic_Medicine	UMLS:C0025122	MESH:D008515	Hindu Medicine|Panchakarma|Siddha Medicine	https://uts.nlm.nih.gov/uts/umls/concept/C0025122|http://purl.bioontology.org/ontology/MESH/D008515
+3.4.5	Traditional_East_Asian_Medicine	UMLS:C0025129	MESH:D008518	East Asian Traditional Medicine|East Asian Medicines|Oriental Medicine|Traditional Far Eastern Medicine|Oriental Traditional Medicine|Traditional Oriental Medicine|Far East Medicine|Far East Medicines|Traditional Oriental Medicines|East Asia Medicines|East Asian Medicine|East Asia Medicine	https://uts.nlm.nih.gov/uts/umls/concept/C0025129|http://purl.bioontology.org/ontology/MESH/D008518
+3.4.5.1	Traditional_Chinese_Medicine	UMLS:C0025124	MESH:D008516	Traditional Tongue Diagnosis|Traditional Tongue Assessment|Zhong Yi Xue|Traditional Tongue Diagnoses|Chung I Hsueh|Traditional Tongue Assessments|Chinese Traditional Medicine	http://purl.bioontology.org/ontology/MESH/D008516|https://uts.nlm.nih.gov/uts/umls/concept/C0025124
+3.4.5.1.1	Chinese_Herbal_Medicine	UMLS:C1273412		N/A	https://uts.nlm.nih.gov/uts/umls/concept/C1273412|http://purl.bioontology.org/ontology/RCTV2/8BF3.00
+3.4.5.2	Kampo_Medicine	UMLS:C0752221	MESH:D020835	Kanpo Medicine|Kanpo|Kampo	http://purl.bioontology.org/ontology/MESH/D020835|https://uts.nlm.nih.gov/uts/umls/concept/C0752221
+3.4.5.3	Traditional_Korean_Medicine	UMLS:C2350504	MESH:D055670	Sasang Constitutional Medicine|Korean Traditional Medicine	https://uts.nlm.nih.gov/uts/umls/concept/C2350504|http://purl.bioontology.org/ontology/MESH/D055670
+3.4.5.4	Traditional_Mongolian_Medicine	UMLS:C2717890	MESH:D056785	Mongolian Medicine|Mongolian Medicines|Mongolian Folk Medicines|Mongolian Folk Medicine|Mongolian Traditional Medicines|Mongolian Traditional Medicine	http://purl.bioontology.org/ontology/MESH/D056785|https://uts.nlm.nih.gov/uts/umls/concept/C2717890
+3.4.5.5	Traditional_Tibetan_Medicine	UMLS:C1136246	MESH:D038861	Tibetan Traditional Medicine|Tibetan Medicine	http://purl.bioontology.org/ontology/MESH/D038861|https://uts.nlm.nih.gov/uts/umls/concept/C1136246
+3.4.5.6	Traditional_Japanese_Medicine			Japanese traditional medicine	
+3.4.6	Traditional_Iranian_Medicine	UMLS:C5544463	MESH:D000091182	Traditional Iranian Medicines|Persian Traditional Medicine|Ancient Iranian Medicine|Iranian Traditional Medicine	http://purl.bioontology.org/ontology/MESH/D000091182|https://uts.nlm.nih.gov/uts/umls/concept/C5544463
+3.4.7	Traditional_Thai_Medicine	UMLS:C5828333	MESH:D000096262	Thai Traditional Medicine|Thai Massages|Traditional Thai Massages|Thai Medicine|Traditional Thai Massage|Thai Massage|Thai Medicine Traditional	https://uts.nlm.nih.gov/uts/umls/concept/C5828333|http://purl.bioontology.org/ontology/MESH/D000096262

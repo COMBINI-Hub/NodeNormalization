@@ -1,0 +1,729 @@
+input_curie	preferred_identifier	preferred_label	confidence	method	evidence
+UMLS:C0259972	UMLS:C0259972	Ketogenic Diet		bridge_equivalence	combo_bridge:1.1.1.1
+MESH:D055423	UMLS:C0259972	Ketogenic Diet	0.9	bridge_equivalence	combo_bridge:1.1.1.1
+NCIT:C173168	UMLS:C0259972	Ketogenic Diet	0.9	bridge_equivalence	combo_bridge:1.1.1.1
+SNOMEDCT:102269000	UMLS:C0259972	Ketogenic Diet	0.9	bridge_equivalence	combo_bridge:1.1.1.1
+SNOMEDCT:226108007	UMLS:C0259972	Ketogenic Diet	0.9	bridge_equivalence	combo_bridge:1.1.1.1
+SNOMEDCT:765060000	UMLS:C0259972	Ketogenic Diet	0.9	bridge_equivalence	combo_bridge:1.1.1.1
+UMLS:C4505336	UMLS:C4505336	Diet, High-Protein Low-Carbohydrate		bridge_equivalence	combo_bridge:1.1.1.2
+UMLS:C1319849	UMLS:C1319849	Atkins Diet		bridge_equivalence	combo_bridge:1.1.1.2
+MESH:D000076107	UMLS:C1319849		0.9	bridge_equivalence	combo_bridge:1.1.1.2
+SNOMEDCT:407667003	UMLS:C1319849		0.9	bridge_equivalence	combo_bridge:1.1.1.2
+SNOMEDCT:765024005	UMLS:C1319849		0.9	bridge_equivalence	combo_bridge:1.1.1.2
+UMLS:C0344351	UMLS:C0344351	Gluten-Free Diet		bridge_equivalence	combo_bridge:1.1.1.3
+MESH:D055050	UMLS:C0344351	Gluten-Free Diet	0.9	bridge_equivalence	combo_bridge:1.1.1.3
+NCIT:C157866	UMLS:C0344351	Gluten-Free Diet	0.9	bridge_equivalence	combo_bridge:1.1.1.3
+SNOMEDCT:138059006	UMLS:C0344351	Gluten-Free Diet	0.9	bridge_equivalence	combo_bridge:1.1.1.3
+SNOMEDCT:151208002	UMLS:C0344351	Gluten-Free Diet	0.9	bridge_equivalence	combo_bridge:1.1.1.3
+SNOMEDCT:160671006	UMLS:C0344351	Gluten-Free Diet	0.9	bridge_equivalence	combo_bridge:1.1.1.3
+SNOMEDCT:182926001	UMLS:C0344351	Gluten-Free Diet	0.9	bridge_equivalence	combo_bridge:1.1.1.3
+SNOMEDCT:437651000124104	UMLS:C0344351	Gluten-Free Diet	0.9	bridge_equivalence	combo_bridge:1.1.1.3
+SNOMEDCT:6468003	UMLS:C0344351	Gluten-Free Diet	0.9	bridge_equivalence	combo_bridge:1.1.1.3
+UMLS:C0452423	UMLS:C0452423	Diet, Paleolithic		bridge_equivalence	combo_bridge:1.1.1.4
+MESH:D066046	UMLS:C0452423	Diet, Paleolithic	0.9	bridge_equivalence	combo_bridge:1.1.1.4
+SNOMEDCT:226241004	UMLS:C0452423	Diet, Paleolithic	0.9	bridge_equivalence	combo_bridge:1.1.1.4
+UMLS:C0012166	UMLS:C0012166	Diet, Macrobiotic		bridge_equivalence	combo_bridge:1.1.1.5
+MEDDRA:10025377	UMLS:C0012166	Diet, Macrobiotic		bridge_equivalence	combo_bridge:1.1.1.5
+MESH:D015623	UMLS:C0012166	Diet, Macrobiotic	0.9	bridge_equivalence	combo_bridge:1.1.1.5
+SNOMEDCT:102268008	UMLS:C0012166	Diet, Macrobiotic	0.9	bridge_equivalence	combo_bridge:1.1.1.5
+UMLS:C5197846	UMLS:C5197846			bridge_equivalence	combo_bridge:1.1.1.7
+MESH:D000095500	UMLS:C5197846		0.9	bridge_equivalence	combo_bridge:1.1.1.7
+NCIT:C180543	UMLS:C5197846		0.9	bridge_equivalence	combo_bridge:1.1.1.7
+UMLS:C1138412	UMLS:C1138412	Diet, Mediterranean		bridge_equivalence	combo_bridge:1.1.1.7.1
+MESH:D038441	UMLS:C1138412		0.9	bridge_equivalence	combo_bridge:1.1.1.7.1
+SNOMEDCT:1255163004	UMLS:C1138412		0.9	bridge_equivalence	combo_bridge:1.1.1.7.1
+UMLS:C0311164	UMLS:C0311164	Vegetarian diet		bridge_equivalence	combo_bridge:1.1.1.7.2
+MESH:D014676	UMLS:C0311164		0.9	bridge_equivalence	combo_bridge:1.1.1.7.2
+MTH:U003174	UMLS:C0311164		0.9	bridge_equivalence	combo_bridge:1.1.1.7.2
+SNOMEDCT:138044000	UMLS:C0311164		0.9	bridge_equivalence	combo_bridge:1.1.1.7.2
+SNOMEDCT:5940000	UMLS:C0311164		0.9	bridge_equivalence	combo_bridge:1.1.1.7.2
+SNOMEDCT:765021002	UMLS:C0311164		0.9	bridge_equivalence	combo_bridge:1.1.1.7.2
+SNOMEDCT:80714005	UMLS:C0311164		0.9	bridge_equivalence	combo_bridge:1.1.1.7.2
+HP:4000172	HP:4000172	Vegan diet		bridge_equivalence	combo_bridge:1.1.1.7.2.2
+MEDDRA:10047178	HP:4000172	Vegan diet		bridge_equivalence	combo_bridge:1.1.1.7.2.2
+UMLS:C0344353	HP:4000172	Vegan diet		bridge_equivalence	combo_bridge:1.1.1.7.2.2
+UMLS:C0344353	UMLS:C0344353	Vegan diet		bridge_equivalence	combo_bridge:1.1.1.7.2.2
+HPO:HP:4000172	UMLS:C0344353	Vegan diet	0.9	bridge_equivalence	combo_bridge:1.1.1.7.2.2
+MESH:D000067269	UMLS:C0344353	Vegan diet	0.9	bridge_equivalence	combo_bridge:1.1.1.7.2.2
+SNOMEDCT:138045004	UMLS:C0344353	Vegan diet	0.9	bridge_equivalence	combo_bridge:1.1.1.7.2.2
+SNOMEDCT:162537004	UMLS:C0344353	Vegan diet	0.9	bridge_equivalence	combo_bridge:1.1.1.7.2.2
+SNOMEDCT:24930006	UMLS:C0344353	Vegan diet	0.9	bridge_equivalence	combo_bridge:1.1.1.7.2.2
+SNOMEDCT:281015005	UMLS:C0344353	Vegan diet	0.9	bridge_equivalence	combo_bridge:1.1.1.7.2.2
+SNOMEDCT:89982001	UMLS:C0344353	Vegan diet	0.9	bridge_equivalence	combo_bridge:1.1.1.7.2.2
+UMLS:C3849996	UMLS:C3849996	Diet, Western		bridge_equivalence	combo_bridge:1.1.1.9
+MESH:D066273	UMLS:C3849996		0.9	bridge_equivalence	combo_bridge:1.1.1.9
+UMLS:C4704881	UMLS:C4704881	Intermittent Fasting		bridge_equivalence	combo_bridge:1.1.1.10
+MESH:D000093763	UMLS:C4704881		0.9	bridge_equivalence	combo_bridge:1.1.1.10
+NCIT:C170801	UMLS:C4704881		0.9	bridge_equivalence	combo_bridge:1.1.1.10
+SNOMEDCT:1362129009	UMLS:C4704881		0.9	bridge_equivalence	combo_bridge:1.1.1.10
+UMLS:C1831723	UMLS:C1831723			bridge_equivalence	combo_bridge:1.1.2
+NCIT:C62680	UMLS:C1831723	Gerson Therapy	0.9	bridge_equivalence	combo_bridge:1.1.2
+UMLS:C1831689	UMLS:C1831689			bridge_equivalence	combo_bridge:1.1.3
+NCIT:C62678	UMLS:C1831689	Gonzalez Regimen	0.9	bridge_equivalence	combo_bridge:1.1.3
+UMLS:C1880312	UMLS:C1880312			bridge_equivalence	combo_bridge:1.1.4
+NCIT:C67026	UMLS:C1880312	Dietary Macronutrients Therapy	0.9	bridge_equivalence	combo_bridge:1.1.4
+UMLS:C1879713	UMLS:C1879713	Antioxidant therapy		bridge_equivalence	combo_bridge:1.1.5
+NCIT:C67025	UMLS:C1879713	Antioxidant therapy	0.9	bridge_equivalence	combo_bridge:1.1.5
+UMLS:C0242297	UMLS:C0242297	Dietary Supplementation		bridge_equivalence	combo_bridge:1.1.6
+NCIT:C15425	UMLS:C0242297	Dietary Supplementation	0.9	bridge_equivalence	combo_bridge:1.1.6
+UMLS:C0029340	UMLS:C0029340	Orthomolecular Therapy		bridge_equivalence	combo_bridge:1.1.10
+MESH:D009974	UMLS:C0029340	Orthomolecular Therapy	0.9	bridge_equivalence	combo_bridge:1.1.10
+NCIT:C67024	UMLS:C0029340	Orthomolecular Therapy	0.9	bridge_equivalence	combo_bridge:1.1.10
+UMLS:C1881140	UMLS:C1881140			bridge_equivalence	combo_bridge:1.1.11
+NCIT:C67029	UMLS:C1881140	Immunoaugmentative Therapy	0.9	bridge_equivalence	combo_bridge:1.1.11
+UMLS:C1879712	UMLS:C1879712			bridge_equivalence	combo_bridge:1.1.12
+NCIT:C67027	UMLS:C1879712	Antineoplastons Therapy	0.9	bridge_equivalence	combo_bridge:1.1.12
+UMLS:C0007975	UMLS:C0007975	Chelation Therapy		bridge_equivalence	combo_bridge:1.1.13
+MESH:D015913	UMLS:C0007975	Chelation Therapy	0.9	bridge_equivalence	combo_bridge:1.1.13
+UMLS:C0394664	UMLS:C0394664	Acupuncture Therapy		bridge_equivalence	combo_bridge:1.2.1
+LOINC:LA33527-5	UMLS:C0394664	Acupuncture Therapy	0.9	bridge_equivalence	combo_bridge:1.2.1
+LOINC:LA34018-4	UMLS:C0394664	Acupuncture Therapy	0.9	bridge_equivalence	combo_bridge:1.2.1
+LOINC:LP234767-4	UMLS:C0394664	Acupuncture Therapy	0.9	bridge_equivalence	combo_bridge:1.2.1
+MESH:D015670	UMLS:C0394664	Acupuncture Therapy	0.9	bridge_equivalence	combo_bridge:1.2.1
+NCIT:C15176	UMLS:C0394664	Acupuncture Therapy	0.9	bridge_equivalence	combo_bridge:1.2.1
+SNOMEDCT:150831001	UMLS:C0394664	Acupuncture Therapy	0.9	bridge_equivalence	combo_bridge:1.2.1
+SNOMEDCT:150834009	UMLS:C0394664	Acupuncture Therapy	0.9	bridge_equivalence	combo_bridge:1.2.1
+SNOMEDCT:182616006	UMLS:C0394664	Acupuncture Therapy	0.9	bridge_equivalence	combo_bridge:1.2.1
+SNOMEDCT:231098007	UMLS:C0394664	Acupuncture Therapy	0.9	bridge_equivalence	combo_bridge:1.2.1
+SNOMEDCT:44868003	UMLS:C0394664	Acupuncture Therapy	0.9	bridge_equivalence	combo_bridge:1.2.1
+UMLS:C0001301	UMLS:C0001301	Acupuncture Anesthesia		bridge_equivalence	combo_bridge:1.2.1.1
+ICD9CM:99.91	UMLS:C0001301	Acupuncture Anesthesia	0.9	bridge_equivalence	combo_bridge:1.2.1.1
+SNOMEDCT:150832008	UMLS:C0001301	Acupuncture Anesthesia	0.9	bridge_equivalence	combo_bridge:1.2.1.1
+SNOMEDCT:182614009	UMLS:C0001301	Acupuncture Anesthesia	0.9	bridge_equivalence	combo_bridge:1.2.1.1
+UMLS:C0001300	UMLS:C0001300	Acupuncture Analgesia		bridge_equivalence	combo_bridge:1.2.1.2
+MESH:D015667	UMLS:C0001300	Acupuncture Analgesia	0.9	bridge_equivalence	combo_bridge:1.2.1.2
+SNOMEDCT:150833003	UMLS:C0001300	Acupuncture Analgesia	0.9	bridge_equivalence	combo_bridge:1.2.1.2
+SNOMEDCT:182615005	UMLS:C0001300	Acupuncture Analgesia	0.9	bridge_equivalence	combo_bridge:1.2.1.2
+UMLS:C0752217	UMLS:C0752217	Acupuncture, Ear		bridge_equivalence	combo_bridge:1.2.1.3
+MESH:D020831	UMLS:C0752217	Acupuncture, Ear	0.9	bridge_equivalence	combo_bridge:1.2.1.3
+UMLS:C0013794	UMLS:C0013794	Electroacupuncture		bridge_equivalence	combo_bridge:1.2.1.4
+MESH:D015671	UMLS:C0013794	Electroacupuncture	0.9	bridge_equivalence	combo_bridge:1.2.1.4
+NCIT:C28146	UMLS:C0013794	Electroacupuncture	0.9	bridge_equivalence	combo_bridge:1.2.1.4
+UMLS:C0394660	UMLS:C0394660			bridge_equivalence	combo_bridge:1.2.1.4.1
+SNOMEDCT:231093003	UMLS:C0394660	Electroacupuncture after Voll	0.9	bridge_equivalence	combo_bridge:1.2.1.4.1
+UMLS:C0394661	UMLS:C0394661			bridge_equivalence	combo_bridge:1.2.1.4.2
+SNOMEDCT:231095005	UMLS:C0394661	VEGA electroacupuncture therapy	0.9	bridge_equivalence	combo_bridge:1.2.1.4.2
+UMLS:C0394654	UMLS:C0394654	Laser acupuncture		bridge_equivalence	combo_bridge:1.2.1.6
+NCIT:C94602	UMLS:C0394654	Laser acupuncture	0.9	bridge_equivalence	combo_bridge:1.2.1.6
+SNOMEDCT:231088001	UMLS:C0394654	Laser acupuncture	0.9	bridge_equivalence	combo_bridge:1.2.1.6
+SNOMEDCT:231106001	UMLS:C0394654	Laser acupuncture	0.9	bridge_equivalence	combo_bridge:1.2.1.6
+UMLS:C2986609	UMLS:C2986609	Trigger Point Acupuncture		bridge_equivalence	combo_bridge:1.2.2
+NCIT:C94635	UMLS:C2986609	Trigger Point Acupuncture	0.9	bridge_equivalence	combo_bridge:1.2.2
+UMLS:C2350276	UMLS:C2350276	Auriculotherapy		bridge_equivalence	combo_bridge:1.2.3
+MESH:D055097	UMLS:C2350276	Auriculotherapy	0.9	bridge_equivalence	combo_bridge:1.2.3
+UMLS:C1515885	UMLS:C1515885	Acustimulation Therapy		bridge_equivalence	combo_bridge:1.2.4
+NCIT:C15761	UMLS:C1515885	Acustimulation Therapy	0.9	bridge_equivalence	combo_bridge:1.2.4
+UMLS:C5780323	UMLS:C5780323			bridge_equivalence	combo_bridge:1.2.5
+MESH:D000097244	UMLS:C5780323	Percutaneous Collagen Induction	0.9	bridge_equivalence	combo_bridge:1.2.5
+UMLS:C0260173	UMLS:C0260173	Mind-Body Therapies		bridge_equivalence	combo_bridge:1.2.6
+MESH:D026441	UMLS:C0260173	Mind-Body Therapies	0.9	bridge_equivalence	combo_bridge:1.2.6
+UMLS:C0006155	UMLS:C0006155	Breathing Exercises		bridge_equivalence	combo_bridge:1.2.6.1
+ICD9CM:93.18	UMLS:C0006155	Breathing Exercises	0.9	bridge_equivalence	combo_bridge:1.2.6.1
+MESH:D001945	UMLS:C0006155	Breathing Exercises	0.9	bridge_equivalence	combo_bridge:1.2.6.1
+NCIT:C160870	UMLS:C0006155	Breathing Exercises	0.9	bridge_equivalence	combo_bridge:1.2.6.1
+SNOMEDCT:12895002	UMLS:C0006155	Breathing Exercises	0.9	bridge_equivalence	combo_bridge:1.2.6.1
+SNOMEDCT:151547001	UMLS:C0006155	Breathing Exercises	0.9	bridge_equivalence	combo_bridge:1.2.6.1
+SNOMEDCT:20550006	UMLS:C0006155	Breathing Exercises	0.9	bridge_equivalence	combo_bridge:1.2.6.1
+SNOMEDCT:85903002	UMLS:C0006155	Breathing Exercises	0.9	bridge_equivalence	combo_bridge:1.2.6.1
+UMLS:C1328799	UMLS:C1328799	Deep breathing		bridge_equivalence	combo_bridge:1.2.6.1.2
+LOINC:LA33514-3	UMLS:C1328799	Deep breathing	0.9	bridge_equivalence	combo_bridge:1.2.6.1.2
+SNOMEDCT:289123006	UMLS:C1328799	Deep breathing	0.9	bridge_equivalence	combo_bridge:1.2.6.1.2
+SNOMEDCT:63782006	UMLS:C1328799	Deep breathing	0.9	bridge_equivalence	combo_bridge:1.2.6.1.2
+UMLS:C0035029	UMLS:C0035029	Relaxation Techniques		bridge_equivalence	combo_bridge:1.2.6.2
+LOINC:LA33541-6	UMLS:C0035029	Relaxation Techniques	0.9	bridge_equivalence	combo_bridge:1.2.6.2
+MESH:D012064	UMLS:C0035029	Relaxation Techniques	0.9	bridge_equivalence	combo_bridge:1.2.6.2
+NCIT:C28184	UMLS:C0035029	Relaxation Techniques	0.9	bridge_equivalence	combo_bridge:1.2.6.2
+SNOMEDCT:284467003	UMLS:C0035029	Relaxation Techniques	0.9	bridge_equivalence	combo_bridge:1.2.6.2
+UMLS:C0003827	UMLS:C0003827	Art Therapy		bridge_equivalence	combo_bridge:1.2.6.2.1
+MESH:D001155	UMLS:C0003827	Art Therapy	0.9	bridge_equivalence	combo_bridge:1.2.6.2.1
+MTH:NOCODE	UMLS:C0003827	Art Therapy	0.9	bridge_equivalence	combo_bridge:1.2.6.2.1
+NCIT:C67031	UMLS:C0003827	Art Therapy	0.9	bridge_equivalence	combo_bridge:1.2.6.2.1
+SNOMEDCT:65153003	UMLS:C0003827	Art Therapy	0.9	bridge_equivalence	combo_bridge:1.2.6.2.1
+UMLS:C3468077	UMLS:C3468077			bridge_equivalence	combo_bridge:1.2.6.2.1.1.1
+UMLS:C0870372	UMLS:C0870372	creative arts therapy		bridge_equivalence	combo_bridge:1.2.6.2.1.2
+UMLS:C0597811	UMLS:C0597811	Humor therapy		bridge_equivalence	combo_bridge:1.2.6.2.2
+SNOMEDCT:386325009	UMLS:C0597811	Humor therapy	0.9	bridge_equivalence	combo_bridge:1.2.6.2.2
+UMLS:C0949806	UMLS:C0949806	Laughter Therapy		bridge_equivalence	combo_bridge:1.2.6.2.2.1
+MESH:D027641	UMLS:C0949806	Laughter Therapy	0.9	bridge_equivalence	combo_bridge:1.2.6.2.2.1
+UMLS:C4045984	UMLS:C4045984	Laughter Yoga		bridge_equivalence	combo_bridge:1.2.6.2.2.1.1
+UMLS:C0026868	UMLS:C0026868	Music Therapy		bridge_equivalence	combo_bridge:1.2.6.2.3
+ICD9CM:93.84	UMLS:C0026868	Music Therapy	0.9	bridge_equivalence	combo_bridge:1.2.6.2.3
+LOINC:LA33539-0	UMLS:C0026868	Music Therapy	0.9	bridge_equivalence	combo_bridge:1.2.6.2.3
+MESH:D009147	UMLS:C0026868	Music Therapy	0.9	bridge_equivalence	combo_bridge:1.2.6.2.3
+NCIT:C67033	UMLS:C0026868	Music Therapy	0.9	bridge_equivalence	combo_bridge:1.2.6.2.3
+SNOMEDCT:21065008	UMLS:C0026868	Music Therapy	0.9	bridge_equivalence	combo_bridge:1.2.6.2.3
+UMLS:C5057506	UMLS:C5057506			bridge_equivalence	combo_bridge:1.2.6.2.3.7
+UMLS:C0034945	UMLS:C0034945	Reflexology		bridge_equivalence	combo_bridge:1.2.6.2.4
+MESH:D026201	UMLS:C0034945	Reflexology	0.9	bridge_equivalence	combo_bridge:1.2.6.2.4
+NCIT:C162743	UMLS:C0034945	Reflexology	0.9	bridge_equivalence	combo_bridge:1.2.6.2.4
+SNOMEDCT:394614006	UMLS:C0034945	Reflexology	0.9	bridge_equivalence	combo_bridge:1.2.6.2.4
+UMLS:C0034946	UMLS:C0034946	Reflexotherapy		bridge_equivalence	combo_bridge:1.2.6.2.4
+MESH:D012028	UMLS:C0034946		0.9	bridge_equivalence	combo_bridge:1.2.6.2.4
+UMLS:C1273536	UMLS:C1273536			bridge_equivalence	combo_bridge:1.2.6.2.4.1
+SNOMEDCT:393108005	UMLS:C1273536	Acu-reflexology	0.9	bridge_equivalence	combo_bridge:1.2.6.2.4.1
+SNOMEDCT:394059002	UMLS:C1273536	Acu-reflexology	0.9	bridge_equivalence	combo_bridge:1.2.6.2.4.1
+SNOMEDCT:394874004	UMLS:C1273536	Acu-reflexology	0.9	bridge_equivalence	combo_bridge:1.2.6.2.4.1
+UMLS:C1442582	UMLS:C1442582			bridge_equivalence	combo_bridge:1.2.6.2.4.5
+UMLS:C0454043	UMLS:C0454043	Progressive muscle relaxation		bridge_equivalence	combo_bridge:1.2.6.2.5
+SNOMEDCT:228562009	UMLS:C0454043	Progressive muscle relaxation	0.9	bridge_equivalence	combo_bridge:1.2.6.2.5
+SNOMEDCT:386400004	UMLS:C0454043	Progressive muscle relaxation	0.9	bridge_equivalence	combo_bridge:1.2.6.2.5
+UMLS:C0005491	UMLS:C0005491	Biofeedback		bridge_equivalence	combo_bridge:1.2.6.3
+LOINC:LA28988-6	UMLS:C0005491	Biofeedback	0.9	bridge_equivalence	combo_bridge:1.2.6.3
+MESH:D001676	UMLS:C0005491	Biofeedback	0.9	bridge_equivalence	combo_bridge:1.2.6.3
+NCIT:C15186	UMLS:C0005491	Biofeedback	0.9	bridge_equivalence	combo_bridge:1.2.6.3
+SNOMEDCT:228566007	UMLS:C0005491	Biofeedback	0.9	bridge_equivalence	combo_bridge:1.2.6.3
+SNOMEDCT:28150003	UMLS:C0005491	Biofeedback	0.9	bridge_equivalence	combo_bridge:1.2.6.3
+UMLS:C0178842	UMLS:C0178842	Sensory Feedback		bridge_equivalence	combo_bridge:1.2.6.3.1
+MESH:D056228	UMLS:C0178842	Sensory Feedback	0.9	bridge_equivalence	combo_bridge:1.2.6.3.1
+UMLS:C2713543	UMLS:C2713543	Neurofeedback		bridge_equivalence	combo_bridge:1.2.6.3.2
+NCIT:C93302	UMLS:C2713543	Neurofeedback	0.9	bridge_equivalence	combo_bridge:1.2.6.3.2
+SNOMEDCT:29203007	UMLS:C2713543	Neurofeedback	0.9	bridge_equivalence	combo_bridge:1.2.6.3.2
+UMLS:C2713542	UMLS:C2713542	Brainwave Biofeedback		bridge_equivalence	combo_bridge:1.2.6.3.2
+MESH:D058765	UMLS:C2713542		0.9	bridge_equivalence	combo_bridge:1.2.6.3.2
+UMLS:C4082302	UMLS:C4082302			bridge_equivalence	combo_bridge:1.2.6.4
+NCIT:C64896	UMLS:C4082302	CAM Exercise Therapy	0.9	bridge_equivalence	combo_bridge:1.2.6.4
+UMLS:C1720840	UMLS:C1720840	Pilates-Based Exercises		bridge_equivalence	combo_bridge:1.2.6.4.1.1
+MESH:D026241	UMLS:C1720840	Pilates-Based Exercises	0.9	bridge_equivalence	combo_bridge:1.2.6.4.1.1
+UMLS:C0376403	UMLS:C0376403	Tai Ji		bridge_equivalence	combo_bridge:1.2.6.4.1.2
+MESH:D026302	UMLS:C0376403	Tai Ji	0.9	bridge_equivalence	combo_bridge:1.2.6.4.1.2
+NCIT:C93099	UMLS:C0376403	Tai Ji	0.9	bridge_equivalence	combo_bridge:1.2.6.4.1.2
+SNOMEDCT:30900002	UMLS:C0376403	Tai Ji	0.9	bridge_equivalence	combo_bridge:1.2.6.4.1.2
+UMLS:C1883583	UMLS:C1883583	Yoga		bridge_equivalence	combo_bridge:1.2.6.4.1.3
+MESH:D015013	UMLS:C1883583	Yoga	0.9	bridge_equivalence	combo_bridge:1.2.6.4.1.3
+NCIT:C64897	UMLS:C1883583	Yoga	0.9	bridge_equivalence	combo_bridge:1.2.6.4.1.3
+SNOMEDCT:1259940003	UMLS:C1883583	Yoga	0.9	bridge_equivalence	combo_bridge:1.2.6.4.1.3
+UMLS:C0282077	UMLS:C0282077	Qigong		bridge_equivalence	combo_bridge:1.2.6.4.1.4
+MESH:D064906	UMLS:C0282077	Qigong	0.9	bridge_equivalence	combo_bridge:1.2.6.4.1.4
+NCIT:C93098	UMLS:C0282077	Qigong	0.9	bridge_equivalence	combo_bridge:1.2.6.4.1.4
+SNOMEDCT:733449008	UMLS:C0282077	Qigong	0.9	bridge_equivalence	combo_bridge:1.2.6.4.1.4
+UMLS:C4727539	UMLS:C4727539			bridge_equivalence	combo_bridge:1.2.6.4.1.4.2.1
+NCIT:C154263	UMLS:C4727539	External Qigong Therapy	0.9	bridge_equivalence	combo_bridge:1.2.6.4.1.4.2.1
+UMLS:C0010962	UMLS:C0010962	Dance Therapy		bridge_equivalence	combo_bridge:1.2.6.4.2
+MESH:D003614	UMLS:C0010962	Dance Therapy	0.9	bridge_equivalence	combo_bridge:1.2.6.4.2
+SNOMEDCT:123163006	UMLS:C0010962	Dance Therapy	0.9	bridge_equivalence	combo_bridge:1.2.6.4.2
+SNOMEDCT:69711002	UMLS:C0010962	Dance Therapy	0.9	bridge_equivalence	combo_bridge:1.2.6.4.2
+UMLS:C0078912	UMLS:C0078912	Aikido		bridge_equivalence	combo_bridge:1.2.6.4.3
+MESH:D016139	UMLS:C0078912	Aikido	0.9	bridge_equivalence	combo_bridge:1.2.6.4.3
+SNOMEDCT:75749007	UMLS:C0078912	Aikido	0.9	bridge_equivalence	combo_bridge:1.2.6.4.3
+UMLS:C0454333	UMLS:C0454333	Facial exercises		bridge_equivalence	combo_bridge:1.2.6.4.5
+SNOMEDCT:229123001	UMLS:C0454333	Facial exercises	0.9	bridge_equivalence	combo_bridge:1.2.6.4.5
+UMLS:C0597812	UMLS:C0597812	Alexander technique		bridge_equivalence	combo_bridge:1.2.6.5.1
+SNOMEDCT:876850004	UMLS:C0597812	Alexander technique	0.9	bridge_equivalence	combo_bridge:1.2.6.5.1
+UMLS:C0695542	UMLS:C0695542			bridge_equivalence	combo_bridge:1.2.6.5.2
+UMLS:C0454279	UMLS:C0454279	Movement therapy		bridge_equivalence	combo_bridge:1.2.7
+SNOMEDCT:229064008	UMLS:C0454279	Movement therapy	0.9	bridge_equivalence	combo_bridge:1.2.7
+UMLS:C0026604	UMLS:C0026604	Motion Therapy, Continuous Passive		bridge_equivalence	combo_bridge:1.2.7.1
+MESH:D015915	UMLS:C0026604	Motion Therapy, Continuous Passive	0.9	bridge_equivalence	combo_bridge:1.2.7.1
+SNOMEDCT:151542007	UMLS:C0026604	Motion Therapy, Continuous Passive	0.9	bridge_equivalence	combo_bridge:1.2.7.1
+SNOMEDCT:183316005	UMLS:C0026604	Motion Therapy, Continuous Passive	0.9	bridge_equivalence	combo_bridge:1.2.7.1
+SNOMEDCT:229078009	UMLS:C0026604	Motion Therapy, Continuous Passive	0.9	bridge_equivalence	combo_bridge:1.2.7.1
+UMLS:C1516875	UMLS:C1516875	Energy Therapy		bridge_equivalence	combo_bridge:1.2.8
+NCIT:C16206	UMLS:C1516875	Energy Therapy	0.9	bridge_equivalence	combo_bridge:1.2.8
+UMLS:C1511139	UMLS:C1511139	Biofield Therapy		bridge_equivalence	combo_bridge:1.2.8.1.3
+NCIT:C15910	UMLS:C1511139	Biofield Therapy	0.9	bridge_equivalence	combo_bridge:1.2.8.1.3
+UMLS:C0751715	UMLS:C0751715	Reiki		bridge_equivalence	combo_bridge:1.2.8.1.3.1
+MESH:D000099302	UMLS:C0751715	Reiki	0.9	bridge_equivalence	combo_bridge:1.2.8.1.3.1
+NCIT:C15728	UMLS:C0751715	Reiki	0.9	bridge_equivalence	combo_bridge:1.2.8.1.3.1
+SNOMEDCT:703884003	UMLS:C0751715	Reiki	0.9	bridge_equivalence	combo_bridge:1.2.8.1.3.1
+UMLS:C0152054	UMLS:C0152054	Therapeutic Touch		bridge_equivalence	combo_bridge:1.2.8.1.3.2
+MESH:D019124	UMLS:C0152054	Therapeutic Touch	0.9	bridge_equivalence	combo_bridge:1.2.8.1.3.2
+NCIT:C15373	UMLS:C0152054	Therapeutic Touch	0.9	bridge_equivalence	combo_bridge:1.2.8.1.3.2
+SNOMEDCT:386475005	UMLS:C0152054	Therapeutic Touch	0.9	bridge_equivalence	combo_bridge:1.2.8.1.3.2
+SNOMEDCT:386476006	UMLS:C0152054	Therapeutic Touch	0.9	bridge_equivalence	combo_bridge:1.2.8.1.3.2
+UMLS:C1160821	UMLS:C1160821			bridge_equivalence	combo_bridge:1.2.8.1.3.3
+UMLS:C0695568	UMLS:C0695568			bridge_equivalence	combo_bridge:1.2.8.1.3.4
+UMLS:C0695573	UMLS:C0695573			bridge_equivalence	combo_bridge:1.2.8.1.3.5
+UMLS:C0085102	UMLS:C0085102	Color Therapy		bridge_equivalence	combo_bridge:1.2.8.1.4
+MESH:D016500	UMLS:C0085102	Color Therapy	0.9	bridge_equivalence	combo_bridge:1.2.8.1.4
+UMLS:C0597815	UMLS:C0597815	crystal healing		bridge_equivalence	combo_bridge:1.2.8.1.5
+UMLS:C0695525	UMLS:C0695525			bridge_equivalence	combo_bridge:1.2.8.1.7
+UMLS:C4042760	UMLS:C4042760	Bioresonance Therapy		bridge_equivalence	combo_bridge:1.2.8.2.1
+MESH:D066236	UMLS:C4042760	Bioresonance Therapy	0.9	bridge_equivalence	combo_bridge:1.2.8.2.1
+UMLS:C3899490	UMLS:C3899490	Cranial Electrical Stimulation		bridge_equivalence	combo_bridge:1.2.8.2.2
+NCIT:C116561	UMLS:C3899490	Cranial Electrical Stimulation	0.9	bridge_equivalence	combo_bridge:1.2.8.2.2
+UMLS:C1511136	UMLS:C1511136	Electromagnetic-Based Therapy		bridge_equivalence	combo_bridge:1.2.8.2.3
+NCIT:C16207	UMLS:C1511136	Electromagnetic-Based Therapy	0.9	bridge_equivalence	combo_bridge:1.2.8.2.3
+UMLS:C1881509	UMLS:C1881509	Magnet Therapy		bridge_equivalence	combo_bridge:1.2.8.2.3.1
+NCIT:C67034	UMLS:C1881509	Magnet Therapy	0.9	bridge_equivalence	combo_bridge:1.2.8.2.3.1
+UMLS:C1882505	UMLS:C1882505	Pulsed Electromagnetic Fields Therapy		bridge_equivalence	combo_bridge:1.2.8.2.3.1.2
+NCIT:C67035	UMLS:C1882505	Pulsed Electromagnetic Fields Therapy	0.9	bridge_equivalence	combo_bridge:1.2.8.2.3.1.2
+UMLS:C0436548	UMLS:C0436548	Transcranial magnetic stimulation		bridge_equivalence	combo_bridge:1.2.8.2.3.1.3
+MESH:D050781	UMLS:C0436548	Transcranial magnetic stimulation	0.9	bridge_equivalence	combo_bridge:1.2.8.2.3.1.3
+NCIT:C116655	UMLS:C0436548	Transcranial magnetic stimulation	0.9	bridge_equivalence	combo_bridge:1.2.8.2.3.1.3
+SNOMEDCT:264603002	UMLS:C0436548	Transcranial magnetic stimulation	0.9	bridge_equivalence	combo_bridge:1.2.8.2.3.1.3
+UMLS:C0031765	UMLS:C0031765	Phototherapy		bridge_equivalence	combo_bridge:1.2.8.2.7
+MESH:D010789	UMLS:C0031765	Phototherapy	0.9	bridge_equivalence	combo_bridge:1.2.8.2.7
+NCIT:C15301	UMLS:C0031765	Phototherapy	0.9	bridge_equivalence	combo_bridge:1.2.8.2.7
+SNOMEDCT:150903009	UMLS:C0031765	Phototherapy	0.9	bridge_equivalence	combo_bridge:1.2.8.2.7
+SNOMEDCT:150911004	UMLS:C0031765	Phototherapy	0.9	bridge_equivalence	combo_bridge:1.2.8.2.7
+SNOMEDCT:182666000	UMLS:C0031765	Phototherapy	0.9	bridge_equivalence	combo_bridge:1.2.8.2.7
+SNOMEDCT:182672000	UMLS:C0031765	Phototherapy	0.9	bridge_equivalence	combo_bridge:1.2.8.2.7
+SNOMEDCT:266696001	UMLS:C0031765	Phototherapy	0.9	bridge_equivalence	combo_bridge:1.2.8.2.7
+SNOMEDCT:266798006	UMLS:C0031765	Phototherapy	0.9	bridge_equivalence	combo_bridge:1.2.8.2.7
+SNOMEDCT:31394004	UMLS:C0031765	Phototherapy	0.9	bridge_equivalence	combo_bridge:1.2.8.2.7
+SNOMEDCT:363724006	UMLS:C0031765	Phototherapy	0.9	bridge_equivalence	combo_bridge:1.2.8.2.7
+UMLS:C0041626	UMLS:C0041626	Ultraviolet Therapy		bridge_equivalence	combo_bridge:1.2.8.2.7.1
+ICD9CM:99.82	UMLS:C0041626	Ultraviolet Therapy	0.9	bridge_equivalence	combo_bridge:1.2.8.2.7.1
+MESH:D014467	UMLS:C0041626	Ultraviolet Therapy	0.9	bridge_equivalence	combo_bridge:1.2.8.2.7.1
+NCIT:C15344	UMLS:C0041626	Ultraviolet Therapy	0.9	bridge_equivalence	combo_bridge:1.2.8.2.7.1
+SNOMEDCT:146647002	UMLS:C0041626	Ultraviolet Therapy	0.9	bridge_equivalence	combo_bridge:1.2.8.2.7.1
+SNOMEDCT:146649004	UMLS:C0041626	Ultraviolet Therapy	0.9	bridge_equivalence	combo_bridge:1.2.8.2.7.1
+SNOMEDCT:150905002	UMLS:C0041626	Ultraviolet Therapy	0.9	bridge_equivalence	combo_bridge:1.2.8.2.7.1
+SNOMEDCT:182667009	UMLS:C0041626	Ultraviolet Therapy	0.9	bridge_equivalence	combo_bridge:1.2.8.2.7.1
+SNOMEDCT:266697005	UMLS:C0041626	Ultraviolet Therapy	0.9	bridge_equivalence	combo_bridge:1.2.8.2.7.1
+SNOMEDCT:266799003	UMLS:C0041626	Ultraviolet Therapy	0.9	bridge_equivalence	combo_bridge:1.2.8.2.7.1
+SNOMEDCT:287589006	UMLS:C0041626	Ultraviolet Therapy	0.9	bridge_equivalence	combo_bridge:1.2.8.2.7.1
+SNOMEDCT:363695005	UMLS:C0041626	Ultraviolet Therapy	0.9	bridge_equivalence	combo_bridge:1.2.8.2.7.1
+SNOMEDCT:367359007	UMLS:C0041626	Ultraviolet Therapy	0.9	bridge_equivalence	combo_bridge:1.2.8.2.7.1
+SNOMEDCT:37114000	UMLS:C0041626	Ultraviolet Therapy	0.9	bridge_equivalence	combo_bridge:1.2.8.2.7.1
+SNOMEDCT:63771003	UMLS:C0041626	Ultraviolet Therapy	0.9	bridge_equivalence	combo_bridge:1.2.8.2.7.1
+UMLS:C5400760	UMLS:C5400760	Bright White Light Therapy		bridge_equivalence	combo_bridge:1.2.8.2.7.4
+NCIT:C174524	UMLS:C5400760	Bright White Light Therapy	0.9	bridge_equivalence	combo_bridge:1.2.8.2.7.4
+UMLS:C1881345	UMLS:C1881345	LED Therapy		bridge_equivalence	combo_bridge:1.2.8.2.7.5
+NCIT:C67341	UMLS:C1881345	LED Therapy	0.9	bridge_equivalence	combo_bridge:1.2.8.2.7.5
+UMLS:C0279027	UMLS:C0279027	Laser Therapy, Low-Level		bridge_equivalence	combo_bridge:1.2.8.2.7.12
+MESH:D028022	UMLS:C0279027	Laser Therapy, Low-Level	0.9	bridge_equivalence	combo_bridge:1.2.8.2.7.12
+NCIT:C21063	UMLS:C0279027	Laser Therapy, Low-Level	0.9	bridge_equivalence	combo_bridge:1.2.8.2.7.12
+SNOMEDCT:229565001	UMLS:C0279027	Laser Therapy, Low-Level	0.9	bridge_equivalence	combo_bridge:1.2.8.2.7.12
+UMLS:C2350293	UMLS:C2350293	Speleotherapy		bridge_equivalence	combo_bridge:1.2.9
+MESH:D055161	UMLS:C2350293	Speleotherapy	0.9	bridge_equivalence	combo_bridge:1.2.9
+UMLS:C3178784	UMLS:C3178784	Diffuse Noxious Inhibitory Control		bridge_equivalence	combo_bridge:1.2.10
+MESH:D059328	UMLS:C3178784	Diffuse Noxious Inhibitory Control	0.9	bridge_equivalence	combo_bridge:1.2.10
+UMLS:C2242515	UMLS:C2242515	Mesotherapy		bridge_equivalence	combo_bridge:1.2.11
+MESH:D057748	UMLS:C2242515	Mesotherapy	0.9	bridge_equivalence	combo_bridge:1.2.11
+UMLS:C0026652	UMLS:C0026652	Moxibustion		bridge_equivalence	combo_bridge:1.2.12
+MESH:D009071	UMLS:C0026652	Moxibustion	0.9	bridge_equivalence	combo_bridge:1.2.12
+NCIT:C94402	UMLS:C0026652	Moxibustion	0.9	bridge_equivalence	combo_bridge:1.2.12
+SNOMEDCT:31275006	UMLS:C0026652	Moxibustion	0.9	bridge_equivalence	combo_bridge:1.2.12
+UMLS:C0029257	UMLS:C0029257	Organotherapy		bridge_equivalence	combo_bridge:1.2.13
+MESH:D009945	UMLS:C0029257	Organotherapy	0.9	bridge_equivalence	combo_bridge:1.2.13
+UMLS:C3658370	UMLS:C3658370			bridge_equivalence	combo_bridge:1.2.13.1
+UMLS:C0524729	UMLS:C0524729	Biogenic Stimulators		bridge_equivalence	combo_bridge:1.2.13.1
+MESH:D014023	UMLS:C0524729		0.9	bridge_equivalence	combo_bridge:1.2.13.1
+UMLS:C0500223	UMLS:C0500223	Prolotherapy		bridge_equivalence	combo_bridge:1.2.14
+MESH:D000075527	UMLS:C0500223	Prolotherapy	0.9	bridge_equivalence	combo_bridge:1.2.14
+SNOMEDCT:417047001	UMLS:C0500223	Prolotherapy	0.9	bridge_equivalence	combo_bridge:1.2.14
+UMLS:C0695540	UMLS:C0695540	Bodywork		bridge_equivalence	combo_bridge:1.2.15
+UMLS:C5197695	UMLS:C5197695	Cupping Therapy		bridge_equivalence	combo_bridge:1.2.15.2
+MESH:D000079742	UMLS:C5197695	Cupping Therapy	0.9	bridge_equivalence	combo_bridge:1.2.15.2
+UMLS:C0394648	UMLS:C0394648	Dry Needling		bridge_equivalence	combo_bridge:1.2.15.3
+MESH:D000079245	UMLS:C0394648	Dry Needling	0.9	bridge_equivalence	combo_bridge:1.2.15.3
+SNOMEDCT:231082000	UMLS:C0394648	Dry Needling	0.9	bridge_equivalence	combo_bridge:1.2.15.3
+UMLS:C0695553	UMLS:C0695553			bridge_equivalence	combo_bridge:1.2.15.4
+UMLS:C0454525	UMLS:C0454525	Manual Therapies		bridge_equivalence	combo_bridge:1.2.15.5
+NCIT:C153321	UMLS:C0454525	Manual Therapies	0.9	bridge_equivalence	combo_bridge:1.2.15.5
+SNOMEDCT:229315006	UMLS:C0454525	Manual Therapies	0.9	bridge_equivalence	combo_bridge:1.2.15.5
+UMLS:C0949741	UMLS:C0949741	Musculoskeletal Manipulations		bridge_equivalence	combo_bridge:1.2.15.5.1
+UMLS:C0344217	UMLS:C0344217	Chiropractic procedure		bridge_equivalence	combo_bridge:1.2.15.5.1.1
+LOINC:LA33531-7	UMLS:C0344217	Chiropractic procedure	0.9	bridge_equivalence	combo_bridge:1.2.15.5.1.1
+NCIT:C15204	UMLS:C0344217	Chiropractic procedure	0.9	bridge_equivalence	combo_bridge:1.2.15.5.1.1
+SNOMEDCT:150703001	UMLS:C0344217	Chiropractic procedure	0.9	bridge_equivalence	combo_bridge:1.2.15.5.1.1
+SNOMEDCT:182548004	UMLS:C0344217	Chiropractic procedure	0.9	bridge_equivalence	combo_bridge:1.2.15.5.1.1
+UMLS:C0600577	UMLS:C0600577	Chiropractic manipulation		bridge_equivalence	combo_bridge:1.2.15.5.1.1.1
+MESH:D026882	UMLS:C0600577	Chiropractic manipulation	0.9	bridge_equivalence	combo_bridge:1.2.15.5.1.1.1
+SNOMEDCT:46947000	UMLS:C0600577	Chiropractic manipulation	0.9	bridge_equivalence	combo_bridge:1.2.15.5.1.1.1
+UMLS:C0282567	UMLS:C0282567			bridge_equivalence	combo_bridge:1.2.15.5.1.2
+MESH:D018953	UMLS:C0282567	Kinesiology, Applied	0.9	bridge_equivalence	combo_bridge:1.2.15.5.1.2
+UMLS:C0024725	UMLS:C0024725	Manipulation, Orthopedic		bridge_equivalence	combo_bridge:1.2.15.5.1.3
+MESH:D008349	UMLS:C0024725	Manipulation, Orthopedic	0.9	bridge_equivalence	combo_bridge:1.2.15.5.1.3
+UMLS:C0949744	UMLS:C0949744	Osteopathic manipulation (procedure)		bridge_equivalence	combo_bridge:1.2.15.5.1.4
+ICD9CM:93.6	UMLS:C0949744	Osteopathic manipulation (procedure)	0.9	bridge_equivalence	combo_bridge:1.2.15.5.1.4
+MESH:D026301	UMLS:C0949744	Osteopathic manipulation (procedure)	0.9	bridge_equivalence	combo_bridge:1.2.15.5.1.4
+NCIT:C189763	UMLS:C0949744	Osteopathic manipulation (procedure)	0.9	bridge_equivalence	combo_bridge:1.2.15.5.1.4
+SNOMEDCT:150705008	UMLS:C0949744	Osteopathic manipulation (procedure)	0.9	bridge_equivalence	combo_bridge:1.2.15.5.1.4
+SNOMEDCT:16992002	UMLS:C0949744	Osteopathic manipulation (procedure)	0.9	bridge_equivalence	combo_bridge:1.2.15.5.1.4
+UMLS:C0086586	UMLS:C0086586	Manipulation of spine		bridge_equivalence	combo_bridge:1.2.15.5.1.5
+MESH:D020393	UMLS:C0086586	Manipulation of spine	0.9	bridge_equivalence	combo_bridge:1.2.15.5.1.5
+SNOMEDCT:178809009	UMLS:C0086586	Manipulation of spine	0.9	bridge_equivalence	combo_bridge:1.2.15.5.1.5
+SNOMEDCT:44275008	UMLS:C0086586	Manipulation of spine	0.9	bridge_equivalence	combo_bridge:1.2.15.5.1.5
+UMLS:C0185112	UMLS:C0185112	Mobilization (procedure)		bridge_equivalence	combo_bridge:1.2.15.5.2
+SNOMEDCT:151611009	UMLS:C0185112	Mobilization (procedure)	0.9	bridge_equivalence	combo_bridge:1.2.15.5.2
+SNOMEDCT:183376001	UMLS:C0185112	Mobilization (procedure)	0.9	bridge_equivalence	combo_bridge:1.2.15.5.2
+SNOMEDCT:74923002	UMLS:C0185112	Mobilization (procedure)	0.9	bridge_equivalence	combo_bridge:1.2.15.5.2
+UMLS:C3658309	UMLS:C3658309	Therapy, Soft Tissue		bridge_equivalence	combo_bridge:1.2.15.5.3
+MESH:D064746	UMLS:C3658309	Therapy, Soft Tissue	0.9	bridge_equivalence	combo_bridge:1.2.15.5.3
+UMLS:C0282614	UMLS:C0282614	Acupressure (regime/therapy)		bridge_equivalence	combo_bridge:1.2.15.5.3.1
+LOINC:LA33528-3	UMLS:C0282614	Acupressure (regime/therapy)	0.9	bridge_equivalence	combo_bridge:1.2.15.5.3.1
+MESH:D019050	UMLS:C0282614	Acupressure (regime/therapy)	0.9	bridge_equivalence	combo_bridge:1.2.15.5.3.1
+NCIT:C15606	UMLS:C0282614	Acupressure (regime/therapy)	0.9	bridge_equivalence	combo_bridge:1.2.15.5.3.1
+SNOMEDCT:231107005	UMLS:C0282614	Acupressure (regime/therapy)	0.9	bridge_equivalence	combo_bridge:1.2.15.5.3.1
+UMLS:C0695601	UMLS:C0695601			bridge_equivalence	combo_bridge:1.2.15.5.3.3
+UMLS:C0686940	UMLS:C0686940	Soft tissue mobilization		bridge_equivalence	combo_bridge:1.2.15.5.3.4
+SNOMEDCT:105379007	UMLS:C0686940	Soft tissue mobilization	0.9	bridge_equivalence	combo_bridge:1.2.15.5.3.4
+UMLS:C1735870	UMLS:C1735870			bridge_equivalence	combo_bridge:1.2.15.5.3.5
+UMLS:C3536731	UMLS:C3536731	Massage Therapy		bridge_equivalence	combo_bridge:1.2.15.5.3.6
+NCIT:C15276	UMLS:C3536731	Massage Therapy	0.9	bridge_equivalence	combo_bridge:1.2.15.5.3.6
+SNOMEDCT:387854002	UMLS:C3536731	Massage Therapy	0.9	bridge_equivalence	combo_bridge:1.2.15.5.3.6
+SNOMEDCT:43670004	UMLS:C3536731	Massage Therapy	0.9	bridge_equivalence	combo_bridge:1.2.15.5.3.6
+UMLS:C0024875	UMLS:C0024875	Massage		bridge_equivalence	combo_bridge:1.2.15.5.3.6
+LOINC:LA25338-7	UMLS:C0024875		0.9	bridge_equivalence	combo_bridge:1.2.15.5.3.6
+MESH:D008405	UMLS:C0024875		0.9	bridge_equivalence	combo_bridge:1.2.15.5.3.6
+SNOMEDCT:150827007	UMLS:C0024875		0.9	bridge_equivalence	combo_bridge:1.2.15.5.3.6
+SNOMEDCT:150830000	UMLS:C0024875		0.9	bridge_equivalence	combo_bridge:1.2.15.5.3.6
+SNOMEDCT:151546005	UMLS:C0024875		0.9	bridge_equivalence	combo_bridge:1.2.15.5.3.6
+SNOMEDCT:182613003	UMLS:C0024875		0.9	bridge_equivalence	combo_bridge:1.2.15.5.3.6
+UMLS:C2584291	UMLS:C2584291	Therapeutic Massage		bridge_equivalence	combo_bridge:1.2.15.5.3.6.1
+UMLS:C0556834	UMLS:C0556834	Manual Lymphatic Drainage		bridge_equivalence	combo_bridge:1.2.15.5.3.6.1.1
+LOINC:LA29071-0	UMLS:C0556834	Manual Lymphatic Drainage	0.9	bridge_equivalence	combo_bridge:1.2.15.5.3.6.1.1
+MESH:D000073297	UMLS:C0556834	Manual Lymphatic Drainage	0.9	bridge_equivalence	combo_bridge:1.2.15.5.3.6.1.1
+SNOMEDCT:229487007	UMLS:C0556834	Manual Lymphatic Drainage	0.9	bridge_equivalence	combo_bridge:1.2.15.5.3.6.1.1
+UMLS:C0695600	UMLS:C0695600	Myofascial release		bridge_equivalence	combo_bridge:1.2.15.5.3.6.1.2
+MESH:D000089803	UMLS:C0695600	Myofascial release	0.9	bridge_equivalence	combo_bridge:1.2.15.5.3.6.1.2
+SNOMEDCT:404939002	UMLS:C0695600	Myofascial release	0.9	bridge_equivalence	combo_bridge:1.2.15.5.3.6.1.2
+UMLS:C2080787	UMLS:C2080787			bridge_equivalence	combo_bridge:1.2.15.5.3.6.1.3
+UMLS:C0556841	UMLS:C0556841	Deep transverse frictions		bridge_equivalence	combo_bridge:1.2.15.5.3.6.1.3.1
+SNOMEDCT:229496007	UMLS:C0556841	Deep transverse frictions	0.9	bridge_equivalence	combo_bridge:1.2.15.5.3.6.1.3.1
+UMLS:C0556845	UMLS:C0556845	Connective tissue massage		bridge_equivalence	combo_bridge:1.2.15.5.3.6.1.4
+SNOMEDCT:229500009	UMLS:C0556845	Connective tissue massage	0.9	bridge_equivalence	combo_bridge:1.2.15.5.3.6.1.4
+UMLS:C5780154	UMLS:C5780154			bridge_equivalence	combo_bridge:1.2.15.5.3.6.1.9
+UMLS:C0695595	UMLS:C0695595	Infant massage		bridge_equivalence	combo_bridge:1.2.15.5.3.6.1.10
+SNOMEDCT:406147003	UMLS:C0695595	Infant massage	0.9	bridge_equivalence	combo_bridge:1.2.15.5.3.6.1.10
+UMLS:C0695615	UMLS:C0695615			bridge_equivalence	combo_bridge:1.2.15.5.3.6.1.11
+UMLS:C0695940	UMLS:C0695940			bridge_equivalence	combo_bridge:1.2.15.5.3.6.1.14
+UMLS:C0884467	UMLS:C0884467			bridge_equivalence	combo_bridge:1.2.15.5.3.6.2
+UMLS:C0695530	UMLS:C0695530	Tui Na		bridge_equivalence	combo_bridge:1.2.15.5.3.6.2.1.1
+NCIT:C94252	UMLS:C0695530	Tui Na	0.9	bridge_equivalence	combo_bridge:1.2.15.5.3.6.2.1.1
+UMLS:C5577716	UMLS:C5577716			bridge_equivalence	combo_bridge:1.2.15.5.3.6.2.1.2
+UMLS:C0695563	UMLS:C0695563	Thai massage each 15 minutes		bridge_equivalence	combo_bridge:1.2.15.5.3.6.2.4
+UMLS:C0973228	UMLS:C0973228	Shiatsu		bridge_equivalence	combo_bridge:1.2.15.5.3.6.2.5
+SNOMEDCT:398139005	UMLS:C0973228	Shiatsu	0.9	bridge_equivalence	combo_bridge:1.2.15.5.3.6.2.5
+SNOMEDCT:439822002	UMLS:C0973228	Shiatsu	0.9	bridge_equivalence	combo_bridge:1.2.15.5.3.6.2.5
+UMLS:C2586182	UMLS:C2586182			bridge_equivalence	combo_bridge:1.2.15.5.3.6.3
+SNOMEDCT:440406003	UMLS:C2586182	Indian head massage	0.9	bridge_equivalence	combo_bridge:1.2.15.5.3.6.3
+UMLS:C5968212	UMLS:C5968212			bridge_equivalence	combo_bridge:1.2.15.5.3.6.5
+SNOMEDCT:57521000087108	UMLS:C5968212	Hand massage	0.9	bridge_equivalence	combo_bridge:1.2.15.5.3.6.5
+UMLS:C2316341	UMLS:C2316341	Massage of abdomen		bridge_equivalence	combo_bridge:1.2.15.5.3.6.6
+SNOMEDCT:432085004	UMLS:C2316341	Massage of abdomen	0.9	bridge_equivalence	combo_bridge:1.2.15.5.3.6.6
+UMLS:C2585844	UMLS:C2585844	Aromatherapy massage		bridge_equivalence	combo_bridge:1.2.15.5.3.6.7
+NCIT:C93320	UMLS:C2585844	Aromatherapy massage	0.9	bridge_equivalence	combo_bridge:1.2.15.5.3.6.7
+SNOMEDCT:440240000	UMLS:C2585844	Aromatherapy massage	0.9	bridge_equivalence	combo_bridge:1.2.15.5.3.6.7
+UMLS:C2919709	UMLS:C2919709			bridge_equivalence	combo_bridge:1.2.15.5.3.6.8
+SNOMEDCT:444934009	UMLS:C2919709	Hot stone massage	0.9	bridge_equivalence	combo_bridge:1.2.15.5.3.6.8
+UMLS:C1160824	UMLS:C1160824	chair massage		bridge_equivalence	combo_bridge:1.2.15.5.3.6.9
+UMLS:C0556847	UMLS:C0556847			bridge_equivalence	combo_bridge:1.2.15.5.3.6.13.1
+SNOMEDCT:229502001	UMLS:C0556847	Silicone oil massage	0.9	bridge_equivalence	combo_bridge:1.2.15.5.3.6.13.1
+UMLS:C2945661	UMLS:C2945661	swedish massage		bridge_equivalence	combo_bridge:1.2.15.5.3.6.14
+UMLS:C0556852	UMLS:C0556852	Soft tissue massage		bridge_equivalence	combo_bridge:1.2.15.5.3.6.15
+SNOMEDCT:229507007	UMLS:C0556852	Soft tissue massage	0.9	bridge_equivalence	combo_bridge:1.2.15.5.3.6.15
+UMLS:C0949353	UMLS:C0949353	Rolfing		bridge_equivalence	combo_bridge:1.2.15.5.3.7
+NCIT:C21125	UMLS:C0949353	Rolfing	0.9	bridge_equivalence	combo_bridge:1.2.15.5.3.7
+UMLS:C0695552	UMLS:C0695552			bridge_equivalence	combo_bridge:1.2.15.5.3.8
+UMLS:C1321058	UMLS:C1321058	Craniosacral therapy		bridge_equivalence	combo_bridge:1.2.15.5.4
+SNOMEDCT:404938005	UMLS:C1321058	Craniosacral therapy	0.9	bridge_equivalence	combo_bridge:1.2.15.5.4
+UMLS:C0085867	UMLS:C0085867	Balneotherapy		bridge_equivalence	combo_bridge:1.2.16.1
+MESH:D001452	UMLS:C0085867	Balneotherapy	0.9	bridge_equivalence	combo_bridge:1.2.16.1
+UMLS:C0020311	UMLS:C0020311	Hydrotherapy		bridge_equivalence	combo_bridge:1.2.16.2
+LOINC:LA29051-2	UMLS:C0020311	Hydrotherapy	0.9	bridge_equivalence	combo_bridge:1.2.16.2
+MESH:D006875	UMLS:C0020311	Hydrotherapy	0.9	bridge_equivalence	combo_bridge:1.2.16.2
+SNOMEDCT:150840002	UMLS:C0020311	Hydrotherapy	0.9	bridge_equivalence	combo_bridge:1.2.16.2
+SNOMEDCT:150844006	UMLS:C0020311	Hydrotherapy	0.9	bridge_equivalence	combo_bridge:1.2.16.2
+SNOMEDCT:182626004	UMLS:C0020311	Hydrotherapy	0.9	bridge_equivalence	combo_bridge:1.2.16.2
+SNOMEDCT:46903006	UMLS:C0020311	Hydrotherapy	0.9	bridge_equivalence	combo_bridge:1.2.16.2
+UMLS:C5544506	UMLS:C5544506	Aquatic Therapy		bridge_equivalence	combo_bridge:1.2.16.2.1
+MESH:D000088543	UMLS:C5544506	Aquatic Therapy	0.9	bridge_equivalence	combo_bridge:1.2.16.2.1
+UMLS:C0851189	UMLS:C0851189	Application of ice packs		bridge_equivalence	combo_bridge:1.2.16.2.2
+UMLS:C0454527	UMLS:C0454527	Thermal techniques		bridge_equivalence	combo_bridge:1.2.17
+SNOMEDCT:229569007	UMLS:C0454527	Thermal techniques	0.9	bridge_equivalence	combo_bridge:1.2.17
+UMLS:C0010412	UMLS:C0010412	Cold Therapy		bridge_equivalence	combo_bridge:1.2.17.1
+LOINC:LA25341-1	UMLS:C0010412	Cold Therapy	0.9	bridge_equivalence	combo_bridge:1.2.17.1
+MESH:D017679	UMLS:C0010412	Cold Therapy	0.9	bridge_equivalence	combo_bridge:1.2.17.1
+NCIT:C21118	UMLS:C0010412	Cold Therapy	0.9	bridge_equivalence	combo_bridge:1.2.17.1
+SNOMEDCT:150897000	UMLS:C0010412	Cold Therapy	0.9	bridge_equivalence	combo_bridge:1.2.17.1
+SNOMEDCT:150902004	UMLS:C0010412	Cold Therapy	0.9	bridge_equivalence	combo_bridge:1.2.17.1
+SNOMEDCT:182660006	UMLS:C0010412	Cold Therapy	0.9	bridge_equivalence	combo_bridge:1.2.17.1
+SNOMEDCT:182665001	UMLS:C0010412	Cold Therapy	0.9	bridge_equivalence	combo_bridge:1.2.17.1
+UMLS:C1112508	UMLS:C1112508	Hot compress therapy		bridge_equivalence	combo_bridge:1.2.17.2.1
+UMLS:C0400138	UMLS:C0400138	Irrigation of colon		bridge_equivalence	combo_bridge:1.2.18
+SNOMEDCT:174228003	UMLS:C0400138	Irrigation of colon	0.9	bridge_equivalence	combo_bridge:1.2.18
+UMLS:C0884710	UMLS:C0884710			bridge_equivalence	combo_bridge:1.2.20
+UMLS:C0041620	UMLS:C0041620	Ultrasonic Therapy		bridge_equivalence	combo_bridge:1.2.21
+ICD9CM:00.0	UMLS:C0041620	Ultrasonic Therapy	0.9	bridge_equivalence	combo_bridge:1.2.21
+MESH:D014464	UMLS:C0041620	Ultrasonic Therapy	0.9	bridge_equivalence	combo_bridge:1.2.21
+NCIT:C28003	UMLS:C0041620	Ultrasonic Therapy	0.9	bridge_equivalence	combo_bridge:1.2.21
+SNOMEDCT:146668001	UMLS:C0041620	Ultrasonic Therapy	0.9	bridge_equivalence	combo_bridge:1.2.21
+SNOMEDCT:146676004	UMLS:C0041620	Ultrasonic Therapy	0.9	bridge_equivalence	combo_bridge:1.2.21
+SNOMEDCT:169440002	UMLS:C0041620	Ultrasonic Therapy	0.9	bridge_equivalence	combo_bridge:1.2.21
+SNOMEDCT:89002000	UMLS:C0041620	Ultrasonic Therapy	0.9	bridge_equivalence	combo_bridge:1.2.21
+UMLS:C5237316	UMLS:C5237316			bridge_equivalence	combo_bridge:1.2.22.1
+NCIT:C165620	UMLS:C5237316	Localized Vibration Therapy	0.9	bridge_equivalence	combo_bridge:1.2.22.1
+UMLS:C0150133	UMLS:C0150133	Animal Assisted Therapy		bridge_equivalence	combo_bridge:1.3.2
+MESH:D056447	UMLS:C0150133	Animal Assisted Therapy	0.9	bridge_equivalence	combo_bridge:1.3.2
+NCIT:C64868	UMLS:C0150133	Animal Assisted Therapy	0.9	bridge_equivalence	combo_bridge:1.3.2
+SNOMEDCT:386515000	UMLS:C0150133	Animal Assisted Therapy	0.9	bridge_equivalence	combo_bridge:1.3.2
+UMLS:C2717786	UMLS:C2717786	Equine-Assisted Therapy		bridge_equivalence	combo_bridge:1.3.2.1
+UMLS:C0454416	UMLS:C0454416	Hippotherapy		bridge_equivalence	combo_bridge:1.3.2.1.1.2
+MESH:D056147	UMLS:C0454416	Hippotherapy	0.9	bridge_equivalence	combo_bridge:1.3.2.1.1.2
+SNOMEDCT:229210004	UMLS:C0454416	Hippotherapy	0.9	bridge_equivalence	combo_bridge:1.3.2.1.1.2
+UMLS:C0810709	UMLS:C0810709			bridge_equivalence	combo_bridge:1.3.2.3
+UMLS:C0033889	UMLS:C0033889	Psychodrama		bridge_equivalence	combo_bridge:1.3.3
+ICD9CM:94.43	UMLS:C0033889	Psychodrama	0.9	bridge_equivalence	combo_bridge:1.3.3
+MESH:D011577	UMLS:C0033889	Psychodrama	0.9	bridge_equivalence	combo_bridge:1.3.3
+SNOMEDCT:53508008	UMLS:C0033889	Psychodrama	0.9	bridge_equivalence	combo_bridge:1.3.3
+UMLS:C0035822	UMLS:C0035822	Role play technique		bridge_equivalence	combo_bridge:1.3.3.1
+MESH:D012381	UMLS:C0035822	Role play technique	0.9	bridge_equivalence	combo_bridge:1.3.3.1
+SNOMEDCT:228585005	UMLS:C0035822	Role play technique	0.9	bridge_equivalence	combo_bridge:1.3.3.1
+UMLS:C0969699	UMLS:C0969699	Sensory Art Therapies		bridge_equivalence	combo_bridge:1.3.4
+MESH:D026421	UMLS:C0969699	Sensory Art Therapies	0.9	bridge_equivalence	combo_bridge:1.3.4
+UMLS:C0001164	UMLS:C0001164	Acoustic Stimulation		bridge_equivalence	combo_bridge:1.3.4.2
+MESH:D000161	UMLS:C0001164	Acoustic Stimulation	0.9	bridge_equivalence	combo_bridge:1.3.4.2
+UMLS:C0376547	UMLS:C0376547	Aromatherapy		bridge_equivalence	combo_bridge:1.3.4.3
+LOINC:LA25339-5	UMLS:C0376547	Aromatherapy	0.9	bridge_equivalence	combo_bridge:1.3.4.3
+MESH:D019341	UMLS:C0376547	Aromatherapy	0.9	bridge_equivalence	combo_bridge:1.3.4.3
+SNOMEDCT:394615007	UMLS:C0376547	Aromatherapy	0.9	bridge_equivalence	combo_bridge:1.3.4.3
+UMLS:C0032216	UMLS:C0032216	Play Therapy		bridge_equivalence	combo_bridge:1.3.4.4
+ICD9CM:94.36	UMLS:C0032216	Play Therapy	0.9	bridge_equivalence	combo_bridge:1.3.4.4
+MESH:D010989	UMLS:C0032216	Play Therapy	0.9	bridge_equivalence	combo_bridge:1.3.4.4
+SNOMEDCT:151561006	UMLS:C0032216	Play Therapy	0.9	bridge_equivalence	combo_bridge:1.3.4.4
+SNOMEDCT:72101003	UMLS:C0032216	Play Therapy	0.9	bridge_equivalence	combo_bridge:1.3.4.4
+SNOMEDCT:76075007	UMLS:C0032216	Play Therapy	0.9	bridge_equivalence	combo_bridge:1.3.4.4
+UMLS:C2316067	UMLS:C2316067	Journaling		bridge_equivalence	combo_bridge:1.3.4.5.4
+SNOMEDCT:433497004	UMLS:C2316067	Journaling	0.9	bridge_equivalence	combo_bridge:1.3.4.5.4
+UMLS:C3888013	UMLS:C3888013			bridge_equivalence	combo_bridge:1.3.5
+UMLS:C0020587	UMLS:C0020587	Hypnotherapy		bridge_equivalence	combo_bridge:1.3.5
+ICD9CM:94.32	UMLS:C0020587		0.9	bridge_equivalence	combo_bridge:1.3.5
+LOINC:LA33537-4	UMLS:C0020587		0.9	bridge_equivalence	combo_bridge:1.3.5
+MESH:D006990	UMLS:C0020587		0.9	bridge_equivalence	combo_bridge:1.3.5
+NCIT:C15420	UMLS:C0020587		0.9	bridge_equivalence	combo_bridge:1.3.5
+SNOMEDCT:151644003	UMLS:C0020587		0.9	bridge_equivalence	combo_bridge:1.3.5
+SNOMEDCT:151645002	UMLS:C0020587		0.9	bridge_equivalence	combo_bridge:1.3.5
+SNOMEDCT:151646001	UMLS:C0020587		0.9	bridge_equivalence	combo_bridge:1.3.5
+SNOMEDCT:183408002	UMLS:C0020587		0.9	bridge_equivalence	combo_bridge:1.3.5
+SNOMEDCT:183409005	UMLS:C0020587		0.9	bridge_equivalence	combo_bridge:1.3.5
+SNOMEDCT:19997007	UMLS:C0020587		0.9	bridge_equivalence	combo_bridge:1.3.5
+SNOMEDCT:70503004	UMLS:C0020587		0.9	bridge_equivalence	combo_bridge:1.3.5
+UMLS:C0004361	UMLS:C0004361	Autogenic Training		bridge_equivalence	combo_bridge:1.3.5.1
+MESH:D001326	UMLS:C0004361	Autogenic Training	0.9	bridge_equivalence	combo_bridge:1.3.5.1
+SNOMEDCT:389008003	UMLS:C0004361	Autogenic Training	0.9	bridge_equivalence	combo_bridge:1.3.5.1
+SNOMEDCT:44005004	UMLS:C0004361	Autogenic Training	0.9	bridge_equivalence	combo_bridge:1.3.5.1
+UMLS:C0038659	UMLS:C0038659			bridge_equivalence	combo_bridge:1.3.5.2
+MESH:D013404	UMLS:C0038659	therapeutic suggestion	0.9	bridge_equivalence	combo_bridge:1.3.5.2
+UMLS:C0004404	UMLS:C0004404	Autosuggestion		bridge_equivalence	combo_bridge:1.3.5.2.1
+MESH:D001346	UMLS:C0004404	Autosuggestion	0.9	bridge_equivalence	combo_bridge:1.3.5.2.1
+UMLS:C0679660	UMLS:C0679660	Self-Hypnosis		bridge_equivalence	combo_bridge:1.3.5.4
+UMLS:C2985297	UMLS:C2985297			bridge_equivalence	combo_bridge:1.3.5.5
+NCIT:C92810	UMLS:C2985297	Hypnobirthing	0.9	bridge_equivalence	combo_bridge:1.3.5.5
+UMLS:C0150627	UMLS:C0150627	Guided imagery		bridge_equivalence	combo_bridge:1.3.6
+LOINC:LA25351-0	UMLS:C0150627	Guided imagery	0.9	bridge_equivalence	combo_bridge:1.3.6
+MESH:D019018	UMLS:C0150627	Guided imagery	0.9	bridge_equivalence	combo_bridge:1.3.6
+MTH:U003159	UMLS:C0150627	Guided imagery	0.9	bridge_equivalence	combo_bridge:1.3.6
+NCIT:C15375	UMLS:C0150627	Guided imagery	0.9	bridge_equivalence	combo_bridge:1.3.6
+SNOMEDCT:386437005	UMLS:C0150627	Guided imagery	0.9	bridge_equivalence	combo_bridge:1.3.6
+UMLS:C0679674	UMLS:C0679674	Spiritual Therapies		bridge_equivalence	combo_bridge:1.3.7
+NCIT:C51972	UMLS:C0679674	Spiritual Therapies	0.9	bridge_equivalence	combo_bridge:1.3.7
+SNOMEDCT:105390002	UMLS:C0679674	Spiritual Therapies	0.9	bridge_equivalence	combo_bridge:1.3.7
+UMLS:C0015547	UMLS:C0015547	Spiritual Healing		bridge_equivalence	combo_bridge:1.3.7
+MESH:D026443	UMLS:C0015547	Spiritual Healing	0.9	bridge_equivalence	combo_bridge:1.3.7
+UMLS:C0949912	UMLS:C0949912	Faith Healing		bridge_equivalence	combo_bridge:1.3.7.2
+NCIT:C51973	UMLS:C0949912	Faith Healing	0.9	bridge_equivalence	combo_bridge:1.3.7.2
+UMLS:C0282230	UMLS:C0282230			bridge_equivalence	combo_bridge:1.3.7.2
+MESH:D029221	UMLS:C0282230	Prayer Healing	0.9	bridge_equivalence	combo_bridge:1.3.7.2
+UMLS:C1276354	UMLS:C1276354			bridge_equivalence	combo_bridge:1.3.7.3
+SNOMEDCT:134387000	UMLS:C1276354	Laying on of hands with prayer	0.9	bridge_equivalence	combo_bridge:1.3.7.3
+SNOMEDCT:367062002	UMLS:C1276354	Laying on of hands with prayer	0.9	bridge_equivalence	combo_bridge:1.3.7.3
+SNOMEDCT:367289002	UMLS:C1276354	Laying on of hands with prayer	0.9	bridge_equivalence	combo_bridge:1.3.7.3
+UMLS:C0814263	UMLS:C0814263	Meditation Therapy		bridge_equivalence	combo_bridge:1.3.7.4
+NCIT:C51975	UMLS:C0814263	Meditation Therapy	0.9	bridge_equivalence	combo_bridge:1.3.7.4
+UMLS:C0150277	UMLS:C0150277	meditation		bridge_equivalence	combo_bridge:1.3.7.4
+MESH:D019122	UMLS:C0150277		0.9	bridge_equivalence	combo_bridge:1.3.7.4
+UMLS:C0204530	UMLS:C0204530			bridge_equivalence	combo_bridge:1.3.7.4.1.1.1
+SNOMEDCT:39697002	UMLS:C0204530	Transcendental meditation therapy	0.9	bridge_equivalence	combo_bridge:1.3.7.4.1.1.1
+UMLS:C5891058	UMLS:C5891058			bridge_equivalence	combo_bridge:1.3.7.4.2
+MESH:D064866	UMLS:C5891058	Mindfulness Meditation	0.9	bridge_equivalence	combo_bridge:1.3.7.4.2
+UMLS:C5940645	UMLS:C5940645			bridge_equivalence	combo_bridge:1.3.7.4.2.10
+MESH:D000099025	UMLS:C5940645	Mindfulness-Based Cognitive Therapy	0.9	bridge_equivalence	combo_bridge:1.3.7.4.2.10
+UMLS:C0025352	UMLS:C0025352	Mental Healing		bridge_equivalence	combo_bridge:1.3.7.5
+MESH:D008602	UMLS:C0025352	Mental Healing	0.9	bridge_equivalence	combo_bridge:1.3.7.5
+UMLS:C0034545	UMLS:C0034545	Radiesthesia		bridge_equivalence	combo_bridge:1.3.7.6
+MESH:D011844	UMLS:C0034545	Radiesthesia	0.9	bridge_equivalence	combo_bridge:1.3.7.6
+UMLS:C1541277	UMLS:C1541277	Distance Healing		bridge_equivalence	combo_bridge:1.3.7.8
+NCIT:C51974	UMLS:C1541277	Distance Healing	0.9	bridge_equivalence	combo_bridge:1.3.7.8
+UMLS:C0871171	UMLS:C0871171	Psychic Healing		bridge_equivalence	combo_bridge:1.3.7.11
+UMLS:C4045985	UMLS:C4045985			bridge_equivalence	combo_bridge:1.3.7.13.1
+UMLS:C1883174	UMLS:C1883174	Stress Management Therapy		bridge_equivalence	combo_bridge:1.3.8
+NCIT:C67032	UMLS:C1883174	Stress Management Therapy	0.9	bridge_equivalence	combo_bridge:1.3.8
+UMLS:C1883225	UMLS:C1883225	Support Group Therapy		bridge_equivalence	combo_bridge:1.3.9
+NCIT:C67030	UMLS:C1883225	Support Group Therapy	0.9	bridge_equivalence	combo_bridge:1.3.9
+UMLS:C0033968	UMLS:C0033968	Psychotherapy		bridge_equivalence	combo_bridge:1.3.10
+MESH:D011613	UMLS:C0033968	Psychotherapy	0.9	bridge_equivalence	combo_bridge:1.3.10
+NCIT:C15308	UMLS:C0033968	Psychotherapy	0.9	bridge_equivalence	combo_bridge:1.3.10
+SNOMEDCT:151615000	UMLS:C0033968	Psychotherapy	0.9	bridge_equivalence	combo_bridge:1.3.10
+SNOMEDCT:183380006	UMLS:C0033968	Psychotherapy	0.9	bridge_equivalence	combo_bridge:1.3.10
+SNOMEDCT:75516001	UMLS:C0033968	Psychotherapy	0.9	bridge_equivalence	combo_bridge:1.3.10
+UMLS:C0871175	UMLS:C0871175	Psychoeducation		bridge_equivalence	combo_bridge:1.3.10.1
+SNOMEDCT:702545008	UMLS:C0871175	Psychoeducation	0.9	bridge_equivalence	combo_bridge:1.3.10.1
+UMLS:C0005365	UMLS:C0005365	Bibliotherapy		bridge_equivalence	combo_bridge:1.3.10.2
+MESH:D001638	UMLS:C0005365	Bibliotherapy	0.9	bridge_equivalence	combo_bridge:1.3.10.2
+SNOMEDCT:386526006	UMLS:C0005365	Bibliotherapy	0.9	bridge_equivalence	combo_bridge:1.3.10.2
+UMLS:C2945659	UMLS:C2945659			bridge_equivalence	combo_bridge:1.3.10.3.1
+UMLS:C0010210	UMLS:C0010210	Counseling		bridge_equivalence	combo_bridge:1.3.10.4
+MESH:D003376	UMLS:C0010210	Counseling	0.9	bridge_equivalence	combo_bridge:1.3.10.4
+NCIT:C61547	UMLS:C0010210	Counseling	0.9	bridge_equivalence	combo_bridge:1.3.10.4
+SNOMEDCT:129441002	UMLS:C0010210	Counseling	0.9	bridge_equivalence	combo_bridge:1.3.10.4
+SNOMEDCT:148198002	UMLS:C0010210	Counseling	0.9	bridge_equivalence	combo_bridge:1.3.10.4
+SNOMEDCT:148199005	UMLS:C0010210	Counseling	0.9	bridge_equivalence	combo_bridge:1.3.10.4
+SNOMEDCT:148207006	UMLS:C0010210	Counseling	0.9	bridge_equivalence	combo_bridge:1.3.10.4
+SNOMEDCT:170974001	UMLS:C0010210	Counseling	0.9	bridge_equivalence	combo_bridge:1.3.10.4
+SNOMEDCT:170975000	UMLS:C0010210	Counseling	0.9	bridge_equivalence	combo_bridge:1.3.10.4
+SNOMEDCT:170984000	UMLS:C0010210	Counseling	0.9	bridge_equivalence	combo_bridge:1.3.10.4
+SNOMEDCT:360268008	UMLS:C0010210	Counseling	0.9	bridge_equivalence	combo_bridge:1.3.10.4
+SNOMEDCT:409063005	UMLS:C0010210	Counseling	0.9	bridge_equivalence	combo_bridge:1.3.10.4
+SNOMEDCT:69197005	UMLS:C0010210	Counseling	0.9	bridge_equivalence	combo_bridge:1.3.10.4
+UMLS:C1608504	UMLS:C1608504			bridge_equivalence	combo_bridge:1.3.10.5
+UMLS:C0017501	UMLS:C0017501	Gestalt Therapy		bridge_equivalence	combo_bridge:1.3.10.6
+MESH:D005864	UMLS:C0017501	Gestalt Therapy	0.9	bridge_equivalence	combo_bridge:1.3.10.6
+SNOMEDCT:9591001	UMLS:C0017501	Gestalt Therapy	0.9	bridge_equivalence	combo_bridge:1.3.10.6
+UMLS:C3494322	UMLS:C3494322	Narrative Therapy		bridge_equivalence	combo_bridge:1.3.10.7
+MESH:D062525	UMLS:C3494322	Narrative Therapy	0.9	bridge_equivalence	combo_bridge:1.3.10.7
+UMLS:C0015618	UMLS:C0015618	Family psychotherapy		bridge_equivalence	combo_bridge:1.3.10.8
+ICD9CM:94.42	UMLS:C0015618	Family psychotherapy	0.9	bridge_equivalence	combo_bridge:1.3.10.8
+MESH:D005196	UMLS:C0015618	Family psychotherapy	0.9	bridge_equivalence	combo_bridge:1.3.10.8
+MTH:U003463	UMLS:C0015618	Family psychotherapy	0.9	bridge_equivalence	combo_bridge:1.3.10.8
+NCIT:C93347	UMLS:C0015618	Family psychotherapy	0.9	bridge_equivalence	combo_bridge:1.3.10.8
+SNOMEDCT:108313002	UMLS:C0015618	Family psychotherapy	0.9	bridge_equivalence	combo_bridge:1.3.10.8
+SNOMEDCT:151621001	UMLS:C0015618	Family psychotherapy	0.9	bridge_equivalence	combo_bridge:1.3.10.8
+SNOMEDCT:51484002	UMLS:C0015618	Family psychotherapy	0.9	bridge_equivalence	combo_bridge:1.3.10.8
+UMLS:C0009244	UMLS:C0009244	Cognitive Therapy		bridge_equivalence	combo_bridge:1.3.10.12
+MESH:D015928	UMLS:C0009244		0.9	bridge_equivalence	combo_bridge:1.3.10.12
+NCIT:C64345	UMLS:C0009244		0.9	bridge_equivalence	combo_bridge:1.3.10.12
+SNOMEDCT:151618003	UMLS:C0009244		0.9	bridge_equivalence	combo_bridge:1.3.10.12
+SNOMEDCT:183383008	UMLS:C0009244		0.9	bridge_equivalence	combo_bridge:1.3.10.12
+SNOMEDCT:228553007	UMLS:C0009244		0.9	bridge_equivalence	combo_bridge:1.3.10.12
+SNOMEDCT:228557008	UMLS:C0009244		0.9	bridge_equivalence	combo_bridge:1.3.10.12
+SNOMEDCT:304891004	UMLS:C0009244		0.9	bridge_equivalence	combo_bridge:1.3.10.12
+SNOMEDCT:389923006	UMLS:C0009244		0.9	bridge_equivalence	combo_bridge:1.3.10.12
+SNOMEDCT:390657008	UMLS:C0009244		0.9	bridge_equivalence	combo_bridge:1.3.10.12
+UMLS:C1321145	UMLS:C1321145	Dialectical Behavior Therapy		bridge_equivalence	combo_bridge:1.3.10.13
+MESH:D000077252	UMLS:C1321145		0.9	bridge_equivalence	combo_bridge:1.3.10.13
+SNOMEDCT:405780009	UMLS:C1321145		0.9	bridge_equivalence	combo_bridge:1.3.10.13
+UMLS:C3658321	UMLS:C3658321	Acceptance and Commitment Therapy		bridge_equivalence	combo_bridge:1.3.10.14
+MESH:D064869	UMLS:C3658321		0.9	bridge_equivalence	combo_bridge:1.3.10.14
+NCIT:C183119	UMLS:C3658321		0.9	bridge_equivalence	combo_bridge:1.3.10.14
+SNOMEDCT:460901000124104	UMLS:C3658321		0.9	bridge_equivalence	combo_bridge:1.3.10.14
+UMLS:C0683473	UMLS:C0683473			bridge_equivalence	combo_bridge:1.3.12
+MESH:D020557	UMLS:C0683473	Neurolinguistic Programming	0.9	bridge_equivalence	combo_bridge:1.3.12
+UMLS:C0870913	UMLS:C0870913	Morita Therapy		bridge_equivalence	combo_bridge:1.3.14
+UMLS:C0598380	UMLS:C0598380	Nature Therapy		bridge_equivalence	combo_bridge:1.3.15.1
+SNOMEDCT:1256107005	UMLS:C0598380	Nature Therapy	0.9	bridge_equivalence	combo_bridge:1.3.15.1
+UMLS:C0454057	UMLS:C0454057	Horticultural Therapy		bridge_equivalence	combo_bridge:1.3.15.1.1
+MESH:D058611	UMLS:C0454057	Horticultural Therapy	0.9	bridge_equivalence	combo_bridge:1.3.15.1.1
+SNOMEDCT:228652008	UMLS:C0454057	Horticultural Therapy	0.9	bridge_equivalence	combo_bridge:1.3.15.1.1
+UMLS:C5940600	UMLS:C5940600			bridge_equivalence	combo_bridge:1.3.15.1.2
+MESH:D000099080	UMLS:C5940600	Forest Therapy	0.9	bridge_equivalence	combo_bridge:1.3.15.1.2
+UMLS:C4280069	UMLS:C4280069	Positive Thinking		bridge_equivalence	combo_bridge:1.3.16
+MESH:D000067656	UMLS:C4280069	Positive Thinking	0.9	bridge_equivalence	combo_bridge:1.3.16
+UMLS:C0150321	UMLS:C0150321	Reminiscence therapy		bridge_equivalence	combo_bridge:1.3.17
+SNOMEDCT:228549005	UMLS:C0150321	Reminiscence therapy	0.9	bridge_equivalence	combo_bridge:1.3.17
+UMLS:C0242388	UMLS:C0242388	Phytotherapy		bridge_equivalence	combo_bridge:1.4
+MESH:D008517	UMLS:C0242388	Phytotherapy	0.9	bridge_equivalence	combo_bridge:1.4
+NCIT:C15250	UMLS:C0242388	Phytotherapy	0.9	bridge_equivalence	combo_bridge:1.4
+SNOMEDCT:414392008	UMLS:C0242388	Phytotherapy	0.9	bridge_equivalence	combo_bridge:1.4
+UMLS:C1541283	UMLS:C1541283	Phytoestrogen Therapy		bridge_equivalence	combo_bridge:1.4.1
+NCIT:C62679	UMLS:C1541283	Phytoestrogen Therapy	0.9	bridge_equivalence	combo_bridge:1.4.1
+UMLS:C1533719	UMLS:C1533719			bridge_equivalence	combo_bridge:1.4.2
+MESH:D029001	UMLS:C1533719	Herbal Medicine (discipline)	0.9	bridge_equivalence	combo_bridge:1.4.2
+UMLS:C0242295	UMLS:C0242295			bridge_equivalence	combo_bridge:2.1
+LOINC:LP99357-3	UMLS:C0242295	Dietary Supplements	0.9	bridge_equivalence	combo_bridge:2.1
+LOINC:MTHU035664	UMLS:C0242295	Dietary Supplements	0.9	bridge_equivalence	combo_bridge:2.1
+MESH:D019587	UMLS:C0242295	Dietary Supplements	0.9	bridge_equivalence	combo_bridge:2.1
+NCIT:C1505	UMLS:C0242295	Dietary Supplements	0.9	bridge_equivalence	combo_bridge:2.1
+SNOMEDCT:108961000	UMLS:C0242295	Dietary Supplements	0.9	bridge_equivalence	combo_bridge:2.1
+SNOMEDCT:226279009	UMLS:C0242295	Dietary Supplements	0.9	bridge_equivalence	combo_bridge:2.1
+SNOMEDCT:373453009	UMLS:C0242295	Dietary Supplements	0.9	bridge_equivalence	combo_bridge:2.1
+SNOMEDCT:373689005	UMLS:C0242295	Dietary Supplements	0.9	bridge_equivalence	combo_bridge:2.1
+CHEBI:18145	CHEBI:18145	Vitamin E		bridge_equivalence	combo_bridge:2.1.1
+CAS:1406-18-4	CHEBI:18145	Vitamin E		bridge_equivalence	combo_bridge:2.1.1
+CAS:18920-62-2	CHEBI:18145	Vitamin E		bridge_equivalence	combo_bridge:2.1.1
+CAS:2074-53-5	CHEBI:18145	Vitamin E		bridge_equivalence	combo_bridge:2.1.1
+CAS:215-798-8	CHEBI:18145	Vitamin E		bridge_equivalence	combo_bridge:2.1.1
+CAS:59-02-9	CHEBI:18145	Vitamin E		bridge_equivalence	combo_bridge:2.1.1
+CAS:606-803-8	CHEBI:18145	Vitamin E		bridge_equivalence	combo_bridge:2.1.1
+CHEBI:10336	CHEBI:18145	Vitamin E		bridge_equivalence	combo_bridge:2.1.1
+CHEBI:12343	CHEBI:18145	Vitamin E		bridge_equivalence	combo_bridge:2.1.1
+CHEBI:33229	CHEBI:18145	Vitamin E		bridge_equivalence	combo_bridge:2.1.1
+CHEBI:33234	CHEBI:18145	Vitamin E		bridge_equivalence	combo_bridge:2.1.1
+CHEBI:46509	CHEBI:18145	Vitamin E		bridge_equivalence	combo_bridge:2.1.1
+CHEMBL.COMPOUND:CHEMBL2108106	CHEBI:18145	Vitamin E		bridge_equivalence	combo_bridge:2.1.1
+CHEMBL.COMPOUND:CHEMBL47	CHEBI:18145	Vitamin E		bridge_equivalence	combo_bridge:2.1.1
+DRUGBANK:DB00163	CHEBI:18145	Vitamin E		bridge_equivalence	combo_bridge:2.1.1
+DrugCentral:3613	CHEBI:18145	Vitamin E		bridge_equivalence	combo_bridge:2.1.1
+DrugCentral:4280	CHEBI:18145	Vitamin E		bridge_equivalence	combo_bridge:2.1.1
+HMDB:HMDB0001893	CHEBI:18145	Vitamin E		bridge_equivalence	combo_bridge:2.1.1
+INCHIKEY:GVJHHUAWPYXKBD-IEOSBIPESA-N	CHEBI:18145	Vitamin E		bridge_equivalence	combo_bridge:2.1.1
+KEGG.COMPOUND:C02477	CHEBI:18145	Vitamin E		bridge_equivalence	combo_bridge:2.1.1
+MESH:D014810	CHEBI:18145	Vitamin E		bridge_equivalence	combo_bridge:2.1.1
+MESH:D024502	CHEBI:18145	Vitamin E		bridge_equivalence	combo_bridge:2.1.1
+MESH:M0104481	CHEBI:18145	Vitamin E		bridge_equivalence	combo_bridge:2.1.1
+MESH:M0515672	CHEBI:18145	Vitamin E		bridge_equivalence	combo_bridge:2.1.1
+PUBCHEM.COMPOUND:14985	CHEBI:18145	Vitamin E		bridge_equivalence	combo_bridge:2.1.1
+RXCUI:11256	CHEBI:18145	Vitamin E		bridge_equivalence	combo_bridge:2.1.1
+RXCUI:237099	CHEBI:18145	Vitamin E		bridge_equivalence	combo_bridge:2.1.1
+UMLS:C0042874	CHEBI:18145	Vitamin E		bridge_equivalence	combo_bridge:2.1.1
+UMLS:C0042890	CHEBI:18145	Vitamin E		bridge_equivalence	combo_bridge:2.1.1
+UMLS:C0969677	CHEBI:18145	Vitamin E		bridge_equivalence	combo_bridge:2.1.1
+UNII:H4N855PNZ1	CHEBI:18145	Vitamin E		bridge_equivalence	combo_bridge:2.1.1
+UNII:N9PR3490H9	CHEBI:18145	Vitamin E		bridge_equivalence	combo_bridge:2.1.1
+CHEBI:46662	CHEBI:46662	mineral		bridge_equivalence	combo_bridge:2.1.2
+UMLS:C0026162	CHEBI:46662	mineral		bridge_equivalence	combo_bridge:2.1.2
+MESH:D056692	MESH:D056692	Prebiotics	0.9	bridge_equivalence	combo_bridge:2.1.3
+UMLS:C2717875	MESH:D056692	Prebiotics		bridge_equivalence	combo_bridge:2.1.3
+MESH:D019936	MESH:D019936	Probiotics	0.9	bridge_equivalence	combo_bridge:2.1.4
+UMLS:C0525033	MESH:D019936	Probiotics		bridge_equivalence	combo_bridge:2.1.4
+MESH:D064209	MESH:D064209	Phytochemicals	0.9	bridge_equivalence	combo_bridge:2.2.1
+UMLS:C0577749	MESH:D064209	Phytochemicals		bridge_equivalence	combo_bridge:2.2.1
+UMLS:C0019240	UMLS:C0019240	Herb		bridge_equivalence	combo_bridge:2.2.2
+NCIT:C180903	UMLS:C0019240	Herb	0.9	bridge_equivalence	combo_bridge:2.2.2
+SNOMEDCT:256330001	UMLS:C0019240	Herb	0.9	bridge_equivalence	combo_bridge:2.2.2
+NCBITaxon:20400	NCBITaxon:20400	Astragalus		bridge_equivalence	combo_bridge:2.2.2.1
+UMLS:C0330845	NCBITaxon:20400	Astragalus		bridge_equivalence	combo_bridge:2.2.2.1
+UMLS:C2586030	UMLS:C2586030	Anthroposophical medicine (regime/therapy)		bridge_equivalence	combo_bridge:3.1
+SNOMEDCT:439062004	UMLS:C2586030	Anthroposophical medicine (regime/therapy)	0.9	bridge_equivalence	combo_bridge:3.1
+UMLS:C0684199	UMLS:C0684199	Homeopathy		bridge_equivalence	combo_bridge:3.2
+MESH:D006705	UMLS:C0684199	Homeopathy	0.9	bridge_equivalence	combo_bridge:3.2
+NCIT:C15718	UMLS:C0684199	Homeopathy	0.9	bridge_equivalence	combo_bridge:3.2
+SNOMEDCT:151251003	UMLS:C0684199	Homeopathy	0.9	bridge_equivalence	combo_bridge:3.2
+SNOMEDCT:182968001	UMLS:C0684199	Homeopathy	0.9	bridge_equivalence	combo_bridge:3.2
+UMLS:C0027495	UMLS:C0027495	Naturopathy		bridge_equivalence	combo_bridge:3.3
+MESH:D009324	UMLS:C0027495	Naturopathy	0.9	bridge_equivalence	combo_bridge:3.3
+NCIT:C15283	UMLS:C0027495	Naturopathy	0.9	bridge_equivalence	combo_bridge:3.3
+SNOMEDCT:439809005	UMLS:C0027495	Naturopathy	0.9	bridge_equivalence	combo_bridge:3.3
+UMLS:C0025131	UMLS:C0025131	Traditional Medicine		bridge_equivalence	combo_bridge:3.4
+NCIT:C180905	UMLS:C0025131	Traditional Medicine	0.9	bridge_equivalence	combo_bridge:3.4
+SNOMEDCT:773412008	UMLS:C0025131	Traditional Medicine	0.9	bridge_equivalence	combo_bridge:3.4
+UMLS:C0015034	UMLS:C0015034	Ethnomedicine		bridge_equivalence	combo_bridge:3.4
+MESH:D008519	UMLS:C0015034		0.9	bridge_equivalence	combo_bridge:3.4
+UMLS:C0949807	UMLS:C0949807			bridge_equivalence	combo_bridge:3.4.1
+MESH:D027681	UMLS:C0949807	Eclecticism, Historical	0.9	bridge_equivalence	combo_bridge:3.4.1
+UMLS:C0085093	UMLS:C0085093	Medicine, African Traditional		bridge_equivalence	combo_bridge:3.4.2
+MESH:D016488	UMLS:C0085093	Medicine, African Traditional	0.9	bridge_equivalence	combo_bridge:3.4.2
+UMLS:C0025121	UMLS:C0025121			bridge_equivalence	combo_bridge:3.4.3
+MESH:D008514	UMLS:C0025121	Medicine, Arabic	0.9	bridge_equivalence	combo_bridge:3.4.3
+UMLS:C0376557	UMLS:C0376557			bridge_equivalence	combo_bridge:3.4.3.1
+MESH:D019367	UMLS:C0376557	Medicine, Unani	0.9	bridge_equivalence	combo_bridge:3.4.3.1
+SNOMEDCT:1259218001	UMLS:C0376557	Medicine, Unani	0.9	bridge_equivalence	combo_bridge:3.4.3.1
+UMLS:C0025122	UMLS:C0025122			bridge_equivalence	combo_bridge:3.4.4.1
+MESH:D008515	UMLS:C0025122	Medicine, Ayurvedic	0.9	bridge_equivalence	combo_bridge:3.4.4.1
+SNOMEDCT:1259939000	UMLS:C0025122	Medicine, Ayurvedic	0.9	bridge_equivalence	combo_bridge:3.4.4.1
+SNOMEDCT:452091000124101	UMLS:C0025122	Medicine, Ayurvedic	0.9	bridge_equivalence	combo_bridge:3.4.4.1
+UMLS:C0025129	UMLS:C0025129			bridge_equivalence	combo_bridge:3.4.5
+UMLS:C0025128	UMLS:C0025128			bridge_equivalence	combo_bridge:3.4.5
+MESH:D008518	UMLS:C0025128		0.9	bridge_equivalence	combo_bridge:3.4.5
+UMLS:C0025124	UMLS:C0025124			bridge_equivalence	combo_bridge:3.4.5.1
+MESH:D008516	UMLS:C0025124	Traditional Chinese Medicine	0.9	bridge_equivalence	combo_bridge:3.4.5.1
+SNOMEDCT:723688009	UMLS:C0025124	Traditional Chinese Medicine	0.9	bridge_equivalence	combo_bridge:3.4.5.1
+UMLS:C1273412	UMLS:C1273412	Chinese herbal medicine		bridge_equivalence	combo_bridge:3.4.5.1.1
+SNOMEDCT:393109002	UMLS:C1273412	Chinese herbal medicine	0.9	bridge_equivalence	combo_bridge:3.4.5.1.1
+SNOMEDCT:394060007	UMLS:C1273412	Chinese herbal medicine	0.9	bridge_equivalence	combo_bridge:3.4.5.1.1
+SNOMEDCT:395114000	UMLS:C1273412	Chinese herbal medicine	0.9	bridge_equivalence	combo_bridge:3.4.5.1.1
+UMLS:C0752221	UMLS:C0752221			bridge_equivalence	combo_bridge:3.4.5.2
+MESH:D020835	UMLS:C0752221	Medicine, Kampo	0.9	bridge_equivalence	combo_bridge:3.4.5.2
+UMLS:C2350504	UMLS:C2350504	Medicine, Korean Traditional		bridge_equivalence	combo_bridge:3.4.5.3
+MESH:D055670	UMLS:C2350504	Medicine, Korean Traditional	0.9	bridge_equivalence	combo_bridge:3.4.5.3
+UMLS:C2717890	UMLS:C2717890	Medicine, Mongolian Traditional		bridge_equivalence	combo_bridge:3.4.5.4
+MESH:D056785	UMLS:C2717890	Medicine, Mongolian Traditional	0.9	bridge_equivalence	combo_bridge:3.4.5.4
+UMLS:C1136246	UMLS:C1136246			bridge_equivalence	combo_bridge:3.4.5.5
+MESH:D038861	UMLS:C1136246	Medicine, Tibetan Traditional	0.9	bridge_equivalence	combo_bridge:3.4.5.5
+UMLS:C5544463	UMLS:C5544463			bridge_equivalence	combo_bridge:3.4.6
+MESH:D000091182	UMLS:C5544463	Medicine, Iranian Traditional	0.9	bridge_equivalence	combo_bridge:3.4.6
+UMLS:C5828333	UMLS:C5828333			bridge_equivalence	combo_bridge:3.4.7
+UMLS:C5781873	UMLS:C5781873			bridge_equivalence	combo_bridge:3.4.7
+MESH:D000096262	UMLS:C5781873		0.9	bridge_equivalence	combo_bridge:3.4.7

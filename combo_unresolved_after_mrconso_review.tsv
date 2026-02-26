@@ -1,0 +1,514 @@
+combo_concept_id	combo_label	synonyms	reason
+1.1.1	Complementary_Dietary_Therapy	Complementary Dietary Intervention	no_mrconso_exact_match
+1.1.1.6	Detox_Diet	N/A	no_mrconso_exact_match
+1.1.1.8	Raw_Food_Diet	N/A	no_mrconso_exact_match
+1.1.7	Microbiome_Metabolite_Therapy	Microbiome Metabolite	no_mrconso_exact_match
+1.1.8	Food_Metabolite_Based_Therapy	Food Metabolite	no_mrconso_exact_match
+1.1.9	Mindful_Eating	N/A	no_mrconso_exact_match
+1.1.14	Practitioner_Guided_Detoxification	N/A	no_mrconso_exact_match
+1.2	Physical_Intervention	N/A	no_mrconso_exact_match
+1.2.1.5	Japanese_Acupuncture	N/A	no_mrconso_exact_match
+1.2.1.7	Korean_Acupuncture	N/A	no_mrconso_exact_match
+1.2.1.8	Single_Point_Acupuncture	N/A	no_mrconso_exact_match
+1.2.1.9	Hand_Acupuncture	N/A	no_mrconso_exact_match
+1.2.1.10	Foot_Acupuncture	N/A	no_mrconso_exact_match
+1.2.1.11	Acu_Moxibustion	Acu-Moxi	no_mrconso_exact_match
+1.2.1.11.1	Needle_Moxibustion	N/A	no_mrconso_exact_match
+1.2.1.11.1.1	Warm_Needle_Moxibustion	N/A	no_mrconso_exact_match
+1.2.1.12	Chinese_Acupuncture	N/A	no_mrconso_exact_match
+1.2.3.3	Cryo_Auriculotherapy	N/A	no_mrconso_exact_match
+1.2.4.1	Transcutaneous_Electrical_Acustimulation	N/A	no_mrconso_exact_match
+1.2.4.2	Acupoint_Stimulation	N/A	no_mrconso_exact_match
+1.2.6.1.1	Buteyko_Breathing_Technique	Eucapnic Buteyko Breathing|Buteyko Institute Method|Eucapnic Breathing Technique|Buteyko Technique|Buteyko Method|Buteyko Breathing Training	no_mrconso_exact_match
+1.2.6.2.1.1	Visual_Art_Therapy	N/A	no_mrconso_exact_match
+1.2.6.2.1.1.2	Chinese_Calligraphy_Therapy	N/A	no_mrconso_exact_match
+1.2.6.2.1.1.3	Clay_Art_Therapy	N/A	no_mrconso_exact_match
+1.2.6.2.1.1.4	Mandala_Therapy	Mandalas	no_mrconso_exact_match
+1.2.6.2.1.2.1	Creative_Expression	N/A	no_mrconso_exact_match
+1.2.6.2.1.2.2	Artistic_Therapy_Painting	artistic therapies-painting	no_mrconso_exact_match
+1.2.6.2.1.3	Phenomenological_Art_Therapy	N/A	no_mrconso_exact_match
+1.2.6.2.1.4	Mindfulness_Based_Art_Therapy	N/A	no_mrconso_exact_match
+1.2.6.2.1.5	Psychodynamic_Group_Art_Therapy	N/A	no_mrconso_exact_match
+1.2.6.2.1.6	Anthroposophic_Art_Therapy	N/A	no_mrconso_exact_match
+1.2.6.2.3.1	Musical_Game	Musical Games	no_mrconso_exact_match
+1.2.6.2.3.2	Orff_Based_Music_Therapy	N/A	no_mrconso_exact_match
+1.2.6.2.3.3	Lyric_Analysis	N/A	no_mrconso_exact_match
+1.2.6.2.3.4	Medical_Resonance_Therapy_Music	MRT-Music	no_mrconso_exact_match
+1.2.6.2.3.5	Musical_Motor_Feedback	N/A	no_mrconso_exact_match
+1.2.6.2.3.6	Evocative_Music	N/A	no_mrconso_exact_match
+1.2.6.2.3.8	Dinner_Music_Intervention	N/A	no_mrconso_exact_match
+1.2.6.2.3.9	Active_Music_Therapy	N/A	no_mrconso_exact_match
+1.2.6.2.3.9.1	Interactive_Music_Therapy	N/A	no_mrconso_exact_match
+1.2.6.2.3.10	Music_Based_Imagery	Guided Imagery and Music	no_mrconso_exact_match
+1.2.6.2.3.11	Individualized_Music_Focused_Auditory_Therapy	N/A	no_mrconso_exact_match
+1.2.6.2.3.12	Lullaby_Therapy	N/A	no_mrconso_exact_match
+1.2.6.2.3.13	Music_Reinforced_Therapy	N/A	no_mrconso_exact_match
+1.2.6.2.3.14	Instructional_Music_Therapy	N/A	no_mrconso_exact_match
+1.2.6.2.3.15	Improvisational_Music_Therapy	N/A	no_mrconso_exact_match
+1.2.6.2.3.16	Group_Chanting_and_Singing	N/A	no_mrconso_exact_match
+1.2.6.2.3.17	Music_Listening_Intervention	N/A	no_mrconso_exact_match
+1.2.6.2.3.18	Musicokinetic_Therapy	N/A	no_mrconso_exact_match
+1.2.6.2.3.19	Calming_Music_Therapy	N/A	no_mrconso_exact_match
+1.2.6.2.3.20	Live_Music_Therapy	N/A	no_mrconso_exact_match
+1.2.6.2.3.21	Group_Drumming	N/A	no_mrconso_exact_match
+1.2.6.2.3.22	Contingent_Music	N/A	no_mrconso_exact_match
+1.2.6.2.3.23	Music_Video_Therapy	N/A	no_mrconso_exact_match
+1.2.6.2.3.24	Music_Exposure_Therapy	N/A	no_mrconso_exact_match
+1.2.6.2.3.25	Music_Assisted_Reframing	N/A	no_mrconso_exact_match
+1.2.6.2.3.26	Karaoke_Therapy	N/A	no_mrconso_exact_match
+1.2.6.2.4.2	Lymphatic_Reflexology	N/A	no_mrconso_exact_match
+1.2.6.2.4.3	Foot_Reflexology	N/A	no_mrconso_exact_match
+1.2.6.2.4.4	Hand_Reflexology	N/A	no_mrconso_exact_match
+1.2.6.2.5.1	Abbreviated_Muscle_Relaxation_Therapy	N/A	no_mrconso_exact_match
+1.2.6.2.5.2	Music_Assisted_Progressive_Muscle_Relaxation	N/A	no_mrconso_exact_match
+1.2.6.2.6	Applied_Relaxation	N/A	no_mrconso_exact_match
+1.2.6.3.3	Heart_Rate_Variability_Biofeedback	HRV Biofeedback	no_mrconso_exact_match
+1.2.6.3.3.1	Heart_Coherence	N/A	no_mrconso_exact_match
+1.2.6.3.4	Electromyography_Biofeedback	EMG Biofeedback	no_mrconso_exact_match
+1.2.6.3.6	Assisted_Biofeedback	N/A	no_mrconso_exact_match
+1.2.6.4.1	Meditative_Movement	N/A	no_mrconso_exact_match
+1.2.6.4.1.3.2	Kundalini_Yoga	Yoga of Awareness|Kundalini|Coiled Yoga	no_mrconso_exact_match
+1.2.6.4.1.3.4	Circular_Yoga	N/A	no_mrconso_exact_match
+1.2.6.4.1.3.5	Face_Yoga	N/A	no_mrconso_exact_match
+1.2.6.4.1.3.6	Pranayama_Yoga	N/A	no_mrconso_exact_match
+1.2.6.4.1.3.7	Sudarshana_Kriya_Yoga	N/A	no_mrconso_exact_match
+1.2.6.4.1.3.8	Kripalu_Yoga	N/A	no_mrconso_exact_match
+1.2.6.4.1.3.9	Hot_Yoga	N/A	no_mrconso_exact_match
+1.2.6.4.1.3.9.1	Bikram_Yoga	Bikram	no_mrconso_exact_match
+1.2.6.4.1.3.10	Ashtanga_Yoga	Ashtanga	no_mrconso_exact_match
+1.2.6.4.1.3.11	Tibetan_Yoga	N/A	no_mrconso_exact_match
+1.2.6.4.1.3.12	Chair_Yoga	N/A	no_mrconso_exact_match
+1.2.6.4.1.3.13	Sivananda_Yoga	N/A	no_mrconso_exact_match
+1.2.6.4.1.3.14	Bhakti_Yoga	Bhakti	no_mrconso_exact_match
+1.2.6.4.1.3.15	Tantra_Yoga	N/A	no_mrconso_exact_match
+1.2.6.4.1.3.16	Vinyasa_Yoga	N/A	no_mrconso_exact_match
+1.2.6.4.1.3.17	Creative_Yoga	N/A	no_mrconso_exact_match
+1.2.6.4.1.3.18	Relaxing_Yoga	N/A	no_mrconso_exact_match
+1.2.6.4.1.3.19	Power_Yoga	N/A	no_mrconso_exact_match
+1.2.6.4.1.3.20	Iyengar_Yoga	Iyengar|yoga Iyengar	no_mrconso_exact_match
+1.2.6.4.1.3.21	Karma_Yoga	Karma	no_mrconso_exact_match
+1.2.6.4.1.3.22	Jinana_Yoga	N/A	no_mrconso_exact_match
+1.2.6.4.1.3.23	Sahaj_Yoga	N/A	no_mrconso_exact_match
+1.2.6.4.1.3.24	Hatha_Yoga	Hatha	no_mrconso_exact_match
+1.2.6.4.1.3.25	Yoga_Nidra	N/A	no_mrconso_exact_match
+1.2.6.4.1.4.1	Hua_Gong	N/A	no_mrconso_exact_match
+1.2.6.4.1.4.2	Medical_Qigong	N/A	no_mrconso_exact_match
+1.2.6.4.1.4.2.2	Dongeui_Qigong	N/A	no_mrconso_exact_match
+1.2.6.4.1.4.2.3	Guolin_Qigong	Guolin	no_mrconso_exact_match
+1.2.6.4.1.4.2.4	Qigong_Healer	N/A	no_mrconso_exact_match
+1.2.6.4.1.4.3	Chan_Mi_Gong	N/A	no_mrconso_exact_match
+1.2.6.4.1.4.4	Yi_Jia_Gong	N/A	no_mrconso_exact_match
+1.2.6.4.1.4.5	Biyun_Qi_Gong	N/A	no_mrconso_exact_match
+1.2.6.4.1.4.6	Daoyin_Qi_Gong	N/A	no_mrconso_exact_match
+1.2.6.4.1.4.7	Qi_Gong_Yangsheng	N/A	no_mrconso_exact_match
+1.2.6.4.1.4.8	Baduanjin_Qi_Gong	Eight-Section Brocades Qi Gong|Baduanjin	no_mrconso_exact_match
+1.2.6.4.1.4.9	Five_Animals_Qi_Gong	N/A	no_mrconso_exact_match
+1.2.6.4.4	Motor_Control_Exercise	N/A	no_mrconso_exact_match
+1.2.6.4.5.1	Face_Yoga		no_mrconso_exact_match
+1.2.6.4.5.2	Facial_Resistance_Training	N/A	no_mrconso_exact_match
+1.2.6.4.5.3	Face_Shaping	N/A	no_mrconso_exact_match
+1.2.6.4.6	Guided_Physical_Activity	N/A	no_mrconso_exact_match
+1.2.6.5	Movement_Education	N/A	no_mrconso_exact_match
+1.2.6.5.1.1	Alexander_Proprioception	N/A	no_mrconso_exact_match
+1.2.6.6	Art_of_Living	Art of Living Foundation|Art of Living(AOL)|Art of Living Foundation(AOLF)	no_mrconso_exact_match
+1.2.6.7	Eurythmy	N/A	no_mrconso_exact_match
+1.2.6.8	Feldenkrais_Method	Feldenkrais Bodywork|Gestalt Synergy|Awareness Through Movement	no_mrconso_exact_match
+1.2.6.8.1	Functional_Integration	N/A	no_mrconso_exact_match
+1.2.6.9	Flotation_Therapy	N/A	no_mrconso_exact_match
+1.2.6.10	Sophrology	N/A	no_mrconso_exact_match
+1.2.8.1	Putative_Energy_Therapy	N/A	no_mrconso_exact_match
+1.2.8.1.2	Qigong_Therapy		no_mrconso_exact_match
+1.2.8.1.2.1	Hua_Gong		no_mrconso_exact_match
+1.2.8.1.2.2	Medical_Qigong		no_mrconso_exact_match
+1.2.8.1.2.2.1	External_Qi_Gong_Therapy		no_mrconso_exact_match
+1.2.8.1.2.2.2	Dongeui_Qigong		no_mrconso_exact_match
+1.2.8.1.2.2.3	Guolin_Qigong		no_mrconso_exact_match
+1.2.8.1.2.2.4	Qigong_Healer		no_mrconso_exact_match
+1.2.8.1.2.3	Chan_Mi_Gong		no_mrconso_exact_match
+1.2.8.1.2.4	Yi_Jia_Gong		no_mrconso_exact_match
+1.2.8.1.2.5	Biyun_Qi_Gong		no_mrconso_exact_match
+1.2.8.1.2.6	Daoyin_Qi_Gong		no_mrconso_exact_match
+1.2.8.1.2.7	Qi_Gong_Yangsheng		no_mrconso_exact_match
+1.2.8.1.2.8	Baduanjin_Qi_Gong		no_mrconso_exact_match
+1.2.8.1.2.9	Five_Animals_Qi_Gong		no_mrconso_exact_match
+1.2.8.1.3.1.1	Japanese_Reiki	N/A	no_mrconso_exact_match
+1.2.8.1.3.1.2	Buddhist_Reiki	N/A	no_mrconso_exact_match
+1.2.8.1.4.1	Aura_Soma_Therapy	N/A	no_mrconso_exact_match
+1.2.8.1.5.1	Electrocrystal_Therapy	N/A	no_mrconso_exact_match
+1.2.8.1.5.2	Gemstone_Therapy	Gem Therapy	no_mrconso_exact_match
+1.2.8.1.6	Chakra_Balancing	N/A	no_mrconso_exact_match
+1.2.8.1.8	Radionics	N/A	no_mrconso_exact_match
+1.2.8.2	Veritable_Energy_Therapy	N/A	no_mrconso_exact_match
+1.2.8.2.3.1.1	Static_Magnet_Therapy	N/A	no_mrconso_exact_match
+1.2.8.2.3.1.1.1	Biomagnetic_Therapy	N/A	no_mrconso_exact_match
+1.2.8.2.3.2	Electrical_Therapy	N/A	no_mrconso_exact_match
+1.2.8.2.4	Anodyne_Therapy	N/A	no_mrconso_exact_match
+1.2.8.2.5	Bioacoustics_Therapy	N/A	no_mrconso_exact_match
+1.2.8.2.6	Cellubike	N/A	no_mrconso_exact_match
+1.2.8.2.7.1.1	Bath_Puva	N/A	no_mrconso_exact_match
+1.2.8.2.7.2.1	Ocular_Light_Therapy	N/A	no_mrconso_exact_match
+1.2.8.2.7.3	Balneophototherapy	N/A	no_mrconso_exact_match
+1.2.8.2.7.3.1	Dead_Sea_Climatotherapy	N/A	no_mrconso_exact_match
+1.2.8.2.7.6	Fiber_Optic_Phototherapy	N/A	no_mrconso_exact_match
+1.2.8.2.7.7	Nontargeted_Light_Therapy	N/A	no_mrconso_exact_match
+1.2.8.2.7.8	Targeted_Light_Therapy	N/A	no_mrconso_exact_match
+1.2.8.2.7.9	Acu_Light_Therapy	N/A	no_mrconso_exact_match
+1.2.8.2.7.10	Esogetic_Colorpuncture	N/A	no_mrconso_exact_match
+1.2.8.2.7.11	Reprocessing_Light_Therapy	N/A	no_mrconso_exact_match
+1.2.12.1	Acu_Moxibustion		no_mrconso_exact_match
+1.2.12.1.1	Needle_Moxibustion		no_mrconso_exact_match
+1.2.12.1.1.1	Warm_Needle_Moxibustion		no_mrconso_exact_match
+1.2.12.2	Mild_Moxibustion	N/A	no_mrconso_exact_match
+1.2.12.2.1	Cake_Separated_Moxibustion	N/A	no_mrconso_exact_match
+1.2.12.2.1.1	Aconite_Cake_Separated_Moxibustion	N/A	no_mrconso_exact_match
+1.2.12.2.1.2	Angelica_Cake_Moxibustion	N/A	no_mrconso_exact_match
+1.2.12.2.1.3	Cake_Separated_Mild_Warm_Moxibustion	N/A	no_mrconso_exact_match
+1.2.12.2.1.3.1	Monkshood_Cake_Separated_Mild_Warm_Moxibustion	N/A	no_mrconso_exact_match
+1.2.12.3	Bird_Pecking_Moxibustion	Pecking Moxibustion|Sparrow-Pecking Moxibustion	no_mrconso_exact_match
+1.2.12.4	Cone_Moxibustion	Moxa-Cone Moxibustion	no_mrconso_exact_match
+1.2.12.4.1	Direct_Cone_Moxibustion	N/A	no_mrconso_exact_match
+1.2.12.5	Indirect_Moxibustion	N/A	no_mrconso_exact_match
+1.2.12.5.1	Suspended_Moxibustion	N/A	no_mrconso_exact_match
+1.2.12.5.1.1	Circling_Moxibustion	N/A	no_mrconso_exact_match
+1.2.12.5.1.2	Hand_Moxibustion	N/A	no_mrconso_exact_match
+1.2.12.5.1.3	Hanging_Moxibustion	N/A	no_mrconso_exact_match
+1.2.12.5.1.4	Dynamic_Moxibustion	Moving Moxibustion	no_mrconso_exact_match
+1.2.12.5.1.5	Heat_Sensitive_Moxibustion	N/A	no_mrconso_exact_match
+1.2.12.5.1.6	Electric_Heating_Moxibustion	N/A	no_mrconso_exact_match
+1.2.12.5.1.7	Electronic_Moxibustion	N/A	no_mrconso_exact_match
+1.2.12.5.1.8	Electrothermal_Bian_Stone_Moxibustion	N/A	no_mrconso_exact_match
+1.2.12.5.1.9	Laser_Moxibustion	N/A	no_mrconso_exact_match
+1.2.12.5.1.9.1	Infrared_Laser_Moxibustion	N/A	no_mrconso_exact_match
+1.2.12.5.1.10	Warming_Cup_Moxibustion	N/A	no_mrconso_exact_match
+1.2.12.5.1.11	Warming_Moxibustion	N/A	no_mrconso_exact_match
+1.2.12.5.2	Substance_Partitioned_Moxibustion	N/A	no_mrconso_exact_match
+1.2.12.5.2.1	Crude_Herb_Moxibustion	N/A	no_mrconso_exact_match
+1.2.12.5.2.2	Dogbi_	N/A	no_mrconso_exact_match
+1.2.12.5.2.3	Drug_Separated_Moxibustion	N/A	no_mrconso_exact_match
+1.2.12.5.2.4	Du_Moxibustion	N/A	no_mrconso_exact_match
+1.2.12.5.2.5	Garlic_Moxibustion	N/A	no_mrconso_exact_match
+1.2.12.5.2.6	Ginger_Indirect_Moxibustion	N/A	no_mrconso_exact_match
+1.2.12.5.2.7	Ginger_Partitioned_Moxibustion	Ginger-Separated Moxibustion	no_mrconso_exact_match
+1.2.12.5.2.8	Ginger_Salt_Partitioned_Moxibustion	N/A	no_mrconso_exact_match
+1.2.12.5.2.9	Herb_Cake_Seperated_Moxibustion	N/A	no_mrconso_exact_match
+1.2.12.5.2.10	Herb_Partitioned_Spread_Moxibustion	N/A	no_mrconso_exact_match
+1.2.12.5.2.11	Herbal_Moxa_Moxibustion	Isolated-Herbal Moxibustion	no_mrconso_exact_match
+1.2.12.5.2.12	Grain_Shaped_Moxibustion	N/A	no_mrconso_exact_match
+1.2.12.5.2.13	Cotton_Sheet_Moxibustion	N/A	no_mrconso_exact_match
+1.2.12.5.2.14	Thin_Cotton_Moxibustion	N/A	no_mrconso_exact_match
+1.2.12.5.2.15	Thunder_Fire_Moxibustion	N/A	no_mrconso_exact_match
+1.2.12.5.2.16	Tortoise_Shell_Moxibustion	N/A	no_mrconso_exact_match
+1.2.12.5.2.17	Partition_Bran_Moxibustion	N/A	no_mrconso_exact_match
+1.2.12.5.2.18	Partition_Herb_Moxibustion	N/A	no_mrconso_exact_match
+1.2.12.5.2.19	Isolated_Moxibustion	N/A	no_mrconso_exact_match
+1.2.12.5.3	Mild_Warm_Moxibustion	N/A	no_mrconso_exact_match
+1.2.12.5.4	Moxa_Stick_Moxibustion	N/A	no_mrconso_exact_match
+1.2.12.5.5	Governor_Moxibustion	N/A	no_mrconso_exact_match
+1.2.12.5.6	Fu_Yang_Moxibustion	N/A	no_mrconso_exact_match
+1.2.12.6	Snake_Moxibustion	Panlong Moxibustion	no_mrconso_exact_match
+1.2.12.6.1	Long_Snake_Moxibustion	N/A	no_mrconso_exact_match
+1.2.12.7	Medicated_Thread_Moxibustion	N/A	no_mrconso_exact_match
+1.2.12.7.1	Medicated_Threads_Moxibustion_of_Zhuang_Nationality	N/A	no_mrconso_exact_match
+1.2.12.8	Zhuang_Medicated_Thread_Moxibustion	N/A	no_mrconso_exact_match
+1.2.12.9	Rice_Sized_Direct_Moxa	N/A	no_mrconso_exact_match
+1.2.12.10	Solar_Term_Moxibustion	N/A	no_mrconso_exact_match
+1.2.15.1.2	Lymphatic_Reflexology		no_mrconso_exact_match
+1.2.15.1.3	Foot_Reflexology		no_mrconso_exact_match
+1.2.15.1.4	Hand_Reflexology		no_mrconso_exact_match
+1.2.15.1.5	Ear_Reflexology		no_mrconso_exact_match
+1.2.15.2.1	Wet_Cupping	Wet-Cupping	no_mrconso_exact_match
+1.2.15.2.1.1	Blood_Letting_Cupping	Bleeding Cupping	no_mrconso_exact_match
+1.2.15.2.2	Retained_Cupping	N/A	no_mrconso_exact_match
+1.2.15.2.3	Multiple_Cupping	N/A	no_mrconso_exact_match
+1.2.15.2.4	Dry_Cupping	N/A	no_mrconso_exact_match
+1.2.15.2.5	Needle_Cupping	N/A	no_mrconso_exact_match
+1.2.15.2.6	Water_Cupping	Shuiguanfa|Liquid Cupping	no_mrconso_exact_match
+1.2.15.2.7	Flash_Cupping	Momentary Cupping	no_mrconso_exact_match
+1.2.15.2.8	Fire_Cupping	Fire-Cupping	no_mrconso_exact_match
+1.2.15.2.9	Moving_Cupping	N/A	no_mrconso_exact_match
+1.2.15.2.10	Pulsating_Cupping	N/A	no_mrconso_exact_match
+1.2.15.5.1.2.1	Kinesiology_Muscle_Test	N/A	no_mrconso_exact_match
+1.2.15.5.3.2	Emmett_Technique	N/A	no_mrconso_exact_match
+1.2.15.5.3.6.1.5	Neuromuscular_Massage	Neuromuscular Therapy	no_mrconso_exact_match
+1.2.15.5.3.6.1.6	Trigger_Point_Massage	N/A	no_mrconso_exact_match
+1.2.15.5.3.6.1.7	Rhythmical_Massage	N/A	no_mrconso_exact_match
+1.2.15.5.3.6.1.8	Perineal_Massage	N/A	no_mrconso_exact_match
+1.2.15.5.3.6.1.12	Roll_Stretch_Massage	N/A	no_mrconso_exact_match
+1.2.15.5.3.6.1.13	Aston_Massage	N/A	no_mrconso_exact_match
+1.2.15.5.3.6.1.15	Skin_Rehabilitation_Massage_Therapy	N/A	no_mrconso_exact_match
+1.2.15.5.3.6.1.16	Integrative_Massage	N/A	no_mrconso_exact_match
+1.2.15.5.3.6.2.1	Chinese_Massage	N/A	no_mrconso_exact_match
+1.2.15.5.3.6.2.1.3	Qigong_Massage	N/A	no_mrconso_exact_match
+1.2.15.5.3.6.2.2	Anma	N/A	no_mrconso_exact_match
+1.2.15.5.3.6.2.3	Tibetan_Massage	N/A	no_mrconso_exact_match
+1.2.15.5.3.6.2.5.1	Namikoshi_Shiatsu	N/A	no_mrconso_exact_match
+1.2.15.5.3.6.2.5.2	Tao_Shiatsu	N/A	no_mrconso_exact_match
+1.2.15.5.3.6.2.5.3	Meridian_Shiatsu	N/A	no_mrconso_exact_match
+1.2.15.5.3.6.2.5.4	Quantum_Shiatsu	N/A	no_mrconso_exact_match
+1.2.15.5.3.6.2.5.5	Japanese_Shiatsu	N/A	no_mrconso_exact_match
+1.2.15.5.3.6.2.5.6	Ohashiatsu	N/A	no_mrconso_exact_match
+1.2.15.5.3.6.2.5.7	Zen_Shiatsu	N/A	no_mrconso_exact_match
+1.2.15.5.3.6.2.5.8	Tsubo_Shiatsu	N/A	no_mrconso_exact_match
+1.2.15.5.3.6.4	Foot_Massage	N/A	no_mrconso_exact_match
+1.2.15.5.3.6.4.1	Foot_Reflexion_Massage	N/A	no_mrconso_exact_match
+1.2.15.5.3.6.6.1	Abdominal_Meridian_Massage	N/A	no_mrconso_exact_match
+1.2.15.5.3.6.10	Marma_Massage_Therapy	N/A	no_mrconso_exact_match
+1.2.15.5.3.6.11	Lomilomi_Massage	N/A	no_mrconso_exact_match
+1.2.15.5.3.6.12	Esalen_Massage	N/A	no_mrconso_exact_match
+1.2.15.5.3.6.13	Oil_Massage	N/A	no_mrconso_exact_match
+1.2.15.5.3.6.14.1	Effleurage_Massage	N/A	no_mrconso_exact_match
+1.2.15.5.3.9	Trager_Therapy	Trager Psychophysical Integration	no_mrconso_exact_match
+1.2.15.5.3.10	Trigger_Point_Therapy	N/A	no_mrconso_exact_match
+1.2.15.5.3.10.1	Trigger_Point_Massage		no_mrconso_exact_match
+1.2.15.5.5	Neurocranial_Restructuring	N/A	no_mrconso_exact_match
+1.2.16	Spa_Therapy	N/A	no_mrconso_exact_match
+1.2.16.2.1.1	Aqua_Lymphatic_Therapy	N/A	no_mrconso_exact_match
+1.2.16.2.3	Thermal_Bath	Thermal baths	no_mrconso_exact_match
+1.2.16.2.4	Soak_in_Hot_Spring	soaks in hot springs	no_mrconso_exact_match
+1.2.19	Ear_Candle_Therapy	Ear Candling|Ear Candle Treatment|Ear Candle|Ear Coning|Chandelles Auriculaires|Auricular Candles|Thermal-Auricular Therapy	no_mrconso_exact_match
+1.2.20.1	Jaladhara_Therapy	Jaladhara	no_mrconso_exact_match
+1.2.20.2	Thyladhara_Therapy	Thyladhara	no_mrconso_exact_match
+1.2.20.3	Ksheeradhara_Therapy	Ksheeradhara	no_mrconso_exact_match
+1.2.20.4	Thakradhara_Therapy	Thakradhara	no_mrconso_exact_match
+1.2.22	Vibration_Therapy	Vibrotherapy|Vibration Medicine|Vibrational Therapy|Vibrational Medicine	no_mrconso_exact_match
+1.2.22.1.1	Focal_Muscle_Vibration	N/A	no_mrconso_exact_match
+1.2.22.2	Direct_Vibration	N/A	no_mrconso_exact_match
+1.2.22.3	Low_Frequency_Sound_Stimulation	N/A	no_mrconso_exact_match
+1.2.22.4	Vibroacoustic_Therapy	Physioacoustic Vibration	no_mrconso_exact_match
+1.2.22.5	Rhythmic_Sensory_Stimulation	N/A	no_mrconso_exact_match
+1.2.22.6	Sound_Vibrational_Therapy	Sound Wave Vibrational Therapy	no_mrconso_exact_match
+1.2.22.7	Vibration_Foam_Rolling	N/A	no_mrconso_exact_match
+1.2.22.8	Vibration_Healing	N/A	no_mrconso_exact_match
+1.2.22.9	Vibration_Training	N/A	no_mrconso_exact_match
+1.2.22.10.1	Whole_Body_Vibration_Exercise	N/A	no_mrconso_exact_match
+1.3.1	Mind		mrconso_exact_review_required
+1.3.1.1.1	Buteyko_Breathing_Technique		no_mrconso_exact_match
+1.3.1.2.1.1	Visual_Art_Therapy		no_mrconso_exact_match
+1.3.1.2.1.1.1	Pottery		no_mrconso_exact_match
+1.3.1.2.1.1.2	Chinese_Calligraphy_Therapy		no_mrconso_exact_match
+1.3.1.2.1.1.3	Clay_Art_Therapy		no_mrconso_exact_match
+1.3.1.2.1.1.4	Mandala_Therapy		no_mrconso_exact_match
+1.3.1.2.1.2	Creative_Art_Therapy		no_mrconso_exact_match
+1.3.1.2.1.2.1	Creative_Expression		no_mrconso_exact_match
+1.3.1.2.1.2.2	Artistic_Therapy_Painting		no_mrconso_exact_match
+1.3.1.2.1.3	Phenomenological_Art_Therapy		no_mrconso_exact_match
+1.3.1.2.1.4	Mindfulness_Based_Art_Therapy		no_mrconso_exact_match
+1.3.1.2.1.5	Psychodynamic_Group_Art_Therapy		no_mrconso_exact_match
+1.3.1.2.1.6	Anthroposophic_Art_Therapy		no_mrconso_exact_match
+1.3.1.2.3.1	Musical_Game		no_mrconso_exact_match
+1.3.1.2.3.2	Orff_Based_Music_Therapy		no_mrconso_exact_match
+1.3.1.2.3.3	Lyric_Analysis		no_mrconso_exact_match
+1.3.1.2.3.4	Medical_Resonance_Therapy_Music		no_mrconso_exact_match
+1.3.1.2.3.5	Musical_Motor_Feedback		no_mrconso_exact_match
+1.3.1.2.3.6	Evocative_Music		no_mrconso_exact_match
+1.3.1.2.3.7	Raga_Therapy		no_mrconso_exact_match
+1.3.1.2.3.8	Dinner_Music_Intervention		no_mrconso_exact_match
+1.3.1.2.3.9	Active_Music_Therapy		no_mrconso_exact_match
+1.3.1.2.3.9.1	Interactive_Music_Therapy		no_mrconso_exact_match
+1.3.1.2.3.10	Music_Based_Imagery		no_mrconso_exact_match
+1.3.1.2.3.11	Individualized_Music_Focused_Auditory_Therapy		no_mrconso_exact_match
+1.3.1.2.3.12	Lullaby_Therapy		no_mrconso_exact_match
+1.3.1.2.3.13	Music_Reinforced_Therapy		no_mrconso_exact_match
+1.3.1.2.3.14	Instructional_Music_Therapy		no_mrconso_exact_match
+1.3.1.2.3.15	Improvisational_Music_Therapy		no_mrconso_exact_match
+1.3.1.2.3.16	Group_Chanting_and_Singing		no_mrconso_exact_match
+1.3.1.2.3.17	Music_Listening_Intervention		no_mrconso_exact_match
+1.3.1.2.3.18	Musicokinetic_Therapy		no_mrconso_exact_match
+1.3.1.2.3.19	Calming_Music_Therapy		no_mrconso_exact_match
+1.3.1.2.3.20	Live_Music_Therapy		no_mrconso_exact_match
+1.3.1.2.3.21	Group_Drumming		no_mrconso_exact_match
+1.3.1.2.3.22	Contingent_Music		no_mrconso_exact_match
+1.3.1.2.3.23	Music_Video_Therapy		no_mrconso_exact_match
+1.3.1.2.3.24	Music_Exposure_Therapy		no_mrconso_exact_match
+1.3.1.2.3.25	Music_Assisted_Reframing		no_mrconso_exact_match
+1.3.1.2.3.26	Karaoke_Therapy		no_mrconso_exact_match
+1.3.1.2.4.2	Lymphatic_Reflexology		no_mrconso_exact_match
+1.3.1.2.4.3	Foot_Reflexology		no_mrconso_exact_match
+1.3.1.2.4.4	Hand_Reflexology		no_mrconso_exact_match
+1.3.1.2.4.5	Ear_Reflexology		no_mrconso_exact_match
+1.3.1.2.5.1	Abbreviated_Muscle_Relaxation_Therapy		no_mrconso_exact_match
+1.3.1.2.5.2	Music_Assisted_Progressive_Muscle_Relaxation		no_mrconso_exact_match
+1.3.1.2.6	Applied_Relaxation		no_mrconso_exact_match
+1.3.1.3.3	Heart_Rate_Variability_Biofeedback		no_mrconso_exact_match
+1.3.1.3.3.1	Heart_Coherence		no_mrconso_exact_match
+1.3.1.3.4	Electromyography_Biofeedback		no_mrconso_exact_match
+1.3.1.3.5	Electroencephalogram_Biofeedback		no_mrconso_exact_match
+1.3.1.3.6	Assisted_Biofeedback		no_mrconso_exact_match
+1.3.1.4.1	Meditative_Movement		no_mrconso_exact_match
+1.3.1.4.1.1	Pilates_Based_Exercise		no_mrconso_exact_match
+1.3.1.4.1.3.2	Kundalini_Yoga		no_mrconso_exact_match
+1.3.1.4.1.3.3	Raja_Yoga		no_mrconso_exact_match
+1.3.1.4.1.3.4	Circular_Yoga		no_mrconso_exact_match
+1.3.1.4.1.3.5	Face_Yoga		no_mrconso_exact_match
+1.3.1.4.1.3.6	Pranayama_Yoga		no_mrconso_exact_match
+1.3.1.4.1.3.7	Sudarshana_Kriya_Yoga		no_mrconso_exact_match
+1.3.1.4.1.3.8	Kripalu_Yoga		no_mrconso_exact_match
+1.3.1.4.1.3.9	Hot_Yoga		no_mrconso_exact_match
+1.3.1.4.1.3.9.1	Bikram_Yoga		no_mrconso_exact_match
+1.3.1.4.1.3.10	Ashtanga_Yoga		no_mrconso_exact_match
+1.3.1.4.1.3.11	Tibetan_Yoga		no_mrconso_exact_match
+1.3.1.4.1.3.12	Chair_Yoga		no_mrconso_exact_match
+1.3.1.4.1.3.13	Sivananda_Yoga		no_mrconso_exact_match
+1.3.1.4.1.3.14	Bhakti_Yoga		no_mrconso_exact_match
+1.3.1.4.1.3.15	Tantra_Yoga		no_mrconso_exact_match
+1.3.1.4.1.3.16	Vinyasa_Yoga		no_mrconso_exact_match
+1.3.1.4.1.3.17	Creative_Yoga		no_mrconso_exact_match
+1.3.1.4.1.3.18	Relaxing_Yoga		no_mrconso_exact_match
+1.3.1.4.1.3.19	Power_Yoga		no_mrconso_exact_match
+1.3.1.4.1.3.20	Iyengar_Yoga		no_mrconso_exact_match
+1.3.1.4.1.3.21	Karma_Yoga		no_mrconso_exact_match
+1.3.1.4.1.3.22	Jinana_Yoga		no_mrconso_exact_match
+1.3.1.4.1.3.23	Sahaj_Yoga		no_mrconso_exact_match
+1.3.1.4.1.3.24	Hatha_Yoga		no_mrconso_exact_match
+1.3.1.4.1.3.25	Yoga_Nidra		no_mrconso_exact_match
+1.3.1.4.1.4	Qigong_Therapy		no_mrconso_exact_match
+1.3.1.4.1.4.1	Hua_Gong		no_mrconso_exact_match
+1.3.1.4.1.4.2	Medical_Qigong		no_mrconso_exact_match
+1.3.1.4.1.4.2.1	External_Qi_Gong_Therapy		no_mrconso_exact_match
+1.3.1.4.1.4.2.2	Dongeui_Qigong		no_mrconso_exact_match
+1.3.1.4.1.4.2.3	Guolin_Qigong		no_mrconso_exact_match
+1.3.1.4.1.4.2.4	Qigong_Healer		no_mrconso_exact_match
+1.3.1.4.1.4.3	Chan_Mi_Gong		no_mrconso_exact_match
+1.3.1.4.1.4.4	Yi_Jia_Gong		no_mrconso_exact_match
+1.3.1.4.1.4.5	Biyun_Qi_Gong		no_mrconso_exact_match
+1.3.1.4.1.4.6	Daoyin_Qi_Gong		no_mrconso_exact_match
+1.3.1.4.1.4.7	Qi_Gong_Yangsheng		no_mrconso_exact_match
+1.3.1.4.1.4.8	Baduanjin_Qi_Gong		no_mrconso_exact_match
+1.3.1.4.1.4.9	Five_Animals_Qi_Gong		no_mrconso_exact_match
+1.3.1.4.3	Aikido		mrconso_exact_review_required
+1.3.1.4.4	Motor_Control_Exercise		no_mrconso_exact_match
+1.3.1.4.5	Facial_Exercise		no_mrconso_exact_match
+1.3.1.4.5.1	Face_Yoga		no_mrconso_exact_match
+1.3.1.4.5.2	Facial_Resistance_Training		no_mrconso_exact_match
+1.3.1.4.5.3	Face_Shaping		no_mrconso_exact_match
+1.3.1.4.6	Guided_Physical_Activity		no_mrconso_exact_match
+1.3.1.5	Movement_Education		no_mrconso_exact_match
+1.3.1.5.1.1	Alexander_Proprioception		no_mrconso_exact_match
+1.3.1.5.2	Aston_Patterning		no_mrconso_exact_match
+1.3.1.6	Art_of_Living		no_mrconso_exact_match
+1.3.1.7	Eurythmy		no_mrconso_exact_match
+1.3.1.8	Feldenkrais_Method		no_mrconso_exact_match
+1.3.1.8.1	Functional_Integration		no_mrconso_exact_match
+1.3.1.9	Flotation_Therapy		no_mrconso_exact_match
+1.3.1.10	Sophrology		no_mrconso_exact_match
+1.3.2.1.1	Horse_Riding_Therapy	N/A	no_mrconso_exact_match
+1.3.2.1.1.1	Psychoeducational_Horseback_Riding	N/A	no_mrconso_exact_match
+1.3.2.1.1.3	Therapeutic_Horseback_Riding	N/A	no_mrconso_exact_match
+1.3.2.2	Animal_Companionship	N/A	no_mrconso_exact_match
+1.3.2.4	Dolphin_Assisted_Therapy	N/A	no_mrconso_exact_match
+1.3.2.5	Canine_Visitation_Therapy	Canine Visitation Therapy (CVT)	no_mrconso_exact_match
+1.3.2.6	Companion_Animal_Therapy	N/A	no_mrconso_exact_match
+1.3.2.7	Dog_Assisted_Therapy	Canine Therapy	no_mrconso_exact_match
+1.3.2.7.1	Canine_Assisted_Ambulation	N/A	no_mrconso_exact_match
+1.3.2.8	Animals_in_Human_Therapy	N/A	no_mrconso_exact_match
+1.3.4.1.1	Aura_Soma_Therapy		no_mrconso_exact_match
+1.3.4.3.1	Scent_Therapy	N/A	no_mrconso_exact_match
+1.3.4.5	Expressive_Therapy	Creative Arts Therapies|expressive therapies	no_mrconso_exact_match
+1.3.4.5.1.1	Visual_Art_Therapy		no_mrconso_exact_match
+1.3.4.5.1.1.1	Pottery		no_mrconso_exact_match
+1.3.4.5.1.1.2	Chinese_Calligraphy_Therapy		no_mrconso_exact_match
+1.3.4.5.1.1.3	Clay_Art_Therapy		no_mrconso_exact_match
+1.3.4.5.1.1.4	Mandala_Therapy		no_mrconso_exact_match
+1.3.4.5.1.2	Creative_Art_Therapy		no_mrconso_exact_match
+1.3.4.5.1.2.1	Creative_Expression		no_mrconso_exact_match
+1.3.4.5.1.2.2	Artistic_Therapy_Painting		no_mrconso_exact_match
+1.3.4.5.1.3	Phenomenological_Art_Therapy		no_mrconso_exact_match
+1.3.4.5.1.4	Mindfulness_Based_Art_Therapy		no_mrconso_exact_match
+1.3.4.5.1.5	Psychodynamic_Group_Art_Therapy		no_mrconso_exact_match
+1.3.4.5.1.6	Anthroposophic_Art_Therapy		no_mrconso_exact_match
+1.3.4.5.2.1	Musical_Game		no_mrconso_exact_match
+1.3.4.5.2.2	Orff_Based_Music_Therapy		no_mrconso_exact_match
+1.3.4.5.2.3	Lyric_Analysis		no_mrconso_exact_match
+1.3.4.5.2.4	Medical_Resonance_Therapy_Music		no_mrconso_exact_match
+1.3.4.5.2.5	Musical_Motor_Feedback		no_mrconso_exact_match
+1.3.4.5.2.6	Evocative_Music		no_mrconso_exact_match
+1.3.4.5.2.7	Raga_Therapy		no_mrconso_exact_match
+1.3.4.5.2.8	Dinner_Music_Intervention		no_mrconso_exact_match
+1.3.4.5.2.9	Active_Music_Therapy		no_mrconso_exact_match
+1.3.4.5.2.9.1	Interactive_Music_Therapy		no_mrconso_exact_match
+1.3.4.5.2.10	Music_Based_Imagery		no_mrconso_exact_match
+1.3.4.5.2.11	Individualized_Music_Focused_Auditory_Therapy		no_mrconso_exact_match
+1.3.4.5.2.12	Lullaby_Therapy		no_mrconso_exact_match
+1.3.4.5.2.13	Music_Reinforced_Therapy		no_mrconso_exact_match
+1.3.4.5.2.14	Instructional_Music_Therapy		no_mrconso_exact_match
+1.3.4.5.2.15	Improvisational_Music_Therapy		no_mrconso_exact_match
+1.3.4.5.2.16	Group_Chanting_and_Singing		no_mrconso_exact_match
+1.3.4.5.2.17	Music_Listening_Intervention		no_mrconso_exact_match
+1.3.4.5.2.18	Musicokinetic_Therapy		no_mrconso_exact_match
+1.3.4.5.2.19	Calming_Music_Therapy		no_mrconso_exact_match
+1.3.4.5.2.20	Live_Music_Therapy		no_mrconso_exact_match
+1.3.4.5.2.21	Group_Drumming		no_mrconso_exact_match
+1.3.4.5.2.22	Contingent_Music		no_mrconso_exact_match
+1.3.4.5.2.23	Music_Video_Therapy		no_mrconso_exact_match
+1.3.4.5.2.24	Music_Exposure_Therapy		no_mrconso_exact_match
+1.3.4.5.2.25	Music_Assisted_Reframing		no_mrconso_exact_match
+1.3.4.5.2.26	Karaoke_Therapy		no_mrconso_exact_match
+1.3.5.2.2	Post_Hypnotic_Suggestion	N/A	no_mrconso_exact_match
+1.3.5.3	Hypnoanalgesia	N/A	no_mrconso_exact_match
+1.3.5.5.1	Antenatal_Self_Hypnosis	N/A	no_mrconso_exact_match
+1.3.5.6	Cognitive_Hypnotherapy	N/A	no_mrconso_exact_match
+1.3.6.1	Relaxation_Mental_Imagery	N/A	no_mrconso_exact_match
+1.3.7.2.1	Native_American_Faith_Healing	N/A	no_mrconso_exact_match
+1.3.7.4.1	Concentrative_Meditation	N/A	no_mrconso_exact_match
+1.3.7.4.1.1	Mantra_Meditation	N/A	no_mrconso_exact_match
+1.3.7.4.1.2	Zen_Meditation	N/A	no_mrconso_exact_match
+1.3.7.4.1.3	Breath_Medication	N/A	no_mrconso_exact_match
+1.3.7.4.1.4	Guided_Medication	N/A	no_mrconso_exact_match
+1.3.7.4.2.1	Mindful_Eating		no_mrconso_exact_match
+1.3.7.4.2.2	Mindfulness_Based_Art_Therapy		no_mrconso_exact_match
+1.3.7.4.2.3	Body_Scanning_Meditation	N/A	no_mrconso_exact_match
+1.3.7.4.2.4	Mindfulness_Based_Stress_Reduction_Meditation	MBSR meditation	no_mrconso_exact_match
+1.3.7.4.2.4.1	Cognitive_Behavioral_and_Mindfulness_Based_Stress_Reduction	N/A	no_mrconso_exact_match
+1.3.7.4.2.5	Walking_Medication	N/A	no_mrconso_exact_match
+1.3.7.4.2.6	Mindfulness_Based_Relapse_Prevention	MBRP	no_mrconso_exact_match
+1.3.7.4.2.7	Adapted_Mindfulness_Based_Intervention	N/A	no_mrconso_exact_match
+1.3.7.4.2.8	Mindfulness_and_Acceptance_Based_Group_Therapy	N/A	no_mrconso_exact_match
+1.3.7.4.2.9	Mindfulness_Awareness_Practice	N/A	no_mrconso_exact_match
+1.3.7.4.2.11	Mindfulness_Based_Alzheimer_Stimulation	N/A	no_mrconso_exact_match
+1.3.7.4.2.12	Mindfulness_Based_Exposure_Therapy	N/A	no_mrconso_exact_match
+1.3.7.4.2.14	Mindfulness_Based_Resilience_Training	MBRT	no_mrconso_exact_match
+1.3.7.4.2.15	Mindfulness_Based_Blood_Pressure_Reduction	MB-College	no_mrconso_exact_match
+1.3.7.4.2.16	Mindfulness_Based_College	MSC	mrconso_exact_review_required
+1.3.7.4.2.17	Mindful_Self_Compassiion	N/A	no_mrconso_exact_match
+1.3.7.4.2.18	Mindfulness_Performance_Enhanncement_Awareness_and_Knowledge	mPEAK	no_mrconso_exact_match
+1.3.7.4.3	Vipassana_Meditation	N/A	no_mrconso_exact_match
+1.3.7.4.4	Analytical_Meditation	N/A	no_mrconso_exact_match
+1.3.7.4.5	Theravada_Meditation	N/A	no_mrconso_exact_match
+1.3.7.4.6	Heartfulness_Meditation	N/A	no_mrconso_exact_match
+1.3.7.4.7	Compassion_Based_Meditation	N/A	no_mrconso_exact_match
+1.3.7.4.8	Loving_Kindness_Meditation	N/A	no_mrconso_exact_match
+1.3.7.7	Shamanic_Healing	Shamanic medicine	no_mrconso_exact_match
+1.3.7.9	Noetic_Therapy	N/A	no_mrconso_exact_match
+1.3.7.10	Divining	N/A	no_mrconso_exact_match
+1.3.7.12	Sound_Healing	N/A	no_mrconso_exact_match
+1.3.8.2.1	Scent_Therapy		no_mrconso_exact_match
+1.3.8.3	Mindfulness_Based_Stress_Reduction_Meditation		no_mrconso_exact_match
+1.3.8.3.1	Cognitive_Behavioral_and_Mindfulness_Based_Stress_Reduction		no_mrconso_exact_match
+1.3.10.3	Body_Psychotherapy	Body-Oriented Psychotherapy	no_mrconso_exact_match
+1.3.10.4.3	Biographical_Counseling	N/A	no_mrconso_exact_match
+1.3.10.9	Positive_Self_Talk	N/A	no_mrconso_exact_match
+1.3.10.10	Psychotherapy_Incorporating_Mindfulness	N/A	no_mrconso_exact_match
+1.3.10.11	Psychotherapy_Incorporating_Spirituality	N/A	no_mrconso_exact_match
+1.3.11	Thought_Field_Therapy	N/A	no_mrconso_exact_match
+1.3.13.1	Attentional_Focus	N/A	no_mrconso_exact_match
+1.3.13.2	Interactive_Focusing_Therapy	N/A	no_mrconso_exact_match
+1.3.13.3	Body_State_Focusing	N/A	no_mrconso_exact_match
+1.3.13.4	Attentional_Focus_and_Symptom_Management_Intervention	N/A	no_mrconso_exact_match
+1.3.13.5	Internal_Focusing	N/A	no_mrconso_exact_match
+1.3.13.6	Focus_on_Love_and_Gratitude	N/A	no_mrconso_exact_match
+1.3.13.7	External_Focusing	N/A	no_mrconso_exact_match
+1.3.13.8	Interoceptive_Awareness	N/A	no_mrconso_exact_match
+1.3.13.9	Mindful_Awareness_in_Body_Oriented_Therapy	N/A	no_mrconso_exact_match
+1.3.15	Environmental_Therapy	N/A	no_mrconso_exact_match
+1.3.18	Sound_Therapy	N/A	no_mrconso_exact_match
+2.2.2.10	Tea	N/A	mrconso_exact_review_required
+2.2.2.12	Licorice_Root	licorice|liquorice|Chinese licorice|gan zao|gan cao|sweet root	mrconso_exact_review_required
+2.2.2.26	Chamomile	German chamomile	mrconso_exact_review_required
+2.2.2.27	Chasteberry	chaste tree|monk's pepper|vitex	mrconso_exact_review_required
+2.2.2.28	Echinacea	American coneflower|purple coneflower|coneflower	mrconso_exact_review_required
+2.2.2.35	Sage	true sage|garden sage|common sage	mrconso_exact_review_required
+2.2.2.36	St	hypericum|Klamath weed|goatweed	mrconso_exact_review_required
+2.2.2.37	Valerian	garden heliotrope|all-heal	mrconso_exact_review_required
+2.2.2.38	Cat	N/A	mrconso_exact_review_required
+3.4.4	Traditional_Indian_Medicine	N/A	no_mrconso_exact_match
+3.4.5.6	Traditional_Japanese_Medicine	Japanese traditional medicine	no_mrconso_exact_match

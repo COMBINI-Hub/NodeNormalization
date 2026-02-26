@@ -1,0 +1,16 @@
+input_curie	preferred_identifier	preferred_label	confidence	method	combo_concept_id	combo_label	source_identifier	evidence
+COMBO:2.2.2.2	MESH:C000713447	Asian ginseng	0.95	mrconso_review_rule_botanical	2.2.2.2	Asian_Ginseng	COMBO:2.2.2.2	mrconso_review_rule_botanical:mesh_score=1.000:margin=0.500
+COMBO:2.2.2.6	MESH:D031205	Dandelion	0.95	mrconso_review_rule_botanical	2.2.2.6	Dandelion	COMBO:2.2.2.6	mrconso_review_rule_botanical:mesh_score=1.000:margin=1.000
+COMBO:2.2.2.7	MESH:D029789	Ephedra	0.95	mrconso_review_rule_botanical	2.2.2.7	Ephedra	COMBO:2.2.2.7	mrconso_review_rule_botanical:mesh_score=1.000:margin=1.000
+COMBO:2.2.2.8	MESH:D020939	Ginger	0.95	mrconso_review_rule_botanical	2.2.2.8	Ginger	COMBO:2.2.2.8	mrconso_review_rule_botanical:mesh_score=1.000:margin=1.000
+COMBO:2.2.2.9	MESH:D020441	Ginkgo	0.95	mrconso_review_rule_botanical	2.2.2.9	Ginkgo	COMBO:2.2.2.9	mrconso_review_rule_botanical:mesh_score=1.000:margin=1.000
+COMBO:2.2.2.14	MESH:D019306	Mugwort	0.95	mrconso_review_rule_botanical	2.2.2.14	Mugwort	COMBO:2.2.2.14	mrconso_review_rule_botanical:mesh_score=1.000:margin=1.000
+COMBO:2.2.2.20	MESH:D000504	Aloe vera	0.9	mrconso_review_rule	2.2.2.20	Aloe_Vera	COMBO:2.2.2.20	mrconso_review_rule:MSH:label:Aloe_Vera
+COMBO:2.2.2.22	MESH:D002188	Marijuana	0.9	mrconso_review_rule	2.2.2.22	Marijuana	COMBO:2.2.2.22	mrconso_review_rule:MSH:label:Marijuana
+COMBO:2.2.2.23	MESH:D029800	Bilberry	0.9	mrconso_review_rule	2.2.2.23	Bilberry	COMBO:2.2.2.23	mrconso_review_rule:MSH:label:Bilberry
+COMBO:2.2.2.24	MESH:D031885	Black Cohosh	0.95	mrconso_review_rule_botanical	2.2.2.24	Black_Cohosh	COMBO:2.2.2.24	mrconso_review_rule_botanical:mesh_score=1.000:margin=1.000
+COMBO:2.2.2.31	MESH:D005737	Garlic	0.95	mrconso_review_rule_botanical	2.2.2.31	Garlic	COMBO:2.2.2.31	mrconso_review_rule_botanical:mesh_score=1.000:margin=1.000
+COMBO:2.2.2.42	MESH:D020901	Kava Kava	0.95	mrconso_review_rule_botanical	2.2.2.42	Kava	COMBO:2.2.2.42	mrconso_review_rule_botanical:mesh_score=1.000:margin=1.000
+COMBO:2.2.2.43	MESH:D000068798	Hoodia	0.95	mrconso_review_rule_botanical	2.2.2.43	Hoodia	COMBO:2.2.2.43	mrconso_review_rule_botanical:mesh_score=1.000:margin=1.000
+COMBO:2.2.2.44	MESH:D032068	Yohimbe	0.95	mrconso_review_rule_botanical	2.2.2.44	Yohimbe	COMBO:2.2.2.44	mrconso_review_rule_botanical:mesh_score=1.000:margin=1.000
+COMBO:2.2.2.45	MESH:D032065	Kratom	0.95	mrconso_review_rule_botanical	2.2.2.45	Kratom	COMBO:2.2.2.45	mrconso_review_rule_botanical:mesh_score=1.000:margin=1.000

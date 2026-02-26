@@ -1,0 +1,3 @@
+input_curie	preferred_identifier	preferred_label	confidence	method	mapping_relation	combo_concept_id	combo_label	source_identifier	evidence
+COMBO:1.2.12.7.1	UMLS:C0026652	Moxibustion	0.7	modifier_stripping_mapping	close_match	1.2.12.7.1	Medicated_Threads_Moxibustion_of_Zhuang_Nationality	COMBO:1.2.12.7.1	modifier_stripping:moxibustion
+COMBO:1.3.13.2	UMLS:C2981153	Focusing	0.7	modifier_stripping_mapping	close_match	1.3.13.2	Interactive_Focusing_Therapy	COMBO:1.3.13.2	modifier_stripping:focusing therapy

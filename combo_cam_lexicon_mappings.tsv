@@ -1,0 +1,72 @@
+input_curie	preferred_identifier	preferred_label	confidence	method	mapping_relation	combo_concept_id	combo_label	source_identifier	evidence
+COMBO:1.1.9	UMLS:C1882127	Nutritional Intervention	0.74	cam_lexicon_mapping	close_match	1.1.9	Mindful_Eating	COMBO:1.1.9	cam_lexicon:mindful eating:nutritional intervention:close_match
+COMBO:1.2.3.3	UMLS:C0752217	Auricular_Acupuncture	0.8	cam_lexicon_mapping	narrow_to_parent	1.2.3.3	Cryo_Auriculotherapy	COMBO:1.2.3.3	cam_lexicon:cryo auriculotherapy:auricular acupuncture:narrow_to_parent
+COMBO:1.2.4.1	UMLS:C0394664	Acupuncture	0.8	cam_lexicon_mapping	narrow_to_parent	1.2.4.1	Transcutaneous_Electrical_Acustimulation	COMBO:1.2.4.1	cam_lexicon:transcutaneous electrical acustimulation:acupuncture:narrow_to_parent
+COMBO:1.2.4.2	UMLS:C0394664	Acupuncture	0.8	cam_lexicon_mapping	narrow_to_parent	1.2.4.2	Acupoint_Stimulation	COMBO:1.2.4.2	cam_lexicon:acupoint stimulation:acupuncture:narrow_to_parent
+COMBO:1.2.6.2.1.2.1	UMLS:C0003827	Art_Therapy	0.74	cam_lexicon_mapping	close_match	1.2.6.2.1.2.1	Creative_Expression	COMBO:1.2.6.2.1.2.1	cam_lexicon:creative expression:art therapy:close_match
+COMBO:1.2.6.2.1.2.2	UMLS:C0003827	Art_Therapy	0.74	cam_lexicon_mapping	close_match	1.2.6.2.1.2.2	Artistic_Therapy_Painting	COMBO:1.2.6.2.1.2.2	cam_lexicon:artistic therapy painting:art therapy:close_match
+COMBO:1.2.6.2.3.3	UMLS:C0026868	Music_Therapy	0.74	cam_lexicon_mapping	close_match	1.2.6.2.3.3	Lyric_Analysis	COMBO:1.2.6.2.3.3	cam_lexicon:lyric analysis:music therapy:close_match
+COMBO:1.2.6.2.3.4	UMLS:C0026868	Music_Therapy	0.74	cam_lexicon_mapping	close_match	1.2.6.2.3.4	Medical_Resonance_Therapy_Music	COMBO:1.2.6.2.3.4	cam_lexicon:medical resonance therapy music:music therapy:close_match
+COMBO:1.2.6.2.3.5	UMLS:C0026868	Music_Therapy	0.74	cam_lexicon_mapping	close_match	1.2.6.2.3.5	Musical_Motor_Feedback	COMBO:1.2.6.2.3.5	cam_lexicon:musical motor feedback:music therapy:close_match
+COMBO:1.2.6.2.3.6	UMLS:C0026868	Music_Therapy	0.74	cam_lexicon_mapping	close_match	1.2.6.2.3.6	Evocative_Music	COMBO:1.2.6.2.3.6	cam_lexicon:evocative music:music therapy:close_match
+COMBO:1.2.6.2.3.8	UMLS:C0026868	Music_Therapy	0.74	cam_lexicon_mapping	close_match	1.2.6.2.3.8	Dinner_Music_Intervention	COMBO:1.2.6.2.3.8	cam_lexicon:dinner music intervention:music therapy:close_match
+COMBO:1.2.6.2.3.10	UMLS:C0026868	Music_Therapy	0.74	cam_lexicon_mapping	close_match	1.2.6.2.3.10	Music_Based_Imagery	COMBO:1.2.6.2.3.10	cam_lexicon:music based imagery:music therapy:close_match
+COMBO:1.2.6.2.3.11	UMLS:C0026868	Music_Therapy	0.74	cam_lexicon_mapping	close_match	1.2.6.2.3.11	Individualized_Music_Focused_Auditory_Therapy	COMBO:1.2.6.2.3.11	cam_lexicon:individualized music focused auditory therapy:music therapy:close_match
+COMBO:1.2.6.2.3.12	UMLS:C0026868	Music_Therapy	0.74	cam_lexicon_mapping	close_match	1.2.6.2.3.12	Lullaby_Therapy	COMBO:1.2.6.2.3.12	cam_lexicon:lullaby therapy:music therapy:close_match
+COMBO:1.2.6.2.3.13	UMLS:C0026868	Music_Therapy	0.74	cam_lexicon_mapping	close_match	1.2.6.2.3.13	Music_Reinforced_Therapy	COMBO:1.2.6.2.3.13	cam_lexicon:music reinforced therapy:music therapy:close_match
+COMBO:1.2.6.2.3.16	UMLS:C0026868	Music_Therapy	0.74	cam_lexicon_mapping	close_match	1.2.6.2.3.16	Group_Chanting_and_Singing	COMBO:1.2.6.2.3.16	cam_lexicon:group chanting and singing:music therapy:close_match
+COMBO:1.2.6.2.3.17	UMLS:C0026868	Music_Therapy	0.74	cam_lexicon_mapping	close_match	1.2.6.2.3.17	Music_Listening_Intervention	COMBO:1.2.6.2.3.17	cam_lexicon:music listening intervention:music therapy:close_match
+COMBO:1.2.6.2.3.18	UMLS:C0026868	Music_Therapy	0.74	cam_lexicon_mapping	close_match	1.2.6.2.3.18	Musicokinetic_Therapy	COMBO:1.2.6.2.3.18	cam_lexicon:musicokinetic therapy:music therapy:close_match
+COMBO:1.2.6.2.3.21	UMLS:C0026868	Music_Therapy	0.74	cam_lexicon_mapping	close_match	1.2.6.2.3.21	Group_Drumming	COMBO:1.2.6.2.3.21	cam_lexicon:group drumming:music therapy:close_match
+COMBO:1.2.6.2.3.22	UMLS:C0026868	Music_Therapy	0.74	cam_lexicon_mapping	close_match	1.2.6.2.3.22	Contingent_Music	COMBO:1.2.6.2.3.22	cam_lexicon:contingent music:music therapy:close_match
+COMBO:1.2.6.2.3.23	UMLS:C0026868	Music_Therapy	0.74	cam_lexicon_mapping	close_match	1.2.6.2.3.23	Music_Video_Therapy	COMBO:1.2.6.2.3.23	cam_lexicon:music video therapy:music therapy:close_match
+COMBO:1.2.6.2.3.24	UMLS:C0026868	Music_Therapy	0.74	cam_lexicon_mapping	close_match	1.2.6.2.3.24	Music_Exposure_Therapy	COMBO:1.2.6.2.3.24	cam_lexicon:music exposure therapy:music therapy:close_match
+COMBO:1.2.6.2.3.25	UMLS:C0026868	Music_Therapy	0.74	cam_lexicon_mapping	close_match	1.2.6.2.3.25	Music_Assisted_Reframing	COMBO:1.2.6.2.3.25	cam_lexicon:music assisted reframing:music therapy:close_match
+COMBO:1.2.6.2.3.26	UMLS:C0026868	Music_Therapy	0.74	cam_lexicon_mapping	close_match	1.2.6.2.3.26	Karaoke_Therapy	COMBO:1.2.6.2.3.26	cam_lexicon:karaoke therapy:music therapy:close_match
+COMBO:1.2.6.2.5.2	UMLS:C0035029	Relaxation_Technique	0.74	cam_lexicon_mapping	close_match	1.2.6.2.5.2	Music_Assisted_Progressive_Muscle_Relaxation	COMBO:1.2.6.2.5.2	cam_lexicon:music assisted progressive muscle relaxation:relaxation technique:close_match
+COMBO:1.2.6.2.6	UMLS:C0035029	Relaxation_Technique	0.74	cam_lexicon_mapping	close_match	1.2.6.2.6	Applied_Relaxation	COMBO:1.2.6.2.6	cam_lexicon:applied relaxation:relaxation technique:close_match
+COMBO:1.2.6.3.3.1	UMLS:C0005491	Biofeedback	0.74	cam_lexicon_mapping	close_match	1.2.6.3.3.1	Heart_Coherence	COMBO:1.2.6.3.3.1	cam_lexicon:heart coherence:biofeedback:close_match
+COMBO:1.3.1.2.1.2.1	UMLS:C0003827	Art_Therapy	0.74	cam_lexicon_mapping	close_match	1.3.1.2.1.2.1	Creative_Expression	COMBO:1.3.1.2.1.2.1	cam_lexicon:creative expression:art therapy:close_match
+COMBO:1.3.1.2.1.2.2	UMLS:C0003827	Art_Therapy	0.74	cam_lexicon_mapping	close_match	1.3.1.2.1.2.2	Artistic_Therapy_Painting	COMBO:1.3.1.2.1.2.2	cam_lexicon:artistic therapy painting:art therapy:close_match
+COMBO:1.3.1.2.3.3	UMLS:C0026868	Music_Therapy	0.74	cam_lexicon_mapping	close_match	1.3.1.2.3.3	Lyric_Analysis	COMBO:1.3.1.2.3.3	cam_lexicon:lyric analysis:music therapy:close_match
+COMBO:1.3.1.2.3.4	UMLS:C0026868	Music_Therapy	0.74	cam_lexicon_mapping	close_match	1.3.1.2.3.4	Medical_Resonance_Therapy_Music	COMBO:1.3.1.2.3.4	cam_lexicon:medical resonance therapy music:music therapy:close_match
+COMBO:1.3.1.2.3.5	UMLS:C0026868	Music_Therapy	0.74	cam_lexicon_mapping	close_match	1.3.1.2.3.5	Musical_Motor_Feedback	COMBO:1.3.1.2.3.5	cam_lexicon:musical motor feedback:music therapy:close_match
+COMBO:1.3.1.2.3.6	UMLS:C0026868	Music_Therapy	0.74	cam_lexicon_mapping	close_match	1.3.1.2.3.6	Evocative_Music	COMBO:1.3.1.2.3.6	cam_lexicon:evocative music:music therapy:close_match
+COMBO:1.3.1.2.3.8	UMLS:C0026868	Music_Therapy	0.74	cam_lexicon_mapping	close_match	1.3.1.2.3.8	Dinner_Music_Intervention	COMBO:1.3.1.2.3.8	cam_lexicon:dinner music intervention:music therapy:close_match
+COMBO:1.3.1.2.3.10	UMLS:C0026868	Music_Therapy	0.74	cam_lexicon_mapping	close_match	1.3.1.2.3.10	Music_Based_Imagery	COMBO:1.3.1.2.3.10	cam_lexicon:music based imagery:music therapy:close_match
+COMBO:1.3.1.2.3.11	UMLS:C0026868	Music_Therapy	0.74	cam_lexicon_mapping	close_match	1.3.1.2.3.11	Individualized_Music_Focused_Auditory_Therapy	COMBO:1.3.1.2.3.11	cam_lexicon:individualized music focused auditory therapy:music therapy:close_match
+COMBO:1.3.1.2.3.12	UMLS:C0026868	Music_Therapy	0.74	cam_lexicon_mapping	close_match	1.3.1.2.3.12	Lullaby_Therapy	COMBO:1.3.1.2.3.12	cam_lexicon:lullaby therapy:music therapy:close_match
+COMBO:1.3.1.2.3.13	UMLS:C0026868	Music_Therapy	0.74	cam_lexicon_mapping	close_match	1.3.1.2.3.13	Music_Reinforced_Therapy	COMBO:1.3.1.2.3.13	cam_lexicon:music reinforced therapy:music therapy:close_match
+COMBO:1.3.1.2.3.16	UMLS:C0026868	Music_Therapy	0.74	cam_lexicon_mapping	close_match	1.3.1.2.3.16	Group_Chanting_and_Singing	COMBO:1.3.1.2.3.16	cam_lexicon:group chanting and singing:music therapy:close_match
+COMBO:1.3.1.2.3.17	UMLS:C0026868	Music_Therapy	0.74	cam_lexicon_mapping	close_match	1.3.1.2.3.17	Music_Listening_Intervention	COMBO:1.3.1.2.3.17	cam_lexicon:music listening intervention:music therapy:close_match
+COMBO:1.3.1.2.3.18	UMLS:C0026868	Music_Therapy	0.74	cam_lexicon_mapping	close_match	1.3.1.2.3.18	Musicokinetic_Therapy	COMBO:1.3.1.2.3.18	cam_lexicon:musicokinetic therapy:music therapy:close_match
+COMBO:1.3.1.2.3.21	UMLS:C0026868	Music_Therapy	0.74	cam_lexicon_mapping	close_match	1.3.1.2.3.21	Group_Drumming	COMBO:1.3.1.2.3.21	cam_lexicon:group drumming:music therapy:close_match
+COMBO:1.3.1.2.3.22	UMLS:C0026868	Music_Therapy	0.74	cam_lexicon_mapping	close_match	1.3.1.2.3.22	Contingent_Music	COMBO:1.3.1.2.3.22	cam_lexicon:contingent music:music therapy:close_match
+COMBO:1.3.1.2.3.23	UMLS:C0026868	Music_Therapy	0.74	cam_lexicon_mapping	close_match	1.3.1.2.3.23	Music_Video_Therapy	COMBO:1.3.1.2.3.23	cam_lexicon:music video therapy:music therapy:close_match
+COMBO:1.3.1.2.3.24	UMLS:C0026868	Music_Therapy	0.74	cam_lexicon_mapping	close_match	1.3.1.2.3.24	Music_Exposure_Therapy	COMBO:1.3.1.2.3.24	cam_lexicon:music exposure therapy:music therapy:close_match
+COMBO:1.3.1.2.3.25	UMLS:C0026868	Music_Therapy	0.74	cam_lexicon_mapping	close_match	1.3.1.2.3.25	Music_Assisted_Reframing	COMBO:1.3.1.2.3.25	cam_lexicon:music assisted reframing:music therapy:close_match
+COMBO:1.3.1.2.3.26	UMLS:C0026868	Music_Therapy	0.74	cam_lexicon_mapping	close_match	1.3.1.2.3.26	Karaoke_Therapy	COMBO:1.3.1.2.3.26	cam_lexicon:karaoke therapy:music therapy:close_match
+COMBO:1.3.1.2.5.2	UMLS:C0035029	Relaxation_Technique	0.74	cam_lexicon_mapping	close_match	1.3.1.2.5.2	Music_Assisted_Progressive_Muscle_Relaxation	COMBO:1.3.1.2.5.2	cam_lexicon:music assisted progressive muscle relaxation:relaxation technique:close_match
+COMBO:1.3.1.2.6	UMLS:C0035029	Relaxation_Technique	0.74	cam_lexicon_mapping	close_match	1.3.1.2.6	Applied_Relaxation	COMBO:1.3.1.2.6	cam_lexicon:applied relaxation:relaxation technique:close_match
+COMBO:1.3.1.3.3.1	UMLS:C0005491	Biofeedback	0.74	cam_lexicon_mapping	close_match	1.3.1.3.3.1	Heart_Coherence	COMBO:1.3.1.3.3.1	cam_lexicon:heart coherence:biofeedback:close_match
+COMBO:1.3.4.5.1.2.1	UMLS:C0003827	Art_Therapy	0.74	cam_lexicon_mapping	close_match	1.3.4.5.1.2.1	Creative_Expression	COMBO:1.3.4.5.1.2.1	cam_lexicon:creative expression:art therapy:close_match
+COMBO:1.3.4.5.1.2.2	UMLS:C0003827	Art_Therapy	0.74	cam_lexicon_mapping	close_match	1.3.4.5.1.2.2	Artistic_Therapy_Painting	COMBO:1.3.4.5.1.2.2	cam_lexicon:artistic therapy painting:art therapy:close_match
+COMBO:1.3.4.5.2.3	UMLS:C0026868	Music_Therapy	0.74	cam_lexicon_mapping	close_match	1.3.4.5.2.3	Lyric_Analysis	COMBO:1.3.4.5.2.3	cam_lexicon:lyric analysis:music therapy:close_match
+COMBO:1.3.4.5.2.4	UMLS:C0026868	Music_Therapy	0.74	cam_lexicon_mapping	close_match	1.3.4.5.2.4	Medical_Resonance_Therapy_Music	COMBO:1.3.4.5.2.4	cam_lexicon:medical resonance therapy music:music therapy:close_match
+COMBO:1.3.4.5.2.5	UMLS:C0026868	Music_Therapy	0.74	cam_lexicon_mapping	close_match	1.3.4.5.2.5	Musical_Motor_Feedback	COMBO:1.3.4.5.2.5	cam_lexicon:musical motor feedback:music therapy:close_match
+COMBO:1.3.4.5.2.6	UMLS:C0026868	Music_Therapy	0.74	cam_lexicon_mapping	close_match	1.3.4.5.2.6	Evocative_Music	COMBO:1.3.4.5.2.6	cam_lexicon:evocative music:music therapy:close_match
+COMBO:1.3.4.5.2.8	UMLS:C0026868	Music_Therapy	0.74	cam_lexicon_mapping	close_match	1.3.4.5.2.8	Dinner_Music_Intervention	COMBO:1.3.4.5.2.8	cam_lexicon:dinner music intervention:music therapy:close_match
+COMBO:1.3.4.5.2.10	UMLS:C0026868	Music_Therapy	0.74	cam_lexicon_mapping	close_match	1.3.4.5.2.10	Music_Based_Imagery	COMBO:1.3.4.5.2.10	cam_lexicon:music based imagery:music therapy:close_match
+COMBO:1.3.4.5.2.11	UMLS:C0026868	Music_Therapy	0.74	cam_lexicon_mapping	close_match	1.3.4.5.2.11	Individualized_Music_Focused_Auditory_Therapy	COMBO:1.3.4.5.2.11	cam_lexicon:individualized music focused auditory therapy:music therapy:close_match
+COMBO:1.3.4.5.2.12	UMLS:C0026868	Music_Therapy	0.74	cam_lexicon_mapping	close_match	1.3.4.5.2.12	Lullaby_Therapy	COMBO:1.3.4.5.2.12	cam_lexicon:lullaby therapy:music therapy:close_match
+COMBO:1.3.4.5.2.13	UMLS:C0026868	Music_Therapy	0.74	cam_lexicon_mapping	close_match	1.3.4.5.2.13	Music_Reinforced_Therapy	COMBO:1.3.4.5.2.13	cam_lexicon:music reinforced therapy:music therapy:close_match
+COMBO:1.3.4.5.2.16	UMLS:C0026868	Music_Therapy	0.74	cam_lexicon_mapping	close_match	1.3.4.5.2.16	Group_Chanting_and_Singing	COMBO:1.3.4.5.2.16	cam_lexicon:group chanting and singing:music therapy:close_match
+COMBO:1.3.4.5.2.17	UMLS:C0026868	Music_Therapy	0.74	cam_lexicon_mapping	close_match	1.3.4.5.2.17	Music_Listening_Intervention	COMBO:1.3.4.5.2.17	cam_lexicon:music listening intervention:music therapy:close_match
+COMBO:1.3.4.5.2.18	UMLS:C0026868	Music_Therapy	0.74	cam_lexicon_mapping	close_match	1.3.4.5.2.18	Musicokinetic_Therapy	COMBO:1.3.4.5.2.18	cam_lexicon:musicokinetic therapy:music therapy:close_match
+COMBO:1.3.4.5.2.21	UMLS:C0026868	Music_Therapy	0.74	cam_lexicon_mapping	close_match	1.3.4.5.2.21	Group_Drumming	COMBO:1.3.4.5.2.21	cam_lexicon:group drumming:music therapy:close_match
+COMBO:1.3.4.5.2.22	UMLS:C0026868	Music_Therapy	0.74	cam_lexicon_mapping	close_match	1.3.4.5.2.22	Contingent_Music	COMBO:1.3.4.5.2.22	cam_lexicon:contingent music:music therapy:close_match
+COMBO:1.3.4.5.2.23	UMLS:C0026868	Music_Therapy	0.74	cam_lexicon_mapping	close_match	1.3.4.5.2.23	Music_Video_Therapy	COMBO:1.3.4.5.2.23	cam_lexicon:music video therapy:music therapy:close_match
+COMBO:1.3.4.5.2.24	UMLS:C0026868	Music_Therapy	0.74	cam_lexicon_mapping	close_match	1.3.4.5.2.24	Music_Exposure_Therapy	COMBO:1.3.4.5.2.24	cam_lexicon:music exposure therapy:music therapy:close_match
+COMBO:1.3.4.5.2.25	UMLS:C0026868	Music_Therapy	0.74	cam_lexicon_mapping	close_match	1.3.4.5.2.25	Music_Assisted_Reframing	COMBO:1.3.4.5.2.25	cam_lexicon:music assisted reframing:music therapy:close_match
+COMBO:1.3.4.5.2.26	UMLS:C0026868	Music_Therapy	0.74	cam_lexicon_mapping	close_match	1.3.4.5.2.26	Karaoke_Therapy	COMBO:1.3.4.5.2.26	cam_lexicon:karaoke therapy:music therapy:close_match
+COMBO:1.3.7.4.2.1	UMLS:C1882127	Nutritional Intervention	0.74	cam_lexicon_mapping	close_match	1.3.7.4.2.1	Mindful_Eating	COMBO:1.3.7.4.2.1	cam_lexicon:mindful eating:nutritional intervention:close_match

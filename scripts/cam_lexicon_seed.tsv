@@ -1,0 +1,81 @@
+variant_text	parent_label	mapping_relation	note
+acupoint stimulation	acupuncture	narrow_to_parent	cam_seed
+transcutaneous electrical acustimulation	acupuncture	narrow_to_parent	cam_seed
+cryo auriculotherapy	auricular acupuncture	narrow_to_parent	cam_seed
+warm needle moxibustion	moxibustion	narrow_to_parent	cam_seed
+needle moxibustion	moxibustion	narrow_to_parent	cam_seed
+acu moxibustion	moxibustion	narrow_to_parent	cam_seed
+orff based music therapy	music therapy	narrow_to_parent	cam_seed
+interactive music therapy	music therapy	narrow_to_parent	cam_seed
+active music therapy	music therapy	narrow_to_parent	cam_seed
+improvisational music therapy	music therapy	narrow_to_parent	cam_seed
+instructional music therapy	music therapy	narrow_to_parent	cam_seed
+live music therapy	music therapy	narrow_to_parent	cam_seed
+calming music therapy	music therapy	narrow_to_parent	cam_seed
+music listening intervention	music therapy	close_match	cam_seed
+music based imagery	music therapy	close_match	cam_seed
+music reinforced therapy	music therapy	close_match	cam_seed
+lullaby therapy	music therapy	close_match	cam_seed
+music exposure therapy	music therapy	close_match	cam_seed
+music video therapy	music therapy	close_match	cam_seed
+karaoke therapy	music therapy	close_match	cam_seed
+group drumming	music therapy	close_match	cam_seed
+lymphatic reflexology	reflexology	narrow_to_parent	cam_seed
+foot reflexology	reflexology	narrow_to_parent	cam_seed
+hand reflexology	reflexology	narrow_to_parent	cam_seed
+heart rate variability biofeedback	biofeedback	narrow_to_parent	cam_seed
+electromyography biofeedback	biofeedback	narrow_to_parent	cam_seed
+assisted biofeedback	biofeedback	narrow_to_parent	cam_seed
+kundalini yoga	yoga	narrow_to_parent	cam_seed
+hot yoga	yoga	narrow_to_parent	cam_seed
+bikram yoga	yoga	narrow_to_parent	cam_seed
+chair yoga	yoga	narrow_to_parent	cam_seed
+ashtanga yoga	yoga	narrow_to_parent	cam_seed
+tibetan yoga	yoga	narrow_to_parent	cam_seed
+kripalu yoga	yoga	narrow_to_parent	cam_seed
+pranayama yoga	yoga	narrow_to_parent	cam_seed
+sudarshana kriya yoga	yoga	narrow_to_parent	cam_seed
+mindful eating	nutritional intervention	close_match	cam_seed
+detox diet	dietary intervention	close_match	cam_seed
+raw food diet	dietary intervention	close_match	cam_seed
+japanese acupuncture	acupuncture	narrow_to_parent	cam_seed
+korean acupuncture	acupuncture	narrow_to_parent	cam_seed
+chinese acupuncture	acupuncture	narrow_to_parent	cam_seed
+single point acupuncture	acupuncture	narrow_to_parent	cam_seed
+hand acupuncture	acupuncture	narrow_to_parent	cam_seed
+foot acupuncture	acupuncture	narrow_to_parent	cam_seed
+visual art therapy	art therapy	narrow_to_parent	cam_seed
+clay art therapy	art therapy	narrow_to_parent	cam_seed
+mindfulness based art therapy	art therapy	narrow_to_parent	cam_seed
+phenomenological art therapy	art therapy	narrow_to_parent	cam_seed
+psychodynamic group art therapy	art therapy	narrow_to_parent	cam_seed
+anthroposophic art therapy	art therapy	narrow_to_parent	cam_seed
+orff based music therapy	music therapy	narrow_to_parent	cam_seed
+music assisted progressive muscle relaxation	relaxation technique	close_match	cam_seed
+applied relaxation	relaxation technique	close_match	cam_seed
+heart coherence	biofeedback	close_match	cam_seed
+electroencephalogram biofeedback	biofeedback	narrow_to_parent	cam_seed
+lyric analysis	music therapy	close_match	cam_seed
+musicokinetic therapy	music therapy	close_match	cam_seed
+evocative music	music therapy	close_match	cam_seed
+dinner music intervention	music therapy	close_match	cam_seed
+contingent music	music therapy	close_match	cam_seed
+music assisted reframing	music therapy	close_match	cam_seed
+group chanting and singing	music therapy	close_match	cam_seed
+musical motor feedback	music therapy	close_match	cam_seed
+medical resonance therapy music	music therapy	close_match	cam_seed
+individualized music focused auditory therapy	music therapy	close_match	cam_seed
+artistic therapy painting	art therapy	close_match	cam_seed
+creative expression	art therapy	close_match	cam_seed
+circular yoga	yoga	narrow_to_parent	cam_seed
+face yoga	yoga	narrow_to_parent	cam_seed
+kundalini yoga	yoga	narrow_to_parent	cam_seed
+pranayama yoga	yoga	narrow_to_parent	cam_seed
+sudarshana kriya yoga	yoga	narrow_to_parent	cam_seed
+kripalu yoga	yoga	narrow_to_parent	cam_seed
+tibetan yoga	yoga	narrow_to_parent	cam_seed
+chair yoga	yoga	narrow_to_parent	cam_seed
+ashtanga yoga	yoga	narrow_to_parent	cam_seed
+bikram yoga	yoga	narrow_to_parent	cam_seed
+hot yoga	yoga	narrow_to_parent	cam_seed
+therapeutic touch	massage	close_match	cam_seed

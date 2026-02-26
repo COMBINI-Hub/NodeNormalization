@@ -1,0 +1,1000 @@
+combo_concept_id	combo_label	seed_identifier	canonical_identifier	equivalent_identifier	equivalent_label	mapping_confidence	mapping_source
+1.1.1.1	Ketogenic_Diet	UMLS:C0259972	UMLS:C0259972	UMLS:C0259972	Ketogenic Diet		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.1.1.1	Ketogenic_Diet	UMLS:C0259972	UMLS:C0259972	MESH:D055423	Ketogenic Diet	0.9	combo_crosswalk_from_mrconso.tsv
+1.1.1.1	Ketogenic_Diet	UMLS:C0259972	UMLS:C0259972	NCIT:C173168	Ketogenic Diet	0.9	combo_crosswalk_from_mrconso.tsv
+1.1.1.1	Ketogenic_Diet	UMLS:C0259972	UMLS:C0259972	SNOMEDCT:102269000	Ketogenic Diet	0.9	combo_crosswalk_from_mrconso.tsv
+1.1.1.1	Ketogenic_Diet	UMLS:C0259972	UMLS:C0259972	SNOMEDCT:226108007	Ketogenic Diet	0.9	combo_crosswalk_from_mrconso.tsv
+1.1.1.1	Ketogenic_Diet	UMLS:C0259972	UMLS:C0259972	SNOMEDCT:765060000	Ketogenic Diet	0.9	combo_crosswalk_from_mrconso.tsv
+1.1.1.1	Ketogenic_Diet	MESH:D055423	UMLS:C0259972	UMLS:C0259972	Ketogenic Diet		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.1.1.1	Ketogenic_Diet	MESH:D055423	UMLS:C0259972	MESH:D055423	Ketogenic Diet	0.9	combo_crosswalk_from_mrconso.tsv
+1.1.1.1	Ketogenic_Diet	MESH:D055423	UMLS:C0259972	NCIT:C173168	Ketogenic Diet	0.9	combo_crosswalk_from_mrconso.tsv
+1.1.1.1	Ketogenic_Diet	MESH:D055423	UMLS:C0259972	SNOMEDCT:102269000	Ketogenic Diet	0.9	combo_crosswalk_from_mrconso.tsv
+1.1.1.1	Ketogenic_Diet	MESH:D055423	UMLS:C0259972	SNOMEDCT:226108007	Ketogenic Diet	0.9	combo_crosswalk_from_mrconso.tsv
+1.1.1.1	Ketogenic_Diet	MESH:D055423	UMLS:C0259972	SNOMEDCT:765060000	Ketogenic Diet	0.9	combo_crosswalk_from_mrconso.tsv
+1.1.1.2	High_Protein_Low_Carbohydrate_Diet	UMLS:C4505336	UMLS:C4505336	UMLS:C4505336	Diet, High-Protein Low-Carbohydrate		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.1.1.2	High_Protein_Low_Carbohydrate_Diet	MESH:D000076107	UMLS:C1319849	UMLS:C1319849	Atkins Diet		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.1.1.2	High_Protein_Low_Carbohydrate_Diet	MESH:D000076107	UMLS:C1319849	MESH:D000076107		0.9	combo_crosswalk_from_mrconso.tsv
+1.1.1.2	High_Protein_Low_Carbohydrate_Diet	MESH:D000076107	UMLS:C1319849	SNOMEDCT:407667003		0.9	combo_crosswalk_from_mrconso.tsv
+1.1.1.2	High_Protein_Low_Carbohydrate_Diet	MESH:D000076107	UMLS:C1319849	SNOMEDCT:765024005		0.9	combo_crosswalk_from_mrconso.tsv
+1.1.1.3	Gluten_Free_Diet	UMLS:C0344351	UMLS:C0344351	UMLS:C0344351	Gluten-Free Diet		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.1.1.3	Gluten_Free_Diet	UMLS:C0344351	UMLS:C0344351	MESH:D055050	Gluten-Free Diet	0.9	combo_crosswalk_from_mrconso.tsv
+1.1.1.3	Gluten_Free_Diet	UMLS:C0344351	UMLS:C0344351	NCIT:C157866	Gluten-Free Diet	0.9	combo_crosswalk_from_mrconso.tsv
+1.1.1.3	Gluten_Free_Diet	UMLS:C0344351	UMLS:C0344351	SNOMEDCT:138059006	Gluten-Free Diet	0.9	combo_crosswalk_from_mrconso.tsv
+1.1.1.3	Gluten_Free_Diet	UMLS:C0344351	UMLS:C0344351	SNOMEDCT:151208002	Gluten-Free Diet	0.9	combo_crosswalk_from_mrconso.tsv
+1.1.1.3	Gluten_Free_Diet	UMLS:C0344351	UMLS:C0344351	SNOMEDCT:160671006	Gluten-Free Diet	0.9	combo_crosswalk_from_mrconso.tsv
+1.1.1.3	Gluten_Free_Diet	UMLS:C0344351	UMLS:C0344351	SNOMEDCT:182926001	Gluten-Free Diet	0.9	combo_crosswalk_from_mrconso.tsv
+1.1.1.3	Gluten_Free_Diet	UMLS:C0344351	UMLS:C0344351	SNOMEDCT:437651000124104	Gluten-Free Diet	0.9	combo_crosswalk_from_mrconso.tsv
+1.1.1.3	Gluten_Free_Diet	UMLS:C0344351	UMLS:C0344351	SNOMEDCT:6468003	Gluten-Free Diet	0.9	combo_crosswalk_from_mrconso.tsv
+1.1.1.3	Gluten_Free_Diet	MESH:D055050	UMLS:C0344351	UMLS:C0344351	Gluten-Free Diet		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.1.1.3	Gluten_Free_Diet	MESH:D055050	UMLS:C0344351	MESH:D055050	Gluten-Free Diet	0.9	combo_crosswalk_from_mrconso.tsv
+1.1.1.3	Gluten_Free_Diet	MESH:D055050	UMLS:C0344351	NCIT:C157866	Gluten-Free Diet	0.9	combo_crosswalk_from_mrconso.tsv
+1.1.1.3	Gluten_Free_Diet	MESH:D055050	UMLS:C0344351	SNOMEDCT:138059006	Gluten-Free Diet	0.9	combo_crosswalk_from_mrconso.tsv
+1.1.1.3	Gluten_Free_Diet	MESH:D055050	UMLS:C0344351	SNOMEDCT:151208002	Gluten-Free Diet	0.9	combo_crosswalk_from_mrconso.tsv
+1.1.1.3	Gluten_Free_Diet	MESH:D055050	UMLS:C0344351	SNOMEDCT:160671006	Gluten-Free Diet	0.9	combo_crosswalk_from_mrconso.tsv
+1.1.1.3	Gluten_Free_Diet	MESH:D055050	UMLS:C0344351	SNOMEDCT:182926001	Gluten-Free Diet	0.9	combo_crosswalk_from_mrconso.tsv
+1.1.1.3	Gluten_Free_Diet	MESH:D055050	UMLS:C0344351	SNOMEDCT:437651000124104	Gluten-Free Diet	0.9	combo_crosswalk_from_mrconso.tsv
+1.1.1.3	Gluten_Free_Diet	MESH:D055050	UMLS:C0344351	SNOMEDCT:6468003	Gluten-Free Diet	0.9	combo_crosswalk_from_mrconso.tsv
+1.1.1.4	Paleolithic_Diet	UMLS:C0452423	UMLS:C0452423	UMLS:C0452423	Diet, Paleolithic		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.1.1.4	Paleolithic_Diet	UMLS:C0452423	UMLS:C0452423	MESH:D066046	Diet, Paleolithic	0.9	combo_crosswalk_from_mrconso.tsv
+1.1.1.4	Paleolithic_Diet	UMLS:C0452423	UMLS:C0452423	SNOMEDCT:226241004	Diet, Paleolithic	0.9	combo_crosswalk_from_mrconso.tsv
+1.1.1.4	Paleolithic_Diet	MESH:D066046	UMLS:C0452423	UMLS:C0452423	Diet, Paleolithic		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.1.1.4	Paleolithic_Diet	MESH:D066046	UMLS:C0452423	MESH:D066046	Diet, Paleolithic	0.9	combo_crosswalk_from_mrconso.tsv
+1.1.1.4	Paleolithic_Diet	MESH:D066046	UMLS:C0452423	SNOMEDCT:226241004	Diet, Paleolithic	0.9	combo_crosswalk_from_mrconso.tsv
+1.1.1.5	Macrobiotic_Diet	UMLS:C0012166	UMLS:C0012166	UMLS:C0012166	Diet, Macrobiotic		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.1.1.5	Macrobiotic_Diet	UMLS:C0012166	UMLS:C0012166	MEDDRA:10025377	Diet, Macrobiotic		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.1.1.5	Macrobiotic_Diet	UMLS:C0012166	UMLS:C0012166	MESH:D015623	Diet, Macrobiotic	0.9	combo_crosswalk_from_mrconso.tsv
+1.1.1.5	Macrobiotic_Diet	UMLS:C0012166	UMLS:C0012166	SNOMEDCT:102268008	Diet, Macrobiotic	0.9	combo_crosswalk_from_mrconso.tsv
+1.1.1.5	Macrobiotic_Diet	MESH:D015623	UMLS:C0012166	UMLS:C0012166	Diet, Macrobiotic		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.1.1.5	Macrobiotic_Diet	MESH:D015623	UMLS:C0012166	MEDDRA:10025377	Diet, Macrobiotic		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.1.1.5	Macrobiotic_Diet	MESH:D015623	UMLS:C0012166	MESH:D015623	Diet, Macrobiotic	0.9	combo_crosswalk_from_mrconso.tsv
+1.1.1.5	Macrobiotic_Diet	MESH:D015623	UMLS:C0012166	SNOMEDCT:102268008	Diet, Macrobiotic	0.9	combo_crosswalk_from_mrconso.tsv
+1.1.1.7	Plant_Based_Diet	MESH:D000095500	UMLS:C5197846	UMLS:C5197846			self
+1.1.1.7	Plant_Based_Diet	MESH:D000095500	UMLS:C5197846	MESH:D000095500		0.9	combo_crosswalk_from_mrconso.tsv
+1.1.1.7	Plant_Based_Diet	MESH:D000095500	UMLS:C5197846	NCIT:C180543		0.9	combo_crosswalk_from_mrconso.tsv
+1.1.1.7.1	Mediterranean_Diet	MESH:D038441	UMLS:C1138412	UMLS:C1138412	Diet, Mediterranean		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.1.1.7.1	Mediterranean_Diet	MESH:D038441	UMLS:C1138412	MESH:D038441		0.9	combo_crosswalk_from_mrconso.tsv
+1.1.1.7.1	Mediterranean_Diet	MESH:D038441	UMLS:C1138412	SNOMEDCT:1255163004		0.9	combo_crosswalk_from_mrconso.tsv
+1.1.1.7.2	Vegetarian_Diet	MESH:D014676	UMLS:C0311164	UMLS:C0311164	Vegetarian diet		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.1.1.7.2	Vegetarian_Diet	MESH:D014676	UMLS:C0311164	MESH:D014676		0.9	combo_crosswalk_from_mrconso.tsv
+1.1.1.7.2	Vegetarian_Diet	MESH:D014676	UMLS:C0311164	MTH:U003174		0.9	combo_crosswalk_from_mrconso.tsv
+1.1.1.7.2	Vegetarian_Diet	MESH:D014676	UMLS:C0311164	SNOMEDCT:138044000		0.9	combo_crosswalk_from_mrconso.tsv
+1.1.1.7.2	Vegetarian_Diet	MESH:D014676	UMLS:C0311164	SNOMEDCT:5940000		0.9	combo_crosswalk_from_mrconso.tsv
+1.1.1.7.2	Vegetarian_Diet	MESH:D014676	UMLS:C0311164	SNOMEDCT:765021002		0.9	combo_crosswalk_from_mrconso.tsv
+1.1.1.7.2	Vegetarian_Diet	MESH:D014676	UMLS:C0311164	SNOMEDCT:80714005		0.9	combo_crosswalk_from_mrconso.tsv
+1.1.1.7.2.2	Vegan_Diet	UMLS:C0344353	HP:4000172	HP:4000172	Vegan diet		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.1.1.7.2.2	Vegan_Diet	UMLS:C0344353	HP:4000172	MEDDRA:10047178	Vegan diet		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.1.1.7.2.2	Vegan_Diet	UMLS:C0344353	HP:4000172	UMLS:C0344353	Vegan diet		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.1.1.7.2.2	Vegan_Diet	MESH:D000067269	UMLS:C0344353	UMLS:C0344353	Vegan diet		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.1.1.7.2.2	Vegan_Diet	MESH:D000067269	UMLS:C0344353	HPO:HP:4000172	Vegan diet	0.9	combo_crosswalk_from_mrconso.tsv
+1.1.1.7.2.2	Vegan_Diet	MESH:D000067269	UMLS:C0344353	MESH:D000067269	Vegan diet	0.9	combo_crosswalk_from_mrconso.tsv
+1.1.1.7.2.2	Vegan_Diet	MESH:D000067269	UMLS:C0344353	SNOMEDCT:138045004	Vegan diet	0.9	combo_crosswalk_from_mrconso.tsv
+1.1.1.7.2.2	Vegan_Diet	MESH:D000067269	UMLS:C0344353	SNOMEDCT:162537004	Vegan diet	0.9	combo_crosswalk_from_mrconso.tsv
+1.1.1.7.2.2	Vegan_Diet	MESH:D000067269	UMLS:C0344353	SNOMEDCT:24930006	Vegan diet	0.9	combo_crosswalk_from_mrconso.tsv
+1.1.1.7.2.2	Vegan_Diet	MESH:D000067269	UMLS:C0344353	SNOMEDCT:281015005	Vegan diet	0.9	combo_crosswalk_from_mrconso.tsv
+1.1.1.7.2.2	Vegan_Diet	MESH:D000067269	UMLS:C0344353	SNOMEDCT:89982001	Vegan diet	0.9	combo_crosswalk_from_mrconso.tsv
+1.1.1.9	Western_Diet	MESH:D066273	UMLS:C3849996	UMLS:C3849996	Diet, Western		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.1.1.9	Western_Diet	MESH:D066273	UMLS:C3849996	MESH:D066273		0.9	combo_crosswalk_from_mrconso.tsv
+1.1.1.10	Intermittent_Fasting	MESH:D000093763	UMLS:C4704881	UMLS:C4704881	Intermittent Fasting		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.1.1.10	Intermittent_Fasting	MESH:D000093763	UMLS:C4704881	MESH:D000093763		0.9	combo_crosswalk_from_mrconso.tsv
+1.1.1.10	Intermittent_Fasting	MESH:D000093763	UMLS:C4704881	NCIT:C170801		0.9	combo_crosswalk_from_mrconso.tsv
+1.1.1.10	Intermittent_Fasting	MESH:D000093763	UMLS:C4704881	SNOMEDCT:1362129009		0.9	combo_crosswalk_from_mrconso.tsv
+1.1.2	Gerson_Therapy	UMLS:C1831723	UMLS:C1831723	UMLS:C1831723			self
+1.1.2	Gerson_Therapy	UMLS:C1831723	UMLS:C1831723	NCIT:C62680	Gerson Therapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.1.3	Gonzalez_Regimen	UMLS:C1831689	UMLS:C1831689	UMLS:C1831689			self
+1.1.3	Gonzalez_Regimen	UMLS:C1831689	UMLS:C1831689	NCIT:C62678	Gonzalez Regimen	0.9	combo_crosswalk_from_mrconso.tsv
+1.1.4	Dietary_Macronutrients_Therapy	UMLS:C1880312	UMLS:C1880312	UMLS:C1880312			self
+1.1.4	Dietary_Macronutrients_Therapy	UMLS:C1880312	UMLS:C1880312	NCIT:C67026	Dietary Macronutrients Therapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.1.5	Antioxidants_Therapy	UMLS:C1879713	UMLS:C1879713	UMLS:C1879713	Antioxidant therapy		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.1.5	Antioxidants_Therapy	UMLS:C1879713	UMLS:C1879713	NCIT:C67025	Antioxidant therapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.1.6	Dietary_Supplementation	UMLS:C0242297	UMLS:C0242297	UMLS:C0242297	Dietary Supplementation		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.1.6	Dietary_Supplementation	UMLS:C0242297	UMLS:C0242297	NCIT:C15425	Dietary Supplementation	0.9	combo_crosswalk_from_mrconso.tsv
+1.1.10	Orthomolecular_Therapy	UMLS:C0029340	UMLS:C0029340	UMLS:C0029340	Orthomolecular Therapy		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.1.10	Orthomolecular_Therapy	UMLS:C0029340	UMLS:C0029340	MESH:D009974	Orthomolecular Therapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.1.10	Orthomolecular_Therapy	UMLS:C0029340	UMLS:C0029340	NCIT:C67024	Orthomolecular Therapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.1.11	Immunoaugmentative_Therapy	UMLS:C1881140	UMLS:C1881140	UMLS:C1881140			self
+1.1.11	Immunoaugmentative_Therapy	UMLS:C1881140	UMLS:C1881140	NCIT:C67029	Immunoaugmentative Therapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.1.12	Antineoplastons_Therapy	UMLS:C1879712	UMLS:C1879712	UMLS:C1879712			self
+1.1.12	Antineoplastons_Therapy	UMLS:C1879712	UMLS:C1879712	NCIT:C67027	Antineoplastons Therapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.1.13	Chelation_Therapy	UMLS:C0007975	UMLS:C0007975	UMLS:C0007975	Chelation Therapy		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.1.13	Chelation_Therapy	UMLS:C0007975	UMLS:C0007975	MESH:D015913	Chelation Therapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.1	Acupuncture	UMLS:C0394664	UMLS:C0394664	UMLS:C0394664	Acupuncture Therapy		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.2.1	Acupuncture	UMLS:C0394664	UMLS:C0394664	LOINC:LA33527-5	Acupuncture Therapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.1	Acupuncture	UMLS:C0394664	UMLS:C0394664	LOINC:LA34018-4	Acupuncture Therapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.1	Acupuncture	UMLS:C0394664	UMLS:C0394664	LOINC:LP234767-4	Acupuncture Therapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.1	Acupuncture	UMLS:C0394664	UMLS:C0394664	MESH:D015670	Acupuncture Therapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.1	Acupuncture	UMLS:C0394664	UMLS:C0394664	NCIT:C15176	Acupuncture Therapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.1	Acupuncture	UMLS:C0394664	UMLS:C0394664	SNOMEDCT:150831001	Acupuncture Therapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.1	Acupuncture	UMLS:C0394664	UMLS:C0394664	SNOMEDCT:150834009	Acupuncture Therapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.1	Acupuncture	UMLS:C0394664	UMLS:C0394664	SNOMEDCT:182616006	Acupuncture Therapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.1	Acupuncture	UMLS:C0394664	UMLS:C0394664	SNOMEDCT:231098007	Acupuncture Therapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.1	Acupuncture	UMLS:C0394664	UMLS:C0394664	SNOMEDCT:44868003	Acupuncture Therapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.1	Acupuncture	MESH:D015670	UMLS:C0394664	UMLS:C0394664	Acupuncture Therapy		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.2.1	Acupuncture	MESH:D015670	UMLS:C0394664	LOINC:LA33527-5	Acupuncture Therapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.1	Acupuncture	MESH:D015670	UMLS:C0394664	LOINC:LA34018-4	Acupuncture Therapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.1	Acupuncture	MESH:D015670	UMLS:C0394664	LOINC:LP234767-4	Acupuncture Therapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.1	Acupuncture	MESH:D015670	UMLS:C0394664	MESH:D015670	Acupuncture Therapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.1	Acupuncture	MESH:D015670	UMLS:C0394664	NCIT:C15176	Acupuncture Therapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.1	Acupuncture	MESH:D015670	UMLS:C0394664	SNOMEDCT:150831001	Acupuncture Therapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.1	Acupuncture	MESH:D015670	UMLS:C0394664	SNOMEDCT:150834009	Acupuncture Therapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.1	Acupuncture	MESH:D015670	UMLS:C0394664	SNOMEDCT:182616006	Acupuncture Therapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.1	Acupuncture	MESH:D015670	UMLS:C0394664	SNOMEDCT:231098007	Acupuncture Therapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.1	Acupuncture	MESH:D015670	UMLS:C0394664	SNOMEDCT:44868003	Acupuncture Therapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.1.1	Acupuncture_for_Anesthesia	UMLS:C0001301	UMLS:C0001301	UMLS:C0001301	Acupuncture Anesthesia		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.2.1.1	Acupuncture_for_Anesthesia	UMLS:C0001301	UMLS:C0001301	ICD9CM:99.91	Acupuncture Anesthesia	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.1.1	Acupuncture_for_Anesthesia	UMLS:C0001301	UMLS:C0001301	SNOMEDCT:150832008	Acupuncture Anesthesia	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.1.1	Acupuncture_for_Anesthesia	UMLS:C0001301	UMLS:C0001301	SNOMEDCT:182614009	Acupuncture Anesthesia	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.1.2	Acupuncture_for_Analgesia	UMLS:C0001300	UMLS:C0001300	UMLS:C0001300	Acupuncture Analgesia		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.2.1.2	Acupuncture_for_Analgesia	UMLS:C0001300	UMLS:C0001300	MESH:D015667	Acupuncture Analgesia	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.1.2	Acupuncture_for_Analgesia	UMLS:C0001300	UMLS:C0001300	SNOMEDCT:150833003	Acupuncture Analgesia	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.1.2	Acupuncture_for_Analgesia	UMLS:C0001300	UMLS:C0001300	SNOMEDCT:182615005	Acupuncture Analgesia	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.1.2	Acupuncture_for_Analgesia	MESH:D015667	UMLS:C0001300	UMLS:C0001300	Acupuncture Analgesia		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.2.1.2	Acupuncture_for_Analgesia	MESH:D015667	UMLS:C0001300	MESH:D015667	Acupuncture Analgesia	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.1.2	Acupuncture_for_Analgesia	MESH:D015667	UMLS:C0001300	SNOMEDCT:150833003	Acupuncture Analgesia	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.1.2	Acupuncture_for_Analgesia	MESH:D015667	UMLS:C0001300	SNOMEDCT:182615005	Acupuncture Analgesia	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.1.3	Auricular_Acupuncture	UMLS:C0752217	UMLS:C0752217	UMLS:C0752217	Acupuncture, Ear		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.2.1.3	Auricular_Acupuncture	UMLS:C0752217	UMLS:C0752217	MESH:D020831	Acupuncture, Ear	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.1.3	Auricular_Acupuncture	MESH:D020831	UMLS:C0752217	UMLS:C0752217	Acupuncture, Ear		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.2.1.3	Auricular_Acupuncture	MESH:D020831	UMLS:C0752217	MESH:D020831	Acupuncture, Ear	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.1.4	Electroacupuncture	UMLS:C0013794	UMLS:C0013794	UMLS:C0013794	Electroacupuncture		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.2.1.4	Electroacupuncture	UMLS:C0013794	UMLS:C0013794	MESH:D015671	Electroacupuncture	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.1.4	Electroacupuncture	UMLS:C0013794	UMLS:C0013794	NCIT:C28146	Electroacupuncture	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.1.4	Electroacupuncture	MESH:D015671	UMLS:C0013794	UMLS:C0013794	Electroacupuncture		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.2.1.4	Electroacupuncture	MESH:D015671	UMLS:C0013794	MESH:D015671	Electroacupuncture	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.1.4	Electroacupuncture	MESH:D015671	UMLS:C0013794	NCIT:C28146	Electroacupuncture	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.1.4.1	Electroacupuncture_After_Voll	UMLS:C0394660	UMLS:C0394660	UMLS:C0394660			self
+1.2.1.4.1	Electroacupuncture_After_Voll	UMLS:C0394660	UMLS:C0394660	SNOMEDCT:231093003	Electroacupuncture after Voll	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.1.4.2	Vega_Electroacupuncture_Therapy	UMLS:C0394661	UMLS:C0394661	UMLS:C0394661			self
+1.2.1.4.2	Vega_Electroacupuncture_Therapy	UMLS:C0394661	UMLS:C0394661	SNOMEDCT:231095005	VEGA electroacupuncture therapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.1.6	Laser_Acupuncture	UMLS:C0394654	UMLS:C0394654	UMLS:C0394654	Laser acupuncture		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.2.1.6	Laser_Acupuncture	UMLS:C0394654	UMLS:C0394654	NCIT:C94602	Laser acupuncture	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.1.6	Laser_Acupuncture	UMLS:C0394654	UMLS:C0394654	SNOMEDCT:231088001	Laser acupuncture	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.1.6	Laser_Acupuncture	UMLS:C0394654	UMLS:C0394654	SNOMEDCT:231106001	Laser acupuncture	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.2	Trigger_Point_Acupuncture	UMLS:C2986609	UMLS:C2986609	UMLS:C2986609	Trigger Point Acupuncture		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.2.2	Trigger_Point_Acupuncture	UMLS:C2986609	UMLS:C2986609	NCIT:C94635	Trigger Point Acupuncture	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.3	Auriculotherapy	UMLS:C2350276	UMLS:C2350276	UMLS:C2350276	Auriculotherapy		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.2.3	Auriculotherapy	UMLS:C2350276	UMLS:C2350276	MESH:D055097	Auriculotherapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.3	Auriculotherapy	MESH:D055097	UMLS:C2350276	UMLS:C2350276	Auriculotherapy		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.2.3	Auriculotherapy	MESH:D055097	UMLS:C2350276	MESH:D055097	Auriculotherapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.4	Acustimulation_Therapy	UMLS:C1515885	UMLS:C1515885	UMLS:C1515885	Acustimulation Therapy		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.2.4	Acustimulation_Therapy	UMLS:C1515885	UMLS:C1515885	NCIT:C15761	Acustimulation Therapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.5	Percutaneous_Collagen_Induction	UMLS:C5780323	UMLS:C5780323	UMLS:C5780323			self
+1.2.5	Percutaneous_Collagen_Induction	UMLS:C5780323	UMLS:C5780323	MESH:D000097244	Percutaneous Collagen Induction	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.5	Percutaneous_Collagen_Induction	MESH:D000097244	UMLS:C5780323	UMLS:C5780323			self
+1.2.5	Percutaneous_Collagen_Induction	MESH:D000097244	UMLS:C5780323	MESH:D000097244	Percutaneous Collagen Induction	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.6	Mind	UMLS:C0260173	UMLS:C0260173	UMLS:C0260173	Mind-Body Therapies		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.2.6	Mind	UMLS:C0260173	UMLS:C0260173	MESH:D026441	Mind-Body Therapies	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.6	Mind	MESH:D026441	UMLS:C0260173	UMLS:C0260173	Mind-Body Therapies		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.2.6	Mind	MESH:D026441	UMLS:C0260173	MESH:D026441	Mind-Body Therapies	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.6.1	Breathing_Exercise	UMLS:C0006155	UMLS:C0006155	UMLS:C0006155	Breathing Exercises		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.2.6.1	Breathing_Exercise	UMLS:C0006155	UMLS:C0006155	ICD9CM:93.18	Breathing Exercises	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.6.1	Breathing_Exercise	UMLS:C0006155	UMLS:C0006155	MESH:D001945	Breathing Exercises	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.6.1	Breathing_Exercise	UMLS:C0006155	UMLS:C0006155	NCIT:C160870	Breathing Exercises	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.6.1	Breathing_Exercise	UMLS:C0006155	UMLS:C0006155	SNOMEDCT:12895002	Breathing Exercises	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.6.1	Breathing_Exercise	UMLS:C0006155	UMLS:C0006155	SNOMEDCT:151547001	Breathing Exercises	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.6.1	Breathing_Exercise	UMLS:C0006155	UMLS:C0006155	SNOMEDCT:20550006	Breathing Exercises	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.6.1	Breathing_Exercise	UMLS:C0006155	UMLS:C0006155	SNOMEDCT:85903002	Breathing Exercises	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.6.1	Breathing_Exercise	MESH:D001945	UMLS:C0006155	UMLS:C0006155	Breathing Exercises		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.2.6.1	Breathing_Exercise	MESH:D001945	UMLS:C0006155	ICD9CM:93.18	Breathing Exercises	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.6.1	Breathing_Exercise	MESH:D001945	UMLS:C0006155	MESH:D001945	Breathing Exercises	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.6.1	Breathing_Exercise	MESH:D001945	UMLS:C0006155	NCIT:C160870	Breathing Exercises	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.6.1	Breathing_Exercise	MESH:D001945	UMLS:C0006155	SNOMEDCT:12895002	Breathing Exercises	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.6.1	Breathing_Exercise	MESH:D001945	UMLS:C0006155	SNOMEDCT:151547001	Breathing Exercises	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.6.1	Breathing_Exercise	MESH:D001945	UMLS:C0006155	SNOMEDCT:20550006	Breathing Exercises	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.6.1	Breathing_Exercise	MESH:D001945	UMLS:C0006155	SNOMEDCT:85903002	Breathing Exercises	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.6.1.2	Deep_Breathing	UMLS:C1328799	UMLS:C1328799	UMLS:C1328799	Deep breathing		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.2.6.1.2	Deep_Breathing	UMLS:C1328799	UMLS:C1328799	LOINC:LA33514-3	Deep breathing	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.6.1.2	Deep_Breathing	UMLS:C1328799	UMLS:C1328799	SNOMEDCT:289123006	Deep breathing	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.6.1.2	Deep_Breathing	UMLS:C1328799	UMLS:C1328799	SNOMEDCT:63782006	Deep breathing	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.6.2	Relaxation_Technique	UMLS:C0035029	UMLS:C0035029	UMLS:C0035029	Relaxation Techniques		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.2.6.2	Relaxation_Technique	UMLS:C0035029	UMLS:C0035029	LOINC:LA33541-6	Relaxation Techniques	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.6.2	Relaxation_Technique	UMLS:C0035029	UMLS:C0035029	MESH:D012064	Relaxation Techniques	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.6.2	Relaxation_Technique	UMLS:C0035029	UMLS:C0035029	NCIT:C28184	Relaxation Techniques	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.6.2	Relaxation_Technique	UMLS:C0035029	UMLS:C0035029	SNOMEDCT:284467003	Relaxation Techniques	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.6.2	Relaxation_Technique	MESH:D012064	UMLS:C0035029	UMLS:C0035029	Relaxation Techniques		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.2.6.2	Relaxation_Technique	MESH:D012064	UMLS:C0035029	LOINC:LA33541-6	Relaxation Techniques	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.6.2	Relaxation_Technique	MESH:D012064	UMLS:C0035029	MESH:D012064	Relaxation Techniques	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.6.2	Relaxation_Technique	MESH:D012064	UMLS:C0035029	NCIT:C28184	Relaxation Techniques	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.6.2	Relaxation_Technique	MESH:D012064	UMLS:C0035029	SNOMEDCT:284467003	Relaxation Techniques	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.6.2.1	Art_Therapy	UMLS:C0003827	UMLS:C0003827	UMLS:C0003827	Art Therapy		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.2.6.2.1	Art_Therapy	UMLS:C0003827	UMLS:C0003827	MESH:D001155	Art Therapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.6.2.1	Art_Therapy	UMLS:C0003827	UMLS:C0003827	MTH:NOCODE	Art Therapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.6.2.1	Art_Therapy	UMLS:C0003827	UMLS:C0003827	NCIT:C67031	Art Therapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.6.2.1	Art_Therapy	UMLS:C0003827	UMLS:C0003827	SNOMEDCT:65153003	Art Therapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.6.2.1	Art_Therapy	MESH:D001155	UMLS:C0003827	UMLS:C0003827	Art Therapy		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.2.6.2.1	Art_Therapy	MESH:D001155	UMLS:C0003827	MESH:D001155	Art Therapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.6.2.1	Art_Therapy	MESH:D001155	UMLS:C0003827	MTH:NOCODE	Art Therapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.6.2.1	Art_Therapy	MESH:D001155	UMLS:C0003827	NCIT:C67031	Art Therapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.6.2.1	Art_Therapy	MESH:D001155	UMLS:C0003827	SNOMEDCT:65153003	Art Therapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.6.2.1.1.1	Pottery	UMLS:C3468077	UMLS:C3468077	UMLS:C3468077			self
+1.2.6.2.1.2	Creative_Art_Therapy	UMLS:C0870372	UMLS:C0870372	UMLS:C0870372	creative arts therapy		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.2.6.2.2	Humor_Therapy	UMLS:C0597811	UMLS:C0597811	UMLS:C0597811	Humor therapy		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.2.6.2.2	Humor_Therapy	UMLS:C0597811	UMLS:C0597811	SNOMEDCT:386325009	Humor therapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.6.2.2.1	Laughter_Therapy	UMLS:C0949806	UMLS:C0949806	UMLS:C0949806	Laughter Therapy		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.2.6.2.2.1	Laughter_Therapy	UMLS:C0949806	UMLS:C0949806	MESH:D027641	Laughter Therapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.6.2.2.1	Laughter_Therapy	MESH:D027641	UMLS:C0949806	UMLS:C0949806	Laughter Therapy		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.2.6.2.2.1	Laughter_Therapy	MESH:D027641	UMLS:C0949806	MESH:D027641	Laughter Therapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.6.2.2.1.1	Laughter_Yoga	UMLS:C4045984	UMLS:C4045984	UMLS:C4045984	Laughter Yoga		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.2.6.2.2.1.1	Laughter_Yoga	MESH:D027641	UMLS:C0949806	UMLS:C0949806	Laughter Therapy		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.2.6.2.2.1.1	Laughter_Yoga	MESH:D027641	UMLS:C0949806	MESH:D027641	Laughter Therapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.6.2.3	Music_Therapy	UMLS:C0026868	UMLS:C0026868	UMLS:C0026868	Music Therapy		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.2.6.2.3	Music_Therapy	UMLS:C0026868	UMLS:C0026868	ICD9CM:93.84	Music Therapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.6.2.3	Music_Therapy	UMLS:C0026868	UMLS:C0026868	LOINC:LA33539-0	Music Therapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.6.2.3	Music_Therapy	UMLS:C0026868	UMLS:C0026868	MESH:D009147	Music Therapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.6.2.3	Music_Therapy	UMLS:C0026868	UMLS:C0026868	NCIT:C67033	Music Therapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.6.2.3	Music_Therapy	UMLS:C0026868	UMLS:C0026868	SNOMEDCT:21065008	Music Therapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.6.2.3	Music_Therapy	MESH:D009147	UMLS:C0026868	UMLS:C0026868	Music Therapy		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.2.6.2.3	Music_Therapy	MESH:D009147	UMLS:C0026868	ICD9CM:93.84	Music Therapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.6.2.3	Music_Therapy	MESH:D009147	UMLS:C0026868	LOINC:LA33539-0	Music Therapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.6.2.3	Music_Therapy	MESH:D009147	UMLS:C0026868	MESH:D009147	Music Therapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.6.2.3	Music_Therapy	MESH:D009147	UMLS:C0026868	NCIT:C67033	Music Therapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.6.2.3	Music_Therapy	MESH:D009147	UMLS:C0026868	SNOMEDCT:21065008	Music Therapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.6.2.3.7	Raga_Therapy	UMLS:C5057506	UMLS:C5057506	UMLS:C5057506			self
+1.2.6.2.4	Reflexology	UMLS:C0034945	UMLS:C0034945	UMLS:C0034945	Reflexology		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.2.6.2.4	Reflexology	UMLS:C0034945	UMLS:C0034945	MESH:D026201	Reflexology	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.6.2.4	Reflexology	UMLS:C0034945	UMLS:C0034945	NCIT:C162743	Reflexology	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.6.2.4	Reflexology	UMLS:C0034945	UMLS:C0034945	SNOMEDCT:394614006	Reflexology	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.6.2.4	Reflexology	MESH:D012028	UMLS:C0034946	UMLS:C0034946	Reflexotherapy		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.2.6.2.4	Reflexology	MESH:D012028	UMLS:C0034946	MESH:D012028		0.9	combo_crosswalk_from_mrconso.tsv
+1.2.6.2.4.1	Acu_Reflexology	UMLS:C1273536	UMLS:C1273536	UMLS:C1273536			self
+1.2.6.2.4.1	Acu_Reflexology	UMLS:C1273536	UMLS:C1273536	SNOMEDCT:393108005	Acu-reflexology	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.6.2.4.1	Acu_Reflexology	UMLS:C1273536	UMLS:C1273536	SNOMEDCT:394059002	Acu-reflexology	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.6.2.4.1	Acu_Reflexology	UMLS:C1273536	UMLS:C1273536	SNOMEDCT:394874004	Acu-reflexology	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.6.2.4.5	Ear_Reflexology	UMLS:C1442582	UMLS:C1442582	UMLS:C1442582			self
+1.2.6.2.5	Progressive_Muscle_Relaxation	UMLS:C0454043	UMLS:C0454043	UMLS:C0454043	Progressive muscle relaxation		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.2.6.2.5	Progressive_Muscle_Relaxation	UMLS:C0454043	UMLS:C0454043	SNOMEDCT:228562009	Progressive muscle relaxation	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.6.2.5	Progressive_Muscle_Relaxation	UMLS:C0454043	UMLS:C0454043	SNOMEDCT:386400004	Progressive muscle relaxation	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.6.3	Biofeedback	UMLS:C0005491	UMLS:C0005491	UMLS:C0005491	Biofeedback		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.2.6.3	Biofeedback	UMLS:C0005491	UMLS:C0005491	LOINC:LA28988-6	Biofeedback	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.6.3	Biofeedback	UMLS:C0005491	UMLS:C0005491	MESH:D001676	Biofeedback	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.6.3	Biofeedback	UMLS:C0005491	UMLS:C0005491	NCIT:C15186	Biofeedback	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.6.3	Biofeedback	UMLS:C0005491	UMLS:C0005491	SNOMEDCT:228566007	Biofeedback	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.6.3	Biofeedback	UMLS:C0005491	UMLS:C0005491	SNOMEDCT:28150003	Biofeedback	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.6.3	Biofeedback	MESH:D001676	UMLS:C0005491	UMLS:C0005491	Biofeedback		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.2.6.3	Biofeedback	MESH:D001676	UMLS:C0005491	LOINC:LA28988-6	Biofeedback	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.6.3	Biofeedback	MESH:D001676	UMLS:C0005491	MESH:D001676	Biofeedback	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.6.3	Biofeedback	MESH:D001676	UMLS:C0005491	NCIT:C15186	Biofeedback	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.6.3	Biofeedback	MESH:D001676	UMLS:C0005491	SNOMEDCT:228566007	Biofeedback	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.6.3	Biofeedback	MESH:D001676	UMLS:C0005491	SNOMEDCT:28150003	Biofeedback	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.6.3.1	Sensory_Feedback	UMLS:C0178842	UMLS:C0178842	UMLS:C0178842	Sensory Feedback		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.2.6.3.1	Sensory_Feedback	UMLS:C0178842	UMLS:C0178842	MESH:D056228	Sensory Feedback	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.6.3.1	Sensory_Feedback	MESH:D056228	UMLS:C0178842	UMLS:C0178842	Sensory Feedback		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.2.6.3.1	Sensory_Feedback	MESH:D056228	UMLS:C0178842	MESH:D056228	Sensory Feedback	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.6.3.2	Neurofeedback	UMLS:C2713543	UMLS:C2713543	UMLS:C2713543	Neurofeedback		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.2.6.3.2	Neurofeedback	UMLS:C2713543	UMLS:C2713543	NCIT:C93302	Neurofeedback	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.6.3.2	Neurofeedback	UMLS:C2713543	UMLS:C2713543	SNOMEDCT:29203007	Neurofeedback	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.6.3.2	Neurofeedback	MESH:D058765	UMLS:C2713542	UMLS:C2713542	Brainwave Biofeedback		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.2.6.3.2	Neurofeedback	MESH:D058765	UMLS:C2713542	MESH:D058765		0.9	combo_crosswalk_from_mrconso.tsv
+1.2.6.4	Exercise_Therapy	UMLS:C4082302	UMLS:C4082302	UMLS:C4082302			self
+1.2.6.4	Exercise_Therapy	UMLS:C4082302	UMLS:C4082302	NCIT:C64896	CAM Exercise Therapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.6.4.1.1	Pilates_Based_Exercise	UMLS:C1720840	UMLS:C1720840	UMLS:C1720840	Pilates-Based Exercises		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.2.6.4.1.1	Pilates_Based_Exercise	UMLS:C1720840	UMLS:C1720840	MESH:D026241	Pilates-Based Exercises	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.6.4.1.2	Tai_Chi	UMLS:C0376403	UMLS:C0376403	UMLS:C0376403	Tai Ji		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.2.6.4.1.2	Tai_Chi	UMLS:C0376403	UMLS:C0376403	MESH:D026302	Tai Ji	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.6.4.1.2	Tai_Chi	UMLS:C0376403	UMLS:C0376403	NCIT:C93099	Tai Ji	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.6.4.1.2	Tai_Chi	UMLS:C0376403	UMLS:C0376403	SNOMEDCT:30900002	Tai Ji	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.6.4.1.2	Tai_Chi	MESH:D026302	UMLS:C0376403	UMLS:C0376403	Tai Ji		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.2.6.4.1.2	Tai_Chi	MESH:D026302	UMLS:C0376403	MESH:D026302	Tai Ji	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.6.4.1.2	Tai_Chi	MESH:D026302	UMLS:C0376403	NCIT:C93099	Tai Ji	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.6.4.1.2	Tai_Chi	MESH:D026302	UMLS:C0376403	SNOMEDCT:30900002	Tai Ji	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.6.4.1.3	Yoga_Therapy	UMLS:C1883583	UMLS:C1883583	UMLS:C1883583	Yoga		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.2.6.4.1.3	Yoga_Therapy	UMLS:C1883583	UMLS:C1883583	MESH:D015013	Yoga	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.6.4.1.3	Yoga_Therapy	UMLS:C1883583	UMLS:C1883583	NCIT:C64897	Yoga	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.6.4.1.3	Yoga_Therapy	UMLS:C1883583	UMLS:C1883583	SNOMEDCT:1259940003	Yoga	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.6.4.1.3	Yoga_Therapy	MESH:D009147	UMLS:C0026868	UMLS:C0026868	Music Therapy		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.2.6.4.1.3	Yoga_Therapy	MESH:D009147	UMLS:C0026868	ICD9CM:93.84	Music Therapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.6.4.1.3	Yoga_Therapy	MESH:D009147	UMLS:C0026868	LOINC:LA33539-0	Music Therapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.6.4.1.3	Yoga_Therapy	MESH:D009147	UMLS:C0026868	MESH:D009147	Music Therapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.6.4.1.3	Yoga_Therapy	MESH:D009147	UMLS:C0026868	NCIT:C67033	Music Therapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.6.4.1.3	Yoga_Therapy	MESH:D009147	UMLS:C0026868	SNOMEDCT:21065008	Music Therapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.6.4.1.4	Qigong_Therapy	UMLS:C0282077	UMLS:C0282077	UMLS:C0282077	Qigong		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.2.6.4.1.4	Qigong_Therapy	UMLS:C0282077	UMLS:C0282077	MESH:D064906	Qigong	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.6.4.1.4	Qigong_Therapy	UMLS:C0282077	UMLS:C0282077	NCIT:C93098	Qigong	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.6.4.1.4	Qigong_Therapy	UMLS:C0282077	UMLS:C0282077	SNOMEDCT:733449008	Qigong	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.6.4.1.4	Qigong_Therapy	MESH:D064906	UMLS:C0282077	UMLS:C0282077	Qigong		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.2.6.4.1.4	Qigong_Therapy	MESH:D064906	UMLS:C0282077	MESH:D064906	Qigong	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.6.4.1.4	Qigong_Therapy	MESH:D064906	UMLS:C0282077	NCIT:C93098	Qigong	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.6.4.1.4	Qigong_Therapy	MESH:D064906	UMLS:C0282077	SNOMEDCT:733449008	Qigong	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.6.4.1.4.2.1	External_Qi_Gong_Therapy	UMLS:C4727539	UMLS:C4727539	UMLS:C4727539			self
+1.2.6.4.1.4.2.1	External_Qi_Gong_Therapy	UMLS:C4727539	UMLS:C4727539	NCIT:C154263	External Qigong Therapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.6.4.2	Dance_Therapy	UMLS:C0010962	UMLS:C0010962	UMLS:C0010962	Dance Therapy		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.2.6.4.2	Dance_Therapy	UMLS:C0010962	UMLS:C0010962	MESH:D003614	Dance Therapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.6.4.2	Dance_Therapy	UMLS:C0010962	UMLS:C0010962	SNOMEDCT:123163006	Dance Therapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.6.4.2	Dance_Therapy	UMLS:C0010962	UMLS:C0010962	SNOMEDCT:69711002	Dance Therapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.6.4.2	Dance_Therapy	MESH:D003614	UMLS:C0010962	UMLS:C0010962	Dance Therapy		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.2.6.4.2	Dance_Therapy	MESH:D003614	UMLS:C0010962	MESH:D003614	Dance Therapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.6.4.2	Dance_Therapy	MESH:D003614	UMLS:C0010962	SNOMEDCT:123163006	Dance Therapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.6.4.2	Dance_Therapy	MESH:D003614	UMLS:C0010962	SNOMEDCT:69711002	Dance Therapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.6.4.3	Aikido	UMLS:C0078912	UMLS:C0078912	UMLS:C0078912	Aikido		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.2.6.4.3	Aikido	UMLS:C0078912	UMLS:C0078912	MESH:D016139	Aikido	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.6.4.3	Aikido	UMLS:C0078912	UMLS:C0078912	SNOMEDCT:75749007	Aikido	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.6.4.5	Facial_Exercise	UMLS:C0454333	UMLS:C0454333	UMLS:C0454333	Facial exercises		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.2.6.4.5	Facial_Exercise	UMLS:C0454333	UMLS:C0454333	SNOMEDCT:229123001	Facial exercises	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.6.5.1	Alexander_Technique	UMLS:C0597812	UMLS:C0597812	UMLS:C0597812	Alexander technique		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.2.6.5.1	Alexander_Technique	UMLS:C0597812	UMLS:C0597812	SNOMEDCT:876850004	Alexander technique	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.6.5.2	Aston_Patterning	UMLS:C0695542	UMLS:C0695542	UMLS:C0695542			self
+1.2.7	Movement_Therapy	UMLS:C0454279	UMLS:C0454279	UMLS:C0454279	Movement therapy		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.2.7	Movement_Therapy	UMLS:C0454279	UMLS:C0454279	SNOMEDCT:229064008	Movement therapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.7.1	Continuous_Passive_Movement_Therapy	UMLS:C0026604	UMLS:C0026604	UMLS:C0026604	Motion Therapy, Continuous Passive		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.2.7.1	Continuous_Passive_Movement_Therapy	UMLS:C0026604	UMLS:C0026604	MESH:D015915	Motion Therapy, Continuous Passive	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.7.1	Continuous_Passive_Movement_Therapy	UMLS:C0026604	UMLS:C0026604	SNOMEDCT:151542007	Motion Therapy, Continuous Passive	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.7.1	Continuous_Passive_Movement_Therapy	UMLS:C0026604	UMLS:C0026604	SNOMEDCT:183316005	Motion Therapy, Continuous Passive	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.7.1	Continuous_Passive_Movement_Therapy	UMLS:C0026604	UMLS:C0026604	SNOMEDCT:229078009	Motion Therapy, Continuous Passive	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.7.1	Continuous_Passive_Movement_Therapy	MESH:D015915	UMLS:C0026604	UMLS:C0026604	Motion Therapy, Continuous Passive		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.2.7.1	Continuous_Passive_Movement_Therapy	MESH:D015915	UMLS:C0026604	MESH:D015915	Motion Therapy, Continuous Passive	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.7.1	Continuous_Passive_Movement_Therapy	MESH:D015915	UMLS:C0026604	SNOMEDCT:151542007	Motion Therapy, Continuous Passive	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.7.1	Continuous_Passive_Movement_Therapy	MESH:D015915	UMLS:C0026604	SNOMEDCT:183316005	Motion Therapy, Continuous Passive	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.7.1	Continuous_Passive_Movement_Therapy	MESH:D015915	UMLS:C0026604	SNOMEDCT:229078009	Motion Therapy, Continuous Passive	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.8	Energy_Based_Therapy	UMLS:C1516875	UMLS:C1516875	UMLS:C1516875	Energy Therapy		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.2.8	Energy_Based_Therapy	UMLS:C1516875	UMLS:C1516875	NCIT:C16206	Energy Therapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.8.1.3	Biofield_Therapy	UMLS:C1511139	UMLS:C1511139	UMLS:C1511139	Biofield Therapy		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.2.8.1.3	Biofield_Therapy	UMLS:C1511139	UMLS:C1511139	NCIT:C15910	Biofield Therapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.8.1.3.1	Reiki_Therapy	UMLS:C0751715	UMLS:C0751715	UMLS:C0751715	Reiki		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.2.8.1.3.1	Reiki_Therapy	UMLS:C0751715	UMLS:C0751715	MESH:D000099302	Reiki	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.8.1.3.1	Reiki_Therapy	UMLS:C0751715	UMLS:C0751715	NCIT:C15728	Reiki	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.8.1.3.1	Reiki_Therapy	UMLS:C0751715	UMLS:C0751715	SNOMEDCT:703884003	Reiki	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.8.1.3.2	Therapeutic_Touch	UMLS:C0152054	UMLS:C0152054	UMLS:C0152054	Therapeutic Touch		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.2.8.1.3.2	Therapeutic_Touch	UMLS:C0152054	UMLS:C0152054	MESH:D019124	Therapeutic Touch	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.8.1.3.2	Therapeutic_Touch	UMLS:C0152054	UMLS:C0152054	NCIT:C15373	Therapeutic Touch	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.8.1.3.2	Therapeutic_Touch	UMLS:C0152054	UMLS:C0152054	SNOMEDCT:386475005	Therapeutic Touch	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.8.1.3.2	Therapeutic_Touch	UMLS:C0152054	UMLS:C0152054	SNOMEDCT:386476006	Therapeutic Touch	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.8.1.3.2	Therapeutic_Touch	MESH:D019124	UMLS:C0152054	UMLS:C0152054	Therapeutic Touch		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.2.8.1.3.2	Therapeutic_Touch	MESH:D019124	UMLS:C0152054	MESH:D019124	Therapeutic Touch	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.8.1.3.2	Therapeutic_Touch	MESH:D019124	UMLS:C0152054	NCIT:C15373	Therapeutic Touch	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.8.1.3.2	Therapeutic_Touch	MESH:D019124	UMLS:C0152054	SNOMEDCT:386475005	Therapeutic Touch	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.8.1.3.2	Therapeutic_Touch	MESH:D019124	UMLS:C0152054	SNOMEDCT:386476006	Therapeutic Touch	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.8.1.3.3	Healing_Touch	UMLS:C1160821	UMLS:C1160821	UMLS:C1160821			self
+1.2.8.1.3.4	Zero_Balancing	UMLS:C0695568	UMLS:C0695568	UMLS:C0695568			self
+1.2.8.1.3.5	Polarity_Therapy	UMLS:C0695573	UMLS:C0695573	UMLS:C0695573			self
+1.2.8.1.4	Color_Therapy	UMLS:C0085102	UMLS:C0085102	UMLS:C0085102	Color Therapy		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.2.8.1.4	Color_Therapy	UMLS:C0085102	UMLS:C0085102	MESH:D016500	Color Therapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.8.1.4	Color_Therapy	MESH:D016500	UMLS:C0085102	UMLS:C0085102	Color Therapy		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.2.8.1.4	Color_Therapy	MESH:D016500	UMLS:C0085102	MESH:D016500	Color Therapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.8.1.5	Crystal_Therapy	UMLS:C0597815	UMLS:C0597815	UMLS:C0597815	crystal healing		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.2.8.1.7	Jin_Shin_Jyutsu	UMLS:C0695525	UMLS:C0695525	UMLS:C0695525			self
+1.2.8.2.1	Bioresonance_Therapy	UMLS:C4042760	UMLS:C4042760	UMLS:C4042760	Bioresonance Therapy		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.2.8.2.1	Bioresonance_Therapy	UMLS:C4042760	UMLS:C4042760	MESH:D066236	Bioresonance Therapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.8.2.1	Bioresonance_Therapy	MESH:D066236	UMLS:C4042760	UMLS:C4042760	Bioresonance Therapy		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.2.8.2.1	Bioresonance_Therapy	MESH:D066236	UMLS:C4042760	MESH:D066236	Bioresonance Therapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.8.2.2	Cranial_Electrical_Stimulation	UMLS:C3899490	UMLS:C3899490	UMLS:C3899490	Cranial Electrical Stimulation		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.2.8.2.2	Cranial_Electrical_Stimulation	UMLS:C3899490	UMLS:C3899490	NCIT:C116561	Cranial Electrical Stimulation	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.8.2.3	Electromagnetic_Based_Therapy	UMLS:C1511136	UMLS:C1511136	UMLS:C1511136	Electromagnetic-Based Therapy		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.2.8.2.3	Electromagnetic_Based_Therapy	UMLS:C1511136	UMLS:C1511136	NCIT:C16207	Electromagnetic-Based Therapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.8.2.3.1	Magnet_Therapy	UMLS:C1881509	UMLS:C1881509	UMLS:C1881509	Magnet Therapy		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.2.8.2.3.1	Magnet_Therapy	UMLS:C1881509	UMLS:C1881509	NCIT:C67034	Magnet Therapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.8.2.3.1.2	Pulsed_Electromagnetic_Fields_Therapy	UMLS:C1882505	UMLS:C1882505	UMLS:C1882505	Pulsed Electromagnetic Fields Therapy		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.2.8.2.3.1.2	Pulsed_Electromagnetic_Fields_Therapy	UMLS:C1882505	UMLS:C1882505	NCIT:C67035	Pulsed Electromagnetic Fields Therapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.8.2.3.1.3	Transcranial_Magnetic_Stimulation	UMLS:C0436548	UMLS:C0436548	UMLS:C0436548	Transcranial magnetic stimulation		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.2.8.2.3.1.3	Transcranial_Magnetic_Stimulation	UMLS:C0436548	UMLS:C0436548	MESH:D050781	Transcranial magnetic stimulation	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.8.2.3.1.3	Transcranial_Magnetic_Stimulation	UMLS:C0436548	UMLS:C0436548	NCIT:C116655	Transcranial magnetic stimulation	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.8.2.3.1.3	Transcranial_Magnetic_Stimulation	UMLS:C0436548	UMLS:C0436548	SNOMEDCT:264603002	Transcranial magnetic stimulation	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.8.2.7	Phototherapy	UMLS:C0031765	UMLS:C0031765	UMLS:C0031765	Phototherapy		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.2.8.2.7	Phototherapy	UMLS:C0031765	UMLS:C0031765	MESH:D010789	Phototherapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.8.2.7	Phototherapy	UMLS:C0031765	UMLS:C0031765	NCIT:C15301	Phototherapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.8.2.7	Phototherapy	UMLS:C0031765	UMLS:C0031765	SNOMEDCT:150903009	Phototherapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.8.2.7	Phototherapy	UMLS:C0031765	UMLS:C0031765	SNOMEDCT:150911004	Phototherapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.8.2.7	Phototherapy	UMLS:C0031765	UMLS:C0031765	SNOMEDCT:182666000	Phototherapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.8.2.7	Phototherapy	UMLS:C0031765	UMLS:C0031765	SNOMEDCT:182672000	Phototherapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.8.2.7	Phototherapy	UMLS:C0031765	UMLS:C0031765	SNOMEDCT:266696001	Phototherapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.8.2.7	Phototherapy	UMLS:C0031765	UMLS:C0031765	SNOMEDCT:266798006	Phototherapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.8.2.7	Phototherapy	UMLS:C0031765	UMLS:C0031765	SNOMEDCT:31394004	Phototherapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.8.2.7	Phototherapy	UMLS:C0031765	UMLS:C0031765	SNOMEDCT:363724006	Phototherapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.8.2.7.1	Ultraviolet_Therapy	UMLS:C0041626	UMLS:C0041626	UMLS:C0041626	Ultraviolet Therapy		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.2.8.2.7.1	Ultraviolet_Therapy	UMLS:C0041626	UMLS:C0041626	ICD9CM:99.82	Ultraviolet Therapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.8.2.7.1	Ultraviolet_Therapy	UMLS:C0041626	UMLS:C0041626	MESH:D014467	Ultraviolet Therapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.8.2.7.1	Ultraviolet_Therapy	UMLS:C0041626	UMLS:C0041626	NCIT:C15344	Ultraviolet Therapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.8.2.7.1	Ultraviolet_Therapy	UMLS:C0041626	UMLS:C0041626	SNOMEDCT:146647002	Ultraviolet Therapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.8.2.7.1	Ultraviolet_Therapy	UMLS:C0041626	UMLS:C0041626	SNOMEDCT:146649004	Ultraviolet Therapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.8.2.7.1	Ultraviolet_Therapy	UMLS:C0041626	UMLS:C0041626	SNOMEDCT:150905002	Ultraviolet Therapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.8.2.7.1	Ultraviolet_Therapy	UMLS:C0041626	UMLS:C0041626	SNOMEDCT:182667009	Ultraviolet Therapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.8.2.7.1	Ultraviolet_Therapy	UMLS:C0041626	UMLS:C0041626	SNOMEDCT:266697005	Ultraviolet Therapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.8.2.7.1	Ultraviolet_Therapy	UMLS:C0041626	UMLS:C0041626	SNOMEDCT:266799003	Ultraviolet Therapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.8.2.7.1	Ultraviolet_Therapy	UMLS:C0041626	UMLS:C0041626	SNOMEDCT:287589006	Ultraviolet Therapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.8.2.7.1	Ultraviolet_Therapy	UMLS:C0041626	UMLS:C0041626	SNOMEDCT:363695005	Ultraviolet Therapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.8.2.7.1	Ultraviolet_Therapy	UMLS:C0041626	UMLS:C0041626	SNOMEDCT:367359007	Ultraviolet Therapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.8.2.7.1	Ultraviolet_Therapy	UMLS:C0041626	UMLS:C0041626	SNOMEDCT:37114000	Ultraviolet Therapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.8.2.7.1	Ultraviolet_Therapy	UMLS:C0041626	UMLS:C0041626	SNOMEDCT:63771003	Ultraviolet Therapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.8.2.7.4	Bright_Light_Therapy	UMLS:C5400760	UMLS:C5400760	UMLS:C5400760	Bright White Light Therapy		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.2.8.2.7.4	Bright_Light_Therapy	UMLS:C5400760	UMLS:C5400760	NCIT:C174524	Bright White Light Therapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.8.2.7.5	Light_Emitting_Diode_Phototherapy	UMLS:C1881345	UMLS:C1881345	UMLS:C1881345	LED Therapy		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.2.8.2.7.5	Light_Emitting_Diode_Phototherapy	UMLS:C1881345	UMLS:C1881345	NCIT:C67341	LED Therapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.8.2.7.12	Low_Level_Laser_Therapy	UMLS:C0279027	UMLS:C0279027	UMLS:C0279027	Laser Therapy, Low-Level		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.2.8.2.7.12	Low_Level_Laser_Therapy	UMLS:C0279027	UMLS:C0279027	MESH:D028022	Laser Therapy, Low-Level	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.8.2.7.12	Low_Level_Laser_Therapy	UMLS:C0279027	UMLS:C0279027	NCIT:C21063	Laser Therapy, Low-Level	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.8.2.7.12	Low_Level_Laser_Therapy	UMLS:C0279027	UMLS:C0279027	SNOMEDCT:229565001	Laser Therapy, Low-Level	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.9	Speleotherapy	UMLS:C2350293	UMLS:C2350293	UMLS:C2350293	Speleotherapy		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.2.9	Speleotherapy	UMLS:C2350293	UMLS:C2350293	MESH:D055161	Speleotherapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.9	Speleotherapy	MESH:D055161	UMLS:C2350293	UMLS:C2350293	Speleotherapy		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.2.9	Speleotherapy	MESH:D055161	UMLS:C2350293	MESH:D055161	Speleotherapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.10	Diffuse_Noxious_Inhibitory_Control	UMLS:C3178784	UMLS:C3178784	UMLS:C3178784	Diffuse Noxious Inhibitory Control		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.2.10	Diffuse_Noxious_Inhibitory_Control	UMLS:C3178784	UMLS:C3178784	MESH:D059328	Diffuse Noxious Inhibitory Control	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.10	Diffuse_Noxious_Inhibitory_Control	MESH:D059328	UMLS:C3178784	UMLS:C3178784	Diffuse Noxious Inhibitory Control		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.2.10	Diffuse_Noxious_Inhibitory_Control	MESH:D059328	UMLS:C3178784	MESH:D059328	Diffuse Noxious Inhibitory Control	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.11	Mesotherapy	UMLS:C2242515	UMLS:C2242515	UMLS:C2242515	Mesotherapy		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.2.11	Mesotherapy	UMLS:C2242515	UMLS:C2242515	MESH:D057748	Mesotherapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.11	Mesotherapy	MESH:D057748	UMLS:C2242515	UMLS:C2242515	Mesotherapy		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.2.11	Mesotherapy	MESH:D057748	UMLS:C2242515	MESH:D057748	Mesotherapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.12	Moxibustion	UMLS:C0026652	UMLS:C0026652	UMLS:C0026652	Moxibustion		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.2.12	Moxibustion	UMLS:C0026652	UMLS:C0026652	MESH:D009071	Moxibustion	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.12	Moxibustion	UMLS:C0026652	UMLS:C0026652	NCIT:C94402	Moxibustion	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.12	Moxibustion	UMLS:C0026652	UMLS:C0026652	SNOMEDCT:31275006	Moxibustion	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.12	Moxibustion	MESH:D009071	UMLS:C0026652	UMLS:C0026652	Moxibustion		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.2.12	Moxibustion	MESH:D009071	UMLS:C0026652	MESH:D009071	Moxibustion	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.12	Moxibustion	MESH:D009071	UMLS:C0026652	NCIT:C94402	Moxibustion	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.12	Moxibustion	MESH:D009071	UMLS:C0026652	SNOMEDCT:31275006	Moxibustion	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.13	Organotherapy	UMLS:C0029257	UMLS:C0029257	UMLS:C0029257	Organotherapy		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.2.13	Organotherapy	UMLS:C0029257	UMLS:C0029257	MESH:D009945	Organotherapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.13	Organotherapy	MESH:D009945	UMLS:C0029257	UMLS:C0029257	Organotherapy		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.2.13	Organotherapy	MESH:D009945	UMLS:C0029257	MESH:D009945	Organotherapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.13.1	Historical_Tissue_Therapy	UMLS:C3658370	UMLS:C3658370	UMLS:C3658370			self
+1.2.13.1	Historical_Tissue_Therapy	MESH:D014023	UMLS:C0524729	UMLS:C0524729	Biogenic Stimulators		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.2.13.1	Historical_Tissue_Therapy	MESH:D014023	UMLS:C0524729	MESH:D014023		0.9	combo_crosswalk_from_mrconso.tsv
+1.2.14	Prolotherapy	UMLS:C0500223	UMLS:C0500223	UMLS:C0500223	Prolotherapy		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.2.14	Prolotherapy	UMLS:C0500223	UMLS:C0500223	MESH:D000075527	Prolotherapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.14	Prolotherapy	UMLS:C0500223	UMLS:C0500223	SNOMEDCT:417047001	Prolotherapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.14	Prolotherapy	MESH:D000075527	UMLS:C0500223	UMLS:C0500223	Prolotherapy		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.2.14	Prolotherapy	MESH:D000075527	UMLS:C0500223	MESH:D000075527	Prolotherapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.14	Prolotherapy	MESH:D000075527	UMLS:C0500223	SNOMEDCT:417047001	Prolotherapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.15	Bodywork_Therapy	UMLS:C0695540	UMLS:C0695540	UMLS:C0695540	Bodywork		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.2.15.2	Cupping_Therapy	UMLS:C5197695	UMLS:C5197695	UMLS:C5197695	Cupping Therapy		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.2.15.2	Cupping_Therapy	UMLS:C5197695	UMLS:C5197695	MESH:D000079742	Cupping Therapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.15.2	Cupping_Therapy	MESH:D000079742	UMLS:C5197695	UMLS:C5197695	Cupping Therapy		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.2.15.2	Cupping_Therapy	MESH:D000079742	UMLS:C5197695	MESH:D000079742	Cupping Therapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.15.3	Dry_Needling	UMLS:C0394648	UMLS:C0394648	UMLS:C0394648	Dry Needling		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.2.15.3	Dry_Needling	UMLS:C0394648	UMLS:C0394648	MESH:D000079245	Dry Needling	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.15.3	Dry_Needling	UMLS:C0394648	UMLS:C0394648	SNOMEDCT:231082000	Dry Needling	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.15.3	Dry_Needling	MESH:D000079245	UMLS:C0394648	UMLS:C0394648	Dry Needling		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.2.15.3	Dry_Needling	MESH:D000079245	UMLS:C0394648	MESH:D000079245	Dry Needling	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.15.3	Dry_Needling	MESH:D000079245	UMLS:C0394648	SNOMEDCT:231082000	Dry Needling	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.15.4	Bowen_Therapy	UMLS:C0695553	UMLS:C0695553	UMLS:C0695553			self
+1.2.15.5	Manual_Therapy	UMLS:C0454525	UMLS:C0454525	UMLS:C0454525	Manual Therapies		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.2.15.5	Manual_Therapy	UMLS:C0454525	UMLS:C0454525	NCIT:C153321	Manual Therapies	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.15.5	Manual_Therapy	UMLS:C0454525	UMLS:C0454525	SNOMEDCT:229315006	Manual Therapies	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.15.5.1	Musculoskeletal_Manipulation	UMLS:C0949741	UMLS:C0949741	UMLS:C0949741	Musculoskeletal Manipulations		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.2.15.5.1	Musculoskeletal_Manipulation	MESH:D026201	UMLS:C0034945	UMLS:C0034945	Reflexology		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.2.15.5.1	Musculoskeletal_Manipulation	MESH:D026201	UMLS:C0034945	MESH:D026201	Reflexology	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.15.5.1	Musculoskeletal_Manipulation	MESH:D026201	UMLS:C0034945	NCIT:C162743	Reflexology	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.15.5.1	Musculoskeletal_Manipulation	MESH:D026201	UMLS:C0034945	SNOMEDCT:394614006	Reflexology	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.15.5.1.1	Chiropractic_Therapy	UMLS:C0344217	UMLS:C0344217	UMLS:C0344217	Chiropractic procedure		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.2.15.5.1.1	Chiropractic_Therapy	UMLS:C0344217	UMLS:C0344217	LOINC:LA33531-7	Chiropractic procedure	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.15.5.1.1	Chiropractic_Therapy	UMLS:C0344217	UMLS:C0344217	NCIT:C15204	Chiropractic procedure	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.15.5.1.1	Chiropractic_Therapy	UMLS:C0344217	UMLS:C0344217	SNOMEDCT:150703001	Chiropractic procedure	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.15.5.1.1	Chiropractic_Therapy	UMLS:C0344217	UMLS:C0344217	SNOMEDCT:182548004	Chiropractic procedure	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.15.5.1.1.1	Chiropractic_Manipulation	UMLS:C0600577	UMLS:C0600577	UMLS:C0600577	Chiropractic manipulation		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.2.15.5.1.1.1	Chiropractic_Manipulation	UMLS:C0600577	UMLS:C0600577	MESH:D026882	Chiropractic manipulation	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.15.5.1.1.1	Chiropractic_Manipulation	UMLS:C0600577	UMLS:C0600577	SNOMEDCT:46947000	Chiropractic manipulation	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.15.5.1.1.1	Chiropractic_Manipulation	MESH:D026882	UMLS:C0600577	UMLS:C0600577	Chiropractic manipulation		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.2.15.5.1.1.1	Chiropractic_Manipulation	MESH:D026882	UMLS:C0600577	MESH:D026882	Chiropractic manipulation	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.15.5.1.1.1	Chiropractic_Manipulation	MESH:D026882	UMLS:C0600577	SNOMEDCT:46947000	Chiropractic manipulation	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.15.5.1.2	Applied_Kinesiology	UMLS:C0282567	UMLS:C0282567	UMLS:C0282567			self
+1.2.15.5.1.2	Applied_Kinesiology	UMLS:C0282567	UMLS:C0282567	MESH:D018953	Kinesiology, Applied	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.15.5.1.2	Applied_Kinesiology	MESH:D018953	UMLS:C0282567	UMLS:C0282567			self
+1.2.15.5.1.2	Applied_Kinesiology	MESH:D018953	UMLS:C0282567	MESH:D018953	Kinesiology, Applied	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.15.5.1.3	Orthopedic_Manipulation	UMLS:C0024725	UMLS:C0024725	UMLS:C0024725	Manipulation, Orthopedic		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.2.15.5.1.3	Orthopedic_Manipulation	UMLS:C0024725	UMLS:C0024725	MESH:D008349	Manipulation, Orthopedic	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.15.5.1.3	Orthopedic_Manipulation	MESH:D008349	UMLS:C0024725	UMLS:C0024725	Manipulation, Orthopedic		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.2.15.5.1.3	Orthopedic_Manipulation	MESH:D008349	UMLS:C0024725	MESH:D008349	Manipulation, Orthopedic	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.15.5.1.4	Osteopathic_Manipulation	UMLS:C0949744	UMLS:C0949744	UMLS:C0949744	Osteopathic manipulation (procedure)		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.2.15.5.1.4	Osteopathic_Manipulation	UMLS:C0949744	UMLS:C0949744	ICD9CM:93.6	Osteopathic manipulation (procedure)	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.15.5.1.4	Osteopathic_Manipulation	UMLS:C0949744	UMLS:C0949744	MESH:D026301	Osteopathic manipulation (procedure)	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.15.5.1.4	Osteopathic_Manipulation	UMLS:C0949744	UMLS:C0949744	NCIT:C189763	Osteopathic manipulation (procedure)	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.15.5.1.4	Osteopathic_Manipulation	UMLS:C0949744	UMLS:C0949744	SNOMEDCT:150705008	Osteopathic manipulation (procedure)	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.15.5.1.4	Osteopathic_Manipulation	UMLS:C0949744	UMLS:C0949744	SNOMEDCT:16992002	Osteopathic manipulation (procedure)	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.15.5.1.4	Osteopathic_Manipulation	MESH:D026301	UMLS:C0949744	UMLS:C0949744	Osteopathic manipulation (procedure)		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.2.15.5.1.4	Osteopathic_Manipulation	MESH:D026301	UMLS:C0949744	ICD9CM:93.6	Osteopathic manipulation (procedure)	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.15.5.1.4	Osteopathic_Manipulation	MESH:D026301	UMLS:C0949744	MESH:D026301	Osteopathic manipulation (procedure)	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.15.5.1.4	Osteopathic_Manipulation	MESH:D026301	UMLS:C0949744	NCIT:C189763	Osteopathic manipulation (procedure)	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.15.5.1.4	Osteopathic_Manipulation	MESH:D026301	UMLS:C0949744	SNOMEDCT:150705008	Osteopathic manipulation (procedure)	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.15.5.1.4	Osteopathic_Manipulation	MESH:D026301	UMLS:C0949744	SNOMEDCT:16992002	Osteopathic manipulation (procedure)	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.15.5.1.5	Spinal_Manipulation	UMLS:C0086586	UMLS:C0086586	UMLS:C0086586	Manipulation of spine		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.2.15.5.1.5	Spinal_Manipulation	UMLS:C0086586	UMLS:C0086586	MESH:D020393	Manipulation of spine	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.15.5.1.5	Spinal_Manipulation	UMLS:C0086586	UMLS:C0086586	SNOMEDCT:178809009	Manipulation of spine	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.15.5.1.5	Spinal_Manipulation	UMLS:C0086586	UMLS:C0086586	SNOMEDCT:44275008	Manipulation of spine	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.15.5.1.5	Spinal_Manipulation	MESH:D020393	UMLS:C0086586	UMLS:C0086586	Manipulation of spine		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.2.15.5.1.5	Spinal_Manipulation	MESH:D020393	UMLS:C0086586	MESH:D020393	Manipulation of spine	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.15.5.1.5	Spinal_Manipulation	MESH:D020393	UMLS:C0086586	SNOMEDCT:178809009	Manipulation of spine	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.15.5.1.5	Spinal_Manipulation	MESH:D020393	UMLS:C0086586	SNOMEDCT:44275008	Manipulation of spine	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.15.5.2	Mobilization	UMLS:C0185112	UMLS:C0185112	UMLS:C0185112	Mobilization (procedure)		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.2.15.5.2	Mobilization	UMLS:C0185112	UMLS:C0185112	SNOMEDCT:151611009	Mobilization (procedure)	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.15.5.2	Mobilization	UMLS:C0185112	UMLS:C0185112	SNOMEDCT:183376001	Mobilization (procedure)	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.15.5.2	Mobilization	UMLS:C0185112	UMLS:C0185112	SNOMEDCT:74923002	Mobilization (procedure)	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.15.5.3	Soft_Tissue_Therapy	UMLS:C3658309	UMLS:C3658309	UMLS:C3658309	Therapy, Soft Tissue		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.2.15.5.3	Soft_Tissue_Therapy	UMLS:C3658309	UMLS:C3658309	MESH:D064746	Therapy, Soft Tissue	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.15.5.3	Soft_Tissue_Therapy	MESH:D064746	UMLS:C3658309	UMLS:C3658309	Therapy, Soft Tissue		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.2.15.5.3	Soft_Tissue_Therapy	MESH:D064746	UMLS:C3658309	MESH:D064746	Therapy, Soft Tissue	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.15.5.3.1	Acupressure_Therapy	UMLS:C0282614	UMLS:C0282614	UMLS:C0282614	Acupressure (regime/therapy)		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.2.15.5.3.1	Acupressure_Therapy	UMLS:C0282614	UMLS:C0282614	LOINC:LA33528-3	Acupressure (regime/therapy)	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.15.5.3.1	Acupressure_Therapy	UMLS:C0282614	UMLS:C0282614	MESH:D019050	Acupressure (regime/therapy)	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.15.5.3.1	Acupressure_Therapy	UMLS:C0282614	UMLS:C0282614	NCIT:C15606	Acupressure (regime/therapy)	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.15.5.3.1	Acupressure_Therapy	UMLS:C0282614	UMLS:C0282614	SNOMEDCT:231107005	Acupressure (regime/therapy)	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.15.5.3.1	Acupressure_Therapy	MESH:D019050	UMLS:C0282614	UMLS:C0282614	Acupressure (regime/therapy)		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.2.15.5.3.1	Acupressure_Therapy	MESH:D019050	UMLS:C0282614	LOINC:LA33528-3	Acupressure (regime/therapy)	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.15.5.3.1	Acupressure_Therapy	MESH:D019050	UMLS:C0282614	MESH:D019050	Acupressure (regime/therapy)	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.15.5.3.1	Acupressure_Therapy	MESH:D019050	UMLS:C0282614	NCIT:C15606	Acupressure (regime/therapy)	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.15.5.3.1	Acupressure_Therapy	MESH:D019050	UMLS:C0282614	SNOMEDCT:231107005	Acupressure (regime/therapy)	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.15.5.3.3	Myotherapy	UMLS:C0695601	UMLS:C0695601	UMLS:C0695601			self
+1.2.15.5.3.4	Soft_Tissue_Mobilization	UMLS:C0686940	UMLS:C0686940	UMLS:C0686940	Soft tissue mobilization		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.2.15.5.3.4	Soft_Tissue_Mobilization	UMLS:C0686940	UMLS:C0686940	SNOMEDCT:105379007	Soft tissue mobilization	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.15.5.3.5	Naprapathy	UMLS:C1735870	UMLS:C1735870	UMLS:C1735870			self
+1.2.15.5.3.6	Massage_Therapy	UMLS:C3536731	UMLS:C3536731	UMLS:C3536731	Massage Therapy		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.2.15.5.3.6	Massage_Therapy	UMLS:C3536731	UMLS:C3536731	NCIT:C15276	Massage Therapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.15.5.3.6	Massage_Therapy	UMLS:C3536731	UMLS:C3536731	SNOMEDCT:387854002	Massage Therapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.15.5.3.6	Massage_Therapy	UMLS:C3536731	UMLS:C3536731	SNOMEDCT:43670004	Massage Therapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.15.5.3.6	Massage_Therapy	MESH:D008405	UMLS:C0024875	UMLS:C0024875	Massage		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.2.15.5.3.6	Massage_Therapy	MESH:D008405	UMLS:C0024875	LOINC:LA25338-7		0.9	combo_crosswalk_from_mrconso.tsv
+1.2.15.5.3.6	Massage_Therapy	MESH:D008405	UMLS:C0024875	MESH:D008405		0.9	combo_crosswalk_from_mrconso.tsv
+1.2.15.5.3.6	Massage_Therapy	MESH:D008405	UMLS:C0024875	SNOMEDCT:150827007		0.9	combo_crosswalk_from_mrconso.tsv
+1.2.15.5.3.6	Massage_Therapy	MESH:D008405	UMLS:C0024875	SNOMEDCT:150830000		0.9	combo_crosswalk_from_mrconso.tsv
+1.2.15.5.3.6	Massage_Therapy	MESH:D008405	UMLS:C0024875	SNOMEDCT:151546005		0.9	combo_crosswalk_from_mrconso.tsv
+1.2.15.5.3.6	Massage_Therapy	MESH:D008405	UMLS:C0024875	SNOMEDCT:182613003		0.9	combo_crosswalk_from_mrconso.tsv
+1.2.15.5.3.6.1	Therapeutic_Massage	UMLS:C2584291	UMLS:C2584291	UMLS:C2584291	Therapeutic Massage		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.2.15.5.3.6.1.1	Manual_Lymphatic_Drainage	UMLS:C0556834	UMLS:C0556834	UMLS:C0556834	Manual Lymphatic Drainage		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.2.15.5.3.6.1.1	Manual_Lymphatic_Drainage	UMLS:C0556834	UMLS:C0556834	LOINC:LA29071-0	Manual Lymphatic Drainage	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.15.5.3.6.1.1	Manual_Lymphatic_Drainage	UMLS:C0556834	UMLS:C0556834	MESH:D000073297	Manual Lymphatic Drainage	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.15.5.3.6.1.1	Manual_Lymphatic_Drainage	UMLS:C0556834	UMLS:C0556834	SNOMEDCT:229487007	Manual Lymphatic Drainage	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.15.5.3.6.1.1	Manual_Lymphatic_Drainage	MESH:D000073297	UMLS:C0556834	UMLS:C0556834	Manual Lymphatic Drainage		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.2.15.5.3.6.1.1	Manual_Lymphatic_Drainage	MESH:D000073297	UMLS:C0556834	LOINC:LA29071-0	Manual Lymphatic Drainage	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.15.5.3.6.1.1	Manual_Lymphatic_Drainage	MESH:D000073297	UMLS:C0556834	MESH:D000073297	Manual Lymphatic Drainage	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.15.5.3.6.1.1	Manual_Lymphatic_Drainage	MESH:D000073297	UMLS:C0556834	SNOMEDCT:229487007	Manual Lymphatic Drainage	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.15.5.3.6.1.2	Myofascial_Release_Therapy	UMLS:C0695600	UMLS:C0695600	UMLS:C0695600	Myofascial release		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.2.15.5.3.6.1.2	Myofascial_Release_Therapy	UMLS:C0695600	UMLS:C0695600	MESH:D000089803	Myofascial release	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.15.5.3.6.1.2	Myofascial_Release_Therapy	UMLS:C0695600	UMLS:C0695600	SNOMEDCT:404939002	Myofascial release	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.15.5.3.6.1.2	Myofascial_Release_Therapy	MESH:D000089803	UMLS:C0695600	UMLS:C0695600	Myofascial release		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.2.15.5.3.6.1.2	Myofascial_Release_Therapy	MESH:D000089803	UMLS:C0695600	MESH:D000089803	Myofascial release	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.15.5.3.6.1.2	Myofascial_Release_Therapy	MESH:D000089803	UMLS:C0695600	SNOMEDCT:404939002	Myofascial release	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.15.5.3.6.1.3	Deep_Tissue_Massage	UMLS:C2080787	UMLS:C2080787	UMLS:C2080787			self
+1.2.15.5.3.6.1.3.1	Deep_Transverse_Friction_Massage	UMLS:C0556841	UMLS:C0556841	UMLS:C0556841	Deep transverse frictions		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.2.15.5.3.6.1.3.1	Deep_Transverse_Friction_Massage	UMLS:C0556841	UMLS:C0556841	SNOMEDCT:229496007	Deep transverse frictions	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.15.5.3.6.1.4	Connective_Tissue_Massage	UMLS:C0556845	UMLS:C0556845	UMLS:C0556845	Connective tissue massage		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.2.15.5.3.6.1.4	Connective_Tissue_Massage	UMLS:C0556845	UMLS:C0556845	SNOMEDCT:229500009	Connective tissue massage	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.15.5.3.6.1.9	Prostate_Massage	UMLS:C5780154	UMLS:C5780154	UMLS:C5780154			self
+1.2.15.5.3.6.1.10	Infant_Massage	UMLS:C0695595	UMLS:C0695595	UMLS:C0695595	Infant massage		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.2.15.5.3.6.1.10	Infant_Massage	UMLS:C0695595	UMLS:C0695595	SNOMEDCT:406147003	Infant massage	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.15.5.3.6.1.11	Sport_Massage	UMLS:C0695615	UMLS:C0695615	UMLS:C0695615			self
+1.2.15.5.3.6.1.14	Ice_Massage	UMLS:C0695940	UMLS:C0695940	UMLS:C0695940			self
+1.2.15.5.3.6.2	Oriental_Massage	UMLS:C0884467	UMLS:C0884467	UMLS:C0884467			self
+1.2.15.5.3.6.2.1.1	Tui_Na	UMLS:C0695530	UMLS:C0695530	UMLS:C0695530	Tui Na		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.2.15.5.3.6.2.1.1	Tui_Na	UMLS:C0695530	UMLS:C0695530	NCIT:C94252	Tui Na	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.15.5.3.6.2.1.2	Acupoint_Massage	UMLS:C5577716	UMLS:C5577716	UMLS:C5577716			self
+1.2.15.5.3.6.2.4	Thai_Massage	UMLS:C0695563	UMLS:C0695563	UMLS:C0695563	Thai massage each 15 minutes		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.2.15.5.3.6.2.5	Shiatsu_Therapy	UMLS:C0973228	UMLS:C0973228	UMLS:C0973228	Shiatsu		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.2.15.5.3.6.2.5	Shiatsu_Therapy	UMLS:C0973228	UMLS:C0973228	SNOMEDCT:398139005	Shiatsu	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.15.5.3.6.2.5	Shiatsu_Therapy	UMLS:C0973228	UMLS:C0973228	SNOMEDCT:439822002	Shiatsu	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.15.5.3.6.3	Indian_Head_Massage	UMLS:C2586182	UMLS:C2586182	UMLS:C2586182			self
+1.2.15.5.3.6.3	Indian_Head_Massage	UMLS:C2586182	UMLS:C2586182	SNOMEDCT:440406003	Indian head massage	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.15.5.3.6.5	Hand_Massage	UMLS:C5968212	UMLS:C5968212	UMLS:C5968212			self
+1.2.15.5.3.6.5	Hand_Massage	UMLS:C5968212	UMLS:C5968212	SNOMEDCT:57521000087108	Hand massage	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.15.5.3.6.6	Abdominal_Massage	UMLS:C2316341	UMLS:C2316341	UMLS:C2316341	Massage of abdomen		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.2.15.5.3.6.6	Abdominal_Massage	UMLS:C2316341	UMLS:C2316341	SNOMEDCT:432085004	Massage of abdomen	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.15.5.3.6.7	Aromatherapy_Massage	UMLS:C2585844	UMLS:C2585844	UMLS:C2585844	Aromatherapy massage		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.2.15.5.3.6.7	Aromatherapy_Massage	UMLS:C2585844	UMLS:C2585844	NCIT:C93320	Aromatherapy massage	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.15.5.3.6.7	Aromatherapy_Massage	UMLS:C2585844	UMLS:C2585844	SNOMEDCT:440240000	Aromatherapy massage	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.15.5.3.6.8	Hot_Stone_Massage	UMLS:C2919709	UMLS:C2919709	UMLS:C2919709			self
+1.2.15.5.3.6.8	Hot_Stone_Massage	UMLS:C2919709	UMLS:C2919709	SNOMEDCT:444934009	Hot stone massage	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.15.5.3.6.9	Chair_Massage	UMLS:C1160824	UMLS:C1160824	UMLS:C1160824	chair massage		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.2.15.5.3.6.13.1	Silicone_Oil_Massage	UMLS:C0556847	UMLS:C0556847	UMLS:C0556847			self
+1.2.15.5.3.6.13.1	Silicone_Oil_Massage	UMLS:C0556847	UMLS:C0556847	SNOMEDCT:229502001	Silicone oil massage	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.15.5.3.6.14	Swedish_Massage	UMLS:C2945661	UMLS:C2945661	UMLS:C2945661	swedish massage		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.2.15.5.3.6.15	Soft_Tissue_Massage	UMLS:C0556852	UMLS:C0556852	UMLS:C0556852	Soft tissue massage		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.2.15.5.3.6.15	Soft_Tissue_Massage	UMLS:C0556852	UMLS:C0556852	SNOMEDCT:229507007	Soft tissue massage	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.15.5.3.7	Rolfing_Theray	UMLS:C0949353	UMLS:C0949353	UMLS:C0949353	Rolfing		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.2.15.5.3.7	Rolfing_Theray	UMLS:C0949353	UMLS:C0949353	NCIT:C21125	Rolfing	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.15.5.3.8	Hellerwork	UMLS:C0695552	UMLS:C0695552	UMLS:C0695552			self
+1.2.15.5.4	Craniosacral_Therapy	UMLS:C1321058	UMLS:C1321058	UMLS:C1321058	Craniosacral therapy		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.2.15.5.4	Craniosacral_Therapy	UMLS:C1321058	UMLS:C1321058	SNOMEDCT:404938005	Craniosacral therapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.16.1	Balneotherapy	UMLS:C0085867	UMLS:C0085867	UMLS:C0085867	Balneotherapy		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.2.16.1	Balneotherapy	UMLS:C0085867	UMLS:C0085867	MESH:D001452	Balneotherapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.16.2	Hydrotherapy	UMLS:C0020311	UMLS:C0020311	UMLS:C0020311	Hydrotherapy		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.2.16.2	Hydrotherapy	UMLS:C0020311	UMLS:C0020311	LOINC:LA29051-2	Hydrotherapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.16.2	Hydrotherapy	UMLS:C0020311	UMLS:C0020311	MESH:D006875	Hydrotherapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.16.2	Hydrotherapy	UMLS:C0020311	UMLS:C0020311	SNOMEDCT:150840002	Hydrotherapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.16.2	Hydrotherapy	UMLS:C0020311	UMLS:C0020311	SNOMEDCT:150844006	Hydrotherapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.16.2	Hydrotherapy	UMLS:C0020311	UMLS:C0020311	SNOMEDCT:182626004	Hydrotherapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.16.2	Hydrotherapy	UMLS:C0020311	UMLS:C0020311	SNOMEDCT:46903006	Hydrotherapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.16.2.1	Aquatic_Therapy	UMLS:C5544506	UMLS:C5544506	UMLS:C5544506	Aquatic Therapy		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.2.16.2.1	Aquatic_Therapy	UMLS:C5544506	UMLS:C5544506	MESH:D000088543	Aquatic Therapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.16.2.2	Application_of_Ice_Pack	UMLS:C0851189	UMLS:C0851189	UMLS:C0851189	Application of ice packs		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.2.17	Thermal_Therapy	UMLS:C0454527	UMLS:C0454527	UMLS:C0454527	Thermal techniques		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.2.17	Thermal_Therapy	UMLS:C0454527	UMLS:C0454527	SNOMEDCT:229569007	Thermal techniques	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.17.1	Cold_Therapy	UMLS:C0010412	UMLS:C0010412	UMLS:C0010412	Cold Therapy		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.2.17.1	Cold_Therapy	UMLS:C0010412	UMLS:C0010412	LOINC:LA25341-1	Cold Therapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.17.1	Cold_Therapy	UMLS:C0010412	UMLS:C0010412	MESH:D017679	Cold Therapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.17.1	Cold_Therapy	UMLS:C0010412	UMLS:C0010412	NCIT:C21118	Cold Therapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.17.1	Cold_Therapy	UMLS:C0010412	UMLS:C0010412	SNOMEDCT:150897000	Cold Therapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.17.1	Cold_Therapy	UMLS:C0010412	UMLS:C0010412	SNOMEDCT:150902004	Cold Therapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.17.1	Cold_Therapy	UMLS:C0010412	UMLS:C0010412	SNOMEDCT:182660006	Cold Therapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.17.1	Cold_Therapy	UMLS:C0010412	UMLS:C0010412	SNOMEDCT:182665001	Cold Therapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.17.2.1	Hot_Compress_Therapy	UMLS:C1112508	UMLS:C1112508	UMLS:C1112508	Hot compress therapy		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.2.18	Colon_Irrigation	UMLS:C0400138	UMLS:C0400138	UMLS:C0400138	Irrigation of colon		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.2.18	Colon_Irrigation	UMLS:C0400138	UMLS:C0400138	SNOMEDCT:174228003	Irrigation of colon	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.20	Shirodhara_Therapy	UMLS:C0884710	UMLS:C0884710	UMLS:C0884710			self
+1.2.21	Ultrasonic_Therapy	UMLS:C0041620	UMLS:C0041620	UMLS:C0041620	Ultrasonic Therapy		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.2.21	Ultrasonic_Therapy	UMLS:C0041620	UMLS:C0041620	ICD9CM:00.0	Ultrasonic Therapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.21	Ultrasonic_Therapy	UMLS:C0041620	UMLS:C0041620	MESH:D014464	Ultrasonic Therapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.21	Ultrasonic_Therapy	UMLS:C0041620	UMLS:C0041620	NCIT:C28003	Ultrasonic Therapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.21	Ultrasonic_Therapy	UMLS:C0041620	UMLS:C0041620	SNOMEDCT:146668001	Ultrasonic Therapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.21	Ultrasonic_Therapy	UMLS:C0041620	UMLS:C0041620	SNOMEDCT:146676004	Ultrasonic Therapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.21	Ultrasonic_Therapy	UMLS:C0041620	UMLS:C0041620	SNOMEDCT:169440002	Ultrasonic Therapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.21	Ultrasonic_Therapy	UMLS:C0041620	UMLS:C0041620	SNOMEDCT:89002000	Ultrasonic Therapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.2.22.1	Local_Vibration_Therapy	UMLS:C5237316	UMLS:C5237316	UMLS:C5237316			self
+1.2.22.1	Local_Vibration_Therapy	UMLS:C5237316	UMLS:C5237316	NCIT:C165620	Localized Vibration Therapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.3.2	Animal_Assisted_Therapy	UMLS:C0150133	UMLS:C0150133	UMLS:C0150133	Animal Assisted Therapy		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.3.2	Animal_Assisted_Therapy	UMLS:C0150133	UMLS:C0150133	MESH:D056447	Animal Assisted Therapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.3.2	Animal_Assisted_Therapy	UMLS:C0150133	UMLS:C0150133	NCIT:C64868	Animal Assisted Therapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.3.2	Animal_Assisted_Therapy	UMLS:C0150133	UMLS:C0150133	SNOMEDCT:386515000	Animal Assisted Therapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.3.2.1	Equine_Assisted_Therapy	UMLS:C2717786	UMLS:C2717786	UMLS:C2717786	Equine-Assisted Therapy		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.3.2.1.1.2	Hippotherapy	UMLS:C0454416	UMLS:C0454416	UMLS:C0454416	Hippotherapy		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.3.2.1.1.2	Hippotherapy	UMLS:C0454416	UMLS:C0454416	MESH:D056147	Hippotherapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.3.2.1.1.2	Hippotherapy	UMLS:C0454416	UMLS:C0454416	SNOMEDCT:229210004	Hippotherapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.3.2.3	Animal_Visitation	UMLS:C0810709	UMLS:C0810709	UMLS:C0810709			self
+1.3.3	Psychodrama	UMLS:C0033889	UMLS:C0033889	UMLS:C0033889	Psychodrama		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.3.3	Psychodrama	UMLS:C0033889	UMLS:C0033889	ICD9CM:94.43	Psychodrama	0.9	combo_crosswalk_from_mrconso.tsv
+1.3.3	Psychodrama	UMLS:C0033889	UMLS:C0033889	MESH:D011577	Psychodrama	0.9	combo_crosswalk_from_mrconso.tsv
+1.3.3	Psychodrama	UMLS:C0033889	UMLS:C0033889	SNOMEDCT:53508008	Psychodrama	0.9	combo_crosswalk_from_mrconso.tsv
+1.3.3	Psychodrama	MESH:D011577	UMLS:C0033889	UMLS:C0033889	Psychodrama		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.3.3	Psychodrama	MESH:D011577	UMLS:C0033889	ICD9CM:94.43	Psychodrama	0.9	combo_crosswalk_from_mrconso.tsv
+1.3.3	Psychodrama	MESH:D011577	UMLS:C0033889	MESH:D011577	Psychodrama	0.9	combo_crosswalk_from_mrconso.tsv
+1.3.3	Psychodrama	MESH:D011577	UMLS:C0033889	SNOMEDCT:53508008	Psychodrama	0.9	combo_crosswalk_from_mrconso.tsv
+1.3.3.1	Role_Playing	UMLS:C0035822	UMLS:C0035822	UMLS:C0035822	Role play technique		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.3.3.1	Role_Playing	UMLS:C0035822	UMLS:C0035822	MESH:D012381	Role play technique	0.9	combo_crosswalk_from_mrconso.tsv
+1.3.3.1	Role_Playing	UMLS:C0035822	UMLS:C0035822	SNOMEDCT:228585005	Role play technique	0.9	combo_crosswalk_from_mrconso.tsv
+1.3.3.1	Role_Playing	MESH:D012381	UMLS:C0035822	UMLS:C0035822	Role play technique		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.3.3.1	Role_Playing	MESH:D012381	UMLS:C0035822	MESH:D012381	Role play technique	0.9	combo_crosswalk_from_mrconso.tsv
+1.3.3.1	Role_Playing	MESH:D012381	UMLS:C0035822	SNOMEDCT:228585005	Role play technique	0.9	combo_crosswalk_from_mrconso.tsv
+1.3.4	Sensory_Art_Therapy	UMLS:C0969699	UMLS:C0969699	UMLS:C0969699	Sensory Art Therapies		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.3.4	Sensory_Art_Therapy	UMLS:C0969699	UMLS:C0969699	MESH:D026421	Sensory Art Therapies	0.9	combo_crosswalk_from_mrconso.tsv
+1.3.4	Sensory_Art_Therapy	MESH:D026421	UMLS:C0969699	UMLS:C0969699	Sensory Art Therapies		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.3.4	Sensory_Art_Therapy	MESH:D026421	UMLS:C0969699	MESH:D026421	Sensory Art Therapies	0.9	combo_crosswalk_from_mrconso.tsv
+1.3.4.2	Acoustic_Stimulation	UMLS:C0001164	UMLS:C0001164	UMLS:C0001164	Acoustic Stimulation		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.3.4.2	Acoustic_Stimulation	UMLS:C0001164	UMLS:C0001164	MESH:D000161	Acoustic Stimulation	0.9	combo_crosswalk_from_mrconso.tsv
+1.3.4.2	Acoustic_Stimulation	MESH:D000161	UMLS:C0001164	UMLS:C0001164	Acoustic Stimulation		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.3.4.2	Acoustic_Stimulation	MESH:D000161	UMLS:C0001164	MESH:D000161	Acoustic Stimulation	0.9	combo_crosswalk_from_mrconso.tsv
+1.3.4.3	Aromatherapy	UMLS:C0376547	UMLS:C0376547	UMLS:C0376547	Aromatherapy		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.3.4.3	Aromatherapy	UMLS:C0376547	UMLS:C0376547	LOINC:LA25339-5	Aromatherapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.3.4.3	Aromatherapy	UMLS:C0376547	UMLS:C0376547	MESH:D019341	Aromatherapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.3.4.3	Aromatherapy	UMLS:C0376547	UMLS:C0376547	SNOMEDCT:394615007	Aromatherapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.3.4.3	Aromatherapy	MESH:D019341	UMLS:C0376547	UMLS:C0376547	Aromatherapy		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.3.4.3	Aromatherapy	MESH:D019341	UMLS:C0376547	LOINC:LA25339-5	Aromatherapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.3.4.3	Aromatherapy	MESH:D019341	UMLS:C0376547	MESH:D019341	Aromatherapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.3.4.3	Aromatherapy	MESH:D019341	UMLS:C0376547	SNOMEDCT:394615007	Aromatherapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.3.4.4	Play_Therapy	UMLS:C0032216	UMLS:C0032216	UMLS:C0032216	Play Therapy		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.3.4.4	Play_Therapy	UMLS:C0032216	UMLS:C0032216	ICD9CM:94.36	Play Therapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.3.4.4	Play_Therapy	UMLS:C0032216	UMLS:C0032216	MESH:D010989	Play Therapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.3.4.4	Play_Therapy	UMLS:C0032216	UMLS:C0032216	SNOMEDCT:151561006	Play Therapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.3.4.4	Play_Therapy	UMLS:C0032216	UMLS:C0032216	SNOMEDCT:72101003	Play Therapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.3.4.4	Play_Therapy	UMLS:C0032216	UMLS:C0032216	SNOMEDCT:76075007	Play Therapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.3.4.4	Play_Therapy	MESH:D010989	UMLS:C0032216	UMLS:C0032216	Play Therapy		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.3.4.4	Play_Therapy	MESH:D010989	UMLS:C0032216	ICD9CM:94.36	Play Therapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.3.4.4	Play_Therapy	MESH:D010989	UMLS:C0032216	MESH:D010989	Play Therapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.3.4.4	Play_Therapy	MESH:D010989	UMLS:C0032216	SNOMEDCT:151561006	Play Therapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.3.4.4	Play_Therapy	MESH:D010989	UMLS:C0032216	SNOMEDCT:72101003	Play Therapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.3.4.4	Play_Therapy	MESH:D010989	UMLS:C0032216	SNOMEDCT:76075007	Play Therapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.3.4.5.4	Journaling	UMLS:C2316067	UMLS:C2316067	UMLS:C2316067	Journaling		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.3.4.5.4	Journaling	UMLS:C2316067	UMLS:C2316067	SNOMEDCT:433497004	Journaling	0.9	combo_crosswalk_from_mrconso.tsv
+1.3.5	Hypnosis	UMLS:C3888013	UMLS:C3888013	UMLS:C3888013			self
+1.3.5	Hypnosis	MESH:D006990	UMLS:C0020587	UMLS:C0020587	Hypnotherapy		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.3.5	Hypnosis	MESH:D006990	UMLS:C0020587	ICD9CM:94.32		0.9	combo_crosswalk_from_mrconso.tsv
+1.3.5	Hypnosis	MESH:D006990	UMLS:C0020587	LOINC:LA33537-4		0.9	combo_crosswalk_from_mrconso.tsv
+1.3.5	Hypnosis	MESH:D006990	UMLS:C0020587	MESH:D006990		0.9	combo_crosswalk_from_mrconso.tsv
+1.3.5	Hypnosis	MESH:D006990	UMLS:C0020587	NCIT:C15420		0.9	combo_crosswalk_from_mrconso.tsv
+1.3.5	Hypnosis	MESH:D006990	UMLS:C0020587	SNOMEDCT:151644003		0.9	combo_crosswalk_from_mrconso.tsv
+1.3.5	Hypnosis	MESH:D006990	UMLS:C0020587	SNOMEDCT:151645002		0.9	combo_crosswalk_from_mrconso.tsv
+1.3.5	Hypnosis	MESH:D006990	UMLS:C0020587	SNOMEDCT:151646001		0.9	combo_crosswalk_from_mrconso.tsv
+1.3.5	Hypnosis	MESH:D006990	UMLS:C0020587	SNOMEDCT:183408002		0.9	combo_crosswalk_from_mrconso.tsv
+1.3.5	Hypnosis	MESH:D006990	UMLS:C0020587	SNOMEDCT:183409005		0.9	combo_crosswalk_from_mrconso.tsv
+1.3.5	Hypnosis	MESH:D006990	UMLS:C0020587	SNOMEDCT:19997007		0.9	combo_crosswalk_from_mrconso.tsv
+1.3.5	Hypnosis	MESH:D006990	UMLS:C0020587	SNOMEDCT:70503004		0.9	combo_crosswalk_from_mrconso.tsv
+1.3.5.1	Autogenic_Training	UMLS:C0004361	UMLS:C0004361	UMLS:C0004361	Autogenic Training		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.3.5.1	Autogenic_Training	UMLS:C0004361	UMLS:C0004361	MESH:D001326	Autogenic Training	0.9	combo_crosswalk_from_mrconso.tsv
+1.3.5.1	Autogenic_Training	UMLS:C0004361	UMLS:C0004361	SNOMEDCT:389008003	Autogenic Training	0.9	combo_crosswalk_from_mrconso.tsv
+1.3.5.1	Autogenic_Training	UMLS:C0004361	UMLS:C0004361	SNOMEDCT:44005004	Autogenic Training	0.9	combo_crosswalk_from_mrconso.tsv
+1.3.5.1	Autogenic_Training	MESH:D001326	UMLS:C0004361	UMLS:C0004361	Autogenic Training		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.3.5.1	Autogenic_Training	MESH:D001326	UMLS:C0004361	MESH:D001326	Autogenic Training	0.9	combo_crosswalk_from_mrconso.tsv
+1.3.5.1	Autogenic_Training	MESH:D001326	UMLS:C0004361	SNOMEDCT:389008003	Autogenic Training	0.9	combo_crosswalk_from_mrconso.tsv
+1.3.5.1	Autogenic_Training	MESH:D001326	UMLS:C0004361	SNOMEDCT:44005004	Autogenic Training	0.9	combo_crosswalk_from_mrconso.tsv
+1.3.5.2	Suggestion	UMLS:C0038659	UMLS:C0038659	UMLS:C0038659			self
+1.3.5.2	Suggestion	UMLS:C0038659	UMLS:C0038659	MESH:D013404	therapeutic suggestion	0.9	combo_crosswalk_from_mrconso.tsv
+1.3.5.2	Suggestion	MESH:D013404	UMLS:C0038659	UMLS:C0038659			self
+1.3.5.2	Suggestion	MESH:D013404	UMLS:C0038659	MESH:D013404	therapeutic suggestion	0.9	combo_crosswalk_from_mrconso.tsv
+1.3.5.2.1	Autosuggestion	UMLS:C0004404	UMLS:C0004404	UMLS:C0004404	Autosuggestion		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.3.5.2.1	Autosuggestion	UMLS:C0004404	UMLS:C0004404	MESH:D001346	Autosuggestion	0.9	combo_crosswalk_from_mrconso.tsv
+1.3.5.2.1	Autosuggestion	MESH:D001346	UMLS:C0004404	UMLS:C0004404	Autosuggestion		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.3.5.2.1	Autosuggestion	MESH:D001346	UMLS:C0004404	MESH:D001346	Autosuggestion	0.9	combo_crosswalk_from_mrconso.tsv
+1.3.5.4	Self_Hypnosis	UMLS:C0679660	UMLS:C0679660	UMLS:C0679660	Self-Hypnosis		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.3.5.5	Hypnobirthing	UMLS:C2985297	UMLS:C2985297	UMLS:C2985297			self
+1.3.5.5	Hypnobirthing	UMLS:C2985297	UMLS:C2985297	NCIT:C92810	Hypnobirthing	0.9	combo_crosswalk_from_mrconso.tsv
+1.3.6	Imagery_Psychotherapy	UMLS:C0150627	UMLS:C0150627	UMLS:C0150627	Guided imagery		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.3.6	Imagery_Psychotherapy	UMLS:C0150627	UMLS:C0150627	LOINC:LA25351-0	Guided imagery	0.9	combo_crosswalk_from_mrconso.tsv
+1.3.6	Imagery_Psychotherapy	UMLS:C0150627	UMLS:C0150627	MESH:D019018	Guided imagery	0.9	combo_crosswalk_from_mrconso.tsv
+1.3.6	Imagery_Psychotherapy	UMLS:C0150627	UMLS:C0150627	MTH:U003159	Guided imagery	0.9	combo_crosswalk_from_mrconso.tsv
+1.3.6	Imagery_Psychotherapy	UMLS:C0150627	UMLS:C0150627	NCIT:C15375	Guided imagery	0.9	combo_crosswalk_from_mrconso.tsv
+1.3.6	Imagery_Psychotherapy	UMLS:C0150627	UMLS:C0150627	SNOMEDCT:386437005	Guided imagery	0.9	combo_crosswalk_from_mrconso.tsv
+1.3.6	Imagery_Psychotherapy	MESH:D019018	UMLS:C0150627	UMLS:C0150627	Guided imagery		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.3.6	Imagery_Psychotherapy	MESH:D019018	UMLS:C0150627	LOINC:LA25351-0	Guided imagery	0.9	combo_crosswalk_from_mrconso.tsv
+1.3.6	Imagery_Psychotherapy	MESH:D019018	UMLS:C0150627	MESH:D019018	Guided imagery	0.9	combo_crosswalk_from_mrconso.tsv
+1.3.6	Imagery_Psychotherapy	MESH:D019018	UMLS:C0150627	MTH:U003159	Guided imagery	0.9	combo_crosswalk_from_mrconso.tsv
+1.3.6	Imagery_Psychotherapy	MESH:D019018	UMLS:C0150627	NCIT:C15375	Guided imagery	0.9	combo_crosswalk_from_mrconso.tsv
+1.3.6	Imagery_Psychotherapy	MESH:D019018	UMLS:C0150627	SNOMEDCT:386437005	Guided imagery	0.9	combo_crosswalk_from_mrconso.tsv
+1.3.7	Spiritual_Therapy	UMLS:C0679674	UMLS:C0679674	UMLS:C0679674	Spiritual Therapies		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.3.7	Spiritual_Therapy	UMLS:C0679674	UMLS:C0679674	NCIT:C51972	Spiritual Therapies	0.9	combo_crosswalk_from_mrconso.tsv
+1.3.7	Spiritual_Therapy	UMLS:C0679674	UMLS:C0679674	SNOMEDCT:105390002	Spiritual Therapies	0.9	combo_crosswalk_from_mrconso.tsv
+1.3.7	Spiritual_Therapy	MESH:D026443	UMLS:C0015547	UMLS:C0015547	Spiritual Healing		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.3.7	Spiritual_Therapy	MESH:D026443	UMLS:C0015547	MESH:D026443	Spiritual Healing	0.9	combo_crosswalk_from_mrconso.tsv
+1.3.7.2	Faith_Healing	UMLS:C0949912	UMLS:C0949912	UMLS:C0949912	Faith Healing		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.3.7.2	Faith_Healing	UMLS:C0949912	UMLS:C0949912	NCIT:C51973	Faith Healing	0.9	combo_crosswalk_from_mrconso.tsv
+1.3.7.2	Faith_Healing	MESH:D029221	UMLS:C0282230	UMLS:C0282230			self
+1.3.7.2	Faith_Healing	MESH:D029221	UMLS:C0282230	MESH:D029221	Prayer Healing	0.9	combo_crosswalk_from_mrconso.tsv
+1.3.7.2.2	Prayer_Healing	UMLS:C0282230	UMLS:C0282230	UMLS:C0282230			self
+1.3.7.2.2	Prayer_Healing	UMLS:C0282230	UMLS:C0282230	MESH:D029221	Prayer Healing	0.9	combo_crosswalk_from_mrconso.tsv
+1.3.7.3	Laying_on_of_Hands_with_Prayer	UMLS:C1276354	UMLS:C1276354	UMLS:C1276354			self
+1.3.7.3	Laying_on_of_Hands_with_Prayer	UMLS:C1276354	UMLS:C1276354	SNOMEDCT:134387000	Laying on of hands with prayer	0.9	combo_crosswalk_from_mrconso.tsv
+1.3.7.3	Laying_on_of_Hands_with_Prayer	UMLS:C1276354	UMLS:C1276354	SNOMEDCT:367062002	Laying on of hands with prayer	0.9	combo_crosswalk_from_mrconso.tsv
+1.3.7.3	Laying_on_of_Hands_with_Prayer	UMLS:C1276354	UMLS:C1276354	SNOMEDCT:367289002	Laying on of hands with prayer	0.9	combo_crosswalk_from_mrconso.tsv
+1.3.7.4	Meditation_Therapy	UMLS:C0814263	UMLS:C0814263	UMLS:C0814263	Meditation Therapy		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.3.7.4	Meditation_Therapy	UMLS:C0814263	UMLS:C0814263	NCIT:C51975	Meditation Therapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.3.7.4	Meditation_Therapy	MESH:D019122	UMLS:C0150277	UMLS:C0150277	meditation		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.3.7.4	Meditation_Therapy	MESH:D019122	UMLS:C0150277	MESH:D019122		0.9	combo_crosswalk_from_mrconso.tsv
+1.3.7.4.1.1.1	Transcendental_Meditation	UMLS:C0204530	UMLS:C0204530	UMLS:C0204530			self
+1.3.7.4.1.1.1	Transcendental_Meditation	UMLS:C0204530	UMLS:C0204530	SNOMEDCT:39697002	Transcendental meditation therapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.3.7.4.2	Mindfulness_Meditation	UMLS:C5891058	UMLS:C5891058	UMLS:C5891058			self
+1.3.7.4.2	Mindfulness_Meditation	UMLS:C5891058	UMLS:C5891058	MESH:D064866	Mindfulness Meditation	0.9	combo_crosswalk_from_mrconso.tsv
+1.3.7.4.2.10	Mindfulness_Based_Cognitive_Therapy	UMLS:C5940645	UMLS:C5940645	UMLS:C5940645			self
+1.3.7.4.2.10	Mindfulness_Based_Cognitive_Therapy	UMLS:C5940645	UMLS:C5940645	MESH:D000099025	Mindfulness-Based Cognitive Therapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.3.7.5	Mental_Healing	UMLS:C0025352	UMLS:C0025352	UMLS:C0025352	Mental Healing		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.3.7.5	Mental_Healing	UMLS:C0025352	UMLS:C0025352	MESH:D008602	Mental Healing	0.9	combo_crosswalk_from_mrconso.tsv
+1.3.7.5	Mental_Healing	MESH:D008602	UMLS:C0025352	UMLS:C0025352	Mental Healing		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.3.7.5	Mental_Healing	MESH:D008602	UMLS:C0025352	MESH:D008602	Mental Healing	0.9	combo_crosswalk_from_mrconso.tsv
+1.3.7.6	Radiesthesia	UMLS:C0034545	UMLS:C0034545	UMLS:C0034545	Radiesthesia		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.3.7.6	Radiesthesia	UMLS:C0034545	UMLS:C0034545	MESH:D011844	Radiesthesia	0.9	combo_crosswalk_from_mrconso.tsv
+1.3.7.6	Radiesthesia	MESH:D011844	UMLS:C0034545	UMLS:C0034545	Radiesthesia		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.3.7.6	Radiesthesia	MESH:D011844	UMLS:C0034545	MESH:D011844	Radiesthesia	0.9	combo_crosswalk_from_mrconso.tsv
+1.3.7.8	Distance_Healing	UMLS:C1541277	UMLS:C1541277	UMLS:C1541277	Distance Healing		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.3.7.8	Distance_Healing	UMLS:C1541277	UMLS:C1541277	NCIT:C51974	Distance Healing	0.9	combo_crosswalk_from_mrconso.tsv
+1.3.7.11	Psychic_Healing	UMLS:C0871171	UMLS:C0871171	UMLS:C0871171	Psychic Healing		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.3.7.13	Spiritual_Healing	UMLS:C0015547	UMLS:C0015547	UMLS:C0015547	Spiritual Healing		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.3.7.13	Spiritual_Healing	UMLS:C0015547	UMLS:C0015547	MESH:D026443	Spiritual Healing	0.9	combo_crosswalk_from_mrconso.tsv
+1.3.7.13	Spiritual_Healing	MESH:D026443	UMLS:C0015547	UMLS:C0015547	Spiritual Healing		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.3.7.13	Spiritual_Healing	MESH:D026443	UMLS:C0015547	MESH:D026443	Spiritual Healing	0.9	combo_crosswalk_from_mrconso.tsv
+1.3.7.13.1	Exorcism	UMLS:C4045985	UMLS:C4045985	UMLS:C4045985			self
+1.3.7.13.1	Exorcism	MESH:D026443	UMLS:C0015547	UMLS:C0015547	Spiritual Healing		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.3.7.13.1	Exorcism	MESH:D026443	UMLS:C0015547	MESH:D026443	Spiritual Healing	0.9	combo_crosswalk_from_mrconso.tsv
+1.3.8	Stress_Management_Therapy	UMLS:C1883174	UMLS:C1883174	UMLS:C1883174	Stress Management Therapy		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.3.8	Stress_Management_Therapy	UMLS:C1883174	UMLS:C1883174	NCIT:C67032	Stress Management Therapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.3.9	Support_Group_Therapy	UMLS:C1883225	UMLS:C1883225	UMLS:C1883225	Support Group Therapy		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.3.9	Support_Group_Therapy	UMLS:C1883225	UMLS:C1883225	NCIT:C67030	Support Group Therapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.3.10	Psychotherapy	UMLS:C0033968	UMLS:C0033968	UMLS:C0033968	Psychotherapy		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.3.10	Psychotherapy	UMLS:C0033968	UMLS:C0033968	MESH:D011613	Psychotherapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.3.10	Psychotherapy	UMLS:C0033968	UMLS:C0033968	NCIT:C15308	Psychotherapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.3.10	Psychotherapy	UMLS:C0033968	UMLS:C0033968	SNOMEDCT:151615000	Psychotherapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.3.10	Psychotherapy	UMLS:C0033968	UMLS:C0033968	SNOMEDCT:183380006	Psychotherapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.3.10	Psychotherapy	UMLS:C0033968	UMLS:C0033968	SNOMEDCT:75516001	Psychotherapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.3.10.1	Psychoeducation	UMLS:C0871175	UMLS:C0871175	UMLS:C0871175	Psychoeducation		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.3.10.1	Psychoeducation	UMLS:C0871175	UMLS:C0871175	SNOMEDCT:702545008	Psychoeducation	0.9	combo_crosswalk_from_mrconso.tsv
+1.3.10.2	Bibliotherapy	UMLS:C0005365	UMLS:C0005365	UMLS:C0005365	Bibliotherapy		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.3.10.2	Bibliotherapy	UMLS:C0005365	UMLS:C0005365	MESH:D001638	Bibliotherapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.3.10.2	Bibliotherapy	UMLS:C0005365	UMLS:C0005365	SNOMEDCT:386526006	Bibliotherapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.3.10.3.1	Bioenergetic_Therapy	UMLS:C2945659	UMLS:C2945659	UMLS:C2945659			self
+1.3.10.4	Counseling	UMLS:C0010210	UMLS:C0010210	UMLS:C0010210	Counseling		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.3.10.4	Counseling	UMLS:C0010210	UMLS:C0010210	MESH:D003376	Counseling	0.9	combo_crosswalk_from_mrconso.tsv
+1.3.10.4	Counseling	UMLS:C0010210	UMLS:C0010210	NCIT:C61547	Counseling	0.9	combo_crosswalk_from_mrconso.tsv
+1.3.10.4	Counseling	UMLS:C0010210	UMLS:C0010210	SNOMEDCT:129441002	Counseling	0.9	combo_crosswalk_from_mrconso.tsv
+1.3.10.4	Counseling	UMLS:C0010210	UMLS:C0010210	SNOMEDCT:148198002	Counseling	0.9	combo_crosswalk_from_mrconso.tsv
+1.3.10.4	Counseling	UMLS:C0010210	UMLS:C0010210	SNOMEDCT:148199005	Counseling	0.9	combo_crosswalk_from_mrconso.tsv
+1.3.10.4	Counseling	UMLS:C0010210	UMLS:C0010210	SNOMEDCT:148207006	Counseling	0.9	combo_crosswalk_from_mrconso.tsv
+1.3.10.4	Counseling	UMLS:C0010210	UMLS:C0010210	SNOMEDCT:170974001	Counseling	0.9	combo_crosswalk_from_mrconso.tsv
+1.3.10.4	Counseling	UMLS:C0010210	UMLS:C0010210	SNOMEDCT:170975000	Counseling	0.9	combo_crosswalk_from_mrconso.tsv
+1.3.10.4	Counseling	UMLS:C0010210	UMLS:C0010210	SNOMEDCT:170984000	Counseling	0.9	combo_crosswalk_from_mrconso.tsv
+1.3.10.4	Counseling	UMLS:C0010210	UMLS:C0010210	SNOMEDCT:360268008	Counseling	0.9	combo_crosswalk_from_mrconso.tsv
+1.3.10.4	Counseling	UMLS:C0010210	UMLS:C0010210	SNOMEDCT:409063005	Counseling	0.9	combo_crosswalk_from_mrconso.tsv
+1.3.10.4	Counseling	UMLS:C0010210	UMLS:C0010210	SNOMEDCT:69197005	Counseling	0.9	combo_crosswalk_from_mrconso.tsv
+1.3.10.5	Emotional_Freedom_Technique	UMLS:C1608504	UMLS:C1608504	UMLS:C1608504			self
+1.3.10.6	Gestalt_Therapy	UMLS:C0017501	UMLS:C0017501	UMLS:C0017501	Gestalt Therapy		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.3.10.6	Gestalt_Therapy	UMLS:C0017501	UMLS:C0017501	MESH:D005864	Gestalt Therapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.3.10.6	Gestalt_Therapy	UMLS:C0017501	UMLS:C0017501	SNOMEDCT:9591001	Gestalt Therapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.3.10.7	Narrative_Therapy	UMLS:C3494322	UMLS:C3494322	UMLS:C3494322	Narrative Therapy		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.3.10.7	Narrative_Therapy	UMLS:C3494322	UMLS:C3494322	MESH:D062525	Narrative Therapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.3.10.8	Family_Psychotherapy	UMLS:C0015618	UMLS:C0015618	UMLS:C0015618	Family psychotherapy		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.3.10.8	Family_Psychotherapy	UMLS:C0015618	UMLS:C0015618	ICD9CM:94.42	Family psychotherapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.3.10.8	Family_Psychotherapy	UMLS:C0015618	UMLS:C0015618	MESH:D005196	Family psychotherapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.3.10.8	Family_Psychotherapy	UMLS:C0015618	UMLS:C0015618	MTH:U003463	Family psychotherapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.3.10.8	Family_Psychotherapy	UMLS:C0015618	UMLS:C0015618	NCIT:C93347	Family psychotherapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.3.10.8	Family_Psychotherapy	UMLS:C0015618	UMLS:C0015618	SNOMEDCT:108313002	Family psychotherapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.3.10.8	Family_Psychotherapy	UMLS:C0015618	UMLS:C0015618	SNOMEDCT:151621001	Family psychotherapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.3.10.8	Family_Psychotherapy	UMLS:C0015618	UMLS:C0015618	SNOMEDCT:51484002	Family psychotherapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.3.10.12	Cognitive_Behavioral_Therapy	MESH:D015928	UMLS:C0009244	UMLS:C0009244	Cognitive Therapy		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.3.10.12	Cognitive_Behavioral_Therapy	MESH:D015928	UMLS:C0009244	MESH:D015928		0.9	combo_crosswalk_from_mrconso.tsv
+1.3.10.12	Cognitive_Behavioral_Therapy	MESH:D015928	UMLS:C0009244	NCIT:C64345		0.9	combo_crosswalk_from_mrconso.tsv
+1.3.10.12	Cognitive_Behavioral_Therapy	MESH:D015928	UMLS:C0009244	SNOMEDCT:151618003		0.9	combo_crosswalk_from_mrconso.tsv
+1.3.10.12	Cognitive_Behavioral_Therapy	MESH:D015928	UMLS:C0009244	SNOMEDCT:183383008		0.9	combo_crosswalk_from_mrconso.tsv
+1.3.10.12	Cognitive_Behavioral_Therapy	MESH:D015928	UMLS:C0009244	SNOMEDCT:228553007		0.9	combo_crosswalk_from_mrconso.tsv
+1.3.10.12	Cognitive_Behavioral_Therapy	MESH:D015928	UMLS:C0009244	SNOMEDCT:228557008		0.9	combo_crosswalk_from_mrconso.tsv
+1.3.10.12	Cognitive_Behavioral_Therapy	MESH:D015928	UMLS:C0009244	SNOMEDCT:304891004		0.9	combo_crosswalk_from_mrconso.tsv
+1.3.10.12	Cognitive_Behavioral_Therapy	MESH:D015928	UMLS:C0009244	SNOMEDCT:389923006		0.9	combo_crosswalk_from_mrconso.tsv
+1.3.10.12	Cognitive_Behavioral_Therapy	MESH:D015928	UMLS:C0009244	SNOMEDCT:390657008		0.9	combo_crosswalk_from_mrconso.tsv
+1.3.10.13	Dialectical_Behavior_Therapy	MESH:D000077252	UMLS:C1321145	UMLS:C1321145	Dialectical Behavior Therapy		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.3.10.13	Dialectical_Behavior_Therapy	MESH:D000077252	UMLS:C1321145	MESH:D000077252		0.9	combo_crosswalk_from_mrconso.tsv
+1.3.10.13	Dialectical_Behavior_Therapy	MESH:D000077252	UMLS:C1321145	SNOMEDCT:405780009		0.9	combo_crosswalk_from_mrconso.tsv
+1.3.10.14	Acceptance_and_Commitment_Therapy	MESH:D064869	UMLS:C3658321	UMLS:C3658321	Acceptance and Commitment Therapy		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.3.10.14	Acceptance_and_Commitment_Therapy	MESH:D064869	UMLS:C3658321	MESH:D064869		0.9	combo_crosswalk_from_mrconso.tsv
+1.3.10.14	Acceptance_and_Commitment_Therapy	MESH:D064869	UMLS:C3658321	NCIT:C183119		0.9	combo_crosswalk_from_mrconso.tsv
+1.3.10.14	Acceptance_and_Commitment_Therapy	MESH:D064869	UMLS:C3658321	SNOMEDCT:460901000124104		0.9	combo_crosswalk_from_mrconso.tsv
+1.3.12	Neurolinguistic_Programming	UMLS:C0683473	UMLS:C0683473	UMLS:C0683473			self
+1.3.12	Neurolinguistic_Programming	UMLS:C0683473	UMLS:C0683473	MESH:D020557	Neurolinguistic Programming	0.9	combo_crosswalk_from_mrconso.tsv
+1.3.14	Morita_Therapy	UMLS:C0870913	UMLS:C0870913	UMLS:C0870913	Morita Therapy		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.3.15.1	Nature_Therapy	UMLS:C0598380	UMLS:C0598380	UMLS:C0598380	Nature Therapy		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.3.15.1	Nature_Therapy	UMLS:C0598380	UMLS:C0598380	SNOMEDCT:1256107005	Nature Therapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.3.15.1.1	Horticultural_Therapy	UMLS:C0454057	UMLS:C0454057	UMLS:C0454057	Horticultural Therapy		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.3.15.1.1	Horticultural_Therapy	UMLS:C0454057	UMLS:C0454057	MESH:D058611	Horticultural Therapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.3.15.1.1	Horticultural_Therapy	UMLS:C0454057	UMLS:C0454057	SNOMEDCT:228652008	Horticultural Therapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.3.15.1.1	Horticultural_Therapy	MESH:D058611	UMLS:C0454057	UMLS:C0454057	Horticultural Therapy		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.3.15.1.1	Horticultural_Therapy	MESH:D058611	UMLS:C0454057	MESH:D058611	Horticultural Therapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.3.15.1.1	Horticultural_Therapy	MESH:D058611	UMLS:C0454057	SNOMEDCT:228652008	Horticultural Therapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.3.15.1.2	Forest_Therapy	UMLS:C5940600	UMLS:C5940600	UMLS:C5940600			self
+1.3.15.1.2	Forest_Therapy	UMLS:C5940600	UMLS:C5940600	MESH:D000099080	Forest Therapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.3.15.1.2	Forest_Therapy	MESH:D000099080	UMLS:C5940600	UMLS:C5940600			self
+1.3.15.1.2	Forest_Therapy	MESH:D000099080	UMLS:C5940600	MESH:D000099080	Forest Therapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.3.16	Positive_Thinking	UMLS:C4280069	UMLS:C4280069	UMLS:C4280069	Positive Thinking		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.3.16	Positive_Thinking	UMLS:C4280069	UMLS:C4280069	MESH:D000067656	Positive Thinking	0.9	combo_crosswalk_from_mrconso.tsv
+1.3.17	Reminiscence_Therapy	UMLS:C0150321	UMLS:C0150321	UMLS:C0150321	Reminiscence therapy		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.3.17	Reminiscence_Therapy	UMLS:C0150321	UMLS:C0150321	SNOMEDCT:228549005	Reminiscence therapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.4	Phytotherapy	UMLS:C0242388	UMLS:C0242388	UMLS:C0242388	Phytotherapy		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.4	Phytotherapy	UMLS:C0242388	UMLS:C0242388	MESH:D008517	Phytotherapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.4	Phytotherapy	UMLS:C0242388	UMLS:C0242388	NCIT:C15250	Phytotherapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.4	Phytotherapy	UMLS:C0242388	UMLS:C0242388	SNOMEDCT:414392008	Phytotherapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.4	Phytotherapy	MESH:D008517	UMLS:C0242388	UMLS:C0242388	Phytotherapy		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.4	Phytotherapy	MESH:D008517	UMLS:C0242388	MESH:D008517	Phytotherapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.4	Phytotherapy	MESH:D008517	UMLS:C0242388	NCIT:C15250	Phytotherapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.4	Phytotherapy	MESH:D008517	UMLS:C0242388	SNOMEDCT:414392008	Phytotherapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.4.1	Phytoestrogen_Therapy	UMLS:C1541283	UMLS:C1541283	UMLS:C1541283	Phytoestrogen Therapy		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+1.4.1	Phytoestrogen_Therapy	UMLS:C1541283	UMLS:C1541283	NCIT:C62679	Phytoestrogen Therapy	0.9	combo_crosswalk_from_mrconso.tsv
+1.4.2	Herbal_Therapy	UMLS:C1533719	UMLS:C1533719	UMLS:C1533719			self
+1.4.2	Herbal_Therapy	UMLS:C1533719	UMLS:C1533719	MESH:D029001	Herbal Medicine (discipline)	0.9	combo_crosswalk_from_mrconso.tsv
+2.1	Dietary_Supplement	UMLS:C0242295	UMLS:C0242295	UMLS:C0242295			self
+2.1	Dietary_Supplement	UMLS:C0242295	UMLS:C0242295	LOINC:LP99357-3	Dietary Supplements	0.9	combo_crosswalk_from_mrconso.tsv
+2.1	Dietary_Supplement	UMLS:C0242295	UMLS:C0242295	LOINC:MTHU035664	Dietary Supplements	0.9	combo_crosswalk_from_mrconso.tsv
+2.1	Dietary_Supplement	UMLS:C0242295	UMLS:C0242295	MESH:D019587	Dietary Supplements	0.9	combo_crosswalk_from_mrconso.tsv
+2.1	Dietary_Supplement	UMLS:C0242295	UMLS:C0242295	NCIT:C1505	Dietary Supplements	0.9	combo_crosswalk_from_mrconso.tsv
+2.1	Dietary_Supplement	UMLS:C0242295	UMLS:C0242295	SNOMEDCT:108961000	Dietary Supplements	0.9	combo_crosswalk_from_mrconso.tsv
+2.1	Dietary_Supplement	UMLS:C0242295	UMLS:C0242295	SNOMEDCT:226279009	Dietary Supplements	0.9	combo_crosswalk_from_mrconso.tsv
+2.1	Dietary_Supplement	UMLS:C0242295	UMLS:C0242295	SNOMEDCT:373453009	Dietary Supplements	0.9	combo_crosswalk_from_mrconso.tsv
+2.1	Dietary_Supplement	UMLS:C0242295	UMLS:C0242295	SNOMEDCT:373689005	Dietary Supplements	0.9	combo_crosswalk_from_mrconso.tsv
+2.1	Dietary_Supplement	MESH:D019587	UMLS:C0242295	UMLS:C0242295			self
+2.1	Dietary_Supplement	MESH:D019587	UMLS:C0242295	LOINC:LP99357-3	Dietary Supplements	0.9	combo_crosswalk_from_mrconso.tsv
+2.1	Dietary_Supplement	MESH:D019587	UMLS:C0242295	LOINC:MTHU035664	Dietary Supplements	0.9	combo_crosswalk_from_mrconso.tsv
+2.1	Dietary_Supplement	MESH:D019587	UMLS:C0242295	MESH:D019587	Dietary Supplements	0.9	combo_crosswalk_from_mrconso.tsv
+2.1	Dietary_Supplement	MESH:D019587	UMLS:C0242295	NCIT:C1505	Dietary Supplements	0.9	combo_crosswalk_from_mrconso.tsv
+2.1	Dietary_Supplement	MESH:D019587	UMLS:C0242295	SNOMEDCT:108961000	Dietary Supplements	0.9	combo_crosswalk_from_mrconso.tsv
+2.1	Dietary_Supplement	MESH:D019587	UMLS:C0242295	SNOMEDCT:226279009	Dietary Supplements	0.9	combo_crosswalk_from_mrconso.tsv
+2.1	Dietary_Supplement	MESH:D019587	UMLS:C0242295	SNOMEDCT:373453009	Dietary Supplements	0.9	combo_crosswalk_from_mrconso.tsv
+2.1	Dietary_Supplement	MESH:D019587	UMLS:C0242295	SNOMEDCT:373689005	Dietary Supplements	0.9	combo_crosswalk_from_mrconso.tsv
+2.1.1	Vitamin	UMLS:C0042890	CHEBI:18145	CHEBI:18145	Vitamin E		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+2.1.1	Vitamin	UMLS:C0042890	CHEBI:18145	CAS:1406-18-4	Vitamin E		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+2.1.1	Vitamin	UMLS:C0042890	CHEBI:18145	CAS:18920-62-2	Vitamin E		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+2.1.1	Vitamin	UMLS:C0042890	CHEBI:18145	CAS:2074-53-5	Vitamin E		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+2.1.1	Vitamin	UMLS:C0042890	CHEBI:18145	CAS:215-798-8	Vitamin E		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+2.1.1	Vitamin	UMLS:C0042890	CHEBI:18145	CAS:59-02-9	Vitamin E		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+2.1.1	Vitamin	UMLS:C0042890	CHEBI:18145	CAS:606-803-8	Vitamin E		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+2.1.1	Vitamin	UMLS:C0042890	CHEBI:18145	CHEBI:10336	Vitamin E		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+2.1.1	Vitamin	UMLS:C0042890	CHEBI:18145	CHEBI:12343	Vitamin E		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+2.1.1	Vitamin	UMLS:C0042890	CHEBI:18145	CHEBI:33229	Vitamin E		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+2.1.1	Vitamin	UMLS:C0042890	CHEBI:18145	CHEBI:33234	Vitamin E		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+2.1.1	Vitamin	UMLS:C0042890	CHEBI:18145	CHEBI:46509	Vitamin E		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+2.1.1	Vitamin	UMLS:C0042890	CHEBI:18145	CHEMBL.COMPOUND:CHEMBL2108106	Vitamin E		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+2.1.1	Vitamin	UMLS:C0042890	CHEBI:18145	CHEMBL.COMPOUND:CHEMBL47	Vitamin E		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+2.1.1	Vitamin	UMLS:C0042890	CHEBI:18145	DRUGBANK:DB00163	Vitamin E		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+2.1.1	Vitamin	UMLS:C0042890	CHEBI:18145	DrugCentral:3613	Vitamin E		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+2.1.1	Vitamin	UMLS:C0042890	CHEBI:18145	DrugCentral:4280	Vitamin E		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+2.1.1	Vitamin	UMLS:C0042890	CHEBI:18145	HMDB:HMDB0001893	Vitamin E		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+2.1.1	Vitamin	UMLS:C0042890	CHEBI:18145	INCHIKEY:GVJHHUAWPYXKBD-IEOSBIPESA-N	Vitamin E		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+2.1.1	Vitamin	UMLS:C0042890	CHEBI:18145	KEGG.COMPOUND:C02477	Vitamin E		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+2.1.1	Vitamin	UMLS:C0042890	CHEBI:18145	MESH:D014810	Vitamin E		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+2.1.1	Vitamin	UMLS:C0042890	CHEBI:18145	MESH:D024502	Vitamin E		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+2.1.1	Vitamin	UMLS:C0042890	CHEBI:18145	MESH:M0104481	Vitamin E		/Users/drshika2/NodeNormalization/ (1)/ikraph/ikraph_normalized_full.with_newly_normalized_20260123_v6_20260218.json
+2.1.1	Vitamin	UMLS:C0042890	CHEBI:18145	MESH:M0515672	Vitamin E		/Users/drshika2/NodeNormalization/ (1)/ikraph/ikraph_normalized_full.with_newly_normalized_20260123_v6_20260218.json
+2.1.1	Vitamin	UMLS:C0042890	CHEBI:18145	PUBCHEM.COMPOUND:14985	Vitamin E		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+2.1.1	Vitamin	UMLS:C0042890	CHEBI:18145	RXCUI:11256	Vitamin E		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+2.1.1	Vitamin	UMLS:C0042890	CHEBI:18145	RXCUI:237099	Vitamin E		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+2.1.1	Vitamin	UMLS:C0042890	CHEBI:18145	UMLS:C0042874	Vitamin E		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+2.1.1	Vitamin	UMLS:C0042890	CHEBI:18145	UMLS:C0042890	Vitamin E		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+2.1.1	Vitamin	UMLS:C0042890	CHEBI:18145	UMLS:C0969677	Vitamin E		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+2.1.1	Vitamin	UMLS:C0042890	CHEBI:18145	UNII:H4N855PNZ1	Vitamin E		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+2.1.1	Vitamin	UMLS:C0042890	CHEBI:18145	UNII:N9PR3490H9	Vitamin E		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+2.1.2	Mineral	UMLS:C0026162	CHEBI:46662	CHEBI:46662	mineral		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+2.1.2	Mineral	UMLS:C0026162	CHEBI:46662	UMLS:C0026162	mineral		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+2.1.3	Prebiotic	UMLS:C2717875	MESH:D056692	MESH:D056692	Prebiotics	0.9	combo_crosswalk_from_mrconso.tsv
+2.1.3	Prebiotic	UMLS:C2717875	MESH:D056692	UMLS:C2717875	Prebiotics		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+2.1.4	Probiotic	UMLS:C0525033	MESH:D019936	MESH:D019936	Probiotics	0.9	combo_crosswalk_from_mrconso.tsv
+2.1.4	Probiotic	UMLS:C0525033	MESH:D019936	UMLS:C0525033	Probiotics		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+2.2.1	Phytochemical	UMLS:C0577749	MESH:D064209	MESH:D064209	Phytochemicals	0.9	combo_crosswalk_from_mrconso.tsv
+2.2.1	Phytochemical	UMLS:C0577749	MESH:D064209	UMLS:C0577749	Phytochemicals		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+2.2.2	Herb	UMLS:C0019240	UMLS:C0019240	UMLS:C0019240	Herb		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+2.2.2	Herb	UMLS:C0019240	UMLS:C0019240	NCIT:C180903	Herb	0.9	combo_crosswalk_from_mrconso.tsv
+2.2.2	Herb	UMLS:C0019240	UMLS:C0019240	SNOMEDCT:256330001	Herb	0.9	combo_crosswalk_from_mrconso.tsv
+2.2.2.1	Astragalus	UMLS:C0330845	NCBITaxon:20400	NCBITaxon:20400	Astragalus		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+2.2.2.1	Astragalus	UMLS:C0330845	NCBITaxon:20400	UMLS:C0330845	Astragalus		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+3.1	Anthroposophic_Medicine	UMLS:C2586030	UMLS:C2586030	UMLS:C2586030	Anthroposophical medicine (regime/therapy)		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+3.1	Anthroposophic_Medicine	UMLS:C2586030	UMLS:C2586030	SNOMEDCT:439062004	Anthroposophical medicine (regime/therapy)	0.9	combo_crosswalk_from_mrconso.tsv
+3.2	Homeopathy	UMLS:C0684199	UMLS:C0684199	UMLS:C0684199	Homeopathy		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+3.2	Homeopathy	UMLS:C0684199	UMLS:C0684199	MESH:D006705	Homeopathy	0.9	combo_crosswalk_from_mrconso.tsv
+3.2	Homeopathy	UMLS:C0684199	UMLS:C0684199	NCIT:C15718	Homeopathy	0.9	combo_crosswalk_from_mrconso.tsv
+3.2	Homeopathy	UMLS:C0684199	UMLS:C0684199	SNOMEDCT:151251003	Homeopathy	0.9	combo_crosswalk_from_mrconso.tsv
+3.2	Homeopathy	UMLS:C0684199	UMLS:C0684199	SNOMEDCT:182968001	Homeopathy	0.9	combo_crosswalk_from_mrconso.tsv
+3.2	Homeopathy	MESH:D006705	UMLS:C0684199	UMLS:C0684199	Homeopathy		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+3.2	Homeopathy	MESH:D006705	UMLS:C0684199	MESH:D006705	Homeopathy	0.9	combo_crosswalk_from_mrconso.tsv
+3.2	Homeopathy	MESH:D006705	UMLS:C0684199	NCIT:C15718	Homeopathy	0.9	combo_crosswalk_from_mrconso.tsv
+3.2	Homeopathy	MESH:D006705	UMLS:C0684199	SNOMEDCT:151251003	Homeopathy	0.9	combo_crosswalk_from_mrconso.tsv
+3.2	Homeopathy	MESH:D006705	UMLS:C0684199	SNOMEDCT:182968001	Homeopathy	0.9	combo_crosswalk_from_mrconso.tsv
+3.3	Naturopathy	UMLS:C0027495	UMLS:C0027495	UMLS:C0027495	Naturopathy		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+3.3	Naturopathy	UMLS:C0027495	UMLS:C0027495	MESH:D009324	Naturopathy	0.9	combo_crosswalk_from_mrconso.tsv
+3.3	Naturopathy	UMLS:C0027495	UMLS:C0027495	NCIT:C15283	Naturopathy	0.9	combo_crosswalk_from_mrconso.tsv
+3.3	Naturopathy	UMLS:C0027495	UMLS:C0027495	SNOMEDCT:439809005	Naturopathy	0.9	combo_crosswalk_from_mrconso.tsv
+3.3	Naturopathy	MESH:D009324	UMLS:C0027495	UMLS:C0027495	Naturopathy		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+3.3	Naturopathy	MESH:D009324	UMLS:C0027495	MESH:D009324	Naturopathy	0.9	combo_crosswalk_from_mrconso.tsv
+3.3	Naturopathy	MESH:D009324	UMLS:C0027495	NCIT:C15283	Naturopathy	0.9	combo_crosswalk_from_mrconso.tsv
+3.3	Naturopathy	MESH:D009324	UMLS:C0027495	SNOMEDCT:439809005	Naturopathy	0.9	combo_crosswalk_from_mrconso.tsv
+3.4	Traditional_Medicine	UMLS:C0025131	UMLS:C0025131	UMLS:C0025131	Traditional Medicine		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+3.4	Traditional_Medicine	UMLS:C0025131	UMLS:C0025131	NCIT:C180905	Traditional Medicine	0.9	combo_crosswalk_from_mrconso.tsv
+3.4	Traditional_Medicine	UMLS:C0025131	UMLS:C0025131	SNOMEDCT:773412008	Traditional Medicine	0.9	combo_crosswalk_from_mrconso.tsv
+3.4	Traditional_Medicine	MESH:D008519	UMLS:C0015034	UMLS:C0015034	Ethnomedicine		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+3.4	Traditional_Medicine	MESH:D008519	UMLS:C0015034	MESH:D008519		0.9	combo_crosswalk_from_mrconso.tsv
+3.4.1	Historical_Eclecticism	UMLS:C0949807	UMLS:C0949807	UMLS:C0949807			self
+3.4.1	Historical_Eclecticism	UMLS:C0949807	UMLS:C0949807	MESH:D027681	Eclecticism, Historical	0.9	combo_crosswalk_from_mrconso.tsv
+3.4.1	Historical_Eclecticism	MESH:D027681	UMLS:C0949807	UMLS:C0949807			self
+3.4.1	Historical_Eclecticism	MESH:D027681	UMLS:C0949807	MESH:D027681	Eclecticism, Historical	0.9	combo_crosswalk_from_mrconso.tsv
+3.4.2	Traditional_African_Medicine	UMLS:C0085093	UMLS:C0085093	UMLS:C0085093	Medicine, African Traditional		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+3.4.2	Traditional_African_Medicine	UMLS:C0085093	UMLS:C0085093	MESH:D016488	Medicine, African Traditional	0.9	combo_crosswalk_from_mrconso.tsv
+3.4.2	Traditional_African_Medicine	MESH:D016488	UMLS:C0085093	UMLS:C0085093	Medicine, African Traditional		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+3.4.2	Traditional_African_Medicine	MESH:D016488	UMLS:C0085093	MESH:D016488	Medicine, African Traditional	0.9	combo_crosswalk_from_mrconso.tsv
+3.4.3	Arabic_Medicine	UMLS:C0025121	UMLS:C0025121	UMLS:C0025121			self
+3.4.3	Arabic_Medicine	UMLS:C0025121	UMLS:C0025121	MESH:D008514	Medicine, Arabic	0.9	combo_crosswalk_from_mrconso.tsv
+3.4.3	Arabic_Medicine	MESH:D008514	UMLS:C0025121	UMLS:C0025121			self
+3.4.3	Arabic_Medicine	MESH:D008514	UMLS:C0025121	MESH:D008514	Medicine, Arabic	0.9	combo_crosswalk_from_mrconso.tsv
+3.4.3.1	Unani_Medicine	UMLS:C0376557	UMLS:C0376557	UMLS:C0376557			self
+3.4.3.1	Unani_Medicine	UMLS:C0376557	UMLS:C0376557	MESH:D019367	Medicine, Unani	0.9	combo_crosswalk_from_mrconso.tsv
+3.4.3.1	Unani_Medicine	UMLS:C0376557	UMLS:C0376557	SNOMEDCT:1259218001	Medicine, Unani	0.9	combo_crosswalk_from_mrconso.tsv
+3.4.3.1	Unani_Medicine	MESH:D019367	UMLS:C0376557	UMLS:C0376557			self
+3.4.3.1	Unani_Medicine	MESH:D019367	UMLS:C0376557	MESH:D019367	Medicine, Unani	0.9	combo_crosswalk_from_mrconso.tsv
+3.4.3.1	Unani_Medicine	MESH:D019367	UMLS:C0376557	SNOMEDCT:1259218001	Medicine, Unani	0.9	combo_crosswalk_from_mrconso.tsv
+3.4.4.1	Ayurvedic_Medicine	UMLS:C0025122	UMLS:C0025122	UMLS:C0025122			self
+3.4.4.1	Ayurvedic_Medicine	UMLS:C0025122	UMLS:C0025122	MESH:D008515	Medicine, Ayurvedic	0.9	combo_crosswalk_from_mrconso.tsv
+3.4.4.1	Ayurvedic_Medicine	UMLS:C0025122	UMLS:C0025122	SNOMEDCT:1259939000	Medicine, Ayurvedic	0.9	combo_crosswalk_from_mrconso.tsv
+3.4.4.1	Ayurvedic_Medicine	UMLS:C0025122	UMLS:C0025122	SNOMEDCT:452091000124101	Medicine, Ayurvedic	0.9	combo_crosswalk_from_mrconso.tsv
+3.4.4.1	Ayurvedic_Medicine	MESH:D008515	UMLS:C0025122	UMLS:C0025122			self
+3.4.4.1	Ayurvedic_Medicine	MESH:D008515	UMLS:C0025122	MESH:D008515	Medicine, Ayurvedic	0.9	combo_crosswalk_from_mrconso.tsv
+3.4.4.1	Ayurvedic_Medicine	MESH:D008515	UMLS:C0025122	SNOMEDCT:1259939000	Medicine, Ayurvedic	0.9	combo_crosswalk_from_mrconso.tsv
+3.4.4.1	Ayurvedic_Medicine	MESH:D008515	UMLS:C0025122	SNOMEDCT:452091000124101	Medicine, Ayurvedic	0.9	combo_crosswalk_from_mrconso.tsv
+3.4.5	Traditional_East_Asian_Medicine	UMLS:C0025129	UMLS:C0025129	UMLS:C0025129			self
+3.4.5	Traditional_East_Asian_Medicine	MESH:D008518	UMLS:C0025128	UMLS:C0025128			self
+3.4.5	Traditional_East_Asian_Medicine	MESH:D008518	UMLS:C0025128	MESH:D008518		0.9	combo_crosswalk_from_mrconso.tsv
+3.4.5.1	Traditional_Chinese_Medicine	UMLS:C0025124	UMLS:C0025124	UMLS:C0025124			self
+3.4.5.1	Traditional_Chinese_Medicine	UMLS:C0025124	UMLS:C0025124	MESH:D008516	Traditional Chinese Medicine	0.9	combo_crosswalk_from_mrconso.tsv
+3.4.5.1	Traditional_Chinese_Medicine	UMLS:C0025124	UMLS:C0025124	SNOMEDCT:723688009	Traditional Chinese Medicine	0.9	combo_crosswalk_from_mrconso.tsv
+3.4.5.1	Traditional_Chinese_Medicine	MESH:D008516	UMLS:C0025124	UMLS:C0025124			self
+3.4.5.1	Traditional_Chinese_Medicine	MESH:D008516	UMLS:C0025124	MESH:D008516	Traditional Chinese Medicine	0.9	combo_crosswalk_from_mrconso.tsv
+3.4.5.1	Traditional_Chinese_Medicine	MESH:D008516	UMLS:C0025124	SNOMEDCT:723688009	Traditional Chinese Medicine	0.9	combo_crosswalk_from_mrconso.tsv
+3.4.5.1.1	Chinese_Herbal_Medicine	UMLS:C1273412	UMLS:C1273412	UMLS:C1273412	Chinese herbal medicine		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+3.4.5.1.1	Chinese_Herbal_Medicine	UMLS:C1273412	UMLS:C1273412	SNOMEDCT:393109002	Chinese herbal medicine	0.9	combo_crosswalk_from_mrconso.tsv
+3.4.5.1.1	Chinese_Herbal_Medicine	UMLS:C1273412	UMLS:C1273412	SNOMEDCT:394060007	Chinese herbal medicine	0.9	combo_crosswalk_from_mrconso.tsv
+3.4.5.1.1	Chinese_Herbal_Medicine	UMLS:C1273412	UMLS:C1273412	SNOMEDCT:395114000	Chinese herbal medicine	0.9	combo_crosswalk_from_mrconso.tsv
+3.4.5.2	Kampo_Medicine	UMLS:C0752221	UMLS:C0752221	UMLS:C0752221			self
+3.4.5.2	Kampo_Medicine	UMLS:C0752221	UMLS:C0752221	MESH:D020835	Medicine, Kampo	0.9	combo_crosswalk_from_mrconso.tsv
+3.4.5.2	Kampo_Medicine	MESH:D020835	UMLS:C0752221	UMLS:C0752221			self
+3.4.5.2	Kampo_Medicine	MESH:D020835	UMLS:C0752221	MESH:D020835	Medicine, Kampo	0.9	combo_crosswalk_from_mrconso.tsv
+3.4.5.3	Traditional_Korean_Medicine	UMLS:C2350504	UMLS:C2350504	UMLS:C2350504	Medicine, Korean Traditional		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+3.4.5.3	Traditional_Korean_Medicine	UMLS:C2350504	UMLS:C2350504	MESH:D055670	Medicine, Korean Traditional	0.9	combo_crosswalk_from_mrconso.tsv
+3.4.5.3	Traditional_Korean_Medicine	MESH:D055670	UMLS:C2350504	UMLS:C2350504	Medicine, Korean Traditional		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+3.4.5.3	Traditional_Korean_Medicine	MESH:D055670	UMLS:C2350504	MESH:D055670	Medicine, Korean Traditional	0.9	combo_crosswalk_from_mrconso.tsv
+3.4.5.4	Traditional_Mongolian_Medicine	UMLS:C2717890	UMLS:C2717890	UMLS:C2717890	Medicine, Mongolian Traditional		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+3.4.5.4	Traditional_Mongolian_Medicine	UMLS:C2717890	UMLS:C2717890	MESH:D056785	Medicine, Mongolian Traditional	0.9	combo_crosswalk_from_mrconso.tsv
+3.4.5.4	Traditional_Mongolian_Medicine	MESH:D056785	UMLS:C2717890	UMLS:C2717890	Medicine, Mongolian Traditional		/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json
+3.4.5.4	Traditional_Mongolian_Medicine	MESH:D056785	UMLS:C2717890	MESH:D056785	Medicine, Mongolian Traditional	0.9	combo_crosswalk_from_mrconso.tsv
+3.4.5.5	Traditional_Tibetan_Medicine	UMLS:C1136246	UMLS:C1136246	UMLS:C1136246			self
+3.4.5.5	Traditional_Tibetan_Medicine	UMLS:C1136246	UMLS:C1136246	MESH:D038861	Medicine, Tibetan Traditional	0.9	combo_crosswalk_from_mrconso.tsv
+3.4.5.5	Traditional_Tibetan_Medicine	MESH:D038861	UMLS:C1136246	UMLS:C1136246			self
+3.4.5.5	Traditional_Tibetan_Medicine	MESH:D038861	UMLS:C1136246	MESH:D038861	Medicine, Tibetan Traditional	0.9	combo_crosswalk_from_mrconso.tsv
+3.4.6	Traditional_Iranian_Medicine	UMLS:C5544463	UMLS:C5544463	UMLS:C5544463			self
+3.4.6	Traditional_Iranian_Medicine	UMLS:C5544463	UMLS:C5544463	MESH:D000091182	Medicine, Iranian Traditional	0.9	combo_crosswalk_from_mrconso.tsv
+3.4.6	Traditional_Iranian_Medicine	MESH:D000091182	UMLS:C5544463	UMLS:C5544463			self
+3.4.6	Traditional_Iranian_Medicine	MESH:D000091182	UMLS:C5544463	MESH:D000091182	Medicine, Iranian Traditional	0.9	combo_crosswalk_from_mrconso.tsv
+3.4.7	Traditional_Thai_Medicine	UMLS:C5828333	UMLS:C5828333	UMLS:C5828333			self
+3.4.7	Traditional_Thai_Medicine	MESH:D000096262	UMLS:C5781873	UMLS:C5781873			self
+3.4.7	Traditional_Thai_Medicine	MESH:D000096262	UMLS:C5781873	MESH:D000096262		0.9	combo_crosswalk_from_mrconso.tsv

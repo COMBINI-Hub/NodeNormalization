@@ -1,0 +1,75 @@
+input_curie	preferred_identifier	preferred_label	confidence	method	combo_concept_id	combo_label	source_identifier	evidence
+COMBO:1.1	UMLS:C1882127	Nutritional Intervention	0.97	mrconso_exact	1.1	Nutritional_Intervention	COMBO:1.1	mrconso_exact:NCI:label:Nutritional_Intervention
+COMBO:1.1.1.7.2.1	MESH:D015623	Macrobiotic Diet	0.97	mrconso_exact	1.1.1.7.2.1	Macrobiotic_Diet	COMBO:1.1.1.7.2.1	mrconso_exact:MSH:label:Macrobiotic_Diet
+COMBO:1.2.3.1	MESH:D020831	Auricular Acupuncture	0.97	mrconso_exact	1.2.3.1	Auricular_Acupuncture	COMBO:1.2.3.1	mrconso_exact:MSH:label:Auricular_Acupuncture
+COMBO:1.2.3.2	UMLS:C4321302	Battlefield Acupuncture	0.97	mrconso_exact	1.2.3.2	Battlefield_Acupuncture	COMBO:1.2.3.2	mrconso_exact:MTH:label:Battlefield_Acupuncture
+COMBO:1.2.6.2.7	UMLS:C0282333	Relaxation training	0.97	mrconso_exact	1.2.6.2.7	Relaxation_Training	COMBO:1.2.6.2.7	mrconso_exact:SNOMEDCT_US:label:Relaxation_Training
+COMBO:1.2.6.3.5	UMLS:C2713543	EEG biofeedback	0.97	mrconso_exact	1.2.6.3.5	Electroencephalogram_Biofeedback	COMBO:1.2.6.3.5	mrconso_exact:SNOMEDCT_US:synonym:EEG Biofeedback
+COMBO:1.2.6.4.1.3.1	MESH:D027641	Laughter Yoga	0.97	mrconso_exact	1.2.6.4.1.3.1	Laughter_Yoga	COMBO:1.2.6.4.1.3.1	mrconso_exact:MSH:label:Laughter_Yoga
+COMBO:1.2.6.4.1.3.3	MESH:D012860	Raja	0.97	mrconso_exact	1.2.6.4.1.3.3	Raja_Yoga	COMBO:1.2.6.4.1.3.3	mrconso_exact:MSH:synonym:Raja
+COMBO:1.2.8.1.1	MESH:D026302	Tai Chi	0.97	mrconso_exact	1.2.8.1.1	Tai_Chi	COMBO:1.2.8.1.1	mrconso_exact:MSH:label:Tai_Chi
+COMBO:1.2.8.2.3.1.3.1	UMLS:C0872259	Repetitive Transcranial Magnetic Stimulation	0.97	mrconso_exact	1.2.8.2.3.1.3.1	Repetitive_Transcranial_Magnetic_Stimulation	COMBO:1.2.8.2.3.1.3.1	mrconso_exact:NCI:label:Repetitive_Transcranial_Magnetic_Stimulation
+COMBO:1.2.8.2.7.2	MESH:D010778	Photodynamic Therapy	0.97	mrconso_exact	1.2.8.2.7.2	Photodynamic_Therapy	COMBO:1.2.8.2.7.2	mrconso_exact:MSH:label:Photodynamic_Therapy
+COMBO:1.2.15.1	MESH:D026201	Reflexology	0.97	mrconso_exact	1.2.15.1	Reflexology	COMBO:1.2.15.1	mrconso_exact:MSH:label:Reflexology
+COMBO:1.2.15.1.1	UMLS:C1273536	Acu-reflexology	0.97	mrconso_exact	1.2.15.1.1	Acu_Reflexology	COMBO:1.2.15.1.1	mrconso_exact:SNOMEDCT_US:label:Acu_Reflexology
+COMBO:1.2.17.2	UMLS:C0020548	Heat Therapy	0.97	mrconso_exact	1.2.17.2	Heat_Therapy	COMBO:1.2.17.2	mrconso_exact:NCI:label:Heat_Therapy
+COMBO:1.2.17.2.2	MESH:D029002	Sauna	0.97	mrconso_exact	1.2.17.2.2	Sauna_Therapy	COMBO:1.2.17.2.2	mrconso_exact:MSH:synonym:Sauna
+COMBO:1.2.22.10	UMLS:C5238484	Whole Body Vibration Therapy	0.97	mrconso_exact	1.2.22.10	Whole_Body_Vibration_Therapy	COMBO:1.2.22.10	mrconso_exact:NCI:label:Whole_Body_Vibration_Therapy
+COMBO:1.3	MESH:D000083626	Psychological Intervention	0.97	mrconso_exact	1.3	Psychological_Intervention	COMBO:1.3	mrconso_exact:MSH:label:Psychological_Intervention
+COMBO:1.3.1.1	UMLS:C0006155	Breathing exercise	0.97	mrconso_exact	1.3.1.1	Breathing_Exercise	COMBO:1.3.1.1	mrconso_exact:SNOMEDCT_US:label:Breathing_Exercise
+COMBO:1.3.1.1.2	UMLS:C1328799	Deep breathing	0.97	mrconso_exact	1.3.1.1.2	Deep_Breathing	COMBO:1.3.1.1.2	mrconso_exact:MTH:label:Deep_Breathing
+COMBO:1.3.1.2	MESH:D012064	Relaxation Technique	0.97	mrconso_exact	1.3.1.2	Relaxation_Technique	COMBO:1.3.1.2	mrconso_exact:MSH:label:Relaxation_Technique
+COMBO:1.3.1.2.1	MESH:D001155	Art Therapy	0.97	mrconso_exact	1.3.1.2.1	Art_Therapy	COMBO:1.3.1.2.1	mrconso_exact:MSH:label:Art_Therapy
+COMBO:1.3.1.2.2	UMLS:C0597811	Humor therapy	0.97	mrconso_exact	1.3.1.2.2	Humor_Therapy	COMBO:1.3.1.2.2	mrconso_exact:MTH:label:Humor_Therapy
+COMBO:1.3.1.2.2.1	MESH:D027641	Laughter Therapy	0.97	mrconso_exact	1.3.1.2.2.1	Laughter_Therapy	COMBO:1.3.1.2.2.1	mrconso_exact:MSH:label:Laughter_Therapy
+COMBO:1.3.1.2.2.1.1	MESH:D027641	Laughter Yoga	0.97	mrconso_exact	1.3.1.2.2.1.1	Laughter_Yoga	COMBO:1.3.1.2.2.1.1	mrconso_exact:MSH:label:Laughter_Yoga
+COMBO:1.3.1.2.3	MESH:D009147	Music Therapy	0.97	mrconso_exact	1.3.1.2.3	Music_Therapy	COMBO:1.3.1.2.3	mrconso_exact:MSH:label:Music_Therapy
+COMBO:1.3.1.2.4	MESH:D026201	Reflexology	0.97	mrconso_exact	1.3.1.2.4	Reflexology	COMBO:1.3.1.2.4	mrconso_exact:MSH:label:Reflexology
+COMBO:1.3.1.2.4.1	UMLS:C1273536	Acu-reflexology	0.97	mrconso_exact	1.3.1.2.4.1	Acu_Reflexology	COMBO:1.3.1.2.4.1	mrconso_exact:SNOMEDCT_US:label:Acu_Reflexology
+COMBO:1.3.1.2.5	MESH:D001326	Progressive Muscle Relaxation	0.97	mrconso_exact	1.3.1.2.5	Progressive_Muscle_Relaxation	COMBO:1.3.1.2.5	mrconso_exact:MSH:label:Progressive_Muscle_Relaxation
+COMBO:1.3.1.2.7	UMLS:C0282333	Relaxation training	0.97	mrconso_exact	1.3.1.2.7	Relaxation_Training	COMBO:1.3.1.2.7	mrconso_exact:SNOMEDCT_US:label:Relaxation_Training
+COMBO:1.3.1.3	MESH:D001676	Biofeedback	0.97	mrconso_exact	1.3.1.3	Biofeedback	COMBO:1.3.1.3	mrconso_exact:MSH:label:Biofeedback
+COMBO:1.3.1.3.1	MESH:D056228	Sensory Feedback	0.97	mrconso_exact	1.3.1.3.1	Sensory_Feedback	COMBO:1.3.1.3.1	mrconso_exact:MSH:label:Sensory_Feedback
+COMBO:1.3.1.3.2	MESH:D058765	Neurofeedback	0.97	mrconso_exact	1.3.1.3.2	Neurofeedback	COMBO:1.3.1.3.2	mrconso_exact:MSH:label:Neurofeedback
+COMBO:1.3.1.4	MESH:D005081	Exercise Therapy	0.97	mrconso_exact	1.3.1.4	Exercise_Therapy	COMBO:1.3.1.4	mrconso_exact:MSH:label:Exercise_Therapy
+COMBO:1.3.1.4.1.2	MESH:D026302	Tai Chi	0.97	mrconso_exact	1.3.1.4.1.2	Tai_Chi	COMBO:1.3.1.4.1.2	mrconso_exact:MSH:label:Tai_Chi
+COMBO:1.3.1.4.1.3	UMLS:C1883583	Yoga Therapy	0.97	mrconso_exact	1.3.1.4.1.3	Yoga_Therapy	COMBO:1.3.1.4.1.3	mrconso_exact:NCI:label:Yoga_Therapy
+COMBO:1.3.1.4.1.3.1	MESH:D027641	Laughter Yoga	0.97	mrconso_exact	1.3.1.4.1.3.1	Laughter_Yoga	COMBO:1.3.1.4.1.3.1	mrconso_exact:MSH:label:Laughter_Yoga
+COMBO:1.3.1.4.2	MESH:D003614	Dance Therapy	0.97	mrconso_exact	1.3.1.4.2	Dance_Therapy	COMBO:1.3.1.4.2	mrconso_exact:MSH:label:Dance_Therapy
+COMBO:1.3.1.5.1	UMLS:C0597812	Alexander technique	0.97	mrconso_exact	1.3.1.5.1	Alexander_Technique	COMBO:1.3.1.5.1	mrconso_exact:SNOMEDCT_US:label:Alexander_Technique
+COMBO:1.3.4.1	MESH:D016500	Color Therapy	0.97	mrconso_exact	1.3.4.1	Color_Therapy	COMBO:1.3.4.1	mrconso_exact:MSH:label:Color_Therapy
+COMBO:1.3.4.5.1	MESH:D001155	Art Therapy	0.97	mrconso_exact	1.3.4.5.1	Art_Therapy	COMBO:1.3.4.5.1	mrconso_exact:MSH:label:Art_Therapy
+COMBO:1.3.4.5.2	MESH:D009147	Music Therapy	0.97	mrconso_exact	1.3.4.5.2	Music_Therapy	COMBO:1.3.4.5.2	mrconso_exact:MSH:label:Music_Therapy
+COMBO:1.3.4.5.3	MESH:D003614	Dance Therapy	0.97	mrconso_exact	1.3.4.5.3	Dance_Therapy	COMBO:1.3.4.5.3	mrconso_exact:MSH:label:Dance_Therapy
+COMBO:1.3.7.1	MESH:D019124	Therapeutic Touch	0.97	mrconso_exact	1.3.7.1	Therapeutic_Touch	COMBO:1.3.7.1	mrconso_exact:MSH:label:Therapeutic_Touch
+COMBO:1.3.7.4.2.13	UMLS:C0205172	More	0.97	mrconso_exact	1.3.7.4.2.13	Mindfulness_Oriented_Recovery_Enhancement	COMBO:1.3.7.4.2.13	mrconso_exact:MTH:synonym:MORE
+COMBO:1.3.8.1	MESH:D027641	Laughter Therapy	0.97	mrconso_exact	1.3.8.1	Laughter_Therapy	COMBO:1.3.8.1	mrconso_exact:MSH:label:Laughter_Therapy
+COMBO:1.3.8.1.1	MESH:D027641	Laughter Yoga	0.97	mrconso_exact	1.3.8.1.1	Laughter_Yoga	COMBO:1.3.8.1.1	mrconso_exact:MSH:label:Laughter_Yoga
+COMBO:1.3.8.2	MESH:D019341	Aromatherapy	0.97	mrconso_exact	1.3.8.2	Aromatherapy	COMBO:1.3.8.2	mrconso_exact:MSH:label:Aromatherapy
+COMBO:1.3.10.4.1	MESH:D000098962	Grief Counseling	0.97	mrconso_exact	1.3.10.4.1	Grief_Counseling	COMBO:1.3.10.4.1	mrconso_exact:MSH:label:Grief_Counseling
+COMBO:1.3.10.4.2	UMLS:C0730543	Lifestyle Counseling	0.97	mrconso_exact	1.3.10.4.2	Lifestyle_Counseling	COMBO:1.3.10.4.2	mrconso_exact:NCI:label:Lifestyle_Counseling
+COMBO:1.3.13	UMLS:C2981153	Focusing	0.97	mrconso_exact	1.3.13	Focusing_Therapy	COMBO:1.3.13	mrconso_exact:SNOMEDCT_US:synonym:Focusing
+COMBO:1.3.15.1.2.1	MESH:D000099080	Forest Bathing	0.97	mrconso_exact	1.3.15.1.2.1	Forest_Bathing	COMBO:1.3.15.1.2.1	mrconso_exact:MSH:label:Forest_Bathing
+COMBO:1.3.15.2	UMLS:C0150763	Sensory stimulation	0.97	mrconso_exact	1.3.15.2	Sensory_Stimulation	COMBO:1.3.15.2	mrconso_exact:SNOMEDCT_US:label:Sensory_Stimulation
+COMBO:2.2	MESH:D001688	Natural Product	0.97	mrconso_exact	2.2	Natural_Product	COMBO:2.2	mrconso_exact:MSH:label:Natural_Product
+COMBO:2.2.2.3	MESH:D001599	Berberine	0.97	mrconso_exact	2.2.2.3	Berberine	COMBO:2.2.2.3	mrconso_exact:MSH:label:Berberine
+COMBO:2.2.2.4	UMLS:C0330922	Sour orange	0.97	mrconso_exact	2.2.2.4	Bitter_Orange	COMBO:2.2.2.4	mrconso_exact:SNOMEDCT_US:synonym:sour orange
+COMBO:2.2.2.5	MESH:D002935	Cinnamon	0.97	mrconso_exact	2.2.2.5	Cinnamon	COMBO:2.2.2.5	mrconso_exact:MSH:label:Cinnamon
+COMBO:2.2.2.10.1	MESH:D013662	Green Tea	0.97	mrconso_exact	2.2.2.10.1	Green_Tea	COMBO:2.2.2.10.1	mrconso_exact:MSH:label:Green_Tea
+COMBO:2.2.2.11	MESH:D027825	Hawthorn	0.97	mrconso_exact	2.2.2.11	Hawthorn	COMBO:2.2.2.11	mrconso_exact:MSH:label:Hawthorn
+COMBO:2.2.2.13	MESH:D020944	Milk Thistle	0.97	mrconso_exact	2.2.2.13	Milk_Thistle	COMBO:2.2.2.13	mrconso_exact:MSH:label:Milk_Thistle
+COMBO:2.2.2.15	MESH:D029771	Rhodiola	0.97	mrconso_exact	2.2.2.15	Rhodiola	COMBO:2.2.2.15	mrconso_exact:MSH:label:Rhodiola
+COMBO:2.2.2.16	MESH:C041579	lei gong teng	0.97	mrconso_exact	2.2.2.16	Thunder_God_Vine	COMBO:2.2.2.16	mrconso_exact:MSH:synonym:lei gong teng
+COMBO:2.2.2.17	MESH:C000723318	white mulberry leaf	0.97	mrconso_exact	2.2.2.17	White_Mulberry_Leaf	COMBO:2.2.2.17	mrconso_exact:MSH:label:White_Mulberry_Leaf
+COMBO:2.2.2.18	MESH:C030693	Ashwagandha	0.97	mrconso_exact	2.2.2.18	Ashwagandha	COMBO:2.2.2.18	mrconso_exact:MSH:label:Ashwagandha
+COMBO:2.2.2.19	MESH:D029910	Fenugreek	0.97	mrconso_exact	2.2.2.19	Fenugreek	COMBO:2.2.2.19	mrconso_exact:MSH:label:Fenugreek
+COMBO:2.2.2.21	MESH:C012596	turmeric root	0.97	mrconso_exact	2.2.2.21	Turmeric	COMBO:2.2.2.21	mrconso_exact:MSH:synonym:turmeric root
+COMBO:2.2.2.25	MESH:D036901	Butterbur	0.97	mrconso_exact	2.2.2.25	Butterbur	COMBO:2.2.2.25	mrconso_exact:MSH:label:Butterbur
+COMBO:2.2.2.29	MESH:D028182	European Mistletoe	0.97	mrconso_exact	2.2.2.29	European_Mistletoe	COMBO:2.2.2.29	mrconso_exact:MSH:label:European_Mistletoe
+COMBO:2.2.2.30	MESH:D020903	Feverfew	0.97	mrconso_exact	2.2.2.30	Feverfew	COMBO:2.2.2.30	mrconso_exact:MSH:label:Feverfew
+COMBO:2.2.2.32	MESH:D031319	Horse Chestnut	0.97	mrconso_exact	2.2.2.32	Horse_Chestnut	COMBO:2.2.2.32	mrconso_exact:MSH:label:Horse_Chestnut
+COMBO:2.2.2.33	MESH:D027523	Lavender	0.97	mrconso_exact	2.2.2.33	Lavender	COMBO:2.2.2.33	mrconso_exact:MSH:label:Lavender
+COMBO:2.2.2.34	MESH:D029921	Red Clover	0.97	mrconso_exact	2.2.2.34	Red_Clover	COMBO:2.2.2.34	mrconso_exact:MSH:label:Red_Clover
+COMBO:2.2.2.39	MESH:D039321	Goldenseal	0.97	mrconso_exact	2.2.2.39	Goldenseal	COMBO:2.2.2.39	mrconso_exact:MSH:label:Goldenseal
+COMBO:2.2.2.40	MESH:D029598	Passionflower	0.97	mrconso_exact	2.2.2.40	Passionflower	COMBO:2.2.2.40	mrconso_exact:MSH:label:Passionflower
+COMBO:2.2.2.41	MESH:C040972	saw palmetto	0.97	mrconso_exact	2.2.2.41	Saw_Palmetto	COMBO:2.2.2.41	mrconso_exact:MSH:label:Saw_Palmetto

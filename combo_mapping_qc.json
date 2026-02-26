@@ -1,0 +1,179 @@
+{
+  "mapping_summary": {
+    "total_combo_concepts": 833,
+    "mapped_any_count": 821,
+    "mapped_any_rate_pct": 98.5594237695078,
+    "mapped_deterministic_count": 821,
+    "mapped_deterministic_rate_pct": 98.5594237695078,
+    "mapped_semantic_count": 0,
+    "mapped_semantic_rate_pct": 0.0,
+    "semantic_row_count": 0,
+    "remaining_unresolved_count": 12
+  },
+  "seed_presence_summary": {
+    "seed_identifier_count": 312,
+    "seed_ids_present_in_cam_count": 1,
+    "seed_ids_present_in_cam_rate_pct": 0.3205128205128205
+  },
+  "cam_summary": {
+    "cam_node_count": 2794171,
+    "cam_edge_count": 3113642,
+    "semmed_edges_retained": 139459,
+    "ikraph_edges_retained": 142565,
+    "cam_stats_file_summary": {
+      "config": {
+        "ontology_dir": "ontologies",
+        "roots_json": null,
+        "normalized_files": [
+          "combo_seed_mappings.with_semantic.tsv",
+          "combo_bridge_crosswalk.tsv",
+          "combo_crosswalk_from_mrconso.tsv",
+          "/Users/drshika2/NodeNormalization/ (1)/semmed/semmed_normalized_full_with_pubchem.json",
+          "/Users/drshika2/NodeNormalization/ (1)/ikraph/ikraph_normalized_full.with_newly_normalized_20260123_v6_20260218.json"
+        ],
+        "min_confidence": null,
+        "require_confidence": false,
+        "semmed_edge_file": "/Users/drshika2/RTX-KG2/merged_ikraph_semmeddb_v5_pubchem/semmeddb_relationships_neo4j.csv",
+        "semmed_min_frequency": 1,
+        "ikraph_edge_file": "ikraph_edges_cleaned.csv",
+        "ikraph_node_dict": "/Users/drshika2/neo4jexploration/iKraph_raw/iKraph_full/NER_ID_dict_cap_final.json",
+        "analysis_doc": "CAM_ANALYSIS.md",
+        "overlap_relaxed_summary": null,
+        "semmed_summary": null
+      },
+      "mapping_index_size": 2100470,
+      "ontologies": [
+        {
+          "ontology": "foodon",
+          "file": "ontologies/foodon.owl",
+          "roots_requested": [
+            "FOODON:00001002"
+          ],
+          "roots_resolved": [
+            "FOODON:00001002"
+          ],
+          "roots_unresolved": [],
+          "nodes_before_prune": 11618,
+          "nodes_after_prune": 11618,
+          "edges_after_prune": 13016,
+          "obsolete_pruned": 0,
+          "skipped": false
+        },
+        {
+          "ontology": "tcdo",
+          "file": "ontologies/tcdo.owl",
+          "roots_requested": [
+            "TCDO:0000001"
+          ],
+          "roots_resolved": [
+            "TCDO:0000001"
+          ],
+          "roots_unresolved": [],
+          "nodes_before_prune": 511,
+          "nodes_after_prune": 511,
+          "edges_after_prune": 510,
+          "obsolete_pruned": 0,
+          "skipped": false
+        },
+        {
+          "ontology": "lsfo",
+          "file": "ontologies/lsfo.owl",
+          "roots_requested": [
+            "LFID:0000000"
+          ],
+          "roots_resolved": [
+            "LFID:0000000"
+          ],
+          "roots_unresolved": [],
+          "nodes_before_prune": 5598,
+          "nodes_after_prune": 5598,
+          "edges_after_prune": 5694,
+          "obsolete_pruned": 0,
+          "skipped": false
+        },
+        {
+          "ontology": "chebi",
+          "file": "ontologies/chebi.owl",
+          "roots_requested": [
+            "CHEBI:50906"
+          ],
+          "roots_resolved": [
+            "CHEBI:50906"
+          ],
+          "roots_unresolved": [],
+          "nodes_before_prune": 67666,
+          "nodes_after_prune": 67666,
+          "edges_after_prune": 103641,
+          "obsolete_pruned": 0,
+          "skipped": false
+        },
+        {
+          "ontology": "ncbitaxon",
+          "file": "ontologies/ncbitaxon.obo",
+          "roots_requested": [
+            "NCBITaxon:1"
+          ],
+          "roots_resolved": [
+            "NCBITaxon:1"
+          ],
+          "roots_unresolved": [],
+          "nodes_before_prune": 2708758,
+          "nodes_after_prune": 2708758,
+          "edges_after_prune": 2708757,
+          "obsolete_pruned": 0,
+          "skipped": false
+        }
+      ],
+      "missing_ontology_files": [],
+      "final_counts": {
+        "unique_nodes": 2794171,
+        "unique_edges": 3113642
+      },
+      "semmeddb": {
+        "file": "/Users/drshika2/RTX-KG2/merged_ikraph_semmeddb_v5_pubchem/semmeddb_relationships_neo4j.csv",
+        "rows_total": 936521,
+        "rows_bad": 0,
+        "rows_below_min_frequency": 0,
+        "rows_kept_cam": 139459,
+        "min_frequency": 1,
+        "input_unique_nodes": 14781,
+        "semmed_nodes_added": 22,
+        "semmed_edges_added": 139459
+      },
+      "ikraph": {
+        "file": "ikraph_edges_cleaned.csv",
+        "rows_total": 11419854,
+        "rows_bad": 0,
+        "rows_kept_cam": 142961,
+        "input_unique_nodes": 1426987,
+        "ikraph_nodes_added": 3,
+        "ikraph_edges_added": 142961
+      },
+      "by_source": {
+        "nodes": {
+          "chebi": 67661,
+          "foodon": 11618,
+          "ikraph": 3,
+          "lsfo": 5598,
+          "ncbitaxon": 2708758,
+          "semmeddb": 22,
+          "tcdo": 511
+        },
+        "edges": {
+          "chebi": 103641,
+          "foodon": 13016,
+          "ikraph": 142565,
+          "lsfo": 5694,
+          "ncbitaxon": 2708757,
+          "semmeddb": 139459,
+          "tcdo": 510
+        }
+      },
+      "semmeddb_ikraph_overlap": {
+        "nodes_in_both": 792,
+        "semmeddb_endpoint_nodes": 1795,
+        "ikraph_endpoint_nodes": 1033
+      }
+    }
+  }
+}

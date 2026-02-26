@@ -1,0 +1,13 @@
+combo_concept_id	combo_label	synonyms	candidate_count	candidates	selected_identifier	selected_label	mapping_relation	curator_notes
+1.3.1	Mind		1	UMLS:C0229992::Mind::SNOMEDCT_US				
+1.3.1.4.3	Aikido		2	MESH:D016139::Aikido::MSH|UMLS:C0078912::Aikido::SNOMEDCT_US				
+1.3.7.4.2.16	Mindfulness_Based_College	MSC	5	UMLS:C0074299::MSC::NCI|UMLS:C1431322::MSC::NCI|UMLS:C2828209::MSC::NCI|UMLS:C3178844::MSC::NCI|UMLS:C1334531::MSC::NCI				
+2.2.2.10	Tea	N/A	3	MESH:D013662::Tea::MSH|UMLS:C0039400::Tea::MTH|UMLS:C4724036::TEA::NCI				
+2.2.2.12	Licorice_Root	licorice|liquorice|Chinese licorice|gan zao|gan cao|sweet root	5	MESH:D006035::Licorice::MSH|MESH:D029882::Chinese Licorice::MSH|UMLS:C0086555::licorice::MTH|UMLS:C0770612::Licorice::NCI|UMLS:C2756786::Licorice Root::NCI				
+2.2.2.26	Chamomile	German chamomile	5	MESH:D031168::German Chamomile::MSH|MESH:D020843::Chamomile::MSH|UMLS:C0752226::Chamomile::MTH|UMLS:C0439963::Chamomile::NCI|UMLS:C1510478::German Chamomile::NCI				
+2.2.2.27	Chasteberry	chaste tree|monk's pepper|vitex	4	MESH:D020950::Chaste Tree::MSH|UMLS:C3887788::Chasteberry::MTH|UMLS:C0752339::Vitex::NCI|UMLS:C0771966::Chasteberry::NCI				
+2.2.2.28	Echinacea	American coneflower|purple coneflower|coneflower	4	MESH:D020900::Purple Coneflower::MSH|UMLS:C0874052::Purple Coneflower::NCI|UMLS:C1095869::Purple Coneflower::NCI|UMLS:C0752270::Echinacea::SNOMEDCT_US				
+2.2.2.35	Sage	true sage|garden sage|common sage	3	UMLS:C0876956::SAGE::NCI|UMLS:C3668955::Common Sage::NCI|UMLS:C1122976::Sage::SNOMEDCT_US				
+2.2.2.36	St	hypericum|Klamath weed|goatweed	7	MESH:Q000592::ST::MSH|MESH:D020902::Hypericum::MSH|UMLS:C1256259::Hypericum::MTH|UMLS:C1662819::Hypericum::NCI|UMLS:C3272372::ST::NCI|UMLS:C0936242::Klamath weed::NCI|UMLS:C1706292::Hypericum::SNOMEDCT_US				
+2.2.2.37	Valerian	garden heliotrope|all-heal	5	MESH:D014632::Garden Heliotrope::MSH|UMLS:C0042281::Valerian::MTH|UMLS:C0993600::Valerian::NCI|UMLS:C2348950::Garden Heliotrope::NCI|UMLS:C0795674::Valerian::NCI				
+2.2.2.38	Cat	N/A	15	MESH:D002415::Cat::MSH|UMLS:C0007366::CAT::NCI|UMLS:C0007450::Cat::NCI|UMLS:C0008169::cat::NCI|UMLS:C1366498::cat::NCI|UMLS:C3530118::CAT::NCI|UMLS:C4050461::CAT::NCI|UMLS:C4758039::CAT::NCI|UMLS:C0040405::CAT::NCI|UMLS:C1413138::CAT::NCI|UMLS:C0325089::Cat::SNOMEDCT_US|UMLS:C0325090::Cat::SNOMEDCT_US|UMLS:C0524517::Cat::SNOMEDCT_US|UMLS:C1270185::Cat::SNOMEDCT_US|UMLS:C3665481::Cat::SNOMEDCT_US				

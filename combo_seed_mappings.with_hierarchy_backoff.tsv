@@ -1,0 +1,911 @@
+input_curie	preferred_identifier	preferred_label	confidence	method	combo_concept_id	combo_label	source_identifier	evidence	mapping_relation
+UMLS:C0259972	UMLS:C0259972	Ketogenic_Diet	1.0	deterministic_direct	1.1.1.1	Ketogenic_Diet	UMLS:C0259972	https://uts.nlm.nih.gov/uts/umls/concept/C0259972|http://purl.bioontology.org/ontology/MESH/D055423	
+MESH:D055423	UMLS:C0259972	Ketogenic_Diet	0.9	deterministic_crosswalk	1.1.1.1	Ketogenic_Diet	MESH:D055423	https://uts.nlm.nih.gov/uts/umls/concept/C0259972|http://purl.bioontology.org/ontology/MESH/D055423	
+UMLS:C4505336	UMLS:C4505336	High_Protein_Low_Carbohydrate_Diet	1.0	deterministic_direct	1.1.1.2	High_Protein_Low_Carbohydrate_Diet	UMLS:C4505336	https://uts.nlm.nih.gov/uts/umls/concept/C4505336|http://purl.bioontology.org/ontology/MESH/D000076107	
+MESH:D000076107	UMLS:C1319849	High_Protein_Low_Carbohydrate_Diet	0.9	deterministic_crosswalk	1.1.1.2	High_Protein_Low_Carbohydrate_Diet	MESH:D000076107	https://uts.nlm.nih.gov/uts/umls/concept/C4505336|http://purl.bioontology.org/ontology/MESH/D000076107	
+UMLS:C0344351	UMLS:C0344351	Gluten_Free_Diet	1.0	deterministic_direct	1.1.1.3	Gluten_Free_Diet	UMLS:C0344351	http://purl.bioontology.org/ontology/MESH/D055050|https://uts.nlm.nih.gov/uts/umls/concept/C0344351	
+MESH:D055050	UMLS:C0344351	Gluten_Free_Diet	0.9	deterministic_crosswalk	1.1.1.3	Gluten_Free_Diet	MESH:D055050	http://purl.bioontology.org/ontology/MESH/D055050|https://uts.nlm.nih.gov/uts/umls/concept/C0344351	
+UMLS:C0452423	UMLS:C0452423	Paleolithic_Diet	1.0	deterministic_direct	1.1.1.4	Paleolithic_Diet	UMLS:C0452423	http://purl.bioontology.org/ontology/MESH/D066046|https://uts.nlm.nih.gov/uts/umls/concept/C0452423	
+MESH:D066046	UMLS:C0452423	Paleolithic_Diet	0.9	deterministic_crosswalk	1.1.1.4	Paleolithic_Diet	MESH:D066046	http://purl.bioontology.org/ontology/MESH/D066046|https://uts.nlm.nih.gov/uts/umls/concept/C0452423	
+UMLS:C0012166	UMLS:C0012166	Macrobiotic_Diet	1.0	deterministic_direct	1.1.1.5	Macrobiotic_Diet	UMLS:C0012166	https://uts.nlm.nih.gov/uts/umls/concept/C0012166|http://purl.bioontology.org/ontology/MESH/D015623|http://purl.bioontology.org/ontology/PDQ/CDR0000574287	
+MESH:D015623	UMLS:C0012166	Macrobiotic_Diet	0.9	deterministic_crosswalk	1.1.1.5	Macrobiotic_Diet	MESH:D015623	https://uts.nlm.nih.gov/uts/umls/concept/C0012166|http://purl.bioontology.org/ontology/MESH/D015623|http://purl.bioontology.org/ontology/PDQ/CDR0000574287	
+MESH:D000095500	UMLS:C5197846	Plant_Based_Diet	0.9	deterministic_crosswalk	1.1.1.7	Plant_Based_Diet	MESH:D000095500	http://purl.bioontology.org/ontology/MESH/D000095500	
+MESH:D038441	UMLS:C1138412	Mediterranean_Diet	0.9	deterministic_crosswalk	1.1.1.7.1	Mediterranean_Diet	MESH:D038441	http://purl.bioontology.org/ontology/MESH/D038441	
+MESH:D014676	UMLS:C0311164	Vegetarian_Diet	0.9	deterministic_crosswalk	1.1.1.7.2	Vegetarian_Diet	MESH:D014676	http://purl.bioontology.org/ontology/MESH/D014676	
+UMLS:C0344353	HP:4000172	Vegan_Diet	0.9	deterministic_crosswalk	1.1.1.7.2.2	Vegan_Diet	UMLS:C0344353	http://purl.bioontology.org/ontology/MESH/D000067269	
+MESH:D000067269	UMLS:C0344353	Vegan_Diet	0.9	deterministic_crosswalk	1.1.1.7.2.2	Vegan_Diet	MESH:D000067269	http://purl.bioontology.org/ontology/MESH/D000067269	
+MESH:D066273	UMLS:C3849996	Western_Diet	0.9	deterministic_crosswalk	1.1.1.9	Western_Diet	MESH:D066273	http://purl.bioontology.org/ontology/MESH/D066273	
+MESH:D000093763	UMLS:C4704881	Intermittent_Fasting	0.9	deterministic_crosswalk	1.1.1.10	Intermittent_Fasting	MESH:D000093763	http://purl.bioontology.org/ontology/MESH/D000093763	
+UMLS:C1831723	UMLS:C1831723	Gerson_Therapy	1.0	deterministic_direct	1.1.2	Gerson_Therapy	UMLS:C1831723	http://purl.bioontology.org/ontology/PDQ/CDR0000453793|https://uts.nlm.nih.gov/uts/umls/concept/C1831723	
+UMLS:C1831689	UMLS:C1831689	Gonzalez_Regimen	1.0	deterministic_direct	1.1.3	Gonzalez_Regimen	UMLS:C1831689	http://purl.bioontology.org/ontology/PDQ/CDR0000441094|https://uts.nlm.nih.gov/uts/umls/concept/C1831689	
+UMLS:C1880312	UMLS:C1880312	Dietary_Macronutrients_Therapy	1.0	deterministic_direct	1.1.4	Dietary_Macronutrients_Therapy	UMLS:C1880312	http://purl.bioontology.org/ontology/PDQ/CDR0000574290|https://uts.nlm.nih.gov/uts/umls/concept/C1880312	
+UMLS:C1879713	UMLS:C1879713	Antioxidants_Therapy	1.0	deterministic_direct	1.1.5	Antioxidants_Therapy	UMLS:C1879713	http://purl.bioontology.org/ontology/PDQ/CDR0000574289|https://uts.nlm.nih.gov/uts/umls/concept/C1879713	
+UMLS:C0242297	UMLS:C0242297	Dietary_Supplementation	1.0	deterministic_direct	1.1.6	Dietary_Supplementation	UMLS:C0242297	https://uts.nlm.nih.gov/uts/umls/concept/C0242297	
+UMLS:C0029340	UMLS:C0029340	Orthomolecular_Therapy	1.0	deterministic_direct	1.1.10	Orthomolecular_Therapy	UMLS:C0029340	https://uts.nlm.nih.gov/uts/umls/concept/C0029340|http://purl.bioontology.org/ontology/PDQ/CDR0000574288	
+UMLS:C1881140	UMLS:C1881140	Immunoaugmentative_Therapy	1.0	deterministic_direct	1.1.11	Immunoaugmentative_Therapy	UMLS:C1881140	http://purl.bioontology.org/ontology/PDQ/CDR0000574093|https://uts.nlm.nih.gov/uts/umls/concept/C1881140	
+UMLS:C1879712	UMLS:C1879712	Antineoplastons_Therapy	1.0	deterministic_direct	1.1.12	Antineoplastons_Therapy	UMLS:C1879712	https://uts.nlm.nih.gov/uts/umls/concept/C1879712|http://purl.bioontology.org/ontology/PDQ/CDR0000574092	
+UMLS:C0007975	UMLS:C0007975	Chelation_Therapy	1.0	deterministic_direct	1.1.13	Chelation_Therapy	UMLS:C0007975	https://www.nccih.nih.gov/health/chelation-for-coronary-heart-disease-what-you-need-to-know|https://uts.nlm.nih.gov/uts/umls/concept/C0007975	
+UMLS:C0394664	UMLS:C0394664	Acupuncture	1.0	deterministic_direct	1.2.1	Acupuncture	UMLS:C0394664	http://purl.bioontology.org/ontology/PDQ/CDR0000372888|http://purl.bioontology.org/ontology/RCD/856..|https://uts.nlm.nih.gov/uts/umls/concept/C0394664|https://www.nccih.nih.gov/health/acupuncture-effectiveness-and-safety|http://purl.bioontology.org/ontology/MESH/D015670	
+MESH:D015670	UMLS:C0394664	Acupuncture	0.9	deterministic_crosswalk	1.2.1	Acupuncture	MESH:D015670	http://purl.bioontology.org/ontology/PDQ/CDR0000372888|http://purl.bioontology.org/ontology/RCD/856..|https://uts.nlm.nih.gov/uts/umls/concept/C0394664|https://www.nccih.nih.gov/health/acupuncture-effectiveness-and-safety|http://purl.bioontology.org/ontology/MESH/D015670	
+UMLS:C0001301	UMLS:C0001301	Acupuncture_for_Anesthesia	1.0	deterministic_direct	1.2.1.1	Acupuncture_for_Anesthesia	UMLS:C0001301	https://uts.nlm.nih.gov/uts/umls/concept/C0001301|http://purl.bioontology.org/ontology/RCD/8561.	
+UMLS:C0001300	UMLS:C0001300	Acupuncture_for_Analgesia	1.0	deterministic_direct	1.2.1.2	Acupuncture_for_Analgesia	UMLS:C0001300	https://uts.nlm.nih.gov/uts/umls/concept/C0001300|http://purl.bioontology.org/ontology/MESH/D015667|http://purl.bioontology.org/ontology/RCD/8562.	
+MESH:D015667	UMLS:C0001300	Acupuncture_for_Analgesia	0.9	deterministic_crosswalk	1.2.1.2	Acupuncture_for_Analgesia	MESH:D015667	https://uts.nlm.nih.gov/uts/umls/concept/C0001300|http://purl.bioontology.org/ontology/MESH/D015667|http://purl.bioontology.org/ontology/RCD/8562.	
+UMLS:C0752217	UMLS:C0752217	Auricular_Acupuncture	1.0	deterministic_direct	1.2.1.3	Auricular_Acupuncture	UMLS:C0752217	http://purl.bioontology.org/ontology/MESH/D020831|https://uts.nlm.nih.gov/uts/umls/concept/C0752217	
+MESH:D020831	UMLS:C0752217	Auricular_Acupuncture	0.9	deterministic_crosswalk	1.2.1.3	Auricular_Acupuncture	MESH:D020831	http://purl.bioontology.org/ontology/MESH/D020831|https://uts.nlm.nih.gov/uts/umls/concept/C0752217	
+UMLS:C0013794	UMLS:C0013794	Electroacupuncture	1.0	deterministic_direct	1.2.1.4	Electroacupuncture	UMLS:C0013794	https://uts.nlm.nih.gov/uts/umls/concept/C0013794|http://purl.bioontology.org/ontology/PDQ/CDR0000372889|http://purl.bioontology.org/ontology/MESH/D015671	
+MESH:D015671	UMLS:C0013794	Electroacupuncture	0.9	deterministic_crosswalk	1.2.1.4	Electroacupuncture	MESH:D015671	https://uts.nlm.nih.gov/uts/umls/concept/C0013794|http://purl.bioontology.org/ontology/PDQ/CDR0000372889|http://purl.bioontology.org/ontology/MESH/D015671	
+UMLS:C0394660	UMLS:C0394660	Electroacupuncture_After_Voll	1.0	deterministic_direct	1.2.1.4.1	Electroacupuncture_After_Voll	UMLS:C0394660	http://purl.bioontology.org/ontology/RCD/X00Kg|https://uts.nlm.nih.gov/uts/umls/concept/C0394660	
+UMLS:C0394661	UMLS:C0394661	Vega_Electroacupuncture_Therapy	1.0	deterministic_direct	1.2.1.4.2	Vega_Electroacupuncture_Therapy	UMLS:C0394661	http://purl.bioontology.org/ontology/RCD/X00Kh|https://uts.nlm.nih.gov/uts/umls/concept/C0394661	
+UMLS:C0394654	UMLS:C0394654	Laser_Acupuncture	1.0	deterministic_direct	1.2.1.6	Laser_Acupuncture	UMLS:C0394654	http://purl.bioontology.org/ontology/RCD/X00KZ|https://uts.nlm.nih.gov/uts/umls/concept/C0394654	
+UMLS:C2986609	UMLS:C2986609	Trigger_Point_Acupuncture	1.0	deterministic_direct	1.2.2	Trigger_Point_Acupuncture	UMLS:C2986609	https://uts.nlm.nih.gov/uts/umls/concept/C2986609	
+UMLS:C2350276	UMLS:C2350276	Auriculotherapy	1.0	deterministic_direct	1.2.3	Auriculotherapy	UMLS:C2350276	https://uts.nlm.nih.gov/uts/umls/concept/C2350276|http://purl.bioontology.org/ontology/MESH/D055097	
+MESH:D055097	UMLS:C2350276	Auriculotherapy	0.9	deterministic_crosswalk	1.2.3	Auriculotherapy	MESH:D055097	https://uts.nlm.nih.gov/uts/umls/concept/C2350276|http://purl.bioontology.org/ontology/MESH/D055097	
+UMLS:C1515885	UMLS:C1515885	Acustimulation_Therapy	1.0	deterministic_direct	1.2.4	Acustimulation_Therapy	UMLS:C1515885	https://uts.nlm.nih.gov/uts/umls/concept/C1515885	
+UMLS:C5780323	UMLS:C5780323	Percutaneous_Collagen_Induction	1.0	deterministic_direct	1.2.5	Percutaneous_Collagen_Induction	UMLS:C5780323	http://purl.bioontology.org/ontology/MESH/D000097244|https://uts.nlm.nih.gov/uts/umls/concept/C5780323	
+MESH:D000097244	UMLS:C5780323	Percutaneous_Collagen_Induction	0.9	deterministic_crosswalk	1.2.5	Percutaneous_Collagen_Induction	MESH:D000097244	http://purl.bioontology.org/ontology/MESH/D000097244|https://uts.nlm.nih.gov/uts/umls/concept/C5780323	
+UMLS:C0260173	UMLS:C0260173	Mind	1.0	deterministic_direct	1.2.6	Mind	UMLS:C0260173	http://purl.bioontology.org/ontology/MESH/D026441|https://uts.nlm.nih.gov/uts/umls/concept/C0260173	
+MESH:D026441	UMLS:C0260173	Mind	0.9	deterministic_crosswalk	1.2.6	Mind	MESH:D026441	http://purl.bioontology.org/ontology/MESH/D026441|https://uts.nlm.nih.gov/uts/umls/concept/C0260173	
+UMLS:C0006155	UMLS:C0006155	Breathing_Exercise	1.0	deterministic_direct	1.2.6.1	Breathing_Exercise	UMLS:C0006155	http://purl.bioontology.org/ontology/MESH/D001945|https://uts.nlm.nih.gov/uts/umls/concept/C0006155	
+MESH:D001945	UMLS:C0006155	Breathing_Exercise	0.9	deterministic_crosswalk	1.2.6.1	Breathing_Exercise	MESH:D001945	http://purl.bioontology.org/ontology/MESH/D001945|https://uts.nlm.nih.gov/uts/umls/concept/C0006155	
+UMLS:C1328799	UMLS:C1328799	Deep_Breathing	1.0	deterministic_direct	1.2.6.1.2	Deep_Breathing	UMLS:C1328799	https://uts.nlm.nih.gov/uts/umls/concept/C1328799	
+UMLS:C0035029	UMLS:C0035029	Relaxation_Technique	1.0	deterministic_direct	1.2.6.2	Relaxation_Technique	UMLS:C0035029	http://purl.bioontology.org/ontology/MESH/D012064|https://www.nccih.nih.gov/health/relaxation-techniques-what-you-need-to-know|https://uts.nlm.nih.gov/uts/umls/concept/C0035029	
+MESH:D012064	UMLS:C0035029	Relaxation_Technique	0.9	deterministic_crosswalk	1.2.6.2	Relaxation_Technique	MESH:D012064	http://purl.bioontology.org/ontology/MESH/D012064|https://www.nccih.nih.gov/health/relaxation-techniques-what-you-need-to-know|https://uts.nlm.nih.gov/uts/umls/concept/C0035029	
+UMLS:C0003827	UMLS:C0003827	Art_Therapy	1.0	deterministic_direct	1.2.6.2.1	Art_Therapy	UMLS:C0003827	https://uts.nlm.nih.gov/uts/umls/concept/C0003827|http://purl.bioontology.org/ontology/PDQ/CDR0000574226|http://purl.bioontology.org/ontology/MESH/D001155	
+MESH:D001155	UMLS:C0003827	Art_Therapy	0.9	deterministic_crosswalk	1.2.6.2.1	Art_Therapy	MESH:D001155	https://uts.nlm.nih.gov/uts/umls/concept/C0003827|http://purl.bioontology.org/ontology/PDQ/CDR0000574226|http://purl.bioontology.org/ontology/MESH/D001155	
+UMLS:C3468077	UMLS:C3468077	Pottery	1.0	deterministic_direct	1.2.6.2.1.1.1	Pottery	UMLS:C3468077	https://uts.nlm.nih.gov/uts/umls/concept/C3468077	
+UMLS:C0870372	UMLS:C0870372	Creative_Art_Therapy	1.0	deterministic_direct	1.2.6.2.1.2	Creative_Art_Therapy	UMLS:C0870372	https://uts.nlm.nih.gov/uts/umls/concept/C0870372	
+UMLS:C0597811	UMLS:C0597811	Humor_Therapy	1.0	deterministic_direct	1.2.6.2.2	Humor_Therapy	UMLS:C0597811	https://uts.nlm.nih.gov/uts/umls/concept/C0597811	
+UMLS:C0949806	UMLS:C0949806	Laughter_Therapy	1.0	deterministic_direct	1.2.6.2.2.1	Laughter_Therapy	UMLS:C0949806	http://purl.bioontology.org/ontology/MESH/D027641|https://uts.nlm.nih.gov/uts/umls/concept/C0949806	
+MESH:D027641	UMLS:C0949806	Laughter_Therapy	0.9	deterministic_crosswalk	1.2.6.2.2.1	Laughter_Therapy	MESH:D027641	http://purl.bioontology.org/ontology/MESH/D027641|https://uts.nlm.nih.gov/uts/umls/concept/C0949806	
+UMLS:C4045984	UMLS:C4045984	Laughter_Yoga	1.0	deterministic_direct	1.2.6.2.2.1.1	Laughter_Yoga	UMLS:C4045984	https://uts.nlm.nih.gov/uts/umls/concept/C4045984|http://purl.bioontology.org/ontology/MESH/D027641	
+MESH:D027641	UMLS:C0949806	Laughter_Yoga	0.9	deterministic_crosswalk	1.2.6.2.2.1.1	Laughter_Yoga	MESH:D027641	https://uts.nlm.nih.gov/uts/umls/concept/C4045984|http://purl.bioontology.org/ontology/MESH/D027641	
+UMLS:C0026868	UMLS:C0026868	Music_Therapy	1.0	deterministic_direct	1.2.6.2.3	Music_Therapy	UMLS:C0026868	https://www.nccih.nih.gov/health/music-and-health-what-you-need-to-know|http://purl.bioontology.org/ontology/MESH/D009147|http://purl.bioontology.org/ontology/PDQ/CDR0000526238|https://uts.nlm.nih.gov/uts/umls/concept/C0026868	
+MESH:D009147	UMLS:C0026868	Music_Therapy	0.9	deterministic_crosswalk	1.2.6.2.3	Music_Therapy	MESH:D009147	https://www.nccih.nih.gov/health/music-and-health-what-you-need-to-know|http://purl.bioontology.org/ontology/MESH/D009147|http://purl.bioontology.org/ontology/PDQ/CDR0000526238|https://uts.nlm.nih.gov/uts/umls/concept/C0026868	
+UMLS:C5057506	UMLS:C5057506	Raga_Therapy	1.0	deterministic_direct	1.2.6.2.3.7	Raga_Therapy	UMLS:C5057506	https://uts.nlm.nih.gov/uts/umls/concept/C5057506	
+UMLS:C0034945	UMLS:C0034945	Reflexology	1.0	deterministic_direct	1.2.6.2.4	Reflexology	UMLS:C0034945	"https://www.nccih.nih.gov/health/reflexology|http://purl.bioontology.org/ontology/PDQ/CDR0000634136|https://uts.nlm.nih.gov/uts/umls/concept/C0034945|http://purl.bioontology.org/ontology/MESH/D012028"""	
+MESH:D012028	UMLS:C0034946	Reflexology	0.9	deterministic_crosswalk	1.2.6.2.4	Reflexology	MESH:D012028	"https://www.nccih.nih.gov/health/reflexology|http://purl.bioontology.org/ontology/PDQ/CDR0000634136|https://uts.nlm.nih.gov/uts/umls/concept/C0034945|http://purl.bioontology.org/ontology/MESH/D012028"""	
+UMLS:C1273536	UMLS:C1273536	Acu_Reflexology	1.0	deterministic_direct	1.2.6.2.4.1	Acu_Reflexology	UMLS:C1273536	http://purl.bioontology.org/ontology/RCTV2/8BF2.00|https://uts.nlm.nih.gov/uts/umls/concept/C1273536	
+UMLS:C1442582	UMLS:C1442582	Ear_Reflexology	1.0	deterministic_direct	1.2.6.2.4.5	Ear_Reflexology	UMLS:C1442582	https://uts.nlm.nih.gov/uts/umls/concept/C1442582	
+UMLS:C0454043	UMLS:C0454043	Progressive_Muscle_Relaxation	1.0	deterministic_direct	1.2.6.2.5	Progressive_Muscle_Relaxation	UMLS:C0454043	https://uts.nlm.nih.gov/uts/umls/concept/C0454043	
+UMLS:C0005491	UMLS:C0005491	Biofeedback	1.0	deterministic_direct	1.2.6.3	Biofeedback	UMLS:C0005491	"https://www.cancer.gov/about-cancer/treatment/clinica|http://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI%20Thesaurus&code=C15186""|http://purl.bioontology.org/ontology/PDQ/CDR0000574223|http://purl.bioontology.org/ontology/MESH/D001676|https://uts.nlm.nih.gov/uts/umls/concept/C0005491"	
+MESH:D001676	UMLS:C0005491	Biofeedback	0.9	deterministic_crosswalk	1.2.6.3	Biofeedback	MESH:D001676	"https://www.cancer.gov/about-cancer/treatment/clinica|http://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI%20Thesaurus&code=C15186""|http://purl.bioontology.org/ontology/PDQ/CDR0000574223|http://purl.bioontology.org/ontology/MESH/D001676|https://uts.nlm.nih.gov/uts/umls/concept/C0005491"	
+UMLS:C0178842	UMLS:C0178842	Sensory_Feedback	1.0	deterministic_direct	1.2.6.3.1	Sensory_Feedback	UMLS:C0178842	http://purl.bioontology.org/ontology/MESH/D056228|https://uts.nlm.nih.gov/uts/umls/concept/C0178842	
+MESH:D056228	UMLS:C0178842	Sensory_Feedback	0.9	deterministic_crosswalk	1.2.6.3.1	Sensory_Feedback	MESH:D056228	http://purl.bioontology.org/ontology/MESH/D056228|https://uts.nlm.nih.gov/uts/umls/concept/C0178842	
+UMLS:C2713543	UMLS:C2713543	Neurofeedback	1.0	deterministic_direct	1.2.6.3.2	Neurofeedback	UMLS:C2713543	https://uts.nlm.nih.gov/uts/umls/concept/C2713543|http://purl.bioontology.org/ontology/MESH/D058765	
+MESH:D058765	UMLS:C2713542	Neurofeedback	0.9	deterministic_crosswalk	1.2.6.3.2	Neurofeedback	MESH:D058765	https://uts.nlm.nih.gov/uts/umls/concept/C2713543|http://purl.bioontology.org/ontology/MESH/D058765	
+UMLS:C4082302	UMLS:C4082302	Exercise_Therapy	1.0	deterministic_direct	1.2.6.4	Exercise_Therapy	UMLS:C4082302	https://uts.nlm.nih.gov/uts/umls/concept/C4082302|http://purl.bioontology.org/ontology/PDQ/CDR0000574239	
+UMLS:C1720840	UMLS:C1720840	Pilates_Based_Exercise	1.0	deterministic_direct	1.2.6.4.1.1	Pilates_Based_Exercise	UMLS:C1720840	https://uts.nlm.nih.gov/uts/umls/concept/C1720840	
+UMLS:C0376403	UMLS:C0376403	Tai_Chi	1.0	deterministic_direct	1.2.6.4.1.2	Tai_Chi	UMLS:C0376403	https://uts.nlm.nih.gov/uts/umls/concept/C0376403|http://purl.bioontology.org/ontology/MESH/D026302|https://www.nccih.nih.gov/health/tai-chi-what-you-need-to-know	
+MESH:D026302	UMLS:C0376403	Tai_Chi	0.9	deterministic_crosswalk	1.2.6.4.1.2	Tai_Chi	MESH:D026302	https://uts.nlm.nih.gov/uts/umls/concept/C0376403|http://purl.bioontology.org/ontology/MESH/D026302|https://www.nccih.nih.gov/health/tai-chi-what-you-need-to-know	
+UMLS:C1883583	UMLS:C1883583	Yoga_Therapy	1.0	deterministic_direct	1.2.6.4.1.3	Yoga_Therapy	UMLS:C1883583	http://purl.bioontology.org/ontology/PDQ/CDR0000526236|http://purl.bioontology.org/ontology/MESH/D009147|https://www.nccih.nih.gov/health/music-and-health-what-you-need-to-know|https://uts.nlm.nih.gov/uts/umls/concept/C1883583	
+MESH:D009147	UMLS:C0026868	Yoga_Therapy	0.9	deterministic_crosswalk	1.2.6.4.1.3	Yoga_Therapy	MESH:D009147	http://purl.bioontology.org/ontology/PDQ/CDR0000526236|http://purl.bioontology.org/ontology/MESH/D009147|https://www.nccih.nih.gov/health/music-and-health-what-you-need-to-know|https://uts.nlm.nih.gov/uts/umls/concept/C1883583	
+UMLS:C0282077	UMLS:C0282077	Qigong_Therapy	1.0	deterministic_direct	1.2.6.4.1.4	Qigong_Therapy	UMLS:C0282077	http://purl.bioontology.org/ontology/MESH/D064906|https://uts.nlm.nih.gov/uts/umls/concept/C0282077|https://www.nccih.nih.gov/health/qigong-what-you-need-to-know	
+MESH:D064906	UMLS:C0282077	Qigong_Therapy	0.9	deterministic_crosswalk	1.2.6.4.1.4	Qigong_Therapy	MESH:D064906	http://purl.bioontology.org/ontology/MESH/D064906|https://uts.nlm.nih.gov/uts/umls/concept/C0282077|https://www.nccih.nih.gov/health/qigong-what-you-need-to-know	
+UMLS:C4727539	UMLS:C4727539	External_Qi_Gong_Therapy	1.0	deterministic_direct	1.2.6.4.1.4.2.1	External_Qi_Gong_Therapy	UMLS:C4727539	https://uts.nlm.nih.gov/uts/umls/concept/C4727539	
+UMLS:C0010962	UMLS:C0010962	Dance_Therapy	1.0	deterministic_direct	1.2.6.4.2	Dance_Therapy	UMLS:C0010962	https://uts.nlm.nih.gov/uts/umls/concept/C0010962|http://purl.bioontology.org/ontology/MESH/D003614	
+MESH:D003614	UMLS:C0010962	Dance_Therapy	0.9	deterministic_crosswalk	1.2.6.4.2	Dance_Therapy	MESH:D003614	https://uts.nlm.nih.gov/uts/umls/concept/C0010962|http://purl.bioontology.org/ontology/MESH/D003614	
+UMLS:C0078912	UMLS:C0078912	Aikido	1.0	deterministic_direct	1.2.6.4.3	Aikido	UMLS:C0078912	https://uts.nlm.nih.gov/uts/umls/concept/C0078912	
+UMLS:C0454333	UMLS:C0454333	Facial_Exercise	1.0	deterministic_direct	1.2.6.4.5	Facial_Exercise	UMLS:C0454333	https://uts.nlm.nih.gov/uts/umls/concept/C0454333	
+UMLS:C0597812	UMLS:C0597812	Alexander_Technique	1.0	deterministic_direct	1.2.6.5.1	Alexander_Technique	UMLS:C0597812	https://uts.nlm.nih.gov/uts/umls/concept/C0597812	
+UMLS:C0695542	UMLS:C0695542	Aston_Patterning	1.0	deterministic_direct	1.2.6.5.2	Aston_Patterning	UMLS:C0695542	https://uts.nlm.nih.gov/uts/umls/concept/C0695542	
+UMLS:C0454279	UMLS:C0454279	Movement_Therapy	1.0	deterministic_direct	1.2.7	Movement_Therapy	UMLS:C0454279	https://uts.nlm.nih.gov/uts/umls/concept/C0454279	
+UMLS:C0026604	UMLS:C0026604	Continuous_Passive_Movement_Therapy	1.0	deterministic_direct	1.2.7.1	Continuous_Passive_Movement_Therapy	UMLS:C0026604	http://purl.bioontology.org/ontology/MESH/D015915|https://uts.nlm.nih.gov/uts/umls/concept/C0026604	
+MESH:D015915	UMLS:C0026604	Continuous_Passive_Movement_Therapy	0.9	deterministic_crosswalk	1.2.7.1	Continuous_Passive_Movement_Therapy	MESH:D015915	http://purl.bioontology.org/ontology/MESH/D015915|https://uts.nlm.nih.gov/uts/umls/concept/C0026604	
+UMLS:C1516875	UMLS:C1516875	Energy_Based_Therapy	1.0	deterministic_direct	1.2.8	Energy_Based_Therapy	UMLS:C1516875	http://purl.bioontology.org/ontology/PDQ/CDR0000372897|https://uts.nlm.nih.gov/uts/umls/concept/C1516875	
+UMLS:C1511139	UMLS:C1511139	Biofield_Therapy	1.0	deterministic_direct	1.2.8.1.3	Biofield_Therapy	UMLS:C1511139	"https://www.cancer.gov/about-cancer/treatment/clinical-trials/intervention/C15910""|http://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI%20Thesaurus&code=C15910""|http://purl.bioontology.org/ontology/PDQ/CDR0000574167|https://uts.nlm.nih.gov/uts/umls/concept/C1511139"	
+UMLS:C0751715	UMLS:C0751715	Reiki_Therapy	1.0	deterministic_direct	1.2.8.1.3.1	Reiki_Therapy	UMLS:C0751715	"https://www.cancer.gov/about-cancer/treatment/clinical-trials/intervention/C15728""|http://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI|http://purl.bioontology.org/ontology/PDQ/CDR0000574168|http://purl.bioontology.org/ontology/RCTV2/8BF5.00|https://www.nccih.nih.gov/health/reiki|https://uts.nlm.nih.gov/uts/umls/concept/C0751715"	
+UMLS:C0152054	UMLS:C0152054	Therapeutic_Touch	1.0	deterministic_direct	1.2.8.1.3.2	Therapeutic_Touch	UMLS:C0152054	http://purl.bioontology.org/ontology/MESH/D019124|https://uts.nlm.nih.gov/uts/umls/concept/C0152054|http://purl.bioontology.org/ontology/PDQ/CDR0000470290	
+MESH:D019124	UMLS:C0152054	Therapeutic_Touch	0.9	deterministic_crosswalk	1.2.8.1.3.2	Therapeutic_Touch	MESH:D019124	http://purl.bioontology.org/ontology/MESH/D019124|https://uts.nlm.nih.gov/uts/umls/concept/C0152054|http://purl.bioontology.org/ontology/PDQ/CDR0000470290	
+UMLS:C1160821	UMLS:C1160821	Healing_Touch	1.0	deterministic_direct	1.2.8.1.3.3	Healing_Touch	UMLS:C1160821	https://uts.nlm.nih.gov/uts/umls/concept/C1160821|https://naturalmedicines.therapeuticresearch.com/databases/health-wellness/professional.aspx?productid=1448	
+UMLS:C0695568	UMLS:C0695568	Zero_Balancing	1.0	deterministic_direct	1.2.8.1.3.4	Zero_Balancing	UMLS:C0695568	https://naturalmedicines.therapeuticresearch.com/databases/health-wellness/professional.aspx?productid=1421|https://uts.nlm.nih.gov/uts/umls/concept/C0695568	
+UMLS:C0695573	UMLS:C0695573	Polarity_Therapy	1.0	deterministic_direct	1.2.8.1.3.5	Polarity_Therapy	UMLS:C0695573	https://uts.nlm.nih.gov/uts/umls/concept/C0695573	
+UMLS:C0085102	UMLS:C0085102	Color_Therapy	1.0	deterministic_direct	1.2.8.1.4	Color_Therapy	UMLS:C0085102	https://uts.nlm.nih.gov/uts/umls/concept/C0085102|https://naturalmedicines.therapeuticresearch.com/databases/health-wellness/professional.aspx?productid=1213|http://purl.bioontology.org/ontology/MESH/D016500	
+MESH:D016500	UMLS:C0085102	Color_Therapy	0.9	deterministic_crosswalk	1.2.8.1.4	Color_Therapy	MESH:D016500	https://uts.nlm.nih.gov/uts/umls/concept/C0085102|https://naturalmedicines.therapeuticresearch.com/databases/health-wellness/professional.aspx?productid=1213|http://purl.bioontology.org/ontology/MESH/D016500	
+UMLS:C0597815	UMLS:C0597815	Crystal_Therapy	1.0	deterministic_direct	1.2.8.1.5	Crystal_Therapy	UMLS:C0597815	https://naturalmedicines.therapeuticresearch.com/databases/health-wellness/professional.aspx?productid=1228|https://uts.nlm.nih.gov/uts/umls/concept/C0597815	
+UMLS:C0695525	UMLS:C0695525	Jin_Shin_Jyutsu	1.0	deterministic_direct	1.2.8.1.7	Jin_Shin_Jyutsu	UMLS:C0695525	https://uts.nlm.nih.gov/uts/umls/concept/C0695525	
+UMLS:C4042760	UMLS:C4042760	Bioresonance_Therapy	1.0	deterministic_direct	1.2.8.2.1	Bioresonance_Therapy	UMLS:C4042760	http://purl.bioontology.org/ontology/MESH/D066236|https://uts.nlm.nih.gov/uts/umls/concept/C4042760	
+MESH:D066236	UMLS:C4042760	Bioresonance_Therapy	0.9	deterministic_crosswalk	1.2.8.2.1	Bioresonance_Therapy	MESH:D066236	http://purl.bioontology.org/ontology/MESH/D066236|https://uts.nlm.nih.gov/uts/umls/concept/C4042760	
+UMLS:C3899490	UMLS:C3899490	Cranial_Electrical_Stimulation	1.0	deterministic_direct	1.2.8.2.2	Cranial_Electrical_Stimulation	UMLS:C3899490	https://uts.nlm.nih.gov/uts/umls/concept/C3899490|http://purl.bioontology.org/ontology/PDQ/CDR0000643527	
+UMLS:C1511136	UMLS:C1511136	Electromagnetic_Based_Therapy	1.0	deterministic_direct	1.2.8.2.3	Electromagnetic_Based_Therapy	UMLS:C1511136	"https://www.cancer.gov/about-cancer/treatment/clinical-trials/intervention/C16207""|http://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI%20Thesaurus&code=C16207""|https://uts.nlm.nih.gov/uts/umls/concept/C1511136|http://purl.bioontology.org/ontology/PDQ/CDR0000574169"	
+UMLS:C1881509	UMLS:C1881509	Magnet_Therapy	1.0	deterministic_direct	1.2.8.2.3.1	Magnet_Therapy	UMLS:C1881509	http://purl.bioontology.org/ontology/PDQ/CDR0000574171|https://uts.nlm.nih.gov/uts/umls/concept/C1881509|https://www.nccih.nih.gov/health/magnets-for-pain-what-you-need-to-know	
+UMLS:C1882505	UMLS:C1882505	Pulsed_Electromagnetic_Fields_Therapy	1.0	deterministic_direct	1.2.8.2.3.1.2	Pulsed_Electromagnetic_Fields_Therapy	UMLS:C1882505	http://purl.bioontology.org/ontology/PDQ/CDR0000574172|https://uts.nlm.nih.gov/uts/umls/concept/C1882505	
+UMLS:C0436548	UMLS:C0436548	Transcranial_Magnetic_Stimulation	1.0	deterministic_direct	1.2.8.2.3.1.3	Transcranial_Magnetic_Stimulation	UMLS:C0436548	https://uts.nlm.nih.gov/uts/umls/concept/C0436548	
+UMLS:C0031765	UMLS:C0031765	Phototherapy	1.0	deterministic_direct	1.2.8.2.7	Phototherapy	UMLS:C0031765	https://uts.nlm.nih.gov/uts/umls/concept/C0031765	
+UMLS:C0041626	UMLS:C0041626	Ultraviolet_Therapy	1.0	deterministic_direct	1.2.8.2.7.1	Ultraviolet_Therapy	UMLS:C0041626	https://uts.nlm.nih.gov/uts/umls/concept/C0041626	
+UMLS:C5400760	UMLS:C5400760	Bright_Light_Therapy	1.0	deterministic_direct	1.2.8.2.7.4	Bright_Light_Therapy	UMLS:C5400760	https://uts.nlm.nih.gov/uts/umls/concept/C5400760	
+UMLS:C1881345	UMLS:C1881345	Light_Emitting_Diode_Phototherapy	1.0	deterministic_direct	1.2.8.2.7.5	Light_Emitting_Diode_Phototherapy	UMLS:C1881345	https://uts.nlm.nih.gov/uts/umls/concept/C1881345	
+UMLS:C0279027	UMLS:C0279027	Low_Level_Laser_Therapy	1.0	deterministic_direct	1.2.8.2.7.12	Low_Level_Laser_Therapy	UMLS:C0279027	https://uts.nlm.nih.gov/uts/umls/concept/C0279027	
+UMLS:C2350293	UMLS:C2350293	Speleotherapy	1.0	deterministic_direct	1.2.9	Speleotherapy	UMLS:C2350293	https://uts.nlm.nih.gov/uts/umls/concept/C2350293|http://purl.bioontology.org/ontology/MESH/D055161	
+MESH:D055161	UMLS:C2350293	Speleotherapy	0.9	deterministic_crosswalk	1.2.9	Speleotherapy	MESH:D055161	https://uts.nlm.nih.gov/uts/umls/concept/C2350293|http://purl.bioontology.org/ontology/MESH/D055161	
+UMLS:C3178784	UMLS:C3178784	Diffuse_Noxious_Inhibitory_Control	1.0	deterministic_direct	1.2.10	Diffuse_Noxious_Inhibitory_Control	UMLS:C3178784	https://uts.nlm.nih.gov/uts/umls/concept/C3178784|http://purl.bioontology.org/ontology/MESH/D059328	
+MESH:D059328	UMLS:C3178784	Diffuse_Noxious_Inhibitory_Control	0.9	deterministic_crosswalk	1.2.10	Diffuse_Noxious_Inhibitory_Control	MESH:D059328	https://uts.nlm.nih.gov/uts/umls/concept/C3178784|http://purl.bioontology.org/ontology/MESH/D059328	
+UMLS:C2242515	UMLS:C2242515	Mesotherapy	1.0	deterministic_direct	1.2.11	Mesotherapy	UMLS:C2242515	http://purl.bioontology.org/ontology/MESH/D057748|https://uts.nlm.nih.gov/uts/umls/concept/C2242515	
+MESH:D057748	UMLS:C2242515	Mesotherapy	0.9	deterministic_crosswalk	1.2.11	Mesotherapy	MESH:D057748	http://purl.bioontology.org/ontology/MESH/D057748|https://uts.nlm.nih.gov/uts/umls/concept/C2242515	
+UMLS:C0026652	UMLS:C0026652	Moxibustion	1.0	deterministic_direct	1.2.12	Moxibustion	UMLS:C0026652	https://uts.nlm.nih.gov/uts/umls/concept/C0026652|http://purl.bioontology.org/ontology/MESH/D009071|http://purl.bioontology.org/ontology/PDQ/CDR0000765492	
+MESH:D009071	UMLS:C0026652	Moxibustion	0.9	deterministic_crosswalk	1.2.12	Moxibustion	MESH:D009071	https://uts.nlm.nih.gov/uts/umls/concept/C0026652|http://purl.bioontology.org/ontology/MESH/D009071|http://purl.bioontology.org/ontology/PDQ/CDR0000765492	
+UMLS:C0029257	UMLS:C0029257	Organotherapy	1.0	deterministic_direct	1.2.13	Organotherapy	UMLS:C0029257	http://purl.bioontology.org/ontology/MESH/D009945|https://uts.nlm.nih.gov/uts/umls/concept/C0029257	
+MESH:D009945	UMLS:C0029257	Organotherapy	0.9	deterministic_crosswalk	1.2.13	Organotherapy	MESH:D009945	http://purl.bioontology.org/ontology/MESH/D009945|https://uts.nlm.nih.gov/uts/umls/concept/C0029257	
+UMLS:C3658370	UMLS:C3658370	Historical_Tissue_Therapy	1.0	deterministic_direct	1.2.13.1	Historical_Tissue_Therapy	UMLS:C3658370	http://purl.bioontology.org/ontology/MESH/D014023|https://uts.nlm.nih.gov/uts/umls/concept/C3658370	
+MESH:D014023	UMLS:C0524729	Historical_Tissue_Therapy	0.9	deterministic_crosswalk	1.2.13.1	Historical_Tissue_Therapy	MESH:D014023	http://purl.bioontology.org/ontology/MESH/D014023|https://uts.nlm.nih.gov/uts/umls/concept/C3658370	
+UMLS:C0500223	UMLS:C0500223	Prolotherapy	1.0	deterministic_direct	1.2.14	Prolotherapy	UMLS:C0500223	https://uts.nlm.nih.gov/uts/umls/concept/C0500223|http://purl.bioontology.org/ontology/MESH/D000075527	
+MESH:D000075527	UMLS:C0500223	Prolotherapy	0.9	deterministic_crosswalk	1.2.14	Prolotherapy	MESH:D000075527	https://uts.nlm.nih.gov/uts/umls/concept/C0500223|http://purl.bioontology.org/ontology/MESH/D000075527	
+UMLS:C0695540	UMLS:C0695540	Bodywork_Therapy	1.0	deterministic_direct	1.2.15	Bodywork_Therapy	UMLS:C0695540	https://uts.nlm.nih.gov/uts/umls/concept/C0695540	
+UMLS:C5197695	UMLS:C5197695	Cupping_Therapy	1.0	deterministic_direct	1.2.15.2	Cupping_Therapy	UMLS:C5197695	https://nccih.nih.gov/news/cupping|https://uts.nlm.nih.gov/uts/umls/concept/C5197695|http://purl.bioontology.org/ontology/MESH/D000079742|https://www.nccih.nih.gov/health/cupping	
+MESH:D000079742	UMLS:C5197695	Cupping_Therapy	0.9	deterministic_crosswalk	1.2.15.2	Cupping_Therapy	MESH:D000079742	https://nccih.nih.gov/news/cupping|https://uts.nlm.nih.gov/uts/umls/concept/C5197695|http://purl.bioontology.org/ontology/MESH/D000079742|https://www.nccih.nih.gov/health/cupping	
+UMLS:C0394648	UMLS:C0394648	Dry_Needling	1.0	deterministic_direct	1.2.15.3	Dry_Needling	UMLS:C0394648	http://purl.bioontology.org/ontology/MESH/D000079245|http://purl.bioontology.org/ontology/RCD/X00KT|https://uts.nlm.nih.gov/uts/umls/concept/C0394648	
+MESH:D000079245	UMLS:C0394648	Dry_Needling	0.9	deterministic_crosswalk	1.2.15.3	Dry_Needling	MESH:D000079245	http://purl.bioontology.org/ontology/MESH/D000079245|http://purl.bioontology.org/ontology/RCD/X00KT|https://uts.nlm.nih.gov/uts/umls/concept/C0394648	
+UMLS:C0695553	UMLS:C0695553	Bowen_Therapy	1.0	deterministic_direct	1.2.15.4	Bowen_Therapy	UMLS:C0695553	https://uts.nlm.nih.gov/uts/umls/concept/C0695553	
+UMLS:C0454525	UMLS:C0454525	Manual_Therapy	1.0	deterministic_direct	1.2.15.5	Manual_Therapy	UMLS:C0454525	https://uts.nlm.nih.gov/uts/umls/concept/C0454525	
+UMLS:C0949741	UMLS:C0949741	Musculoskeletal_Manipulation	1.0	deterministic_direct	1.2.15.5.1	Musculoskeletal_Manipulation	UMLS:C0949741	http://purl.bioontology.org/ontology/PDQ/CDR0000372893|http://purl.bioontology.org/ontology/MESH/D026201|https://uts.nlm.nih.gov/uts/umls/concept/C0949741	
+MESH:D026201	UMLS:C0034945	Musculoskeletal_Manipulation	0.9	deterministic_crosswalk	1.2.15.5.1	Musculoskeletal_Manipulation	MESH:D026201	http://purl.bioontology.org/ontology/PDQ/CDR0000372893|http://purl.bioontology.org/ontology/MESH/D026201|https://uts.nlm.nih.gov/uts/umls/concept/C0949741	
+UMLS:C0344217	UMLS:C0344217	Chiropractic_Therapy	1.0	deterministic_direct	1.2.15.5.1.1	Chiropractic_Therapy	UMLS:C0344217	"https://www.cancer.gov/about-cancer/treatment/clinical-trials/intervention/C15204""|http://ncit.nci.nih.gov/ncitbrowser/Conc|https://www.nccih.nih.gov/health/chiropractic-in-depth|http://purl.bioontology.org/ontology/RCD/82D1.|https://uts.nlm.nih.gov/uts/umls/concept/C0344217|http://purl.bioontology.org/ontology/PDQ/CDR0000574277"	
+UMLS:C0600577	UMLS:C0600577	Chiropractic_Manipulation	1.0	deterministic_direct	1.2.15.5.1.1.1	Chiropractic_Manipulation	UMLS:C0600577	https://uts.nlm.nih.gov/uts/umls/concept/C0600577|http://purl.bioontology.org/ontology/MESH/D026882	
+MESH:D026882	UMLS:C0600577	Chiropractic_Manipulation	0.9	deterministic_crosswalk	1.2.15.5.1.1.1	Chiropractic_Manipulation	MESH:D026882	https://uts.nlm.nih.gov/uts/umls/concept/C0600577|http://purl.bioontology.org/ontology/MESH/D026882	
+UMLS:C0282567	UMLS:C0282567	Applied_Kinesiology	1.0	deterministic_direct	1.2.15.5.1.2	Applied_Kinesiology	UMLS:C0282567	http://purl.bioontology.org/ontology/MESH/D018953|https://uts.nlm.nih.gov/uts/umls/concept/C0282567	
+MESH:D018953	UMLS:C0282567	Applied_Kinesiology	0.9	deterministic_crosswalk	1.2.15.5.1.2	Applied_Kinesiology	MESH:D018953	http://purl.bioontology.org/ontology/MESH/D018953|https://uts.nlm.nih.gov/uts/umls/concept/C0282567	
+UMLS:C0024725	UMLS:C0024725	Orthopedic_Manipulation	1.0	deterministic_direct	1.2.15.5.1.3	Orthopedic_Manipulation	UMLS:C0024725	https://uts.nlm.nih.gov/uts/umls/concept/C0024725|http://purl.bioontology.org/ontology/MESH/D008349	
+MESH:D008349	UMLS:C0024725	Orthopedic_Manipulation	0.9	deterministic_crosswalk	1.2.15.5.1.3	Orthopedic_Manipulation	MESH:D008349	https://uts.nlm.nih.gov/uts/umls/concept/C0024725|http://purl.bioontology.org/ontology/MESH/D008349	
+UMLS:C0949744	UMLS:C0949744	Osteopathic_Manipulation	1.0	deterministic_direct	1.2.15.5.1.4	Osteopathic_Manipulation	UMLS:C0949744	"http://purl.bioontology.org/ontology/RCD/82D3.""|http://purl.bioontology.org/ontology/MESH/D026301|https://uts.nlm.nih.gov/uts/umls/concept/C0949744"	
+MESH:D026301	UMLS:C0949744	Osteopathic_Manipulation	0.9	deterministic_crosswalk	1.2.15.5.1.4	Osteopathic_Manipulation	MESH:D026301	"http://purl.bioontology.org/ontology/RCD/82D3.""|http://purl.bioontology.org/ontology/MESH/D026301|https://uts.nlm.nih.gov/uts/umls/concept/C0949744"	
+UMLS:C0086586	UMLS:C0086586	Spinal_Manipulation	1.0	deterministic_direct	1.2.15.5.1.5	Spinal_Manipulation	UMLS:C0086586	https://uts.nlm.nih.gov/uts/umls/concept/C0086586|http://purl.bioontology.org/ontology/MESH/D020393|https://www.nccih.nih.gov/health/spinal-manipulation-what-you-need-to-know	
+MESH:D020393	UMLS:C0086586	Spinal_Manipulation	0.9	deterministic_crosswalk	1.2.15.5.1.5	Spinal_Manipulation	MESH:D020393	https://uts.nlm.nih.gov/uts/umls/concept/C0086586|http://purl.bioontology.org/ontology/MESH/D020393|https://www.nccih.nih.gov/health/spinal-manipulation-what-you-need-to-know	
+UMLS:C0185112	UMLS:C0185112	Mobilization	1.0	deterministic_direct	1.2.15.5.2	Mobilization	UMLS:C0185112	https://uts.nlm.nih.gov/uts/umls/concept/C0185112	
+UMLS:C3658309	UMLS:C3658309	Soft_Tissue_Therapy	1.0	deterministic_direct	1.2.15.5.3	Soft_Tissue_Therapy	UMLS:C3658309	https://uts.nlm.nih.gov/uts/umls/concept/C3658309|http://purl.bioontology.org/ontology/MESH/D064746	
+MESH:D064746	UMLS:C3658309	Soft_Tissue_Therapy	0.9	deterministic_crosswalk	1.2.15.5.3	Soft_Tissue_Therapy	MESH:D064746	https://uts.nlm.nih.gov/uts/umls/concept/C3658309|http://purl.bioontology.org/ontology/MESH/D064746	
+UMLS:C0282614	UMLS:C0282614	Acupressure_Therapy	1.0	deterministic_direct	1.2.15.5.3.1	Acupressure_Therapy	UMLS:C0282614	https://uts.nlm.nih.gov/uts/umls/concept/C0282614|http://purl.bioontology.org/ontology/RCD/X00Kt|http://purl.bioontology.org/ontology/MESH/D019050|http://purl.bioontology.org/ontology/PDQ/CDR0000372888	
+MESH:D019050	UMLS:C0282614	Acupressure_Therapy	0.9	deterministic_crosswalk	1.2.15.5.3.1	Acupressure_Therapy	MESH:D019050	https://uts.nlm.nih.gov/uts/umls/concept/C0282614|http://purl.bioontology.org/ontology/RCD/X00Kt|http://purl.bioontology.org/ontology/MESH/D019050|http://purl.bioontology.org/ontology/PDQ/CDR0000372888	
+UMLS:C0695601	UMLS:C0695601	Myotherapy	1.0	deterministic_direct	1.2.15.5.3.3	Myotherapy	UMLS:C0695601	https://uts.nlm.nih.gov/uts/umls/concept/C0695601	
+UMLS:C0686940	UMLS:C0686940	Soft_Tissue_Mobilization	1.0	deterministic_direct	1.2.15.5.3.4	Soft_Tissue_Mobilization	UMLS:C0686940	https://uts.nlm.nih.gov/uts/umls/concept/C0686940	
+UMLS:C1735870	UMLS:C1735870	Naprapathy	1.0	deterministic_direct	1.2.15.5.3.5	Naprapathy	UMLS:C1735870	https://uts.nlm.nih.gov/uts/umls/concept/C1735870	
+UMLS:C3536731	UMLS:C3536731	Massage_Therapy	1.0	deterministic_direct	1.2.15.5.3.6	Massage_Therapy	UMLS:C3536731	https://www.nccih.nih.gov/health/massage-therapy-what-you-need-to-know|http://purl.bioontology.org/ontology/PDQ/CDR0000372895|https://uts.nlm.nih.gov/uts/umls/concept/C3536731|http://purl.bioontology.org/ontology/MESH/D008405	
+MESH:D008405	UMLS:C0024875	Massage_Therapy	0.9	deterministic_crosswalk	1.2.15.5.3.6	Massage_Therapy	MESH:D008405	https://www.nccih.nih.gov/health/massage-therapy-what-you-need-to-know|http://purl.bioontology.org/ontology/PDQ/CDR0000372895|https://uts.nlm.nih.gov/uts/umls/concept/C3536731|http://purl.bioontology.org/ontology/MESH/D008405	
+UMLS:C2584291	UMLS:C2584291	Therapeutic_Massage	1.0	deterministic_direct	1.2.15.5.3.6.1	Therapeutic_Massage	UMLS:C2584291	https://uts.nlm.nih.gov/uts/umls/concept/C2584291	
+UMLS:C0556834	UMLS:C0556834	Manual_Lymphatic_Drainage	1.0	deterministic_direct	1.2.15.5.3.6.1.1	Manual_Lymphatic_Drainage	UMLS:C0556834	https://uts.nlm.nih.gov/uts/umls/concept/C0556834|http://purl.bioontology.org/ontology/MESH/D000073297	
+MESH:D000073297	UMLS:C0556834	Manual_Lymphatic_Drainage	0.9	deterministic_crosswalk	1.2.15.5.3.6.1.1	Manual_Lymphatic_Drainage	MESH:D000073297	https://uts.nlm.nih.gov/uts/umls/concept/C0556834|http://purl.bioontology.org/ontology/MESH/D000073297	
+UMLS:C0695600	UMLS:C0695600	Myofascial_Release_Therapy	1.0	deterministic_direct	1.2.15.5.3.6.1.2	Myofascial_Release_Therapy	UMLS:C0695600	http://purl.bioontology.org/ontology/MESH/D000089803|https://uts.nlm.nih.gov/uts/umls/concept/C0695600	
+MESH:D000089803	UMLS:C0695600	Myofascial_Release_Therapy	0.9	deterministic_crosswalk	1.2.15.5.3.6.1.2	Myofascial_Release_Therapy	MESH:D000089803	http://purl.bioontology.org/ontology/MESH/D000089803|https://uts.nlm.nih.gov/uts/umls/concept/C0695600	
+UMLS:C2080787	UMLS:C2080787	Deep_Tissue_Massage	1.0	deterministic_direct	1.2.15.5.3.6.1.3	Deep_Tissue_Massage	UMLS:C2080787	https://uts.nlm.nih.gov/uts/umls/concept/C2080787	
+UMLS:C0556841	UMLS:C0556841	Deep_Transverse_Friction_Massage	1.0	deterministic_direct	1.2.15.5.3.6.1.3.1	Deep_Transverse_Friction_Massage	UMLS:C0556841	https://uts.nlm.nih.gov/uts/umls/concept/C0556841	
+UMLS:C0556845	UMLS:C0556845	Connective_Tissue_Massage	1.0	deterministic_direct	1.2.15.5.3.6.1.4	Connective_Tissue_Massage	UMLS:C0556845	https://uts.nlm.nih.gov/uts/umls/concept/C0556845	
+UMLS:C5780154	UMLS:C5780154	Prostate_Massage	1.0	deterministic_direct	1.2.15.5.3.6.1.9	Prostate_Massage	UMLS:C5780154	https://uts.nlm.nih.gov/uts/umls/concept/C5780154	
+UMLS:C0695595	UMLS:C0695595	Infant_Massage	1.0	deterministic_direct	1.2.15.5.3.6.1.10	Infant_Massage	UMLS:C0695595	https://uts.nlm.nih.gov/uts/umls/concept/C0695595	
+UMLS:C0695615	UMLS:C0695615	Sport_Massage	1.0	deterministic_direct	1.2.15.5.3.6.1.11	Sport_Massage	UMLS:C0695615	https://uts.nlm.nih.gov/uts/umls/concept/C0695615	
+UMLS:C0695940	UMLS:C0695940	Ice_Massage	1.0	deterministic_direct	1.2.15.5.3.6.1.14	Ice_Massage	UMLS:C0695940	https://uts.nlm.nih.gov/uts/umls/concept/C0695940	
+UMLS:C0884467	UMLS:C0884467	Oriental_Massage	1.0	deterministic_direct	1.2.15.5.3.6.2	Oriental_Massage	UMLS:C0884467	https://uts.nlm.nih.gov/uts/umls/concept/C0884467	
+UMLS:C0695530	UMLS:C0695530	Tui_Na	1.0	deterministic_direct	1.2.15.5.3.6.2.1.1	Tui_Na	UMLS:C0695530	https://uts.nlm.nih.gov/uts/umls/concept/C0695530	
+UMLS:C5577716	UMLS:C5577716	Acupoint_Massage	1.0	deterministic_direct	1.2.15.5.3.6.2.1.2	Acupoint_Massage	UMLS:C5577716	https://uts.nlm.nih.gov/uts/umls/concept/C5577716	
+UMLS:C0695563	UMLS:C0695563	Thai_Massage	1.0	deterministic_direct	1.2.15.5.3.6.2.4	Thai_Massage	UMLS:C0695563	https://uts.nlm.nih.gov/uts/umls/concept/C0695563	
+UMLS:C0973228	UMLS:C0973228	Shiatsu_Therapy	1.0	deterministic_direct	1.2.15.5.3.6.2.5	Shiatsu_Therapy	UMLS:C0973228	https://uts.nlm.nih.gov/uts/umls/concept/C0973228	
+UMLS:C2586182	UMLS:C2586182	Indian_Head_Massage	1.0	deterministic_direct	1.2.15.5.3.6.3	Indian_Head_Massage	UMLS:C2586182	https://uts.nlm.nih.gov/uts/umls/concept/C2586182	
+UMLS:C5968212	UMLS:C5968212	Hand_Massage	1.0	deterministic_direct	1.2.15.5.3.6.5	Hand_Massage	UMLS:C5968212	https://uts.nlm.nih.gov/uts/umls/concept/C5968212	
+UMLS:C2316341	UMLS:C2316341	Abdominal_Massage	1.0	deterministic_direct	1.2.15.5.3.6.6	Abdominal_Massage	UMLS:C2316341	https://uts.nlm.nih.gov/uts/umls/concept/C2316341	
+UMLS:C2585844	UMLS:C2585844	Aromatherapy_Massage	1.0	deterministic_direct	1.2.15.5.3.6.7	Aromatherapy_Massage	UMLS:C2585844	https://uts.nlm.nih.gov/uts/umls/concept/C2585844	
+UMLS:C2919709	UMLS:C2919709	Hot_Stone_Massage	1.0	deterministic_direct	1.2.15.5.3.6.8	Hot_Stone_Massage	UMLS:C2919709	https://uts.nlm.nih.gov/uts/umls/concept/C2919709	
+UMLS:C1160824	UMLS:C1160824	Chair_Massage	1.0	deterministic_direct	1.2.15.5.3.6.9	Chair_Massage	UMLS:C1160824	https://uts.nlm.nih.gov/uts/umls/concept/C1160824	
+UMLS:C0556847	UMLS:C0556847	Silicone_Oil_Massage	1.0	deterministic_direct	1.2.15.5.3.6.13.1	Silicone_Oil_Massage	UMLS:C0556847	https://uts.nlm.nih.gov/uts/umls/concept/C0556847	
+UMLS:C2945661	UMLS:C2945661	Swedish_Massage	1.0	deterministic_direct	1.2.15.5.3.6.14	Swedish_Massage	UMLS:C2945661	https://uts.nlm.nih.gov/uts/umls/concept/C2945661	
+UMLS:C0556852	UMLS:C0556852	Soft_Tissue_Massage	1.0	deterministic_direct	1.2.15.5.3.6.15	Soft_Tissue_Massage	UMLS:C0556852	https://uts.nlm.nih.gov/uts/umls/concept/C0556852	
+UMLS:C0949353	UMLS:C0949353	Rolfing_Theray	1.0	deterministic_direct	1.2.15.5.3.7	Rolfing_Theray	UMLS:C0949353	https://uts.nlm.nih.gov/uts/umls/concept/C0949353	
+UMLS:C0695552	UMLS:C0695552	Hellerwork	1.0	deterministic_direct	1.2.15.5.3.8	Hellerwork	UMLS:C0695552	https://uts.nlm.nih.gov/uts/umls/concept/C0695552	
+UMLS:C1321058	UMLS:C1321058	Craniosacral_Therapy	1.0	deterministic_direct	1.2.15.5.4	Craniosacral_Therapy	UMLS:C1321058	https://uts.nlm.nih.gov/uts/umls/concept/C1321058	
+UMLS:C0085867	UMLS:C0085867	Balneotherapy	1.0	deterministic_direct	1.2.16.1	Balneotherapy	UMLS:C0085867	https://uts.nlm.nih.gov/uts/umls/concept/C0085867	
+UMLS:C0020311	UMLS:C0020311	Hydrotherapy	1.0	deterministic_direct	1.2.16.2	Hydrotherapy	UMLS:C0020311	https://uts.nlm.nih.gov/uts/umls/concept/C0020311	
+UMLS:C5544506	UMLS:C5544506	Aquatic_Therapy	1.0	deterministic_direct	1.2.16.2.1	Aquatic_Therapy	UMLS:C5544506	https://uts.nlm.nih.gov/uts/umls/concept/C5544506	
+UMLS:C0851189	UMLS:C0851189	Application_of_Ice_Pack	1.0	deterministic_direct	1.2.16.2.2	Application_of_Ice_Pack	UMLS:C0851189	https://uts.nlm.nih.gov/uts/umls/concept/C0851189	
+UMLS:C0454527	UMLS:C0454527	Thermal_Therapy	1.0	deterministic_direct	1.2.17	Thermal_Therapy	UMLS:C0454527	https://uts.nlm.nih.gov/uts/umls/concept/C0454527	
+UMLS:C0010412	UMLS:C0010412	Cold_Therapy	1.0	deterministic_direct	1.2.17.1	Cold_Therapy	UMLS:C0010412	https://uts.nlm.nih.gov/uts/umls/concept/C0010412	
+UMLS:C1112508	UMLS:C1112508	Hot_Compress_Therapy	1.0	deterministic_direct	1.2.17.2.1	Hot_Compress_Therapy	UMLS:C1112508	https://uts.nlm.nih.gov/uts/umls/concept/C1112508	
+UMLS:C0400138	UMLS:C0400138	Colon_Irrigation	1.0	deterministic_direct	1.2.18	Colon_Irrigation	UMLS:C0400138	https://uts.nlm.nih.gov/uts/umls/concept/C0400138	
+UMLS:C0884710	UMLS:C0884710	Shirodhara_Therapy	1.0	deterministic_direct	1.2.20	Shirodhara_Therapy	UMLS:C0884710	https://uts.nlm.nih.gov/uts/umls/concept/C0884710	
+UMLS:C0041620	UMLS:C0041620	Ultrasonic_Therapy	1.0	deterministic_direct	1.2.21	Ultrasonic_Therapy	UMLS:C0041620	https://uts.nlm.nih.gov/uts/umls/concept/C0041620	
+UMLS:C5237316	UMLS:C5237316	Local_Vibration_Therapy	1.0	deterministic_direct	1.2.22.1	Local_Vibration_Therapy	UMLS:C5237316	https://uts.nlm.nih.gov/uts/umls/concept/C5237316	
+UMLS:C0150133	UMLS:C0150133	Animal_Assisted_Therapy	1.0	deterministic_direct	1.3.2	Animal_Assisted_Therapy	UMLS:C0150133	http://purl.bioontology.org/ontology/PDQ/CDR0000536030|https://uts.nlm.nih.gov/uts/umls/concept/C0150133	
+UMLS:C2717786	UMLS:C2717786	Equine_Assisted_Therapy	1.0	deterministic_direct	1.3.2.1	Equine_Assisted_Therapy	UMLS:C2717786	https://uts.nlm.nih.gov/uts/umls/concept/C2717786	
+UMLS:C0454416	UMLS:C0454416	Hippotherapy	1.0	deterministic_direct	1.3.2.1.1.2	Hippotherapy	UMLS:C0454416	https://uts.nlm.nih.gov/uts/umls/concept/C0454416	
+UMLS:C0810709	UMLS:C0810709	Animal_Visitation	1.0	deterministic_direct	1.3.2.3	Animal_Visitation	UMLS:C0810709	https://uts.nlm.nih.gov/uts/umls/concept/C0810709	
+UMLS:C0033889	UMLS:C0033889	Psychodrama	1.0	deterministic_direct	1.3.3	Psychodrama	UMLS:C0033889	https://uts.nlm.nih.gov/uts/umls/concept/C0033889|http://purl.bioontology.org/ontology/MESH/D011577	
+MESH:D011577	UMLS:C0033889	Psychodrama	0.9	deterministic_crosswalk	1.3.3	Psychodrama	MESH:D011577	https://uts.nlm.nih.gov/uts/umls/concept/C0033889|http://purl.bioontology.org/ontology/MESH/D011577	
+UMLS:C0035822	UMLS:C0035822	Role_Playing	1.0	deterministic_direct	1.3.3.1	Role_Playing	UMLS:C0035822	http://purl.bioontology.org/ontology/MESH/D012381|https://uts.nlm.nih.gov/uts/umls/concept/C0035822	
+MESH:D012381	UMLS:C0035822	Role_Playing	0.9	deterministic_crosswalk	1.3.3.1	Role_Playing	MESH:D012381	http://purl.bioontology.org/ontology/MESH/D012381|https://uts.nlm.nih.gov/uts/umls/concept/C0035822	
+UMLS:C0969699	UMLS:C0969699	Sensory_Art_Therapy	1.0	deterministic_direct	1.3.4	Sensory_Art_Therapy	UMLS:C0969699	http://purl.bioontology.org/ontology/MESH/D026421|https://uts.nlm.nih.gov/uts/umls/concept/C0969699	
+MESH:D026421	UMLS:C0969699	Sensory_Art_Therapy	0.9	deterministic_crosswalk	1.3.4	Sensory_Art_Therapy	MESH:D026421	http://purl.bioontology.org/ontology/MESH/D026421|https://uts.nlm.nih.gov/uts/umls/concept/C0969699	
+UMLS:C0001164	UMLS:C0001164	Acoustic_Stimulation	1.0	deterministic_direct	1.3.4.2	Acoustic_Stimulation	UMLS:C0001164	https://uts.nlm.nih.gov/uts/umls/concept/C0001164|http://purl.bioontology.org/ontology/MESH/D000161	
+MESH:D000161	UMLS:C0001164	Acoustic_Stimulation	0.9	deterministic_crosswalk	1.3.4.2	Acoustic_Stimulation	MESH:D000161	https://uts.nlm.nih.gov/uts/umls/concept/C0001164|http://purl.bioontology.org/ontology/MESH/D000161	
+UMLS:C0376547	UMLS:C0376547	Aromatherapy	1.0	deterministic_direct	1.3.4.3	Aromatherapy	UMLS:C0376547	https://www.nccih.nih.gov/health/aromatherapy|https://uts.nlm.nih.gov/uts/umls/concept/C0376547|http://purl.bioontology.org/ontology/MESH/D019341|http://purl.bioontology.org/ontology/PDQ/CDR0000441095	
+MESH:D019341	UMLS:C0376547	Aromatherapy	0.9	deterministic_crosswalk	1.3.4.3	Aromatherapy	MESH:D019341	https://www.nccih.nih.gov/health/aromatherapy|https://uts.nlm.nih.gov/uts/umls/concept/C0376547|http://purl.bioontology.org/ontology/MESH/D019341|http://purl.bioontology.org/ontology/PDQ/CDR0000441095	
+UMLS:C0032216	UMLS:C0032216	Play_Therapy	1.0	deterministic_direct	1.3.4.4	Play_Therapy	UMLS:C0032216	http://purl.bioontology.org/ontology/MESH/D010989|https://uts.nlm.nih.gov/uts/umls/concept/C0032216	
+MESH:D010989	UMLS:C0032216	Play_Therapy	0.9	deterministic_crosswalk	1.3.4.4	Play_Therapy	MESH:D010989	http://purl.bioontology.org/ontology/MESH/D010989|https://uts.nlm.nih.gov/uts/umls/concept/C0032216	
+UMLS:C2316067	UMLS:C2316067	Journaling	1.0	deterministic_direct	1.3.4.5.4	Journaling	UMLS:C2316067	https://uts.nlm.nih.gov/uts/umls/concept/C2316067	
+UMLS:C3888013	UMLS:C3888013	Hypnosis	1.0	deterministic_direct	1.3.5	Hypnosis	UMLS:C3888013	https://uts.nlm.nih.gov/uts/umls/concept/C3888013|https://www.nccih.nih.gov/health/hypnosis|http://purl.bioontology.org/ontology/PDQ/CDR0000470289|http://purl.bioontology.org/ontology/MESH/D006990	
+MESH:D006990	UMLS:C0020587	Hypnosis	0.9	deterministic_crosswalk	1.3.5	Hypnosis	MESH:D006990	https://uts.nlm.nih.gov/uts/umls/concept/C3888013|https://www.nccih.nih.gov/health/hypnosis|http://purl.bioontology.org/ontology/PDQ/CDR0000470289|http://purl.bioontology.org/ontology/MESH/D006990	
+UMLS:C0004361	UMLS:C0004361	Autogenic_Training	1.0	deterministic_direct	1.3.5.1	Autogenic_Training	UMLS:C0004361	http://purl.bioontology.org/ontology/MESH/D001326|https://uts.nlm.nih.gov/uts/umls/concept/C0004361	
+MESH:D001326	UMLS:C0004361	Autogenic_Training	0.9	deterministic_crosswalk	1.3.5.1	Autogenic_Training	MESH:D001326	http://purl.bioontology.org/ontology/MESH/D001326|https://uts.nlm.nih.gov/uts/umls/concept/C0004361	
+UMLS:C0038659	UMLS:C0038659	Suggestion	1.0	deterministic_direct	1.3.5.2	Suggestion	UMLS:C0038659	https://uts.nlm.nih.gov/uts/umls/concept/C0038659|http://purl.bioontology.org/ontology/MESH/D013404	
+MESH:D013404	UMLS:C0038659	Suggestion	0.9	deterministic_crosswalk	1.3.5.2	Suggestion	MESH:D013404	https://uts.nlm.nih.gov/uts/umls/concept/C0038659|http://purl.bioontology.org/ontology/MESH/D013404	
+UMLS:C0004404	UMLS:C0004404	Autosuggestion	1.0	deterministic_direct	1.3.5.2.1	Autosuggestion	UMLS:C0004404	http://purl.bioontology.org/ontology/MESH/D001346|https://uts.nlm.nih.gov/uts/umls/concept/C0004404	
+MESH:D001346	UMLS:C0004404	Autosuggestion	0.9	deterministic_crosswalk	1.3.5.2.1	Autosuggestion	MESH:D001346	http://purl.bioontology.org/ontology/MESH/D001346|https://uts.nlm.nih.gov/uts/umls/concept/C0004404	
+UMLS:C0679660	UMLS:C0679660	Self_Hypnosis	1.0	deterministic_direct	1.3.5.4	Self_Hypnosis	UMLS:C0679660	https://uts.nlm.nih.gov/uts/umls/concept/C0679660	
+UMLS:C2985297	UMLS:C2985297	Hypnobirthing	1.0	deterministic_direct	1.3.5.5	Hypnobirthing	UMLS:C2985297	https://uts.nlm.nih.gov/uts/umls/concept/C2985297	
+UMLS:C0150627	UMLS:C0150627	Imagery_Psychotherapy	1.0	deterministic_direct	1.3.6	Imagery_Psychotherapy	UMLS:C0150627	https://uts.nlm.nih.gov/uts/umls/concept/C0150627|http://purl.bioontology.org/ontology/MESH/D019018	
+MESH:D019018	UMLS:C0150627	Imagery_Psychotherapy	0.9	deterministic_crosswalk	1.3.6	Imagery_Psychotherapy	MESH:D019018	https://uts.nlm.nih.gov/uts/umls/concept/C0150627|http://purl.bioontology.org/ontology/MESH/D019018	
+UMLS:C0679674	UMLS:C0679674	Spiritual_Therapy	1.0	deterministic_direct	1.3.7	Spiritual_Therapy	UMLS:C0679674	http://purl.bioontology.org/ontology/PDQ/CDR0000372891|http://purl.bioontology.org/ontology/MESH/D026443|https://uts.nlm.nih.gov/uts/umls/concept/C0679674	
+MESH:D026443	UMLS:C0015547	Spiritual_Therapy	0.9	deterministic_crosswalk	1.3.7	Spiritual_Therapy	MESH:D026443	http://purl.bioontology.org/ontology/PDQ/CDR0000372891|http://purl.bioontology.org/ontology/MESH/D026443|https://uts.nlm.nih.gov/uts/umls/concept/C0679674	
+UMLS:C0949912	UMLS:C0949912	Faith_Healing	1.0	deterministic_direct	1.3.7.2	Faith_Healing	UMLS:C0949912	http://purl.bioontology.org/ontology/MESH/D029221|http://purl.bioontology.org/ontology/PDQ/CDR0000574293|https://uts.nlm.nih.gov/uts/umls/concept/C0949912	
+MESH:D029221	UMLS:C0282230	Faith_Healing	0.9	deterministic_crosswalk	1.3.7.2	Faith_Healing	MESH:D029221	http://purl.bioontology.org/ontology/MESH/D029221|http://purl.bioontology.org/ontology/PDQ/CDR0000574293|https://uts.nlm.nih.gov/uts/umls/concept/C0949912	
+UMLS:C0282230	UMLS:C0282230	Prayer_Healing	1.0	deterministic_direct	1.3.7.2.2	Prayer_Healing	UMLS:C0282230	https://uts.nlm.nih.gov/uts/umls/concept/C0282230	
+UMLS:C1276354	UMLS:C1276354	Laying_on_of_Hands_with_Prayer	1.0	deterministic_direct	1.3.7.3	Laying_on_of_Hands_with_Prayer	UMLS:C1276354	https://uts.nlm.nih.gov/uts/umls/concept/C1276354|http://purl.bioontology.org/ontology/RCTV2/8BF0.00	
+UMLS:C0814263	UMLS:C0814263	Meditation_Therapy	1.0	deterministic_direct	1.3.7.4	Meditation_Therapy	UMLS:C0814263	"https://www.cancer.gov/about-cancer/treatme|http://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI%20Thesaurus&code=C51975""|https://www.nccih.nih.gov/health/meditation-and-mindfulness-effectiveness-and-safety|https://uts.nlm.nih.gov/uts/umls/concept/C0814263|http://purl.bioontology.org/ontology/MESH/D019122|http://purl.bioontology.org/ontology/PDQ/CDR0000574221"	
+MESH:D019122	UMLS:C0150277	Meditation_Therapy	0.9	deterministic_crosswalk	1.3.7.4	Meditation_Therapy	MESH:D019122	"https://www.cancer.gov/about-cancer/treatme|http://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI%20Thesaurus&code=C51975""|https://www.nccih.nih.gov/health/meditation-and-mindfulness-effectiveness-and-safety|https://uts.nlm.nih.gov/uts/umls/concept/C0814263|http://purl.bioontology.org/ontology/MESH/D019122|http://purl.bioontology.org/ontology/PDQ/CDR0000574221"	
+UMLS:C0204530	UMLS:C0204530	Transcendental_Meditation	1.0	deterministic_direct	1.3.7.4.1.1.1	Transcendental_Meditation	UMLS:C0204530	https://uts.nlm.nih.gov/uts/umls/concept/C0204530	
+UMLS:C5891058	UMLS:C5891058	Mindfulness_Meditation	1.0	deterministic_direct	1.3.7.4.2	Mindfulness_Meditation	UMLS:C5891058	https://uts.nlm.nih.gov/uts/umls/concept/C5891058	
+UMLS:C5940645	UMLS:C5940645	Mindfulness_Based_Cognitive_Therapy	1.0	deterministic_direct	1.3.7.4.2.10	Mindfulness_Based_Cognitive_Therapy	UMLS:C5940645	https://uts.nlm.nih.gov/uts/umls/concept/C5940645	
+UMLS:C0025352	UMLS:C0025352	Mental_Healing	1.0	deterministic_direct	1.3.7.5	Mental_Healing	UMLS:C0025352	http://purl.bioontology.org/ontology/MESH/D008602|https://uts.nlm.nih.gov/uts/umls/concept/C0025352	
+MESH:D008602	UMLS:C0025352	Mental_Healing	0.9	deterministic_crosswalk	1.3.7.5	Mental_Healing	MESH:D008602	http://purl.bioontology.org/ontology/MESH/D008602|https://uts.nlm.nih.gov/uts/umls/concept/C0025352	
+UMLS:C0034545	UMLS:C0034545	Radiesthesia	1.0	deterministic_direct	1.3.7.6	Radiesthesia	UMLS:C0034545	http://purl.bioontology.org/ontology/MESH/D011844|https://uts.nlm.nih.gov/uts/umls/concept/C0034545	
+MESH:D011844	UMLS:C0034545	Radiesthesia	0.9	deterministic_crosswalk	1.3.7.6	Radiesthesia	MESH:D011844	http://purl.bioontology.org/ontology/MESH/D011844|https://uts.nlm.nih.gov/uts/umls/concept/C0034545	
+UMLS:C1541277	UMLS:C1541277	Distance_Healing	1.0	deterministic_direct	1.3.7.8	Distance_Healing	UMLS:C1541277	https://uts.nlm.nih.gov/uts/umls/concept/C1541277|http://purl.bioontology.org/ontology/PDQ/CDR0000372892	
+UMLS:C0871171	UMLS:C0871171	Psychic_Healing	1.0	deterministic_direct	1.3.7.11	Psychic_Healing	UMLS:C0871171	https://uts.nlm.nih.gov/uts/umls/concept/C0871171	
+UMLS:C0015547	UMLS:C0015547	Spiritual_Healing	1.0	deterministic_direct	1.3.7.13	Spiritual_Healing	UMLS:C0015547	http://purl.bioontology.org/ontology/MESH/D026443|https://uts.nlm.nih.gov/uts/umls/concept/C0015547	
+MESH:D026443	UMLS:C0015547	Spiritual_Healing	0.9	deterministic_crosswalk	1.3.7.13	Spiritual_Healing	MESH:D026443	http://purl.bioontology.org/ontology/MESH/D026443|https://uts.nlm.nih.gov/uts/umls/concept/C0015547	
+UMLS:C4045985	UMLS:C4045985	Exorcism	1.0	deterministic_direct	1.3.7.13.1	Exorcism	UMLS:C4045985	http://purl.bioontology.org/ontology/MESH/D026443|https://uts.nlm.nih.gov/uts/umls/concept/C4045985	
+MESH:D026443	UMLS:C0015547	Exorcism	0.9	deterministic_crosswalk	1.3.7.13.1	Exorcism	MESH:D026443	http://purl.bioontology.org/ontology/MESH/D026443|https://uts.nlm.nih.gov/uts/umls/concept/C4045985	
+UMLS:C1883174	UMLS:C1883174	Stress_Management_Therapy	1.0	deterministic_direct	1.3.8	Stress_Management_Therapy	UMLS:C1883174	http://purl.bioontology.org/ontology/PDQ/CDR0000574229|https://uts.nlm.nih.gov/uts/umls/concept/C1883174	
+UMLS:C1883225	UMLS:C1883225	Support_Group_Therapy	1.0	deterministic_direct	1.3.9	Support_Group_Therapy	UMLS:C1883225	http://purl.bioontology.org/ontology/PDQ/CDR0000574225|https://uts.nlm.nih.gov/uts/umls/concept/C1883225	
+UMLS:C0033968	UMLS:C0033968	Psychotherapy	1.0	deterministic_direct	1.3.10	Psychotherapy	UMLS:C0033968	https://uts.nlm.nih.gov/uts/umls/concept/C0033968	
+UMLS:C0871175	UMLS:C0871175	Psychoeducation	1.0	deterministic_direct	1.3.10.1	Psychoeducation	UMLS:C0871175	https://uts.nlm.nih.gov/uts/umls/concept/C0871175	
+UMLS:C0005365	UMLS:C0005365	Bibliotherapy	1.0	deterministic_direct	1.3.10.2	Bibliotherapy	UMLS:C0005365	https://uts.nlm.nih.gov/uts/umls/concept/C0005365	
+UMLS:C2945659	UMLS:C2945659	Bioenergetic_Therapy	1.0	deterministic_direct	1.3.10.3.1	Bioenergetic_Therapy	UMLS:C2945659	https://uts.nlm.nih.gov/uts/umls/concept/C2945659	
+UMLS:C0010210	UMLS:C0010210	Counseling	1.0	deterministic_direct	1.3.10.4	Counseling	UMLS:C0010210	https://uts.nlm.nih.gov/uts/umls/concept/C0010210	
+UMLS:C1608504	UMLS:C1608504	Emotional_Freedom_Technique	1.0	deterministic_direct	1.3.10.5	Emotional_Freedom_Technique	UMLS:C1608504	https://uts.nlm.nih.gov/uts/umls/concept/C1608504	
+UMLS:C0017501	UMLS:C0017501	Gestalt_Therapy	1.0	deterministic_direct	1.3.10.6	Gestalt_Therapy	UMLS:C0017501	https://uts.nlm.nih.gov/uts/umls/concept/C0017501	
+UMLS:C3494322	UMLS:C3494322	Narrative_Therapy	1.0	deterministic_direct	1.3.10.7	Narrative_Therapy	UMLS:C3494322	https://uts.nlm.nih.gov/uts/umls/concept/C3494322	
+UMLS:C0015618	UMLS:C0015618	Family_Psychotherapy	1.0	deterministic_direct	1.3.10.8	Family_Psychotherapy	UMLS:C0015618	https://uts.nlm.nih.gov/uts/umls/concept/C0015618	
+MESH:D015928	UMLS:C0009244	Cognitive_Behavioral_Therapy	0.9	deterministic_crosswalk	1.3.10.12	Cognitive_Behavioral_Therapy	MESH:D015928	http://purl.bioontology.org/ontology/MESH/D015928	
+MESH:D000077252	UMLS:C1321145	Dialectical_Behavior_Therapy	0.9	deterministic_crosswalk	1.3.10.13	Dialectical_Behavior_Therapy	MESH:D000077252	http://purl.bioontology.org/ontology/MESH/D000077252	
+MESH:D064869	UMLS:C3658321	Acceptance_and_Commitment_Therapy	0.9	deterministic_crosswalk	1.3.10.14	Acceptance_and_Commitment_Therapy	MESH:D064869	http://purl.bioontology.org/ontology/MESH/D064869	
+UMLS:C0683473	UMLS:C0683473	Neurolinguistic_Programming	1.0	deterministic_direct	1.3.12	Neurolinguistic_Programming	UMLS:C0683473	https://uts.nlm.nih.gov/uts/umls/concept/C0683473	
+UMLS:C0870913	UMLS:C0870913	Morita_Therapy	1.0	deterministic_direct	1.3.14	Morita_Therapy	UMLS:C0870913	https://uts.nlm.nih.gov/uts/umls/concept/C0870913	
+UMLS:C0598380	UMLS:C0598380	Nature_Therapy	1.0	deterministic_direct	1.3.15.1	Nature_Therapy	UMLS:C0598380	https://uts.nlm.nih.gov/uts/umls/concept/C0598380	
+UMLS:C0454057	UMLS:C0454057	Horticultural_Therapy	1.0	deterministic_direct	1.3.15.1.1	Horticultural_Therapy	UMLS:C0454057	http://purl.bioontology.org/ontology/MESH/D058611|https://uts.nlm.nih.gov/uts/umls/concept/C0454057	
+MESH:D058611	UMLS:C0454057	Horticultural_Therapy	0.9	deterministic_crosswalk	1.3.15.1.1	Horticultural_Therapy	MESH:D058611	http://purl.bioontology.org/ontology/MESH/D058611|https://uts.nlm.nih.gov/uts/umls/concept/C0454057	
+UMLS:C5940600	UMLS:C5940600	Forest_Therapy	1.0	deterministic_direct	1.3.15.1.2	Forest_Therapy	UMLS:C5940600	http://purl.bioontology.org/ontology/MESH/D000099080|https://uts.nlm.nih.gov/uts/umls/concept/C5940600	
+MESH:D000099080	UMLS:C5940600	Forest_Therapy	0.9	deterministic_crosswalk	1.3.15.1.2	Forest_Therapy	MESH:D000099080	http://purl.bioontology.org/ontology/MESH/D000099080|https://uts.nlm.nih.gov/uts/umls/concept/C5940600	
+UMLS:C4280069	UMLS:C4280069	Positive_Thinking	1.0	deterministic_direct	1.3.16	Positive_Thinking	UMLS:C4280069	https://uts.nlm.nih.gov/uts/umls/concept/C4280069	
+UMLS:C0150321	UMLS:C0150321	Reminiscence_Therapy	1.0	deterministic_direct	1.3.17	Reminiscence_Therapy	UMLS:C0150321	https://uts.nlm.nih.gov/uts/umls/concept/C0150321	
+UMLS:C0242388	UMLS:C0242388	Phytotherapy	1.0	deterministic_direct	1.4	Phytotherapy	UMLS:C0242388	https://uts.nlm.nih.gov/uts/umls/concept/C0242388|http://purl.bioontology.org/ontology/MESH/D008517|http://purl.bioontology.org/ontology/PDQ/CDR0000372899	
+MESH:D008517	UMLS:C0242388	Phytotherapy	0.9	deterministic_crosswalk	1.4	Phytotherapy	MESH:D008517	https://uts.nlm.nih.gov/uts/umls/concept/C0242388|http://purl.bioontology.org/ontology/MESH/D008517|http://purl.bioontology.org/ontology/PDQ/CDR0000372899	
+UMLS:C1541283	UMLS:C1541283	Phytoestrogen_Therapy	1.0	deterministic_direct	1.4.1	Phytoestrogen_Therapy	UMLS:C1541283	https://uts.nlm.nih.gov/uts/umls/concept/C1541283|http://purl.bioontology.org/ontology/PDQ/CDR0000372904	
+UMLS:C1533719	UMLS:C1533719	Herbal_Therapy	1.0	deterministic_direct	1.4.2	Herbal_Therapy	UMLS:C1533719	https://uts.nlm.nih.gov/uts/umls/concept/C1533719	
+UMLS:C0242295	UMLS:C0242295	Dietary_Supplement	1.0	deterministic_direct	2.1	Dietary_Supplement	UMLS:C0242295	https://uts.nlm.nih.gov/uts/umls/concept/C0242295|http://purl.bioontology.org/ontology/MESH/D019587	
+MESH:D019587	UMLS:C0242295	Dietary_Supplement	0.9	deterministic_crosswalk	2.1	Dietary_Supplement	MESH:D019587	https://uts.nlm.nih.gov/uts/umls/concept/C0242295|http://purl.bioontology.org/ontology/MESH/D019587	
+UMLS:C0042890	CHEBI:18145	Vitamin	0.9	deterministic_crosswalk	2.1.1	Vitamin	UMLS:C0042890	https://uts.nlm.nih.gov/uts/umls/concept/C0042890	
+UMLS:C0026162	CHEBI:46662	Mineral	0.9	deterministic_crosswalk	2.1.2	Mineral	UMLS:C0026162	https://uts.nlm.nih.gov/uts/umls/concept/C0026162	
+UMLS:C2717875	MESH:D056692	Prebiotic	0.9	deterministic_crosswalk	2.1.3	Prebiotic	UMLS:C2717875	https://uts.nlm.nih.gov/uts/umls/concept/C2717875	
+UMLS:C0525033	MESH:D019936	Probiotic	0.9	deterministic_crosswalk	2.1.4	Probiotic	UMLS:C0525033	https://uts.nlm.nih.gov/uts/umls/concept/C0525033	
+UMLS:C0577749	MESH:D064209	Phytochemical	0.9	deterministic_crosswalk	2.2.1	Phytochemical	UMLS:C0577749	https://uts.nlm.nih.gov/uts/umls/concept/C0577749	
+UMLS:C0019240	UMLS:C0019240	Herb	1.0	deterministic_direct	2.2.2	Herb	UMLS:C0019240	https://uts.nlm.nih.gov/uts/umls/concept/C0019240	
+UMLS:C0330845	NCBITaxon:20400	Astragalus	0.9	deterministic_crosswalk	2.2.2.1	Astragalus	UMLS:C0330845	https://www.nccih.nih.gov/health/astragalus|https://uts.nlm.nih.gov/uts/umls/concept/C0330845	
+UMLS:C2586030	UMLS:C2586030	Anthroposophic_Medicine	1.0	deterministic_direct	3.1	Anthroposophic_Medicine	UMLS:C2586030	https://pmc.ncbi.nlm.nih.gov/articles/PMC3865373/|https://uts.nlm.nih.gov/uts/umls/concept/C2586030	
+UMLS:C0684199	UMLS:C0684199	Homeopathy	1.0	deterministic_direct	3.2	Homeopathy	UMLS:C0684199	"https://www.cancer.gov/about-cancer/treatment/clinical-trials/intervention/C15718""|http://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictio|http://purl.bioontology.org/ontology/PDQ/CDR0000574166|http://purl.bioontology.org/ontology/MESH/D006705|https://www.nccih.nih.gov/health/homeopathy|http://purl.bioontology.org/ontology/RCD/8BA6.|https://uts.nlm.nih.gov/uts/umls/concept/C0684199"	
+MESH:D006705	UMLS:C0684199	Homeopathy	0.9	deterministic_crosswalk	3.2	Homeopathy	MESH:D006705	"https://www.cancer.gov/about-cancer/treatment/clinical-trials/intervention/C15718""|http://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictio|http://purl.bioontology.org/ontology/PDQ/CDR0000574166|http://purl.bioontology.org/ontology/MESH/D006705|https://www.nccih.nih.gov/health/homeopathy|http://purl.bioontology.org/ontology/RCD/8BA6.|https://uts.nlm.nih.gov/uts/umls/concept/C0684199"	
+UMLS:C0027495	UMLS:C0027495	Naturopathy	1.0	deterministic_direct	3.3	Naturopathy	UMLS:C0027495	"https://www.cancer.gov/about-cancer/treatment/clinical-trials/i|http://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI%20Thesaurus&code=C15283""|https://uts.nlm.nih.gov/uts/umls/concept/C0027495|https://www.nccih.nih.gov/health/naturopathy|http://purl.bioontology.org/ontology/MESH/D009324|http://purl.bioontology.org/ontology/PDQ/CDR0000574165"	
+MESH:D009324	UMLS:C0027495	Naturopathy	0.9	deterministic_crosswalk	3.3	Naturopathy	MESH:D009324	"https://www.cancer.gov/about-cancer/treatment/clinical-trials/i|http://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI%20Thesaurus&code=C15283""|https://uts.nlm.nih.gov/uts/umls/concept/C0027495|https://www.nccih.nih.gov/health/naturopathy|http://purl.bioontology.org/ontology/MESH/D009324|http://purl.bioontology.org/ontology/PDQ/CDR0000574165"	
+UMLS:C0025131	UMLS:C0025131	Traditional_Medicine	1.0	deterministic_direct	3.4	Traditional_Medicine	UMLS:C0025131	http://purl.bioontology.org/ontology/MESH/D008519|https://uts.nlm.nih.gov/uts/umls/concept/C0025131	
+MESH:D008519	UMLS:C0015034	Traditional_Medicine	0.9	deterministic_crosswalk	3.4	Traditional_Medicine	MESH:D008519	http://purl.bioontology.org/ontology/MESH/D008519|https://uts.nlm.nih.gov/uts/umls/concept/C0025131	
+UMLS:C0949807	UMLS:C0949807	Historical_Eclecticism	1.0	deterministic_direct	3.4.1	Historical_Eclecticism	UMLS:C0949807	http://purl.bioontology.org/ontology/MESH/D027681|https://uts.nlm.nih.gov/uts/umls/concept/C0949807	
+MESH:D027681	UMLS:C0949807	Historical_Eclecticism	0.9	deterministic_crosswalk	3.4.1	Historical_Eclecticism	MESH:D027681	http://purl.bioontology.org/ontology/MESH/D027681|https://uts.nlm.nih.gov/uts/umls/concept/C0949807	
+UMLS:C0085093	UMLS:C0085093	Traditional_African_Medicine	1.0	deterministic_direct	3.4.2	Traditional_African_Medicine	UMLS:C0085093	http://purl.bioontology.org/ontology/MESH/D016488|https://uts.nlm.nih.gov/uts/umls/concept/C0085093	
+MESH:D016488	UMLS:C0085093	Traditional_African_Medicine	0.9	deterministic_crosswalk	3.4.2	Traditional_African_Medicine	MESH:D016488	http://purl.bioontology.org/ontology/MESH/D016488|https://uts.nlm.nih.gov/uts/umls/concept/C0085093	
+UMLS:C0025121	UMLS:C0025121	Arabic_Medicine	1.0	deterministic_direct	3.4.3	Arabic_Medicine	UMLS:C0025121	http://purl.bioontology.org/ontology/MESH/D008514|https://uts.nlm.nih.gov/uts/umls/concept/C0025121	
+MESH:D008514	UMLS:C0025121	Arabic_Medicine	0.9	deterministic_crosswalk	3.4.3	Arabic_Medicine	MESH:D008514	http://purl.bioontology.org/ontology/MESH/D008514|https://uts.nlm.nih.gov/uts/umls/concept/C0025121	
+UMLS:C0376557	UMLS:C0376557	Unani_Medicine	1.0	deterministic_direct	3.4.3.1	Unani_Medicine	UMLS:C0376557	http://purl.bioontology.org/ontology/MESH/D019367|https://uts.nlm.nih.gov/uts/umls/concept/C0376557	
+MESH:D019367	UMLS:C0376557	Unani_Medicine	0.9	deterministic_crosswalk	3.4.3.1	Unani_Medicine	MESH:D019367	http://purl.bioontology.org/ontology/MESH/D019367|https://uts.nlm.nih.gov/uts/umls/concept/C0376557	
+UMLS:C0025122	UMLS:C0025122	Ayurvedic_Medicine	1.0	deterministic_direct	3.4.4.1	Ayurvedic_Medicine	UMLS:C0025122	https://uts.nlm.nih.gov/uts/umls/concept/C0025122|http://purl.bioontology.org/ontology/MESH/D008515	
+MESH:D008515	UMLS:C0025122	Ayurvedic_Medicine	0.9	deterministic_crosswalk	3.4.4.1	Ayurvedic_Medicine	MESH:D008515	https://uts.nlm.nih.gov/uts/umls/concept/C0025122|http://purl.bioontology.org/ontology/MESH/D008515	
+UMLS:C0025129	UMLS:C0025129	Traditional_East_Asian_Medicine	1.0	deterministic_direct	3.4.5	Traditional_East_Asian_Medicine	UMLS:C0025129	https://uts.nlm.nih.gov/uts/umls/concept/C0025129|http://purl.bioontology.org/ontology/MESH/D008518	
+MESH:D008518	UMLS:C0025128	Traditional_East_Asian_Medicine	0.9	deterministic_crosswalk	3.4.5	Traditional_East_Asian_Medicine	MESH:D008518	https://uts.nlm.nih.gov/uts/umls/concept/C0025129|http://purl.bioontology.org/ontology/MESH/D008518	
+UMLS:C0025124	UMLS:C0025124	Traditional_Chinese_Medicine	1.0	deterministic_direct	3.4.5.1	Traditional_Chinese_Medicine	UMLS:C0025124	http://purl.bioontology.org/ontology/MESH/D008516|https://uts.nlm.nih.gov/uts/umls/concept/C0025124	
+MESH:D008516	UMLS:C0025124	Traditional_Chinese_Medicine	0.9	deterministic_crosswalk	3.4.5.1	Traditional_Chinese_Medicine	MESH:D008516	http://purl.bioontology.org/ontology/MESH/D008516|https://uts.nlm.nih.gov/uts/umls/concept/C0025124	
+UMLS:C1273412	UMLS:C1273412	Chinese_Herbal_Medicine	1.0	deterministic_direct	3.4.5.1.1	Chinese_Herbal_Medicine	UMLS:C1273412	https://uts.nlm.nih.gov/uts/umls/concept/C1273412|http://purl.bioontology.org/ontology/RCTV2/8BF3.00	
+UMLS:C0752221	UMLS:C0752221	Kampo_Medicine	1.0	deterministic_direct	3.4.5.2	Kampo_Medicine	UMLS:C0752221	http://purl.bioontology.org/ontology/MESH/D020835|https://uts.nlm.nih.gov/uts/umls/concept/C0752221	
+MESH:D020835	UMLS:C0752221	Kampo_Medicine	0.9	deterministic_crosswalk	3.4.5.2	Kampo_Medicine	MESH:D020835	http://purl.bioontology.org/ontology/MESH/D020835|https://uts.nlm.nih.gov/uts/umls/concept/C0752221	
+UMLS:C2350504	UMLS:C2350504	Traditional_Korean_Medicine	1.0	deterministic_direct	3.4.5.3	Traditional_Korean_Medicine	UMLS:C2350504	https://uts.nlm.nih.gov/uts/umls/concept/C2350504|http://purl.bioontology.org/ontology/MESH/D055670	
+MESH:D055670	UMLS:C2350504	Traditional_Korean_Medicine	0.9	deterministic_crosswalk	3.4.5.3	Traditional_Korean_Medicine	MESH:D055670	https://uts.nlm.nih.gov/uts/umls/concept/C2350504|http://purl.bioontology.org/ontology/MESH/D055670	
+UMLS:C2717890	UMLS:C2717890	Traditional_Mongolian_Medicine	1.0	deterministic_direct	3.4.5.4	Traditional_Mongolian_Medicine	UMLS:C2717890	http://purl.bioontology.org/ontology/MESH/D056785|https://uts.nlm.nih.gov/uts/umls/concept/C2717890	
+MESH:D056785	UMLS:C2717890	Traditional_Mongolian_Medicine	0.9	deterministic_crosswalk	3.4.5.4	Traditional_Mongolian_Medicine	MESH:D056785	http://purl.bioontology.org/ontology/MESH/D056785|https://uts.nlm.nih.gov/uts/umls/concept/C2717890	
+UMLS:C1136246	UMLS:C1136246	Traditional_Tibetan_Medicine	1.0	deterministic_direct	3.4.5.5	Traditional_Tibetan_Medicine	UMLS:C1136246	http://purl.bioontology.org/ontology/MESH/D038861|https://uts.nlm.nih.gov/uts/umls/concept/C1136246	
+MESH:D038861	UMLS:C1136246	Traditional_Tibetan_Medicine	0.9	deterministic_crosswalk	3.4.5.5	Traditional_Tibetan_Medicine	MESH:D038861	http://purl.bioontology.org/ontology/MESH/D038861|https://uts.nlm.nih.gov/uts/umls/concept/C1136246	
+UMLS:C5544463	UMLS:C5544463	Traditional_Iranian_Medicine	1.0	deterministic_direct	3.4.6	Traditional_Iranian_Medicine	UMLS:C5544463	http://purl.bioontology.org/ontology/MESH/D000091182|https://uts.nlm.nih.gov/uts/umls/concept/C5544463	
+MESH:D000091182	UMLS:C5544463	Traditional_Iranian_Medicine	0.9	deterministic_crosswalk	3.4.6	Traditional_Iranian_Medicine	MESH:D000091182	http://purl.bioontology.org/ontology/MESH/D000091182|https://uts.nlm.nih.gov/uts/umls/concept/C5544463	
+UMLS:C5828333	UMLS:C5828333	Traditional_Thai_Medicine	1.0	deterministic_direct	3.4.7	Traditional_Thai_Medicine	UMLS:C5828333	https://uts.nlm.nih.gov/uts/umls/concept/C5828333|http://purl.bioontology.org/ontology/MESH/D000096262	
+MESH:D000096262	UMLS:C5781873	Traditional_Thai_Medicine	0.9	deterministic_crosswalk	3.4.7	Traditional_Thai_Medicine	MESH:D000096262	https://uts.nlm.nih.gov/uts/umls/concept/C5828333|http://purl.bioontology.org/ontology/MESH/D000096262	
+COMBO:1.1	UMLS:C1882127	Nutritional Intervention	0.97	mrconso_exact	1.1	Nutritional_Intervention	COMBO:1.1	mrconso_exact:NCI:label:Nutritional_Intervention	
+COMBO:1.1.1.7.2.1	MESH:D015623	Macrobiotic Diet	0.97	mrconso_exact	1.1.1.7.2.1	Macrobiotic_Diet	COMBO:1.1.1.7.2.1	mrconso_exact:MSH:label:Macrobiotic_Diet	
+COMBO:1.2.3.1	MESH:D020831	Auricular Acupuncture	0.97	mrconso_exact	1.2.3.1	Auricular_Acupuncture	COMBO:1.2.3.1	mrconso_exact:MSH:label:Auricular_Acupuncture	
+COMBO:1.2.3.2	UMLS:C4321302	Battlefield Acupuncture	0.97	mrconso_exact	1.2.3.2	Battlefield_Acupuncture	COMBO:1.2.3.2	mrconso_exact:MTH:label:Battlefield_Acupuncture	
+COMBO:1.2.6.2.7	UMLS:C0282333	Relaxation training	0.97	mrconso_exact	1.2.6.2.7	Relaxation_Training	COMBO:1.2.6.2.7	mrconso_exact:SNOMEDCT_US:label:Relaxation_Training	
+COMBO:1.2.6.3.5	UMLS:C2713543	EEG biofeedback	0.97	mrconso_exact	1.2.6.3.5	Electroencephalogram_Biofeedback	COMBO:1.2.6.3.5	mrconso_exact:SNOMEDCT_US:synonym:EEG Biofeedback	
+COMBO:1.2.6.4.1.3.1	MESH:D027641	Laughter Yoga	0.97	mrconso_exact	1.2.6.4.1.3.1	Laughter_Yoga	COMBO:1.2.6.4.1.3.1	mrconso_exact:MSH:label:Laughter_Yoga	
+COMBO:1.2.6.4.1.3.3	MESH:D012860	Raja	0.97	mrconso_exact	1.2.6.4.1.3.3	Raja_Yoga	COMBO:1.2.6.4.1.3.3	mrconso_exact:MSH:synonym:Raja	
+COMBO:1.2.8.1.1	MESH:D026302	Tai Chi	0.97	mrconso_exact	1.2.8.1.1	Tai_Chi	COMBO:1.2.8.1.1	mrconso_exact:MSH:label:Tai_Chi	
+COMBO:1.2.8.2.3.1.3.1	UMLS:C0872259	Repetitive Transcranial Magnetic Stimulation	0.97	mrconso_exact	1.2.8.2.3.1.3.1	Repetitive_Transcranial_Magnetic_Stimulation	COMBO:1.2.8.2.3.1.3.1	mrconso_exact:NCI:label:Repetitive_Transcranial_Magnetic_Stimulation	
+COMBO:1.2.8.2.7.2	MESH:D010778	Photodynamic Therapy	0.97	mrconso_exact	1.2.8.2.7.2	Photodynamic_Therapy	COMBO:1.2.8.2.7.2	mrconso_exact:MSH:label:Photodynamic_Therapy	
+COMBO:1.2.15.1	MESH:D026201	Reflexology	0.97	mrconso_exact	1.2.15.1	Reflexology	COMBO:1.2.15.1	mrconso_exact:MSH:label:Reflexology	
+COMBO:1.2.15.1.1	UMLS:C1273536	Acu-reflexology	0.97	mrconso_exact	1.2.15.1.1	Acu_Reflexology	COMBO:1.2.15.1.1	mrconso_exact:SNOMEDCT_US:label:Acu_Reflexology	
+COMBO:1.2.17.2	UMLS:C0020548	Heat Therapy	0.97	mrconso_exact	1.2.17.2	Heat_Therapy	COMBO:1.2.17.2	mrconso_exact:NCI:label:Heat_Therapy	
+COMBO:1.2.17.2.2	MESH:D029002	Sauna	0.97	mrconso_exact	1.2.17.2.2	Sauna_Therapy	COMBO:1.2.17.2.2	mrconso_exact:MSH:synonym:Sauna	
+COMBO:1.2.22.10	UMLS:C5238484	Whole Body Vibration Therapy	0.97	mrconso_exact	1.2.22.10	Whole_Body_Vibration_Therapy	COMBO:1.2.22.10	mrconso_exact:NCI:label:Whole_Body_Vibration_Therapy	
+COMBO:1.3	MESH:D000083626	Psychological Intervention	0.97	mrconso_exact	1.3	Psychological_Intervention	COMBO:1.3	mrconso_exact:MSH:label:Psychological_Intervention	
+COMBO:1.3.1.1	UMLS:C0006155	Breathing exercise	0.97	mrconso_exact	1.3.1.1	Breathing_Exercise	COMBO:1.3.1.1	mrconso_exact:SNOMEDCT_US:label:Breathing_Exercise	
+COMBO:1.3.1.1.2	UMLS:C1328799	Deep breathing	0.97	mrconso_exact	1.3.1.1.2	Deep_Breathing	COMBO:1.3.1.1.2	mrconso_exact:MTH:label:Deep_Breathing	
+COMBO:1.3.1.2	MESH:D012064	Relaxation Technique	0.97	mrconso_exact	1.3.1.2	Relaxation_Technique	COMBO:1.3.1.2	mrconso_exact:MSH:label:Relaxation_Technique	
+COMBO:1.3.1.2.1	MESH:D001155	Art Therapy	0.97	mrconso_exact	1.3.1.2.1	Art_Therapy	COMBO:1.3.1.2.1	mrconso_exact:MSH:label:Art_Therapy	
+COMBO:1.3.1.2.2	UMLS:C0597811	Humor therapy	0.97	mrconso_exact	1.3.1.2.2	Humor_Therapy	COMBO:1.3.1.2.2	mrconso_exact:MTH:label:Humor_Therapy	
+COMBO:1.3.1.2.2.1	MESH:D027641	Laughter Therapy	0.97	mrconso_exact	1.3.1.2.2.1	Laughter_Therapy	COMBO:1.3.1.2.2.1	mrconso_exact:MSH:label:Laughter_Therapy	
+COMBO:1.3.1.2.2.1.1	MESH:D027641	Laughter Yoga	0.97	mrconso_exact	1.3.1.2.2.1.1	Laughter_Yoga	COMBO:1.3.1.2.2.1.1	mrconso_exact:MSH:label:Laughter_Yoga	
+COMBO:1.3.1.2.3	MESH:D009147	Music Therapy	0.97	mrconso_exact	1.3.1.2.3	Music_Therapy	COMBO:1.3.1.2.3	mrconso_exact:MSH:label:Music_Therapy	
+COMBO:1.3.1.2.4	MESH:D026201	Reflexology	0.97	mrconso_exact	1.3.1.2.4	Reflexology	COMBO:1.3.1.2.4	mrconso_exact:MSH:label:Reflexology	
+COMBO:1.3.1.2.4.1	UMLS:C1273536	Acu-reflexology	0.97	mrconso_exact	1.3.1.2.4.1	Acu_Reflexology	COMBO:1.3.1.2.4.1	mrconso_exact:SNOMEDCT_US:label:Acu_Reflexology	
+COMBO:1.3.1.2.5	MESH:D001326	Progressive Muscle Relaxation	0.97	mrconso_exact	1.3.1.2.5	Progressive_Muscle_Relaxation	COMBO:1.3.1.2.5	mrconso_exact:MSH:label:Progressive_Muscle_Relaxation	
+COMBO:1.3.1.2.7	UMLS:C0282333	Relaxation training	0.97	mrconso_exact	1.3.1.2.7	Relaxation_Training	COMBO:1.3.1.2.7	mrconso_exact:SNOMEDCT_US:label:Relaxation_Training	
+COMBO:1.3.1.3	MESH:D001676	Biofeedback	0.97	mrconso_exact	1.3.1.3	Biofeedback	COMBO:1.3.1.3	mrconso_exact:MSH:label:Biofeedback	
+COMBO:1.3.1.3.1	MESH:D056228	Sensory Feedback	0.97	mrconso_exact	1.3.1.3.1	Sensory_Feedback	COMBO:1.3.1.3.1	mrconso_exact:MSH:label:Sensory_Feedback	
+COMBO:1.3.1.3.2	MESH:D058765	Neurofeedback	0.97	mrconso_exact	1.3.1.3.2	Neurofeedback	COMBO:1.3.1.3.2	mrconso_exact:MSH:label:Neurofeedback	
+COMBO:1.3.1.4	MESH:D005081	Exercise Therapy	0.97	mrconso_exact	1.3.1.4	Exercise_Therapy	COMBO:1.3.1.4	mrconso_exact:MSH:label:Exercise_Therapy	
+COMBO:1.3.1.4.1.2	MESH:D026302	Tai Chi	0.97	mrconso_exact	1.3.1.4.1.2	Tai_Chi	COMBO:1.3.1.4.1.2	mrconso_exact:MSH:label:Tai_Chi	
+COMBO:1.3.1.4.1.3	UMLS:C1883583	Yoga Therapy	0.97	mrconso_exact	1.3.1.4.1.3	Yoga_Therapy	COMBO:1.3.1.4.1.3	mrconso_exact:NCI:label:Yoga_Therapy	
+COMBO:1.3.1.4.1.3.1	MESH:D027641	Laughter Yoga	0.97	mrconso_exact	1.3.1.4.1.3.1	Laughter_Yoga	COMBO:1.3.1.4.1.3.1	mrconso_exact:MSH:label:Laughter_Yoga	
+COMBO:1.3.1.4.2	MESH:D003614	Dance Therapy	0.97	mrconso_exact	1.3.1.4.2	Dance_Therapy	COMBO:1.3.1.4.2	mrconso_exact:MSH:label:Dance_Therapy	
+COMBO:1.3.1.5.1	UMLS:C0597812	Alexander technique	0.97	mrconso_exact	1.3.1.5.1	Alexander_Technique	COMBO:1.3.1.5.1	mrconso_exact:SNOMEDCT_US:label:Alexander_Technique	
+COMBO:1.3.4.1	MESH:D016500	Color Therapy	0.97	mrconso_exact	1.3.4.1	Color_Therapy	COMBO:1.3.4.1	mrconso_exact:MSH:label:Color_Therapy	
+COMBO:1.3.4.5.1	MESH:D001155	Art Therapy	0.97	mrconso_exact	1.3.4.5.1	Art_Therapy	COMBO:1.3.4.5.1	mrconso_exact:MSH:label:Art_Therapy	
+COMBO:1.3.4.5.2	MESH:D009147	Music Therapy	0.97	mrconso_exact	1.3.4.5.2	Music_Therapy	COMBO:1.3.4.5.2	mrconso_exact:MSH:label:Music_Therapy	
+COMBO:1.3.4.5.3	MESH:D003614	Dance Therapy	0.97	mrconso_exact	1.3.4.5.3	Dance_Therapy	COMBO:1.3.4.5.3	mrconso_exact:MSH:label:Dance_Therapy	
+COMBO:1.3.7.1	MESH:D019124	Therapeutic Touch	0.97	mrconso_exact	1.3.7.1	Therapeutic_Touch	COMBO:1.3.7.1	mrconso_exact:MSH:label:Therapeutic_Touch	
+COMBO:1.3.7.4.2.13	UMLS:C0205172	More	0.97	mrconso_exact	1.3.7.4.2.13	Mindfulness_Oriented_Recovery_Enhancement	COMBO:1.3.7.4.2.13	mrconso_exact:MTH:synonym:MORE	
+COMBO:1.3.8.1	MESH:D027641	Laughter Therapy	0.97	mrconso_exact	1.3.8.1	Laughter_Therapy	COMBO:1.3.8.1	mrconso_exact:MSH:label:Laughter_Therapy	
+COMBO:1.3.8.1.1	MESH:D027641	Laughter Yoga	0.97	mrconso_exact	1.3.8.1.1	Laughter_Yoga	COMBO:1.3.8.1.1	mrconso_exact:MSH:label:Laughter_Yoga	
+COMBO:1.3.8.2	MESH:D019341	Aromatherapy	0.97	mrconso_exact	1.3.8.2	Aromatherapy	COMBO:1.3.8.2	mrconso_exact:MSH:label:Aromatherapy	
+COMBO:1.3.10.4.1	MESH:D000098962	Grief Counseling	0.97	mrconso_exact	1.3.10.4.1	Grief_Counseling	COMBO:1.3.10.4.1	mrconso_exact:MSH:label:Grief_Counseling	
+COMBO:1.3.10.4.2	UMLS:C0730543	Lifestyle Counseling	0.97	mrconso_exact	1.3.10.4.2	Lifestyle_Counseling	COMBO:1.3.10.4.2	mrconso_exact:NCI:label:Lifestyle_Counseling	
+COMBO:1.3.13	UMLS:C2981153	Focusing	0.97	mrconso_exact	1.3.13	Focusing_Therapy	COMBO:1.3.13	mrconso_exact:SNOMEDCT_US:synonym:Focusing	
+COMBO:1.3.15.1.2.1	MESH:D000099080	Forest Bathing	0.97	mrconso_exact	1.3.15.1.2.1	Forest_Bathing	COMBO:1.3.15.1.2.1	mrconso_exact:MSH:label:Forest_Bathing	
+COMBO:1.3.15.2	UMLS:C0150763	Sensory stimulation	0.97	mrconso_exact	1.3.15.2	Sensory_Stimulation	COMBO:1.3.15.2	mrconso_exact:SNOMEDCT_US:label:Sensory_Stimulation	
+COMBO:2.2	MESH:D001688	Natural Product	0.97	mrconso_exact	2.2	Natural_Product	COMBO:2.2	mrconso_exact:MSH:label:Natural_Product	
+COMBO:2.2.2.3	MESH:D001599	Berberine	0.97	mrconso_exact	2.2.2.3	Berberine	COMBO:2.2.2.3	mrconso_exact:MSH:label:Berberine	
+COMBO:2.2.2.4	UMLS:C0330922	Sour orange	0.97	mrconso_exact	2.2.2.4	Bitter_Orange	COMBO:2.2.2.4	mrconso_exact:SNOMEDCT_US:synonym:sour orange	
+COMBO:2.2.2.5	MESH:D002935	Cinnamon	0.97	mrconso_exact	2.2.2.5	Cinnamon	COMBO:2.2.2.5	mrconso_exact:MSH:label:Cinnamon	
+COMBO:2.2.2.10.1	MESH:D013662	Green Tea	0.97	mrconso_exact	2.2.2.10.1	Green_Tea	COMBO:2.2.2.10.1	mrconso_exact:MSH:label:Green_Tea	
+COMBO:2.2.2.11	MESH:D027825	Hawthorn	0.97	mrconso_exact	2.2.2.11	Hawthorn	COMBO:2.2.2.11	mrconso_exact:MSH:label:Hawthorn	
+COMBO:2.2.2.13	MESH:D020944	Milk Thistle	0.97	mrconso_exact	2.2.2.13	Milk_Thistle	COMBO:2.2.2.13	mrconso_exact:MSH:label:Milk_Thistle	
+COMBO:2.2.2.15	MESH:D029771	Rhodiola	0.97	mrconso_exact	2.2.2.15	Rhodiola	COMBO:2.2.2.15	mrconso_exact:MSH:label:Rhodiola	
+COMBO:2.2.2.16	MESH:C041579	lei gong teng	0.97	mrconso_exact	2.2.2.16	Thunder_God_Vine	COMBO:2.2.2.16	mrconso_exact:MSH:synonym:lei gong teng	
+COMBO:2.2.2.17	MESH:C000723318	white mulberry leaf	0.97	mrconso_exact	2.2.2.17	White_Mulberry_Leaf	COMBO:2.2.2.17	mrconso_exact:MSH:label:White_Mulberry_Leaf	
+COMBO:2.2.2.18	MESH:C030693	Ashwagandha	0.97	mrconso_exact	2.2.2.18	Ashwagandha	COMBO:2.2.2.18	mrconso_exact:MSH:label:Ashwagandha	
+COMBO:2.2.2.19	MESH:D029910	Fenugreek	0.97	mrconso_exact	2.2.2.19	Fenugreek	COMBO:2.2.2.19	mrconso_exact:MSH:label:Fenugreek	
+COMBO:2.2.2.21	MESH:C012596	turmeric root	0.97	mrconso_exact	2.2.2.21	Turmeric	COMBO:2.2.2.21	mrconso_exact:MSH:synonym:turmeric root	
+COMBO:2.2.2.25	MESH:D036901	Butterbur	0.97	mrconso_exact	2.2.2.25	Butterbur	COMBO:2.2.2.25	mrconso_exact:MSH:label:Butterbur	
+COMBO:2.2.2.29	MESH:D028182	European Mistletoe	0.97	mrconso_exact	2.2.2.29	European_Mistletoe	COMBO:2.2.2.29	mrconso_exact:MSH:label:European_Mistletoe	
+COMBO:2.2.2.30	MESH:D020903	Feverfew	0.97	mrconso_exact	2.2.2.30	Feverfew	COMBO:2.2.2.30	mrconso_exact:MSH:label:Feverfew	
+COMBO:2.2.2.32	MESH:D031319	Horse Chestnut	0.97	mrconso_exact	2.2.2.32	Horse_Chestnut	COMBO:2.2.2.32	mrconso_exact:MSH:label:Horse_Chestnut	
+COMBO:2.2.2.33	MESH:D027523	Lavender	0.97	mrconso_exact	2.2.2.33	Lavender	COMBO:2.2.2.33	mrconso_exact:MSH:label:Lavender	
+COMBO:2.2.2.34	MESH:D029921	Red Clover	0.97	mrconso_exact	2.2.2.34	Red_Clover	COMBO:2.2.2.34	mrconso_exact:MSH:label:Red_Clover	
+COMBO:2.2.2.39	MESH:D039321	Goldenseal	0.97	mrconso_exact	2.2.2.39	Goldenseal	COMBO:2.2.2.39	mrconso_exact:MSH:label:Goldenseal	
+COMBO:2.2.2.40	MESH:D029598	Passionflower	0.97	mrconso_exact	2.2.2.40	Passionflower	COMBO:2.2.2.40	mrconso_exact:MSH:label:Passionflower	
+COMBO:2.2.2.41	MESH:C040972	saw palmetto	0.97	mrconso_exact	2.2.2.41	Saw_Palmetto	COMBO:2.2.2.41	mrconso_exact:MSH:label:Saw_Palmetto	
+COMBO:2.2.2.2	MESH:C000713447	Asian ginseng	0.95	mrconso_review_rule_botanical	2.2.2.2	Asian_Ginseng	COMBO:2.2.2.2	mrconso_review_rule_botanical:mesh_score=1.000:margin=0.500	
+COMBO:2.2.2.6	MESH:D031205	Dandelion	0.95	mrconso_review_rule_botanical	2.2.2.6	Dandelion	COMBO:2.2.2.6	mrconso_review_rule_botanical:mesh_score=1.000:margin=1.000	
+COMBO:2.2.2.7	MESH:D029789	Ephedra	0.95	mrconso_review_rule_botanical	2.2.2.7	Ephedra	COMBO:2.2.2.7	mrconso_review_rule_botanical:mesh_score=1.000:margin=1.000	
+COMBO:2.2.2.8	MESH:D020939	Ginger	0.95	mrconso_review_rule_botanical	2.2.2.8	Ginger	COMBO:2.2.2.8	mrconso_review_rule_botanical:mesh_score=1.000:margin=1.000	
+COMBO:2.2.2.9	MESH:D020441	Ginkgo	0.95	mrconso_review_rule_botanical	2.2.2.9	Ginkgo	COMBO:2.2.2.9	mrconso_review_rule_botanical:mesh_score=1.000:margin=1.000	
+COMBO:2.2.2.14	MESH:D019306	Mugwort	0.95	mrconso_review_rule_botanical	2.2.2.14	Mugwort	COMBO:2.2.2.14	mrconso_review_rule_botanical:mesh_score=1.000:margin=1.000	
+COMBO:2.2.2.20	MESH:D000504	Aloe vera	0.9	mrconso_review_rule	2.2.2.20	Aloe_Vera	COMBO:2.2.2.20	mrconso_review_rule:MSH:label:Aloe_Vera	
+COMBO:2.2.2.22	MESH:D002188	Marijuana	0.9	mrconso_review_rule	2.2.2.22	Marijuana	COMBO:2.2.2.22	mrconso_review_rule:MSH:label:Marijuana	
+COMBO:2.2.2.23	MESH:D029800	Bilberry	0.9	mrconso_review_rule	2.2.2.23	Bilberry	COMBO:2.2.2.23	mrconso_review_rule:MSH:label:Bilberry	
+COMBO:2.2.2.24	MESH:D031885	Black Cohosh	0.95	mrconso_review_rule_botanical	2.2.2.24	Black_Cohosh	COMBO:2.2.2.24	mrconso_review_rule_botanical:mesh_score=1.000:margin=1.000	
+COMBO:2.2.2.31	MESH:D005737	Garlic	0.95	mrconso_review_rule_botanical	2.2.2.31	Garlic	COMBO:2.2.2.31	mrconso_review_rule_botanical:mesh_score=1.000:margin=1.000	
+COMBO:2.2.2.42	MESH:D020901	Kava Kava	0.95	mrconso_review_rule_botanical	2.2.2.42	Kava	COMBO:2.2.2.42	mrconso_review_rule_botanical:mesh_score=1.000:margin=1.000	
+COMBO:2.2.2.43	MESH:D000068798	Hoodia	0.95	mrconso_review_rule_botanical	2.2.2.43	Hoodia	COMBO:2.2.2.43	mrconso_review_rule_botanical:mesh_score=1.000:margin=1.000	
+COMBO:2.2.2.44	MESH:D032068	Yohimbe	0.95	mrconso_review_rule_botanical	2.2.2.44	Yohimbe	COMBO:2.2.2.44	mrconso_review_rule_botanical:mesh_score=1.000:margin=1.000	
+COMBO:2.2.2.45	MESH:D032065	Kratom	0.95	mrconso_review_rule_botanical	2.2.2.45	Kratom	COMBO:2.2.2.45	mrconso_review_rule_botanical:mesh_score=1.000:margin=1.000	
+COMBO:1.2.1.5	UMLS:C0394664	Acupuncture	0.78	variant_parent_mapping	1.2.1.5	Japanese_Acupuncture	COMBO:1.2.1.5	variant_parent:narrow_to_parent:acupuncture	narrow_to_parent
+COMBO:1.2.1.7	UMLS:C0394664	Acupuncture	0.78	variant_parent_mapping	1.2.1.7	Korean_Acupuncture	COMBO:1.2.1.7	variant_parent:narrow_to_parent:acupuncture	narrow_to_parent
+COMBO:1.2.1.8	UMLS:C0394664	Acupuncture	0.78	variant_parent_mapping	1.2.1.8	Single_Point_Acupuncture	COMBO:1.2.1.8	variant_parent:narrow_to_parent:acupuncture	narrow_to_parent
+COMBO:1.2.1.9	UMLS:C0394664	Acupuncture	0.78	variant_parent_mapping	1.2.1.9	Hand_Acupuncture	COMBO:1.2.1.9	variant_parent:narrow_to_parent:acupuncture	narrow_to_parent
+COMBO:1.2.1.10	UMLS:C0394664	Acupuncture	0.78	variant_parent_mapping	1.2.1.10	Foot_Acupuncture	COMBO:1.2.1.10	variant_parent:narrow_to_parent:acupuncture	narrow_to_parent
+COMBO:1.2.1.11	UMLS:C0026652	Moxibustion	0.78	variant_parent_mapping	1.2.1.11	Acu_Moxibustion	COMBO:1.2.1.11	variant_parent:narrow_to_parent:moxibustion	narrow_to_parent
+COMBO:1.2.1.11.1	UMLS:C0026652	Moxibustion	0.78	variant_parent_mapping	1.2.1.11.1	Needle_Moxibustion	COMBO:1.2.1.11.1	variant_parent:narrow_to_parent:moxibustion	narrow_to_parent
+COMBO:1.2.1.11.1.1	UMLS:C0026652	Moxibustion	0.78	variant_parent_mapping	1.2.1.11.1.1	Warm_Needle_Moxibustion	COMBO:1.2.1.11.1.1	variant_parent:narrow_to_parent:moxibustion	narrow_to_parent
+COMBO:1.2.1.12	UMLS:C0394664	Acupuncture	0.78	variant_parent_mapping	1.2.1.12	Chinese_Acupuncture	COMBO:1.2.1.12	variant_parent:narrow_to_parent:acupuncture	narrow_to_parent
+COMBO:1.2.6.1.1	UMLS:C0006155	Breathing_Exercise	0.72	variant_parent_mapping	1.2.6.1.1	Buteyko_Breathing_Technique	COMBO:1.2.6.1.1	variant_parent:close_match:breathing exercise	close_match
+COMBO:1.2.6.2.1.1	UMLS:C0003827	Art_Therapy	0.78	variant_parent_mapping	1.2.6.2.1.1	Visual_Art_Therapy	COMBO:1.2.6.2.1.1	variant_parent:narrow_to_parent:art therapy	narrow_to_parent
+COMBO:1.2.6.2.1.1.3	UMLS:C0003827	Art_Therapy	0.78	variant_parent_mapping	1.2.6.2.1.1.3	Clay_Art_Therapy	COMBO:1.2.6.2.1.1.3	variant_parent:narrow_to_parent:art therapy	narrow_to_parent
+COMBO:1.2.6.2.1.3	UMLS:C0003827	Art_Therapy	0.78	variant_parent_mapping	1.2.6.2.1.3	Phenomenological_Art_Therapy	COMBO:1.2.6.2.1.3	variant_parent:narrow_to_parent:art therapy	narrow_to_parent
+COMBO:1.2.6.2.1.4	UMLS:C0003827	Art_Therapy	0.78	variant_parent_mapping	1.2.6.2.1.4	Mindfulness_Based_Art_Therapy	COMBO:1.2.6.2.1.4	variant_parent:narrow_to_parent:art therapy	narrow_to_parent
+COMBO:1.2.6.2.1.5	UMLS:C0003827	Art_Therapy	0.78	variant_parent_mapping	1.2.6.2.1.5	Psychodynamic_Group_Art_Therapy	COMBO:1.2.6.2.1.5	variant_parent:narrow_to_parent:art therapy	narrow_to_parent
+COMBO:1.2.6.2.1.6	UMLS:C0003827	Art_Therapy	0.78	variant_parent_mapping	1.2.6.2.1.6	Anthroposophic_Art_Therapy	COMBO:1.2.6.2.1.6	variant_parent:narrow_to_parent:art therapy	narrow_to_parent
+COMBO:1.2.6.2.3.2	UMLS:C0026868	Music_Therapy	0.78	variant_parent_mapping	1.2.6.2.3.2	Orff_Based_Music_Therapy	COMBO:1.2.6.2.3.2	variant_parent:narrow_to_parent:music therapy	narrow_to_parent
+COMBO:1.2.6.2.3.9	UMLS:C0026868	Music_Therapy	0.78	variant_parent_mapping	1.2.6.2.3.9	Active_Music_Therapy	COMBO:1.2.6.2.3.9	variant_parent:narrow_to_parent:music therapy	narrow_to_parent
+COMBO:1.2.6.2.3.9.1	UMLS:C0026868	Music_Therapy	0.78	variant_parent_mapping	1.2.6.2.3.9.1	Interactive_Music_Therapy	COMBO:1.2.6.2.3.9.1	variant_parent:narrow_to_parent:music therapy	narrow_to_parent
+COMBO:1.2.6.2.3.14	UMLS:C0026868	Music_Therapy	0.78	variant_parent_mapping	1.2.6.2.3.14	Instructional_Music_Therapy	COMBO:1.2.6.2.3.14	variant_parent:narrow_to_parent:music therapy	narrow_to_parent
+COMBO:1.2.6.2.3.15	UMLS:C0026868	Music_Therapy	0.78	variant_parent_mapping	1.2.6.2.3.15	Improvisational_Music_Therapy	COMBO:1.2.6.2.3.15	variant_parent:narrow_to_parent:music therapy	narrow_to_parent
+COMBO:1.2.6.2.3.19	UMLS:C0026868	Music_Therapy	0.78	variant_parent_mapping	1.2.6.2.3.19	Calming_Music_Therapy	COMBO:1.2.6.2.3.19	variant_parent:narrow_to_parent:music therapy	narrow_to_parent
+COMBO:1.2.6.2.3.20	UMLS:C0026868	Music_Therapy	0.78	variant_parent_mapping	1.2.6.2.3.20	Live_Music_Therapy	COMBO:1.2.6.2.3.20	variant_parent:narrow_to_parent:music therapy	narrow_to_parent
+COMBO:1.2.6.2.4.2	UMLS:C0034945	Reflexology	0.78	variant_parent_mapping	1.2.6.2.4.2	Lymphatic_Reflexology	COMBO:1.2.6.2.4.2	variant_parent:narrow_to_parent:reflexology	narrow_to_parent
+COMBO:1.2.6.2.4.3	UMLS:C0034945	Reflexology	0.78	variant_parent_mapping	1.2.6.2.4.3	Foot_Reflexology	COMBO:1.2.6.2.4.3	variant_parent:narrow_to_parent:reflexology	narrow_to_parent
+COMBO:1.2.6.2.4.4	UMLS:C0034945	Reflexology	0.78	variant_parent_mapping	1.2.6.2.4.4	Hand_Reflexology	COMBO:1.2.6.2.4.4	variant_parent:narrow_to_parent:reflexology	narrow_to_parent
+COMBO:1.2.6.3.3	UMLS:C0005491	Biofeedback	0.78	variant_parent_mapping	1.2.6.3.3	Heart_Rate_Variability_Biofeedback	COMBO:1.2.6.3.3	variant_parent:narrow_to_parent:biofeedback	narrow_to_parent
+COMBO:1.2.6.3.4	UMLS:C0005491	Biofeedback	0.78	variant_parent_mapping	1.2.6.3.4	Electromyography_Biofeedback	COMBO:1.2.6.3.4	variant_parent:narrow_to_parent:biofeedback	narrow_to_parent
+COMBO:1.2.6.3.6	UMLS:C0005491	Biofeedback	0.78	variant_parent_mapping	1.2.6.3.6	Assisted_Biofeedback	COMBO:1.2.6.3.6	variant_parent:narrow_to_parent:biofeedback	narrow_to_parent
+COMBO:1.2.12.1	UMLS:C0026652	Moxibustion	0.78	variant_parent_mapping	1.2.12.1	Acu_Moxibustion	COMBO:1.2.12.1	variant_parent:narrow_to_parent:moxibustion	narrow_to_parent
+COMBO:1.2.12.1.1	UMLS:C0026652	Moxibustion	0.78	variant_parent_mapping	1.2.12.1.1	Needle_Moxibustion	COMBO:1.2.12.1.1	variant_parent:narrow_to_parent:moxibustion	narrow_to_parent
+COMBO:1.2.12.1.1.1	UMLS:C0026652	Moxibustion	0.78	variant_parent_mapping	1.2.12.1.1.1	Warm_Needle_Moxibustion	COMBO:1.2.12.1.1.1	variant_parent:narrow_to_parent:moxibustion	narrow_to_parent
+COMBO:1.2.12.2	UMLS:C0026652	Moxibustion	0.78	variant_parent_mapping	1.2.12.2	Mild_Moxibustion	COMBO:1.2.12.2	variant_parent:narrow_to_parent:moxibustion	narrow_to_parent
+COMBO:1.2.12.2.1	UMLS:C0026652	Moxibustion	0.78	variant_parent_mapping	1.2.12.2.1	Cake_Separated_Moxibustion	COMBO:1.2.12.2.1	variant_parent:narrow_to_parent:moxibustion	narrow_to_parent
+COMBO:1.2.12.2.1.1	UMLS:C0026652	Moxibustion	0.78	variant_parent_mapping	1.2.12.2.1.1	Aconite_Cake_Separated_Moxibustion	COMBO:1.2.12.2.1.1	variant_parent:narrow_to_parent:moxibustion	narrow_to_parent
+COMBO:1.2.12.2.1.2	UMLS:C0026652	Moxibustion	0.78	variant_parent_mapping	1.2.12.2.1.2	Angelica_Cake_Moxibustion	COMBO:1.2.12.2.1.2	variant_parent:narrow_to_parent:moxibustion	narrow_to_parent
+COMBO:1.2.12.2.1.3	UMLS:C0026652	Moxibustion	0.78	variant_parent_mapping	1.2.12.2.1.3	Cake_Separated_Mild_Warm_Moxibustion	COMBO:1.2.12.2.1.3	variant_parent:narrow_to_parent:moxibustion	narrow_to_parent
+COMBO:1.2.12.2.1.3.1	UMLS:C0026652	Moxibustion	0.78	variant_parent_mapping	1.2.12.2.1.3.1	Monkshood_Cake_Separated_Mild_Warm_Moxibustion	COMBO:1.2.12.2.1.3.1	variant_parent:narrow_to_parent:moxibustion	narrow_to_parent
+COMBO:1.2.12.3	UMLS:C0026652	Moxibustion	0.78	variant_parent_mapping	1.2.12.3	Bird_Pecking_Moxibustion	COMBO:1.2.12.3	variant_parent:narrow_to_parent:moxibustion	narrow_to_parent
+COMBO:1.2.12.4	UMLS:C0026652	Moxibustion	0.78	variant_parent_mapping	1.2.12.4	Cone_Moxibustion	COMBO:1.2.12.4	variant_parent:narrow_to_parent:moxibustion	narrow_to_parent
+COMBO:1.2.12.4.1	UMLS:C0026652	Moxibustion	0.78	variant_parent_mapping	1.2.12.4.1	Direct_Cone_Moxibustion	COMBO:1.2.12.4.1	variant_parent:narrow_to_parent:moxibustion	narrow_to_parent
+COMBO:1.2.12.5	UMLS:C0026652	Moxibustion	0.78	variant_parent_mapping	1.2.12.5	Indirect_Moxibustion	COMBO:1.2.12.5	variant_parent:narrow_to_parent:moxibustion	narrow_to_parent
+COMBO:1.2.12.5.1	UMLS:C0026652	Moxibustion	0.78	variant_parent_mapping	1.2.12.5.1	Suspended_Moxibustion	COMBO:1.2.12.5.1	variant_parent:narrow_to_parent:moxibustion	narrow_to_parent
+COMBO:1.2.12.5.1.1	UMLS:C0026652	Moxibustion	0.78	variant_parent_mapping	1.2.12.5.1.1	Circling_Moxibustion	COMBO:1.2.12.5.1.1	variant_parent:narrow_to_parent:moxibustion	narrow_to_parent
+COMBO:1.2.12.5.1.2	UMLS:C0026652	Moxibustion	0.78	variant_parent_mapping	1.2.12.5.1.2	Hand_Moxibustion	COMBO:1.2.12.5.1.2	variant_parent:narrow_to_parent:moxibustion	narrow_to_parent
+COMBO:1.2.12.5.1.3	UMLS:C0026652	Moxibustion	0.78	variant_parent_mapping	1.2.12.5.1.3	Hanging_Moxibustion	COMBO:1.2.12.5.1.3	variant_parent:narrow_to_parent:moxibustion	narrow_to_parent
+COMBO:1.2.12.5.1.4	UMLS:C0026652	Moxibustion	0.78	variant_parent_mapping	1.2.12.5.1.4	Dynamic_Moxibustion	COMBO:1.2.12.5.1.4	variant_parent:narrow_to_parent:moxibustion	narrow_to_parent
+COMBO:1.2.12.5.1.5	UMLS:C0026652	Moxibustion	0.78	variant_parent_mapping	1.2.12.5.1.5	Heat_Sensitive_Moxibustion	COMBO:1.2.12.5.1.5	variant_parent:narrow_to_parent:moxibustion	narrow_to_parent
+COMBO:1.2.12.5.1.6	UMLS:C0026652	Moxibustion	0.78	variant_parent_mapping	1.2.12.5.1.6	Electric_Heating_Moxibustion	COMBO:1.2.12.5.1.6	variant_parent:narrow_to_parent:moxibustion	narrow_to_parent
+COMBO:1.2.12.5.1.7	UMLS:C0026652	Moxibustion	0.78	variant_parent_mapping	1.2.12.5.1.7	Electronic_Moxibustion	COMBO:1.2.12.5.1.7	variant_parent:narrow_to_parent:moxibustion	narrow_to_parent
+COMBO:1.2.12.5.1.8	UMLS:C0026652	Moxibustion	0.78	variant_parent_mapping	1.2.12.5.1.8	Electrothermal_Bian_Stone_Moxibustion	COMBO:1.2.12.5.1.8	variant_parent:narrow_to_parent:moxibustion	narrow_to_parent
+COMBO:1.2.12.5.1.9	UMLS:C0026652	Moxibustion	0.78	variant_parent_mapping	1.2.12.5.1.9	Laser_Moxibustion	COMBO:1.2.12.5.1.9	variant_parent:narrow_to_parent:moxibustion	narrow_to_parent
+COMBO:1.2.12.5.1.9.1	UMLS:C0026652	Moxibustion	0.78	variant_parent_mapping	1.2.12.5.1.9.1	Infrared_Laser_Moxibustion	COMBO:1.2.12.5.1.9.1	variant_parent:narrow_to_parent:moxibustion	narrow_to_parent
+COMBO:1.2.12.5.1.10	UMLS:C0026652	Moxibustion	0.78	variant_parent_mapping	1.2.12.5.1.10	Warming_Cup_Moxibustion	COMBO:1.2.12.5.1.10	variant_parent:narrow_to_parent:moxibustion	narrow_to_parent
+COMBO:1.2.12.5.1.11	UMLS:C0026652	Moxibustion	0.78	variant_parent_mapping	1.2.12.5.1.11	Warming_Moxibustion	COMBO:1.2.12.5.1.11	variant_parent:narrow_to_parent:moxibustion	narrow_to_parent
+COMBO:1.2.12.5.2	UMLS:C0026652	Moxibustion	0.78	variant_parent_mapping	1.2.12.5.2	Substance_Partitioned_Moxibustion	COMBO:1.2.12.5.2	variant_parent:narrow_to_parent:moxibustion	narrow_to_parent
+COMBO:1.2.12.5.2.1	UMLS:C0026652	Moxibustion	0.78	variant_parent_mapping	1.2.12.5.2.1	Crude_Herb_Moxibustion	COMBO:1.2.12.5.2.1	variant_parent:narrow_to_parent:moxibustion	narrow_to_parent
+COMBO:1.2.12.5.2.3	UMLS:C0026652	Moxibustion	0.78	variant_parent_mapping	1.2.12.5.2.3	Drug_Separated_Moxibustion	COMBO:1.2.12.5.2.3	variant_parent:narrow_to_parent:moxibustion	narrow_to_parent
+COMBO:1.2.12.5.2.4	UMLS:C0026652	Moxibustion	0.78	variant_parent_mapping	1.2.12.5.2.4	Du_Moxibustion	COMBO:1.2.12.5.2.4	variant_parent:narrow_to_parent:moxibustion	narrow_to_parent
+COMBO:1.2.12.5.2.5	UMLS:C0026652	Moxibustion	0.78	variant_parent_mapping	1.2.12.5.2.5	Garlic_Moxibustion	COMBO:1.2.12.5.2.5	variant_parent:narrow_to_parent:moxibustion	narrow_to_parent
+COMBO:1.2.12.5.2.6	UMLS:C0026652	Moxibustion	0.78	variant_parent_mapping	1.2.12.5.2.6	Ginger_Indirect_Moxibustion	COMBO:1.2.12.5.2.6	variant_parent:narrow_to_parent:moxibustion	narrow_to_parent
+COMBO:1.2.12.5.2.7	UMLS:C0026652	Moxibustion	0.78	variant_parent_mapping	1.2.12.5.2.7	Ginger_Partitioned_Moxibustion	COMBO:1.2.12.5.2.7	variant_parent:narrow_to_parent:moxibustion	narrow_to_parent
+COMBO:1.2.12.5.2.8	UMLS:C0026652	Moxibustion	0.78	variant_parent_mapping	1.2.12.5.2.8	Ginger_Salt_Partitioned_Moxibustion	COMBO:1.2.12.5.2.8	variant_parent:narrow_to_parent:moxibustion	narrow_to_parent
+COMBO:1.2.12.5.2.9	UMLS:C0026652	Moxibustion	0.78	variant_parent_mapping	1.2.12.5.2.9	Herb_Cake_Seperated_Moxibustion	COMBO:1.2.12.5.2.9	variant_parent:narrow_to_parent:moxibustion	narrow_to_parent
+COMBO:1.2.12.5.2.10	UMLS:C0026652	Moxibustion	0.78	variant_parent_mapping	1.2.12.5.2.10	Herb_Partitioned_Spread_Moxibustion	COMBO:1.2.12.5.2.10	variant_parent:narrow_to_parent:moxibustion	narrow_to_parent
+COMBO:1.2.12.5.2.11	UMLS:C0026652	Moxibustion	0.78	variant_parent_mapping	1.2.12.5.2.11	Herbal_Moxa_Moxibustion	COMBO:1.2.12.5.2.11	variant_parent:narrow_to_parent:moxibustion	narrow_to_parent
+COMBO:1.2.12.5.2.12	UMLS:C0026652	Moxibustion	0.78	variant_parent_mapping	1.2.12.5.2.12	Grain_Shaped_Moxibustion	COMBO:1.2.12.5.2.12	variant_parent:narrow_to_parent:moxibustion	narrow_to_parent
+COMBO:1.2.12.5.2.13	UMLS:C0026652	Moxibustion	0.78	variant_parent_mapping	1.2.12.5.2.13	Cotton_Sheet_Moxibustion	COMBO:1.2.12.5.2.13	variant_parent:narrow_to_parent:moxibustion	narrow_to_parent
+COMBO:1.2.12.5.2.14	UMLS:C0026652	Moxibustion	0.78	variant_parent_mapping	1.2.12.5.2.14	Thin_Cotton_Moxibustion	COMBO:1.2.12.5.2.14	variant_parent:narrow_to_parent:moxibustion	narrow_to_parent
+COMBO:1.2.12.5.2.15	UMLS:C0026652	Moxibustion	0.78	variant_parent_mapping	1.2.12.5.2.15	Thunder_Fire_Moxibustion	COMBO:1.2.12.5.2.15	variant_parent:narrow_to_parent:moxibustion	narrow_to_parent
+COMBO:1.2.12.5.2.16	UMLS:C0026652	Moxibustion	0.78	variant_parent_mapping	1.2.12.5.2.16	Tortoise_Shell_Moxibustion	COMBO:1.2.12.5.2.16	variant_parent:narrow_to_parent:moxibustion	narrow_to_parent
+COMBO:1.2.12.5.2.17	UMLS:C0026652	Moxibustion	0.78	variant_parent_mapping	1.2.12.5.2.17	Partition_Bran_Moxibustion	COMBO:1.2.12.5.2.17	variant_parent:narrow_to_parent:moxibustion	narrow_to_parent
+COMBO:1.2.12.5.2.18	UMLS:C0026652	Moxibustion	0.78	variant_parent_mapping	1.2.12.5.2.18	Partition_Herb_Moxibustion	COMBO:1.2.12.5.2.18	variant_parent:narrow_to_parent:moxibustion	narrow_to_parent
+COMBO:1.2.12.5.2.19	UMLS:C0026652	Moxibustion	0.78	variant_parent_mapping	1.2.12.5.2.19	Isolated_Moxibustion	COMBO:1.2.12.5.2.19	variant_parent:narrow_to_parent:moxibustion	narrow_to_parent
+COMBO:1.2.12.5.3	UMLS:C0026652	Moxibustion	0.78	variant_parent_mapping	1.2.12.5.3	Mild_Warm_Moxibustion	COMBO:1.2.12.5.3	variant_parent:narrow_to_parent:moxibustion	narrow_to_parent
+COMBO:1.2.12.5.4	UMLS:C0026652	Moxibustion	0.78	variant_parent_mapping	1.2.12.5.4	Moxa_Stick_Moxibustion	COMBO:1.2.12.5.4	variant_parent:narrow_to_parent:moxibustion	narrow_to_parent
+COMBO:1.2.12.5.5	UMLS:C0026652	Moxibustion	0.78	variant_parent_mapping	1.2.12.5.5	Governor_Moxibustion	COMBO:1.2.12.5.5	variant_parent:narrow_to_parent:moxibustion	narrow_to_parent
+COMBO:1.2.12.5.6	UMLS:C0026652	Moxibustion	0.78	variant_parent_mapping	1.2.12.5.6	Fu_Yang_Moxibustion	COMBO:1.2.12.5.6	variant_parent:narrow_to_parent:moxibustion	narrow_to_parent
+COMBO:1.2.12.6	UMLS:C0026652	Moxibustion	0.78	variant_parent_mapping	1.2.12.6	Snake_Moxibustion	COMBO:1.2.12.6	variant_parent:narrow_to_parent:moxibustion	narrow_to_parent
+COMBO:1.2.12.6.1	UMLS:C0026652	Moxibustion	0.78	variant_parent_mapping	1.2.12.6.1	Long_Snake_Moxibustion	COMBO:1.2.12.6.1	variant_parent:narrow_to_parent:moxibustion	narrow_to_parent
+COMBO:1.2.12.7	UMLS:C0026652	Moxibustion	0.78	variant_parent_mapping	1.2.12.7	Medicated_Thread_Moxibustion	COMBO:1.2.12.7	variant_parent:narrow_to_parent:moxibustion	narrow_to_parent
+COMBO:1.2.12.8	UMLS:C0026652	Moxibustion	0.78	variant_parent_mapping	1.2.12.8	Zhuang_Medicated_Thread_Moxibustion	COMBO:1.2.12.8	variant_parent:narrow_to_parent:moxibustion	narrow_to_parent
+COMBO:1.2.12.10	UMLS:C0026652	Moxibustion	0.78	variant_parent_mapping	1.2.12.10	Solar_Term_Moxibustion	COMBO:1.2.12.10	variant_parent:narrow_to_parent:moxibustion	narrow_to_parent
+COMBO:1.2.15.1.2	UMLS:C0034945	Reflexology	0.78	variant_parent_mapping	1.2.15.1.2	Lymphatic_Reflexology	COMBO:1.2.15.1.2	variant_parent:narrow_to_parent:reflexology	narrow_to_parent
+COMBO:1.2.15.1.3	UMLS:C0034945	Reflexology	0.78	variant_parent_mapping	1.2.15.1.3	Foot_Reflexology	COMBO:1.2.15.1.3	variant_parent:narrow_to_parent:reflexology	narrow_to_parent
+COMBO:1.2.15.1.4	UMLS:C0034945	Reflexology	0.78	variant_parent_mapping	1.2.15.1.4	Hand_Reflexology	COMBO:1.2.15.1.4	variant_parent:narrow_to_parent:reflexology	narrow_to_parent
+COMBO:1.2.15.1.5	UMLS:C0034945	Reflexology	0.78	variant_parent_mapping	1.2.15.1.5	Ear_Reflexology	COMBO:1.2.15.1.5	variant_parent:narrow_to_parent:reflexology	narrow_to_parent
+COMBO:1.3.1.1.1	UMLS:C0006155	Breathing_Exercise	0.72	variant_parent_mapping	1.3.1.1.1	Buteyko_Breathing_Technique	COMBO:1.3.1.1.1	variant_parent:close_match:breathing exercise	close_match
+COMBO:1.3.1.2.1.1	UMLS:C0003827	Art_Therapy	0.78	variant_parent_mapping	1.3.1.2.1.1	Visual_Art_Therapy	COMBO:1.3.1.2.1.1	variant_parent:narrow_to_parent:art therapy	narrow_to_parent
+COMBO:1.3.1.2.1.1.3	UMLS:C0003827	Art_Therapy	0.78	variant_parent_mapping	1.3.1.2.1.1.3	Clay_Art_Therapy	COMBO:1.3.1.2.1.1.3	variant_parent:narrow_to_parent:art therapy	narrow_to_parent
+COMBO:1.3.1.2.1.2	UMLS:C0003827	Art_Therapy	0.78	variant_parent_mapping	1.3.1.2.1.2	Creative_Art_Therapy	COMBO:1.3.1.2.1.2	variant_parent:narrow_to_parent:art therapy	narrow_to_parent
+COMBO:1.3.1.2.1.3	UMLS:C0003827	Art_Therapy	0.78	variant_parent_mapping	1.3.1.2.1.3	Phenomenological_Art_Therapy	COMBO:1.3.1.2.1.3	variant_parent:narrow_to_parent:art therapy	narrow_to_parent
+COMBO:1.3.1.2.1.4	UMLS:C0003827	Art_Therapy	0.78	variant_parent_mapping	1.3.1.2.1.4	Mindfulness_Based_Art_Therapy	COMBO:1.3.1.2.1.4	variant_parent:narrow_to_parent:art therapy	narrow_to_parent
+COMBO:1.3.1.2.1.5	UMLS:C0003827	Art_Therapy	0.78	variant_parent_mapping	1.3.1.2.1.5	Psychodynamic_Group_Art_Therapy	COMBO:1.3.1.2.1.5	variant_parent:narrow_to_parent:art therapy	narrow_to_parent
+COMBO:1.3.1.2.1.6	UMLS:C0003827	Art_Therapy	0.78	variant_parent_mapping	1.3.1.2.1.6	Anthroposophic_Art_Therapy	COMBO:1.3.1.2.1.6	variant_parent:narrow_to_parent:art therapy	narrow_to_parent
+COMBO:1.3.1.2.3.2	UMLS:C0026868	Music_Therapy	0.78	variant_parent_mapping	1.3.1.2.3.2	Orff_Based_Music_Therapy	COMBO:1.3.1.2.3.2	variant_parent:narrow_to_parent:music therapy	narrow_to_parent
+COMBO:1.3.1.2.3.9	UMLS:C0026868	Music_Therapy	0.78	variant_parent_mapping	1.3.1.2.3.9	Active_Music_Therapy	COMBO:1.3.1.2.3.9	variant_parent:narrow_to_parent:music therapy	narrow_to_parent
+COMBO:1.3.1.2.3.9.1	UMLS:C0026868	Music_Therapy	0.78	variant_parent_mapping	1.3.1.2.3.9.1	Interactive_Music_Therapy	COMBO:1.3.1.2.3.9.1	variant_parent:narrow_to_parent:music therapy	narrow_to_parent
+COMBO:1.3.1.2.3.14	UMLS:C0026868	Music_Therapy	0.78	variant_parent_mapping	1.3.1.2.3.14	Instructional_Music_Therapy	COMBO:1.3.1.2.3.14	variant_parent:narrow_to_parent:music therapy	narrow_to_parent
+COMBO:1.3.1.2.3.15	UMLS:C0026868	Music_Therapy	0.78	variant_parent_mapping	1.3.1.2.3.15	Improvisational_Music_Therapy	COMBO:1.3.1.2.3.15	variant_parent:narrow_to_parent:music therapy	narrow_to_parent
+COMBO:1.3.1.2.3.19	UMLS:C0026868	Music_Therapy	0.78	variant_parent_mapping	1.3.1.2.3.19	Calming_Music_Therapy	COMBO:1.3.1.2.3.19	variant_parent:narrow_to_parent:music therapy	narrow_to_parent
+COMBO:1.3.1.2.3.20	UMLS:C0026868	Music_Therapy	0.78	variant_parent_mapping	1.3.1.2.3.20	Live_Music_Therapy	COMBO:1.3.1.2.3.20	variant_parent:narrow_to_parent:music therapy	narrow_to_parent
+COMBO:1.3.1.2.4.2	UMLS:C0034945	Reflexology	0.78	variant_parent_mapping	1.3.1.2.4.2	Lymphatic_Reflexology	COMBO:1.3.1.2.4.2	variant_parent:narrow_to_parent:reflexology	narrow_to_parent
+COMBO:1.3.1.2.4.3	UMLS:C0034945	Reflexology	0.78	variant_parent_mapping	1.3.1.2.4.3	Foot_Reflexology	COMBO:1.3.1.2.4.3	variant_parent:narrow_to_parent:reflexology	narrow_to_parent
+COMBO:1.3.1.2.4.4	UMLS:C0034945	Reflexology	0.78	variant_parent_mapping	1.3.1.2.4.4	Hand_Reflexology	COMBO:1.3.1.2.4.4	variant_parent:narrow_to_parent:reflexology	narrow_to_parent
+COMBO:1.3.1.2.4.5	UMLS:C0034945	Reflexology	0.78	variant_parent_mapping	1.3.1.2.4.5	Ear_Reflexology	COMBO:1.3.1.2.4.5	variant_parent:narrow_to_parent:reflexology	narrow_to_parent
+COMBO:1.3.1.3.3	UMLS:C0005491	Biofeedback	0.78	variant_parent_mapping	1.3.1.3.3	Heart_Rate_Variability_Biofeedback	COMBO:1.3.1.3.3	variant_parent:narrow_to_parent:biofeedback	narrow_to_parent
+COMBO:1.3.1.3.4	UMLS:C0005491	Biofeedback	0.78	variant_parent_mapping	1.3.1.3.4	Electromyography_Biofeedback	COMBO:1.3.1.3.4	variant_parent:narrow_to_parent:biofeedback	narrow_to_parent
+COMBO:1.3.1.3.5	UMLS:C0005491	Biofeedback	0.78	variant_parent_mapping	1.3.1.3.5	Electroencephalogram_Biofeedback	COMBO:1.3.1.3.5	variant_parent:narrow_to_parent:biofeedback	narrow_to_parent
+COMBO:1.3.1.3.6	UMLS:C0005491	Biofeedback	0.78	variant_parent_mapping	1.3.1.3.6	Assisted_Biofeedback	COMBO:1.3.1.3.6	variant_parent:narrow_to_parent:biofeedback	narrow_to_parent
+COMBO:1.3.4.5.1.1	UMLS:C0003827	Art_Therapy	0.78	variant_parent_mapping	1.3.4.5.1.1	Visual_Art_Therapy	COMBO:1.3.4.5.1.1	variant_parent:narrow_to_parent:art therapy	narrow_to_parent
+COMBO:1.3.4.5.1.1.3	UMLS:C0003827	Art_Therapy	0.78	variant_parent_mapping	1.3.4.5.1.1.3	Clay_Art_Therapy	COMBO:1.3.4.5.1.1.3	variant_parent:narrow_to_parent:art therapy	narrow_to_parent
+COMBO:1.3.4.5.1.2	UMLS:C0003827	Art_Therapy	0.78	variant_parent_mapping	1.3.4.5.1.2	Creative_Art_Therapy	COMBO:1.3.4.5.1.2	variant_parent:narrow_to_parent:art therapy	narrow_to_parent
+COMBO:1.3.4.5.1.3	UMLS:C0003827	Art_Therapy	0.78	variant_parent_mapping	1.3.4.5.1.3	Phenomenological_Art_Therapy	COMBO:1.3.4.5.1.3	variant_parent:narrow_to_parent:art therapy	narrow_to_parent
+COMBO:1.3.4.5.1.4	UMLS:C0003827	Art_Therapy	0.78	variant_parent_mapping	1.3.4.5.1.4	Mindfulness_Based_Art_Therapy	COMBO:1.3.4.5.1.4	variant_parent:narrow_to_parent:art therapy	narrow_to_parent
+COMBO:1.3.4.5.1.5	UMLS:C0003827	Art_Therapy	0.78	variant_parent_mapping	1.3.4.5.1.5	Psychodynamic_Group_Art_Therapy	COMBO:1.3.4.5.1.5	variant_parent:narrow_to_parent:art therapy	narrow_to_parent
+COMBO:1.3.4.5.1.6	UMLS:C0003827	Art_Therapy	0.78	variant_parent_mapping	1.3.4.5.1.6	Anthroposophic_Art_Therapy	COMBO:1.3.4.5.1.6	variant_parent:narrow_to_parent:art therapy	narrow_to_parent
+COMBO:1.3.4.5.2.2	UMLS:C0026868	Music_Therapy	0.78	variant_parent_mapping	1.3.4.5.2.2	Orff_Based_Music_Therapy	COMBO:1.3.4.5.2.2	variant_parent:narrow_to_parent:music therapy	narrow_to_parent
+COMBO:1.3.4.5.2.9	UMLS:C0026868	Music_Therapy	0.78	variant_parent_mapping	1.3.4.5.2.9	Active_Music_Therapy	COMBO:1.3.4.5.2.9	variant_parent:narrow_to_parent:music therapy	narrow_to_parent
+COMBO:1.3.4.5.2.9.1	UMLS:C0026868	Music_Therapy	0.78	variant_parent_mapping	1.3.4.5.2.9.1	Interactive_Music_Therapy	COMBO:1.3.4.5.2.9.1	variant_parent:narrow_to_parent:music therapy	narrow_to_parent
+COMBO:1.3.4.5.2.14	UMLS:C0026868	Music_Therapy	0.78	variant_parent_mapping	1.3.4.5.2.14	Instructional_Music_Therapy	COMBO:1.3.4.5.2.14	variant_parent:narrow_to_parent:music therapy	narrow_to_parent
+COMBO:1.3.4.5.2.15	UMLS:C0026868	Music_Therapy	0.78	variant_parent_mapping	1.3.4.5.2.15	Improvisational_Music_Therapy	COMBO:1.3.4.5.2.15	variant_parent:narrow_to_parent:music therapy	narrow_to_parent
+COMBO:1.3.4.5.2.19	UMLS:C0026868	Music_Therapy	0.78	variant_parent_mapping	1.3.4.5.2.19	Calming_Music_Therapy	COMBO:1.3.4.5.2.19	variant_parent:narrow_to_parent:music therapy	narrow_to_parent
+COMBO:1.3.4.5.2.20	UMLS:C0026868	Music_Therapy	0.78	variant_parent_mapping	1.3.4.5.2.20	Live_Music_Therapy	COMBO:1.3.4.5.2.20	variant_parent:narrow_to_parent:music therapy	narrow_to_parent
+COMBO:1.3.7.4.2.2	UMLS:C0003827	Art_Therapy	0.78	variant_parent_mapping	1.3.7.4.2.2	Mindfulness_Based_Art_Therapy	COMBO:1.3.7.4.2.2	variant_parent:narrow_to_parent:art therapy	narrow_to_parent
+COMBO:1.1.9	UMLS:C1882127	Nutritional Intervention	0.74	cam_lexicon_mapping	1.1.9	Mindful_Eating	COMBO:1.1.9	cam_lexicon:mindful eating:nutritional intervention:close_match	close_match
+COMBO:1.2.3.3	UMLS:C0752217	Auricular_Acupuncture	0.8	cam_lexicon_mapping	1.2.3.3	Cryo_Auriculotherapy	COMBO:1.2.3.3	cam_lexicon:cryo auriculotherapy:auricular acupuncture:narrow_to_parent	narrow_to_parent
+COMBO:1.2.4.1	UMLS:C0394664	Acupuncture	0.8	cam_lexicon_mapping	1.2.4.1	Transcutaneous_Electrical_Acustimulation	COMBO:1.2.4.1	cam_lexicon:transcutaneous electrical acustimulation:acupuncture:narrow_to_parent	narrow_to_parent
+COMBO:1.2.4.2	UMLS:C0394664	Acupuncture	0.8	cam_lexicon_mapping	1.2.4.2	Acupoint_Stimulation	COMBO:1.2.4.2	cam_lexicon:acupoint stimulation:acupuncture:narrow_to_parent	narrow_to_parent
+COMBO:1.2.6.2.1.2.1	UMLS:C0003827	Art_Therapy	0.74	cam_lexicon_mapping	1.2.6.2.1.2.1	Creative_Expression	COMBO:1.2.6.2.1.2.1	cam_lexicon:creative expression:art therapy:close_match	close_match
+COMBO:1.2.6.2.1.2.2	UMLS:C0003827	Art_Therapy	0.74	cam_lexicon_mapping	1.2.6.2.1.2.2	Artistic_Therapy_Painting	COMBO:1.2.6.2.1.2.2	cam_lexicon:artistic therapy painting:art therapy:close_match	close_match
+COMBO:1.2.6.2.3.3	UMLS:C0026868	Music_Therapy	0.74	cam_lexicon_mapping	1.2.6.2.3.3	Lyric_Analysis	COMBO:1.2.6.2.3.3	cam_lexicon:lyric analysis:music therapy:close_match	close_match
+COMBO:1.2.6.2.3.4	UMLS:C0026868	Music_Therapy	0.74	cam_lexicon_mapping	1.2.6.2.3.4	Medical_Resonance_Therapy_Music	COMBO:1.2.6.2.3.4	cam_lexicon:medical resonance therapy music:music therapy:close_match	close_match
+COMBO:1.2.6.2.3.5	UMLS:C0026868	Music_Therapy	0.74	cam_lexicon_mapping	1.2.6.2.3.5	Musical_Motor_Feedback	COMBO:1.2.6.2.3.5	cam_lexicon:musical motor feedback:music therapy:close_match	close_match
+COMBO:1.2.6.2.3.6	UMLS:C0026868	Music_Therapy	0.74	cam_lexicon_mapping	1.2.6.2.3.6	Evocative_Music	COMBO:1.2.6.2.3.6	cam_lexicon:evocative music:music therapy:close_match	close_match
+COMBO:1.2.6.2.3.8	UMLS:C0026868	Music_Therapy	0.74	cam_lexicon_mapping	1.2.6.2.3.8	Dinner_Music_Intervention	COMBO:1.2.6.2.3.8	cam_lexicon:dinner music intervention:music therapy:close_match	close_match
+COMBO:1.2.6.2.3.10	UMLS:C0026868	Music_Therapy	0.74	cam_lexicon_mapping	1.2.6.2.3.10	Music_Based_Imagery	COMBO:1.2.6.2.3.10	cam_lexicon:music based imagery:music therapy:close_match	close_match
+COMBO:1.2.6.2.3.11	UMLS:C0026868	Music_Therapy	0.74	cam_lexicon_mapping	1.2.6.2.3.11	Individualized_Music_Focused_Auditory_Therapy	COMBO:1.2.6.2.3.11	cam_lexicon:individualized music focused auditory therapy:music therapy:close_match	close_match
+COMBO:1.2.6.2.3.12	UMLS:C0026868	Music_Therapy	0.74	cam_lexicon_mapping	1.2.6.2.3.12	Lullaby_Therapy	COMBO:1.2.6.2.3.12	cam_lexicon:lullaby therapy:music therapy:close_match	close_match
+COMBO:1.2.6.2.3.13	UMLS:C0026868	Music_Therapy	0.74	cam_lexicon_mapping	1.2.6.2.3.13	Music_Reinforced_Therapy	COMBO:1.2.6.2.3.13	cam_lexicon:music reinforced therapy:music therapy:close_match	close_match
+COMBO:1.2.6.2.3.16	UMLS:C0026868	Music_Therapy	0.74	cam_lexicon_mapping	1.2.6.2.3.16	Group_Chanting_and_Singing	COMBO:1.2.6.2.3.16	cam_lexicon:group chanting and singing:music therapy:close_match	close_match
+COMBO:1.2.6.2.3.17	UMLS:C0026868	Music_Therapy	0.74	cam_lexicon_mapping	1.2.6.2.3.17	Music_Listening_Intervention	COMBO:1.2.6.2.3.17	cam_lexicon:music listening intervention:music therapy:close_match	close_match
+COMBO:1.2.6.2.3.18	UMLS:C0026868	Music_Therapy	0.74	cam_lexicon_mapping	1.2.6.2.3.18	Musicokinetic_Therapy	COMBO:1.2.6.2.3.18	cam_lexicon:musicokinetic therapy:music therapy:close_match	close_match
+COMBO:1.2.6.2.3.21	UMLS:C0026868	Music_Therapy	0.74	cam_lexicon_mapping	1.2.6.2.3.21	Group_Drumming	COMBO:1.2.6.2.3.21	cam_lexicon:group drumming:music therapy:close_match	close_match
+COMBO:1.2.6.2.3.22	UMLS:C0026868	Music_Therapy	0.74	cam_lexicon_mapping	1.2.6.2.3.22	Contingent_Music	COMBO:1.2.6.2.3.22	cam_lexicon:contingent music:music therapy:close_match	close_match
+COMBO:1.2.6.2.3.23	UMLS:C0026868	Music_Therapy	0.74	cam_lexicon_mapping	1.2.6.2.3.23	Music_Video_Therapy	COMBO:1.2.6.2.3.23	cam_lexicon:music video therapy:music therapy:close_match	close_match
+COMBO:1.2.6.2.3.24	UMLS:C0026868	Music_Therapy	0.74	cam_lexicon_mapping	1.2.6.2.3.24	Music_Exposure_Therapy	COMBO:1.2.6.2.3.24	cam_lexicon:music exposure therapy:music therapy:close_match	close_match
+COMBO:1.2.6.2.3.25	UMLS:C0026868	Music_Therapy	0.74	cam_lexicon_mapping	1.2.6.2.3.25	Music_Assisted_Reframing	COMBO:1.2.6.2.3.25	cam_lexicon:music assisted reframing:music therapy:close_match	close_match
+COMBO:1.2.6.2.3.26	UMLS:C0026868	Music_Therapy	0.74	cam_lexicon_mapping	1.2.6.2.3.26	Karaoke_Therapy	COMBO:1.2.6.2.3.26	cam_lexicon:karaoke therapy:music therapy:close_match	close_match
+COMBO:1.2.6.2.5.2	UMLS:C0035029	Relaxation_Technique	0.74	cam_lexicon_mapping	1.2.6.2.5.2	Music_Assisted_Progressive_Muscle_Relaxation	COMBO:1.2.6.2.5.2	cam_lexicon:music assisted progressive muscle relaxation:relaxation technique:close_match	close_match
+COMBO:1.2.6.2.6	UMLS:C0035029	Relaxation_Technique	0.74	cam_lexicon_mapping	1.2.6.2.6	Applied_Relaxation	COMBO:1.2.6.2.6	cam_lexicon:applied relaxation:relaxation technique:close_match	close_match
+COMBO:1.2.6.3.3.1	UMLS:C0005491	Biofeedback	0.74	cam_lexicon_mapping	1.2.6.3.3.1	Heart_Coherence	COMBO:1.2.6.3.3.1	cam_lexicon:heart coherence:biofeedback:close_match	close_match
+COMBO:1.3.1.2.1.2.1	UMLS:C0003827	Art_Therapy	0.74	cam_lexicon_mapping	1.3.1.2.1.2.1	Creative_Expression	COMBO:1.3.1.2.1.2.1	cam_lexicon:creative expression:art therapy:close_match	close_match
+COMBO:1.3.1.2.1.2.2	UMLS:C0003827	Art_Therapy	0.74	cam_lexicon_mapping	1.3.1.2.1.2.2	Artistic_Therapy_Painting	COMBO:1.3.1.2.1.2.2	cam_lexicon:artistic therapy painting:art therapy:close_match	close_match
+COMBO:1.3.1.2.3.3	UMLS:C0026868	Music_Therapy	0.74	cam_lexicon_mapping	1.3.1.2.3.3	Lyric_Analysis	COMBO:1.3.1.2.3.3	cam_lexicon:lyric analysis:music therapy:close_match	close_match
+COMBO:1.3.1.2.3.4	UMLS:C0026868	Music_Therapy	0.74	cam_lexicon_mapping	1.3.1.2.3.4	Medical_Resonance_Therapy_Music	COMBO:1.3.1.2.3.4	cam_lexicon:medical resonance therapy music:music therapy:close_match	close_match
+COMBO:1.3.1.2.3.5	UMLS:C0026868	Music_Therapy	0.74	cam_lexicon_mapping	1.3.1.2.3.5	Musical_Motor_Feedback	COMBO:1.3.1.2.3.5	cam_lexicon:musical motor feedback:music therapy:close_match	close_match
+COMBO:1.3.1.2.3.6	UMLS:C0026868	Music_Therapy	0.74	cam_lexicon_mapping	1.3.1.2.3.6	Evocative_Music	COMBO:1.3.1.2.3.6	cam_lexicon:evocative music:music therapy:close_match	close_match
+COMBO:1.3.1.2.3.8	UMLS:C0026868	Music_Therapy	0.74	cam_lexicon_mapping	1.3.1.2.3.8	Dinner_Music_Intervention	COMBO:1.3.1.2.3.8	cam_lexicon:dinner music intervention:music therapy:close_match	close_match
+COMBO:1.3.1.2.3.10	UMLS:C0026868	Music_Therapy	0.74	cam_lexicon_mapping	1.3.1.2.3.10	Music_Based_Imagery	COMBO:1.3.1.2.3.10	cam_lexicon:music based imagery:music therapy:close_match	close_match
+COMBO:1.3.1.2.3.11	UMLS:C0026868	Music_Therapy	0.74	cam_lexicon_mapping	1.3.1.2.3.11	Individualized_Music_Focused_Auditory_Therapy	COMBO:1.3.1.2.3.11	cam_lexicon:individualized music focused auditory therapy:music therapy:close_match	close_match
+COMBO:1.3.1.2.3.12	UMLS:C0026868	Music_Therapy	0.74	cam_lexicon_mapping	1.3.1.2.3.12	Lullaby_Therapy	COMBO:1.3.1.2.3.12	cam_lexicon:lullaby therapy:music therapy:close_match	close_match
+COMBO:1.3.1.2.3.13	UMLS:C0026868	Music_Therapy	0.74	cam_lexicon_mapping	1.3.1.2.3.13	Music_Reinforced_Therapy	COMBO:1.3.1.2.3.13	cam_lexicon:music reinforced therapy:music therapy:close_match	close_match
+COMBO:1.3.1.2.3.16	UMLS:C0026868	Music_Therapy	0.74	cam_lexicon_mapping	1.3.1.2.3.16	Group_Chanting_and_Singing	COMBO:1.3.1.2.3.16	cam_lexicon:group chanting and singing:music therapy:close_match	close_match
+COMBO:1.3.1.2.3.17	UMLS:C0026868	Music_Therapy	0.74	cam_lexicon_mapping	1.3.1.2.3.17	Music_Listening_Intervention	COMBO:1.3.1.2.3.17	cam_lexicon:music listening intervention:music therapy:close_match	close_match
+COMBO:1.3.1.2.3.18	UMLS:C0026868	Music_Therapy	0.74	cam_lexicon_mapping	1.3.1.2.3.18	Musicokinetic_Therapy	COMBO:1.3.1.2.3.18	cam_lexicon:musicokinetic therapy:music therapy:close_match	close_match
+COMBO:1.3.1.2.3.21	UMLS:C0026868	Music_Therapy	0.74	cam_lexicon_mapping	1.3.1.2.3.21	Group_Drumming	COMBO:1.3.1.2.3.21	cam_lexicon:group drumming:music therapy:close_match	close_match
+COMBO:1.3.1.2.3.22	UMLS:C0026868	Music_Therapy	0.74	cam_lexicon_mapping	1.3.1.2.3.22	Contingent_Music	COMBO:1.3.1.2.3.22	cam_lexicon:contingent music:music therapy:close_match	close_match
+COMBO:1.3.1.2.3.23	UMLS:C0026868	Music_Therapy	0.74	cam_lexicon_mapping	1.3.1.2.3.23	Music_Video_Therapy	COMBO:1.3.1.2.3.23	cam_lexicon:music video therapy:music therapy:close_match	close_match
+COMBO:1.3.1.2.3.24	UMLS:C0026868	Music_Therapy	0.74	cam_lexicon_mapping	1.3.1.2.3.24	Music_Exposure_Therapy	COMBO:1.3.1.2.3.24	cam_lexicon:music exposure therapy:music therapy:close_match	close_match
+COMBO:1.3.1.2.3.25	UMLS:C0026868	Music_Therapy	0.74	cam_lexicon_mapping	1.3.1.2.3.25	Music_Assisted_Reframing	COMBO:1.3.1.2.3.25	cam_lexicon:music assisted reframing:music therapy:close_match	close_match
+COMBO:1.3.1.2.3.26	UMLS:C0026868	Music_Therapy	0.74	cam_lexicon_mapping	1.3.1.2.3.26	Karaoke_Therapy	COMBO:1.3.1.2.3.26	cam_lexicon:karaoke therapy:music therapy:close_match	close_match
+COMBO:1.3.1.2.5.2	UMLS:C0035029	Relaxation_Technique	0.74	cam_lexicon_mapping	1.3.1.2.5.2	Music_Assisted_Progressive_Muscle_Relaxation	COMBO:1.3.1.2.5.2	cam_lexicon:music assisted progressive muscle relaxation:relaxation technique:close_match	close_match
+COMBO:1.3.1.2.6	UMLS:C0035029	Relaxation_Technique	0.74	cam_lexicon_mapping	1.3.1.2.6	Applied_Relaxation	COMBO:1.3.1.2.6	cam_lexicon:applied relaxation:relaxation technique:close_match	close_match
+COMBO:1.3.1.3.3.1	UMLS:C0005491	Biofeedback	0.74	cam_lexicon_mapping	1.3.1.3.3.1	Heart_Coherence	COMBO:1.3.1.3.3.1	cam_lexicon:heart coherence:biofeedback:close_match	close_match
+COMBO:1.3.4.5.1.2.1	UMLS:C0003827	Art_Therapy	0.74	cam_lexicon_mapping	1.3.4.5.1.2.1	Creative_Expression	COMBO:1.3.4.5.1.2.1	cam_lexicon:creative expression:art therapy:close_match	close_match
+COMBO:1.3.4.5.1.2.2	UMLS:C0003827	Art_Therapy	0.74	cam_lexicon_mapping	1.3.4.5.1.2.2	Artistic_Therapy_Painting	COMBO:1.3.4.5.1.2.2	cam_lexicon:artistic therapy painting:art therapy:close_match	close_match
+COMBO:1.3.4.5.2.3	UMLS:C0026868	Music_Therapy	0.74	cam_lexicon_mapping	1.3.4.5.2.3	Lyric_Analysis	COMBO:1.3.4.5.2.3	cam_lexicon:lyric analysis:music therapy:close_match	close_match
+COMBO:1.3.4.5.2.4	UMLS:C0026868	Music_Therapy	0.74	cam_lexicon_mapping	1.3.4.5.2.4	Medical_Resonance_Therapy_Music	COMBO:1.3.4.5.2.4	cam_lexicon:medical resonance therapy music:music therapy:close_match	close_match
+COMBO:1.3.4.5.2.5	UMLS:C0026868	Music_Therapy	0.74	cam_lexicon_mapping	1.3.4.5.2.5	Musical_Motor_Feedback	COMBO:1.3.4.5.2.5	cam_lexicon:musical motor feedback:music therapy:close_match	close_match
+COMBO:1.3.4.5.2.6	UMLS:C0026868	Music_Therapy	0.74	cam_lexicon_mapping	1.3.4.5.2.6	Evocative_Music	COMBO:1.3.4.5.2.6	cam_lexicon:evocative music:music therapy:close_match	close_match
+COMBO:1.3.4.5.2.8	UMLS:C0026868	Music_Therapy	0.74	cam_lexicon_mapping	1.3.4.5.2.8	Dinner_Music_Intervention	COMBO:1.3.4.5.2.8	cam_lexicon:dinner music intervention:music therapy:close_match	close_match
+COMBO:1.3.4.5.2.10	UMLS:C0026868	Music_Therapy	0.74	cam_lexicon_mapping	1.3.4.5.2.10	Music_Based_Imagery	COMBO:1.3.4.5.2.10	cam_lexicon:music based imagery:music therapy:close_match	close_match
+COMBO:1.3.4.5.2.11	UMLS:C0026868	Music_Therapy	0.74	cam_lexicon_mapping	1.3.4.5.2.11	Individualized_Music_Focused_Auditory_Therapy	COMBO:1.3.4.5.2.11	cam_lexicon:individualized music focused auditory therapy:music therapy:close_match	close_match
+COMBO:1.3.4.5.2.12	UMLS:C0026868	Music_Therapy	0.74	cam_lexicon_mapping	1.3.4.5.2.12	Lullaby_Therapy	COMBO:1.3.4.5.2.12	cam_lexicon:lullaby therapy:music therapy:close_match	close_match
+COMBO:1.3.4.5.2.13	UMLS:C0026868	Music_Therapy	0.74	cam_lexicon_mapping	1.3.4.5.2.13	Music_Reinforced_Therapy	COMBO:1.3.4.5.2.13	cam_lexicon:music reinforced therapy:music therapy:close_match	close_match
+COMBO:1.3.4.5.2.16	UMLS:C0026868	Music_Therapy	0.74	cam_lexicon_mapping	1.3.4.5.2.16	Group_Chanting_and_Singing	COMBO:1.3.4.5.2.16	cam_lexicon:group chanting and singing:music therapy:close_match	close_match
+COMBO:1.3.4.5.2.17	UMLS:C0026868	Music_Therapy	0.74	cam_lexicon_mapping	1.3.4.5.2.17	Music_Listening_Intervention	COMBO:1.3.4.5.2.17	cam_lexicon:music listening intervention:music therapy:close_match	close_match
+COMBO:1.3.4.5.2.18	UMLS:C0026868	Music_Therapy	0.74	cam_lexicon_mapping	1.3.4.5.2.18	Musicokinetic_Therapy	COMBO:1.3.4.5.2.18	cam_lexicon:musicokinetic therapy:music therapy:close_match	close_match
+COMBO:1.3.4.5.2.21	UMLS:C0026868	Music_Therapy	0.74	cam_lexicon_mapping	1.3.4.5.2.21	Group_Drumming	COMBO:1.3.4.5.2.21	cam_lexicon:group drumming:music therapy:close_match	close_match
+COMBO:1.3.4.5.2.22	UMLS:C0026868	Music_Therapy	0.74	cam_lexicon_mapping	1.3.4.5.2.22	Contingent_Music	COMBO:1.3.4.5.2.22	cam_lexicon:contingent music:music therapy:close_match	close_match
+COMBO:1.3.4.5.2.23	UMLS:C0026868	Music_Therapy	0.74	cam_lexicon_mapping	1.3.4.5.2.23	Music_Video_Therapy	COMBO:1.3.4.5.2.23	cam_lexicon:music video therapy:music therapy:close_match	close_match
+COMBO:1.3.4.5.2.24	UMLS:C0026868	Music_Therapy	0.74	cam_lexicon_mapping	1.3.4.5.2.24	Music_Exposure_Therapy	COMBO:1.3.4.5.2.24	cam_lexicon:music exposure therapy:music therapy:close_match	close_match
+COMBO:1.3.4.5.2.25	UMLS:C0026868	Music_Therapy	0.74	cam_lexicon_mapping	1.3.4.5.2.25	Music_Assisted_Reframing	COMBO:1.3.4.5.2.25	cam_lexicon:music assisted reframing:music therapy:close_match	close_match
+COMBO:1.3.4.5.2.26	UMLS:C0026868	Music_Therapy	0.74	cam_lexicon_mapping	1.3.4.5.2.26	Karaoke_Therapy	COMBO:1.3.4.5.2.26	cam_lexicon:karaoke therapy:music therapy:close_match	close_match
+COMBO:1.3.7.4.2.1	UMLS:C1882127	Nutritional Intervention	0.74	cam_lexicon_mapping	1.3.7.4.2.1	Mindful_Eating	COMBO:1.3.7.4.2.1	cam_lexicon:mindful eating:nutritional intervention:close_match	close_match
+COMBO:1.2.12.7.1	UMLS:C0026652	Moxibustion	0.7	modifier_stripping_mapping	1.2.12.7.1	Medicated_Threads_Moxibustion_of_Zhuang_Nationality	COMBO:1.2.12.7.1	modifier_stripping:moxibustion	close_match
+COMBO:1.3.13.2	UMLS:C2981153	Focusing	0.7	modifier_stripping_mapping	1.3.13.2	Interactive_Focusing_Therapy	COMBO:1.3.13.2	modifier_stripping:focusing therapy	close_match
+COMBO:1.1.1	UMLS:C1882127	Nutritional Intervention	0.72	hierarchy_backoff_mapping	1.1.1	Complementary_Dietary_Therapy	COMBO:1.1.1	hierarchy_backoff:ancestor=1.1:distance=1	narrow_to_parent
+COMBO:1.1.1.6	UMLS:C1882127	Nutritional Intervention	0.66	hierarchy_backoff_mapping	1.1.1.6	Detox_Diet	COMBO:1.1.1.6	hierarchy_backoff:ancestor=1.1:distance=2	narrow_to_parent
+COMBO:1.1.1.8	UMLS:C1882127	Nutritional Intervention	0.66	hierarchy_backoff_mapping	1.1.1.8	Raw_Food_Diet	COMBO:1.1.1.8	hierarchy_backoff:ancestor=1.1:distance=2	narrow_to_parent
+COMBO:1.1.7	UMLS:C1882127	Nutritional Intervention	0.72	hierarchy_backoff_mapping	1.1.7	Microbiome_Metabolite_Therapy	COMBO:1.1.7	hierarchy_backoff:ancestor=1.1:distance=1	narrow_to_parent
+COMBO:1.1.8	UMLS:C1882127	Nutritional Intervention	0.72	hierarchy_backoff_mapping	1.1.8	Food_Metabolite_Based_Therapy	COMBO:1.1.8	hierarchy_backoff:ancestor=1.1:distance=1	narrow_to_parent
+COMBO:1.1.14	UMLS:C1882127	Nutritional Intervention	0.72	hierarchy_backoff_mapping	1.1.14	Practitioner_Guided_Detoxification	COMBO:1.1.14	hierarchy_backoff:ancestor=1.1:distance=1	narrow_to_parent
+COMBO:1.2.6.2.1.1.2	UMLS:C0003827	Art_Therapy	0.72	hierarchy_backoff_mapping	1.2.6.2.1.1.2	Chinese_Calligraphy_Therapy	COMBO:1.2.6.2.1.1.2	hierarchy_backoff:ancestor=1.2.6.2.1.1:distance=1	narrow_to_parent
+COMBO:1.2.6.2.1.1.4	UMLS:C0003827	Art_Therapy	0.72	hierarchy_backoff_mapping	1.2.6.2.1.1.4	Mandala_Therapy	COMBO:1.2.6.2.1.1.4	hierarchy_backoff:ancestor=1.2.6.2.1.1:distance=1	narrow_to_parent
+COMBO:1.2.6.2.3.1	UMLS:C0026868	Music_Therapy	0.72	hierarchy_backoff_mapping	1.2.6.2.3.1	Musical_Game	COMBO:1.2.6.2.3.1	hierarchy_backoff:ancestor=1.2.6.2.3:distance=1	narrow_to_parent
+COMBO:1.2.6.2.5.1	UMLS:C0454043	Progressive_Muscle_Relaxation	0.72	hierarchy_backoff_mapping	1.2.6.2.5.1	Abbreviated_Muscle_Relaxation_Therapy	COMBO:1.2.6.2.5.1	hierarchy_backoff:ancestor=1.2.6.2.5:distance=1	narrow_to_parent
+COMBO:1.2.6.4.1	UMLS:C4082302	Exercise_Therapy	0.72	hierarchy_backoff_mapping	1.2.6.4.1	Meditative_Movement	COMBO:1.2.6.4.1	hierarchy_backoff:ancestor=1.2.6.4:distance=1	narrow_to_parent
+COMBO:1.2.6.4.1.3.2	UMLS:C1883583	Yoga_Therapy	0.72	hierarchy_backoff_mapping	1.2.6.4.1.3.2	Kundalini_Yoga	COMBO:1.2.6.4.1.3.2	hierarchy_backoff:ancestor=1.2.6.4.1.3:distance=1	narrow_to_parent
+COMBO:1.2.6.4.1.3.4	UMLS:C1883583	Yoga_Therapy	0.72	hierarchy_backoff_mapping	1.2.6.4.1.3.4	Circular_Yoga	COMBO:1.2.6.4.1.3.4	hierarchy_backoff:ancestor=1.2.6.4.1.3:distance=1	narrow_to_parent
+COMBO:1.2.6.4.1.3.5	UMLS:C1883583	Yoga_Therapy	0.72	hierarchy_backoff_mapping	1.2.6.4.1.3.5	Face_Yoga	COMBO:1.2.6.4.1.3.5	hierarchy_backoff:ancestor=1.2.6.4.1.3:distance=1	narrow_to_parent
+COMBO:1.2.6.4.1.3.6	UMLS:C1883583	Yoga_Therapy	0.72	hierarchy_backoff_mapping	1.2.6.4.1.3.6	Pranayama_Yoga	COMBO:1.2.6.4.1.3.6	hierarchy_backoff:ancestor=1.2.6.4.1.3:distance=1	narrow_to_parent
+COMBO:1.2.6.4.1.3.7	UMLS:C1883583	Yoga_Therapy	0.72	hierarchy_backoff_mapping	1.2.6.4.1.3.7	Sudarshana_Kriya_Yoga	COMBO:1.2.6.4.1.3.7	hierarchy_backoff:ancestor=1.2.6.4.1.3:distance=1	narrow_to_parent
+COMBO:1.2.6.4.1.3.8	UMLS:C1883583	Yoga_Therapy	0.72	hierarchy_backoff_mapping	1.2.6.4.1.3.8	Kripalu_Yoga	COMBO:1.2.6.4.1.3.8	hierarchy_backoff:ancestor=1.2.6.4.1.3:distance=1	narrow_to_parent
+COMBO:1.2.6.4.1.3.9	UMLS:C1883583	Yoga_Therapy	0.72	hierarchy_backoff_mapping	1.2.6.4.1.3.9	Hot_Yoga	COMBO:1.2.6.4.1.3.9	hierarchy_backoff:ancestor=1.2.6.4.1.3:distance=1	narrow_to_parent
+COMBO:1.2.6.4.1.3.9.1	UMLS:C1883583	Yoga_Therapy	0.66	hierarchy_backoff_mapping	1.2.6.4.1.3.9.1	Bikram_Yoga	COMBO:1.2.6.4.1.3.9.1	hierarchy_backoff:ancestor=1.2.6.4.1.3:distance=2	narrow_to_parent
+COMBO:1.2.6.4.1.3.10	UMLS:C1883583	Yoga_Therapy	0.72	hierarchy_backoff_mapping	1.2.6.4.1.3.10	Ashtanga_Yoga	COMBO:1.2.6.4.1.3.10	hierarchy_backoff:ancestor=1.2.6.4.1.3:distance=1	narrow_to_parent
+COMBO:1.2.6.4.1.3.11	UMLS:C1883583	Yoga_Therapy	0.72	hierarchy_backoff_mapping	1.2.6.4.1.3.11	Tibetan_Yoga	COMBO:1.2.6.4.1.3.11	hierarchy_backoff:ancestor=1.2.6.4.1.3:distance=1	narrow_to_parent
+COMBO:1.2.6.4.1.3.12	UMLS:C1883583	Yoga_Therapy	0.72	hierarchy_backoff_mapping	1.2.6.4.1.3.12	Chair_Yoga	COMBO:1.2.6.4.1.3.12	hierarchy_backoff:ancestor=1.2.6.4.1.3:distance=1	narrow_to_parent
+COMBO:1.2.6.4.1.3.13	UMLS:C1883583	Yoga_Therapy	0.72	hierarchy_backoff_mapping	1.2.6.4.1.3.13	Sivananda_Yoga	COMBO:1.2.6.4.1.3.13	hierarchy_backoff:ancestor=1.2.6.4.1.3:distance=1	narrow_to_parent
+COMBO:1.2.6.4.1.3.14	UMLS:C1883583	Yoga_Therapy	0.72	hierarchy_backoff_mapping	1.2.6.4.1.3.14	Bhakti_Yoga	COMBO:1.2.6.4.1.3.14	hierarchy_backoff:ancestor=1.2.6.4.1.3:distance=1	narrow_to_parent
+COMBO:1.2.6.4.1.3.15	UMLS:C1883583	Yoga_Therapy	0.72	hierarchy_backoff_mapping	1.2.6.4.1.3.15	Tantra_Yoga	COMBO:1.2.6.4.1.3.15	hierarchy_backoff:ancestor=1.2.6.4.1.3:distance=1	narrow_to_parent
+COMBO:1.2.6.4.1.3.16	UMLS:C1883583	Yoga_Therapy	0.72	hierarchy_backoff_mapping	1.2.6.4.1.3.16	Vinyasa_Yoga	COMBO:1.2.6.4.1.3.16	hierarchy_backoff:ancestor=1.2.6.4.1.3:distance=1	narrow_to_parent
+COMBO:1.2.6.4.1.3.17	UMLS:C1883583	Yoga_Therapy	0.72	hierarchy_backoff_mapping	1.2.6.4.1.3.17	Creative_Yoga	COMBO:1.2.6.4.1.3.17	hierarchy_backoff:ancestor=1.2.6.4.1.3:distance=1	narrow_to_parent
+COMBO:1.2.6.4.1.3.18	UMLS:C1883583	Yoga_Therapy	0.72	hierarchy_backoff_mapping	1.2.6.4.1.3.18	Relaxing_Yoga	COMBO:1.2.6.4.1.3.18	hierarchy_backoff:ancestor=1.2.6.4.1.3:distance=1	narrow_to_parent
+COMBO:1.2.6.4.1.3.19	UMLS:C1883583	Yoga_Therapy	0.72	hierarchy_backoff_mapping	1.2.6.4.1.3.19	Power_Yoga	COMBO:1.2.6.4.1.3.19	hierarchy_backoff:ancestor=1.2.6.4.1.3:distance=1	narrow_to_parent
+COMBO:1.2.6.4.1.3.20	UMLS:C1883583	Yoga_Therapy	0.72	hierarchy_backoff_mapping	1.2.6.4.1.3.20	Iyengar_Yoga	COMBO:1.2.6.4.1.3.20	hierarchy_backoff:ancestor=1.2.6.4.1.3:distance=1	narrow_to_parent
+COMBO:1.2.6.4.1.3.21	UMLS:C1883583	Yoga_Therapy	0.72	hierarchy_backoff_mapping	1.2.6.4.1.3.21	Karma_Yoga	COMBO:1.2.6.4.1.3.21	hierarchy_backoff:ancestor=1.2.6.4.1.3:distance=1	narrow_to_parent
+COMBO:1.2.6.4.1.3.22	UMLS:C1883583	Yoga_Therapy	0.72	hierarchy_backoff_mapping	1.2.6.4.1.3.22	Jinana_Yoga	COMBO:1.2.6.4.1.3.22	hierarchy_backoff:ancestor=1.2.6.4.1.3:distance=1	narrow_to_parent
+COMBO:1.2.6.4.1.3.23	UMLS:C1883583	Yoga_Therapy	0.72	hierarchy_backoff_mapping	1.2.6.4.1.3.23	Sahaj_Yoga	COMBO:1.2.6.4.1.3.23	hierarchy_backoff:ancestor=1.2.6.4.1.3:distance=1	narrow_to_parent
+COMBO:1.2.6.4.1.3.24	UMLS:C1883583	Yoga_Therapy	0.72	hierarchy_backoff_mapping	1.2.6.4.1.3.24	Hatha_Yoga	COMBO:1.2.6.4.1.3.24	hierarchy_backoff:ancestor=1.2.6.4.1.3:distance=1	narrow_to_parent
+COMBO:1.2.6.4.1.3.25	UMLS:C1883583	Yoga_Therapy	0.72	hierarchy_backoff_mapping	1.2.6.4.1.3.25	Yoga_Nidra	COMBO:1.2.6.4.1.3.25	hierarchy_backoff:ancestor=1.2.6.4.1.3:distance=1	narrow_to_parent
+COMBO:1.2.6.4.1.4.1	UMLS:C0282077	Qigong_Therapy	0.72	hierarchy_backoff_mapping	1.2.6.4.1.4.1	Hua_Gong	COMBO:1.2.6.4.1.4.1	hierarchy_backoff:ancestor=1.2.6.4.1.4:distance=1	narrow_to_parent
+COMBO:1.2.6.4.1.4.2	UMLS:C0282077	Qigong_Therapy	0.72	hierarchy_backoff_mapping	1.2.6.4.1.4.2	Medical_Qigong	COMBO:1.2.6.4.1.4.2	hierarchy_backoff:ancestor=1.2.6.4.1.4:distance=1	narrow_to_parent
+COMBO:1.2.6.4.1.4.2.2	UMLS:C0282077	Qigong_Therapy	0.66	hierarchy_backoff_mapping	1.2.6.4.1.4.2.2	Dongeui_Qigong	COMBO:1.2.6.4.1.4.2.2	hierarchy_backoff:ancestor=1.2.6.4.1.4:distance=2	narrow_to_parent
+COMBO:1.2.6.4.1.4.2.3	UMLS:C0282077	Qigong_Therapy	0.66	hierarchy_backoff_mapping	1.2.6.4.1.4.2.3	Guolin_Qigong	COMBO:1.2.6.4.1.4.2.3	hierarchy_backoff:ancestor=1.2.6.4.1.4:distance=2	narrow_to_parent
+COMBO:1.2.6.4.1.4.2.4	UMLS:C0282077	Qigong_Therapy	0.66	hierarchy_backoff_mapping	1.2.6.4.1.4.2.4	Qigong_Healer	COMBO:1.2.6.4.1.4.2.4	hierarchy_backoff:ancestor=1.2.6.4.1.4:distance=2	narrow_to_parent
+COMBO:1.2.6.4.1.4.3	UMLS:C0282077	Qigong_Therapy	0.72	hierarchy_backoff_mapping	1.2.6.4.1.4.3	Chan_Mi_Gong	COMBO:1.2.6.4.1.4.3	hierarchy_backoff:ancestor=1.2.6.4.1.4:distance=1	narrow_to_parent
+COMBO:1.2.6.4.1.4.4	UMLS:C0282077	Qigong_Therapy	0.72	hierarchy_backoff_mapping	1.2.6.4.1.4.4	Yi_Jia_Gong	COMBO:1.2.6.4.1.4.4	hierarchy_backoff:ancestor=1.2.6.4.1.4:distance=1	narrow_to_parent
+COMBO:1.2.6.4.1.4.5	UMLS:C0282077	Qigong_Therapy	0.72	hierarchy_backoff_mapping	1.2.6.4.1.4.5	Biyun_Qi_Gong	COMBO:1.2.6.4.1.4.5	hierarchy_backoff:ancestor=1.2.6.4.1.4:distance=1	narrow_to_parent
+COMBO:1.2.6.4.1.4.6	UMLS:C0282077	Qigong_Therapy	0.72	hierarchy_backoff_mapping	1.2.6.4.1.4.6	Daoyin_Qi_Gong	COMBO:1.2.6.4.1.4.6	hierarchy_backoff:ancestor=1.2.6.4.1.4:distance=1	narrow_to_parent
+COMBO:1.2.6.4.1.4.7	UMLS:C0282077	Qigong_Therapy	0.72	hierarchy_backoff_mapping	1.2.6.4.1.4.7	Qi_Gong_Yangsheng	COMBO:1.2.6.4.1.4.7	hierarchy_backoff:ancestor=1.2.6.4.1.4:distance=1	narrow_to_parent
+COMBO:1.2.6.4.1.4.8	UMLS:C0282077	Qigong_Therapy	0.72	hierarchy_backoff_mapping	1.2.6.4.1.4.8	Baduanjin_Qi_Gong	COMBO:1.2.6.4.1.4.8	hierarchy_backoff:ancestor=1.2.6.4.1.4:distance=1	narrow_to_parent
+COMBO:1.2.6.4.1.4.9	UMLS:C0282077	Qigong_Therapy	0.72	hierarchy_backoff_mapping	1.2.6.4.1.4.9	Five_Animals_Qi_Gong	COMBO:1.2.6.4.1.4.9	hierarchy_backoff:ancestor=1.2.6.4.1.4:distance=1	narrow_to_parent
+COMBO:1.2.6.4.4	UMLS:C4082302	Exercise_Therapy	0.72	hierarchy_backoff_mapping	1.2.6.4.4	Motor_Control_Exercise	COMBO:1.2.6.4.4	hierarchy_backoff:ancestor=1.2.6.4:distance=1	narrow_to_parent
+COMBO:1.2.6.4.5.1	UMLS:C0454333	Facial_Exercise	0.72	hierarchy_backoff_mapping	1.2.6.4.5.1	Face_Yoga	COMBO:1.2.6.4.5.1	hierarchy_backoff:ancestor=1.2.6.4.5:distance=1	narrow_to_parent
+COMBO:1.2.6.4.5.2	UMLS:C0454333	Facial_Exercise	0.72	hierarchy_backoff_mapping	1.2.6.4.5.2	Facial_Resistance_Training	COMBO:1.2.6.4.5.2	hierarchy_backoff:ancestor=1.2.6.4.5:distance=1	narrow_to_parent
+COMBO:1.2.6.4.5.3	UMLS:C0454333	Facial_Exercise	0.72	hierarchy_backoff_mapping	1.2.6.4.5.3	Face_Shaping	COMBO:1.2.6.4.5.3	hierarchy_backoff:ancestor=1.2.6.4.5:distance=1	narrow_to_parent
+COMBO:1.2.6.4.6	UMLS:C4082302	Exercise_Therapy	0.72	hierarchy_backoff_mapping	1.2.6.4.6	Guided_Physical_Activity	COMBO:1.2.6.4.6	hierarchy_backoff:ancestor=1.2.6.4:distance=1	narrow_to_parent
+COMBO:1.2.6.5	UMLS:C0260173	Mind	0.72	hierarchy_backoff_mapping	1.2.6.5	Movement_Education	COMBO:1.2.6.5	hierarchy_backoff:ancestor=1.2.6:distance=1	narrow_to_parent
+COMBO:1.2.6.5.1.1	UMLS:C0597812	Alexander_Technique	0.72	hierarchy_backoff_mapping	1.2.6.5.1.1	Alexander_Proprioception	COMBO:1.2.6.5.1.1	hierarchy_backoff:ancestor=1.2.6.5.1:distance=1	narrow_to_parent
+COMBO:1.2.6.6	UMLS:C0260173	Mind	0.72	hierarchy_backoff_mapping	1.2.6.6	Art_of_Living	COMBO:1.2.6.6	hierarchy_backoff:ancestor=1.2.6:distance=1	narrow_to_parent
+COMBO:1.2.6.7	UMLS:C0260173	Mind	0.72	hierarchy_backoff_mapping	1.2.6.7	Eurythmy	COMBO:1.2.6.7	hierarchy_backoff:ancestor=1.2.6:distance=1	narrow_to_parent
+COMBO:1.2.6.8	UMLS:C0260173	Mind	0.72	hierarchy_backoff_mapping	1.2.6.8	Feldenkrais_Method	COMBO:1.2.6.8	hierarchy_backoff:ancestor=1.2.6:distance=1	narrow_to_parent
+COMBO:1.2.6.8.1	UMLS:C0260173	Mind	0.66	hierarchy_backoff_mapping	1.2.6.8.1	Functional_Integration	COMBO:1.2.6.8.1	hierarchy_backoff:ancestor=1.2.6:distance=2	narrow_to_parent
+COMBO:1.2.6.9	UMLS:C0260173	Mind	0.72	hierarchy_backoff_mapping	1.2.6.9	Flotation_Therapy	COMBO:1.2.6.9	hierarchy_backoff:ancestor=1.2.6:distance=1	narrow_to_parent
+COMBO:1.2.6.10	UMLS:C0260173	Mind	0.72	hierarchy_backoff_mapping	1.2.6.10	Sophrology	COMBO:1.2.6.10	hierarchy_backoff:ancestor=1.2.6:distance=1	narrow_to_parent
+COMBO:1.2.8.1	UMLS:C1516875	Energy_Based_Therapy	0.72	hierarchy_backoff_mapping	1.2.8.1	Putative_Energy_Therapy	COMBO:1.2.8.1	hierarchy_backoff:ancestor=1.2.8:distance=1	narrow_to_parent
+COMBO:1.2.8.1.2	UMLS:C1516875	Energy_Based_Therapy	0.66	hierarchy_backoff_mapping	1.2.8.1.2	Qigong_Therapy	COMBO:1.2.8.1.2	hierarchy_backoff:ancestor=1.2.8:distance=2	narrow_to_parent
+COMBO:1.2.8.1.2.1	UMLS:C1516875	Energy_Based_Therapy	0.6	hierarchy_backoff_mapping	1.2.8.1.2.1	Hua_Gong	COMBO:1.2.8.1.2.1	hierarchy_backoff:ancestor=1.2.8:distance=3	narrow_to_parent
+COMBO:1.2.8.1.2.2	UMLS:C1516875	Energy_Based_Therapy	0.6	hierarchy_backoff_mapping	1.2.8.1.2.2	Medical_Qigong	COMBO:1.2.8.1.2.2	hierarchy_backoff:ancestor=1.2.8:distance=3	narrow_to_parent
+COMBO:1.2.8.1.2.2.1	UMLS:C1516875	Energy_Based_Therapy	0.55	hierarchy_backoff_mapping	1.2.8.1.2.2.1	External_Qi_Gong_Therapy	COMBO:1.2.8.1.2.2.1	hierarchy_backoff:ancestor=1.2.8:distance=4	narrow_to_parent
+COMBO:1.2.8.1.2.2.2	UMLS:C1516875	Energy_Based_Therapy	0.55	hierarchy_backoff_mapping	1.2.8.1.2.2.2	Dongeui_Qigong	COMBO:1.2.8.1.2.2.2	hierarchy_backoff:ancestor=1.2.8:distance=4	narrow_to_parent
+COMBO:1.2.8.1.2.2.3	UMLS:C1516875	Energy_Based_Therapy	0.55	hierarchy_backoff_mapping	1.2.8.1.2.2.3	Guolin_Qigong	COMBO:1.2.8.1.2.2.3	hierarchy_backoff:ancestor=1.2.8:distance=4	narrow_to_parent
+COMBO:1.2.8.1.2.2.4	UMLS:C1516875	Energy_Based_Therapy	0.55	hierarchy_backoff_mapping	1.2.8.1.2.2.4	Qigong_Healer	COMBO:1.2.8.1.2.2.4	hierarchy_backoff:ancestor=1.2.8:distance=4	narrow_to_parent
+COMBO:1.2.8.1.2.3	UMLS:C1516875	Energy_Based_Therapy	0.6	hierarchy_backoff_mapping	1.2.8.1.2.3	Chan_Mi_Gong	COMBO:1.2.8.1.2.3	hierarchy_backoff:ancestor=1.2.8:distance=3	narrow_to_parent
+COMBO:1.2.8.1.2.4	UMLS:C1516875	Energy_Based_Therapy	0.6	hierarchy_backoff_mapping	1.2.8.1.2.4	Yi_Jia_Gong	COMBO:1.2.8.1.2.4	hierarchy_backoff:ancestor=1.2.8:distance=3	narrow_to_parent
+COMBO:1.2.8.1.2.5	UMLS:C1516875	Energy_Based_Therapy	0.6	hierarchy_backoff_mapping	1.2.8.1.2.5	Biyun_Qi_Gong	COMBO:1.2.8.1.2.5	hierarchy_backoff:ancestor=1.2.8:distance=3	narrow_to_parent
+COMBO:1.2.8.1.2.6	UMLS:C1516875	Energy_Based_Therapy	0.6	hierarchy_backoff_mapping	1.2.8.1.2.6	Daoyin_Qi_Gong	COMBO:1.2.8.1.2.6	hierarchy_backoff:ancestor=1.2.8:distance=3	narrow_to_parent
+COMBO:1.2.8.1.2.7	UMLS:C1516875	Energy_Based_Therapy	0.6	hierarchy_backoff_mapping	1.2.8.1.2.7	Qi_Gong_Yangsheng	COMBO:1.2.8.1.2.7	hierarchy_backoff:ancestor=1.2.8:distance=3	narrow_to_parent
+COMBO:1.2.8.1.2.8	UMLS:C1516875	Energy_Based_Therapy	0.6	hierarchy_backoff_mapping	1.2.8.1.2.8	Baduanjin_Qi_Gong	COMBO:1.2.8.1.2.8	hierarchy_backoff:ancestor=1.2.8:distance=3	narrow_to_parent
+COMBO:1.2.8.1.2.9	UMLS:C1516875	Energy_Based_Therapy	0.6	hierarchy_backoff_mapping	1.2.8.1.2.9	Five_Animals_Qi_Gong	COMBO:1.2.8.1.2.9	hierarchy_backoff:ancestor=1.2.8:distance=3	narrow_to_parent
+COMBO:1.2.8.1.3.1.1	UMLS:C0751715	Reiki_Therapy	0.72	hierarchy_backoff_mapping	1.2.8.1.3.1.1	Japanese_Reiki	COMBO:1.2.8.1.3.1.1	hierarchy_backoff:ancestor=1.2.8.1.3.1:distance=1	narrow_to_parent
+COMBO:1.2.8.1.3.1.2	UMLS:C0751715	Reiki_Therapy	0.72	hierarchy_backoff_mapping	1.2.8.1.3.1.2	Buddhist_Reiki	COMBO:1.2.8.1.3.1.2	hierarchy_backoff:ancestor=1.2.8.1.3.1:distance=1	narrow_to_parent
+COMBO:1.2.8.1.4.1	UMLS:C0085102	Color_Therapy	0.72	hierarchy_backoff_mapping	1.2.8.1.4.1	Aura_Soma_Therapy	COMBO:1.2.8.1.4.1	hierarchy_backoff:ancestor=1.2.8.1.4:distance=1	narrow_to_parent
+COMBO:1.2.8.1.5.1	UMLS:C0597815	Crystal_Therapy	0.72	hierarchy_backoff_mapping	1.2.8.1.5.1	Electrocrystal_Therapy	COMBO:1.2.8.1.5.1	hierarchy_backoff:ancestor=1.2.8.1.5:distance=1	narrow_to_parent
+COMBO:1.2.8.1.5.2	UMLS:C0597815	Crystal_Therapy	0.72	hierarchy_backoff_mapping	1.2.8.1.5.2	Gemstone_Therapy	COMBO:1.2.8.1.5.2	hierarchy_backoff:ancestor=1.2.8.1.5:distance=1	narrow_to_parent
+COMBO:1.2.8.1.6	UMLS:C1516875	Energy_Based_Therapy	0.66	hierarchy_backoff_mapping	1.2.8.1.6	Chakra_Balancing	COMBO:1.2.8.1.6	hierarchy_backoff:ancestor=1.2.8:distance=2	narrow_to_parent
+COMBO:1.2.8.1.8	UMLS:C1516875	Energy_Based_Therapy	0.66	hierarchy_backoff_mapping	1.2.8.1.8	Radionics	COMBO:1.2.8.1.8	hierarchy_backoff:ancestor=1.2.8:distance=2	narrow_to_parent
+COMBO:1.2.8.2	UMLS:C1516875	Energy_Based_Therapy	0.72	hierarchy_backoff_mapping	1.2.8.2	Veritable_Energy_Therapy	COMBO:1.2.8.2	hierarchy_backoff:ancestor=1.2.8:distance=1	narrow_to_parent
+COMBO:1.2.8.2.3.1.1	UMLS:C1881509	Magnet_Therapy	0.72	hierarchy_backoff_mapping	1.2.8.2.3.1.1	Static_Magnet_Therapy	COMBO:1.2.8.2.3.1.1	hierarchy_backoff:ancestor=1.2.8.2.3.1:distance=1	narrow_to_parent
+COMBO:1.2.8.2.3.1.1.1	UMLS:C1881509	Magnet_Therapy	0.66	hierarchy_backoff_mapping	1.2.8.2.3.1.1.1	Biomagnetic_Therapy	COMBO:1.2.8.2.3.1.1.1	hierarchy_backoff:ancestor=1.2.8.2.3.1:distance=2	narrow_to_parent
+COMBO:1.2.8.2.3.2	UMLS:C1511136	Electromagnetic_Based_Therapy	0.72	hierarchy_backoff_mapping	1.2.8.2.3.2	Electrical_Therapy	COMBO:1.2.8.2.3.2	hierarchy_backoff:ancestor=1.2.8.2.3:distance=1	narrow_to_parent
+COMBO:1.2.8.2.4	UMLS:C1516875	Energy_Based_Therapy	0.66	hierarchy_backoff_mapping	1.2.8.2.4	Anodyne_Therapy	COMBO:1.2.8.2.4	hierarchy_backoff:ancestor=1.2.8:distance=2	narrow_to_parent
+COMBO:1.2.8.2.5	UMLS:C1516875	Energy_Based_Therapy	0.66	hierarchy_backoff_mapping	1.2.8.2.5	Bioacoustics_Therapy	COMBO:1.2.8.2.5	hierarchy_backoff:ancestor=1.2.8:distance=2	narrow_to_parent
+COMBO:1.2.8.2.6	UMLS:C1516875	Energy_Based_Therapy	0.66	hierarchy_backoff_mapping	1.2.8.2.6	Cellubike	COMBO:1.2.8.2.6	hierarchy_backoff:ancestor=1.2.8:distance=2	narrow_to_parent
+COMBO:1.2.8.2.7.1.1	UMLS:C0041626	Ultraviolet_Therapy	0.72	hierarchy_backoff_mapping	1.2.8.2.7.1.1	Bath_Puva	COMBO:1.2.8.2.7.1.1	hierarchy_backoff:ancestor=1.2.8.2.7.1:distance=1	narrow_to_parent
+COMBO:1.2.8.2.7.2.1	MESH:D010778	Photodynamic Therapy	0.72	hierarchy_backoff_mapping	1.2.8.2.7.2.1	Ocular_Light_Therapy	COMBO:1.2.8.2.7.2.1	hierarchy_backoff:ancestor=1.2.8.2.7.2:distance=1	narrow_to_parent
+COMBO:1.2.8.2.7.3	UMLS:C0031765	Phototherapy	0.72	hierarchy_backoff_mapping	1.2.8.2.7.3	Balneophototherapy	COMBO:1.2.8.2.7.3	hierarchy_backoff:ancestor=1.2.8.2.7:distance=1	narrow_to_parent
+COMBO:1.2.8.2.7.3.1	UMLS:C0031765	Phototherapy	0.66	hierarchy_backoff_mapping	1.2.8.2.7.3.1	Dead_Sea_Climatotherapy	COMBO:1.2.8.2.7.3.1	hierarchy_backoff:ancestor=1.2.8.2.7:distance=2	narrow_to_parent
+COMBO:1.2.8.2.7.6	UMLS:C0031765	Phototherapy	0.72	hierarchy_backoff_mapping	1.2.8.2.7.6	Fiber_Optic_Phototherapy	COMBO:1.2.8.2.7.6	hierarchy_backoff:ancestor=1.2.8.2.7:distance=1	narrow_to_parent
+COMBO:1.2.8.2.7.7	UMLS:C0031765	Phototherapy	0.72	hierarchy_backoff_mapping	1.2.8.2.7.7	Nontargeted_Light_Therapy	COMBO:1.2.8.2.7.7	hierarchy_backoff:ancestor=1.2.8.2.7:distance=1	narrow_to_parent
+COMBO:1.2.8.2.7.8	UMLS:C0031765	Phototherapy	0.72	hierarchy_backoff_mapping	1.2.8.2.7.8	Targeted_Light_Therapy	COMBO:1.2.8.2.7.8	hierarchy_backoff:ancestor=1.2.8.2.7:distance=1	narrow_to_parent
+COMBO:1.2.8.2.7.9	UMLS:C0031765	Phototherapy	0.72	hierarchy_backoff_mapping	1.2.8.2.7.9	Acu_Light_Therapy	COMBO:1.2.8.2.7.9	hierarchy_backoff:ancestor=1.2.8.2.7:distance=1	narrow_to_parent
+COMBO:1.2.8.2.7.10	UMLS:C0031765	Phototherapy	0.72	hierarchy_backoff_mapping	1.2.8.2.7.10	Esogetic_Colorpuncture	COMBO:1.2.8.2.7.10	hierarchy_backoff:ancestor=1.2.8.2.7:distance=1	narrow_to_parent
+COMBO:1.2.8.2.7.11	UMLS:C0031765	Phototherapy	0.72	hierarchy_backoff_mapping	1.2.8.2.7.11	Reprocessing_Light_Therapy	COMBO:1.2.8.2.7.11	hierarchy_backoff:ancestor=1.2.8.2.7:distance=1	narrow_to_parent
+COMBO:1.2.12.5.2.2	UMLS:C0026652	Moxibustion	0.72	hierarchy_backoff_mapping	1.2.12.5.2.2	Dogbi_	COMBO:1.2.12.5.2.2	hierarchy_backoff:ancestor=1.2.12.5.2:distance=1	narrow_to_parent
+COMBO:1.2.12.9	UMLS:C0026652	Moxibustion	0.72	hierarchy_backoff_mapping	1.2.12.9	Rice_Sized_Direct_Moxa	COMBO:1.2.12.9	hierarchy_backoff:ancestor=1.2.12:distance=1	narrow_to_parent
+COMBO:1.2.15.2.1	UMLS:C5197695	Cupping_Therapy	0.72	hierarchy_backoff_mapping	1.2.15.2.1	Wet_Cupping	COMBO:1.2.15.2.1	hierarchy_backoff:ancestor=1.2.15.2:distance=1	narrow_to_parent
+COMBO:1.2.15.2.1.1	UMLS:C5197695	Cupping_Therapy	0.66	hierarchy_backoff_mapping	1.2.15.2.1.1	Blood_Letting_Cupping	COMBO:1.2.15.2.1.1	hierarchy_backoff:ancestor=1.2.15.2:distance=2	narrow_to_parent
+COMBO:1.2.15.2.2	UMLS:C5197695	Cupping_Therapy	0.72	hierarchy_backoff_mapping	1.2.15.2.2	Retained_Cupping	COMBO:1.2.15.2.2	hierarchy_backoff:ancestor=1.2.15.2:distance=1	narrow_to_parent
+COMBO:1.2.15.2.3	UMLS:C5197695	Cupping_Therapy	0.72	hierarchy_backoff_mapping	1.2.15.2.3	Multiple_Cupping	COMBO:1.2.15.2.3	hierarchy_backoff:ancestor=1.2.15.2:distance=1	narrow_to_parent
+COMBO:1.2.15.2.4	UMLS:C5197695	Cupping_Therapy	0.72	hierarchy_backoff_mapping	1.2.15.2.4	Dry_Cupping	COMBO:1.2.15.2.4	hierarchy_backoff:ancestor=1.2.15.2:distance=1	narrow_to_parent
+COMBO:1.2.15.2.5	UMLS:C5197695	Cupping_Therapy	0.72	hierarchy_backoff_mapping	1.2.15.2.5	Needle_Cupping	COMBO:1.2.15.2.5	hierarchy_backoff:ancestor=1.2.15.2:distance=1	narrow_to_parent
+COMBO:1.2.15.2.6	UMLS:C5197695	Cupping_Therapy	0.72	hierarchy_backoff_mapping	1.2.15.2.6	Water_Cupping	COMBO:1.2.15.2.6	hierarchy_backoff:ancestor=1.2.15.2:distance=1	narrow_to_parent
+COMBO:1.2.15.2.7	UMLS:C5197695	Cupping_Therapy	0.72	hierarchy_backoff_mapping	1.2.15.2.7	Flash_Cupping	COMBO:1.2.15.2.7	hierarchy_backoff:ancestor=1.2.15.2:distance=1	narrow_to_parent
+COMBO:1.2.15.2.8	UMLS:C5197695	Cupping_Therapy	0.72	hierarchy_backoff_mapping	1.2.15.2.8	Fire_Cupping	COMBO:1.2.15.2.8	hierarchy_backoff:ancestor=1.2.15.2:distance=1	narrow_to_parent
+COMBO:1.2.15.2.9	UMLS:C5197695	Cupping_Therapy	0.72	hierarchy_backoff_mapping	1.2.15.2.9	Moving_Cupping	COMBO:1.2.15.2.9	hierarchy_backoff:ancestor=1.2.15.2:distance=1	narrow_to_parent
+COMBO:1.2.15.2.10	UMLS:C5197695	Cupping_Therapy	0.72	hierarchy_backoff_mapping	1.2.15.2.10	Pulsating_Cupping	COMBO:1.2.15.2.10	hierarchy_backoff:ancestor=1.2.15.2:distance=1	narrow_to_parent
+COMBO:1.2.15.5.1.2.1	UMLS:C0282567	Applied_Kinesiology	0.72	hierarchy_backoff_mapping	1.2.15.5.1.2.1	Kinesiology_Muscle_Test	COMBO:1.2.15.5.1.2.1	hierarchy_backoff:ancestor=1.2.15.5.1.2:distance=1	narrow_to_parent
+COMBO:1.2.15.5.3.2	UMLS:C3658309	Soft_Tissue_Therapy	0.72	hierarchy_backoff_mapping	1.2.15.5.3.2	Emmett_Technique	COMBO:1.2.15.5.3.2	hierarchy_backoff:ancestor=1.2.15.5.3:distance=1	narrow_to_parent
+COMBO:1.2.15.5.3.6.1.5	UMLS:C2584291	Therapeutic_Massage	0.72	hierarchy_backoff_mapping	1.2.15.5.3.6.1.5	Neuromuscular_Massage	COMBO:1.2.15.5.3.6.1.5	hierarchy_backoff:ancestor=1.2.15.5.3.6.1:distance=1	narrow_to_parent
+COMBO:1.2.15.5.3.6.1.6	UMLS:C2584291	Therapeutic_Massage	0.72	hierarchy_backoff_mapping	1.2.15.5.3.6.1.6	Trigger_Point_Massage	COMBO:1.2.15.5.3.6.1.6	hierarchy_backoff:ancestor=1.2.15.5.3.6.1:distance=1	narrow_to_parent
+COMBO:1.2.15.5.3.6.1.7	UMLS:C2584291	Therapeutic_Massage	0.72	hierarchy_backoff_mapping	1.2.15.5.3.6.1.7	Rhythmical_Massage	COMBO:1.2.15.5.3.6.1.7	hierarchy_backoff:ancestor=1.2.15.5.3.6.1:distance=1	narrow_to_parent
+COMBO:1.2.15.5.3.6.1.8	UMLS:C2584291	Therapeutic_Massage	0.72	hierarchy_backoff_mapping	1.2.15.5.3.6.1.8	Perineal_Massage	COMBO:1.2.15.5.3.6.1.8	hierarchy_backoff:ancestor=1.2.15.5.3.6.1:distance=1	narrow_to_parent
+COMBO:1.2.15.5.3.6.1.12	UMLS:C2584291	Therapeutic_Massage	0.72	hierarchy_backoff_mapping	1.2.15.5.3.6.1.12	Roll_Stretch_Massage	COMBO:1.2.15.5.3.6.1.12	hierarchy_backoff:ancestor=1.2.15.5.3.6.1:distance=1	narrow_to_parent
+COMBO:1.2.15.5.3.6.1.13	UMLS:C2584291	Therapeutic_Massage	0.72	hierarchy_backoff_mapping	1.2.15.5.3.6.1.13	Aston_Massage	COMBO:1.2.15.5.3.6.1.13	hierarchy_backoff:ancestor=1.2.15.5.3.6.1:distance=1	narrow_to_parent
+COMBO:1.2.15.5.3.6.1.15	UMLS:C2584291	Therapeutic_Massage	0.72	hierarchy_backoff_mapping	1.2.15.5.3.6.1.15	Skin_Rehabilitation_Massage_Therapy	COMBO:1.2.15.5.3.6.1.15	hierarchy_backoff:ancestor=1.2.15.5.3.6.1:distance=1	narrow_to_parent
+COMBO:1.2.15.5.3.6.1.16	UMLS:C2584291	Therapeutic_Massage	0.72	hierarchy_backoff_mapping	1.2.15.5.3.6.1.16	Integrative_Massage	COMBO:1.2.15.5.3.6.1.16	hierarchy_backoff:ancestor=1.2.15.5.3.6.1:distance=1	narrow_to_parent
+COMBO:1.2.15.5.3.6.2.1	UMLS:C0884467	Oriental_Massage	0.72	hierarchy_backoff_mapping	1.2.15.5.3.6.2.1	Chinese_Massage	COMBO:1.2.15.5.3.6.2.1	hierarchy_backoff:ancestor=1.2.15.5.3.6.2:distance=1	narrow_to_parent
+COMBO:1.2.15.5.3.6.2.1.3	UMLS:C0884467	Oriental_Massage	0.66	hierarchy_backoff_mapping	1.2.15.5.3.6.2.1.3	Qigong_Massage	COMBO:1.2.15.5.3.6.2.1.3	hierarchy_backoff:ancestor=1.2.15.5.3.6.2:distance=2	narrow_to_parent
+COMBO:1.2.15.5.3.6.2.2	UMLS:C0884467	Oriental_Massage	0.72	hierarchy_backoff_mapping	1.2.15.5.3.6.2.2	Anma	COMBO:1.2.15.5.3.6.2.2	hierarchy_backoff:ancestor=1.2.15.5.3.6.2:distance=1	narrow_to_parent
+COMBO:1.2.15.5.3.6.2.3	UMLS:C0884467	Oriental_Massage	0.72	hierarchy_backoff_mapping	1.2.15.5.3.6.2.3	Tibetan_Massage	COMBO:1.2.15.5.3.6.2.3	hierarchy_backoff:ancestor=1.2.15.5.3.6.2:distance=1	narrow_to_parent
+COMBO:1.2.15.5.3.6.2.5.1	UMLS:C0973228	Shiatsu_Therapy	0.72	hierarchy_backoff_mapping	1.2.15.5.3.6.2.5.1	Namikoshi_Shiatsu	COMBO:1.2.15.5.3.6.2.5.1	hierarchy_backoff:ancestor=1.2.15.5.3.6.2.5:distance=1	narrow_to_parent
+COMBO:1.2.15.5.3.6.2.5.2	UMLS:C0973228	Shiatsu_Therapy	0.72	hierarchy_backoff_mapping	1.2.15.5.3.6.2.5.2	Tao_Shiatsu	COMBO:1.2.15.5.3.6.2.5.2	hierarchy_backoff:ancestor=1.2.15.5.3.6.2.5:distance=1	narrow_to_parent
+COMBO:1.2.15.5.3.6.2.5.3	UMLS:C0973228	Shiatsu_Therapy	0.72	hierarchy_backoff_mapping	1.2.15.5.3.6.2.5.3	Meridian_Shiatsu	COMBO:1.2.15.5.3.6.2.5.3	hierarchy_backoff:ancestor=1.2.15.5.3.6.2.5:distance=1	narrow_to_parent
+COMBO:1.2.15.5.3.6.2.5.4	UMLS:C0973228	Shiatsu_Therapy	0.72	hierarchy_backoff_mapping	1.2.15.5.3.6.2.5.4	Quantum_Shiatsu	COMBO:1.2.15.5.3.6.2.5.4	hierarchy_backoff:ancestor=1.2.15.5.3.6.2.5:distance=1	narrow_to_parent
+COMBO:1.2.15.5.3.6.2.5.5	UMLS:C0973228	Shiatsu_Therapy	0.72	hierarchy_backoff_mapping	1.2.15.5.3.6.2.5.5	Japanese_Shiatsu	COMBO:1.2.15.5.3.6.2.5.5	hierarchy_backoff:ancestor=1.2.15.5.3.6.2.5:distance=1	narrow_to_parent
+COMBO:1.2.15.5.3.6.2.5.6	UMLS:C0973228	Shiatsu_Therapy	0.72	hierarchy_backoff_mapping	1.2.15.5.3.6.2.5.6	Ohashiatsu	COMBO:1.2.15.5.3.6.2.5.6	hierarchy_backoff:ancestor=1.2.15.5.3.6.2.5:distance=1	narrow_to_parent
+COMBO:1.2.15.5.3.6.2.5.7	UMLS:C0973228	Shiatsu_Therapy	0.72	hierarchy_backoff_mapping	1.2.15.5.3.6.2.5.7	Zen_Shiatsu	COMBO:1.2.15.5.3.6.2.5.7	hierarchy_backoff:ancestor=1.2.15.5.3.6.2.5:distance=1	narrow_to_parent
+COMBO:1.2.15.5.3.6.2.5.8	UMLS:C0973228	Shiatsu_Therapy	0.72	hierarchy_backoff_mapping	1.2.15.5.3.6.2.5.8	Tsubo_Shiatsu	COMBO:1.2.15.5.3.6.2.5.8	hierarchy_backoff:ancestor=1.2.15.5.3.6.2.5:distance=1	narrow_to_parent
+COMBO:1.2.15.5.3.6.4	UMLS:C3536731	Massage_Therapy	0.72	hierarchy_backoff_mapping	1.2.15.5.3.6.4	Foot_Massage	COMBO:1.2.15.5.3.6.4	hierarchy_backoff:ancestor=1.2.15.5.3.6:distance=1	narrow_to_parent
+COMBO:1.2.15.5.3.6.4.1	UMLS:C3536731	Massage_Therapy	0.66	hierarchy_backoff_mapping	1.2.15.5.3.6.4.1	Foot_Reflexion_Massage	COMBO:1.2.15.5.3.6.4.1	hierarchy_backoff:ancestor=1.2.15.5.3.6:distance=2	narrow_to_parent
+COMBO:1.2.15.5.3.6.6.1	UMLS:C2316341	Abdominal_Massage	0.72	hierarchy_backoff_mapping	1.2.15.5.3.6.6.1	Abdominal_Meridian_Massage	COMBO:1.2.15.5.3.6.6.1	hierarchy_backoff:ancestor=1.2.15.5.3.6.6:distance=1	narrow_to_parent
+COMBO:1.2.15.5.3.6.10	UMLS:C3536731	Massage_Therapy	0.72	hierarchy_backoff_mapping	1.2.15.5.3.6.10	Marma_Massage_Therapy	COMBO:1.2.15.5.3.6.10	hierarchy_backoff:ancestor=1.2.15.5.3.6:distance=1	narrow_to_parent
+COMBO:1.2.15.5.3.6.11	UMLS:C3536731	Massage_Therapy	0.72	hierarchy_backoff_mapping	1.2.15.5.3.6.11	Lomilomi_Massage	COMBO:1.2.15.5.3.6.11	hierarchy_backoff:ancestor=1.2.15.5.3.6:distance=1	narrow_to_parent
+COMBO:1.2.15.5.3.6.12	UMLS:C3536731	Massage_Therapy	0.72	hierarchy_backoff_mapping	1.2.15.5.3.6.12	Esalen_Massage	COMBO:1.2.15.5.3.6.12	hierarchy_backoff:ancestor=1.2.15.5.3.6:distance=1	narrow_to_parent
+COMBO:1.2.15.5.3.6.13	UMLS:C3536731	Massage_Therapy	0.72	hierarchy_backoff_mapping	1.2.15.5.3.6.13	Oil_Massage	COMBO:1.2.15.5.3.6.13	hierarchy_backoff:ancestor=1.2.15.5.3.6:distance=1	narrow_to_parent
+COMBO:1.2.15.5.3.6.14.1	UMLS:C2945661	Swedish_Massage	0.72	hierarchy_backoff_mapping	1.2.15.5.3.6.14.1	Effleurage_Massage	COMBO:1.2.15.5.3.6.14.1	hierarchy_backoff:ancestor=1.2.15.5.3.6.14:distance=1	narrow_to_parent
+COMBO:1.2.15.5.3.9	UMLS:C3658309	Soft_Tissue_Therapy	0.72	hierarchy_backoff_mapping	1.2.15.5.3.9	Trager_Therapy	COMBO:1.2.15.5.3.9	hierarchy_backoff:ancestor=1.2.15.5.3:distance=1	narrow_to_parent
+COMBO:1.2.15.5.3.10	UMLS:C3658309	Soft_Tissue_Therapy	0.72	hierarchy_backoff_mapping	1.2.15.5.3.10	Trigger_Point_Therapy	COMBO:1.2.15.5.3.10	hierarchy_backoff:ancestor=1.2.15.5.3:distance=1	narrow_to_parent
+COMBO:1.2.15.5.3.10.1	UMLS:C3658309	Soft_Tissue_Therapy	0.66	hierarchy_backoff_mapping	1.2.15.5.3.10.1	Trigger_Point_Massage	COMBO:1.2.15.5.3.10.1	hierarchy_backoff:ancestor=1.2.15.5.3:distance=2	narrow_to_parent
+COMBO:1.2.15.5.5	UMLS:C0454525	Manual_Therapy	0.72	hierarchy_backoff_mapping	1.2.15.5.5	Neurocranial_Restructuring	COMBO:1.2.15.5.5	hierarchy_backoff:ancestor=1.2.15.5:distance=1	narrow_to_parent
+COMBO:1.2.16.2.1.1	UMLS:C5544506	Aquatic_Therapy	0.72	hierarchy_backoff_mapping	1.2.16.2.1.1	Aqua_Lymphatic_Therapy	COMBO:1.2.16.2.1.1	hierarchy_backoff:ancestor=1.2.16.2.1:distance=1	narrow_to_parent
+COMBO:1.2.16.2.3	UMLS:C0020311	Hydrotherapy	0.72	hierarchy_backoff_mapping	1.2.16.2.3	Thermal_Bath	COMBO:1.2.16.2.3	hierarchy_backoff:ancestor=1.2.16.2:distance=1	narrow_to_parent
+COMBO:1.2.16.2.4	UMLS:C0020311	Hydrotherapy	0.72	hierarchy_backoff_mapping	1.2.16.2.4	Soak_in_Hot_Spring	COMBO:1.2.16.2.4	hierarchy_backoff:ancestor=1.2.16.2:distance=1	narrow_to_parent
+COMBO:1.2.20.1	UMLS:C0884710	Shirodhara_Therapy	0.72	hierarchy_backoff_mapping	1.2.20.1	Jaladhara_Therapy	COMBO:1.2.20.1	hierarchy_backoff:ancestor=1.2.20:distance=1	narrow_to_parent
+COMBO:1.2.20.2	UMLS:C0884710	Shirodhara_Therapy	0.72	hierarchy_backoff_mapping	1.2.20.2	Thyladhara_Therapy	COMBO:1.2.20.2	hierarchy_backoff:ancestor=1.2.20:distance=1	narrow_to_parent
+COMBO:1.2.20.3	UMLS:C0884710	Shirodhara_Therapy	0.72	hierarchy_backoff_mapping	1.2.20.3	Ksheeradhara_Therapy	COMBO:1.2.20.3	hierarchy_backoff:ancestor=1.2.20:distance=1	narrow_to_parent
+COMBO:1.2.20.4	UMLS:C0884710	Shirodhara_Therapy	0.72	hierarchy_backoff_mapping	1.2.20.4	Thakradhara_Therapy	COMBO:1.2.20.4	hierarchy_backoff:ancestor=1.2.20:distance=1	narrow_to_parent
+COMBO:1.2.22.1.1	UMLS:C5237316	Local_Vibration_Therapy	0.72	hierarchy_backoff_mapping	1.2.22.1.1	Focal_Muscle_Vibration	COMBO:1.2.22.1.1	hierarchy_backoff:ancestor=1.2.22.1:distance=1	narrow_to_parent
+COMBO:1.2.22.10.1	UMLS:C5238484	Whole Body Vibration Therapy	0.72	hierarchy_backoff_mapping	1.2.22.10.1	Whole_Body_Vibration_Exercise	COMBO:1.2.22.10.1	hierarchy_backoff:ancestor=1.2.22.10:distance=1	narrow_to_parent
+COMBO:1.3.1	MESH:D000083626	Psychological Intervention	0.72	hierarchy_backoff_mapping	1.3.1	Mind	COMBO:1.3.1	hierarchy_backoff:ancestor=1.3:distance=1	narrow_to_parent
+COMBO:1.3.1.2.1.1.1	UMLS:C0003827	Art_Therapy	0.72	hierarchy_backoff_mapping	1.3.1.2.1.1.1	Pottery	COMBO:1.3.1.2.1.1.1	hierarchy_backoff:ancestor=1.3.1.2.1.1:distance=1	narrow_to_parent
+COMBO:1.3.1.2.1.1.2	UMLS:C0003827	Art_Therapy	0.72	hierarchy_backoff_mapping	1.3.1.2.1.1.2	Chinese_Calligraphy_Therapy	COMBO:1.3.1.2.1.1.2	hierarchy_backoff:ancestor=1.3.1.2.1.1:distance=1	narrow_to_parent
+COMBO:1.3.1.2.1.1.4	UMLS:C0003827	Art_Therapy	0.72	hierarchy_backoff_mapping	1.3.1.2.1.1.4	Mandala_Therapy	COMBO:1.3.1.2.1.1.4	hierarchy_backoff:ancestor=1.3.1.2.1.1:distance=1	narrow_to_parent
+COMBO:1.3.1.2.3.1	MESH:D009147	Music Therapy	0.72	hierarchy_backoff_mapping	1.3.1.2.3.1	Musical_Game	COMBO:1.3.1.2.3.1	hierarchy_backoff:ancestor=1.3.1.2.3:distance=1	narrow_to_parent
+COMBO:1.3.1.2.3.7	MESH:D009147	Music Therapy	0.72	hierarchy_backoff_mapping	1.3.1.2.3.7	Raga_Therapy	COMBO:1.3.1.2.3.7	hierarchy_backoff:ancestor=1.3.1.2.3:distance=1	narrow_to_parent
+COMBO:1.3.1.2.5.1	MESH:D001326	Progressive Muscle Relaxation	0.72	hierarchy_backoff_mapping	1.3.1.2.5.1	Abbreviated_Muscle_Relaxation_Therapy	COMBO:1.3.1.2.5.1	hierarchy_backoff:ancestor=1.3.1.2.5:distance=1	narrow_to_parent
+COMBO:1.3.1.4.1	MESH:D005081	Exercise Therapy	0.72	hierarchy_backoff_mapping	1.3.1.4.1	Meditative_Movement	COMBO:1.3.1.4.1	hierarchy_backoff:ancestor=1.3.1.4:distance=1	narrow_to_parent
+COMBO:1.3.1.4.1.1	MESH:D005081	Exercise Therapy	0.66	hierarchy_backoff_mapping	1.3.1.4.1.1	Pilates_Based_Exercise	COMBO:1.3.1.4.1.1	hierarchy_backoff:ancestor=1.3.1.4:distance=2	narrow_to_parent
+COMBO:1.3.1.4.1.3.2	UMLS:C1883583	Yoga Therapy	0.72	hierarchy_backoff_mapping	1.3.1.4.1.3.2	Kundalini_Yoga	COMBO:1.3.1.4.1.3.2	hierarchy_backoff:ancestor=1.3.1.4.1.3:distance=1	narrow_to_parent
+COMBO:1.3.1.4.1.3.3	UMLS:C1883583	Yoga Therapy	0.72	hierarchy_backoff_mapping	1.3.1.4.1.3.3	Raja_Yoga	COMBO:1.3.1.4.1.3.3	hierarchy_backoff:ancestor=1.3.1.4.1.3:distance=1	narrow_to_parent
+COMBO:1.3.1.4.1.3.4	UMLS:C1883583	Yoga Therapy	0.72	hierarchy_backoff_mapping	1.3.1.4.1.3.4	Circular_Yoga	COMBO:1.3.1.4.1.3.4	hierarchy_backoff:ancestor=1.3.1.4.1.3:distance=1	narrow_to_parent
+COMBO:1.3.1.4.1.3.5	UMLS:C1883583	Yoga Therapy	0.72	hierarchy_backoff_mapping	1.3.1.4.1.3.5	Face_Yoga	COMBO:1.3.1.4.1.3.5	hierarchy_backoff:ancestor=1.3.1.4.1.3:distance=1	narrow_to_parent
+COMBO:1.3.1.4.1.3.6	UMLS:C1883583	Yoga Therapy	0.72	hierarchy_backoff_mapping	1.3.1.4.1.3.6	Pranayama_Yoga	COMBO:1.3.1.4.1.3.6	hierarchy_backoff:ancestor=1.3.1.4.1.3:distance=1	narrow_to_parent
+COMBO:1.3.1.4.1.3.7	UMLS:C1883583	Yoga Therapy	0.72	hierarchy_backoff_mapping	1.3.1.4.1.3.7	Sudarshana_Kriya_Yoga	COMBO:1.3.1.4.1.3.7	hierarchy_backoff:ancestor=1.3.1.4.1.3:distance=1	narrow_to_parent
+COMBO:1.3.1.4.1.3.8	UMLS:C1883583	Yoga Therapy	0.72	hierarchy_backoff_mapping	1.3.1.4.1.3.8	Kripalu_Yoga	COMBO:1.3.1.4.1.3.8	hierarchy_backoff:ancestor=1.3.1.4.1.3:distance=1	narrow_to_parent
+COMBO:1.3.1.4.1.3.9	UMLS:C1883583	Yoga Therapy	0.72	hierarchy_backoff_mapping	1.3.1.4.1.3.9	Hot_Yoga	COMBO:1.3.1.4.1.3.9	hierarchy_backoff:ancestor=1.3.1.4.1.3:distance=1	narrow_to_parent
+COMBO:1.3.1.4.1.3.9.1	UMLS:C1883583	Yoga Therapy	0.66	hierarchy_backoff_mapping	1.3.1.4.1.3.9.1	Bikram_Yoga	COMBO:1.3.1.4.1.3.9.1	hierarchy_backoff:ancestor=1.3.1.4.1.3:distance=2	narrow_to_parent
+COMBO:1.3.1.4.1.3.10	UMLS:C1883583	Yoga Therapy	0.72	hierarchy_backoff_mapping	1.3.1.4.1.3.10	Ashtanga_Yoga	COMBO:1.3.1.4.1.3.10	hierarchy_backoff:ancestor=1.3.1.4.1.3:distance=1	narrow_to_parent
+COMBO:1.3.1.4.1.3.11	UMLS:C1883583	Yoga Therapy	0.72	hierarchy_backoff_mapping	1.3.1.4.1.3.11	Tibetan_Yoga	COMBO:1.3.1.4.1.3.11	hierarchy_backoff:ancestor=1.3.1.4.1.3:distance=1	narrow_to_parent
+COMBO:1.3.1.4.1.3.12	UMLS:C1883583	Yoga Therapy	0.72	hierarchy_backoff_mapping	1.3.1.4.1.3.12	Chair_Yoga	COMBO:1.3.1.4.1.3.12	hierarchy_backoff:ancestor=1.3.1.4.1.3:distance=1	narrow_to_parent
+COMBO:1.3.1.4.1.3.13	UMLS:C1883583	Yoga Therapy	0.72	hierarchy_backoff_mapping	1.3.1.4.1.3.13	Sivananda_Yoga	COMBO:1.3.1.4.1.3.13	hierarchy_backoff:ancestor=1.3.1.4.1.3:distance=1	narrow_to_parent
+COMBO:1.3.1.4.1.3.14	UMLS:C1883583	Yoga Therapy	0.72	hierarchy_backoff_mapping	1.3.1.4.1.3.14	Bhakti_Yoga	COMBO:1.3.1.4.1.3.14	hierarchy_backoff:ancestor=1.3.1.4.1.3:distance=1	narrow_to_parent
+COMBO:1.3.1.4.1.3.15	UMLS:C1883583	Yoga Therapy	0.72	hierarchy_backoff_mapping	1.3.1.4.1.3.15	Tantra_Yoga	COMBO:1.3.1.4.1.3.15	hierarchy_backoff:ancestor=1.3.1.4.1.3:distance=1	narrow_to_parent
+COMBO:1.3.1.4.1.3.16	UMLS:C1883583	Yoga Therapy	0.72	hierarchy_backoff_mapping	1.3.1.4.1.3.16	Vinyasa_Yoga	COMBO:1.3.1.4.1.3.16	hierarchy_backoff:ancestor=1.3.1.4.1.3:distance=1	narrow_to_parent
+COMBO:1.3.1.4.1.3.17	UMLS:C1883583	Yoga Therapy	0.72	hierarchy_backoff_mapping	1.3.1.4.1.3.17	Creative_Yoga	COMBO:1.3.1.4.1.3.17	hierarchy_backoff:ancestor=1.3.1.4.1.3:distance=1	narrow_to_parent
+COMBO:1.3.1.4.1.3.18	UMLS:C1883583	Yoga Therapy	0.72	hierarchy_backoff_mapping	1.3.1.4.1.3.18	Relaxing_Yoga	COMBO:1.3.1.4.1.3.18	hierarchy_backoff:ancestor=1.3.1.4.1.3:distance=1	narrow_to_parent
+COMBO:1.3.1.4.1.3.19	UMLS:C1883583	Yoga Therapy	0.72	hierarchy_backoff_mapping	1.3.1.4.1.3.19	Power_Yoga	COMBO:1.3.1.4.1.3.19	hierarchy_backoff:ancestor=1.3.1.4.1.3:distance=1	narrow_to_parent
+COMBO:1.3.1.4.1.3.20	UMLS:C1883583	Yoga Therapy	0.72	hierarchy_backoff_mapping	1.3.1.4.1.3.20	Iyengar_Yoga	COMBO:1.3.1.4.1.3.20	hierarchy_backoff:ancestor=1.3.1.4.1.3:distance=1	narrow_to_parent
+COMBO:1.3.1.4.1.3.21	UMLS:C1883583	Yoga Therapy	0.72	hierarchy_backoff_mapping	1.3.1.4.1.3.21	Karma_Yoga	COMBO:1.3.1.4.1.3.21	hierarchy_backoff:ancestor=1.3.1.4.1.3:distance=1	narrow_to_parent
+COMBO:1.3.1.4.1.3.22	UMLS:C1883583	Yoga Therapy	0.72	hierarchy_backoff_mapping	1.3.1.4.1.3.22	Jinana_Yoga	COMBO:1.3.1.4.1.3.22	hierarchy_backoff:ancestor=1.3.1.4.1.3:distance=1	narrow_to_parent
+COMBO:1.3.1.4.1.3.23	UMLS:C1883583	Yoga Therapy	0.72	hierarchy_backoff_mapping	1.3.1.4.1.3.23	Sahaj_Yoga	COMBO:1.3.1.4.1.3.23	hierarchy_backoff:ancestor=1.3.1.4.1.3:distance=1	narrow_to_parent
+COMBO:1.3.1.4.1.3.24	UMLS:C1883583	Yoga Therapy	0.72	hierarchy_backoff_mapping	1.3.1.4.1.3.24	Hatha_Yoga	COMBO:1.3.1.4.1.3.24	hierarchy_backoff:ancestor=1.3.1.4.1.3:distance=1	narrow_to_parent
+COMBO:1.3.1.4.1.3.25	UMLS:C1883583	Yoga Therapy	0.72	hierarchy_backoff_mapping	1.3.1.4.1.3.25	Yoga_Nidra	COMBO:1.3.1.4.1.3.25	hierarchy_backoff:ancestor=1.3.1.4.1.3:distance=1	narrow_to_parent
+COMBO:1.3.1.4.1.4	MESH:D005081	Exercise Therapy	0.66	hierarchy_backoff_mapping	1.3.1.4.1.4	Qigong_Therapy	COMBO:1.3.1.4.1.4	hierarchy_backoff:ancestor=1.3.1.4:distance=2	narrow_to_parent
+COMBO:1.3.1.4.1.4.1	MESH:D005081	Exercise Therapy	0.6	hierarchy_backoff_mapping	1.3.1.4.1.4.1	Hua_Gong	COMBO:1.3.1.4.1.4.1	hierarchy_backoff:ancestor=1.3.1.4:distance=3	narrow_to_parent
+COMBO:1.3.1.4.1.4.2	MESH:D005081	Exercise Therapy	0.6	hierarchy_backoff_mapping	1.3.1.4.1.4.2	Medical_Qigong	COMBO:1.3.1.4.1.4.2	hierarchy_backoff:ancestor=1.3.1.4:distance=3	narrow_to_parent
+COMBO:1.3.1.4.1.4.2.1	MESH:D005081	Exercise Therapy	0.55	hierarchy_backoff_mapping	1.3.1.4.1.4.2.1	External_Qi_Gong_Therapy	COMBO:1.3.1.4.1.4.2.1	hierarchy_backoff:ancestor=1.3.1.4:distance=4	narrow_to_parent
+COMBO:1.3.1.4.1.4.2.2	MESH:D005081	Exercise Therapy	0.55	hierarchy_backoff_mapping	1.3.1.4.1.4.2.2	Dongeui_Qigong	COMBO:1.3.1.4.1.4.2.2	hierarchy_backoff:ancestor=1.3.1.4:distance=4	narrow_to_parent
+COMBO:1.3.1.4.1.4.2.3	MESH:D005081	Exercise Therapy	0.55	hierarchy_backoff_mapping	1.3.1.4.1.4.2.3	Guolin_Qigong	COMBO:1.3.1.4.1.4.2.3	hierarchy_backoff:ancestor=1.3.1.4:distance=4	narrow_to_parent
+COMBO:1.3.1.4.1.4.2.4	MESH:D005081	Exercise Therapy	0.55	hierarchy_backoff_mapping	1.3.1.4.1.4.2.4	Qigong_Healer	COMBO:1.3.1.4.1.4.2.4	hierarchy_backoff:ancestor=1.3.1.4:distance=4	narrow_to_parent
+COMBO:1.3.1.4.1.4.3	MESH:D005081	Exercise Therapy	0.6	hierarchy_backoff_mapping	1.3.1.4.1.4.3	Chan_Mi_Gong	COMBO:1.3.1.4.1.4.3	hierarchy_backoff:ancestor=1.3.1.4:distance=3	narrow_to_parent
+COMBO:1.3.1.4.1.4.4	MESH:D005081	Exercise Therapy	0.6	hierarchy_backoff_mapping	1.3.1.4.1.4.4	Yi_Jia_Gong	COMBO:1.3.1.4.1.4.4	hierarchy_backoff:ancestor=1.3.1.4:distance=3	narrow_to_parent
+COMBO:1.3.1.4.1.4.5	MESH:D005081	Exercise Therapy	0.6	hierarchy_backoff_mapping	1.3.1.4.1.4.5	Biyun_Qi_Gong	COMBO:1.3.1.4.1.4.5	hierarchy_backoff:ancestor=1.3.1.4:distance=3	narrow_to_parent
+COMBO:1.3.1.4.1.4.6	MESH:D005081	Exercise Therapy	0.6	hierarchy_backoff_mapping	1.3.1.4.1.4.6	Daoyin_Qi_Gong	COMBO:1.3.1.4.1.4.6	hierarchy_backoff:ancestor=1.3.1.4:distance=3	narrow_to_parent
+COMBO:1.3.1.4.1.4.7	MESH:D005081	Exercise Therapy	0.6	hierarchy_backoff_mapping	1.3.1.4.1.4.7	Qi_Gong_Yangsheng	COMBO:1.3.1.4.1.4.7	hierarchy_backoff:ancestor=1.3.1.4:distance=3	narrow_to_parent
+COMBO:1.3.1.4.1.4.8	MESH:D005081	Exercise Therapy	0.6	hierarchy_backoff_mapping	1.3.1.4.1.4.8	Baduanjin_Qi_Gong	COMBO:1.3.1.4.1.4.8	hierarchy_backoff:ancestor=1.3.1.4:distance=3	narrow_to_parent
+COMBO:1.3.1.4.1.4.9	MESH:D005081	Exercise Therapy	0.6	hierarchy_backoff_mapping	1.3.1.4.1.4.9	Five_Animals_Qi_Gong	COMBO:1.3.1.4.1.4.9	hierarchy_backoff:ancestor=1.3.1.4:distance=3	narrow_to_parent
+COMBO:1.3.1.4.3	MESH:D005081	Exercise Therapy	0.72	hierarchy_backoff_mapping	1.3.1.4.3	Aikido	COMBO:1.3.1.4.3	hierarchy_backoff:ancestor=1.3.1.4:distance=1	narrow_to_parent
+COMBO:1.3.1.4.4	MESH:D005081	Exercise Therapy	0.72	hierarchy_backoff_mapping	1.3.1.4.4	Motor_Control_Exercise	COMBO:1.3.1.4.4	hierarchy_backoff:ancestor=1.3.1.4:distance=1	narrow_to_parent
+COMBO:1.3.1.4.5	MESH:D005081	Exercise Therapy	0.72	hierarchy_backoff_mapping	1.3.1.4.5	Facial_Exercise	COMBO:1.3.1.4.5	hierarchy_backoff:ancestor=1.3.1.4:distance=1	narrow_to_parent
+COMBO:1.3.1.4.5.1	MESH:D005081	Exercise Therapy	0.66	hierarchy_backoff_mapping	1.3.1.4.5.1	Face_Yoga	COMBO:1.3.1.4.5.1	hierarchy_backoff:ancestor=1.3.1.4:distance=2	narrow_to_parent
+COMBO:1.3.1.4.5.2	MESH:D005081	Exercise Therapy	0.66	hierarchy_backoff_mapping	1.3.1.4.5.2	Facial_Resistance_Training	COMBO:1.3.1.4.5.2	hierarchy_backoff:ancestor=1.3.1.4:distance=2	narrow_to_parent
+COMBO:1.3.1.4.5.3	MESH:D005081	Exercise Therapy	0.66	hierarchy_backoff_mapping	1.3.1.4.5.3	Face_Shaping	COMBO:1.3.1.4.5.3	hierarchy_backoff:ancestor=1.3.1.4:distance=2	narrow_to_parent
+COMBO:1.3.1.4.6	MESH:D005081	Exercise Therapy	0.72	hierarchy_backoff_mapping	1.3.1.4.6	Guided_Physical_Activity	COMBO:1.3.1.4.6	hierarchy_backoff:ancestor=1.3.1.4:distance=1	narrow_to_parent
+COMBO:1.3.1.5	MESH:D000083626	Psychological Intervention	0.66	hierarchy_backoff_mapping	1.3.1.5	Movement_Education	COMBO:1.3.1.5	hierarchy_backoff:ancestor=1.3:distance=2	narrow_to_parent
+COMBO:1.3.1.5.1.1	UMLS:C0597812	Alexander technique	0.72	hierarchy_backoff_mapping	1.3.1.5.1.1	Alexander_Proprioception	COMBO:1.3.1.5.1.1	hierarchy_backoff:ancestor=1.3.1.5.1:distance=1	narrow_to_parent
+COMBO:1.3.1.5.2	MESH:D000083626	Psychological Intervention	0.6	hierarchy_backoff_mapping	1.3.1.5.2	Aston_Patterning	COMBO:1.3.1.5.2	hierarchy_backoff:ancestor=1.3:distance=3	narrow_to_parent
+COMBO:1.3.1.6	MESH:D000083626	Psychological Intervention	0.66	hierarchy_backoff_mapping	1.3.1.6	Art_of_Living	COMBO:1.3.1.6	hierarchy_backoff:ancestor=1.3:distance=2	narrow_to_parent
+COMBO:1.3.1.7	MESH:D000083626	Psychological Intervention	0.66	hierarchy_backoff_mapping	1.3.1.7	Eurythmy	COMBO:1.3.1.7	hierarchy_backoff:ancestor=1.3:distance=2	narrow_to_parent
+COMBO:1.3.1.8	MESH:D000083626	Psychological Intervention	0.66	hierarchy_backoff_mapping	1.3.1.8	Feldenkrais_Method	COMBO:1.3.1.8	hierarchy_backoff:ancestor=1.3:distance=2	narrow_to_parent
+COMBO:1.3.1.8.1	MESH:D000083626	Psychological Intervention	0.6	hierarchy_backoff_mapping	1.3.1.8.1	Functional_Integration	COMBO:1.3.1.8.1	hierarchy_backoff:ancestor=1.3:distance=3	narrow_to_parent
+COMBO:1.3.1.9	MESH:D000083626	Psychological Intervention	0.66	hierarchy_backoff_mapping	1.3.1.9	Flotation_Therapy	COMBO:1.3.1.9	hierarchy_backoff:ancestor=1.3:distance=2	narrow_to_parent
+COMBO:1.3.1.10	MESH:D000083626	Psychological Intervention	0.66	hierarchy_backoff_mapping	1.3.1.10	Sophrology	COMBO:1.3.1.10	hierarchy_backoff:ancestor=1.3:distance=2	narrow_to_parent
+COMBO:1.3.2.1.1	UMLS:C2717786	Equine_Assisted_Therapy	0.72	hierarchy_backoff_mapping	1.3.2.1.1	Horse_Riding_Therapy	COMBO:1.3.2.1.1	hierarchy_backoff:ancestor=1.3.2.1:distance=1	narrow_to_parent
+COMBO:1.3.2.1.1.1	UMLS:C2717786	Equine_Assisted_Therapy	0.66	hierarchy_backoff_mapping	1.3.2.1.1.1	Psychoeducational_Horseback_Riding	COMBO:1.3.2.1.1.1	hierarchy_backoff:ancestor=1.3.2.1:distance=2	narrow_to_parent
+COMBO:1.3.2.1.1.3	UMLS:C2717786	Equine_Assisted_Therapy	0.66	hierarchy_backoff_mapping	1.3.2.1.1.3	Therapeutic_Horseback_Riding	COMBO:1.3.2.1.1.3	hierarchy_backoff:ancestor=1.3.2.1:distance=2	narrow_to_parent
+COMBO:1.3.2.2	UMLS:C0150133	Animal_Assisted_Therapy	0.72	hierarchy_backoff_mapping	1.3.2.2	Animal_Companionship	COMBO:1.3.2.2	hierarchy_backoff:ancestor=1.3.2:distance=1	narrow_to_parent
+COMBO:1.3.2.4	UMLS:C0150133	Animal_Assisted_Therapy	0.72	hierarchy_backoff_mapping	1.3.2.4	Dolphin_Assisted_Therapy	COMBO:1.3.2.4	hierarchy_backoff:ancestor=1.3.2:distance=1	narrow_to_parent
+COMBO:1.3.2.5	UMLS:C0150133	Animal_Assisted_Therapy	0.72	hierarchy_backoff_mapping	1.3.2.5	Canine_Visitation_Therapy	COMBO:1.3.2.5	hierarchy_backoff:ancestor=1.3.2:distance=1	narrow_to_parent
+COMBO:1.3.2.6	UMLS:C0150133	Animal_Assisted_Therapy	0.72	hierarchy_backoff_mapping	1.3.2.6	Companion_Animal_Therapy	COMBO:1.3.2.6	hierarchy_backoff:ancestor=1.3.2:distance=1	narrow_to_parent
+COMBO:1.3.2.7	UMLS:C0150133	Animal_Assisted_Therapy	0.72	hierarchy_backoff_mapping	1.3.2.7	Dog_Assisted_Therapy	COMBO:1.3.2.7	hierarchy_backoff:ancestor=1.3.2:distance=1	narrow_to_parent
+COMBO:1.3.2.7.1	UMLS:C0150133	Animal_Assisted_Therapy	0.66	hierarchy_backoff_mapping	1.3.2.7.1	Canine_Assisted_Ambulation	COMBO:1.3.2.7.1	hierarchy_backoff:ancestor=1.3.2:distance=2	narrow_to_parent
+COMBO:1.3.2.8	UMLS:C0150133	Animal_Assisted_Therapy	0.72	hierarchy_backoff_mapping	1.3.2.8	Animals_in_Human_Therapy	COMBO:1.3.2.8	hierarchy_backoff:ancestor=1.3.2:distance=1	narrow_to_parent
+COMBO:1.3.4.1.1	MESH:D016500	Color Therapy	0.72	hierarchy_backoff_mapping	1.3.4.1.1	Aura_Soma_Therapy	COMBO:1.3.4.1.1	hierarchy_backoff:ancestor=1.3.4.1:distance=1	narrow_to_parent
+COMBO:1.3.4.3.1	UMLS:C0376547	Aromatherapy	0.72	hierarchy_backoff_mapping	1.3.4.3.1	Scent_Therapy	COMBO:1.3.4.3.1	hierarchy_backoff:ancestor=1.3.4.3:distance=1	narrow_to_parent
+COMBO:1.3.4.5	UMLS:C0969699	Sensory_Art_Therapy	0.72	hierarchy_backoff_mapping	1.3.4.5	Expressive_Therapy	COMBO:1.3.4.5	hierarchy_backoff:ancestor=1.3.4:distance=1	narrow_to_parent
+COMBO:1.3.4.5.1.1.1	UMLS:C0003827	Art_Therapy	0.72	hierarchy_backoff_mapping	1.3.4.5.1.1.1	Pottery	COMBO:1.3.4.5.1.1.1	hierarchy_backoff:ancestor=1.3.4.5.1.1:distance=1	narrow_to_parent
+COMBO:1.3.4.5.1.1.2	UMLS:C0003827	Art_Therapy	0.72	hierarchy_backoff_mapping	1.3.4.5.1.1.2	Chinese_Calligraphy_Therapy	COMBO:1.3.4.5.1.1.2	hierarchy_backoff:ancestor=1.3.4.5.1.1:distance=1	narrow_to_parent
+COMBO:1.3.4.5.1.1.4	UMLS:C0003827	Art_Therapy	0.72	hierarchy_backoff_mapping	1.3.4.5.1.1.4	Mandala_Therapy	COMBO:1.3.4.5.1.1.4	hierarchy_backoff:ancestor=1.3.4.5.1.1:distance=1	narrow_to_parent
+COMBO:1.3.4.5.2.1	MESH:D009147	Music Therapy	0.72	hierarchy_backoff_mapping	1.3.4.5.2.1	Musical_Game	COMBO:1.3.4.5.2.1	hierarchy_backoff:ancestor=1.3.4.5.2:distance=1	narrow_to_parent
+COMBO:1.3.4.5.2.7	MESH:D009147	Music Therapy	0.72	hierarchy_backoff_mapping	1.3.4.5.2.7	Raga_Therapy	COMBO:1.3.4.5.2.7	hierarchy_backoff:ancestor=1.3.4.5.2:distance=1	narrow_to_parent
+COMBO:1.3.5.2.2	UMLS:C0038659	Suggestion	0.72	hierarchy_backoff_mapping	1.3.5.2.2	Post_Hypnotic_Suggestion	COMBO:1.3.5.2.2	hierarchy_backoff:ancestor=1.3.5.2:distance=1	narrow_to_parent
+COMBO:1.3.5.3	UMLS:C3888013	Hypnosis	0.72	hierarchy_backoff_mapping	1.3.5.3	Hypnoanalgesia	COMBO:1.3.5.3	hierarchy_backoff:ancestor=1.3.5:distance=1	narrow_to_parent
+COMBO:1.3.5.5.1	UMLS:C2985297	Hypnobirthing	0.72	hierarchy_backoff_mapping	1.3.5.5.1	Antenatal_Self_Hypnosis	COMBO:1.3.5.5.1	hierarchy_backoff:ancestor=1.3.5.5:distance=1	narrow_to_parent
+COMBO:1.3.5.6	UMLS:C3888013	Hypnosis	0.72	hierarchy_backoff_mapping	1.3.5.6	Cognitive_Hypnotherapy	COMBO:1.3.5.6	hierarchy_backoff:ancestor=1.3.5:distance=1	narrow_to_parent
+COMBO:1.3.6.1	UMLS:C0150627	Imagery_Psychotherapy	0.72	hierarchy_backoff_mapping	1.3.6.1	Relaxation_Mental_Imagery	COMBO:1.3.6.1	hierarchy_backoff:ancestor=1.3.6:distance=1	narrow_to_parent
+COMBO:1.3.7.2.1	UMLS:C0949912	Faith_Healing	0.72	hierarchy_backoff_mapping	1.3.7.2.1	Native_American_Faith_Healing	COMBO:1.3.7.2.1	hierarchy_backoff:ancestor=1.3.7.2:distance=1	narrow_to_parent
+COMBO:1.3.7.4.1	UMLS:C0814263	Meditation_Therapy	0.72	hierarchy_backoff_mapping	1.3.7.4.1	Concentrative_Meditation	COMBO:1.3.7.4.1	hierarchy_backoff:ancestor=1.3.7.4:distance=1	narrow_to_parent
+COMBO:1.3.7.4.1.1	UMLS:C0814263	Meditation_Therapy	0.66	hierarchy_backoff_mapping	1.3.7.4.1.1	Mantra_Meditation	COMBO:1.3.7.4.1.1	hierarchy_backoff:ancestor=1.3.7.4:distance=2	narrow_to_parent
+COMBO:1.3.7.4.1.2	UMLS:C0814263	Meditation_Therapy	0.66	hierarchy_backoff_mapping	1.3.7.4.1.2	Zen_Meditation	COMBO:1.3.7.4.1.2	hierarchy_backoff:ancestor=1.3.7.4:distance=2	narrow_to_parent
+COMBO:1.3.7.4.1.3	UMLS:C0814263	Meditation_Therapy	0.66	hierarchy_backoff_mapping	1.3.7.4.1.3	Breath_Medication	COMBO:1.3.7.4.1.3	hierarchy_backoff:ancestor=1.3.7.4:distance=2	narrow_to_parent
+COMBO:1.3.7.4.1.4	UMLS:C0814263	Meditation_Therapy	0.66	hierarchy_backoff_mapping	1.3.7.4.1.4	Guided_Medication	COMBO:1.3.7.4.1.4	hierarchy_backoff:ancestor=1.3.7.4:distance=2	narrow_to_parent
+COMBO:1.3.7.4.2.3	UMLS:C5891058	Mindfulness_Meditation	0.72	hierarchy_backoff_mapping	1.3.7.4.2.3	Body_Scanning_Meditation	COMBO:1.3.7.4.2.3	hierarchy_backoff:ancestor=1.3.7.4.2:distance=1	narrow_to_parent
+COMBO:1.3.7.4.2.4	UMLS:C5891058	Mindfulness_Meditation	0.72	hierarchy_backoff_mapping	1.3.7.4.2.4	Mindfulness_Based_Stress_Reduction_Meditation	COMBO:1.3.7.4.2.4	hierarchy_backoff:ancestor=1.3.7.4.2:distance=1	narrow_to_parent
+COMBO:1.3.7.4.2.4.1	UMLS:C5891058	Mindfulness_Meditation	0.66	hierarchy_backoff_mapping	1.3.7.4.2.4.1	Cognitive_Behavioral_and_Mindfulness_Based_Stress_Reduction	COMBO:1.3.7.4.2.4.1	hierarchy_backoff:ancestor=1.3.7.4.2:distance=2	narrow_to_parent
+COMBO:1.3.7.4.2.5	UMLS:C5891058	Mindfulness_Meditation	0.72	hierarchy_backoff_mapping	1.3.7.4.2.5	Walking_Medication	COMBO:1.3.7.4.2.5	hierarchy_backoff:ancestor=1.3.7.4.2:distance=1	narrow_to_parent
+COMBO:1.3.7.4.2.6	UMLS:C5891058	Mindfulness_Meditation	0.72	hierarchy_backoff_mapping	1.3.7.4.2.6	Mindfulness_Based_Relapse_Prevention	COMBO:1.3.7.4.2.6	hierarchy_backoff:ancestor=1.3.7.4.2:distance=1	narrow_to_parent
+COMBO:1.3.7.4.2.7	UMLS:C5891058	Mindfulness_Meditation	0.72	hierarchy_backoff_mapping	1.3.7.4.2.7	Adapted_Mindfulness_Based_Intervention	COMBO:1.3.7.4.2.7	hierarchy_backoff:ancestor=1.3.7.4.2:distance=1	narrow_to_parent
+COMBO:1.3.7.4.2.8	UMLS:C5891058	Mindfulness_Meditation	0.72	hierarchy_backoff_mapping	1.3.7.4.2.8	Mindfulness_and_Acceptance_Based_Group_Therapy	COMBO:1.3.7.4.2.8	hierarchy_backoff:ancestor=1.3.7.4.2:distance=1	narrow_to_parent
+COMBO:1.3.7.4.2.9	UMLS:C5891058	Mindfulness_Meditation	0.72	hierarchy_backoff_mapping	1.3.7.4.2.9	Mindfulness_Awareness_Practice	COMBO:1.3.7.4.2.9	hierarchy_backoff:ancestor=1.3.7.4.2:distance=1	narrow_to_parent
+COMBO:1.3.7.4.2.11	UMLS:C5891058	Mindfulness_Meditation	0.72	hierarchy_backoff_mapping	1.3.7.4.2.11	Mindfulness_Based_Alzheimer_Stimulation	COMBO:1.3.7.4.2.11	hierarchy_backoff:ancestor=1.3.7.4.2:distance=1	narrow_to_parent
+COMBO:1.3.7.4.2.12	UMLS:C5891058	Mindfulness_Meditation	0.72	hierarchy_backoff_mapping	1.3.7.4.2.12	Mindfulness_Based_Exposure_Therapy	COMBO:1.3.7.4.2.12	hierarchy_backoff:ancestor=1.3.7.4.2:distance=1	narrow_to_parent
+COMBO:1.3.7.4.2.14	UMLS:C5891058	Mindfulness_Meditation	0.72	hierarchy_backoff_mapping	1.3.7.4.2.14	Mindfulness_Based_Resilience_Training	COMBO:1.3.7.4.2.14	hierarchy_backoff:ancestor=1.3.7.4.2:distance=1	narrow_to_parent
+COMBO:1.3.7.4.2.15	UMLS:C5891058	Mindfulness_Meditation	0.72	hierarchy_backoff_mapping	1.3.7.4.2.15	Mindfulness_Based_Blood_Pressure_Reduction	COMBO:1.3.7.4.2.15	hierarchy_backoff:ancestor=1.3.7.4.2:distance=1	narrow_to_parent
+COMBO:1.3.7.4.2.16	UMLS:C5891058	Mindfulness_Meditation	0.72	hierarchy_backoff_mapping	1.3.7.4.2.16	Mindfulness_Based_College	COMBO:1.3.7.4.2.16	hierarchy_backoff:ancestor=1.3.7.4.2:distance=1	narrow_to_parent
+COMBO:1.3.7.4.2.17	UMLS:C5891058	Mindfulness_Meditation	0.72	hierarchy_backoff_mapping	1.3.7.4.2.17	Mindful_Self_Compassiion	COMBO:1.3.7.4.2.17	hierarchy_backoff:ancestor=1.3.7.4.2:distance=1	narrow_to_parent
+COMBO:1.3.7.4.2.18	UMLS:C5891058	Mindfulness_Meditation	0.72	hierarchy_backoff_mapping	1.3.7.4.2.18	Mindfulness_Performance_Enhanncement_Awareness_and_Knowledge	COMBO:1.3.7.4.2.18	hierarchy_backoff:ancestor=1.3.7.4.2:distance=1	narrow_to_parent
+COMBO:1.3.7.4.3	UMLS:C0814263	Meditation_Therapy	0.72	hierarchy_backoff_mapping	1.3.7.4.3	Vipassana_Meditation	COMBO:1.3.7.4.3	hierarchy_backoff:ancestor=1.3.7.4:distance=1	narrow_to_parent
+COMBO:1.3.7.4.4	UMLS:C0814263	Meditation_Therapy	0.72	hierarchy_backoff_mapping	1.3.7.4.4	Analytical_Meditation	COMBO:1.3.7.4.4	hierarchy_backoff:ancestor=1.3.7.4:distance=1	narrow_to_parent
+COMBO:1.3.7.4.5	UMLS:C0814263	Meditation_Therapy	0.72	hierarchy_backoff_mapping	1.3.7.4.5	Theravada_Meditation	COMBO:1.3.7.4.5	hierarchy_backoff:ancestor=1.3.7.4:distance=1	narrow_to_parent
+COMBO:1.3.7.4.6	UMLS:C0814263	Meditation_Therapy	0.72	hierarchy_backoff_mapping	1.3.7.4.6	Heartfulness_Meditation	COMBO:1.3.7.4.6	hierarchy_backoff:ancestor=1.3.7.4:distance=1	narrow_to_parent
+COMBO:1.3.7.4.7	UMLS:C0814263	Meditation_Therapy	0.72	hierarchy_backoff_mapping	1.3.7.4.7	Compassion_Based_Meditation	COMBO:1.3.7.4.7	hierarchy_backoff:ancestor=1.3.7.4:distance=1	narrow_to_parent
+COMBO:1.3.7.4.8	UMLS:C0814263	Meditation_Therapy	0.72	hierarchy_backoff_mapping	1.3.7.4.8	Loving_Kindness_Meditation	COMBO:1.3.7.4.8	hierarchy_backoff:ancestor=1.3.7.4:distance=1	narrow_to_parent
+COMBO:1.3.7.7	UMLS:C0679674	Spiritual_Therapy	0.72	hierarchy_backoff_mapping	1.3.7.7	Shamanic_Healing	COMBO:1.3.7.7	hierarchy_backoff:ancestor=1.3.7:distance=1	narrow_to_parent
+COMBO:1.3.7.9	UMLS:C0679674	Spiritual_Therapy	0.72	hierarchy_backoff_mapping	1.3.7.9	Noetic_Therapy	COMBO:1.3.7.9	hierarchy_backoff:ancestor=1.3.7:distance=1	narrow_to_parent
+COMBO:1.3.7.10	UMLS:C0679674	Spiritual_Therapy	0.72	hierarchy_backoff_mapping	1.3.7.10	Divining	COMBO:1.3.7.10	hierarchy_backoff:ancestor=1.3.7:distance=1	narrow_to_parent
+COMBO:1.3.7.12	UMLS:C0679674	Spiritual_Therapy	0.72	hierarchy_backoff_mapping	1.3.7.12	Sound_Healing	COMBO:1.3.7.12	hierarchy_backoff:ancestor=1.3.7:distance=1	narrow_to_parent
+COMBO:1.3.8.2.1	MESH:D019341	Aromatherapy	0.72	hierarchy_backoff_mapping	1.3.8.2.1	Scent_Therapy	COMBO:1.3.8.2.1	hierarchy_backoff:ancestor=1.3.8.2:distance=1	narrow_to_parent
+COMBO:1.3.8.3	UMLS:C1883174	Stress_Management_Therapy	0.72	hierarchy_backoff_mapping	1.3.8.3	Mindfulness_Based_Stress_Reduction_Meditation	COMBO:1.3.8.3	hierarchy_backoff:ancestor=1.3.8:distance=1	narrow_to_parent
+COMBO:1.3.8.3.1	UMLS:C1883174	Stress_Management_Therapy	0.66	hierarchy_backoff_mapping	1.3.8.3.1	Cognitive_Behavioral_and_Mindfulness_Based_Stress_Reduction	COMBO:1.3.8.3.1	hierarchy_backoff:ancestor=1.3.8:distance=2	narrow_to_parent
+COMBO:1.3.10.3	UMLS:C0033968	Psychotherapy	0.72	hierarchy_backoff_mapping	1.3.10.3	Body_Psychotherapy	COMBO:1.3.10.3	hierarchy_backoff:ancestor=1.3.10:distance=1	narrow_to_parent
+COMBO:1.3.10.4.3	UMLS:C0010210	Counseling	0.72	hierarchy_backoff_mapping	1.3.10.4.3	Biographical_Counseling	COMBO:1.3.10.4.3	hierarchy_backoff:ancestor=1.3.10.4:distance=1	narrow_to_parent
+COMBO:1.3.10.9	UMLS:C0033968	Psychotherapy	0.72	hierarchy_backoff_mapping	1.3.10.9	Positive_Self_Talk	COMBO:1.3.10.9	hierarchy_backoff:ancestor=1.3.10:distance=1	narrow_to_parent
+COMBO:1.3.10.10	UMLS:C0033968	Psychotherapy	0.72	hierarchy_backoff_mapping	1.3.10.10	Psychotherapy_Incorporating_Mindfulness	COMBO:1.3.10.10	hierarchy_backoff:ancestor=1.3.10:distance=1	narrow_to_parent
+COMBO:1.3.10.11	UMLS:C0033968	Psychotherapy	0.72	hierarchy_backoff_mapping	1.3.10.11	Psychotherapy_Incorporating_Spirituality	COMBO:1.3.10.11	hierarchy_backoff:ancestor=1.3.10:distance=1	narrow_to_parent
+COMBO:1.3.11	MESH:D000083626	Psychological Intervention	0.72	hierarchy_backoff_mapping	1.3.11	Thought_Field_Therapy	COMBO:1.3.11	hierarchy_backoff:ancestor=1.3:distance=1	narrow_to_parent
+COMBO:1.3.13.1	UMLS:C2981153	Focusing	0.72	hierarchy_backoff_mapping	1.3.13.1	Attentional_Focus	COMBO:1.3.13.1	hierarchy_backoff:ancestor=1.3.13:distance=1	narrow_to_parent
+COMBO:1.3.13.3	UMLS:C2981153	Focusing	0.72	hierarchy_backoff_mapping	1.3.13.3	Body_State_Focusing	COMBO:1.3.13.3	hierarchy_backoff:ancestor=1.3.13:distance=1	narrow_to_parent
+COMBO:1.3.13.4	UMLS:C2981153	Focusing	0.72	hierarchy_backoff_mapping	1.3.13.4	Attentional_Focus_and_Symptom_Management_Intervention	COMBO:1.3.13.4	hierarchy_backoff:ancestor=1.3.13:distance=1	narrow_to_parent
+COMBO:1.3.13.5	UMLS:C2981153	Focusing	0.72	hierarchy_backoff_mapping	1.3.13.5	Internal_Focusing	COMBO:1.3.13.5	hierarchy_backoff:ancestor=1.3.13:distance=1	narrow_to_parent
+COMBO:1.3.13.6	UMLS:C2981153	Focusing	0.72	hierarchy_backoff_mapping	1.3.13.6	Focus_on_Love_and_Gratitude	COMBO:1.3.13.6	hierarchy_backoff:ancestor=1.3.13:distance=1	narrow_to_parent
+COMBO:1.3.13.7	UMLS:C2981153	Focusing	0.72	hierarchy_backoff_mapping	1.3.13.7	External_Focusing	COMBO:1.3.13.7	hierarchy_backoff:ancestor=1.3.13:distance=1	narrow_to_parent
+COMBO:1.3.13.8	UMLS:C2981153	Focusing	0.72	hierarchy_backoff_mapping	1.3.13.8	Interoceptive_Awareness	COMBO:1.3.13.8	hierarchy_backoff:ancestor=1.3.13:distance=1	narrow_to_parent
+COMBO:1.3.13.9	UMLS:C2981153	Focusing	0.72	hierarchy_backoff_mapping	1.3.13.9	Mindful_Awareness_in_Body_Oriented_Therapy	COMBO:1.3.13.9	hierarchy_backoff:ancestor=1.3.13:distance=1	narrow_to_parent
+COMBO:1.3.15	MESH:D000083626	Psychological Intervention	0.72	hierarchy_backoff_mapping	1.3.15	Environmental_Therapy	COMBO:1.3.15	hierarchy_backoff:ancestor=1.3:distance=1	narrow_to_parent
+COMBO:1.3.18	MESH:D000083626	Psychological Intervention	0.72	hierarchy_backoff_mapping	1.3.18	Sound_Therapy	COMBO:1.3.18	hierarchy_backoff:ancestor=1.3:distance=1	narrow_to_parent
+COMBO:2.2.2.10	UMLS:C0019240	Herb	0.72	hierarchy_backoff_mapping	2.2.2.10	Tea	COMBO:2.2.2.10	hierarchy_backoff:ancestor=2.2.2:distance=1	narrow_to_parent
+COMBO:2.2.2.12	UMLS:C0019240	Herb	0.72	hierarchy_backoff_mapping	2.2.2.12	Licorice_Root	COMBO:2.2.2.12	hierarchy_backoff:ancestor=2.2.2:distance=1	narrow_to_parent
+COMBO:2.2.2.26	UMLS:C0019240	Herb	0.72	hierarchy_backoff_mapping	2.2.2.26	Chamomile	COMBO:2.2.2.26	hierarchy_backoff:ancestor=2.2.2:distance=1	narrow_to_parent
+COMBO:2.2.2.27	UMLS:C0019240	Herb	0.72	hierarchy_backoff_mapping	2.2.2.27	Chasteberry	COMBO:2.2.2.27	hierarchy_backoff:ancestor=2.2.2:distance=1	narrow_to_parent
+COMBO:2.2.2.28	UMLS:C0019240	Herb	0.72	hierarchy_backoff_mapping	2.2.2.28	Echinacea	COMBO:2.2.2.28	hierarchy_backoff:ancestor=2.2.2:distance=1	narrow_to_parent
+COMBO:2.2.2.35	UMLS:C0019240	Herb	0.72	hierarchy_backoff_mapping	2.2.2.35	Sage	COMBO:2.2.2.35	hierarchy_backoff:ancestor=2.2.2:distance=1	narrow_to_parent
+COMBO:2.2.2.36	UMLS:C0019240	Herb	0.72	hierarchy_backoff_mapping	2.2.2.36	St	COMBO:2.2.2.36	hierarchy_backoff:ancestor=2.2.2:distance=1	narrow_to_parent
+COMBO:2.2.2.37	UMLS:C0019240	Herb	0.72	hierarchy_backoff_mapping	2.2.2.37	Valerian	COMBO:2.2.2.37	hierarchy_backoff:ancestor=2.2.2:distance=1	narrow_to_parent
+COMBO:2.2.2.38	UMLS:C0019240	Herb	0.72	hierarchy_backoff_mapping	2.2.2.38	Cat	COMBO:2.2.2.38	hierarchy_backoff:ancestor=2.2.2:distance=1	narrow_to_parent
+COMBO:3.4.4	UMLS:C0025131	Traditional_Medicine	0.72	hierarchy_backoff_mapping	3.4.4	Traditional_Indian_Medicine	COMBO:3.4.4	hierarchy_backoff:ancestor=3.4:distance=1	narrow_to_parent
+COMBO:3.4.5.6	UMLS:C0025129	Traditional_East_Asian_Medicine	0.72	hierarchy_backoff_mapping	3.4.5.6	Traditional_Japanese_Medicine	COMBO:3.4.5.6	hierarchy_backoff:ancestor=3.4.5:distance=1	narrow_to_parent
