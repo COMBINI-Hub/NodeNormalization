@@ -4,6 +4,7 @@ from __future__ import annotations
 import argparse
 import csv
 import html
+import json
 import os
 import re
 import socket
@@ -347,13 +348,41 @@ def read_semmed_edges(path: Path) -> List[dict]:
     rows = []
     with path.open(newline="", encoding="utf-8") as fh:
         reader = csv.DictReader(fh, delimiter="\t")
+        has_expected_header = bool(reader.fieldnames) and {
+            ":START_ID",
+            ":END_ID",
+            ":TYPE",
+        }.issubset(set(reader.fieldnames or []))
+
+        if has_expected_header:
+            for row in reader:
+                rows.append(
+                    {
+                        "start_id": row[":START_ID"],
+                        "end_id": row[":END_ID"],
+                        "predicate": row[":TYPE"],
+                        "frequency": int(float(row.get("frequency%", "0") or 0)),
+                    }
+                )
+            return rows
+
+    # Fallback for headerless TSV (start_id, end_id, predicate, frequency)
+    with path.open(newline="", encoding="utf-8") as fh:
+        reader = csv.reader(fh, delimiter="\t")
         for row in reader:
+            if len(row) < 3:
+                continue
+            freq_raw = row[3] if len(row) > 3 else "0"
+            try:
+                frequency = int(float(freq_raw or 0))
+            except ValueError:
+                frequency = 0
             rows.append(
                 {
-                    "start_id": row[":START_ID"],
-                    "end_id": row[":END_ID"],
-                    "predicate": row[":TYPE"],
-                    "frequency": int(float(row.get("frequency%", "0") or 0)),
+                    "start_id": row[0],
+                    "end_id": row[1],
+                    "predicate": row[2],
+                    "frequency": frequency,
                 }
             )
     return rows
@@ -390,6 +419,45 @@ def read_semmed_concepts(path: Path) -> List[dict]:
     return rows
 
 
+def read_semmed_source_nodes(paths: List[Path]) -> List[dict]:
+    """
+    Read raw SemMed concept node rows (CUI/NAME/SEMTYPE/TEXT/...) from one or
+    more CSV files and return a deduplicated metadata list keyed by semmed_id.
+    """
+    by_id: Dict[str, dict] = {}
+    for path in paths:
+        if not path.exists():
+            continue
+        with path.open(newline="", encoding="utf-8", errors="replace") as fh:
+            reader = csv.reader(fh)
+            for row in reader:
+                if len(row) < 3:
+                    continue
+                semmed_id = (row[0] or "").strip()
+                if not semmed_id or semmed_id in by_id:
+                    continue
+
+                name = (row[1] or "").strip()
+                semtype = (row[2] or "").strip()
+                text = (row[4] or "").strip() if len(row) > 4 else ""
+                score_raw = (row[9] or "").strip() if len(row) > 9 else ""
+                try:
+                    score = int(float(score_raw)) if score_raw else None
+                except ValueError:
+                    score = None
+
+                primary_type = f"semmed:{semtype}" if semtype else None
+                by_id[semmed_id] = {
+                    "semmed_id": semmed_id,
+                    "name": name or None,
+                    "text": text or None,
+                    "semtype": semtype or None,
+                    "primary_type": primary_type,
+                    "score": score,
+                }
+    return list(by_id.values())
+
+
 def read_ikraph_edges(path: Path) -> List[dict]:
     rows = []
     with path.open(newline="", encoding="utf-8") as fh:
@@ -419,6 +487,209 @@ def read_ikraph_edges(path: Path) -> List[dict]:
     return rows
 
 
+def normalize_identifier(value: str) -> str:
+    raw = (value or "").strip()
+    if not raw:
+        return ""
+    if ":" not in raw:
+        return raw.upper()
+    prefix, suffix = raw.split(":", 1)
+    return f"{prefix.upper()}:{suffix.upper()}"
+
+
+def normalize_preferred_name_key(value: str) -> str:
+    v = (value or "").strip().lower()
+    v = re.sub(r"[^a-z0-9]+", " ", v)
+    return re.sub(r"\s+", " ", v).strip()
+
+
+def choose_merged_on_identifier(shared_identifiers: List[str]) -> str:
+    priority_prefixes = [
+        "UMLS:",
+        "MESH:",
+        "DRUGBANK:",
+        "RXCUI:",
+        "PUBCHEM:",
+        "NCBITAXON:",
+    ]
+    for pref in priority_prefixes:
+        for value in shared_identifiers:
+            if value.startswith(pref):
+                return value
+    return shared_identifiers[0] if shared_identifiers else ""
+
+
+def build_ikraph_node_metadata(ikraph_edges: List[dict]) -> Dict[str, dict]:
+    by_id: Dict[str, dict] = {}
+    for row in ikraph_edges:
+        node_one_id = (row.get("node_one_id") or "").strip()
+        node_two_id = (row.get("node_two_id") or "").strip()
+
+        if node_one_id and node_one_id not in by_id:
+            by_id[node_one_id] = {
+                "id": node_one_id,
+                "name": (row.get("node_one_name") or "").strip() or None,
+                "type": (row.get("node_one_type") or "").strip() or None,
+                "subtype": (row.get("node_one_subtype") or "").strip() or None,
+            }
+        if node_two_id and node_two_id not in by_id:
+            by_id[node_two_id] = {
+                "id": node_two_id,
+                "name": (row.get("node_two_name") or "").strip() or None,
+                "type": (row.get("node_two_type") or "").strip() or None,
+                "subtype": (row.get("node_two_subtype") or "").strip() or None,
+            }
+    return by_id
+
+
+def write_merged_preview_file(
+    output_path: Path,
+    seeds: List[dict],
+    norm_links: List[dict],
+    semmed_concepts: List[dict],
+    ikraph_edges: List[dict],
+    preview_mode: str,
+) -> int:
+    seed_by_id = {row["seed_id"]: row for row in seeds}
+    semmed_by_id = {row["semmed_id"]: row for row in semmed_concepts if row.get("semmed_id")}
+    ikraph_meta_by_id = build_ikraph_node_metadata(ikraph_edges)
+
+    norm_terms_by_pair: Dict[tuple, set] = {}
+    for link in norm_links:
+        left_seed_id = link["left_seed_id"]
+        right_seed_id = link["right_seed_id"]
+        left = seed_by_id.get(left_seed_id)
+        right = seed_by_id.get(right_seed_id)
+        if not left or not right:
+            continue
+        if left.get("dataset") == "semmed" and right.get("dataset") == "ikraph":
+            pair = (left_seed_id, right_seed_id)
+        elif left.get("dataset") == "ikraph" and right.get("dataset") == "semmed":
+            pair = (right_seed_id, left_seed_id)
+        else:
+            continue
+        norm_terms_by_pair.setdefault(pair, set()).add(link.get("term", ""))
+
+    pair_to_shared_identifiers: Dict[tuple, set] = {}
+    if preview_mode == "normalization_links":
+        for pair in norm_terms_by_pair:
+            sem_seed = seed_by_id.get(pair[0])
+            ik_seed = seed_by_id.get(pair[1])
+            if not sem_seed or not ik_seed:
+                continue
+            sem_ids_raw = list(sem_seed.get("identifiers") or []) + [sem_seed.get("source_key", "")]
+            ik_ids_raw = list(ik_seed.get("identifiers") or []) + [ik_seed.get("source_key", "")]
+            sem_ids_norm = {normalize_identifier(x) for x in sem_ids_raw if x}
+            ik_ids_norm = {normalize_identifier(x) for x in ik_ids_raw if x}
+            pair_to_shared_identifiers[pair] = sem_ids_norm & ik_ids_norm
+    elif preview_mode == "id_overlap":
+        semmed_seeds = [row for row in seeds if row.get("dataset") == "semmed"]
+        ikraph_seeds = [row for row in seeds if row.get("dataset") == "ikraph"]
+
+        semmed_identifier_to_seed_ids: Dict[str, set] = {}
+        for sem_seed in semmed_seeds:
+            sem_ids_raw = list(sem_seed.get("identifiers") or []) + [sem_seed.get("source_key", "")]
+            sem_ids_norm = {normalize_identifier(x) for x in sem_ids_raw if x}
+            for ident in sem_ids_norm:
+                semmed_identifier_to_seed_ids.setdefault(ident, set()).add(sem_seed["seed_id"])
+
+        ikraph_identifier_to_seed_ids: Dict[str, set] = {}
+        for ik_seed in ikraph_seeds:
+            ik_ids_raw = list(ik_seed.get("identifiers") or []) + [ik_seed.get("source_key", "")]
+            ik_ids_norm = {normalize_identifier(x) for x in ik_ids_raw if x}
+            for ident in ik_ids_norm:
+                ikraph_identifier_to_seed_ids.setdefault(ident, set()).add(ik_seed["seed_id"])
+
+        shared_identifiers = set(semmed_identifier_to_seed_ids.keys()) & set(ikraph_identifier_to_seed_ids.keys())
+        for ident in sorted(shared_identifiers):
+            sem_seed_ids = semmed_identifier_to_seed_ids.get(ident, set())
+            ik_seed_ids = ikraph_identifier_to_seed_ids.get(ident, set())
+            for sem_seed_id in sem_seed_ids:
+                for ik_seed_id in ik_seed_ids:
+                    pair = (sem_seed_id, ik_seed_id)
+                    pair_to_shared_identifiers.setdefault(pair, set()).add(ident)
+    else:
+        raise SystemExit(f"Unsupported merged preview mode: {preview_mode}")
+
+    rows: List[dict] = []
+    for sem_seed_id, ik_seed_id in sorted(pair_to_shared_identifiers.keys()):
+        sem_seed = seed_by_id.get(sem_seed_id)
+        ik_seed = seed_by_id.get(ik_seed_id)
+        if not sem_seed or not ik_seed:
+            continue
+
+        semmed_id_curie = (sem_seed.get("source_key") or "").strip()
+        semmed_id = semmed_id_curie.split(":", 1)[1] if semmed_id_curie.startswith("UMLS:") else semmed_id_curie
+        ikraph_id = (ik_seed.get("source_key") or "").strip()
+
+        shared_identifiers = sorted(pair_to_shared_identifiers.get((sem_seed_id, ik_seed_id), set()))
+        merged_on_identifier = choose_merged_on_identifier(shared_identifiers)
+
+        semmed_payload = semmed_by_id.get(semmed_id, {})
+        ikraph_payload = ikraph_meta_by_id.get(ikraph_id, {})
+
+        sem_combo = set(sem_seed.get("matched_combo_uris") or [])
+        ik_combo = set(ik_seed.get("matched_combo_uris") or [])
+        combo_uri_overlap = sorted(sem_combo & ik_combo)
+        norm_terms = sorted(term for term in norm_terms_by_pair.get((sem_seed_id, ik_seed_id), set()) if term)
+
+        semmed_display_name = (semmed_payload.get("display_name") or "") or (sem_seed.get("terms") or [""])[0]
+        ikraph_display_name = (ikraph_payload.get("name") or "") or (ik_seed.get("terms") or [""])[0]
+        sem_pref_key = normalize_preferred_name_key(semmed_display_name)
+        ik_pref_key = normalize_preferred_name_key(ikraph_display_name)
+        if sem_pref_key and ik_pref_key and sem_pref_key != ik_pref_key:
+            # Guardrail: do not preview a merge when preferred names disagree.
+            continue
+
+        rows.append(
+            {
+                "merge_key": f"{sem_seed['seed_id']}||{ik_seed['seed_id']}",
+                "merge_rule": preview_mode,
+                "normalization_term": norm_terms[0] if norm_terms else "",
+                "normalization_terms": "|".join(norm_terms),
+                "merged_on_identifier": merged_on_identifier,
+                "shared_identifiers": "|".join(shared_identifiers),
+                "semmed_seed_id": sem_seed["seed_id"],
+                "ikraph_seed_id": ik_seed["seed_id"],
+                "semmed_source_key": semmed_id_curie,
+                "ikraph_source_key": ikraph_id,
+                "combo_uri_overlap": "|".join(combo_uri_overlap),
+                "semmed_display_name": semmed_display_name,
+                "ikraph_display_name": ikraph_display_name,
+                "semmed_seed_payload_json": json.dumps(sem_seed, ensure_ascii=True, sort_keys=True),
+                "ikraph_seed_payload_json": json.dumps(ik_seed, ensure_ascii=True, sort_keys=True),
+                "semmed_payload_json": json.dumps(semmed_payload, ensure_ascii=True, sort_keys=True),
+                "ikraph_payload_json": json.dumps(ikraph_payload, ensure_ascii=True, sort_keys=True),
+            }
+        )
+
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+    fieldnames = [
+        "merge_key",
+        "merge_rule",
+        "normalization_term",
+        "normalization_terms",
+        "merged_on_identifier",
+        "shared_identifiers",
+        "semmed_seed_id",
+        "ikraph_seed_id",
+        "semmed_source_key",
+        "ikraph_source_key",
+        "combo_uri_overlap",
+        "semmed_display_name",
+        "ikraph_display_name",
+        "semmed_seed_payload_json",
+        "ikraph_seed_payload_json",
+        "semmed_payload_json",
+        "ikraph_payload_json",
+    ]
+    with output_path.open("w", newline="", encoding="utf-8") as fh:
+        writer = csv.DictWriter(fh, fieldnames=fieldnames, delimiter="\t")
+        writer.writeheader()
+        writer.writerows(rows)
+    return len(rows)
+
+
 def load_to_neo4j(
     driver,
     database: str,
@@ -427,9 +698,13 @@ def load_to_neo4j(
     norm_links: List[dict],
     semmed_edges: List[dict],
     semmed_concepts: List[dict],
+    semmed_source_nodes: List[dict],
     ikraph_edges: List[dict],
     combo_concepts: List[dict],
     batch_size: int,
+    build_merged_preview_nodes: bool,
+    clear_merged_preview_nodes: bool,
+    require_matching_preferred_names_for_preview_merge: bool,
 ):
     with driver.session(database=database) as session:
         session.run(
@@ -454,6 +729,12 @@ def load_to_neo4j(
             """
             CREATE CONSTRAINT ikraph_entity_id IF NOT EXISTS
             FOR (n:IKraphEntity) REQUIRE n.id IS UNIQUE
+            """
+        )
+        session.run(
+            """
+            CREATE CONSTRAINT merged_entity_preview_merge_key IF NOT EXISTS
+            FOR (n:MergedEntityPreview) REQUIRE n.merge_key IS UNIQUE
             """
         )
 
@@ -713,6 +994,29 @@ def load_to_neo4j(
                 rows=batch,
             )
 
+        # Backfill metadata for all SemMed IDs directly from source concept nodes,
+        # including non-CUI/compound IDs that are not present in normalized output.
+        for batch in chunks(semmed_source_nodes, batch_size):
+            session.run(
+                """
+                UNWIND $rows AS row
+                MERGE (e:SemmedEntity {id: row.semmed_id})
+                SET e.source = 'SemMedDB',
+                    e.semtype = coalesce(e.semtype, row.semtype),
+                    e.score = coalesce(e.score, row.score),
+                    e.preferred_name = coalesce(e.preferred_name, row.name, row.text),
+                    e.primary_type = coalesce(e.primary_type, row.primary_type),
+                    e.display_name = CASE
+                        WHEN e.display_name IS NULL OR e.display_name = '' OR e.display_name = e.id
+                          OR e.display_name STARTS WITH 'UMLS:' OR e.display_name STARTS WITH 'SemMed evidence'
+                        THEN coalesce(row.name, row.text, e.display_name, e.id)
+                        ELSE e.display_name
+                    END,
+                    e.updated_at = datetime()
+                """,
+                rows=batch,
+            )
+
         for batch in chunks(ikraph_edges, batch_size):
             session.run(
                 """
@@ -742,6 +1046,135 @@ def load_to_neo4j(
                 """,
                 rows=batch,
             )
+
+        # Replace generic numeric SemMed record labels with contextual labels
+        # derived from adjacent UMLS concept nodes when available.
+        session.run(
+            """
+            MATCH (r:SemmedEntity)
+            WHERE r.entity_type = 'SemMedRecord'
+              AND (r.display_name IS NULL OR r.display_name STARTS WITH 'SemMed record ')
+            OPTIONAL MATCH (r)-[:SEMMED_EDGE]-(c:SemmedEntity)
+            WHERE c.entity_type = 'UMLSConcept' AND c.display_name IS NOT NULL
+            WITH r, collect(DISTINCT c.display_name)[0] AS concept_name
+            SET r.display_name = CASE
+                WHEN concept_name IS NOT NULL THEN 'SemMed evidence: ' + concept_name + ' [' + r.id + ']'
+                ELSE 'SemMed evidence [' + r.id + ']'
+            END,
+            r.updated_at = datetime()
+            """
+        )
+
+        if clear_merged_preview_nodes:
+            session.run(
+                """
+                MATCH (n:MergedEntityPreview)
+                DETACH DELETE n
+                """
+            )
+
+        if build_merged_preview_nodes:
+            # Build non-destructive preview nodes for SemMed/iKraph entities
+            # that share the same canonical id value.
+            if require_matching_preferred_names_for_preview_merge:
+                preview_rows = session.run(
+                    """
+                MATCH (sem:SemmedEntity)
+                MATCH (ik:IKraphEntity {id: sem.id})
+                WITH sem, ik,
+                     toLower(trim(coalesce(sem.preferred_name, sem.display_name, ''))) AS sem_name_key,
+                     toLower(trim(coalesce(ik.name, ik.display_name, ''))) AS ik_name_key
+                WHERE sem_name_key = '' OR ik_name_key = '' OR sem_name_key = ik_name_key
+                RETURN sem.id AS merge_key,
+                       sem.id_curie AS semmed_id_curie,
+                       sem.display_name AS semmed_display_name,
+                       sem.preferred_name AS semmed_preferred_name,
+                       sem.entity_type AS semmed_entity_type,
+                       sem.primary_type AS semmed_primary_type,
+                       sem.types AS semmed_types,
+                       sem.equivalent_identifiers AS semmed_equivalent_identifiers,
+                       sem.equivalent_labels AS semmed_equivalent_labels,
+                       sem.semtype AS semmed_semtype,
+                       sem.score AS semmed_score,
+                       ik.name AS ikraph_name,
+                       ik.display_name AS ikraph_display_name,
+                       ik.type AS ikraph_type,
+                       ik.subtype AS ikraph_subtype,
+                       properties(sem) AS semmed_properties,
+                       properties(ik) AS ikraph_properties
+                """
+                ).data()
+            else:
+                preview_rows = session.run(
+                    """
+                MATCH (sem:SemmedEntity)
+                MATCH (ik:IKraphEntity {id: sem.id})
+                RETURN sem.id AS merge_key,
+                       sem.id_curie AS semmed_id_curie,
+                       sem.display_name AS semmed_display_name,
+                       sem.preferred_name AS semmed_preferred_name,
+                       sem.entity_type AS semmed_entity_type,
+                       sem.primary_type AS semmed_primary_type,
+                       sem.types AS semmed_types,
+                       sem.equivalent_identifiers AS semmed_equivalent_identifiers,
+                       sem.equivalent_labels AS semmed_equivalent_labels,
+                       sem.semtype AS semmed_semtype,
+                       sem.score AS semmed_score,
+                       ik.name AS ikraph_name,
+                       ik.display_name AS ikraph_display_name,
+                       ik.type AS ikraph_type,
+                       ik.subtype AS ikraph_subtype,
+                       properties(sem) AS semmed_properties,
+                       properties(ik) AS ikraph_properties
+                """
+                ).data()
+
+            preview_payloads = []
+            for row in preview_rows:
+                preview_payloads.append(
+                    {
+                        **row,
+                        "merged_on": "id",
+                        "merge_rule": "SemmedEntity.id == IKraphEntity.id",
+                        "semmed_properties_json": json.dumps(row["semmed_properties"], ensure_ascii=True, sort_keys=True),
+                        "ikraph_properties_json": json.dumps(row["ikraph_properties"], ensure_ascii=True, sort_keys=True),
+                    }
+                )
+
+            for batch in chunks(preview_payloads, batch_size):
+                session.run(
+                    """
+                    UNWIND $rows AS row
+                    MATCH (sem:SemmedEntity {id: row.merge_key})
+                    MATCH (ik:IKraphEntity {id: row.merge_key})
+                    MERGE (p:MergedEntityPreview {merge_key: row.merge_key})
+                    SET p.merged_on = row.merged_on,
+                        p.merge_rule = row.merge_rule,
+                        p.display_name = coalesce(row.semmed_display_name, row.ikraph_display_name, row.merge_key),
+                        p.semmed_id = row.merge_key,
+                        p.ikraph_id = row.merge_key,
+                        p.semmed_id_curie = row.semmed_id_curie,
+                        p.semmed_display_name = row.semmed_display_name,
+                        p.semmed_preferred_name = row.semmed_preferred_name,
+                        p.semmed_entity_type = row.semmed_entity_type,
+                        p.semmed_primary_type = row.semmed_primary_type,
+                        p.semmed_types = row.semmed_types,
+                        p.semmed_equivalent_identifiers = row.semmed_equivalent_identifiers,
+                        p.semmed_equivalent_labels = row.semmed_equivalent_labels,
+                        p.semmed_semtype = row.semmed_semtype,
+                        p.semmed_score = row.semmed_score,
+                        p.ikraph_name = row.ikraph_name,
+                        p.ikraph_display_name = row.ikraph_display_name,
+                        p.ikraph_type = row.ikraph_type,
+                        p.ikraph_subtype = row.ikraph_subtype,
+                        p.semmed_properties_json = row.semmed_properties_json,
+                        p.ikraph_properties_json = row.ikraph_properties_json,
+                        p.updated_at = datetime()
+                    MERGE (p)-[:PREVIEWS_SEMMED]->(sem)
+                    MERGE (p)-[:PREVIEWS_IKRAPH]->(ik)
+                    """,
+                    rows=batch,
+                )
 
 
 def clear_graph(driver, database: str, delete_batch: int = 20000) -> int:
@@ -775,6 +1208,9 @@ def get_counts(driver, database: str) -> Dict[str, int]:
         "semmed_edges": "MATCH ()-[r:SEMMED_EDGE]->() RETURN count(r) AS c",
         "ikraph_entities": "MATCH (n:IKraphEntity) RETURN count(n) AS c",
         "ikraph_edges": "MATCH ()-[r:IKRAPH_EDGE]->() RETURN count(r) AS c",
+        "merged_entity_preview_nodes": "MATCH (n:MergedEntityPreview) RETURN count(n) AS c",
+        "merged_entity_preview_semmed_links": "MATCH (:MergedEntityPreview)-[r:PREVIEWS_SEMMED]->(:SemmedEntity) RETURN count(r) AS c",
+        "merged_entity_preview_ikraph_links": "MATCH (:MergedEntityPreview)-[r:PREVIEWS_IKRAPH]->(:IKraphEntity) RETURN count(r) AS c",
     }
     out: Dict[str, int] = {}
     with driver.session(database=database) as session:
@@ -788,7 +1224,14 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--env-file", default="/Users/drshika2/NodeNormalization/.env")
     parser.add_argument("--input-dir", default="/Users/drshika2/NodeNormalization/semmed_ikraph_normalized/combo_subgraph")
     parser.add_argument("--embedding-links-file", default="/Users/drshika2/NodeNormalization/semmed_ikraph_normalized/combo_subgraph/combo_embedding_links.tsv")
+    parser.add_argument(
+        "--include-embedding-links",
+        action="store_true",
+        help="If set, enrich MATCHES_COMBO relationships with embedding provenance/confidence.",
+    )
     parser.add_argument("--semmed-concepts-file", default="/Users/drshika2/NodeNormalization/semmed_ikraph_normalized/combo_subgraph/semmed_concepts_seed_adjacent.tsv")
+    parser.add_argument("--semmed-source-concepts-file", default="/Users/drshika2/neo4jexploration/semmed_data/concept.csv")
+    parser.add_argument("--semmed-source-concepts-backup-file", default="/Users/drshika2/neo4jexploration/semmed_data/concept.csv.backup")
     parser.add_argument("--combo-owl-file", default="/Users/drshika2/NodeNormalization/COMBO_20260115_with_skos.owl")
     parser.add_argument("--combo-cam-mappings-file", default="/Users/drshika2/NodeNormalization/combo_cam_lexicon_mappings.tsv")
     parser.add_argument("--batch-size", type=int, default=2000)
@@ -796,9 +1239,46 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--max-semmed-edges", type=int, default=0, help="Load at most this many SemMed edges (0 = all).")
     parser.add_argument("--max-ikraph-edges", type=int, default=0, help="Load at most this many iKraph edges (0 = all).")
     parser.add_argument(
+        "--edge-scope",
+        choices=["adjacent", "induced"],
+        default="adjacent",
+        help="Which extracted edge files to load (adjacent or induced).",
+    )
+    parser.add_argument(
         "--semmed-concepts-only",
         action="store_true",
         help="Exclude non-concept SemMed nodes by keeping only CUI (C...) SemMed IDs and edges between CUIs.",
+    )
+    parser.add_argument(
+        "--build-merged-preview-nodes",
+        action="store_true",
+        help="Create MergedEntityPreview nodes for SemmedEntity/IKraphEntity pairs with the same id.",
+    )
+    parser.add_argument(
+        "--allow-name-mismatch-preview-merge",
+        action="store_true",
+        help="If set, allow preview merges even when SemMed preferred_name and iKraph name disagree.",
+    )
+    parser.add_argument(
+        "--clear-merged-preview-nodes",
+        action="store_true",
+        help="Delete existing MergedEntityPreview nodes before optional preview generation.",
+    )
+    parser.add_argument(
+        "--merged-preview-file",
+        default="",
+        help="Optional TSV path to write raw merge-preview rows before Neo4j load.",
+    )
+    parser.add_argument(
+        "--merged-preview-mode",
+        choices=["normalization_links", "id_overlap"],
+        default="normalization_links",
+        help="How to generate merge candidates in preview TSV.",
+    )
+    parser.add_argument(
+        "--preview-only",
+        action="store_true",
+        help="Generate raw merge-preview TSV and exit without connecting to Neo4j.",
     )
     parser.add_argument("--clear-existing", action="store_true", help="Delete all existing nodes/relationships before loading.")
     parser.add_argument("--delete-batch-size", type=int, default=20000, help="Batch size for graph clearing when --clear-existing is used.")
@@ -847,32 +1327,53 @@ def main():
     password = os.getenv("NEO4J_PASSWORD")
     database = os.getenv("NEO4J_DATABASE") or "neo4j"
 
-    if not uri or not username or not password:
-        raise SystemExit("Missing one or more required env vars: NEO4J_URI, NEO4J_USERNAME, NEO4J_PASSWORD")
-
-    uri = uri.strip()
-    username = username.strip()
-    password = password.strip()
-    database = database.strip()
-
-    validate_neo4j_uri(uri)
+    if args.preview_only:
+        uri = (uri or "").strip()
+        username = (username or "").strip()
+        password = (password or "").strip()
+        database = (database or "neo4j").strip()
+    else:
+        if not uri or not username or not password:
+            raise SystemExit("Missing one or more required env vars: NEO4J_URI, NEO4J_USERNAME, NEO4J_PASSWORD")
+        uri = uri.strip()
+        username = username.strip()
+        password = password.strip()
+        database = database.strip()
+        validate_neo4j_uri(uri)
 
     input_dir = Path(args.input_dir)
     seed_path = input_dir / "combo_seed_nodes.tsv"
     embedding_links_path = Path(args.embedding_links_file)
     norm_path = input_dir / "combo_normalization_links.tsv"
-    semmed_edges_path = input_dir / "semmed_edges_seed_adjacent.tsv"
-    ikraph_edges_path = input_dir / "ikraph_edges_seed_adjacent.tsv"
+    semmed_edges_path = input_dir / f"semmed_edges_seed_{args.edge_scope}.tsv"
+    ikraph_edges_path = input_dir / f"ikraph_edges_seed_{args.edge_scope}.tsv"
 
     for p in (seed_path, norm_path, semmed_edges_path, ikraph_edges_path):
         if not p.exists():
             raise SystemExit(f"Missing required file: {p}")
 
     seeds = read_seed_nodes(seed_path)
-    embedding_links = read_embedding_links(embedding_links_path)
+    embedding_links = read_embedding_links(embedding_links_path) if args.include_embedding_links else []
     norm_links = read_norm_links(norm_path)
     semmed_edges = read_semmed_edges(semmed_edges_path)
     semmed_concepts = read_semmed_concepts(Path(args.semmed_concepts_file))
+    semmed_source_nodes_all = read_semmed_source_nodes(
+        [
+            Path(args.semmed_source_concepts_file),
+            Path(args.semmed_source_concepts_backup_file),
+        ]
+    )
+    relevant_semmed_ids = set()
+    for row in semmed_edges:
+        relevant_semmed_ids.add(row["start_id"])
+        relevant_semmed_ids.add(row["end_id"])
+    for row in semmed_concepts:
+        sid = row.get("semmed_id")
+        if sid:
+            relevant_semmed_ids.add(sid)
+    semmed_source_nodes = [
+        row for row in semmed_source_nodes_all if row.get("semmed_id") in relevant_semmed_ids
+    ]
     ikraph_edges = read_ikraph_edges(ikraph_edges_path)
 
     if args.semmed_concepts_only:
@@ -915,10 +1416,29 @@ def main():
 
     print(
         f"Rows: seeds={len(seeds)} embedding_links={len(embedding_links)} "
-        f"norm_links={len(norm_links)} semmed_edges={len(semmed_edges)} ikraph_edges={len(ikraph_edges)}"
+        f"norm_links={len(norm_links)} semmed_edges={len(semmed_edges)} ikraph_edges={len(ikraph_edges)} "
+        f"(edge_scope={args.edge_scope})"
     )
     print(f"SemMed concepts metadata rows: {len(semmed_concepts)}")
+    print(f"SemMed source node metadata rows: {len(semmed_source_nodes)}")
     print(f"Combo concepts: unique_uris={len(combo_concepts)} metadata_matched={combo_metadata_matches}")
+
+    if args.merged_preview_file:
+        merged_preview_path = Path(args.merged_preview_file)
+    else:
+        merged_preview_path = input_dir / "combo_merged_preview_nodes.tsv"
+    preview_count = write_merged_preview_file(
+        output_path=merged_preview_path,
+        seeds=seeds,
+        norm_links=norm_links,
+        semmed_concepts=semmed_concepts,
+        ikraph_edges=ikraph_edges,
+        preview_mode=args.merged_preview_mode,
+    )
+    print(f"Merged preview rows written: {preview_count} ({merged_preview_path}, mode={args.merged_preview_mode})")
+
+    if args.preview_only:
+        return
 
     driver = GraphDatabase.driver(uri, auth=(username, password))
     try:
@@ -942,9 +1462,13 @@ def main():
             norm_links=norm_links,
             semmed_edges=semmed_edges,
             semmed_concepts=semmed_concepts,
+            semmed_source_nodes=semmed_source_nodes,
             ikraph_edges=ikraph_edges,
             combo_concepts=combo_concepts,
             batch_size=args.batch_size,
+            build_merged_preview_nodes=args.build_merged_preview_nodes,
+            clear_merged_preview_nodes=args.clear_merged_preview_nodes,
+            require_matching_preferred_names_for_preview_merge=not args.allow_name_mismatch_preview_merge,
         )
         counts = get_counts(driver, database)
     finally:

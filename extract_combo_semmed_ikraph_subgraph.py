@@ -27,6 +27,7 @@ from __future__ import annotations
 import argparse
 import csv
 import html
+import itertools
 import json
 import re
 from collections import defaultdict
@@ -49,6 +50,49 @@ COMBO_NS = "https://github.com/Tao-AI-group/COMBINI#"
 UMLS_CUI_PRED = URIRef(f"{COMBO_NS}UMLS_CUI")
 AMBIGUOUS_TOKEN_MAX_LEN = 4
 NON_NATIVE_TERM_EMBEDDING_MIN = 0.80
+
+
+def is_negative_predicate(predicate: str) -> bool:
+    p = (predicate or "").strip().lower()
+    if not p:
+        return False
+    if p.startswith("neg_"):
+        return True
+    if "negative" in p:
+        return True
+    return False
+
+
+def semmed_cuis_from_edge_endpoint(value: str) -> Set[str]:
+    """
+    Parse SemMed edge endpoints into one-or-more candidate CUIs.
+    Supports pipe-delimited alternatives but only keeps explicit CUI tokens.
+
+    Important:
+    - We intentionally do NOT coerce bare numeric fragments (e.g. `1302`) to
+      CUIs, because values like `K142|1302` in SemMed can represent composite
+      gene/protein identifiers rather than UMLS concepts.
+    """
+    raw = (value or "").strip()
+    if not raw:
+        return set()
+
+    out: Set[str] = set()
+    for token in raw.split("|"):
+        tok = token.strip()
+        if not tok:
+            continue
+
+        if re.fullmatch(r"C\d{7}", tok):
+            out.add(tok)
+            continue
+
+        if re.fullmatch(r"C\d{6}", tok):
+            out.add(tok)
+            out.add(f"C{tok[1:].zfill(7)}")
+            continue
+
+    return out
 
 
 def normalize_text(text: str) -> str:
@@ -528,6 +572,7 @@ def match_normalized_nodes(
     combo_id_to_uris: Dict[str, Set[str]],
     combo_uri_to_locked_umls: Dict[str, Set[str]],
     embedding_index: Dict[Tuple[str, str, str], Tuple[float, str]],
+    allow_embedding_support: bool,
     denylist: Set[Tuple[str, str, str]],
     semmed_labels: Dict[str, Set[str]],
 ):
@@ -612,7 +657,7 @@ def match_normalized_nodes(
                         if uri in id_supported_uris:
                             filtered_by_support.add(uri)
                             continue
-                        emb = embedding_index.get((source_name, uri, str(key)))
+                        emb = embedding_index.get((source_name, uri, str(key))) if allow_embedding_support else None
                         if emb is not None and emb[0] >= NON_NATIVE_TERM_EMBEDDING_MIN:
                             filtered_by_support.add(uri)
 
@@ -784,28 +829,61 @@ def extract_semmed_edges(
     edge_csv: Path,
     matched_semmed_cuis: Set[str],
 ) -> Tuple[List[List[str]], List[List[str]]]:
-    adjacent: List[List[str]] = []
-    induced: List[List[str]] = []
+    # Emit a stable header regardless of source file format.
+    adjacent: List[List[str]] = [[":START_ID", ":END_ID", ":TYPE", "frequency%"]]
+    induced: List[List[str]] = [[":START_ID", ":END_ID", ":TYPE", "frequency%"]]
 
     with edge_csv.open(newline="", encoding="utf-8", errors="replace") as fh:
         reader = csv.reader(fh)
-        header = next(reader, None)
-        if header:
-            adjacent.append(header)
-            induced.append(header)
+        first_row = next(reader, None)
+        if first_row is None:
+            return adjacent, induced
 
-        for row in reader:
-            if len(row) < 2:
+        # Source files can be headerless; detect common header patterns.
+        first0 = (first_row[0] if len(first_row) > 0 else "").strip().lower()
+        first1 = (first_row[1] if len(first_row) > 1 else "").strip().lower()
+        first2 = (first_row[2] if len(first_row) > 2 else "").strip().lower()
+        has_header = (
+            first0 in {":start_id", "start_id", "subject"} or
+            first1 in {":end_id", "end_id", "object"} or
+            first2 in {":type", "type", "predicate"}
+        )
+        rows_iter = reader if has_header else itertools.chain([first_row], reader)
+
+        for row in rows_iter:
+            if len(row) < 3:
                 continue
-            start = row[0].strip()
-            end = row[1].strip()
-            start_hit = start in matched_semmed_cuis
-            end_hit = end in matched_semmed_cuis
+            start_cuis = semmed_cuis_from_edge_endpoint(row[0])
+            end_cuis = semmed_cuis_from_edge_endpoint(row[1])
+            pred = row[2].strip()
+            freq = row[3].strip() if len(row) > 3 else "0"
 
-            if start_hit or end_hit:
-                adjacent.append(row)
-            if start_hit and end_hit:
-                induced.append(row)
+            # Keep only concept-to-concept SemMed edges.
+            if not start_cuis or not end_cuis:
+                continue
+            # Drop self loops.
+            if start_cuis.intersection(end_cuis):
+                continue
+            # Drop negated predicates.
+            if is_negative_predicate(pred):
+                continue
+
+            start_hit = bool(start_cuis.intersection(matched_semmed_cuis))
+            end_hit = bool(end_cuis.intersection(matched_semmed_cuis))
+
+            if not (start_hit or end_hit):
+                continue
+
+            # Emit normalized CUI endpoints so edge nodes share ID namespace
+            # with SemMed seed nodes (UMLS CUI-based source keys).
+            for s_cui in sorted(start_cuis):
+                for e_cui in sorted(end_cuis):
+                    if s_cui == e_cui:
+                        continue
+                    out_row = [s_cui, e_cui, pred, freq]
+                    adjacent.append(out_row)
+                    if start_hit and end_hit:
+                        induced.append(out_row)
 
     return adjacent, induced
 
@@ -830,6 +908,7 @@ def extract_ikraph_edges(
                 continue
             n1 = row[1].strip()
             n2 = row[2].strip()
+            pred_label = row[16].strip() if len(row) > 16 else ""
 
             n1_norm = None
             n2_norm = None
@@ -838,15 +917,553 @@ def extract_ikraph_edges(
             if n2 in ikraph_lookup:
                 n2_norm = normalize_identifier(str(ikraph_lookup[n2].get("id", "")))
 
-            n1_hit = (n1_norm in matched_ikraph_identifiers) if n1_norm else False
-            n2_hit = (n2_norm in matched_ikraph_identifiers) if n2_norm else False
+            # Keep only concept-to-concept edges (both endpoints must resolve).
+            if not n1_norm or not n2_norm:
+                continue
+            # Drop self loops.
+            if n1_norm == n2_norm:
+                continue
+            # Drop negative edges from iKraph labels.
+            if is_negative_predicate(pred_label):
+                continue
+
+            n1_hit = n1_norm in matched_ikraph_identifiers
+            n2_hit = n2_norm in matched_ikraph_identifiers
 
             if n1_hit or n2_hit:
-                adjacent.append(row)
-            if n1_hit and n2_hit:
-                induced.append(row)
+                out_row = list(row)
+                # Normalize endpoint IDs to the same namespace as iKraph seeds.
+                out_row[1] = n1_norm
+                out_row[2] = n2_norm
+                adjacent.append(out_row)
+                if n1_hit and n2_hit:
+                    induced.append(out_row)
 
     return adjacent, induced
+
+
+def build_combo_intervention_subtree_from_owl(owl_path: Path, root_fragment: str) -> Set[str]:
+    g = Graph()
+    g.parse(str(owl_path))
+
+    combo_uris: Set[str] = set()
+    children_by_parent: Dict[str, Set[str]] = defaultdict(set)
+    labels_by_uri: Dict[str, Set[str]] = defaultdict(set)
+    normalized_target = normalize_text(root_fragment.replace("_", " "))
+
+    for s, _, o in g.triples((None, RDFS.subClassOf, None)):
+        su = str(s)
+        ou = str(o)
+        if su.startswith(COMBO_NS):
+            combo_uris.add(su)
+        if ou.startswith(COMBO_NS):
+            combo_uris.add(ou)
+        if su.startswith(COMBO_NS) and ou.startswith(COMBO_NS):
+            children_by_parent[ou].add(su)
+
+    for s, _, lit in g.triples((None, RDFS.label, None)):
+        su = str(s)
+        if su.startswith(COMBO_NS):
+            combo_uris.add(su)
+            lbl = normalize_text(str(lit))
+            if lbl:
+                labels_by_uri[su].add(lbl)
+
+    for s, _, lit in g.triples((None, SKOS.prefLabel, None)):
+        su = str(s)
+        if su.startswith(COMBO_NS):
+            combo_uris.add(su)
+            lbl = normalize_text(str(lit))
+            if lbl:
+                labels_by_uri[su].add(lbl)
+
+    root_candidates = [
+        u for u in combo_uris
+        if u.split("#", 1)[-1] == root_fragment
+    ]
+    if not root_candidates:
+        root_candidates = [
+            u for u in combo_uris
+            if normalize_text(u.split("#", 1)[-1].replace("_", " ")) == normalized_target
+        ]
+    if not root_candidates:
+        root_candidates = [
+            u for u in combo_uris
+            if normalized_target in labels_by_uri.get(u, set())
+        ]
+    if not root_candidates:
+        return set()
+
+    root_uri = sorted(root_candidates)[0]
+    visited: Set[str] = set()
+    queue: List[str] = [root_uri]
+    while queue:
+        parent = queue.pop(0)
+        if parent in visited:
+            continue
+        visited.add(parent)
+        for child in sorted(children_by_parent.get(parent, set())):
+            if child not in visited:
+                queue.append(child)
+    return visited
+
+
+def select_intervention_umls_only_combo_uris(
+    intervention_combo_uris: Set[str],
+    combo_uri_to_ids: Dict[str, Set[str]],
+) -> Tuple[Set[str], Set[str]]:
+    eligible_combo_uris: Set[str] = set()
+    eligible_umls_ids: Set[str] = set()
+    for uri in intervention_combo_uris:
+        ids = {x for x in combo_uri_to_ids.get(uri, set()) if x}
+        if not ids:
+            continue
+        if all(x.startswith("UMLS:") for x in ids):
+            cui_ids = {x for x in ids if re.fullmatch(r"UMLS:C\d+", x)}
+            if not cui_ids:
+                continue
+            eligible_combo_uris.add(uri)
+            eligible_umls_ids.update(cui_ids)
+    return eligible_combo_uris, eligible_umls_ids
+
+
+def filter_matched_nodes_for_combo_uris_and_umls(
+    matched_nodes: List[Dict[str, object]],
+    allowed_combo_uris: Set[str],
+    allowed_umls_ids: Set[str],
+) -> Tuple[List[Dict[str, object]], Dict[Tuple[str, str], List[str]]]:
+    filtered: List[Dict[str, object]] = []
+    node_umls_hits: Dict[Tuple[str, str], List[str]] = {}
+
+    for node in matched_nodes:
+        dataset = str(node.get("dataset") or "")
+        source_key = str(node.get("source_key") or "")
+        matched_combo_uris = [str(u) for u in node.get("matched_combo_uris", []) if str(u)]
+        combo_hits = sorted({u for u in matched_combo_uris if u in allowed_combo_uris})
+        if not combo_hits:
+            continue
+
+        ids = {normalize_identifier(source_key)} if source_key else set()
+        ids.update(normalize_identifier(str(x)) for x in node.get("identifiers", []))
+        ids = {x for x in ids if x}
+        umls_hits = sorted(x for x in ids if x in allowed_umls_ids)
+        if not umls_hits:
+            continue
+
+        keep = dict(node)
+        keep["matched_combo_uris"] = combo_hits
+        filtered.append(keep)
+        node_umls_hits[(dataset, source_key)] = umls_hits
+
+    return filtered, node_umls_hits
+
+
+def label_for_dataset_presence(has_semmed: bool, has_ikraph: bool) -> str:
+    if has_semmed and has_ikraph:
+        return "CM Intervention Both"
+    if has_ikraph:
+        return "CM Intervention iKraph"
+    return "CM Intervention SemMed"
+
+
+def build_cm_intervention_presence_rows(
+    semmed_nodes: List[Dict[str, object]],
+    ikraph_nodes: List[Dict[str, object]],
+    node_umls_hits: Dict[Tuple[str, str], List[str]],
+) -> Tuple[List[List[object]], Dict[str, str]]:
+    datasets_by_umls: Dict[str, Set[str]] = defaultdict(set)
+    semmed_seed_count: Dict[str, int] = defaultdict(int)
+    ikraph_seed_count: Dict[str, int] = defaultdict(int)
+
+    for node in semmed_nodes:
+        key = (str(node.get("dataset") or ""), str(node.get("source_key") or ""))
+        for umls_id in node_umls_hits.get(key, []):
+            datasets_by_umls[umls_id].add("semmed")
+            semmed_seed_count[umls_id] += 1
+    for node in ikraph_nodes:
+        key = (str(node.get("dataset") or ""), str(node.get("source_key") or ""))
+        for umls_id in node_umls_hits.get(key, []):
+            datasets_by_umls[umls_id].add("ikraph")
+            ikraph_seed_count[umls_id] += 1
+
+    header = [
+        "umls_id",
+        "cm_intervention_presence_label",
+        "present_in_semmed",
+        "present_in_ikraph",
+        "semmed_seed_count",
+        "ikraph_seed_count",
+    ]
+    rows: List[List[object]] = [header]
+    label_by_umls: Dict[str, str] = {}
+    for umls_id in sorted(datasets_by_umls.keys()):
+        has_semmed = "semmed" in datasets_by_umls[umls_id]
+        has_ikraph = "ikraph" in datasets_by_umls[umls_id]
+        label = label_for_dataset_presence(has_semmed=has_semmed, has_ikraph=has_ikraph)
+        label_by_umls[umls_id] = label
+        rows.append(
+            [
+                umls_id,
+                label,
+                "true" if has_semmed else "false",
+                "true" if has_ikraph else "false",
+                semmed_seed_count.get(umls_id, 0),
+                ikraph_seed_count.get(umls_id, 0),
+            ]
+        )
+    return rows, label_by_umls
+
+
+def build_fallback_semmed_metadata(concept_csv_path: Path, target_cuis: Set[str]) -> Dict[str, dict]:
+    fallback: Dict[str, dict] = {}
+    if not concept_csv_path.exists() or not target_cuis:
+        return fallback
+    with concept_csv_path.open(newline="", encoding="utf-8", errors="replace") as fh:
+        reader = csv.reader(fh)
+        for row in reader:
+            if len(row) < 3:
+                continue
+            cui = (row[0] or "").strip()
+            if cui not in target_cuis or cui in fallback:
+                continue
+            name = (row[1] or "").strip()
+            semtype = (row[2] or "").strip()
+            text = (row[4] or "").strip() if len(row) > 4 else ""
+            display_name = name or text or f"UMLS:{cui}"
+            primary_type = f"semmed:{semtype}" if semtype else ""
+            fallback[cui] = {
+                "display_name": display_name,
+                "primary_type": primary_type,
+                "types": primary_type,
+            }
+    return fallback
+
+
+def load_semmed_metadata_for_cuis(
+    semmed_normalized_path: Path,
+    semmed_concept_csv_path: Path,
+    target_cuis: Set[str],
+) -> Dict[str, dict]:
+    if not target_cuis:
+        return {}
+
+    target_curies = {f"UMLS:{cui}" for cui in target_cuis}
+    md_by_cui: Dict[str, dict] = {}
+    with semmed_normalized_path.open("rb") as fh:
+        for curie, entry in ijson.kvitems(fh, ""):
+            curie_s = str(curie).strip()
+            if curie_s not in target_curies or not isinstance(entry, dict):
+                continue
+            cui = curie_s.split(":", 1)[1]
+            id_info = entry.get("id", {}) if isinstance(entry.get("id"), dict) else {}
+            label = str(id_info.get("label") or "").strip()
+            raw_types = entry.get("type", []) if isinstance(entry.get("type"), list) else []
+            types = [str(t).strip() for t in raw_types if str(t).strip()]
+            primary_type = types[0] if types else ""
+            md_by_cui[cui] = {
+                "display_name": label or f"UMLS:{cui}",
+                "primary_type": primary_type,
+                "types": "|".join(types),
+            }
+
+    fallback = build_fallback_semmed_metadata(semmed_concept_csv_path, target_cuis=target_cuis)
+    for cui in target_cuis:
+        if cui not in md_by_cui:
+            md_by_cui[cui] = fallback.get(
+                cui,
+                {
+                    "display_name": f"UMLS:{cui}",
+                    "primary_type": "",
+                    "types": "",
+                },
+            )
+    return md_by_cui
+
+
+def is_biolink_disease_like(primary_type: str, types_pipe: str) -> bool:
+    values = " ".join([primary_type or "", types_pipe or ""]).lower()
+    disease_tokens = ("disease", "syndrome", "phenotypicfeature", "pathologicalprocess")
+    return any(tok in values for tok in disease_tokens)
+
+
+def is_text_disease_like(value: str) -> bool:
+    v = (value or "").strip().lower()
+    if not v:
+        return False
+    return any(tok in v for tok in ("disease", "disorder", "syndrome", "patholog"))
+
+
+def intervention_seed_exclusion_reason(
+    display_name: str,
+    primary_type: str,
+    types_pipe: str,
+) -> str:
+    types_list = [x.strip() for x in (types_pipe or "").split("|") if x and x.strip()]
+    type_tokens = {
+        t.strip().lower()
+        for t in ([primary_type] + types_list)
+        if t and str(t).strip()
+    }
+    n = (display_name or "").strip().lower()
+    if "biolink:disease" in type_tokens or "semmed:mobd" in type_tokens:
+        return "disease_type"
+    if re.search(r"\b(disorder|abuse|dependence|syndrome)\b", n):
+        return "disease_lexical"
+    return ""
+
+
+def build_intervention_seed_qc_rows(
+    semmed_nodes: List[Dict[str, object]],
+    semmed_md_by_cui: Dict[str, dict],
+) -> Tuple[List[List[object]], Set[str]]:
+    rows: List[List[object]] = [[
+        "seed_umls_id",
+        "seed_display_name",
+        "seed_primary_type",
+        "seed_types",
+        "exclude_reason",
+        "kept_as_intervention_seed",
+    ]]
+    excluded_umls: Set[str] = set()
+    seen: Set[str] = set()
+    for node in semmed_nodes:
+        source_key = str(node.get("source_key") or "")
+        if not source_key.startswith("UMLS:"):
+            continue
+        umls_id = source_key
+        if umls_id in seen:
+            continue
+        seen.add(umls_id)
+        cui = umls_id.split(":", 1)[1]
+        md = semmed_md_by_cui.get(cui, {})
+        display_name = str(md.get("display_name") or umls_id)
+        primary = str(md.get("primary_type") or "")
+        types = str(md.get("types") or "")
+        reason = intervention_seed_exclusion_reason(
+            display_name=display_name,
+            primary_type=primary,
+            types_pipe=types,
+        )
+        if reason:
+            excluded_umls.add(umls_id)
+        rows.append(
+            [
+                umls_id,
+                display_name,
+                primary,
+                types,
+                reason,
+                "false" if reason else "true",
+            ]
+        )
+    return rows, excluded_umls
+
+
+def build_semmed_onehop_rows(
+    semmed_adjacent_rows: List[List[str]],
+    seed_cuis: Set[str],
+    semmed_md_by_cui: Dict[str, dict],
+    label_by_umls: Dict[str, str],
+) -> List[List[object]]:
+    out: List[List[object]] = [[
+        "seed_umls_id",
+        "cm_intervention_presence_label",
+        "predicate",
+        "frequency",
+        "seed_side",
+        "start_raw",
+        "end_raw",
+        "destination_umls_id",
+        "destination_display_name",
+        "destination_primary_type",
+        "destination_types",
+        "destination_is_disease_like",
+    ]]
+    for row in semmed_adjacent_rows[1:]:
+        if len(row) < 3:
+            continue
+        start_raw = (row[0] or "").strip()
+        end_raw = (row[1] or "").strip()
+        predicate = (row[2] or "").strip()
+        frequency = (row[3] or "").strip() if len(row) > 3 else ""
+        start_cuis = semmed_cuis_from_edge_endpoint(start_raw)
+        end_cuis = semmed_cuis_from_edge_endpoint(end_raw)
+        start_seeds = sorted(start_cuis.intersection(seed_cuis))
+        end_seeds = sorted(end_cuis.intersection(seed_cuis))
+
+        if start_seeds and not end_seeds:
+            dest_candidates = sorted(end_cuis)
+            for seed_cui in start_seeds:
+                for dest_cui in dest_candidates:
+                    md = semmed_md_by_cui.get(dest_cui, {})
+                    primary = str(md.get("primary_type") or "")
+                    types = str(md.get("types") or "")
+                    out.append(
+                        [
+                            f"UMLS:{seed_cui}",
+                            label_by_umls.get(f"UMLS:{seed_cui}", "CM Intervention SemMed"),
+                            predicate,
+                            frequency,
+                            "start",
+                            start_raw,
+                            end_raw,
+                            f"UMLS:{dest_cui}",
+                            str(md.get("display_name") or f"UMLS:{dest_cui}"),
+                            primary,
+                            types,
+                            "true" if is_biolink_disease_like(primary, types) else "false",
+                        ]
+                    )
+        elif end_seeds and not start_seeds:
+            dest_candidates = sorted(start_cuis)
+            for seed_cui in end_seeds:
+                for dest_cui in dest_candidates:
+                    md = semmed_md_by_cui.get(dest_cui, {})
+                    primary = str(md.get("primary_type") or "")
+                    types = str(md.get("types") or "")
+                    out.append(
+                        [
+                            f"UMLS:{seed_cui}",
+                            label_by_umls.get(f"UMLS:{seed_cui}", "CM Intervention SemMed"),
+                            predicate,
+                            frequency,
+                            "end",
+                            start_raw,
+                            end_raw,
+                            f"UMLS:{dest_cui}",
+                            str(md.get("display_name") or f"UMLS:{dest_cui}"),
+                            primary,
+                            types,
+                            "true" if is_biolink_disease_like(primary, types) else "false",
+                        ]
+                    )
+    return out
+
+
+def build_ikraph_onehop_rows(
+    ikraph_adjacent_rows: List[List[str]],
+    filtered_ikraph_nodes: List[Dict[str, object]],
+    node_umls_hits: Dict[Tuple[str, str], List[str]],
+    label_by_umls: Dict[str, str],
+) -> List[List[object]]:
+    out: List[List[object]] = [[
+        "seed_ikraph_id",
+        "seed_umls_id",
+        "cm_intervention_presence_label",
+        "predicate_label",
+        "relationship_type",
+        "direction",
+        "score",
+        "prob",
+        "rel_id",
+        "destination_ikraph_id",
+        "destination_name",
+        "destination_type",
+        "destination_subtype",
+        "destination_is_disease_like",
+        "source",
+    ]]
+    seed_ikraph_ids = {
+        str(n.get("source_key") or "")
+        for n in filtered_ikraph_nodes
+        if str(n.get("dataset") or "") == "ikraph" and str(n.get("source_key") or "")
+    }
+    if not ikraph_adjacent_rows:
+        return out
+    header = [str(x).strip() for x in ikraph_adjacent_rows[0]]
+    col_idx = {name: i for i, name in enumerate(header)}
+
+    def get_col(row: List[str], name: str, default: str = "") -> str:
+        i = col_idx.get(name)
+        if i is None or i >= len(row):
+            return default
+        return str(row[i]).strip()
+
+    for row in ikraph_adjacent_rows[1:]:
+        n1 = get_col(row, "node_one_id")
+        n2 = get_col(row, "node_two_id")
+        n1_seed = n1 in seed_ikraph_ids
+        n2_seed = n2 in seed_ikraph_ids
+        if not n1_seed and not n2_seed:
+            continue
+
+        def emit(seed_id: str, dest_id: str, dest_name: str, dest_type: str, dest_subtype: str):
+            umls_hits = node_umls_hits.get(("ikraph", seed_id), [])
+            for umls_id in umls_hits:
+                out.append(
+                    [
+                        seed_id,
+                        umls_id,
+                        label_by_umls.get(umls_id, "CM Intervention iKraph"),
+                        get_col(row, "predicate_label"),
+                        get_col(row, "relationship_type"),
+                        get_col(row, "direction"),
+                        get_col(row, "score"),
+                        get_col(row, "prob"),
+                        get_col(row, "relID"),
+                        dest_id,
+                        dest_name,
+                        dest_type,
+                        dest_subtype,
+                        "true" if is_text_disease_like(dest_type) else "false",
+                        get_col(row, "source"),
+                    ]
+                )
+
+        if n1_seed and not n2_seed:
+            emit(
+                seed_id=n1,
+                dest_id=n2,
+                dest_name=get_col(row, "node_two_name"),
+                dest_type=get_col(row, "node_two_type"),
+                dest_subtype=get_col(row, "node_two_subtype"),
+            )
+        elif n2_seed and not n1_seed:
+            emit(
+                seed_id=n2,
+                dest_id=n1,
+                dest_name=get_col(row, "node_one_name"),
+                dest_type=get_col(row, "node_one_type"),
+                dest_subtype=get_col(row, "node_one_subtype"),
+            )
+    return out
+
+
+def build_umls_biolink_verification_rows(
+    all_umls_ids: Set[str],
+    intervention_seed_umls_ids: Set[str],
+    onehop_destination_umls_ids: Set[str],
+    label_by_umls: Dict[str, str],
+    semmed_md_by_cui: Dict[str, dict],
+) -> List[List[object]]:
+    out: List[List[object]] = [[
+        "umls_id",
+        "cm_intervention_presence_label",
+        "is_intervention_seed",
+        "is_onehop_destination",
+        "display_name",
+        "primary_biolink_type",
+        "biolink_types",
+        "is_disease_like",
+    ]]
+    for umls_id in sorted(all_umls_ids):
+        cui = umls_id.split(":", 1)[1] if umls_id.startswith("UMLS:") else umls_id
+        md = semmed_md_by_cui.get(cui, {})
+        primary = str(md.get("primary_type") or "")
+        types = str(md.get("types") or "")
+        out.append(
+            [
+                umls_id,
+                label_by_umls.get(umls_id, ""),
+                "true" if umls_id in intervention_seed_umls_ids else "false",
+                "true" if umls_id in onehop_destination_umls_ids else "false",
+                str(md.get("display_name") or umls_id),
+                primary,
+                types,
+                "true" if is_biolink_disease_like(primary, types) else "false",
+            ]
+        )
+    return out
 
 
 def write_tsv(path: Path, rows: Iterable[Iterable[object]]):
@@ -876,7 +1493,7 @@ def parse_args() -> argparse.Namespace:
     )
     parser.add_argument(
         "--semmed-edges",
-        default="/Users/drshika2/NodeNormalization/semmed_ikraph_normalized/semmeddb_edges_cleaned.csv",
+        default="/Users/drshika2/neo4jexploration/semmed_data/connections.csv",
     )
     parser.add_argument(
         "--ikraph-edges",
@@ -901,6 +1518,21 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--denylist-file",
         default="/Users/drshika2/NodeNormalization/curated_false_matches.tsv",
+    )
+    parser.add_argument(
+        "--include-embedding-mappings",
+        action="store_true",
+        help="If set, allow embedding-assisted term support and embedding-only match augmentation.",
+    )
+    parser.add_argument(
+        "--focus-intervention-umls-only",
+        action="store_true",
+        help="Restrict to COMBO intervention subtree classes that have only UMLS IDs, then keep only SemMed/iKraph nodes carrying those UMLS IDs.",
+    )
+    parser.add_argument(
+        "--intervention-root-fragment",
+        default="Complementary_Medicine_Intervention",
+        help="COMBO class fragment used as root for intervention subtree filtering.",
     )
     return parser.parse_args()
 
@@ -954,6 +1586,7 @@ def main():
         combo_id_to_uris=combo_id_to_uris,
         combo_uri_to_locked_umls=combo_uri_to_locked_umls,
         embedding_index=embedding_index,
+        allow_embedding_support=args.include_embedding_mappings,
         denylist=denylist,
         semmed_labels=semmed_label_lookup,
     )
@@ -965,26 +1598,27 @@ def main():
         combo_id_to_uris=combo_id_to_uris,
         combo_uri_to_locked_umls=combo_uri_to_locked_umls,
         embedding_index=embedding_index,
+        allow_embedding_support=args.include_embedding_mappings,
         denylist=denylist,
         semmed_labels={},
     )
 
-    # Inject embedding-derived matches (resolved to real source keys) so they are
-    # represented as seed mappings with explicit confidence/provenance downstream.
-    augment_with_embedding_matches(
-        matched_nodes=semmed_matched,
-        dataset="semmed",
-        embedding_index=embedding_index,
-        combo_uri_to_locked_umls=combo_uri_to_locked_umls,
-        denylist=denylist,
-    )
-    augment_with_embedding_matches(
-        matched_nodes=ikraph_matched,
-        dataset="ikraph",
-        embedding_index=embedding_index,
-        combo_uri_to_locked_umls=combo_uri_to_locked_umls,
-        denylist=denylist,
-    )
+    # Default behavior is exact-only mappings. Embedding augmentation is opt-in.
+    if args.include_embedding_mappings:
+        augment_with_embedding_matches(
+            matched_nodes=semmed_matched,
+            dataset="semmed",
+            embedding_index=embedding_index,
+            combo_uri_to_locked_umls=combo_uri_to_locked_umls,
+            denylist=denylist,
+        )
+        augment_with_embedding_matches(
+            matched_nodes=ikraph_matched,
+            dataset="ikraph",
+            embedding_index=embedding_index,
+            combo_uri_to_locked_umls=combo_uri_to_locked_umls,
+            denylist=denylist,
+        )
 
     semmed_matched = apply_umls_lock_to_matched_nodes(
         matched_nodes=semmed_matched,
@@ -997,19 +1631,82 @@ def main():
         combo_uri_to_locked_umls=combo_uri_to_locked_umls,
     )
 
+    eligible_intervention_combo_uris: Set[str] = set()
+    eligible_intervention_umls_ids: Set[str] = set()
+    intervention_presence_rows: List[List[object]] = []
+    intervention_label_by_umls: Dict[str, str] = {}
+    intervention_node_umls_hits: Dict[Tuple[str, str], List[str]] = {}
+    intervention_subtree_uris: Set[str] = set()
+    intervention_seed_qc_rows: List[List[object]] = []
+    intervention_seed_excluded_count = 0
+
+    if args.focus_intervention_umls_only:
+        intervention_subtree_raw = build_combo_intervention_subtree_from_owl(
+            owl_path=combo_owl,
+            root_fragment=args.intervention_root_fragment,
+        )
+        intervention_subtree_uris = {
+            combo_uri_alias_to_canonical.get(uri, uri) for uri in intervention_subtree_raw
+        }
+        eligible_intervention_combo_uris, eligible_intervention_umls_ids = select_intervention_umls_only_combo_uris(
+            intervention_combo_uris=intervention_subtree_uris,
+            combo_uri_to_ids=combo_uri_to_ids,
+        )
+        semmed_matched, semmed_hits = filter_matched_nodes_for_combo_uris_and_umls(
+            matched_nodes=semmed_matched,
+            allowed_combo_uris=eligible_intervention_combo_uris,
+            allowed_umls_ids=eligible_intervention_umls_ids,
+        )
+        semmed_seed_cuis = {
+            str(node.get("source_key")).split(":", 1)[1]
+            for node in semmed_matched
+            if str(node.get("source_key") or "").startswith("UMLS:")
+        }
+        semmed_seed_md = load_semmed_metadata_for_cuis(
+            semmed_normalized_path=semmed_normalized,
+            semmed_concept_csv_path=semmed_concepts,
+            target_cuis=semmed_seed_cuis,
+        )
+        intervention_seed_qc_rows, excluded_seed_umls = build_intervention_seed_qc_rows(
+            semmed_nodes=semmed_matched,
+            semmed_md_by_cui=semmed_seed_md,
+        )
+        intervention_seed_excluded_count = len(excluded_seed_umls)
+        if excluded_seed_umls:
+            semmed_matched = [
+                node for node in semmed_matched
+                if str(node.get("source_key") or "") not in excluded_seed_umls
+            ]
+            semmed_hits = {
+                k: v for k, v in semmed_hits.items()
+                if not (k[0] == "semmed" and k[1] in excluded_seed_umls)
+            }
+        ikraph_matched, ikraph_hits = filter_matched_nodes_for_combo_uris_and_umls(
+            matched_nodes=ikraph_matched,
+            allowed_combo_uris=eligible_intervention_combo_uris,
+            allowed_umls_ids=eligible_intervention_umls_ids,
+        )
+        intervention_node_umls_hits = {**semmed_hits, **ikraph_hits}
+        intervention_presence_rows, intervention_label_by_umls = build_cm_intervention_presence_rows(
+            semmed_nodes=semmed_matched,
+            ikraph_nodes=ikraph_matched,
+            node_umls_hits=intervention_node_umls_hits,
+        )
+
     all_matched = semmed_matched + ikraph_matched
     cross_links = build_cross_normalization_links(all_matched)
 
     matched_semmed_cuis: Set[str] = set()
     for node in semmed_matched:
-        for ident in node["identifiers"]:
-            if str(ident).startswith("UMLS:"):
-                matched_semmed_cuis.add(str(ident).split(":", 1)[1])
+        source_key = str(node.get("source_key") or "").strip()
+        if source_key.startswith("UMLS:"):
+            matched_semmed_cuis.add(source_key.split(":", 1)[1])
 
     matched_ikraph_identifiers: Set[str] = set()
     for node in ikraph_matched:
-        for ident in node["identifiers"]:
-            matched_ikraph_identifiers.add(str(ident))
+        source_key = str(node.get("source_key") or "").strip()
+        if source_key:
+            matched_ikraph_identifiers.add(source_key)
 
     semmed_adjacent, semmed_induced = extract_semmed_edges(semmed_edges, matched_semmed_cuis)
     ikraph_adjacent, ikraph_induced = extract_ikraph_edges(
@@ -1100,6 +1797,57 @@ def main():
     write_tsv(output_dir / "ikraph_edges_seed_adjacent.tsv", ikraph_adjacent)
     write_tsv(output_dir / "ikraph_edges_seed_induced.tsv", ikraph_induced)
 
+    semmed_onehop_rows: List[List[object]] = []
+    ikraph_onehop_rows: List[List[object]] = []
+    umls_biolink_verification_rows: List[List[object]] = []
+    if args.focus_intervention_umls_only:
+        intervention_seed_cuis = {
+            x.split(":", 1)[1]
+            for x in eligible_intervention_umls_ids
+            if x.startswith("UMLS:")
+        }
+        semmed_cuis_in_adjacent: Set[str] = set()
+        for row in semmed_adjacent[1:]:
+            if len(row) < 2:
+                continue
+            semmed_cuis_in_adjacent.update(semmed_cuis_from_edge_endpoint(row[0]))
+            semmed_cuis_in_adjacent.update(semmed_cuis_from_edge_endpoint(row[1]))
+        semmed_md_by_cui = load_semmed_metadata_for_cuis(
+            semmed_normalized_path=semmed_normalized,
+            semmed_concept_csv_path=semmed_concepts,
+            target_cuis=semmed_cuis_in_adjacent.union(intervention_seed_cuis),
+        )
+        semmed_onehop_rows = build_semmed_onehop_rows(
+            semmed_adjacent_rows=semmed_adjacent,
+            seed_cuis=intervention_seed_cuis,
+            semmed_md_by_cui=semmed_md_by_cui,
+            label_by_umls=intervention_label_by_umls,
+        )
+        ikraph_onehop_rows = build_ikraph_onehop_rows(
+            ikraph_adjacent_rows=ikraph_adjacent,
+            filtered_ikraph_nodes=ikraph_matched,
+            node_umls_hits=intervention_node_umls_hits,
+            label_by_umls=intervention_label_by_umls,
+        )
+        onehop_destination_umls_ids = {
+            str(row[7])
+            for row in semmed_onehop_rows[1:]
+            if len(row) > 7 and str(row[7]).startswith("UMLS:")
+        }
+        umls_biolink_verification_rows = build_umls_biolink_verification_rows(
+            all_umls_ids=eligible_intervention_umls_ids.union(onehop_destination_umls_ids),
+            intervention_seed_umls_ids=eligible_intervention_umls_ids,
+            onehop_destination_umls_ids=onehop_destination_umls_ids,
+            label_by_umls=intervention_label_by_umls,
+            semmed_md_by_cui=semmed_md_by_cui,
+        )
+
+        write_tsv(output_dir / "combo_cm_intervention_presence.tsv", intervention_presence_rows)
+        write_tsv(output_dir / "combo_cm_intervention_semmed_onehop.tsv", semmed_onehop_rows)
+        write_tsv(output_dir / "combo_cm_intervention_ikraph_onehop.tsv", ikraph_onehop_rows)
+        write_tsv(output_dir / "combo_umls_biolink_type_verification.tsv", umls_biolink_verification_rows)
+        write_tsv(output_dir / "combo_cm_intervention_seed_qc.tsv", intervention_seed_qc_rows)
+
     summary = {
         "combo_concepts_with_terms": len(combo_uri_to_terms),
         "combo_concepts_with_ids": len(combo_uri_to_ids),
@@ -1114,6 +1862,18 @@ def main():
         "ikraph_edges_seed_adjacent": max(len(ikraph_adjacent) - 1, 0),
         "ikraph_edges_seed_induced": max(len(ikraph_induced) - 1, 0),
         "embedding_link_rows": max(len(embedding_link_rows) - 1, 0),
+        "include_embedding_mappings": bool(args.include_embedding_mappings),
+        "focus_intervention_umls_only": bool(args.focus_intervention_umls_only),
+        "intervention_root_fragment": args.intervention_root_fragment,
+        "intervention_subtree_combo_uris": len(intervention_subtree_uris),
+        "intervention_umls_only_combo_uris": len(eligible_intervention_combo_uris),
+        "intervention_umls_ids": len(eligible_intervention_umls_ids),
+        "cm_intervention_presence_rows": max(len(intervention_presence_rows) - 1, 0),
+        "cm_intervention_semmed_onehop_rows": max(len(semmed_onehop_rows) - 1, 0),
+        "cm_intervention_ikraph_onehop_rows": max(len(ikraph_onehop_rows) - 1, 0),
+        "umls_biolink_verification_rows": max(len(umls_biolink_verification_rows) - 1, 0),
+        "cm_intervention_seed_qc_rows": max(len(intervention_seed_qc_rows) - 1, 0),
+        "intervention_seed_excluded_count": intervention_seed_excluded_count,
     }
     with (output_dir / "combo_subgraph_summary.json").open("w", encoding="utf-8") as fh:
         json.dump(summary, fh, indent=2)
