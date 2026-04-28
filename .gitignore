@@ -130,3 +130,6 @@ dmypy.json
 
 # intellij
 .idea
+
+semmed_ikraph_normalized/
+weekly_updates/
