@@ -30,11 +30,15 @@ Usage
   python3 verify_graph_match.py --gen-med-dir output/gen_med_graph_neo4j --local-only
 
 Environment variables (or .env file keys):
-  NEO4J_URI              Bolt URI for the CM subgraph Neo4j (default: neo4j+s://neo4j.combini.ncsa.illinois.edu:7687)
-  NEO4J_CIM_URI          Bolt URI for the CIM KG Neo4j     (default: neo4j+s://neo4j-cim-kg.combini.ncsa.illinois.edu:7687)
-  NEO4J_USERNAME         username (default: neo4j)
-  NEO4J_PASSWORD         password
-  NEO4J_DATABASE         database name (default: neo4j)
+  GENERAL_MED_URI        Bolt URI for the general medicine graph Neo4j
+  GENERAL_MED_USERNAME   username for general medicine graph (default: neo4j)
+  GENERAL_MED_PASSWORD   password for general medicine graph
+  GENERAL_MED_DATABASE   database name (default: neo4j)
+
+  CM_SUBGRAPH_URI        Bolt URI for the CM subgraph Neo4j
+  CM_SUBGRAPH_USERNAME   username for CM subgraph (default: neo4j)
+  CM_SUBGRAPH_PASSWORD   password for CM subgraph
+  CM_SUBGRAPH_DATABASE   database name (default: neo4j)
 """
 from __future__ import annotations
 
@@ -131,11 +135,19 @@ def get_neo4j_driver(uri: str, username: str, password: str):
 
 
 def query_gen_med_counts(driver, database: str) -> Dict[str, int]:
+    # The kubernetes gen-med graph is loaded from restructured CSVs where relationship
+    # :TYPE is the uppercase biolink predicate (TREATS, AFFECTS, …) rather than
+    # SEMMED_EDGE/IKRAPH_EDGE.  We distinguish sources via property presence:
+    #   SemMed edges  → have  semmed_predicate  property
+    #   iKraph edges  → have  ikraph_relation_type  property
+    # IKraphEntity node count is lower than the local CSV by ~26k because
+    # neo4j-admin --skip-duplicate-nodes drops iKraph nodes whose normalized_id
+    # already appeared in the SemMed node file.
     queries = {
         "semmed_nodes": "MATCH (n:SemmedEntity) RETURN count(n) AS c",
         "ikraph_nodes": "MATCH (n:IKraphEntity) RETURN count(n) AS c",
-        "semmed_edges": "MATCH ()-[r:SEMMED_EDGE]->() RETURN count(r) AS c",
-        "ikraph_edges": "MATCH ()-[r:IKRAPH_EDGE]->() RETURN count(r) AS c",
+        "semmed_edges": "MATCH ()-[r]->() WHERE r.semmed_predicate IS NOT NULL RETURN count(r) AS c",
+        "ikraph_edges": "MATCH ()-[r]->() WHERE r.ikraph_relation_type IS NOT NULL RETURN count(r) AS c",
     }
     counts: Dict[str, int] = {}
     with driver.session(database=database) as session:
@@ -183,10 +195,14 @@ def compare_counts(
     local: Dict[str, int],
     remote: Optional[Dict[str, int]],
     tolerance_pct: float = 0.5,
+    per_key_tolerance: Optional[Dict[str, float]] = None,
+    per_key_notes: Optional[Dict[str, str]] = None,
 ) -> List[str]:
     """
     Print a comparison table and return a list of failure messages (empty = pass).
     Counts are considered matching if within tolerance_pct %.
+    per_key_tolerance: override tolerance for specific keys.
+    per_key_notes: append a note string after the status for specific keys.
     """
     print(f"\n{'─' * 64}")
     print(f"  {label}")
@@ -196,10 +212,14 @@ def compare_counts(
     print(f"  {'─' * 60}")
 
     failures: List[str] = []
+    per_key_tolerance = per_key_tolerance or {}
+    per_key_notes = per_key_notes or {}
+
     for key in sorted(local):
         local_val = local[key]
+        note = per_key_notes.get(key, "")
         if remote is None:
-            print(f"  {key:<35} {local_val:>10}")
+            print(f"  {key:<35} {local_val:>10}  {note}")
             continue
         remote_val = remote.get(key, -1)
         if local_val < 0:
@@ -207,8 +227,9 @@ def compare_counts(
         elif remote_val < 0:
             status = f"  {WARN} not in remote query set"
         else:
+            tol = per_key_tolerance.get(key, tolerance_pct)
             diff_pct = abs(local_val - remote_val) / max(remote_val, 1) * 100
-            if diff_pct <= tolerance_pct:
+            if diff_pct <= tol:
                 status = f"  {OK}"
             else:
                 status = f"  {FAIL} diff={_pct_diff(local_val, remote_val)}"
@@ -216,7 +237,8 @@ def compare_counts(
                     f"{label} / {key}: local={local_val:,}  k8s={remote_val:,}"
                     f"  ({_pct_diff(local_val, remote_val)} difference)"
                 )
-        print(f"  {key:<35} {local_val:>10} {remote_val:>12}  {status}")
+        suffix = f"  [{note}]" if note else ""
+        print(f"  {key:<35} {local_val:>10} {remote_val:>12}  {status}{suffix}")
 
     return failures
 
@@ -249,22 +271,29 @@ def parse_args() -> argparse.Namespace:
     p.add_argument("--cm-subgraph-dir", type=Path, help="Directory with CM subgraph TSVs.")
     p.add_argument("--env-file", type=Path, help=".env file with NEO4J_* credentials.")
     p.add_argument(
-        "--cim-uri",
+        "--gen-med-uri",
         default=None,
-        help="Bolt URI for CIM KG Neo4j (default: $NEO4J_CIM_URI or neo4j+s://neo4j-cim-kg.combini.ncsa.illinois.edu:7687).",
+        help="Bolt URI for general medicine graph Neo4j (default: $GENERAL_MED_URI).",
     )
+    p.add_argument(
+        "--gen-med-username",
+        default=None,
+        help="Username for general medicine graph (default: $GENERAL_MED_USERNAME or 'neo4j').",
+    )
+    p.add_argument("--gen-med-password", default=None, help="Password for general medicine graph.")
+    p.add_argument("--gen-med-database", default=None, help="Database for general medicine graph (default: $GENERAL_MED_DATABASE or 'neo4j').")
     p.add_argument(
         "--cm-uri",
         default=None,
-        help="Bolt URI for CM subgraph Neo4j (default: $NEO4J_URI or neo4j+s://neo4j.combini.ncsa.illinois.edu:7687).",
+        help="Bolt URI for CM subgraph Neo4j (default: $CM_SUBGRAPH_URI).",
     )
     p.add_argument(
-        "--username",
+        "--cm-username",
         default=None,
-        help="Neo4j username (default: $NEO4J_USERNAME or 'neo4j').",
+        help="Username for CM subgraph (default: $CM_SUBGRAPH_USERNAME or 'neo4j').",
     )
-    p.add_argument("--password", default=None, help="Neo4j password (default: $NEO4J_PASSWORD).")
-    p.add_argument("--database", default=None, help="Database name (default: $NEO4J_DATABASE or 'neo4j').")
+    p.add_argument("--cm-password", default=None, help="Password for CM subgraph.")
+    p.add_argument("--cm-database", default=None, help="Database for CM subgraph (default: $CM_SUBGRAPH_DATABASE or 'neo4j').")
     p.add_argument(
         "--local-only",
         action="store_true",
@@ -290,11 +319,15 @@ def main() -> int:
             raise SystemExit(f"env file not found: {args.env_file}")
         load_env_file(args.env_file)
 
-    cim_uri  = args.cim_uri  or os.environ.get("NEO4J_CIM_URI",  "neo4j+s://neo4j-cim-kg.combini.ncsa.illinois.edu:7687")
-    cm_uri   = args.cm_uri   or os.environ.get("NEO4J_URI",      "neo4j+s://neo4j.combini.ncsa.illinois.edu:7687")
-    username = args.username or os.environ.get("NEO4J_USERNAME", "neo4j")
-    password = args.password or os.environ.get("NEO4J_PASSWORD", "")
-    database = args.database or os.environ.get("NEO4J_DATABASE", "neo4j")
+    gen_med_uri      = args.gen_med_uri      or os.environ.get("GENERAL_MED_URI", "")
+    gen_med_username = args.gen_med_username or os.environ.get("GENERAL_MED_USERNAME", "neo4j")
+    gen_med_password = args.gen_med_password or os.environ.get("GENERAL_MED_PASSWORD", "")
+    gen_med_database = args.gen_med_database or os.environ.get("GENERAL_MED_DATABASE", "neo4j")
+
+    cm_uri      = args.cm_uri      or os.environ.get("CM_SUBGRAPH_URI", "")
+    cm_username = args.cm_username or os.environ.get("CM_SUBGRAPH_USERNAME", "neo4j")
+    cm_password = args.cm_password or os.environ.get("CM_SUBGRAPH_PASSWORD", "")
+    cm_database = args.cm_database or os.environ.get("CM_SUBGRAPH_DATABASE", "neo4j")
 
     if not args.gen_med_dir and not args.cm_subgraph_dir:
         raise SystemExit("Provide at least one of --gen-med-dir or --cm-subgraph-dir.")
@@ -308,18 +341,30 @@ def main() -> int:
 
         remote_gm: Optional[Dict[str, int]] = None
         if not args.local_only:
-            if not password:
-                import getpass
-                password = getpass.getpass(f"Neo4j password for {username}@{cim_uri}: ")
-            print(f"[Gen-med graph] querying Kubernetes Neo4j at {cim_uri} ...")
-            try:
-                driver = get_neo4j_driver(cim_uri, username, password)
-                remote_gm = query_gen_med_counts(driver, database)
-                driver.close()
-            except SystemExit as exc:
-                print(f"  [warn] {exc}", file=sys.stderr)
+            if not gen_med_uri:
+                print("  [warn] GENERAL_MED_URI not set; skipping remote comparison for gen-med graph", file=sys.stderr)
+            else:
+                if not gen_med_password:
+                    import getpass
+                    gen_med_password = getpass.getpass(f"Neo4j password for {gen_med_username}@{gen_med_uri}: ")
+                print(f"[Gen-med graph] querying Kubernetes Neo4j at {gen_med_uri} ...")
+                try:
+                    driver = get_neo4j_driver(gen_med_uri, gen_med_username, gen_med_password)
+                    remote_gm = query_gen_med_counts(driver, gen_med_database)
+                    driver.close()
+                except SystemExit as exc:
+                    print(f"  [warn] {exc}", file=sys.stderr)
 
-        failures = compare_counts("Gen-med graph (CIM KG)", local_gm, remote_gm, args.tolerance)
+        failures = compare_counts(
+            "Gen-med graph (CIM KG)",
+            local_gm,
+            remote_gm,
+            args.tolerance,
+            # ikraph_nodes: neo4j-admin --skip-duplicate-nodes drops iKraph nodes
+            # whose normalized_id also appears in the SemMed node file; expect ~26k fewer.
+            per_key_tolerance={"ikraph_nodes": 15.0, "total_nodes": 8.0},
+            per_key_notes={"ikraph_nodes": "expected lower in k8s: deduplication by neo4j-admin"},
+        )
         all_failures.extend(failures)
 
     # ── CM subgraph ──────────────────────────────────────────────────────────
@@ -329,16 +374,19 @@ def main() -> int:
 
         remote_cm: Optional[Dict[str, int]] = None
         if not args.local_only:
-            if not password:
-                import getpass
-                password = getpass.getpass(f"Neo4j password for {username}@{cm_uri}: ")
-            print(f"[CM subgraph] querying Kubernetes Neo4j at {cm_uri} ...")
-            try:
-                driver = get_neo4j_driver(cm_uri, username, password)
-                remote_cm = query_cm_subgraph_counts(driver, database)
-                driver.close()
-            except SystemExit as exc:
-                print(f"  [warn] {exc}", file=sys.stderr)
+            if not cm_uri:
+                print("  [warn] CM_SUBGRAPH_URI not set; skipping remote comparison for CM subgraph", file=sys.stderr)
+            else:
+                if not cm_password:
+                    import getpass
+                    cm_password = getpass.getpass(f"Neo4j password for {cm_username}@{cm_uri}: ")
+                print(f"[CM subgraph] querying Kubernetes Neo4j at {cm_uri} ...")
+                try:
+                    driver = get_neo4j_driver(cm_uri, cm_username, cm_password)
+                    remote_cm = query_cm_subgraph_counts(driver, cm_database)
+                    driver.close()
+                except SystemExit as exc:
+                    print(f"  [warn] {exc}", file=sys.stderr)
 
         # Map local TSV names to corresponding remote query keys for comparison.
         # The remote queries use different keys; only compare where names align.
