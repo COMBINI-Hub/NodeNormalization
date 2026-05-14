@@ -159,6 +159,103 @@ def query_gen_med_counts(driver, database: str) -> Dict[str, int]:
     return counts
 
 
+def check_kgx_fields_gen_med(driver, database: str) -> List[str]:
+    """
+    Return a list of KGX compliance failures for the gen-med graph.
+
+    KGX spec requires:
+      Nodes : id, category
+      Edges : subject, object, predicate, knowledge_level, agent_type
+
+    The gen-med graph uses biolink predicate names as relationship types
+    (TREATS, AFFECTS, …) so we sample edges by property presence rather
+    than by :TYPE.
+    """
+    failures: List[str] = []
+    with driver.session(database=database) as s:
+        # ── Nodes ──────────────────────────────────────────────────────────
+        for node_label in ("SemmedEntity", "IKraphEntity"):
+            row = s.run(
+                f"MATCH (n:{node_label}) RETURN properties(n) AS p LIMIT 1"
+            ).single()
+            if not row:
+                failures.append(f"nodes/{node_label}: no nodes found")
+                continue
+            props = dict(row["p"])
+            for field in ("id", "category"):
+                if not props.get(field):
+                    failures.append(f"nodes/{node_label}.{field}: missing")
+
+        # ── Edges ──────────────────────────────────────────────────────────
+        for edge_label, filter_clause in (
+            ("SemMed edges",  "r.semmed_predicate IS NOT NULL"),
+            ("iKraph edges",  "r.ikraph_relation_type IS NOT NULL"),
+        ):
+            row = s.run(
+                f"MATCH ()-[r]->() WHERE {filter_clause} RETURN properties(r) AS p LIMIT 1"
+            ).single()
+            if not row:
+                failures.append(f"edges/{edge_label}: no edges found")
+                continue
+            props = dict(row["p"])
+            for field in ("subject", "object", "predicate", "knowledge_level", "agent_type"):
+                if not props.get(field):
+                    failures.append(f"edges/{edge_label}.{field}: missing")
+    return failures
+
+
+def check_kgx_fields_cm_subgraph(driver, database: str) -> List[str]:
+    """
+    Return a list of KGX compliance failures for the CM subgraph graph.
+
+    Known accepted gaps (same as kubernetes):
+      - IKraphEntity nodes: no category (Biolink type not available in this pipeline)
+      - IKRAPH_EDGE: no predicate (Biolink predicate not available in this pipeline)
+    """
+    failures: List[str] = []
+    with driver.session(database=database) as s:
+        # ComboSeed nodes are a COMBO-specific concept type, not standard KGX entities.
+        # Only check the biomedical entity types for KGX id compliance.
+        for node_label in ("SemmedEntity", "IKraphEntity"):
+            row = s.run(
+                f"MATCH (n:{node_label}) RETURN properties(n) AS p LIMIT 1"
+            ).single()
+            if not row:
+                continue
+            props = dict(row["p"])
+            for field in ("id",):
+                if not props.get(field):
+                    failures.append(f"nodes/{node_label}.{field}: missing")
+
+        for edge_type, required_fields in (
+            ("SEMMED_EDGE", ("subject", "object", "predicate", "knowledge_level", "agent_type")),
+            ("IKRAPH_EDGE", ("subject", "object", "knowledge_level", "agent_type")),
+        ):
+            row = s.run(
+                f"MATCH ()-[r:{edge_type}]->() RETURN properties(r) AS p LIMIT 1"
+            ).single()
+            if not row:
+                failures.append(f"edges/{edge_type}: no edges found")
+                continue
+            props = dict(row["p"])
+            for field in required_fields:
+                if not props.get(field):
+                    failures.append(f"edges/{edge_type}.{field}: missing")
+    return failures
+
+
+def print_kgx_results(label: str, failures: List[str]) -> List[str]:
+    print(f"\n{'─' * 64}")
+    print(f"  KGX fields — {label}")
+    print(f"{'─' * 64}")
+    if not failures:
+        print(f"  {OK} All required KGX fields present.")
+    else:
+        for msg in failures:
+            print(f"  {FAIL} {msg}")
+    return failures
+
+
 def query_cm_subgraph_counts(driver, database: str) -> Dict[str, int]:
     queries = {
         "combo_seed_nodes":   "MATCH (n:ComboSeed) RETURN count(n) AS c",
@@ -367,6 +464,14 @@ def main() -> int:
         )
         all_failures.extend(failures)
 
+        if not args.local_only and remote_gm is not None:
+            kgx_driver = get_neo4j_driver(gen_med_uri, gen_med_username, gen_med_password)
+            kgx_failures = check_kgx_fields_gen_med(kgx_driver, gen_med_database)
+            kgx_driver.close()
+            kgx_failures = print_kgx_results("Gen-med graph (kubernetes)", kgx_failures)
+            if kgx_failures:
+                all_failures.extend([f"[KGX] {f}" for f in kgx_failures])
+
     # ── CM subgraph ──────────────────────────────────────────────────────────
     if not args.skip_cm and args.cm_subgraph_dir:
         print(f"\n[CM subgraph] counting local files in: {args.cm_subgraph_dir}")
@@ -411,6 +516,14 @@ def main() -> int:
 
         failures = compare_counts("CM subgraph", aligned_local, aligned_remote, args.tolerance)
         all_failures.extend(failures)
+
+        if not args.local_only and remote_cm is not None:
+            kgx_driver = get_neo4j_driver(cm_uri, cm_username, cm_password)
+            kgx_failures = check_kgx_fields_cm_subgraph(kgx_driver, cm_database)
+            kgx_driver.close()
+            kgx_failures = print_kgx_results("CM subgraph (kubernetes)", kgx_failures)
+            if kgx_failures:
+                all_failures.extend([f"[KGX] {f}" for f in kgx_failures])
 
     # ── Final result ─────────────────────────────────────────────────────────
     print(f"\n{'═' * 64}")
