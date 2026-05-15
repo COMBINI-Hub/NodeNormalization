@@ -1,0 +1,10 @@
+[
+  {"biokdeid": "100", "id": "EXT:100", "official name": "GeneA", "common name": "geneA", "type": "Gene"},
+  {"biokdeid": "200", "id": "EXT:200", "official name": "DiseaseB", "common name": "diseaseB", "type": "Disease"},
+  {"biokdeid": "101", "id": "EXT:101", "official name": "DrugX", "common name": "drugX", "type": "Chemical"},
+  {"biokdeid": "202", "id": "EXT:202", "official name": "DiseaseY", "common name": "diseaseY", "type": "Disease"},
+  {"biokdeid": "103", "id": "EXT:103", "official name": "GeneC", "common name": "geneC", "type": "Gene"},
+  {"biokdeid": "104", "id": "EXT:104", "official name": "GeneD", "common name": "geneD", "type": "Gene"},
+  {"biokdeid": "106", "id": "EXT:106", "official name": "GeneE", "common name": "geneE", "type": "Gene"},
+  {"biokdeid": "107", "id": "EXT:107", "official name": "GeneF", "common name": "geneF", "type": "Gene"}
+]

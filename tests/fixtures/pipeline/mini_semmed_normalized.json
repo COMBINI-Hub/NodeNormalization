@@ -1,0 +1,17 @@
+{
+  "C0000001": {
+    "id": {"identifier": "MONDO:0000001", "label": "SomeDiseaseA"},
+    "type": ["biolink:Disease"],
+    "equivalent_identifiers": [{"identifier": "MONDO:0000001", "label": "SomeDiseaseA"}]
+  },
+  "C0000002": {
+    "id": {"identifier": "CHEBI:0000002", "label": "SomeDrugB"},
+    "type": ["biolink:ChemicalEntity"],
+    "equivalent_identifiers": [{"identifier": "CHEBI:0000002", "label": "SomeDrugB"}]
+  },
+  "C0000003": {
+    "id": {"identifier": "NCBIGene:0000003", "label": "SomeGeneC"},
+    "type": ["biolink:Gene"],
+    "equivalent_identifiers": [{"identifier": "NCBIGene:0000003", "label": "SomeGeneC"}]
+  }
+}

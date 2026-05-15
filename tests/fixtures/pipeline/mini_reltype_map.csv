@@ -1,0 +1,6 @@
+int_rep,ikraph_relation_type,proposed_biolink_predicate,source,subject_is_node_one
+2,positively_correlated,biolink:positively_regulates,halil,True
+3,treats,biolink:treats,halil,True
+5,interacts_with,biolink:interacts_with,cesar,True
+9,related_to_default,biolink:related_to,default,True
+7,reverse_predicate,biolink:located_in,halil,False

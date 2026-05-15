@@ -1,0 +1,42 @@
+{
+  "EXT:100": {
+    "id": {"identifier": "NCBIGene:100", "label": "GeneA"},
+    "type": ["biolink:Gene"],
+    "equivalent_identifiers": [{"identifier": "NCBIGene:100", "label": "GeneA"}]
+  },
+  "EXT:200": {
+    "id": {"identifier": "MONDO:200", "label": "DiseaseB"},
+    "type": ["biolink:Disease"],
+    "equivalent_identifiers": [{"identifier": "MONDO:200", "label": "DiseaseB"}]
+  },
+  "EXT:101": {
+    "id": {"identifier": "CHEBI:101", "label": "DrugX"},
+    "type": ["biolink:ChemicalEntity"],
+    "equivalent_identifiers": [{"identifier": "CHEBI:101", "label": "DrugX"}]
+  },
+  "EXT:202": {
+    "id": {"identifier": "MONDO:202", "label": "DiseaseY"},
+    "type": ["biolink:Disease"],
+    "equivalent_identifiers": [{"identifier": "MONDO:202", "label": "DiseaseY"}]
+  },
+  "EXT:103": {
+    "id": {"identifier": "NCBIGene:103", "label": "GeneC"},
+    "type": ["biolink:Gene"],
+    "equivalent_identifiers": [{"identifier": "NCBIGene:103", "label": "GeneC"}]
+  },
+  "EXT:104": {
+    "id": {"identifier": "NCBIGene:104", "label": "GeneD"},
+    "type": ["biolink:Gene"],
+    "equivalent_identifiers": [{"identifier": "NCBIGene:104", "label": "GeneD"}]
+  },
+  "EXT:106": {
+    "id": {"identifier": "NCBIGene:106", "label": "GeneE"},
+    "type": ["biolink:Gene"],
+    "equivalent_identifiers": [{"identifier": "NCBIGene:106", "label": "GeneE"}]
+  },
+  "EXT:107": {
+    "id": {"identifier": "NCBIGene:107", "label": "GeneF"},
+    "type": ["biolink:Gene"],
+    "equivalent_identifiers": [{"identifier": "NCBIGene:107", "label": "GeneF"}]
+  }
+}
