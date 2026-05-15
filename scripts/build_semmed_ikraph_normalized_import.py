@@ -182,13 +182,12 @@ def load_semmed_nodes(semmed_nodes_path: Path) -> Tuple[Dict[str, str], Dict[str
 def write_nodes_csv(path: Path, nodes: Dict[str, Dict[str, object]], label: str) -> None:
     with path.open("w", encoding="utf-8", newline="") as handle:
         writer = csv.writer(handle)
-        writer.writerow(["normalized_id:ID", "id", "name", "categories:string[]", "category", ":LABEL"])
+        writer.writerow(["normalized_id:ID", "id", "name", "categories:string[]", "category:string[]", ":LABEL"])
         for norm_id, data in nodes.items():
             name = data.get("name", "") or ""
             types = sorted(data.get("types", []))
-            types_neo4j = ";".join(types)
-            types_kgx = "|".join(types)
-            writer.writerow([norm_id, norm_id, name, types_neo4j, types_kgx, label])
+            types_str = ";".join(types)
+            writer.writerow([norm_id, norm_id, name, types_str, types_str, label])
 
 
 def init_sqlite(path: Path) -> sqlite3.Connection:
@@ -338,7 +337,7 @@ def build_ikraph_nodes_and_map(
     seen_norm_ids = set()
     with nodes_out.open("w", encoding="utf-8", newline="") as handle:
         writer = csv.writer(handle)
-        writer.writerow(["normalized_id:ID", "id", "name", "categories:string[]", "category", ":LABEL"])
+        writer.writerow(["normalized_id:ID", "id", "name", "categories:string[]", "category:string[]", ":LABEL"])
         for nodes_path in sorted(nodes_dir.glob("nodes_*.csv.gz")):
             with gzip.open(nodes_path, "rt", encoding="utf-8", errors="replace", newline="") as infile:
                 reader = csv.DictReader(infile)
@@ -385,8 +384,7 @@ def build_ikraph_nodes_and_map(
                         map_batch.clear()
                     if norm_id in seen_norm_ids:
                         continue
-                    types_kgx = types_joined.replace(";", "|")
-                    writer.writerow([norm_id, norm_id, label, types_joined, types_kgx, "IKraphEntity"])
+                    writer.writerow([norm_id, norm_id, label, types_joined, types_joined, "IKraphEntity"])
                     seen_norm_ids.add(norm_id)
             if map_batch:
                 conn.executemany(map_insert, map_batch)
