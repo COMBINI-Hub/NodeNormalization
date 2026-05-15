@@ -14,14 +14,14 @@
 #   --semmed-nodes            CSV mapping semmed_id → normalized_id (labels, types)
 #   --semmed-predication      predication.csv.gz from SemMedDB
 #   --semmed-concepts-csv     concept.csv from SemMedDB
-#   --ikraph-nodes-dir        directory containing nodes_*.csv.gz
-#   --ikraph-relationships-db relationships_db.mapped.csv.gz
-#   --ikraph-relationships-pubmed  relationships_pubmed.mapped.csv.gz
+#   --ikraph-nodes-json       NER_ID_dict_cap_final.json from iKraph_raw
+#   --ikraph-db-json          iKraph_full/DBRelations.json from iKraph_raw
+#   --ikraph-pubmed-json      iKraph_full/PubMedList.json from iKraph_raw
 #   --ikraph-normalized-json  ikraph normalization JSON (NodeNorm output)
-#   --ikraph-reltype-map      CSV: ikraph_relation_type → proposed_biolink_predicate
+#   --ikraph-reltype-map      CSV: int_rep → proposed_biolink_predicate (from generate_ikraph_reltype_map.py)
 #   --ikraph-edges-cleaned    ikraph_edges_cleaned.csv (for CM subgraph)
 #   --semmed-normalized-json  semmed_normalized_full_with_pubchem.json
-#   --combo-owl               COMBO_20260115_with_skos.owl
+#   --combo-owl               COMBO ontology OWL file
 #   --output-dir              root output directory (created if absent)
 #
 # Optional:
@@ -30,8 +30,6 @@
 #   --stream-ikraph-json      pass --stream-ikraph-norm-json to build script (saves RAM)
 #   --extract-args            extra args forwarded to extract_combo_semmed_ikraph_subgraph.py
 #                             e.g. --extract-args='--focus-intervention-umls-only'
-#   --ikraph-nodes-json       iKraph node names JSON (NER_ID_dict_cap_final.json);
-#                             used only by extract step (optional, falls back to default)
 #   --semmed-connections-csv  connections.csv from SemMedDB (for extract step)
 #   --embedding-best          combo_external_highsim_bestper_source.tsv (optional)
 #   --ikraph-names-flat       ikraph_names_flat.tsv (optional)
@@ -50,9 +48,9 @@ COMBO_ROOT="${COMBO_ROOT:-$(dirname "$SCRIPT_DIR")}"
 SEMMED_NODES=""
 SEMMED_PREDICATION=""
 SEMMED_CONCEPTS_CSV=""
-IKRAPH_NODES_DIR=""
-IKRAPH_RELATIONSHIPS_DB=""
-IKRAPH_RELATIONSHIPS_PUBMED=""
+IKRAPH_NODES_JSON=""
+IKRAPH_DB_JSON=""
+IKRAPH_PUBMED_JSON=""
 IKRAPH_NORMALIZED_JSON=""
 IKRAPH_RELTYPE_MAP=""
 IKRAPH_EDGES_CLEANED=""
@@ -66,7 +64,6 @@ STREAM_IKRAPH_JSON=0
 EXTRACT_ARGS=""
 
 # Optional paths with defaults
-IKRAPH_NODES_JSON=""
 SEMMED_CONNECTIONS_CSV=""
 EMBEDDING_BEST=""
 IKRAPH_NAMES_FLAT=""
@@ -82,9 +79,9 @@ while [[ $# -gt 0 ]]; do
     --semmed-nodes)               SEMMED_NODES="$2";              shift 2 ;;
     --semmed-predication)         SEMMED_PREDICATION="$2";        shift 2 ;;
     --semmed-concepts-csv)        SEMMED_CONCEPTS_CSV="$2";       shift 2 ;;
-    --ikraph-nodes-dir)           IKRAPH_NODES_DIR="$2";          shift 2 ;;
-    --ikraph-relationships-db)    IKRAPH_RELATIONSHIPS_DB="$2";   shift 2 ;;
-    --ikraph-relationships-pubmed) IKRAPH_RELATIONSHIPS_PUBMED="$2"; shift 2 ;;
+    --ikraph-nodes-json)          IKRAPH_NODES_JSON="$2";         shift 2 ;;
+    --ikraph-db-json)             IKRAPH_DB_JSON="$2";            shift 2 ;;
+    --ikraph-pubmed-json)         IKRAPH_PUBMED_JSON="$2";        shift 2 ;;
     --ikraph-normalized-json)     IKRAPH_NORMALIZED_JSON="$2";    shift 2 ;;
     --ikraph-reltype-map)         IKRAPH_RELTYPE_MAP="$2";        shift 2 ;;
     --ikraph-edges-cleaned)       IKRAPH_EDGES_CLEANED="$2";      shift 2 ;;
@@ -95,7 +92,6 @@ while [[ $# -gt 0 ]]; do
     --skip-cm-subgraph)           SKIP_CM_SUBGRAPH=1;             shift ;;
     --stream-ikraph-json)         STREAM_IKRAPH_JSON=1;           shift ;;
     --extract-args)               EXTRACT_ARGS="$2";              shift 2 ;;
-    --ikraph-nodes-json)          IKRAPH_NODES_JSON="$2";         shift 2 ;;
     --semmed-connections-csv)     SEMMED_CONNECTIONS_CSV="$2";    shift 2 ;;
     --embedding-best)             EMBEDDING_BEST="$2";            shift 2 ;;
     --ikraph-names-flat)          IKRAPH_NAMES_FLAT="$2";         shift 2 ;;
@@ -113,13 +109,13 @@ die() { echo "ERROR: $*" >&2; exit 1; }
 [[ -n "$OUTPUT_DIR" ]] || die "--output-dir is required"
 
 if [[ "$SKIP_GEN_MED" != "1" ]]; then
-  [[ -n "$SEMMED_NODES" ]]              || die "--semmed-nodes is required for gen-med graph"
-  [[ -n "$SEMMED_PREDICATION" ]]        || die "--semmed-predication is required for gen-med graph"
-  [[ -n "$IKRAPH_NODES_DIR" ]]          || die "--ikraph-nodes-dir is required for gen-med graph"
-  [[ -n "$IKRAPH_RELATIONSHIPS_DB" ]]   || die "--ikraph-relationships-db is required for gen-med graph"
-  [[ -n "$IKRAPH_RELATIONSHIPS_PUBMED" ]] || die "--ikraph-relationships-pubmed is required for gen-med graph"
-  [[ -n "$IKRAPH_NORMALIZED_JSON" ]]    || die "--ikraph-normalized-json is required for gen-med graph"
-  [[ -n "$IKRAPH_RELTYPE_MAP" ]]        || die "--ikraph-reltype-map is required for gen-med graph"
+  [[ -n "$SEMMED_NODES" ]]           || die "--semmed-nodes is required for gen-med graph"
+  [[ -n "$SEMMED_PREDICATION" ]]     || die "--semmed-predication is required for gen-med graph"
+  [[ -n "$IKRAPH_NODES_JSON" ]]      || die "--ikraph-nodes-json is required for gen-med graph"
+  [[ -n "$IKRAPH_DB_JSON" ]]         || die "--ikraph-db-json is required for gen-med graph"
+  [[ -n "$IKRAPH_PUBMED_JSON" ]]     || die "--ikraph-pubmed-json is required for gen-med graph"
+  [[ -n "$IKRAPH_NORMALIZED_JSON" ]] || die "--ikraph-normalized-json is required for gen-med graph"
+  [[ -n "$IKRAPH_RELTYPE_MAP" ]]     || die "--ikraph-reltype-map is required for gen-med graph"
 fi
 
 if [[ "$SKIP_CM_SUBGRAPH" != "1" ]]; then
@@ -156,14 +152,14 @@ if [[ "$SKIP_GEN_MED" != "1" ]]; then
 
   step "[A1/2] Building normalized SemMed+iKraph import CSVs"
   build_args=(
-    --semmed-nodes              "$SEMMED_NODES"
-    --semmed-predication        "$SEMMED_PREDICATION"
-    --ikraph-nodes-dir          "$IKRAPH_NODES_DIR"
-    --ikraph-relationships-db   "$IKRAPH_RELATIONSHIPS_DB"
-    --ikraph-relationships-pubmed "$IKRAPH_RELATIONSHIPS_PUBMED"
-    --ikraph-normalized-json    "$IKRAPH_NORMALIZED_JSON"
-    --ikraph-reltype-map        "$IKRAPH_RELTYPE_MAP"
-    --output-dir                "$GEN_MED_DIR"
+    --semmed-nodes           "$SEMMED_NODES"
+    --semmed-predication     "$SEMMED_PREDICATION"
+    --ikraph-nodes-json      "$IKRAPH_NODES_JSON"
+    --ikraph-db-json         "$IKRAPH_DB_JSON"
+    --ikraph-pubmed-json     "$IKRAPH_PUBMED_JSON"
+    --ikraph-normalized-json "$IKRAPH_NORMALIZED_JSON"
+    --ikraph-reltype-map     "$IKRAPH_RELTYPE_MAP"
+    --output-dir             "$GEN_MED_DIR"
   )
   if [[ "$STREAM_IKRAPH_JSON" == "1" ]]; then
     build_args+=(--stream-ikraph-norm-json)
