@@ -27,6 +27,7 @@ from pipeline_steps.build_import_csvs import (
     IKRAPH_SOURCE_TO_INFORES,
     IKRAPH_PUBMED_INFORES,
     SEMMED_INFORES,
+    classify_biolink_predicate,
     validate_biolink_predicate,
     build_ikraph_edges,
     build_semmed_edges,
@@ -139,6 +140,14 @@ class TestLoadReltypeMap:
 class TestValidateBiolinkPredicate:
     def test_known_predicate_passes(self) -> None:
         assert validate_biolink_predicate("biolink:treats") is True
+        # From frozen BiOLink Model allowlist (not the old pipeline hand-picked subset)
+        assert validate_biolink_predicate("biolink:positively_correlated_with") is True
+
+    def test_classify_without_side_effects(self) -> None:
+        assert classify_biolink_predicate("biolink:treats") == "ok"
+        assert classify_biolink_predicate("biolink:positively_correlated_with") == "ok"
+        assert classify_biolink_predicate("treats") == "bad_format"
+        assert classify_biolink_predicate("biolink:some_totally_new_predicate_xyz") == "not_in_allowlist"
 
     def test_bad_format_warns(self) -> None:
         with warnings.catch_warnings(record=True) as w:
@@ -434,6 +443,8 @@ class TestRestructureForNeo4j:
                         "frequency:int", "pmids:string[]",
                         "provided_by:string[]",
                         "subject", "object", "predicate",
+                        "qualified_predicate", "object_aspect_qualifier",
+                        "object_direction_qualifier",
                         "knowledge_level", "agent_type",
                     ],
                 )
@@ -442,14 +453,17 @@ class TestRestructureForNeo4j:
                     ":START_ID": "MONDO:1",
                     ":END_ID": "CHEBI:1",
                     ":TYPE": "",
-                    "biolink_predicate": "biolink:treats",
+                    "biolink_predicate": "biolink:treats_or_applied_or_studied_to_treat",
                     "semmed_predicate": "TREATS",
                     "frequency:int": "3",
                     "pmids:string[]": "PMID:123",
                     "provided_by:string[]": "infores:semmeddb",
                     "subject": "MONDO:1",
                     "object": "CHEBI:1",
-                    "predicate": "biolink:treats",
+                    "predicate": "biolink:treats_or_applied_or_studied_to_treat",
+                    "qualified_predicate": "",
+                    "object_aspect_qualifier": "",
+                    "object_direction_qualifier": "",
                     "knowledge_level": "statistical_association",
                     "agent_type": "text_mining_agent",
                 })
@@ -468,7 +482,7 @@ class TestRestructureForNeo4j:
         self._make_minimal_csvs(src)
         restructure_for_neo4j(src, dst)
         rows = _read_csv(dst / "semmed_edges_normalized.csv")
-        assert rows[0][":TYPE"] == "TREATS"
+        assert rows[0][":TYPE"] == "TREATS_OR_APPLIED_OR_STUDIED_TO_TREAT"
 
 
 # ---------------------------------------------------------------------------

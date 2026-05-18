@@ -53,6 +53,48 @@ pytest tests/test_pipeline.py -v
 
 ---
 
+## Predicate mapping sources of truth
+
+### SemMedDB → Biolink
+
+The authoritative reference is **RTX-KG2 `maps/predicate-remap.yaml`**:
+<https://github.com/RTXteam/RTX-KG2/blob/master/maps/predicate-remap.yaml>
+
+This file is maintained by the RTX-KG2 team and is the community standard for the
+Translator ecosystem.  Our `SEMMED_PREDICATE_MAP` in
+`scripts/pipeline_steps/build_import_csvs.py` mirrors its `core_predicate` values.
+
+Key design choices that diverge from a naive reading:
+
+| SemMed predicate | Biolink `core_predicate` | Notes |
+|---|---|---|
+| `INHIBITS` | `biolink:affects` | RTX-KG2 encodes directionality via qualifiers, not a separate predicate. Qualifier columns `qualified_predicate=biolink:causes`, `object_aspect_qualifier=activity`, `object_direction_qualifier=decreased` are written to the edge CSV. |
+| `STIMULATES` | `biolink:affects` | Same pattern; `object_direction_qualifier=increased`. |
+| `AUGMENTS` | `biolink:affects` | `object_aspect_qualifier=activity_or_abundance`, `object_direction_qualifier=increased`. |
+| `CONVERTS_TO` | `biolink:derives_from` | **Inverted** — SemMed (A→B) becomes Biolink (B)-[derives_from]→(A). |
+| `LOCATION_OF` | `biolink:located_in` | **Inverted** — SemMed "A is location of B" becomes Biolink (B)-[located_in]→(A). |
+| `PART_OF` | `biolink:has_part` | **Inverted** — SemMed (A→B) becomes Biolink (B)-[has_part]→(A). |
+| `TREATS` | `biolink:treats_or_applied_or_studied_to_treat` | More specific than plain `biolink:treats`. |
+| `PREDISPOSES` | `biolink:predisposes_to_condition` | RTX-KG2 uses the longer form; `biolink:predisposes` is not in the model. |
+| `PREVENTS` | `biolink:preventative_for_condition` | RTX-KG2 uses the longer form; `biolink:prevents` is not in the model. |
+
+Predicates that RTX-KG2 marks `operation: delete` (`MEASUREMENT_OF`, `METHOD_OF`, `NOM`,
+`PREP`, `VERB`) are skipped entirely — no edge row is written.
+
+To update a mapping, edit `SEMMED_PREDICATE_MAP` / `SEMMED_INVERT` / `SEMMED_SKIP` /
+`SEMMED_QUALIFIERS` in `scripts/pipeline_steps/build_import_csvs.py` and cross-check
+against the RTX-KG2 YAML above.
+
+### iKraph → Biolink
+
+The mapping is maintained in `ikraph_reltype_to_biolink_mapping_review.xlsx` (Halil's
+column preferred, Cesar's as fallback) and compiled into
+`semmed_ikraph_normalized/ikraph_reltype_map.csv`.  See
+[`BUILD_KGS.md` legacy pipeline section](#step-0-generate-the-ikraph-reltype--biolink-mapping)
+for how to regenerate it.
+
+---
+
 ## Legacy shell pipeline
 
 ### Step 0: Generate the iKraph reltype → Biolink mapping

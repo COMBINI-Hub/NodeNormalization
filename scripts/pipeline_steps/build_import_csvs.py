@@ -13,10 +13,27 @@ Key differences from the original build_semmed_ikraph_normalized_import.py:
      inserts so the join key is always consistent.
   3. provided_by:string[] column on every edge CSV row, sourced from the DBRelations.json
      "source" field (mapped to infores CURIEs) or "infores:ikraph" / "infores:semmeddb".
-  4. Biolink predicates are validated against a known set at startup; unrecognised values
-     emit warnings but do not block the run.
+  4. Biolink predicates are validated at startup against a frozen allowlist exported from the
+     BiOLink Model (descendants of the ``related_to`` slot tree via Biolink Model Toolkit);
+     predicates missing from the allowlist emit warnings but do not block the run.
   5. subject_is_node_one from the reltype map can trigger an additional swap so the
      canonical Biolink subject domain is honoured after the direction swap.
+
+SemMedDB predicate mapping
+---------------------------
+Mappings follow RTX-KG2's ``maps/predicate-remap.yaml`` as the community source of truth:
+  https://github.com/RTXteam/RTX-KG2/blob/master/maps/predicate-remap.yaml
+
+Three behaviours are encoded per SemMed predicate:
+  core_predicate  — the Biolink CURIE stored on every edge  (SEMMED_PREDICATE_MAP)
+  invert          — swap subject/object before aggregating  (SEMMED_INVERT)
+  skip            — drop the predication entirely           (SEMMED_SKIP)
+
+Additionally, INHIBITS / STIMULATES / AUGMENTS carry Biolink qualifier data
+(SEMMED_QUALIFIERS) stored in three extra edge columns for downstream queries:
+  qualified_predicate      e.g. "biolink:causes"
+  object_aspect_qualifier  e.g. "activity"
+  object_direction_qualifier e.g. "decreased"
 """
 from __future__ import annotations
 
@@ -29,7 +46,7 @@ import sys
 import warnings
 from functools import lru_cache
 from pathlib import Path
-from typing import Dict, List, Optional, Tuple
+from typing import Dict, List, Literal, Optional, Tuple
 
 # ---------------------------------------------------------------------------
 # Biolink predicate validation
@@ -37,61 +54,62 @@ from typing import Dict, List, Optional, Tuple
 
 BIOLINK_RE = re.compile(r"^biolink:[a-z][a-z0-9_]*$")
 
-# Canonical predicates used in this pipeline; extend as needed.
-KNOWN_BIOLINK_PREDICATES: frozenset[str] = frozenset(
-    {
-        "biolink:related_to",
-        "biolink:subclass_of",
-        "biolink:part_of",
-        "biolink:participates_in",
-        "biolink:treats",
-        "biolink:prevents",
-        "biolink:predisposes",
-        "biolink:causes",
-        "biolink:affects",
-        "biolink:positively_regulates",
-        "biolink:negatively_regulates",
-        "biolink:interacts_with",
-        "biolink:disrupts",
-        "biolink:has_phenotype",
-        "biolink:located_in",
-        "biolink:produces",
-        "biolink:uses",
-        "biolink:associated_with",
-        "biolink:gene_associated_with_condition",
-        "biolink:expressed_in",
-        "biolink:has_part",
-        "biolink:related_to_at_concept_level",
-        "biolink:coexists_with",
-        "biolink:contributes_to",
-        "biolink:regulates",
-        "biolink:binds",
-        "biolink:physically_interacts_with",
-        "biolink:decreases_activity_of",
-        "biolink:increases_activity_of",
-        "biolink:decreases_expression_of",
-        "biolink:increases_expression_of",
-        "biolink:decreases_molecular_interaction",
-        "biolink:increases_molecular_interaction",
-    }
-)
+_PREDICATES_DATA = Path(__file__).resolve().parent / "data" / "biolink_model_predicates_bmt-default.txt"
+
+
+@lru_cache(maxsize=1)
+def known_biolink_predicates_from_model() -> frozenset[str]:
+    """
+    Predicates curated from Biolink Model (``related_to`` descendants, formatted CURIEs).
+
+    The text file is generated with ``scripts/tools/refresh_biolink_predicate_allowlist.py``
+    (uses ``bmt.Toolkit``, same pinning as Translator services using that package).
+    """
+    text = _PREDICATES_DATA.read_text(encoding="utf-8")
+    preds: List[str] = []
+    for line in text.splitlines():
+        ls = line.strip()
+        if not ls or ls.startswith("#"):
+            continue
+        preds.append(ls)
+    if not preds:
+        raise RuntimeError(f"Empty Biolink predicate allowlist: {_PREDICATES_DATA}")
+    return frozenset(preds)
+
+
+def classify_biolink_predicate(pred: str) -> Literal["ok", "bad_format", "not_in_allowlist"]:
+    """
+    Classify ``pred`` without emitting warnings.
+
+    ``ok`` — matches canonical ``biolink:`` pattern and appears in the frozen BiOLink-model allowlist.
+    ``bad_format`` — does not match the pipeline's canonical predicate pattern.
+    ``not_in_allowlist`` — well-formed ``biolink:`` CURIE but not in the current allowlist file.
+    """
+    if not BIOLINK_RE.match(pred):
+        return "bad_format"
+    if pred not in known_biolink_predicates_from_model():
+        return "not_in_allowlist"
+    return "ok"
 
 
 def validate_biolink_predicate(pred: str, context: str = "") -> bool:
     """
-    Return True if pred is a recognised canonical Biolink predicate.
-    Emit a warning (not an error) for unrecognised values.
+    Return True if ``pred`` is in the Biolink-model-derived predicate allowlist.
+    Emit a warning (not an error) when the string is malformed or not listed in BiOLink.
     """
-    if not BIOLINK_RE.match(pred):
+    status = classify_biolink_predicate(pred)
+    if status == "bad_format":
         warnings.warn(
             f"Non-canonical Biolink predicate {pred!r}{' (' + context + ')' if context else ''}",
             stacklevel=2,
         )
         return False
-    if pred not in KNOWN_BIOLINK_PREDICATES:
+    if status == "not_in_allowlist":
         warnings.warn(
             f"Unknown Biolink predicate {pred!r}{' (' + context + ')' if context else ''}."
-            " Add it to KNOWN_BIOLINK_PREDICATES if intentional.",
+            " Not in Biolink-model allowlist "
+            "(regenerate scripts/pipeline_steps/data/biolink_model_predicates_bmt-default.txt"
+            " or fix the mapping CURIE per current BiOLink Model).",
             stacklevel=2,
         )
         return False
@@ -99,29 +117,64 @@ def validate_biolink_predicate(pred: str, context: str = "") -> bool:
 
 
 # ---------------------------------------------------------------------------
-# SemMed predicate map (SemMed uppercase string → Biolink predicate)
+# SemMedDB predicate mapping
+# Source of truth: RTX-KG2 maps/predicate-remap.yaml
+# https://github.com/RTXteam/RTX-KG2/blob/master/maps/predicate-remap.yaml
 # ---------------------------------------------------------------------------
 
+# SemMed uppercase predicate → Biolink core_predicate CURIE.
+# Predicates absent from this map fall back to "biolink:related_to".
 SEMMED_PREDICATE_MAP: Dict[str, str] = {
-    "ISA": "biolink:subclass_of",
-    "PART_OF": "biolink:part_of",
-    "PROCESS_OF": "biolink:participates_in",
-    "TREATS": "biolink:treats",
-    "PREVENTS": "biolink:prevents",
-    "PREDISPOSES": "biolink:predisposes",
-    "CAUSES": "biolink:causes",
-    "AFFECTS": "biolink:affects",
-    "STIMULATES": "biolink:positively_regulates",
-    "INHIBITS": "biolink:negatively_regulates",
-    "INTERACTS_WITH": "biolink:interacts_with",
-    "ASSOCIATED_WITH": "biolink:related_to",       # intentionally broad
-    "COEXISTS_WITH": "biolink:related_to",         # intentionally broad
-    "CONVERTS_TO": "biolink:related_to",           # intentionally broad
-    "DISRUPTS": "biolink:disrupts",
-    "MANIFESTATION_OF": "biolink:has_phenotype",
-    "LOCATION_OF": "biolink:located_in",
-    "PRODUCES": "biolink:produces",
-    "USES": "biolink:uses",
+    # --- direct mappings (operation: keep) ---
+    "ADMINISTERED_TO":  "biolink:treats_or_applied_or_studied_to_treat",
+    "AFFECTS":          "biolink:affects",
+    "ASSOCIATED_WITH":  "biolink:related_to",
+    "AUGMENTS":         "biolink:affects",          # qualified: causes / activity_or_abundance / increased
+    "CAUSES":           "biolink:causes",
+    "COEXISTS_WITH":    "biolink:coexists_with",
+    "COMPARED_WITH":    "biolink:related_to",
+    "COMPLICATES":      "biolink:exacerbates_condition",
+    "DIAGNOSES":        "biolink:diagnoses",
+    "DISRUPTS":         "biolink:disrupts",
+    "HIGHER_THAN":      "biolink:related_to",
+    "INHIBITS":         "biolink:affects",          # qualified: causes / activity / decreased
+    "INTERACTS_WITH":   "biolink:interacts_with",
+    "ISA":              "biolink:related_to",
+    "LOWER_THAN":       "biolink:related_to",
+    "MANIFESTATION_OF": "biolink:manifestation_of",
+    "MEASURES":         "biolink:related_to",
+    "OCCURS_IN":        "biolink:occurs_in",
+    "PRECEDES":         "biolink:precedes",
+    "PREDISPOSES":      "biolink:predisposes_to_condition",
+    "PREVENTS":         "biolink:preventative_for_condition",
+    "PROCESS_OF":       "biolink:occurs_in",
+    "PRODUCES":         "biolink:produces",
+    "SAME_AS":          "biolink:close_match",
+    "STIMULATES":       "biolink:affects",          # qualified: causes / activity / increased
+    "TREATS":           "biolink:treats_or_applied_or_studied_to_treat",
+    "USES":             "biolink:has_input",
+    # --- inverted mappings (operation: invert) — subject/object swapped before insert ---
+    "CONVERTS_TO":      "biolink:derives_from",     # SemMed A→B means B derives_from A
+    "LOCATION_OF":      "biolink:located_in",       # SemMed A→B means B located_in A
+    "PART_OF":          "biolink:has_part",         # SemMed A→B means B has_part A
+}
+
+# Predicates whose subject/object must be swapped so the Biolink predicate
+# reads in the canonical direction.  RTX-KG2 operation: invert.
+SEMMED_INVERT: frozenset[str] = frozenset({"CONVERTS_TO", "LOCATION_OF", "PART_OF"})
+
+# Predications to drop entirely.  RTX-KG2 operation: delete.
+SEMMED_SKIP: frozenset[str] = frozenset(
+    {"MEASUREMENT_OF", "METHOD_OF", "NOM", "PREP", "VERB"}
+)
+
+# Optional Biolink qualifier data for qualified-edge predicates.
+# Tuple: (qualified_predicate, object_aspect_qualifier, object_direction_qualifier)
+# Ref: https://biolink.github.io/biolink-model/qualified-edges/
+SEMMED_QUALIFIERS: Dict[str, Tuple[str, str, str]] = {
+    "INHIBITS":  ("biolink:causes", "activity",              "decreased"),
+    "STIMULATES": ("biolink:causes", "activity",             "increased"),
+    "AUGMENTS":  ("biolink:causes", "activity_or_abundance", "increased"),
 }
 
 # ---------------------------------------------------------------------------
@@ -460,6 +513,12 @@ def build_semmed_edges(
 
     Deduplicates on (subj_norm, obj_norm, predicate), counts frequency, collects PMIDs.
     Adds provided_by = infores:semmeddb on every row.
+
+    Predicate handling follows RTX-KG2 predicate-remap.yaml:
+      - SEMMED_SKIP predicates are dropped entirely.
+      - SEMMED_INVERT predicates swap subject/object before aggregation so the
+        Biolink predicate reads in the canonical direction.
+      - SEMMED_QUALIFIERS predicates emit three extra qualifier columns.
     """
     db_path = output_dir / "semmed_edges_norm.sqlite"
     if db_path.exists():
@@ -492,11 +551,17 @@ def build_semmed_edges(
             obj = row[5].strip()
             if not subj or not obj or subj == obj:
                 continue
+            pred_upper = pred.upper()
+            if pred_upper in SEMMED_SKIP:
+                continue
             subj_n = semmed_to_norm.get(subj)
             obj_n = semmed_to_norm.get(obj)
             if not subj_n or not obj_n:
                 continue
-            biolink_pred = SEMMED_PREDICATE_MAP.get(pred.upper(), "biolink:related_to")
+            biolink_pred = SEMMED_PREDICATE_MAP.get(pred_upper, "biolink:related_to")
+            # Invert: swap subject/object so the Biolink predicate reads canonical direction.
+            if pred_upper in SEMMED_INVERT:
+                subj_n, obj_n = obj_n, subj_n
             batch_edges.append((subj_n, obj_n, pred, biolink_pred))
             pmid = _normalize_pmid(pmid_raw)
             if pmid:
@@ -537,6 +602,7 @@ def build_semmed_edges(
                 "frequency:int", "pmids:string[]",
                 "provided_by:string[]",
                 "subject", "object", "predicate",
+                "qualified_predicate", "object_aspect_qualifier", "object_direction_qualifier",
                 "knowledge_level", "agent_type",
             ]
         )
@@ -548,12 +614,14 @@ def build_semmed_edges(
             "ON e.subj=p.subj AND e.obj=p.obj AND e.pred=p.pred "
             "GROUP BY e.subj, e.obj, e.pred, e.biolink_pred, e.freq"
         ):
+            qual = SEMMED_QUALIFIERS.get(pred.upper(), ("", "", ""))
             writer.writerow(
                 [
                     subj, obj, "SEMMED_EDGE",
                     biolink_pred, pred, freq, pmids,
                     SEMMED_INFORES,
                     subj, obj, biolink_pred,
+                    qual[0], qual[1], qual[2],
                     "statistical_association", "text_mining_agent",
                 ]
             )
@@ -839,8 +907,8 @@ def build_normalized_import_csvs(
             unknown_count += 1
     if unknown_count:
         print(
-            f"[validate] {unknown_count} iKraph predicates not in KNOWN_BIOLINK_PREDICATES"
-            " (warnings emitted above)",
+            f"[validate] {unknown_count} iKraph predicates not in the Biolink-model allowlist "
+            "(warnings emitted above)",
             file=sys.stderr,
         )
 
