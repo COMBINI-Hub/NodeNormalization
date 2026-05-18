@@ -167,13 +167,16 @@ class TestValidateBiolinkPredicate:
 
 class TestBuildIkraphEdges:
     def _make_node_map_db(self, tmp: Path) -> Path:
-        """Build a SQLite node map from mini_NER_ID_dict.json + mini_ikraph_normalized.json."""
-        import sqlite3
-        from pipeline_steps.build_import_csvs import _init_sqlite, _materialize_ikraph_nodes
+        """Build a SQLite node map from mini fixtures (streaming-friendly path)."""
+        from pipeline_steps.build_import_csvs import (
+            materialize_ikraph_norm_sqlite,
+            _materialize_ikraph_nodes,
+        )
 
-        norm_map = _load_norm_json(FIXTURES / "mini_ikraph_normalized.json")
+        norm_sqlite = tmp / "mini_ikraph_norm.sqlite"
+        materialize_ikraph_norm_sqlite(FIXTURES / "mini_ikraph_normalized.json", norm_sqlite)
         node_map_db = tmp / "ikraph_node_map.sqlite"
-        _materialize_ikraph_nodes(FIXTURES / "mini_NER_ID_dict.json", norm_map, node_map_db)
+        _materialize_ikraph_nodes(FIXTURES / "mini_NER_ID_dict.json", norm_sqlite, node_map_db)
         return node_map_db
 
     def test_direction_undirected_keeps_order(self, tmp: Path) -> None:

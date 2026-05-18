@@ -16,6 +16,11 @@ in `scripts/pipeline_steps/`.  New features vs. the shell script:
 - Normalization derived from JSON — no separate `semmed_nodes_normalized.csv` input needed
 - Biolink predicates validated at startup
 
+**Dependencies:** `pip install openpyxl ijson` (plus `requests` only if `--force-normalize`).
+`ijson` is important for staying within RAM on full production runs—it streams DBRelations /
+PubMedList / NER / iKraph norm JSON row-by-row. Without it you get a WARNING and Python may
+resident-load multi‑GB files.
+
 ```bash
 SEMMED=/Users/drshika2/neo4jexploration/semmed_data
 IKRAPH=/Users/drshika2/neo4jexploration/iKraph_raw/iKraph_full

@@ -75,15 +75,31 @@ def _collect_semmed_curies(predication_gz: Path) -> List[str]:
 
 
 def _collect_ikraph_curies(ner_json: Path) -> List[str]:
-    """Collect unique iKraph external ids from NER_ID_dict_cap_final.json."""
-    with ner_json.open("r", encoding="utf-8") as fh:
-        entities = json.load(fh)
-    curies: set = set()
-    for e in entities:
-        ext_id = str(e.get("id") or "").strip()
-        if ext_id and ext_id != "NA":
-            curies.add(ext_id)
-    return sorted(curies)
+    """Collect unique iKraph external ids from NER_ID_dict_cap_final.json (streaming when ijson is available)."""
+    try:
+        import ijson  # type: ignore[import-untyped]
+
+        curies: set[str] = set()
+        with ner_json.open("rb") as fh:
+            for entity in ijson.items(fh, "item"):
+                ext_id = str(entity.get("id") or "").strip()
+                if ext_id and ext_id != "NA":
+                    curies.add(ext_id)
+        return sorted(curies)
+    except ImportError:
+        print(
+            "[normalize] WARNING: `ijson` not installed — loading full NER JSON for ID collection."
+            "  pip install ijson",
+            file=sys.stderr,
+        )
+        with ner_json.open("r", encoding="utf-8") as fh:
+            entities = json.load(fh)
+        curies: set[str] = set()
+        for e in entities:
+            ext_id = str(e.get("id") or "").strip()
+            if ext_id and ext_id != "NA":
+                curies.add(ext_id)
+        return sorted(curies)
 
 
 def normalize_nodes(

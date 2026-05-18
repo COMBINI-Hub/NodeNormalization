@@ -27,6 +27,7 @@ import re
 import sqlite3
 import sys
 import warnings
+from functools import lru_cache
 from pathlib import Path
 from typing import Dict, List, Optional, Tuple
 
@@ -224,78 +225,225 @@ def _materialize_semmed_nodes(
                 nodes[norm_id]["types"].update(str(t) for t in types_raw)
     return semmed_to_norm, nodes
 
+def materialize_ikraph_norm_sqlite(norm_json: Path, sqlite_path: Path) -> int:
+    """
+    Stream-parse iKraph NodeNorm JSON into SQLite (ext_id → norm_id, label, types).
+
+    Avoids loading the multi‑hundred‑MB JSON object into a Python dict.
+    Returns row count inserted.
+    """
+    if sqlite_path.exists():
+        sqlite_path.unlink()
+    conn = _init_sqlite(sqlite_path)
+    conn.execute(
+        "CREATE TABLE ikraph_norm (ext_id TEXT PRIMARY KEY, norm_id TEXT, label TEXT, types TEXT)"
+    )
+    ins = "INSERT OR IGNORE INTO ikraph_norm VALUES (?,?,?,?)"
+
+    inserted = 0
+    batch: List[Tuple[str, str, str, str]] = []
+    batch_size = 50_000
+
+    try:
+        import ijson  # type: ignore[import-untyped]
+
+        with norm_json.open("rb") as fh:
+            for key, value in ijson.kvitems(fh, ""):
+                if not isinstance(value, dict):
+                    continue
+                id_block = value.get("id")
+                if not isinstance(id_block, dict):
+                    continue
+                norm_id = (id_block.get("identifier") or "").strip()
+                if not norm_id:
+                    continue
+                ext_id = str(key).strip()
+                label = str(id_block.get("label") or "")
+                types_raw = value.get("type") or []
+                types_str = (
+                    ";".join(str(t) for t in types_raw) if isinstance(types_raw, list) else ""
+                )
+                batch.append((ext_id, norm_id, label, types_str))
+                if len(batch) >= batch_size:
+                    conn.executemany(ins, batch)
+                    conn.commit()
+                    inserted += len(batch)
+                    batch.clear()
+                    print(f"[ikraph] norm SQLITE {inserted:,} rows...", file=sys.stderr)
+    except ImportError:
+        print(
+            "[ikraph] WARNING: `ijson` not installed — loading full normalization JSON."
+            "  pip install ijson",
+            file=sys.stderr,
+        )
+        with norm_json.open("r", encoding="utf-8") as fh:
+            data = json.load(fh)
+        for ext_id, value in data.items():
+            if not isinstance(value, dict):
+                continue
+            id_block = value.get("id")
+            if not isinstance(id_block, dict):
+                continue
+            norm_id = (id_block.get("identifier") or "").strip()
+            if not norm_id:
+                continue
+            label = str(id_block.get("label") or "")
+            types_raw = value.get("type") or []
+            types_str = (
+                ";".join(str(t) for t in types_raw) if isinstance(types_raw, list) else ""
+            )
+            batch.append((str(ext_id).strip(), norm_id, label, types_str))
+            if len(batch) >= batch_size:
+                conn.executemany(ins, batch)
+                conn.commit()
+                inserted += len(batch)
+                batch.clear()
+
+    if batch:
+        conn.executemany(ins, batch)
+        conn.commit()
+        inserted += len(batch)
+
+    conn.close()
+    print(f"[ikraph] streamed norm SQLite → {sqlite_path} ({inserted:,} rows)", file=sys.stderr)
+    return inserted
+
+
+def _iter_pubmed_entries(pubmed_json: Path):
+    try:
+        import ijson  # type: ignore[import-untyped]
+
+        with pubmed_json.open("rb") as fh:
+            yield from ijson.items(fh, "item")
+    except ImportError:
+        print(
+            "[ikraph] WARNING: `ijson` not installed — loading full PubMedList.json."
+            "  pip install ijson",
+            file=sys.stderr,
+        )
+        with pubmed_json.open("r", encoding="utf-8") as fh:
+            for item in json.load(fh):
+                yield item
+
+
+def _iter_db_relations(db_json: Path):
+    try:
+        import ijson  # type: ignore[import-untyped]
+
+        with db_json.open("rb") as fh:
+            yield from ijson.items(fh, "item")
+    except ImportError:
+        print(
+            "[ikraph] WARNING: `ijson` not installed — loading full DBRelations.json."
+            "  pip install ijson",
+            file=sys.stderr,
+        )
+        with db_json.open("r", encoding="utf-8") as fh:
+            for item in json.load(fh):
+                yield item
+
+
+def _iter_ner_entities(ner_json: Path):
+    try:
+        import ijson  # type: ignore[import-untyped]
+
+        with ner_json.open("rb") as fh:
+            yield from ijson.items(fh, "item")
+    except ImportError:
+        with ner_json.open("r", encoding="utf-8") as fh:
+            for item in json.load(fh):
+                yield item
+
 
 def _materialize_ikraph_nodes(
     ner_json: Path,
-    norm_json: Dict[str, dict],
+    norm_sqlite: Path,
     node_map_db: Path,
 ) -> int:
     """
-    Build ikraph_nodes_normalized.csv and populate a biokdeid→norm_id SQLite map.
-    Returns the count of unique normalized nodes written.
-    """
-    with ner_json.open("r", encoding="utf-8") as fh:
-        entities = json.load(fh)
+    Stream NER_ID_dict_cap_final.json row-by-row, join normalization metadata from the
+    small ``ikraph_norm`` SQLite DB built by ``materialize_ikraph_norm_sqlite``.
 
+    Writes ``ikraph_nodes_normalized.csv`` and populates ``node_map`` (biokdeid→norm_id)
+    **without** holding the full normalization JSON or the full entity list in RAM.
+
+    Tracks distinct normalized nodes via a ``uniq_norm`` table so ``seen_norm_ids`` does
+    not grow unbounded in Python heap memory.
+    """
+    if not norm_sqlite.exists():
+        raise FileNotFoundError(norm_sqlite)
+    norm_uri = norm_sqlite.resolve().as_uri() + "?mode=ro"
+    norm_conn = sqlite3.connect(norm_uri, uri=True)
+
+    if node_map_db.exists():
+        node_map_db.unlink()
     conn = _init_sqlite(node_map_db)
     conn.execute("CREATE TABLE node_map (biokdeid TEXT PRIMARY KEY, norm_id TEXT)")
-    conn.commit()
+    conn.execute(
+        "CREATE TABLE uniq_norm (norm_id TEXT PRIMARY KEY, label TEXT, types TEXT)"
+    )
 
     nodes_out = node_map_db.parent / "ikraph_nodes_normalized.csv"
-    seen_norm_ids: set = set()
-    batch: List[Tuple[str, str]] = []
+
+    batch_map: List[Tuple[str, str]] = []
     processed = 0
+    uniq_ins = "INSERT OR IGNORE INTO uniq_norm VALUES (?,?,?)"
 
     with nodes_out.open("w", encoding="utf-8", newline="") as fh:
         writer = csv.writer(fh)
         writer.writerow(
             ["normalized_id:ID", "id", "name", "categories:string[]", "category:string[]", ":LABEL"]
         )
-        for entity in entities:
+        norm_sql_lookup = (
+            "SELECT norm_id, label, types FROM ikraph_norm WHERE ext_id = ? LIMIT 1"
+        )
+        for entity in _iter_ner_entities(ner_json):
             biokdeid = str(entity.get("biokdeid") or "").strip()
             ext_id = str(entity.get("id") or "").strip()
             if not biokdeid or not ext_id or ext_id == "NA":
                 continue
-            entry = norm_json.get(ext_id)
-            if not entry:
+            nrow = norm_conn.execute(norm_sql_lookup, (ext_id,)).fetchone()
+            if not nrow:
                 continue
-            id_block = entry.get("id")
-            if not isinstance(id_block, dict):
-                continue
-            norm_id = (id_block.get("identifier") or "").strip()
-            if not norm_id:
-                continue
-
+            norm_id, raw_label, types_str = nrow[0], nrow[1], nrow[2] or ""
             official = str(entity.get("official name") or entity.get("official_name") or "").strip()
             common = str(entity.get("common name") or entity.get("common_name") or "").strip()
-            label = (id_block.get("label") or common or official or "").strip()
-            types_raw = entry.get("type") or []
-            types_str = ";".join(str(t) for t in types_raw) if isinstance(types_raw, list) else ""
+            label = ((raw_label or "").strip() or common or official or "").strip()
 
-            batch.append((biokdeid, norm_id))
-            if len(batch) >= 50_000:
-                conn.executemany("INSERT OR IGNORE INTO node_map VALUES (?, ?)", batch)
+            batch_map.append((biokdeid, norm_id))
+            if len(batch_map) >= 50_000:
+                conn.executemany("INSERT OR IGNORE INTO node_map VALUES (?, ?)", batch_map)
                 conn.commit()
-                batch.clear()
+                batch_map.clear()
 
-            if norm_id not in seen_norm_ids:
-                writer.writerow([norm_id, norm_id, label, types_str, types_str, "IKraphEntity"])
-                seen_norm_ids.add(norm_id)
+            exists = conn.execute(
+                "SELECT 1 FROM uniq_norm WHERE norm_id = ? LIMIT 1", (norm_id,)
+            ).fetchone()
+            if exists is None:
+                conn.execute(uniq_ins, (norm_id, label, types_str or ""))
+                writer.writerow(
+                    [norm_id, norm_id, label, types_str, types_str, "IKraphEntity"]
+                )
 
             processed += 1
             if processed % 50_000 == 0:
-                print(f"[ikraph] {processed:,} entities processed", file=sys.stderr)
+                print(f"[ikraph] {processed:,} NER entities processed", file=sys.stderr)
 
-    if batch:
-        conn.executemany("INSERT OR IGNORE INTO node_map VALUES (?, ?)", batch)
+    if batch_map:
+        conn.executemany("INSERT OR IGNORE INTO node_map VALUES (?, ?)", batch_map)
         conn.commit()
+
+    uniq_count = conn.execute("SELECT COUNT(*) FROM uniq_norm").fetchone()[0]
+    conn.execute("DROP TABLE IF EXISTS uniq_norm")
+    conn.commit()
+    norm_conn.close()
     conn.close()
+
     print(
-        f"[ikraph] {processed:,} entities → {len(seen_norm_ids):,} unique normalized nodes",
+        f"[ikraph] {processed:,} mapped entities → {uniq_count:,} unique normalized nodes",
         file=sys.stderr,
     )
-    return len(seen_norm_ids)
-
+    return int(uniq_count)
 
 # ---------------------------------------------------------------------------
 # SemMed edge building
@@ -464,11 +612,17 @@ def build_ikraph_edges(
     )
     conn.commit()
 
-    node_conn = sqlite3.connect(node_map_db)
-    biokde_to_norm = dict(
-        node_conn.execute("SELECT biokdeid, norm_id FROM node_map").fetchall()
-    )
-    node_conn.close()
+    node_uri = node_map_db.resolve().as_uri() + "?mode=ro"
+    node_conn = sqlite3.connect(node_uri, uri=True)
+    node_conn.execute("PRAGMA query_only=1")
+
+    @lru_cache(maxsize=512_000)
+    def bid_to_norm(biokde: str) -> Optional[str]:
+        row = node_conn.execute(
+            "SELECT norm_id FROM node_map WHERE biokdeid = ? LIMIT 1",
+            (biokde,),
+        ).fetchone()
+        return str(row[0]) if row and row[0] else None
 
     edge_upsert = (
         "INSERT INTO edges (subj, obj, rel_type, biolink_pred, provided_by, freq) "
@@ -490,12 +644,10 @@ def build_ikraph_edges(
         conn.commit()
 
     # ── DB relationships ────────────────────────────────────────────────────
-    print(f"[ikraph] loading DB relationships from {db_json.name}...", file=sys.stderr)
-    with db_json.open("r", encoding="utf-8") as fh:
-        db_rels = json.load(fh)
+    print(f"[ikraph] streaming DB relationships from {db_json.name}...", file=sys.stderr)
 
     processed = 0
-    for rel in db_rels:
+    for rel in _iter_db_relations(db_json):
         n1 = str(rel.get("node_one_id") or "").strip()
         n2 = str(rel.get("node_two_id") or "").strip()
         if not n1 or not n2 or n1 == n2:
@@ -503,8 +655,8 @@ def build_ikraph_edges(
         rel_type = str(rel.get("relationship_type") or "").strip()
         if not rel_type:
             continue
-        n1_norm = biokde_to_norm.get(n1)
-        n2_norm = biokde_to_norm.get(n2)
+        n1_norm = bid_to_norm(n1)
+        n2_norm = bid_to_norm(n2)
         if not n1_norm or not n2_norm:
             continue
 
@@ -533,12 +685,10 @@ def build_ikraph_edges(
     print(f"[ikraph] {processed:,} DB relationships total", file=sys.stderr)
 
     # ── PubMed relationships ────────────────────────────────────────────────
-    print(f"[ikraph] loading PubMed relationships from {pubmed_json.name}...", file=sys.stderr)
-    with pubmed_json.open("r", encoding="utf-8") as fh:
-        pubmed_rels = json.load(fh)
+    print(f"[ikraph] streaming PubMed relationships from {pubmed_json.name}...", file=sys.stderr)
 
     processed = 0
-    for entry in pubmed_rels:
+    for entry in _iter_pubmed_entries(pubmed_json):
         rel_id = str(entry.get("id") or "").strip()
         parts = rel_id.split(".")
         # id format: n1.n2.reltype.corrType.direction.method  (6 parts)
@@ -547,8 +697,8 @@ def build_ikraph_edges(
         n1, n2, rel_type = parts[0], parts[1], parts[2]
         if not n1 or not n2 or n1 == n2 or not rel_type:
             continue
-        n1_norm = biokde_to_norm.get(n1)
-        n2_norm = biokde_to_norm.get(n2)
+        n1_norm = bid_to_norm(n1)
+        n2_norm = bid_to_norm(n2)
         if not n1_norm or not n2_norm:
             continue
 
@@ -616,6 +766,8 @@ def build_ikraph_edges(
                 ]
             )
 
+    bid_to_norm.cache_clear()
+    node_conn.close()
     conn.close()
     print(f"[ikraph] wrote edges → {output_path}", file=sys.stderr)
     return output_path
@@ -668,10 +820,12 @@ def build_normalized_import_csvs(
         pubmed_json:            PubMedList.json (iKraph PubMed-derived edges)
         reltype_map:            int_rep → (biolink_predicate, subject_is_node_one)
         output_dir:             directory for the four output CSVs
-        stream_ikraph_json:     reserved for future ijson streaming; currently unused
+        stream_ikraph_json:     legacy flag (ignored — iKraph paths always stream via ijson)
 
     Returns list of the four output CSV paths.
     """
+    _ = stream_ikraph_json  # Legacy CLI compatibility; streaming is always preferred when ``ijson`` is installed.
+
     output_dir.mkdir(parents=True, exist_ok=True)
 
     # Validate all Biolink predicates used in the SemMed map at startup
@@ -708,17 +862,22 @@ def build_normalized_import_csvs(
     semmed_edges_path = build_semmed_edges(predication_path, semmed_to_norm, output_dir)
 
     # ── iKraph ──────────────────────────────────────────────────────────────
-    print("[ikraph] loading normalization JSON...", file=sys.stderr)
-    ikraph_norm_map = _load_norm_json(ikraph_normalized_json)
-    print(f"[ikraph] {len(ikraph_norm_map):,} normalization entries", file=sys.stderr)
+    print("[ikraph] streaming normalization JSON → SQLite lookup...", file=sys.stderr)
+    ikraph_norm_sqlite = output_dir / "ikraph_norm_stream.sqlite"
+    materialize_ikraph_norm_sqlite(ikraph_normalized_json, ikraph_norm_sqlite)
 
     node_map_db = output_dir / "ikraph_node_map.sqlite"
     if node_map_db.exists():
         node_map_db.unlink()
-    _materialize_ikraph_nodes(ner_json, ikraph_norm_map, node_map_db)
+    _materialize_ikraph_nodes(ner_json, ikraph_norm_sqlite, node_map_db)
 
     ikraph_nodes_path = output_dir / "ikraph_nodes_normalized.csv"
-    ikraph_edges_path = build_ikraph_edges(db_json, pubmed_json, node_map_db, reltype_map, output_dir)
+    ikraph_edges_path = build_ikraph_edges(
+        db_json, pubmed_json, node_map_db, reltype_map, output_dir
+    )
+
+    # Drop temporary norm lookup DB (large on-disk; unused after edges are written).
+    ikraph_norm_sqlite.unlink(missing_ok=True)
 
     outputs = [semmed_nodes_path, semmed_edges_path, ikraph_nodes_path, ikraph_edges_path]
     print("[build_import_csvs] done.", file=sys.stderr)
